@@ -4,18 +4,19 @@
 - [What's New](#whats-new)
 - [Survey](#Survey)
 - [LLM-Driven Phishing Textual Attacks](#llm-driven-phishing-textual-attacks)
-  - Corpus-adapted Generation
-  - Prompt-based Generation
-  - Knowledge-enhanced Generation
+  - [Corpus-adapted Generation](#Corpus-adapted-Generation)
+  - [Prompt-based Generation](#Prompt-based-Generation)
+  - [Knowledge-enhanced Generation](#Knowledge-enhanced-Generation)
 - [Attack Vectors Distinctions](#Attack-Vectors-Distinctions)
-  - Attacks Attributes
-  - Textual Attributes
-  - User Traits
+  - [Attacks Attributes](#Attacks-Attributes)
+  - [Textual Attributes](#Textual-Attributes)
+  - [User Traits](#User-Traits)
 -  [Anti-Phishing Countermeasures](#Anti-Phishing-Countermeasures)
-   - LLM-supported Detection
-   - Deep Learning Models
-   - Machine Learning Models
-   - User-Centred Models
+   - [LLM-supported Detection](#LLM-supported-Detection)
+   - [Deep Learning Models](#Deep-Learning-Models)
+   - [Machine Learning Models](#Machine-Learning-Models)
+   - [User-Centred Models](#User-Centred-Models)
+   - [Traditional Anti-Phishing Countermeasures (Part)](#Traditional-Anti-Phishing-Countermeasures-(Part))
 - [Reference](*Reference)
 - [Statement](#Statement)
 
