@@ -22,17 +22,32 @@
 
 # What's New
 # Survey
+
+| Year | Author            | Generation   | Attack Vectors  | Contermeasures   | Text | URL | Webpage | Resources |
+|------|-------------------|--------------|-----------------|------------------|------|-----|---------|-----------|
+|        |                 |   |   |  |   | | |   [Link](https://link.springer.com/article/10.1007/s10207-023-00768-x)         |
+|        |                 |   |   |  |   | | |   [Link]()         |
+|        |                 |   |   |  |   | | |  [Link]()   |
+|        |                 |   |   |  |   | | |  [Link]()          |
+|        |                 |   |   |  |   | | |  [Link]()          |
+|        |                 |   |   |  |   | | |  [Link]()          |
+|**Ours**| Chen et al.     |✔️ |✔️|✔️|✔️| | |     --       |
+
+
+
+
+
 # LLM-Driven Phishing Textual Attacks
 ![image](https://github.com/user-attachments/assets/01a7c2c6-c7c4-49a5-a385-b81a8e4abd7a)
 ## Corpus-adapted Generation
-| Year | Paper             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
+| Year | Author             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
 |------|-------------------|----------------------|----------------------------------------|-----|-----|-----|---------------------------------|----------|
 | 2023 | Mehdi et al.      | GPT-2                | Perturbation Evasion                   |     |     | ✔️   | General Phishing Emails         |[Link](https://dl.acm.org/doi/abs/10.1145/3579987.3586567) |
 | 2022 | Guo et al.        | BART, GPT-2          | Phishing Indicators                    | ✔️  |     | ✔️   | General Phishing Emails         |[Link](https://link.springer.com/chapter/10.1007/978-3-031-20029-8_26) |
 
 ## Prompt-based Generation
 ### Instruction Prompting
-| Year | Paper             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
+| Year | Author             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
 |------|-------------------|----------------------|----------------------------------------|-----|-----|-----|---------------------------------|----------|
 | 2022 | Karanjai et al.   | GPT-2, OPT etc.      | Phishing Indicators                    |     | ✔️   | ✔️   | General Phishing Emails       |[Link](https://arxiv.org/abs/2301.00665) |
 | 2023 | Patel et al.      | ChatGPT              | Chatbot Conversations                  |     | ✔️  |     | General Phishing Emails         |[Link](https://www.inuit.se/hubfs/WithSecure/files/WithSecure-Creatively-malicious-prompt-engineering.pdf) |
@@ -50,23 +65,23 @@
 | 2024 | Mahendru et al.   | GPT-4                | Persuasion Principles                  |     | ✔️   |     | General Phishing SMS/Emails     |[Link](https://ieeexplore.ieee.org/abstract/document/10692765/) |
 
 ### Template-based Prompting
-| Year | Paper             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
+| Year | Author             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
 |------|-------------------|----------------------|----------------------------------------|-----|-----|-----|---------------------------------|----------|
 | 2023 | Langford et al.   | ChatGPT              | Persuasion Principles                  |     | ✔️   |     | Spear Phishing Emails           |[Link](https://link.springer.com/chapter/10.1007/978-3-031-47454-5_13) |
 | 2024 | Panda et al.      | GPT-4                | Prompt Leakage                         | ✔️  |      | ✔️  | Spear Phishing Bio              |[Link](https://arxiv.org/abs/2403.00871) |
 | 2024 | Gryka et al.      | GPT-3.5-turbo        | Phishing Indicators                    |     | ✔️   |     | General Phishing Emails         |[Link](https://dl.acm.org/doi/abs/10.1145/3664476.3670465) |
 ### Conditional Prompting
-| Year | Paper             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
+| Year | Author             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
 |------|-------------------|----------------------|----------------------------------------|-----|-----|-----|---------------------------------|----------|
 | 2024 | Kang et al.       | GPT2-XL, ChatGPT     | Prompt Leakage                         |     | ✔️   |     | Spear Phishing Emails           |[Link](https://ieeexplore.ieee.org/abstract/document/10579515/) |
 ### Auto-prompting
-| Year | Paper             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
+| Year | Author             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
 |------|-------------------|----------------------|----------------------------------------|-----|-----|-----|---------------------------------|----------|
 | 2024 | Roy et al.        | GPT-4, Claude, etc.  | Prompt Mining                          | ✔️   | ✔️  |     | Malicious Prompt Dataset        |[Link](https://ieeexplore.ieee.org/abstract/document/10646856/) |
 
 
 ## Knowledge-enhanced Generation
-| Year | Paper             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
+| Year | Author             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
 |------|-------------------|----------------------|----------------------------------------|-----|-----|-----|---------------------------------|----------|
 | 2021 | Khan et al.      | GPT-2                | Phishing Indicators                     | ✔️  |     |     | General Phishing Emails         |[Link](https://digital-library.theiet.org/doi/abs/10.1049/icp.2021.2422) |
 | 2023 | Hazell           | GPT-3.5/4            | Persuasion Principles, Phishing Indicators |   | ✔️ |     | Spear Phishing Emails           |[Link](https://arxiv.org/abs/2305.06972) |
@@ -81,43 +96,43 @@
 ![image](https://github.com/user-attachments/assets/c43198a8-fe2c-4a77-981a-df455a922b71)
 
 ## Attacks Attributes
-| Year | Paper | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
+| Year | Author | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
 |------|-------|---------|----------|---------|-----------|-------|---------|-------------------|-----------|
 
 ## Textual Attributes
-| Year | Paper | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
+| Year | Author | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
 |------|-------|---------|----------|---------|-----------|-------|---------|-------------------|-----------|
 
 ## User Traits
-| Year | Paper | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
+| Year | Author | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
 |------|-------|---------|----------|---------|-----------|-------|---------|-------------------|-----------|
 
 # Anti-Phishing Countermeasures
 ![image](https://github.com/user-attachments/assets/ea07c796-951b-4ca0-b157-1f2da1886c14)
 ## LLM-supported Detection
 ### Feature-based Detection
-| Year | Paper | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
+| Year | Author | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
 |------|-------|---------|----------|---------|-----------|-------|---------|-------------------|-----------|
 | 2024 | Quinn et al. | ✔️ | ✔️ | ✔️ | ✔️ | Gemini | Protocol-based Analyzer | LLM-generated Phishing Emails |  [Link](https://assets-eu.researchsquare.com/files/rs-4405206/v1_covered_c6529ffb-ac95-411b-ab4c-16538a029c64.pdf)|
 | 2024 | Mahendru et al. | ✔️ | ✔️ | ✔️ | ✔️ | Deberta V3 | Rule-based Analyzer | LLM-generated Phishing Emails | [Link](https://ieeexplore.ieee.org/abstract/document/10692765/) |
 | 2025 | Perik et al.     |✔️      |         |         |           | ChatGPT|         | Collusion Scam    |[Link](http://essay.utwente.nl/104867/)  |
 ### Prompt-targeted Detection
-| Year | Paper | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
+| Year | Author | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
 |------|-------|---------|----------|---------|-----------|-------|---------|-------------------|-----------|
 | 2024 | Roy et al. |  |  |  | ✔️ | DistilBERT | Detector | LLM-generated Phishing Prompts | [Link](https://ieeexplore.ieee.org/abstract/document/10646856/) |
 ### Malicious Intent Detection
-| Year | Paper | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
+| Year | Author | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
 |------|-------|---------|----------|---------|-----------|-------|---------|-------------------|-----------|
 | 2023 | Fredrik et al. |  |  |  | ✔️ | Bard, PaLM, etc. | Detector | LLM-generated Phishing Emails | [Link](https://arxiv.org/abs/2308.12287) |
 | 2024 | Fredrik et al. |  |  |  | ✔️ | Claude, Mistral, etc. | Agent-Detector | LLM-generated Spear Phishing Emails | [Link](https://arxiv.org/abs/2412.00586) |
 ## Deep Learning Models
-| Year | Paper | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
+| Year | Author | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
 |------|-------|---------|----------|---------|-----------|-------|---------|-------------------|-----------|
 | 2024 | Elongha et al. | ✔️ | ✔️ |  |  | CNN | Ensemble-Detector | LLM-generated Phishing Emails |[Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4934129)  |
 | 2024 | Wani et al. | ✔️ | ✔️ |  |  | N.A. | Classifier | LLM-generated + General Phishing Reviews | [Link](https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=2073431X&AN=180558443&h=RJRe0AMI1v6u7kTHecJDx4GnVBiNYseiozuh1x%2FziOCv0GzxZ34RmuOAfqDuVXqTrPwhuPs1%2BpohNPb1wvBsSA%3D%3D&crl=c) |
 
 ## Machine Learning Models
-| Year | Paper | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
+| Year | Author | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
 |------|-------|---------|----------|---------|-----------|-------|---------|-------------------|-----------|
 | 2024 | Bethany et al. | ✔️ | ✔️ |  |  | T5-LLMEmail | Detector | LLM-generated Phishing Emails | [Link](https://arxiv.org/abs/2401.09727) |
 | 2024 | Greco et al. | ✔️ |  |  |  | LR | Classifier | LLM-generated + General Phishing Emails | [Link](https://www.researchgate.net/profile/Andrea-Esposito-12/publication/379697853_David_versus_Goliath_Can_Machine_Learning_Detect_LLM-Generated_Text_A_Case_Study_in_the_Detection_of_Phishing_Emails/links/661f8f2843f8df018d14631b/David-versus-Goliath-Can-Machine-Learning-Detect-LLM-Generated-Text-A-Case-Study-in-the-Detection-of-Phishing-Emails.pdf) |
@@ -126,12 +141,12 @@
 | 2024 | Eze et al. | ✔️ | ✔️ |  |  | UDAT, NB, etc. | Ensemble-Classifier | LLM-generated + General Phishing Emails |[Link](https://www.mdpi.com/2079-9292/13/10/1839) |
 | 2024 | Jovanovic et al. | ✔️ |  |  |  | Boosting, NB, etc. | Detector | LLM-generated Phishing Emails | [Link](https://link.springer.com/chapter/10.1007/978-981-97-3191-6_46) |
 ## User-Centred Models
-| Year | Paper | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
+| Year | Author | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
 |------|-------|---------|----------|---------|-----------|-------|---------|-------------------|-----------|
 | 2025 | Malloy et al. |  |  |  |  | IBL Models | User Behavior Predictor | LLM-generated Phishing Emails |[Link](https://arxiv.org/abs/2502.01764)  |
 
 ## Traditional Anti-Phishing Countermeasures (Part)
-| Year | Paper | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
+| Year | Author | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
 |------|-------|---------|----------|---------|-----------|-------|---------|-------------------|-----------|
 | 2022 | Misra et al. | ✔️ | ✔️ |   |   | GPT-2 | Classifier | General Phishing/Benign Emails |  [Link](https://ieeexplore.ieee.org/abstract/document/10101955/) |
 | 2023 | Otieno et al. | ✔️ | ✔️ |   |   | BERT | Classifier | General Phishing/Benign Emails |  [Link](https://ieeexplore.ieee.org/abstract/document/10197078/) |
