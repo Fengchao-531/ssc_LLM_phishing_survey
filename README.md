@@ -58,6 +58,9 @@
 |2025| Chen et al.     |✔️ |✔️|✔️| -- |
 
 [![Preview](<img width="1730" height="438" alt="image" src="https://github.com/user-attachments/assets/6091c539-1751-4d59-a312-311fde62ac41"/>)](diagrams/GED.pdf)
+<img width="1730" height="438" alt="image" src="https://github.com/user-attachments/assets/6091c539-1751-4d59-a312-311fde62ac41"/>
+
+
 # RQ1 Exploitation Techniques for Phishing Text Generation across Different LLMs
 <p align="center">
   <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/61a83904-853b-42cf-a5c4-c148c4d4d90a" />
@@ -206,5 +209,7 @@
 | 2025 | HCI             | [Malloy et al.](https://arxiv.org/abs/2502.01764)                    |   |   |   |   | IBL Models            | User Behavior Predictor |
 
 [![Preview](<img width="1123" height="862" alt="image" src="https://github.com/user-attachments/assets/9b7ff569-b1ca-4193-81ba-72516d6eeaba" />)](diagrams/attack_defense.pdf)
+<img width="1123" height="862" alt="image" src="https://github.com/user-attachments/assets/9b7ff569-b1ca-4193-81ba-72516d6eeaba" />
+
 # Reference
 # Statement
