@@ -208,8 +208,12 @@
 |------|-----------------|--------------------------------------|:-:|:-:|:-:|:-:|-----------------------|-----------------------|
 | 2025 | HCI             | [Malloy et al.](https://arxiv.org/abs/2502.01764)                    |   |   |   |   | IBL Models            | User Behavior Predictor |
 
+
 [![Preview](<img width="1123" height="862" alt="image" src="https://github.com/user-attachments/assets/9b7ff569-b1ca-4193-81ba-72516d6eeaba" />)](diagrams/attack_defense.pdf)
-<img width="1123" height="862" alt="image" src="https://github.com/user-attachments/assets/9b7ff569-b1ca-4193-81ba-72516d6eeaba" />
+<p align="center">
+  <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/9b7ff569-b1ca-4193-81ba-72516d6eeaba" />
+</p>
+
 
 # Reference
 # Statement
