@@ -4,7 +4,7 @@
 - [What's New](#whats-new)
 - [Survey](#Survey)
 - [RQ1 Exploitation Techniques for Phishing Text Generation across Different LLMs](#RQ1_Exploitation_Techniques_for_Phishing_Text_Generation_across_Different_LLMs)
-  - [Data-Guided](Data-Guided)
+  - [Data-Guided](#Data-Guided)
     - [Task Adaptation](#Corpus-adapted-Generation)
     - [Knowledge Augmented](#Knowledge-enhanced-Generation)
   - [Prompt-Guided](#Prompt-Guided)
