@@ -33,78 +33,116 @@
 |  2025      |   Wu et al.   |   |   |✔️  |  [Link](https://direct.mit.edu/coli/article/51/1/275/127462)          |
 |2025| Chen et al.     |✔️ |✔️|✔️| -- |
 
-# LLM-Driven Phishing Textual Attacks
-[![Preview](diagrams/GED.png)](diagrams/GED.pdf)
-## Corpus-adapted Generation
-| Year | Author             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
-|------|-------------------|----------------------|----------------------------------------|-----|-----|-----|---------------------------------|----------|
-| 2023 | Mehdi et al.      | GPT-2                | Perturbation Evasion                   |     |     | ✔️   | General Phishing Emails         |[Link](https://dl.acm.org/doi/abs/10.1145/3579987.3586567) |
-| 2022 | Guo et al.        | BART, GPT-2          | Phishing Indicators                    | ✔️  |     | ✔️   | General Phishing Emails         |[Link](https://link.springer.com/chapter/10.1007/978-3-031-20029-8_26) |
-
-## Prompt-based Generation
-### Instruction Prompting
-| Year | Author             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
-|------|-------------------|----------------------|----------------------------------------|-----|-----|-----|---------------------------------|----------|
-| 2022 | Karanjai et al.   | GPT-2, OPT etc.      | Phishing Indicators                    |     | ✔️   | ✔️   | General Phishing Emails       |[Link](https://arxiv.org/abs/2301.00665) |
-| 2023 | Patel et al.      | ChatGPT              | Chatbot Conversations                  |     | ✔️  |     | General Phishing Emails         |[Link](https://www.inuit.se/hubfs/WithSecure/files/WithSecure-Creatively-malicious-prompt-engineering.pdf) |
-| 2023 | Singh et al.      | Claude, BART, etc.   | Persuasion Principles                  |     | ✔️  |     | General Phishing Emails         |[Link](https://ieeexplore.ieee.org/abstract/document/10386814/) |
-| 2023 | Emanuela et al.   | ChatGPT              | Persuasion Principles                  |     | ✔️  |     | General/Spear Phishing Emails   |[Link](https://ieeexplore.ieee.org/abstract/document/10607415/) |
-| 2023 | Fredrik et al.    | GPT-4                | Phishing Indicators                    |     | ✔️   |     | Spear Phishing Emails           |[Link](https://arxiv.org/abs/2308.12287) |
-| 2023 | Utaliyeva et al.  | ChatGPT              | Prompt Engineering / Paraphrasing      | ✔️  | ✔️   |     | General Phishing Emails         |[Link](https://ieeexplore.ieee.org/abstract/document/10466952/) |
-| 2024 | Wani              | ChatGPT              | Phishing Indicators / Prompt Eng.      |     | ✔️   |     | Phishing Reviews                |[Link](https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=2073431X&AN=180558443&h=RJRe0AMI1v6u7kTHecJDx4GnVBiNYseiozuh1x%2FziOCv0GzxZ34RmuOAfqDuVXqTrPwhuPs1%2BpohNPb1wvBsSA%3D%3D&crl=c) |
-| 2024 | Chen et al.       | Llama 3.1            | Persuasion Principles, Subject Diversity | ✔️ | ✔️ |    | Multi-Subject Phishing Emails   |[Link](https://arxiv.org/abs/2411.11389) |
-| 2024 | Greco et al.      | WormGPT              | Prompt Engineering                     |     | ✔️   |     | General Phishing Emails         |[Link](https://www.researchgate.net/profile/Andrea-Esposito-12/publication/379697853_David_versus_Goliath_Can_Machine_Learning_Detect_LLM-Generated_Text_A_Case_Study_in_the_Detection_of_Phishing_Emails/links/661f8f2843f8df018d14631b/David-versus-Goliath-Can-Machine-Learning-Detect-LLM-Generated-Text-A-Case-Study-in-the-Detection-of-Phishing-Emails.pdf) |
-| 2024 | Francia et al.    | GPT-4                | Phishing Indicators                    |     | ✔️   |     | Spear Phishing SMS              |[Link](https://arxiv.org/abs/2406.13049) |
-| 2024 | Ekekihl           | ChatGPT              | Phishing Indicators                    |     | ✔️   |     | General Phishing Emails         |[Link](https://www.diva-portal.org/smash/record.jsf?pid=diva2:1879930) |
-| 2024 | Eze               | DeepAI               | Phishing Indicators / Prompt Eng.      |     | ✔️   |     | General Phishing Emails         |[Link](https://www.mdpi.com/2079-9292/13/10/1839) |
-| 2024 | Bethany et al.    | GPT-4                | Persuasion Principles                  | ✔️  | ✔️   |     | Spear Phishing Emails           |[Link](https://arxiv.org/abs/2401.09727) |
-| 2024 | Mahendru et al.   | GPT-4                | Persuasion Principles                  |     | ✔️   |     | General Phishing SMS/Emails     |[Link](https://ieeexplore.ieee.org/abstract/document/10692765/) |
-
-### Template-based Prompting
-| Year | Author             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
-|------|-------------------|----------------------|----------------------------------------|-----|-----|-----|---------------------------------|----------|
-| 2023 | Langford et al.   | ChatGPT              | Persuasion Principles                  |     | ✔️   |     | Spear Phishing Emails           |[Link](https://link.springer.com/chapter/10.1007/978-3-031-47454-5_13) |
-| 2024 | Panda et al.      | GPT-4                | Prompt Leakage                         | ✔️  |      | ✔️  | Spear Phishing Bio              |[Link](https://arxiv.org/abs/2403.00871) |
-| 2024 | Gryka et al.      | GPT-3.5-turbo        | Phishing Indicators                    |     | ✔️   |     | General Phishing Emails         |[Link](https://dl.acm.org/doi/abs/10.1145/3664476.3670465) |
-### Conditional Prompting
-| Year | Author             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
-|------|-------------------|----------------------|----------------------------------------|-----|-----|-----|---------------------------------|----------|
-| 2024 | Kang et al.       | GPT2-XL, ChatGPT     | Prompt Leakage                         |     | ✔️   |     | Spear Phishing Emails           |[Link](https://ieeexplore.ieee.org/abstract/document/10579515/) |
-### Auto-prompting
-| Year | Author             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
-|------|-------------------|----------------------|----------------------------------------|-----|-----|-----|---------------------------------|----------|
-| 2024 | Roy et al.        | GPT-4, Claude, etc.  | Prompt Mining                          | ✔️   | ✔️  |     | Malicious Prompt Dataset        |[Link](https://ieeexplore.ieee.org/abstract/document/10646856/) |
+[![Preview](<img width="1730" height="438" alt="image" src="https://github.com/user-attachments/assets/6091c539-1751-4d59-a312-311fde62ac41"/>)](diagrams/GED.pdf)
+# RQ1 Exploitation Techniques for Phishing Text Generation across Different LLMs
+<p align="center">
+  <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/61a83904-853b-42cf-a5c4-c148c4d4d90a" />
+</p>
 
 
-## Knowledge-enhanced Generation
-| Year | Author             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
-|------|-------------------|----------------------|----------------------------------------|-----|-----|-----|---------------------------------|----------|
-| 2021 | Khan et al.      | GPT-2                | Phishing Indicators                     | ✔️  |     |     | General Phishing Emails         |[Link](https://digital-library.theiet.org/doi/abs/10.1049/icp.2021.2422) |
-| 2023 | Hazell           | GPT-3.5/4            | Persuasion Principles, Phishing Indicators |   | ✔️ |     | Spear Phishing Emails           |[Link](https://arxiv.org/abs/2305.06972) |
-| 2024 | Carelli et al.    | GPT-3.5, WormGPT     | Persuasion Principles                  |     | ✔️   |     | Multi-Subject Phishing Emails   |[Link](https://www.researchgate.net/profile/Alessandro-Carelli-2/publication/382648027_Finding_Differences_Between_LLM-generated_And_Human-written_Text_A_Phishing_Emails_Case_Study/links/66a79ca14433ad480e845754/Finding-Differences-Between-LLM-generated-And-Human-written-Text-A-Phishing-Emails-Case-Study.pdf) |
-| 2024 | Fairbanks et al. | GPT-3.5              | Paraphrasing Attack                     |     |     | ✔️  | General Phishing Emails         |[Link](https://ieeexplore.ieee.org/abstract/document/10825007/) |
-| 2024 | Guo et al.       | TFM-based LLMs       | Phishing Indicators                     |     | ✔️  | ✔️  | Multi-Lingual Phishing Emails   |[Link](https://dl.acm.org/doi/abs/10.1145/3670402) |
-| 2024 | Fredrik et al.   | GPT-4, Mistral, etc. | Prompt Leakage                          | ✔️   |     |     | Spear Phishing Emails           |[Link](https://arxiv.org/abs/2412.00586) |
-| 2025 | Perik et al.     | GPT-4                | Prompt Engineering                      |       | ✔️ |     | Collusion Scam                  |[Link](http://essay.utwente.nl/104867/) |
+## Data-Guided
+### Task Adaptation
+| Year | Venue              | Paper                           | Threats Model          | Exploitations                                     | Data | Prompt | Model | Methods                 | 
+|------|--------------------|---------------------------------|------------------------|---------------------------------------------------|---|---|---|-------------------------|
+| 2023 | CODASPY'23         | [Mehdi et al.](https://dl.acm.org/doi/abs/10.1145/3579987.3586567)| GPT-2                  | Perturbation Evasion|   |   | ✓ | Task-Adaptation        | 
+| 2022 | BWCCA              | [Guo et al.](https://link.springer.com/chapter/10.1007/978-3-031-20029-8_26) | BART, GPT-2   | Phishing Indicators| ✓ |   | ✓ | Task-Adaptation  |
+| 2022 | arXiv              | [Karanjai et al.](https://arxiv.org/abs/2301.00665)              | GPT-2, etc.           | Phishing Indicators                               |   | ✓ | ✓ | Task-Adaptation         |
+| 2024 | ICLR               | [Panda et al.](https://arxiv.org/abs/2403.00871)                | GPT-4                  | Prompt Leakage                                     | ✓ |   | ✓ | Task-Adaptation         |
+| 2024 | ACM TALLIP         | [Guo et al.](https://dl.acm.org/doi/abs/10.1145/3670402)                    | LLMs (unspecified)     | Phishing Indicators                               |   | ✓ | ✓ | Task-Adaptation         | 
+| 2024 | Computers          | [Wani](https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=2073431X&AN=180558443&h=RJRe0AMI1v6u7kTHecJDx4GnVBiNYseiozuh1x%2FziOCv0GzxZ34RmuOAfqDuVXqTrPwhuPs1%2BpohNPb1wvBsSA%3D%3D&crl=c)                            | ChatGPT                | Phishing Indicators; Prompt Engineering           |   | ✓ |   | Task-Adaptation         | 
+### Knowledge Augmented
+| Year | Venue              | Paper                           | Threats Model          | Exploitations                                     | Data | Prompt | Model | Methods                 | 
+|------|--------------------|---------------------------------|------------------------|---------------------------------------------------|---|---|---|-------------------------|
+| 2023 | arXiv              | [Hazell](https://arxiv.org/abs/2305.06972)                          | GPT-3.5/4              | Persuasion Principles; Phishing Indicators        |   | ✓ |   | Knowledge Augmented     | 
+| 2025 | arXiv              | [Perik et al.](http://essay.utwente.nl/104867/)                     | GPT-4                  | Prompt Engineering                                |   | ✓ |   | Knowledge Augmented     | 
+| 2025 | arXiv              | [Bi et al.]                       | Multi-LLM (unspecified)| Persuasion Principles                             |   | ✓ | ✓ | Knowledge Augmented     | 
+
+## Prompt-Guided
+### Human Crafted Prompting
+| Year | Venue              | Paper                           | Threats Model          | Exploitations                                     | Data | Prompt | Model | Methods                 | 
+|------|--------------------|---------------------------------|------------------------|---------------------------------------------------|---|---|---|-------------------------|
+| 2023 | ECAI               | [Emanuela et al.](https://ieeexplore.ieee.org/abstract/document/10607415/)                 | ChatGPT                | Persuasion Principles                             |   | ✓ |   | Human Crafted Prompting | 
+| 2023 | IEEE Access        | [Heiding et al.](https://arxiv.org/abs/2308.12287)                  | GPT-4                  | Phishing Indicators                               |   | ✓ |   | Human Crafted Prompting | 
+| 2023 | FTC                | [Langford et al.](https://link.springer.com/chapter/10.1007/978-3-031-47454-5_13)                 | ChatGPT                | Persuasion Principles                             |   | ✓ |   | Human Crafted Prompting | 
+| 2024 | ICML Workshop      | [Heiding et al.](https://arxiv.org/abs/2412.00586)                  | GPT-4, etc.            | Prompt Leakage                                     | ✓ |   |   | Human Crafted Prompting | 
+| 2023 | DependSys 2023     | [Utaliyeva et al.](https://ieeexplore.ieee.org/abstract/document/10466952/)                 | ChatGPT                | Prompt Engineering; Paraphrasing Attack           | ✓ | ✓ |   | Human Crafted Prompting | 
+| 2023 | arXiv              | [Patel et al.](https://www.inuit.se/hubfs/WithSecure/files/WithSecure-Creatively-malicious-prompt-engineering.pdf)                    | ChatGPT                | Chatbot Conversations                             |   | ✓ |   | Human Crafted Prompting | 
+| 2023 | BigData            | [Singh et al.](https://ieeexplore.ieee.org/abstract/document/10386814/)                    | Claude, BART, etc.     | Persuasion Principles                             |   | ✓ |   | Human Crafted Prompting | 
+| 2024 | BigData            | [Afane et al.]                    | GPT-3.5, GPT-4, etc.   | Paraphrasing                                       |   | ✓ |   | Human Crafted Prompting | 
+| 2024 | ITASEC             | [Greco et al.](https://www.researchgate.net/profile/Andrea-Esposito-12/publication/379697853_David_versus_Goliath_Can_Machine_Learning_Detect_LLM-Generated_Text_A_Case_Study_in_the_Detection_of_Phishing_Emails/links/661f8f2843f8df018d14631b/David-versus-Goliath-Can-Machine-Learning-Detect-LLM-Generated-Text-A-Case-Study-in-the-Detection-of-Phishing-Emails.pdf)                    | WormGPT                | Prompt Engineering                                |   | ✓ |   | Human Crafted Prompting |
+| 2024 | arXiv              | [Ekekihl](https://www.diva-portal.org/smash/record.jsf?pid=diva2:1879930)                         | ChatGPT                | Phishing Indicators                               |   | ✓ |   | Human Crafted Prompting | 
+| 2024 | Electronics        | [Eze](https://www.mdpi.com/2079-9292/13/10/1839)                             | DeepAI                 | Phishing Indicators; Prompt Engineering           |   | ✓ |   | Human Crafted Prompting |
+| 2024 | arXiv              | [Francia et al.](https://arxiv.org/abs/2406.13049)                   | GPT-4                  | Phishing Indicators                               |   | ✓ |   | Human Crafted Prompting | 
+| 2024 | IEEE Access        | [Bethany et al.](https://arxiv.org/abs/2401.09727)                  | GPT-4                  | Persuasion Principles                             | ✓ | ✓ |   | Human Crafted Prompting | 
+| 2024 | arXiv              | [Carelli et al.](https://www.researchgate.net/profile/Alessandro-Carelli-2/publication/382648027_Finding_Differences_Between_LLM-generated_And_Human-written_Text_A_Phishing_Emails_Case_Study/links/66a79ca14433ad480e845754/Finding-Differences-Between-LLM-generated-And-Human-written-Text-A-Phishing-Emails-Case-Study.pdf)                   | GPT-3.5, WormGPT       | Persuasion Principles                             |   | ✓ |   | Human Crafted Prompting |
+| 2024 | BDAI               | [Mahendru et al.](https://ieeexplore.ieee.org/abstract/document/10692765/)                 | GPT-4                  | Persuasion Principles                             |   | ✓ |   | Human Crafted Prompting |
+| 2024 | S&P                | [Roy et al.](https://ieeexplore.ieee.org/abstract/document/10646856/)                      | GPT-4, Claude, etc.    | Prompt Mining                                      | ✓ | ✓ |   | Human Crafted Prompting | 
+| 2024 | SPW                | [Kang et al.](https://ieeexplore.ieee.org/abstract/document/10579515/)                      | GPT2-XL, ChatGPT       | Prompt Leakage                                     |   | ✓ |   | Human Crafted Prompting |
+| 2024 | arXiv              | [Chen et al.](https://arxiv.org/abs/2411.11389)                     | Llama 3.1              | Persuasion Principles; Subject Diversity          | ✓ | ✓ |   | Human Crafted Prompting |
+
+### Model-Crafted Prompting
+| Year | Venue              | Paper                           | Threats Model          | Exploitations                                     | Data | Prompt | Model | Methods                 | 
+|------|--------------------|---------------------------------|------------------------|---------------------------------------------------|---|---|---|-------------------------|
+| 2024 | ISDFS              | [Shibli et al.]                   | GPT-3.5                | Prompt Engineering                                |   | ✓ |   | Model Crafted Prompting |
+| 2025 | arXiv              | [Xue et al.]                      | GPT-4o                 | Prompt Engineering                                | ✓ |   |   | Model Crafted Prompting | 
+| 2025 | arXiv              | [Sniegowski et al.]               | GPT-4o, Llama 3.2      | Prompt Engineering                                |   | ✓ |   | Model Crafted Prompting | 
+| 2025 | AsiaCCS            | [Weinz et al.]                    | LLMs (unspecified)     | Prompt Engineering                                |   | ✓ |   | Model Crafted Prompting | 
+| 2025 | SPIE               | [Young et al.]                    | Mistral 7B             | Prompt Mining                                      |   | ✓ |   | Model Crafted Prompting | 
+
+## Adversaially Guided
+### Adversarial Training
+| Year | Venue              | Paper                           | Threats Model          | Exploitations                                     | Data | Prompt | Model | Methods                 | 
+|------|--------------------|---------------------------------|------------------------|---------------------------------------------------|---|---|---|-------------------------|
+| 2021 | IET Conf. Proc.    | [Khan et al.](https://digital-library.theiet.org/doi/abs/10.1049/icp.2021.2422)                     | GPT-2                  | Phishing Indicators                               | ✓ |   |   | Adversarial Training     | 
+| 2024 | BigData            | [Fairbanks et al.](https://ieeexplore.ieee.org/abstract/document/10825007/)                | GPT-3.5                | Paraphrasing Attack                                |   |   | ✓ | Adversarial Training     | 
+
+| 2024 | Gryka et al.      | GPT-3.5-turbo        | Phishing Indicators                    |     | ✓   |     | General Phishing Emails         |[Link](https://dl.acm.org/doi/abs/10.1145/3664476.3670465) |
 
 
-# Attack Vectors Distinctions
-![image](https://github.com/user-attachments/assets/c43198a8-fe2c-4a77-981a-df455a922b71)
+# RQ2 Pattern Analysis of Emerging Phishing Attacks Generated by LLMs
+## Text Traits
+### Textual Characteristics
 
-## Attacks Attributes
-| Year | Author | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
-|------|-------|---------|----------|---------|-----------|-------|---------|-------------------|-----------|
+| Year | Venue               | Paper                                                   | Model | Text | User | Analytical Approaches     | Prompt | Config | Version | MultiGen |
+|------|---------------------|---------------------------------------------------------|:-----:|:----:|:----:|---------------------------|:------:|:------:|:-------:|:--------:|
+| 2024 | BigData             | [Afane et al.](#afane2024next)                          |       |  ✓   |      | Experimental Evaluation   |        |   ✓    |         |    ✓     |
+| 2024 | HOLISTICA           | [Bouchareb et al.](#bouchareb2024analyzing)             |       |  ✓   |      | User-Centric Analysis     |   ✓    |        |         |          |
+| 2024 | arXiv               | [Carelli et al.](#carelli2024finding)                   |       |  ✓   |      | Conceptual Analysis       |   ✓    |        |    ✓    |          |
+| 2024 | Electronics         | [Eze et al.](#eze2024analysis)                          |       |  ✓   |      | User-Centric Analysis     |   ✓    |        |         |          |
+| 2024 | IEEE Access         | [Heiding et al.](#heiding2023devising)                  |   ✓   |  ✓   |      | User-Centric Analysis     |   ✓    |        |         |    ✓     |
+| 2024 | ICML Workshop       | [Heiding et al.](#heiding2024evaluating)                |   ✓   |  ✓   |      | User-Centric Analysis     |   ✓    |        |         |    ✓     |
 
-## Textual Attributes
-| Year | Author | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
-|------|-------|---------|----------|---------|-----------|-------|---------|-------------------|-----------|
+### Social Engineering Tactics
+| Year | Venue               | Paper                                                   | Model | Text | User | Analytical Approaches     | Prompt | Config | Version | MultiGen |
+|------|---------------------|---------------------------------------------------------|:-----:|:----:|:----:|---------------------------|:------:|:------:|:-------:|:--------:|
+| 2024 | arXiv               | [Chen et al.](#chen2024adapting)                        |       |  ✓   |      | Conceptual Analysis       |   ✓    |        |         |          |
+| 2024 | ECAI                | [Emanuela et al.](#emanuela2024ai)                      |       |  ✓   |      | User-Centric Analysis     |   ✓    |        |         |          |
 
-## User Traits
-| Year | Author | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
-|------|-------|---------|----------|---------|-----------|-------|---------|-------------------|-----------|
+## Human Factors
+### Individual Characteristics
+| Year | Venue               | Paper                                                   | Model | Text | User | Analytical Approaches     | Prompt | Config | Version | MultiGen |
+|------|---------------------|---------------------------------------------------------|:-----:|:----:|:----:|---------------------------|:------:|:------:|:-------:|:--------:|
+| 2025 | arXiv               | [Francia et al.](#francia2024assessing)                 |       |  ✓   |  ✓   | User-Centric Analysis     |   ✓    |        |         |          |
+| 2024 | MCNA                | [Alahmed et al.](#alahmed2024exploring)                 |   ✓   |  ✓   |  ✓   | User-Centric Analysis     |        |        |         |          |
 
-# Anti-Phishing Countermeasures
-![image](https://github.com/user-attachments/assets/ea07c796-951b-4ca0-b157-1f2da1886c14)
+### Psychological Characteristics
+| Year | Venue               | Paper                                                   | Model | Text | User | Analytical Approaches     | Prompt | Config | Version | MultiGen |
+|------|---------------------|---------------------------------------------------------|:-----:|:----:|:----:|---------------------------|:------:|:------:|:-------:|:--------:|
+| 2023 | IJCIC               | [Asfour et al.](#asfour2023harnessing)                  |       |      |  ✓   | Experimental Evaluation   |   ✓    |        |         |          |
+| 2023 | EuroS&PW            | [Sharma et al.](#sharma2023well)                        |       |      |  ✓   | Experimental Evaluation   |        |        |         |          |
+| 2024 | AIJMR               | [Bharati et al.](#bharati2024ai)                        |       |  ✓   |      | Conceptual Analysis       |   ✓    |        |         |          |
+
+## Model Traits
+### Compotentional Efficiency
+| Year | Venue               | Paper                                                   | Model | Text | User | Analytical Approaches     | Prompt | Config | Version | MultiGen |
+|------|---------------------|---------------------------------------------------------|:-----:|:----:|:----:|---------------------------|:------:|:------:|:-------:|:--------:|
+| 2024 | Artif. Intell. Rev. | [Schmitt et al.](#schmitt2024digital)                   |   ✓   |  ✓   |  ✓   | Conceptual Analysis       |        |        |         |          |
+
+
+# RQ3 Defense and Detection Techniques against LLM-Enabled Textual Phishing Campaigns
+
+
+
 ## LLM-supported Detection
 ### Feature-based Detection
 | Year | Author | Lexical | Semantic | Tactics | Intention | Model | Product | Distinguish Texts | Resources |
