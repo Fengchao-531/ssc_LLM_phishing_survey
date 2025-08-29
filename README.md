@@ -55,7 +55,7 @@
 |  2023      |   Zhuo et al              |   |   | ✔️ |  [Link](https://dl.acm.org/doi/pdf/10.1145/3575797)          |
 |  2024      |   Kumarage et al  |   |   | ✔️| [Link](https://arxiv.org/pdf/2403.01152)          |
 |  2025      |   Wu et al.   |   |   |✔️  |  [Link](https://direct.mit.edu/coli/article/51/1/275/127462)          |
-|2025| Chen et al.     |✔️ |✔️|✔️| -- |
+|2025| Chen et al.  (**Ours**)     |✔️ |✔️|✔️| -- |
 
 [![Preview](<img width="1730" height="438" alt="image" src="https://github.com/user-attachments/assets/6091c539-1751-4d59-a312-311fde62ac41"/>)](diagrams/GED.pdf)
 <img width="1730" height="438" alt="image" src="https://github.com/user-attachments/assets/6091c539-1751-4d59-a312-311fde62ac41"/>
