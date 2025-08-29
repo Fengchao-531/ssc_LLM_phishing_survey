@@ -34,7 +34,7 @@
 |2025| Chen et al.     |✔️ |✔️|✔️| -- |
 
 # LLM-Driven Phishing Textual Attacks
-[![Preview](docs/preview.png)](docs/paper.pdf)
+[![Preview](diagrams/GED.png)](diagrams/GED.pdf)
 ## Corpus-adapted Generation
 | Year | Author             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
 |------|-------------------|----------------------|----------------------------------------|-----|-----|-----|---------------------------------|----------|
