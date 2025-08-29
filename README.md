@@ -23,22 +23,18 @@
 # What's New
 # Survey
 
-| Year | Author            | Generation   | Attack Vectors  | Contermeasures   | Text | URL | Webpage | Resources |
-|------|-------------------|--------------|-----------------|------------------|------|-----|---------|-----------|
-|        |                 |   |   |  |   | | |   [Link](https://link.springer.com/article/10.1007/s10207-023-00768-x)         |
-|        |                 |   |   |  |   | | |   [Link]()         |
-|        |                 |   |   |  |   | | |  [Link]()   |
-|        |                 |   |   |  |   | | |  [Link]()          |
-|        |                 |   |   |  |   | | |  [Link]()          |
-|        |                 |   |   |  |   | | |  [Link]()          |
-|**Ours**| Chen et al.     |✔️ |✔️|✔️|✔️| | |     --       |
-
-
-
-
+| Year | Author            | Generation   | Characteristics  | Defense   | Resources |
+|------|-------------------|--------------|-----------------|------------|-----------|
+|  2017     |  Dou et al.              |   |   |✔️  |  [Link](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8036198)   |
+|  2024      |  Mathew  et al.  | ✔️          |                 | ✔️         |   [Link](https://d197for5662m48.cloudfront.net/documents/publicationstatus/228635/preprint_pdf/095e1e86e56492fce3118e1eba27f7d4.pdf) |
+|  2024      | Schmitt \& Flechais |   |  ✔️ |  |  [Link](https://link.springer.com/content/pdf/10.1007/s10462-024-10973-2.pdf)         |
+|  2023      |   Zhuo et al              |   |   | ✔️ |  [Link](https://dl.acm.org/doi/pdf/10.1145/3575797)          |
+|  2024      |   Kumarage et al  |   |   | ✔️| [Link](https://arxiv.org/pdf/2403.01152)          |
+|  2025      |   Wu et al.   |   |   |✔️  |  [Link](https://direct.mit.edu/coli/article/51/1/275/127462)          |
+|2025| Chen et al.     |✔️ |✔️|✔️| -- |
 
 # LLM-Driven Phishing Textual Attacks
-![image](https://github.com/user-attachments/assets/01a7c2c6-c7c4-49a5-a385-b81a8e4abd7a)
+[![Preview](docs/preview.png)](docs/paper.pdf)
 ## Corpus-adapted Generation
 | Year | Author             | Threats Model        | Exploitations                          | Dataset   | Prompt  | Model   | Output            | Resources |
 |------|-------------------|----------------------|----------------------------------------|-----|-----|-----|---------------------------------|----------|
