@@ -32,8 +32,8 @@
 # What's New
 - LLM-driven Text-based Phishing Generation
   
-| Year | Author            | Generation   | Characteristics  | Defense   | Resources |
-|------|-------------------|--------------|-----------------|------------|-----------|
+| Year | Venue              | Paper                           | Threats Model          | Exploitations                                     | Data | Prompt | Model | Methods                 | 
+|------|--------------------|---------------------------------|------------------------|---------------------------------------------------|---|---|---|-------------------------|
 
 - LLM-generated Text-based Phishing Characteristics Analysis
   
