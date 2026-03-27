@@ -1,0 +1,20 @@
+#  Datasets
+Datasets/HW-Benign
+Datasets/HW-Phishing
+Datasets/LLM-Benign
+Datasets/LLM-Phishing
+
+diagrams
+
+# python corresponding
+--pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# overlook log and big data
+*.log
+*.zip
+*.tar.gz
