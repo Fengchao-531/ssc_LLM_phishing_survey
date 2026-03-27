@@ -1,0 +1,186 @@
+X-GM-THRID: 1792625112627605950
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a0c:8e42:0:b0:68f:c86e:593a with SMTP id w2csp2686233qvb;
+        Mon, 4 Mar 2024 11:28:49 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IEHha5M5mXU3CyBxJ5/W3/iCi4wN69EENuOSWVJ388mu+wn1e4mqsPpOg024Z7qvsqgVzFZ
+X-Received: by 2002:a0d:f9c1:0:b0:609:3867:58f4 with SMTP id j184-20020a0df9c1000000b00609386758f4mr8064818ywf.10.1709580528961;
+        Mon, 04 Mar 2024 11:28:48 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1709580528; cv=none;
+        d=google.com; s=arc-20160816;
+        b=FYQCZCnlqQyYGthP9qsWkr5Nc27qrKOBzVUmKGabqkHqdpVjCXXWSFXaYuOPPcI0JJ
+         OABm3h1szymAIWFPHIUuW9asPjVQ31w4bIPEPYBst6G03TK4R+Mh0D07p0SG7rNBUrQc
+         RTQRhbWDSPJ2zJxVGMBshBxSaG3jfQzBtLPfds+J+yk6AF0eG1xLnJSmjQCR0pW3C+qm
+         McSuiOhiAqePnzW3JGt9hhcEkaqLINeb+Dt5mr5pcYyr8m5rRh67ceXrK4gmhOl/KB8r
+         zJsdhcNqmlMD1/BEP1bL1O+WQo+WgiGszxmApFFFjtIjuN+8x1mues+BVEIPboISiRma
+         lRkQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=message-id:list-unsubscribe:content-transfer-encoding:mime-version
+         :date:subject:from:to:cfbl-address:dkim-signature:dkim-signature;
+        bh=TZGcN1OV6IDTUHu+kirYH/JYSb2wEvRWZUnRoOk0MiA=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=FW5UoPjz44QJyd/N21O4o0mNUgzrOBwCxLGmha3djCH6AXrgFR3ytXjqAkvtGfrbg0
+         3Z3NKCgM9T32z5+TBHFff/suOMy/4Z6GkZ/mwS+uwJ33ZY/oBOlAWEYDzxct2ztewfDu
+         ThR6/6RvLzXaDt3rkCXhA4U/AZmHSP/km7U1l46VbylBvkCLZ2ntFhGAX9A6O2ILE7VD
+         jUMwibZyR+yJ2cGffxP9Dn8egq6DZ9PQby98zSdCvZovLRk/64ssYtqE6esz2O10xpe1
+         Z31prhYKIie16R2q0JL2xBQnPRKgUYxxoQxkncCmxP2TUXvS5aY9tmC73Tw36UFvukep
+         HaDw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@activecampaign.com header.s=acdkim1 header.b=k01CTgTd;
+       dkim=pass header.i=@acems1.com header.s=dk header.b=TP4g0gkR;
+       spf=pass (google.com: domain of bounce-3622577@out.activecampaign.com designates 192.92.97.212 as permitted sender) smtp.mailfrom=bounce-3622577@out.activecampaign.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=activecampaign.com
+Return-Path: <bounce-3622577@out.activecampaign.com>
+Received: from s18.avl3.acemsrvc.com (s18.avl3.acemsrvc.com. [192.92.97.212])
+        by mx.google.com with ESMTPS id cc15-20020a05622a410f00b0042ef9802ea1si1262810qtb.186.2024.03.04.11.28.48
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 04 Mar 2024 11:28:48 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce-3622577@out.activecampaign.com designates 192.92.97.212 as permitted sender) client-ip=192.92.97.212;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@activecampaign.com header.s=acdkim1 header.b=k01CTgTd;
+       dkim=pass header.i=@acems1.com header.s=dk header.b=TP4g0gkR;
+       spf=pass (google.com: domain of bounce-3622577@out.activecampaign.com designates 192.92.97.212 as permitted sender) smtp.mailfrom=bounce-3622577@out.activecampaign.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=activecampaign.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=acdkim1; d=activecampaign.com;
+ h=To:From:Subject:Date:MIME-Version:Content-Type:Content-Transfer-Encoding:
+ List-Unsubscribe:Message-ID; i=support@activecampaign.com;
+ bh=TZGcN1OV6IDTUHu+kirYH/JYSb2wEvRWZUnRoOk0MiA=;
+ b=k01CTgTdP5j7gCxOz1eaj8KtkZnLy03wCnWY4YJ2Tvj9rvEwv9ygB/I8wC78xSLaElBEXYrQGpwe
+   f2sVezQ55Vsl5QtJF+0WlHr6zCX9Bo1YYRQlhdHbdJxJgFmZ+EQ/uTFnZ0vTZSfU4qlyvsSxI2s4
+   WdOHeCl9nVkMMPaJCxlom30HWUDd4c7VJtVZZh68n7YsWQ15rWj3wqtz7jp72MSHlhJgcAbotcVk
+   BqY5htmxlhO25niAsVDTRdRPKb4l/Kwo7V9l1MoaIdT/OHbkpzJCQhvSvIZRwWmFrdW727V0HiEb
+   JyJuQ+sJ5zglMX8UapEcofHcXNxDFRmP5IACXg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=dk; d=acems1.com;
+ h=To:From:Subject:Date:MIME-Version:Content-Type:Content-Transfer-Encoding:
+ List-Unsubscribe:Message-ID;
+ bh=TZGcN1OV6IDTUHu+kirYH/JYSb2wEvRWZUnRoOk0MiA=;
+ b=TP4g0gkRpYjXLADoDW3MG9wI31HZmi5/YBi+gbw/BQf0Xw7PyKdQ0VoG9gOXWBBlENUwP+Fi4Sb5
+   x9/zPLl3cFvrsxhz7hIc4SPV0VhUrjgy6msO31C8f7R4aa/ufZlImIWaE0Vi5sbP48hrDjttWSof
+   MKBg7hDqwkaPnCEO1kQ=
+Received: by s18.avl3.acemsrvc.com id hsogf036bm4m for <dynapapersubmission@gmail.com>; Mon, 4 Mar 2024 19:28:47 +0000 (envelope-from <bounce-3622577@out.activecampaign.com>)
+X-Mailer: ActiveCampaign Mailer
+CFBL-Address: fbl-report@acems1.com; report=arf
+To: dynapapersubmission@gmail.com
+From: "Reply Customer Support" <support@activecampaign.com>
+Subject: Your attempt to send 345,41 USD was successful.
+Date: Mon, 04 Mar 2024 13:28:47 -0600
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift-95933804365e620efb83f09.73253140_=_"
+Content-Transfer-Encoding: 7bit
+x-virtual-mta: s18.avl3.acemsrvc.com
+X-DKIM-Options: s=acdkim1
+List-Unsubscribe: <https://khabibchmavencich.activehosted.com/box.php?nl=0&c=0&m=14765&s=2d24c8e3f1c24b7d2049cbc6a1026763&funcml=unsub2&luha=1>,
+ <mailto:unsubscribe-d55cb25a9d18327e7112a1007129c3f9-0-2d24c8e3f1c24b7d2049cbc6a1026763@astirx.com>
+X-Report-Abuse: Please report abuse to abuse@acems1.com
+Message-ID: <20240304192847.17724.1817787065.swift@khabibchmavencich.activehosted.com>
+
+
+--_=_swift-95933804365e620efb83f09.73253140_=_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+LiBodHRwczovL3d3dy5jb2luYmFzZS5jb20vIA0KDQoqKllvdXIgYXR0ZW1wdCB0byBzZW5kIDM0
+NSw0MSBVU0Qgd2FzIHN1Y2Nlc3NmdWwuKipZb3VyIGZ1bmRzIGFyZSBzYWZlDQphbmQgaGF2ZSBi
+ZWVuIHNlbnQgdG8geW91ciBCVEMgYWRkcmVzcyAuIGlmIHRoaXMgd2FzIG5vdCB5b3UsIHBsZWFz
+ZSB5b3UNCnNob3VsZCBjYW5jZWwgaW1tZWRpYXRlbHkgYW5kIHZlcmlmeSB5b3VyIGFjY291bnQu
+DQoNCkRhdGUNCg0KTWFyY2ggMDQsIDIwMjQNCg0KUXVhbnRpdHkNCg0KMzQ1LDQxIFVTRA0KDQpO
+ZXR3b3JrDQoNCkJpdGNvaW4NCg0KU3RhdHVzDQoNClByb2Nlc3NpbmcNCg0KVGltZSBkZWxheWVk
+DQoNCjEtMiBkYXlzIC8gc2VuZCBpbnN0YW50IGJ5IHZlcmlmeWluZyBJRA0KDQpWZXJpZnkgSUQg
+YW5kIHNlbmQgaW5zdGFudGx5DQo8aHR0cHM6Ly9raGFiaWJjaG1hdmVuY2ljaC5sdC5lbWxuay5j
+b20vUHJvZC9saW5rLXRyYWNrZXI/cmVkaXJlY3RVcmw9YUhSMGNITWxNMEVsTWtZbE1rWnRiMjUw
+YUd4NWMyVnlkbWxqWlMxamIyNTBaVzUwWVdseVpYTXRhMmhoWW1saVkyaHRZWFpsYm1OcFkyZzNP
+VFV3TWpVdVkyOWtaV0Z1ZVdGd2NDNWpiMjBsTWtaMWJtWnNZVzFoZEdsdmJuTWxNa1k9JnNpZz03
+czFmM2Q2bjJaQWVYREoxMTFZdGZHZXBiOGhHcUJadWUzMXpvVlZud1ZZdSZpYXQ9MTcwOTQ5NjA4
+MyZhPSU3QyU3QzQ3ODUxMjI2NyU3QyU3QyZhY2NvdW50PWtoYWJpYmNobWF2ZW5jaWNoJTJFYWN0
+aXZlaG9zdGVkJTJFY29tJmVtYWlsPXoyT051SjdYbXo4JTJGWFRFOFZNaURTS1hKVkFpTHMwWUpw
+b1M3djR2YWI4dGZmaHBUOE5FJTNEJTNBcCUyRmRUR2dPdVNYME9GRSUyRkhjMDhPNTVuMjBOc05P
+NUVvJnM9ZTQxY2NlYTRmNTBmNjg2NmJjNGE4NGQzYWZhNGU4NzEmaT0yNUEzMEExQTcwPg0KDQpD
+YW5jZWwgYW5kIHZlcmlmeSBteQ0KYWNjb3VudA0KPGh0dHBzOi8va2hhYmliY2htYXZlbmNpY2gu
+bHQuZW1sbmsuY29tL1Byb2QvbGluay10cmFja2VyP3JlZGlyZWN0VXJsPWFIUjBjSE1sTTBFbE1r
+WWxNa1p0YjI1MGFHeDVjMlZ5ZG1salpTMWpiMjUwWlc1MFlXbHlaWE10YTJoaFltbGlZMmh0WVha
+bGJtTnBZMmczT1RVd01qVXVZMjlrWldGdWVXRndjQzVqYjIwbE1rWjFibVpzWVcxaGRHbHZibk1s
+TWtZPSZzaWc9N3MxZjNkNm4yWkFlWERKMTExWXRmR2VwYjhoR3FCWnVlMzF6b1ZWbndWWXUmaWF0
+PTE3MDk0OTYwODMmYT0lN0MlN0M0Nzg1MTIyNjclN0MlN0MmYWNjb3VudD1raGFiaWJjaG1hdmVu
+Y2ljaCUyRWFjdGl2ZWhvc3RlZCUyRWNvbSZlbWFpbD16Mk9OdUo3WG16OCUyRlhURThWTWlEU0tY
+SlZBaUxzMFlKcG9TN3Y0dmFiOHRmZmhwVDhORSUzRCUzQXAlMkZkVEdnT3VTWDBPRkUlMkZIYzA4
+TzU1bjIwTnNOTzVFbyZzPWU0MWNjZWE0ZjUwZjY4NjZiYzRhODRkM2FmYTRlODcxJmk9MjVBMzBB
+MUE3MD4NCg0KRm9yIGN1c3RvbWVyIHNlcnZpY2UgaW5xdWlyaWVzLCBwbGVhc2UgY29udGFjdCBj
+dXN0b21lciBzdXBwb3J0Lg0KQ29pbmJhc2UgaXMgbm90IHJlc3BvbnNpYmxlIGZvciBub24tZGVs
+aXZlcnkgb3IgZGVsYXllZCBkZWxpdmVyeSBkdWUgdG8NCmNpcmN1bXN0YW5jZXMgYmV5b25kIHRo
+ZSByZWFzb25hYmxlIGNvbnRyb2wgb2YgQ29pbmJhc2UsIGluY2x1ZGluZyBhc3NldA0KcHJvdG9j
+b2wgb3BlcmF0aW9ucyBhbmQgaW5jb3JyZWN0IGFkZHJlc3MgaW5mb3JtYXRpb24uDQoNCkNvaW5i
+YXNlLCBJbmMuLCA1NDggTWFya2V0IFN0LiwgIzIzMDA4LCBTYW4gRnJhbmNpc2NvLCBDQSA5NDEw
+NC01NDAxLA0KKDg4OCkgOTA4LTc5MzANCg0KVGhpcyBpcyBhIHNlcnZpY2UgbWVzc2FnZS7CoFBy
+aXZhY3kNCnBvbGljeQ0KPGh0dHBzOi8vY29tbS5jb2luYmFzZS5jb20vQ0wwL2h0dHBzOiUyRiUy
+Rnd3dy5jb2luYmFzZS5jb20lMkZsZWdhbCUyRnByaXZhY3kvMS8wMTAwMDE4Y2FiZTFlMzA0LWQ2
+MTgwYzliLWY0NGQtNDg2Ni04ZTc5LWYwZTI3ODliZjVhNi0wMDAwMDAvdEVjWDBfYWpkT1FTMkFk
+WTZ6dGwwM1NuZFJQNUZYZ01UU1FwWm9IY0sxRT0zMzM+
+
+--_=_swift-95933804365e620efb83f09.73253140_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<br>
+.
+<div style="color: rgb(10, 11, 13); font-family: &quot;Graphik Web&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; width: 575px;"><a href="https://www.coinbase.com/" rel="noopener noreferrer" style="color: rgb(255, 255, 255);"><img alt="Coinbase logo" class="logo-wordmark" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/3aca56371967418192255878e9689713/coinbase.png" style="margin-top: 20px; width:
+143.75px;" title="Coinbase logo"></a></div>
+
+<div style="color: rgb(10, 11, 13); font-family: &quot;Graphik Web&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+<h3 class="title1" style="font-size: 24px; line-height: 32px;">Your attempt to send 345,41 USD was successful.</h3>
+
+<p class="body" style="font-size: 16px; line-height: 24px; color: rgb(78, 92, 110);">Your funds are safe and have been sent to your BTC address . if this was not you, please you should
+cancel immediately and verify your account.</p>
+</div>
+
+<div style="color: rgb(10, 11, 13); font-family: &quot;Graphik Web&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+<table style="border-spacing: 0px; width: 575px;">
+	<tbody>
+		<tr class="first">
+			<td class="label rounded-top-left" style="padding: 10px; border-left: 1px solid rgb(149, 150, 152); color: rgb(91, 97, 110); font-weight: bold; font-size: 14px; border-top: 1px solid rgb(149, 150, 152);
+border-top-left-radius: 3px;">Date</td>
+			<td class="data rounded-top-right" style="padding: 10px; border-right: 1px solid rgb(149, 150, 152); font-weight: normal; font-size: 14px; text-align: right; border-top: 1px solid rgb(149, 150, 152); border-top-right-radius: 3px;">March 04, 2024</td>
+		</tr>
+		<tr>
+			<td class="label" style="padding: 10px; border-left: 1px solid rgb(149, 150, 152); color: rgb(91, 97, 110); font-weight: bold; font-size: 14px;">Quantity</td>
+			<td class="data" style="padding: 10px; border-right: 1px solid rgb(149, 150, 152); font-weight: normal; font-size: 14px; text-align: right;">345,41 USD</td>
+		</tr>
+		<tr>
+			<td class="label bottom-border" style="padding: 10px; border-left: 1px solid rgb(149, 150, 152); color: rgb(91, 97, 110); font-weight: bold; font-size: 14px; border-bottom: 1px solid rgb(149, 150, 152);">Network</td>
+			<td class="data bottom-border" style="padding: 10px; border-right: 1px solid rgb(149, 150, 152); font-weight: normal; font-size:
+14px; text-align: right; border-bottom: 1px solid rgb(149, 150, 152);">Bitcoin</td>
+		</tr>
+		<tr>
+			<td class="label" style="padding: 10px; border-left: 1px solid rgb(149, 150, 152); color: rgb(91, 97, 110); font-weight: bold; font-size: 14px;">Status</td>
+			<td class="data status" style="padding: 10px; border-right: 1px solid rgb(149, 150, 152); font-weight: normal; font-size: 14px; text-align: right; color: red;">Processing</td>
+		</tr>
+		<tr>
+			<td class="label bottom-border" style="padding: 10px; border-left: 1px solid rgb(149, 150, 152); color: rgb(91, 97, 110); font-weight: bold; font-size: 14px; border-bottom: 1px solid rgb(149, 150, 152);">Time delayed</td>
+			<td class="data bottom-border" style="padding: 10px; border-right: 1px solid rgb(149, 150, 152); font-weight: normal; font-size: 14px; text-align: right; border-bottom: 1px solid rgb(149, 150, 152);">1-2 days / send instant by verifying ID</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="center" style="display: flex;
+justify-content: center;"><a class="primary-button" href="https://khabibchmavencich.lt.emlnk.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZtb250aGx5c2VydmljZS1jb250ZW50YWlyZXMta2hhYmliY2htYXZlbmNpY2g3OTUwMjUuY29kZWFueWFwcC5jb20lMkZ1bmZsYW1hdGlvbnMlMkY=&amp;sig=7s1f3d6n2ZAeXDJ111YtfGepb8hGqBZue31zoVVnwVYu&amp;iat=1709496083&amp;a=%7C%7C478512267%7C%7C&amp;account=khabibchmavencich%2Eactivehosted%2Ecom&amp;email=z2ONuJ7Xmz8%2FXTE8VMiDSKXJVAiLs0YJpoS7v4vab8tffhpT8NE%3D%3Ap%2FdTGgOuSX0OFE%2FHc08O55n20NsNO5Eo&amp;s=e41ccea4f50f6866bc4a84d3afa4e871&amp;i=25A30A1A70" rel="noopener noreferrer" style="color: rgb(255, 255, 255); background-color: rgb(0, 82, 255); display: block; width: 575px; padding: 15px 0px; font-size: 16px; font-weight: 400; margin: 40px auto; border-radius: 30px; text-decoration: none; text-align: center;">Verify ID and send instantly</a></div>
+
+<div class="center" style="display: flex; justify-content: center;"><a class="secondary-button"
+href="https://khabibchmavencich.lt.emlnk.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZtb250aGx5c2VydmljZS1jb250ZW50YWlyZXMta2hhYmliY2htYXZlbmNpY2g3OTUwMjUuY29kZWFueWFwcC5jb20lMkZ1bmZsYW1hdGlvbnMlMkY=&amp;sig=7s1f3d6n2ZAeXDJ111YtfGepb8hGqBZue31zoVVnwVYu&amp;iat=1709496083&amp;a=%7C%7C478512267%7C%7C&amp;account=khabibchmavencich%2Eactivehosted%2Ecom&amp;email=z2ONuJ7Xmz8%2FXTE8VMiDSKXJVAiLs0YJpoS7v4vab8tffhpT8NE%3D%3Ap%2FdTGgOuSX0OFE%2FHc08O55n20NsNO5Eo&amp;s=e41ccea4f50f6866bc4a84d3afa4e871&amp;i=25A30A1A70" rel="noopener noreferrer" style="color: rgb(255, 255, 255); background-color: rgb(227, 0, 0); display: block; width: 575px; padding: 15px 0px; font-size: 16px; font-weight: 400; margin: 40px auto; border-radius: 30px; text-decoration: none; text-align: center;">Cancel and verify my account</a></div>
+</div>
+
+<div style="color: rgb(10, 11, 13); font-family: &quot;Graphik Web&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell,
+&quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+<p class="legal text-center" style="font-style: normal; font-weight: normal; font-size: 10px; line-height: 18px; color: rgb(112, 133, 153); text-align: center;">For customer service inquiries, please contact customer support. Coinbase is not responsible for non-delivery or delayed delivery due to circumstances beyond the reasonable control of Coinbase, including asset protocol operations and incorrect address information.</p>
+
+<p class="legal text-center" style="font-style: normal; font-weight: normal;
+font-size: 10px; line-height: 18px; color: rgb(112, 133, 153); text-align: center;">Coinbase, Inc., 548 Market St., #23008, San Francisco, CA 94104-5401, (888) 908-7930</p>
+
+<p class="legal text-center" style="font-style: normal; font-weight: normal; font-size: 10px; line-height: 18px; color: rgb(112, 133, 153); text-align: center;">This is a service message.<span>&nbsp;</span><a class="legal link" href="https://comm.coinbase.com/CL0/https:%2F%2Fwww.coinbase.com%2Flegal%2Fprivacy/1/0100018cabe1e304-d6180c9b-f44d-4866-8e79-f0e2789bf5a6-000000/tEcX0_ajdOQS2AdY6ztl03SndRP5FXgMTSQpZoHcK1E=333" rel="noopener noreferrer" style="color: rgb(22, 82, 240); font-style: normal; font-weight: normal; font-size: 10px; line-height: 18px;">Privacy policy</a></p>
+</div>
+<br /><img src="https://khabibchmavencich.lt.emlnk.com/Prod/link-tracker?lid=14826&nl=0&c=0&m=14765&s=2d24c8e3f1c24b7d2049cbc6a1026763&account=khabibchmavencich%2Eactivehosted%2Ecom&a=478512267&l=open" border="0" width="1" height="1"
+style="display:block;width:1px!important;min-width:1px!important;max-width:1px!important;height:1px!important;border:0;overflow:hidden;" />
+--_=_swift-95933804365e620efb83f09.73253140_=_--
+
+

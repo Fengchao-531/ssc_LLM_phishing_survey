@@ -1,0 +1,290 @@
+X-GM-THRID: 1777573138077589111
+X-Gmail-Labels: Inbox,Important,Opened,Category Updates,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:6214:57ce:b0:656:3c0c:40ba with SMTP id lw14csp3462784qvb;
+        Wed, 20 Sep 2023 13:34:48 -0700 (PDT)
+X-Received: by 2002:a05:6870:8193:b0:1ad:5317:1f7d with SMTP id k19-20020a056870819300b001ad53171f7dmr3914407oae.39.1695242087028;
+        Wed, 20 Sep 2023 13:34:47 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHitVnwXJ7A1OMZq87YZXxGvig5O52VzjgkFdQFBkZDYTmMwFRKuycWpxi6zf9RavJJAa9+
+X-Received: by 2002:a05:6870:8193:b0:1ad:5317:1f7d with SMTP id k19-20020a056870819300b001ad53171f7dmr3914348oae.39.1695242085653;
+        Wed, 20 Sep 2023 13:34:45 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1695242085; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=c/wSyY/WNVdOrp5arvtuhkMm6EAPxLMrWZ5NLxpqPEUFRYmu7akR+8+LBIWEUljtN+
+         2Oi+dEBYT5U4R7hSd6E3shqAiybm7lHsJjm0qMxJYlKWU+W1q/Xh1bGm+LyiRMQt2kut
+         9+Hwt837LYe40Uy1uEkP3qQWlE0Fi0Uf1KIhDtfHbkiQR835/yaRsNDc0jTgx0SwgUgd
+         Pm5+2zvXKsFWhhlD/KSN7527IvyLuDFycz7xOwPdJEYpQ5fq0/WXvJAT+H0U0pfuNLzv
+         hP4V+cl/wKqtq84pSUFTv7s6FPZvK/ciG5yvQl/7vsyrKPpQpM/QjV7Vbhv4fh7BL3s3
+         Oleg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=tm-mail-jid:original-envelope-id:content-transfer-encoding
+         :mime-version:subject:message-id:to:from:date:dkim-signature;
+        bh=5X+JrF1mrgHEGmZ35h2w0CLj7lrDPVZnCjeLCYtiSIQ=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=QxHAmgI3BTLDLMU1u5Sf7U0fFEz5BhakTTbluQSEe5HxcogpBfbs9M4wNIfkf3UgFA
+         J/LQIMTX4JtesUjv8fbieE/5qcuCOqtQGX8OWXRfty29nqZ7ThyhyNuQb6GRIp9fb2eY
+         3gataqAmbE65YVlgJ8+Q4XdX7ueswPrK1WnA8fLLUlxGELTlfbIDeidHsCp3daPfndIC
+         XyeF05jwjiQnu46aMIwwF/tP5aSuBvnViLtZxobYMsutk0jPvTP1Q8IYLfCJ8yZx3JLQ
+         pPQvGFjM++ocDF6Zi4vrAsM5m25PtG5F63skSM2zlzbcE5JqS+pWEhYJQFGfJlsJDh7F
+         PvxA==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@charmtracker.com header.s=1522905413783 header.b=JhEhvT3V;
+       arc=pass (i=1 spf=pass spfdomain=mailerehr.charmtracker.com dkim=pass dkdomain=charmtracker.com dmarc=pass fromdomain=charmtracker.com>);
+       spf=pass (google.com: domain of bounces+1feddb70-57f5-11ee-868c-5254004d4100_vt1@mailerehr.charmtracker.com designates 135.84.80.48 as permitted sender) smtp.mailfrom=bounces+1feddb70-57f5-11ee-868c-5254004d4100_vt1@mailerehr.charmtracker.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=charmtracker.com
+Return-Path: <bounces+1feddb70-57f5-11ee-868c-5254004d4100_vt1@mailerehr.charmtracker.com>
+Received: from sendera48.transmail.net (sendera48.transmail.net. [135.84.80.48])
+        by mx.google.com with ESMTPS id h70-20020a638349000000b00578c1c576acsi3255849pge.370.2023.09.20.13.34.45
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 20 Sep 2023 13:34:45 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounces+1feddb70-57f5-11ee-868c-5254004d4100_vt1@mailerehr.charmtracker.com designates 135.84.80.48 as permitted sender) client-ip=135.84.80.48;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@charmtracker.com header.s=1522905413783 header.b=JhEhvT3V;
+       arc=pass (i=1 spf=pass spfdomain=mailerehr.charmtracker.com dkim=pass dkdomain=charmtracker.com dmarc=pass fromdomain=charmtracker.com>);
+       spf=pass (google.com: domain of bounces+1feddb70-57f5-11ee-868c-5254004d4100_vt1@mailerehr.charmtracker.com designates 135.84.80.48 as permitted sender) smtp.mailfrom=bounces+1feddb70-57f5-11ee-868c-5254004d4100_vt1@mailerehr.charmtracker.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=charmtracker.com
+ARC-Seal: i=1; a=rsa-sha256; t=1695242083; cv=none;
+	d=us.zohomail360.com; s=zohoarc;
+	b=aAKLBbFhS9QREpFEX97HSneSrzPkOo8TnnwePZGyMYfTglocttpS8JGoHtilE0iOvmP1WOXbWWem/1XzKm/T8w/GRknAGxyOIiz63CDB8JQVVqkBrHg4xxnrknonWP4ueb1JJTZbuYjPV47ZwMe8p+4J8eLfJi+uX1Pt4yB5jF4=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=us.zohomail360.com; s=zohoarc;
+	t=1695242083; h=Content-Type:Content-Transfer-Encoding:Date:From:MIME-Version:Message-ID:Subject:To;
+	bh=5X+JrF1mrgHEGmZ35h2w0CLj7lrDPVZnCjeLCYtiSIQ=;
+	b=BlQeCX0GB+n09yadVgaPLCSerKUbOipr7Do6WYhGVWtW8MX2WDHRBt2TORCc6/z7QoopAW6HdbiB4pZErvY137DuohpyEb4n5CWQ3VCZJL/mvHo2h+X2baaaVySJWtNwpXGMvxEktM09Dd4P//988Ar9pKyYt+u+NKXCBJl9lZY=
+ARC-Authentication-Results: i=1; mx.us.zohomail360.com;
+	dkim=pass  header.i=charmtracker.com;
+	spf=pass  smtp.mailfrom=bounces+1feddb70-57f5-11ee-868c-5254004d4100_vt1@mailerehr.charmtracker.com;
+	dmarc=pass header.from=<noreply@charmtracker.com>
+Received: from [10.47.36.165] (10.47.36.165 [10.47.36.165]) by mx.zohomail.com
+	with SMTPS id 169524208170027.955706186745715; Wed, 20 Sep 2023 13:34:41 -0700 (PDT)
+DKIM-Signature: a=rsa-sha256; b=JhEhvT3VZCTQRflaARC87x3RGTpU0I3akORbEKsE53UkCIl7n0WSoinRevCwHevslk27P+QZBHY1HX1Oedw/pQFe24DbGYdzGFceya11Qp1GDXKcAKqrVcLfCrsByU3kd0pqXhSQJf3bBii/5V234OkT/kD6jU1yVxsrLEMT3BQ=; c=relaxed/relaxed; s=1522905413783; d=charmtracker.com; v=1; bh=5X+JrF1mrgHEGmZ35h2w0CLj7lrDPVZnCjeLCYtiSIQ=; h=date:from:reply-to:to:cc:message-id:subject:mime-version:content-type:date:from:reply-to:to:cc:message-id:subject;
+Date: Wed, 20 Sep 2023 13:34:41 -0700 (PDT)
+From: DHL-Customer <noreply@charmtracker.com>
+To: dynapapersubmission@gmail.com
+Message-ID: <2d6f.109cdde2b34f74ae.m1.1feddb70-57f5-11ee-868c-5254004d4100.18ab44d52a7@mailerehr.charmtracker.com>
+Subject: PACKAGE PROBLEM DETAILS
+MIME-Version: 1.0
+Content-Type: text/html;charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Original-Envelope-Id: 2d6f.109cdde2b34f74ae.m1.1feddb70-57f5-11ee-868c-5254004d4100.18ab44d52a7
+X-Report-Abuse: <mailto:abuse+2d6f.109cdde2b34f74ae.m1.1feddb70-57f5-11ee-868c-5254004d4100.18ab44d52a7@zeptomail.com>
+TM-MAIL-JID: 2d6f.109cdde2b34f74ae.m1.1feddb70-57f5-11ee-868c-5254004d4100.18ab44d52a7
+X-JID: 2d6f.109cdde2b34f74ae.m1.1feddb70-57f5-11ee-868c-5254004d4100.18ab44d52a7
+X-App-Message-ID: 2d6f.109cdde2b34f74ae.m1.1feddb70-57f5-11ee-868c-5254004d4100.18ab44d52a7
+X-ZohoMailClient: External
+
+<html><body><table border=3D"0" width=3D"100%" cellspacing=3D"0" cellpaddin=
+g=3D"0" align=3D"left" style=3D"border-collapse: collapse; font-style: norm=
+al; font-variant-ligatures: normal; font-variant-caps: normal; font-weight:=
+ 400; letter-spacing: normal; orphans: 2; text-transform: none; widows: 2; =
+word-spacing: 0px; white-space: normal; text-decoration-color: initial; bor=
+der-spacing: 0px; color: rgb(34, 34, 34); font-family: Arial, Helvetica, sa=
+ns-serif; font-size: small"><tbody><tr><td class=3D"m_6867293140434146982ge=
+m-copy m_6867293140434146982content-padding m_6867293140434146982gem-p" ali=
+gn=3D"left" style=3D"border-collapse: collapse; margin: 0px; padding-left: =
+40px; padding-right: 40px; font-family: NetflixSans-Light, Helvetica, Robot=
+o, &quot;Segoe UI&quot;, sans-serif; font-size: 16px; line-height: 21px; pa=
+dding-top: 20px; color: rgb(34, 31, 31)"><p style=3D"font-style: normal; fo=
+nt-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; =
+letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none;=
+ widows: 2; word-spacing: 0px; white-space: normal; text-decoration-color: =
+initial"><span class=3D"colour" style=3D"color: rgb(0, 0, 0)"><span class=
+=3D"font" style=3D"font-family: &quot;Times New Roman&quot;"><span class=3D=
+"size" style=3D"font-size: medium"><img src=3D"https://ecp.yusercontent.com=
+/mail?url=3Dhttps%3A%2F%2Fwww.filepicker.io%2Fapi%2Ffile%2F5mjguLqTSnWyBgAV=
+Q2nJ&amp;t=3D1693740570&amp;ymreqid=3Dfb398ddc-c26a-7d96-1c9d-91000501d000&=
+amp;sig=3DiFv0Gr0PamM_cE1bbCbOFA--%7ED" alt=3D"" height=3D"95" width=3D"350=
+" style=3D"display: block; margin-left: auto; margin-right: auto" /></span>=
+</span></span><br /></p><p style=3D"font-style: normal; font-variant-ligatu=
+res: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: n=
+ormal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-=
+spacing: 0px; white-space: normal; text-decoration-color: initial"><span cl=
+ass=3D"colour" style=3D"color: rgb(0, 0, 0)"><span class=3D"font" style=3D"=
+font-family: &quot;Times New Roman&quot;"><span class=3D"size" style=3D"fon=
+t-size: medium">Dear Customer,</span></span></span><br /></p><p style=3D"fo=
+nt-style: normal; font-variant-ligatures: normal; font-variant-caps: normal=
+; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; t=
+ext-transform: none; widows: 2; word-spacing: 0px; white-space: normal; tex=
+t-decoration-color: initial"><span class=3D"colour" style=3D"color: rgb(0, =
+0, 0)"><span class=3D"font" style=3D"font-family: &quot;Times New Roman&quo=
+t;"><span class=3D"size" style=3D"font-size: medium">We regret to inform yo=
+u that the package which arrived on 20/09/2023 will be returned.</span></sp=
+an></span><br /></p><p style=3D"font-style: normal; font-variant-ligatures:=
+ normal; font-variant-caps: normal; font-weight: 400; letter-spacing: norma=
+l; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spac=
+ing: 0px; white-space: normal; text-decoration-color: initial"><span class=
+=3D"colour" style=3D"color: rgb(0, 0, 0)"><span class=3D"font" style=3D"fon=
+t-family: &quot;Times New Roman&quot;"><span class=3D"size" style=3D"font-s=
+ize: medium">This situation may arise when the recipient&#39;s address is i=
+ncorrect.</span></span></span><br /></p><p style=3D"font-style: normal; fon=
+t-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; l=
+etter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; =
+widows: 2; word-spacing: 0px; white-space: normal; text-decoration-color: i=
+nitial"><span class=3D"colour" style=3D"color: rgb(0, 0, 0)"><span class=3D=
+"font" style=3D"font-family: &quot;Times New Roman&quot;"><span class=3D"si=
+ze" style=3D"font-size: medium">To initiate a redelivery request for this p=
+ackage, please fill out the form on our website.</span></span></span><br />=
+</p><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" style=3D"color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; f=
+ont-size: medium; font-style: normal; font-variant-ligatures: normal; font-=
+variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2;=
+ text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; t=
+ext-decoration-color: initial"><tbody><tr><td height=3D"40" width=3D"1"><br=
+ /></td><td valign=3D"middle" style=3D"margin: 0px auto 16px; padding: 7px =
+15px; background: rgb(202, 38, 26); font-family: Calibri, Trebuchet, Arial,=
+ sans-serif; font-weight: 300; font-stretch: normal; color: rgb(255, 255, 2=
+55); line-height: 1.45em; font-size: 1em; text-align: left"><a target=3D"_b=
+lank" rel=3D"noopener noreferrer" href=3D"https://t.co/k7p29lCTLB" style=3D=
+"text-decoration: none; color: rgb(255, 255, 255); cursor: pointer">Check N=
+ow</a><br /></td></tr></tbody></table><p style=3D"font-style: normal; font-=
+variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; let=
+ter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; wi=
+dows: 2; word-spacing: 0px; white-space: normal; text-decoration-color: ini=
+tial"><span class=3D"colour" style=3D"color: rgb(0, 0, 0)"><span class=3D"f=
+ont" style=3D"font-family: &quot;Times New Roman&quot;"><span class=3D"size=
+" style=3D"font-size: medium"><b>NOTICE:</b></span></span></span><br /></p>=
+<p style=3D"font-style: normal; font-variant-ligatures: normal; font-varian=
+t-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-=
+indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-spac=
+e: normal; text-decoration-color: initial"><span class=3D"colour" style=3D"=
+color: rgb(0, 0, 0)"><span class=3D"font" style=3D"font-family: &quot;Times=
+ New Roman&quot;"><span class=3D"size" style=3D"font-size: medium">If a red=
+elivery is not scheduled within 48 hours, you won&#39;t be able to submit a=
+nother redelivery request. Shipping and handling fees are non-refundable.</=
+span></span></span><br /></p><div><br /></div><p style=3D"font-style: norma=
+l; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: =
+400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: =
+none; widows: 2; word-spacing: 0px; white-space: normal; text-decoration-co=
+lor: initial"><span class=3D"colour" style=3D"color: rgb(0, 0, 0)"><span cl=
+ass=3D"font" style=3D"font-family: &quot;Times New Roman&quot;"><span class=
+=3D"size" style=3D"font-size: medium">Sincerely yours</span></span></span><=
+br /></p><p style=3D"font-style: normal; font-variant-ligatures: normal; fo=
+nt-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans:=
+ 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; w=
+hite-space: normal; text-decoration-color: initial"><span class=3D"colour" =
+style=3D"color: rgb(0, 0, 0)"><span class=3D"font" style=3D"font-family: &q=
+uot;Times New Roman&quot;"><span class=3D"size" style=3D"font-size: medium"=
+>DHL Express</span></span></span><br /></p><div><br /></div><div><br /></di=
+v><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div>=
+<br /></div><div><br /></div><div><br /></div><div><br /></div><div><br /><=
+/div><div><br /></div><div><br /></div><div><br /></div><div><br /></div><d=
+iv><br /></div><div><br /></div><div><br /></div><div><br /></div><div><br =
+/></div><div><br /></div><div><br /></div><div><br /></div><div><br /></div=
+><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div><=
+br /></div><div><br /></div><div><br /></div></td></tr></tbody></table><tab=
+le id=3D"body-table" style=3D"table-layout: fixed; font-size: 12px; font-fa=
+mily: Open Sans, sans-serif" align=3D"center" bgcolor=3D"#fff" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><tbody><tr><td align=3D=
+"center" valign=3D"top"><table align=3D"center" bgcolor=3D"#ffffff" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"500"><tbody><tr><td ali=
+gn=3D"center" bgcolor=3D"#ffffff" style=3D"box-shadow: 0 0 6px 0 rgba(0, 0,=
+ 0, 0.4)" valign=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%"><tbody><tr><td height=3D"15">&nbsp;<br /></td></tr></=
+tbody></table><table class=3D"-menu" align=3D"center" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"480"><tbody><tr><td height=3D"15" vali=
+gn=3D"middle"><table align=3D"left" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" width=3D"211"><tbody><tr><td class=3D"center-stack" style=3D"font=
+-size: 18px; font-weight: bold" align=3D"left" height=3D"30" valign=3D"midd=
+le"><br /></td></tr></tbody></table></td></tr></tbody></table><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><tbody><tr><td he=
+ight=3D"15">&nbsp;<br /></td></tr></tbody></table><table bgcolor=3D"#3cbda9=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><tbody><t=
+r><td height=3D"50">&nbsp;<br /></td></tr><tr style=3D"background-color: rg=
+b(99, 202, 186)"><td><table align=3D"left" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" width=3D"20%"><tbody><tr><td height=3D"100" align=3D"right=
+" valign=3D"middle"><img src=3D"http://ehr.charmtracker.com/images/physicia=
+n/email_templates/phr-invitation.png" width=3D"54" height=3D"54" /><br /></=
+td></tr></tbody></table><table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" width=3D"75%"><tbody><tr><td height=3D"100" style=3D"=
+font-size: 26px; line-height: 60px; font-weight: 300; color: rgb(255, 255, =
+255)" align=3D"left">Patient Portal Registration<br /></td></tr></tbody></t=
+able></td></tr><tr><td style=3D""><table cellpadding=3D"0" cellspacing=3D"0=
+" height=3D"50" width=3D"100%"><tbody><tr><td width=3D"10%" align=3D"left">=
+&nbsp;<br /></td><td valign=3D"bottom" align=3D"center" style=3D"border-col=
+or: rgb(255, 255, 255) transparent; border-style: solid; border-width: 0 15=
+px 15px; display: block; height: 0; margin-top: 35px; width: 0"><br /></td>=
+</tr></tbody></table></td></tr></tbody></table><table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"100%"><tbody><tr><td height=3D"30">&nb=
+sp;<br /></td></tr></tbody></table><table align=3D"center" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" width=3D"500"><tbody><tr><td align=3D"cent=
+er"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" width=3D"480"><tbody><tr><td align=3D"center"><table align=3D"left" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><tbody><tr><td s=
+tyle=3D"font-size: 13px" align=3D"left">Dear fethi dardour,<br /></td></tr>=
+<tr><td align=3D"left" height=3D"10"><br /></td></tr><tr><td style=3D"font-=
+size: 13px; line-height: 25px; padding-bottom: 10px; font-weight: normal" a=
+lign=3D"left">You have an invitation from <b>DHL-Customer</b> to create you=
+r Patient Portal account.<br /></td></tr></tbody></table></td></tr></tbody>=
+</table></td></tr></tbody></table><table align=3D"center" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" width=3D"480"><tbody><tr><td align=3D"cente=
+r"><table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%"><tbody><tr><td style=3D"font-size: 13px; line-height: 25px; p=
+adding-bottom: 10px; font-weight: normal; word-break: break-all" align=3D"l=
+eft">Click on the link below to register your account. If clicking on the l=
+ink doesn&#39;t work, copy and paste it into your browser.<br /></td></tr><=
+tr><td align=3D"left" style=3D"font-size: 13px; line-height: 25px; padding-=
+bottom: 10px; font-weight: normal; color: rgb(0, 136, 204)"><a href=3D"http=
+s://charmphr.com/phr/userProfileAction.sas?ACTION=3DADD_PHR_ACCOUNT&DIGEST=
+=3D2da6cec48e5020f0345b788f928931f70c79d9c068166719b689808d21dae4b2dc116a9b=
+f6cc92d56ec289b06d48bc184bdc44049cdc2cbf9509d6dbfe907f36a0ae868b6eb0918a" s=
+tyle=3D"color:#0088CC; cursor:pointer;text-decoration:underline;width:480px=
+;float:left; ">https://charmphr.com/phr/userProfileAction.sas?ACTION=3DADD_=
+PHR_ACCOUNT&DIGEST=3D2da6cec48e5020f0345b788f928931f70c79d9c068166719b68980=
+8d21dae4b2dc116a9bf6cc92d56ec289b06d48bc184bdc44049cdc2cbf9509d6dbfe907f36a=
+0ae868b6eb0918a</a><br /></td></tr><tr><td style=3D"font-size: 13px; line-h=
+eight: 25px; padding-bottom: 10px; font-weight: normal" align=3D"left">Plea=
+se go through the video and user guide below for further assistance on acco=
+unt creation.<br /></td></tr><tr><td align=3D"left" style=3D"font-size: 13p=
+x; line-height: 25px; padding-bottom: 10px; font-weight: normal; color: rgb=
+(0, 136, 204)">Video : https://youtu.be/dKiSH3cM3EM<br /></td></tr><tr><td =
+align=3D"left" style=3D"font-size: 13px; line-height: 25px; padding-bottom:=
+ 10px; font-weight: normal; color: rgb(0, 136, 204)">User Guide : https://w=
+ww.charmhealth.com/resources/phr-user-guide/introduction.html<br /></td></t=
+r></tbody></table></td></tr></tbody></table><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"480"><tbody><tr><td hei=
+ght=3D"10">&nbsp;<br /></td></tr></tbody></table><table align=3D"center" bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"480"><tbody><tr><td=
+ align=3D"center"><table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" width=3D"100%"><tbody><tr><td style=3D"font-size: 13px; lin=
+e-height: 20px" align=3D"left"><div>Regards,<br /></div><div>Administrator<=
+br /></div></td></tr><tr><td style=3D"font-size: 13px; line-height: 20px; c=
+olor: rgb(60, 189, 169)" align=3D"left">DHL-Customer<br /></td></tr><tr><td=
+ style=3D"font-size: 13px; line-height: 20px" align=3D"left">203 S Avenue G=
+, 203 S Avenue G<br/>Clifton, TX 76634<br /></td></tr></tbody></table></td>=
+</tr></tbody></table><table width=3D"100%" cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0"><tbody><tr><td height=3D"20">&nbsp;<br /></td></tr></tbody=
+></table><table align=3D"center" bgcolor=3D"#ffc258" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" width=3D"500"><tbody><tr><td align=3D"center"><t=
+able align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"480"><tbody><tr><td><table cellpadding=3D"0" cellspacing=3D"0" height=
+=3D"10" width=3D"100%"><tbody><tr><td width=3D"85%">&nbsp;<br /></td><td va=
+lign=3D"bottom" align=3D"center" style=3D"width: 0; height: 0; border-style=
+: solid; border-width: 15px 15px 0; border-color: rgb(255, 255, 255) transp=
+arent transparent transparent; display: block"><br /></td><td><br /></td></=
+tr></tbody></table></td></tr><tr><td height=3D"45" align=3D"center" valign=
+=3D"middle"><table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" style=3D""><tbody><tr><td><table align=3D"left" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0"><tbody><tr><td align=3D"center" valign=3D"mid=
+dle"><img src=3D"http://ehr.charmtracker.com/images/physician/email_templat=
+es/map-icon.png" width=3D"20" height=3D"20" style=3D"margin-right: 10px" />=
+<br /></td><td style=3D"color: rgb(255, 255, 255); font-weight: 300; font-s=
+ize: 13px; color: rgb(255, 255, 255)" align=3D"center" valign=3D"bottom"><b=
+r /></td></tr></tbody></table></td></tr></tbody></table><table align=3D"rig=
+ht" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D""><tbody><tr>=
+<td style=3D"font-weight: 300; font-size: 20px; line-height: 28px; color: r=
+gb(255, 255, 255)" align=3D"center" valign=3D"middle">CALL <br /></td></tr>=
+</tbody></table></td></tr></tbody></table></td></tr></tbody></table><table =
+bgcolor=3D"#3cbda9" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"500"><tbody><tr><td style=3D"font-size: 11px; font-weight: normal" alig=
+n=3D"left" height=3D"35"><table align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"480"><tbody><tr><td style=3D"color: rgb(2=
+55, 255, 255); font-size: 12px">This is an automated email. PLEASE DO NOT R=
+EPLY.<br /></td></tr></tbody></table></td></tr></tbody></table></td></tr></=
+tbody></table></td></tr></tbody></table><table bgcolor=3D"#fff" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" width=3D"500"><tbody><tr><td style=3D=
+"float: right"><span class=3D"colour" style=3D"color: grey"><span class=3D"=
+size" style=3D"font-size: 10px">Powered by</span></span> <img src=3D"http:/=
+/ehr.charmtracker.com/images/physician/email_templates/charmhealthlogo.png"=
+ alt=3D"" height=3D"27px" /><br /></td></tr></tbody></table><div><br /></di=
+v></body></html>
+

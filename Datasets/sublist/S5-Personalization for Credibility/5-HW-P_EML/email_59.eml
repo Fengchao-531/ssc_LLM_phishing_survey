@@ -1,0 +1,231 @@
+X-GM-THRID: 1815386846307083969
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:7108:1b37:b0:3d0:8c30:7606 with SMTP id k23csp5949498gdf;
+        Mon, 11 Nov 2024 04:40:57 -0800 (PST)
+X-Forwarded-Encrypted: i=2; AJvYcCU1n1KurR9YoQ8fbWG6/OenJQWKTVGlPqZ3UpSNzMfGlhoh2DeIRILQEx1Wy6U9O8VDoXbnURb//k/fzjcjhrSmedIr@gmail.com
+X-Google-Smtp-Source: AGHT+IEuP+QdFPWgGhnVEVH51WRCTb1hoMiTqqvr6GqYcsg8RRv2J6+HV17N5P6pCUhSPxmYmVKS
+X-Received: by 2002:a05:690c:628a:b0:6e6:1018:64ab with SMTP id 00721157ae682-6eaddd816d0mr121532337b3.5.1731328857346;
+        Mon, 11 Nov 2024 04:40:57 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1731328857; cv=none;
+        d=google.com; s=arc-20240605;
+        b=lAxfcGxFsuB0xugu/siVulgiLKjHRZmZhsl4qW+UfqGAy7RxIU6g1bu7mq8C2Cp7Pl
+         sF0XJSfkLcm7vg2vpWO53lwCnw9JBn3WtV6hKCNq4cSm1mnfvpVxdnd+sCAC92Rc3fOK
+         t2MuGG5TymzyH8bMoGcxA+P1OEl/sCyvA/xPJyZZKybuQa4tRfGmjX6oTtHb9xExWDqX
+         spjcxwBkIOiKqu2+3VeLlvyRwuHR24LxO/aUpMowlCmgD0OwFL4Pov+ID0nJ1Z+9nrly
+         3Jv0Pkme2vXHHhGuavVoBz2pcIgFfmMRhhpT/jkis9YLvQAxcas+45RXXkLs05Qo8Sq6
+         jjzQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=content-transfer-encoding:to:reply-to:mime-version:subject
+         :message-id:from:date:dkim-signature:dkim-signature;
+        bh=iJ//vs2uTwLhK8C34/XDjKtB+2H8BtBCKrf9x4oN5XY=;
+        fh=QyWeKLMvZ/Aa3bd5D39/6qspofdSATIardqgGfWYZCI=;
+        b=RTdv+Z/4hYr7dx6uSMsQXlonVznzr2KDShRiG1MC33yyTZKAytepoL8SKNRR/E/CaP
+         0KHl1jyYAXR/sXZDRQ8DH5o+Z0OmftTyLkE9g/EdzmmhdIM+Nl+0/UfOhiOkQUM+SgN8
+         YEzvEsWL7yPExkuTVRr1f8AyG0H4DZajzWtxsIkajSWZMCjwW2czcGvgHlkATlTubEnP
+         o4TBNvTb5qmLiABwntHob6KiaoPCJAyUsueEBZcPolaDV99tAK7wEHWhPbkQKSNi+FXV
+         JktISMloRkS2i4mFnHrpP8VsB1ii2B1RF9wkoD6BYfFEgvlS9GfG4trMLCRa1TSgJcTG
+         aV9g==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@mail.pipefy.com header.s=s1 header.b=CI8pqrrE;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b="i4iY4f/d";
+       spf=pass (google.com: domain of bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com designates 167.89.102.3 as permitted sender) smtp.mailfrom="bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com";
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=mail.pipefy.com
+Return-Path: <bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com>
+Received: from o5.ptr5629.email-sender.pipefy.com (o5.ptr5629.email-sender.pipefy.com. [167.89.102.3])
+        by mx.google.com with ESMTPS id 00721157ae682-6eace8add26si2966247b3.18.2024.11.11.04.40.56
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 11 Nov 2024 04:40:57 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com designates 167.89.102.3 as permitted sender) client-ip=167.89.102.3;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.pipefy.com header.s=s1 header.b=CI8pqrrE;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b="i4iY4f/d";
+       spf=pass (google.com: domain of bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com designates 167.89.102.3 as permitted sender) smtp.mailfrom="bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com";
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=mail.pipefy.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mail.pipefy.com;
+	h=from:subject:mime-version:reply-to:x-feedback-id:to:content-type:
+	content-transfer-encoding:cc:content-type:from:subject:to;
+	s=s1; bh=iJ//vs2uTwLhK8C34/XDjKtB+2H8BtBCKrf9x4oN5XY=;
+	b=CI8pqrrE4V1JJZUTYaLGzLqDrBn8NGo1A2zW6W9UyxAkdgiK5stQ9O9Sbb6BEe7Uo0kb
+	+EmwAcX/1hOl1guO4U62oVUR1YPqd2ptk2MidrmR1DQxq027tADD8Mp6OlEtrol3siw3PY
+	WDr0sCL32knawdfEX1OuZFWwKJNP+zixo3JRlX0PvMxqLwUq70YpVKT8AhUE1CLVQmnRm+
+	VWuvwIlK3cVCvpEVNdosOB0uglSLtiBdNs5fBWGfZL8m9CLhqOtUCTVe4ne9fxjRLUjUJC
+	Fts7ZgJC/2lAv3ShDE/Ri3JeY2+g15yeHHtlI8HdMUYuXfsTodVvaMjcBqy61V1A==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=from:subject:mime-version:reply-to:x-feedback-id:to:content-type:
+	content-transfer-encoding:cc:content-type:from:subject:to;
+	s=smtpapi; bh=iJ//vs2uTwLhK8C34/XDjKtB+2H8BtBCKrf9x4oN5XY=;
+	b=i4iY4f/dGKLRNPYUI4dL6PwfdEaOLFskSA5RFPx1iPf69vw3c1nMUqUmiCfwb7xUI5QG
+	eWe6sz4HiYapnw4ZZtmOjTcMWVbUJfQoD2pTobDyde/+52N541Jh3DjKOgPPM/dhd0IY4r
+	JO9+LRDzDxI7k5wPjiQapMjtTCE5os3EQ=
+Received: by recvd-7b9bd469d9-wxwx8 with SMTP id recvd-7b9bd469d9-wxwx8-1-6731FB4D-7
+	2024-11-11 12:40:45.092668426 +0000 UTC m=+1187394.035656974
+Received: from pipefy.com (unknown)
+	by geopod-ismtpd-39 (SG) with ESMTP
+	id GTHpRrfSSyGvrquWc9Gyvg
+	Mon, 11 Nov 2024 12:40:45.074 +0000 (UTC)
+Date: Mon, 11 Nov 2024 12:40:55 +0000 (UTC)
+From: LUNAR <pipe301381881+l2JGs6kZ@mail.pipefy.com>
+Message-ID: <6731fb4b31b06_71082b812523c@app-core-worker-inbox-email-mailer-59f4488944-m54ss.mail>
+Subject: Aktiver dit Lunar-kort
+Mime-Version: 1.0
+Reply-To: pipe301381881+l2jgs6kz@mail.pipefy.com,
+	pipe301381881+l2JGs6kZ@mail.pipefy.com
+X-Feedback-ID: 42078687:SG
+X-SG-EID: 
+ =?us-ascii?Q?u001=2ESH2dI1+BoQsmAsHqeWEppD1RruSwm46d9DJa3oKJ8rIl2m6otx84gdTsL?=
+ =?us-ascii?Q?QYzTDIEaCCn3OhMu4=2Ffbvj=2Fn8UPT1=2FzXnyvIvfG?=
+ =?us-ascii?Q?DCHS7rwS2szrBfmcAlTutVnmp9bqc44roQqBivk?=
+ =?us-ascii?Q?GANw3KjJ+VW=2Fn=2FpQbusza7J0vb5ZMOvEwNV6y7Y?=
+ =?us-ascii?Q?XUdbjvCJDNCMBE8kABO6J81ljSxxXLag51IEgQw?=
+ =?us-ascii?Q?TgfY=2Fl+UKOfzN=2FbRc2KAVO37TfUVaz9p2gYosD6?=
+ =?us-ascii?Q?6frx9ktyKN3uq12Esbqy2GzEwA=3D=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BpTL9BgbK5wfSJMJGMsmprAIgwlwiDy5d=2FADn?=
+ =?us-ascii?Q?n8sseKhTC6=2FIHEAkq9e4iFVzUelAHW2rLwFgpFH?=
+ =?us-ascii?Q?aIDv43GTaG8=3D?=
+To: commerzbnkl@mail.gmail.com
+X-Entity-ID: u001.zfJ/bFRYFvsPizW5pLLsiA==
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en">
+  <head>
+    <title>
+       Aktiver dit Lunar-kort
+    </title>
+
+    <style type=3D"text/css">
+      /* Global */
+      * {
+        font-family: helvetica, arial, sans-serif;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      /* Container */
+      .content {
+        color: #293e52;
+        font-size: 14px;
+
+        overflow-y: hidden;
+        margin-bottom: 40px;
+      }
+
+      /* Footer */
+      .footer > span {
+        display: block;
+      }
+
+      .footer > a,
+      span {
+        text-align: center;
+
+        font-weight: 400;
+        letter-spacing: -0.03em;
+      }
+
+      .footer-title,
+      .footer-title > a {
+        color: #4b5863;
+
+        font-size: 13px;
+        line-height: 15px;
+      }
+
+      .footer-sub-title {
+        color: #919ea8;
+        margin-top: 8px;
+
+        font-size: 12px;
+        line-height: 14px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <article class=3D"content"><p style=3D"text-align: center;">=A0</p>
+<table style=3D"background-color: #f5f5f5;padding:20px;margin-left:auto;mar=
+gin-right:auto;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0">
+<tbody>
+<tr>
+<td align=3D"center">
+<table style=3D"background-color: #ffffff;padding:20px;border-radius:8px;" =
+border=3D"0" width=3D"600" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding-bottom:20px;" align=3D"center"><img style=3D"display: =
+block;" src=3D"https://internetremovals.com/france/wp-admin/lunar/2704f155-=
+4259-4bfc-b3e1-dd5a5c01b292-1.webp" alt=3D"Lunar Logo" width=3D"299" height=
+=3D"171"></td>
+</tr>
+<tr>
+<td style=3D"padding:20px;text-align: left;color: #333333;">
+<h1 style=3D"color: #000000;font-size: 24px;margin:0px 0px 20px;">Vigtigt: =
+Bekr=E6ft din identitet</h1>
+<p style=3D"font-size: 16px;line-height: 1.6;margin:0px 0px 10px;">K=E6re k=
+unde,</p>
+<p style=3D"font-size: 16px;line-height: 1.6;margin:0px 0px 10px;">Vi har b=
+em=E6rket en nylig aktivitet p=E5 din konto fra en ukendt enhed eller place=
+ring. For at sikre din kontos sikkerhed bedes du bekr=E6fte din identitet v=
+ed at logge ind og f=F8lge instruktionerne.</p>
+<p style=3D"font-size: 16px;line-height: 1.6;margin:0px 0px 20px;">Klik p=
+=E5 knappen herunder for at bekr=E6fte din identitet.</p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:20px;" align=3D"center"><a style=3D"display: inline-bl=
+ock;padding:15px 30px;font-size: 16px;color: #ffffff;background-color: #ff0=
+060;text-decoration: none;border-radius:5px;" href=3D"https://gtly.to/Q9BmO=
+IGhkX">Bekr=E6ft din identitet</a></td>
+</tr>
+<tr>
+<td style=3D"padding:20px;text-align: left;color: #333333;">
+<p style=3D"font-size: 16px;line-height: 1.6;margin:0px 0px 10px;">Hvis du =
+ikke genkender denne aktivitet eller har sp=F8rgsm=E5l, kan du kontakte vor=
+es kundeservice p=E5 <strong>+45 70 60 54 54</strong> eller via e-mail p=E5=
+ <strong>support@lunar.app</strong>.</p>
+<p style=3D"font-size: 16px;line-height: 1.6;margin:0px 0px 20px;">Tak for =
+din opm=E6rksomhed og for at hj=E6lpe med at holde din konto sikker.</p>
+<p style=3D"font-size: 16px;line-height: 1.6;margin:0px 0px 5px;">Med venli=
+g hilsen,</p>
+<p style=3D"font-size: 16px;line-height: 1.6;font-weight: bold;margin:0px;"=
+>Lunar Kundeservice</p>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:20px;font-size: 12px;color: #888888;" align=3D"center"=
+>
+<p style=3D"margin:0px;">Lunar Bank A/S, Hack Kampmanns Plads 10, 8000 Aarh=
+us, Danmark</p>
+<p style=3D"margin:0px;"><a style=3D"color: #888888;text-decoration: none;"=
+ href=3D"https://app.pipefy.com/pipes/301381881/emails/390700547#">Afmeld</=
+a> eller <a style=3D"color: #888888;text-decoration: none;" href=3D"https:/=
+/app.pipefy.com/pipes/301381881/emails/390700547#">Administrer pr=E6ference=
+r</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</article>
+
+    <section class=3D"footer">
+
+      <span class=3D"footer-sub-title">
+        This email is from =E9-Simples Auditoria Eletr=F4nica powered by Pi=
+pefy.
+      </span>
+    </section>
+  </body>
+</html>
+

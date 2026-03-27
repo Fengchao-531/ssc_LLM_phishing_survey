@@ -1,0 +1,446 @@
+X-GM-THRID: 1809574265010564830
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:ad4:4084:0:b0:6c5:1044:bf86 with SMTP id l4csp834743qvp;
+        Sat, 7 Sep 2024 14:28:20 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IF6+M4V43yaubj/cRksa3olQBAnHaBN/RVPCzJSKhaTUG8EIY5u6KtAHjwPfqXADZ3w5Cum
+X-Received: by 2002:a05:600c:34ce:b0:42c:aeaa:6b0d with SMTP id 5b1f17b1804b1-42caeaa6d63mr22548065e9.9.1725744500146;
+        Sat, 07 Sep 2024 14:28:20 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1725744500; cv=none;
+        d=google.com; s=arc-20240605;
+        b=fJoHmRJv6t0ReNI3zLH0RuMPu8r8gl/vc0sZGSsjN7fCDAsS4JNh4URjzO/ZuI4YtY
+         EFHAyxzQiqgKksrRBP+vcVWx7h4yzXqrfbDukIVsp4yX+8w6PiUslIREjVsY4EZbDTOd
+         2PlifQlX5FYyt22Nihmxb+tej+ol0ECzgOMPsVfteUEjWBidqlSsQiFFojHnq2d1Zwl2
+         6unu5SzbWbq1y9ppLjanqjJ0Mn0CSL93ySdi0GRB1NwFMd4s32KEXGonAkfclyyo4Qga
+         gkYjtt+VWn5NarZr0uwrx+2XjCWiQMszwSrP7GgRn0kzbz38B5/xup7V0rM2huhyRFaY
+         UdSg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=date:mime-version:feedback-id:message-id:list-unsubscribe
+         :list-unsubscribe-post:user-agent:reply-to:subject:to:from
+         :dkim-signature;
+        bh=WyT4uUSaSuzaRmz1DtJNgT+yAZUJneF+EG5/S1ztDPo=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=l1kYP0/Bu/xJFy/9T0GqRGDWEurSmclxLWXQOaqI7UtrVjpq0+wecJtt0Okp827jWt
+         fP1MB8oTkWJ61ajGuZDqF1gbSLbAG5GhbF4I/klHCDBZvONw1QzAjsGs9UkY248pdwwe
+         Fv3oNn51M7W79SwpV6suVrFQW/W+dnBFJJ0Kw0eyZ2Ae0l6l56IRVprTQolViwc5fZKO
+         U2K5v3UAnv5x0OQPrTxZJaJD6OYHhSert52DIbczSRV5hvy6klG/NHSWSSrMnBhe+iGM
+         E/qhQQe65DigO1LSTASWpCaxbJs3CRe0b60LdQJV7KIDqbyYBm2N2Ijr0+yL+HmrZWT2
+         wycw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@subterfuge.com header.s=default.private header.b=hVAuOCBX;
+       spf=pass (google.com: domain of emmkv4_21.77-240-118@send4.teenvio.com designates 77.240.118.21 as permitted sender) smtp.mailfrom=emmkv4_21.77-240-118@send4.teenvio.com
+Return-Path: <emmkv4_21.77-240-118@send4.teenvio.com>
+Received: from correo7721.teenvio.com (correo7721.teenvio.com. [77.240.118.21])
+        by mx.google.com with ESMTPS id ffacd0b85a97d-3789569a6cdsi757731f8f.400.2024.09.07.14.28.19
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 07 Sep 2024 14:28:20 -0700 (PDT)
+Received-SPF: pass (google.com: domain of emmkv4_21.77-240-118@send4.teenvio.com designates 77.240.118.21 as permitted sender) client-ip=77.240.118.21;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@subterfuge.com header.s=default.private header.b=hVAuOCBX;
+       spf=pass (google.com: domain of emmkv4_21.77-240-118@send4.teenvio.com designates 77.240.118.21 as permitted sender) smtp.mailfrom=emmkv4_21.77-240-118@send4.teenvio.com
+Received: by correo7721.teenvio.com (Postfix, from userid 1004)
+	id A997E8B41C66B; Sat,  7 Sep 2024 23:28:04 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=subterfuge.com;
+	s=default.private; t=1725744499;
+	bh=UXlOJfksIISVqj4k/+e6Zioj40k6EZouqWY1tXeyUco=;
+	h=From:To:Subject:Reply-To:List-Unsubscribe:Date:From;
+	b=hVAuOCBXVIG0jUPV7ptMeexwcgV9UfPwfBA0ELZIgkIEp6sAuEtI9Iypkp6vhaouW
+	 L+D8bEZKxTqnk1G+Vd+FVswtBYtUCSTp8utgr93/p3dHKwbet6Q53S/+kjkTaVKcC7
+	 ThMzu/PidH0TKQqfOMCNudSfi82XqDk1Fhr6mSYg=
+From: =?utf-8?Q?i=E2=80=8CC=E2=80=8Cl=E2=80=8Co=E2=80=8Cu=E2=80=8Cd=E2=80=8C=20Distribution=20International=20Ltd=2E?= <subter3@subterfuge.com>
+To: dynapapersubmission@gmail.com
+Subject: =?utf-8?Q?Your=20account=20has=20been=20archived=20due=20to=20inactivity=2E?=
+Reply-To: =?utf-8?Q?i=E2=80=8CC=E2=80=8Cl=E2=80=8Co=E2=80=8Cu=E2=80=8Cd=E2=80=8C=20Distribution=20International=20Ltd=2E?= <subter3@subterfuge.com>
+User-Agent: teenvio.com
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://subterfuge.app.teenvio.com/v4/public/estadisticas/baja/?id_c=subterfuge&id_envio=6043&id_f=0&id_contacto=876184&key2=d1c0e3d7a8f0519086da417dc11b74fc>
+X-Teenvio-info: subterfuge|6043|876184
+Message-ID: <subterfuge.6043.876184@correo7721.teenvio.com>
+Feedback-ID: 6043:876184:subterfuge:teenvio
+X-Auto-Response-Suppress: OOF, AutoReply
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="Boundary-01=_6b5a06673cef6054f04902a6e45ebcb9x"
+Date: Sat,  7 Sep 2024 23:28:04 +0200 (CEST)
+
+
+--Boundary-01=_6b5a06673cef6054f04902a6e45ebcb9x
+Content-Type: text/plain;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+Hello,=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+The charge for your subscription was declined by your payment method. To av=
+oid losing access to your service, update your payment method.
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+=20
+Fix Payment Information
+ [https://fishmin.sp.gov.lk/chi50h/]
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+Regards,
+Apple
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+=C2=A0
+For help with subscriptions and purchases, visit
+Apple Support [#]
+=C2=A0
+=C2=A0
+=C2=A0
+=20
+=C2=A0
+=C2=A0
+=C2=A0
+=20
+Apple ID Summary [#]
+=C2=A0=E2=80=A2=C2=A0=20
+Terms of Sale [#]
+=C2=A0=E2=80=A2=C2=A0=20
+Privacy Policy [#]
+=C2=A0
+=C2=A0
+=C2=A0
+Copyright =C2=A9 2023 Apple Inc.=20
+=20
+All rights reserved [#]
+=C2=A0
+=C2=A0=
+
+
+--Boundary-01=_6b5a06673cef6054f04902a6e45ebcb9x
+Content-Type: text/html;
+  charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=09
+<table class=3D"te-table-head" width=3D"100%" align=3D"center" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%; margin:0; padding=
+:0;max-width: 100% !important;table-layout: fixed;">
+=09
+	<tr>
+		<td valign=3D"top">
+=09=09=09
+			<!-- Teenvio_Leer [Codigo de control, no borrar] -->
+			<table width=3D"100%" align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" style=3D"width:100%; margin:0; padding:0;max-width: 100% !i=
+mportant;table-layout: fixed;">
+				<tr style=3D"mso-line-height-alt:0; mso-margin-top-alt:1px;font-size: 0=
+; line-height: 0;"><td width=3D"100%" height=3D"1" bgcolor=3D"#f1f1f1" styl=
+e=3D"background:#f1f1f1 !important;height:1px;">&nbsp;</td></tr>
+				<tr style=3D"mso-line-height-alt:0; mso-margin-top-alt:1px;font-size: 0=
+; line-height: 0;"><td width=3D"100%" height=3D"1" bgcolor=3D"#e1e1e1" styl=
+e=3D"height:1px;background:#e1e1e1 !important;">&nbsp;</td></tr>
+				<tr>
+					<td class=3D"celdabasecabecera" valign=3D"middle" width=3D"100%" heigh=
+t=3D"30" align=3D"center" bgcolor=3D"#f1f1f1" style=3D"background:#f1f1f1 !=
+important;vertical-align: middle;">
+						<table width=3D"690" class=3D"contenedorbasecabecera" align=3D"center=
+" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"margin:0; paddi=
+ng:0;max-width: 100% !important;table-layout: fixed;">
+							<tr>
+								<td width=3D"5%" bgcolor=3D"#f1f1f1" style=3D"background:#f1f1f1 !i=
+mportant;"></td>
+								<td valign=3D"middle" align=3D"center" width=3D"90%"  bgcolor=3D"#f=
+1f1f1" style=3D"background:#f1f1f1 !important;line-height: normal !importan=
+t;">
+									<div style=3D"font-family:'Arial'; font-size:11px; line-height:16p=
+x; color:#666666; text-align:center;">
+										Si no puede ver el correo correctamente pinche=20
+										<a href=3D"https://subterfuge.app.teenvio.com/v4/public/estadisti=
+cas/link/subterfuge/6043/0/876184/d1c0e3d7a8f0519086da417dc11b74fc/" style=
+=3D"color:#116580; text-decoration:underline;">aqu&iacute;</a>
+=09=09=09=09=09=09=09=09=09=09
+									</div>=09
+								</td>
+								<td width=3D"5%" bgcolor=3D"#f1f1f1" style=3D"background:#f1f1f1 !i=
+mportant;"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr style=3D"mso-line-height-alt:0; mso-margin-top-alt:1px;font-size: 0=
+; line-height: 0;"><td width=3D"100%" height=3D"1" bgcolor=3D"#e1e1e1" styl=
+e=3D"height:1px;background:#e1e1e1 !important;">&nbsp;</td></tr>
+				<tr style=3D"mso-line-height-alt:0; mso-margin-top-alt:1px;font-size: 0=
+; line-height: 0;"><td width=3D"100%" height=3D"1" bgcolor=3D"#f1f1f1" styl=
+e=3D"background:#f1f1f1 !important;height:1px;">&nbsp;</td></tr>
+			</table>
+			<!-- [Codigo de control, no borrar] /Teenvio_Leer -->
+=09=09=09
+		</td>
+	</tr>
+	<tr>
+		<td valign=3D"top">
+=09=09=09
+		</td>
+	</tr>
+</table>
+
+<div class=3D"mail-message-defaults ic-1203xvo"><br /><br />=0D
+<div class=3D"aapl-desktop-div" style=3D"display: block; padding: 0; margin=
+: 0; height: 100%; max-height: none; min-height: none; line-height: normal;=
+ overflow: visible;">=0D
+<table class=3D"aapl-desktop-tbl" style=3D"border-collapse: collapse; borde=
+r-spacing: 0; width: 742px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" align=3D"center">=0D
+<tbody>=0D
+<tr>=0D
+<td class=3D"left-gutter" style=3D"width: 50px;">&nbsp;</td>=0D
+<td><img style=3D"border: none; padding: 0; margin: 0; -ms-interpolation-mo=
+de: bicubic;" src=3D"https://s.mzstatic.com/email/images_shared/logo_apple_=
+d-2x.png" alt=3D"Apple" width=3D"42" height=3D"42" border=3D"0" /></td>=0D
+<td style=3D"font-size: 32px; font-weight: 300; font-family: 'Helvetica Neu=
+e', Helvetica, Arial, sans-serif; color: #888888;" align=3D"right">&nbsp;</=
+td>=0D
+<td class=3D"right-gutter" style=3D"width: 50px;">&nbsp;</td>=0D
+</tr>=0D
+<tr>=0D
+<td colspan=3D"4">&nbsp;</td>=0D
+</tr>=0D
+<tr>=0D
+<td colspan=3D"4" align=3D"center">=0D
+<table id=3D"content-tbl" style=3D"font-family: 'Helvetica Neue', Helvetica=
+, Arial, sans-serif; font-size: 13px; width: 742px; height: 228px;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0">=0D
+<tbody>=0D
+<tr class=3D"paragraph-spacer" style=3D"height: 20px;">=0D
+<td style=3D"height: 18px; width: 20px;">&nbsp;</td>=0D
+<td style=3D"height: 18px; width: 694px;">&nbsp;</td>=0D
+<td style=3D"height: 18px; width: 20px;">&nbsp;</td>=0D
+</tr>=0D
+<tr style=3D"height: 17px;">=0D
+<td class=3D"left-gutter" style=3D"width: 20px; height: 17px;">&nbsp;</td>=
+=0D
+<td style=3D"height: 17px; width: 694px;">Hello,&nbsp;</td>=0D
+<td class=3D"right-gutter" style=3D"width: 20px; height: 17px;">&nbsp;</td>=
+=0D
+</tr>=0D
+<tr class=3D"paragraph-spacer" style=3D"height: 20px;">=0D
+<td style=3D"height: 18px; width: 20px;">&nbsp;</td>=0D
+<td style=3D"height: 18px; width: 694px;">&nbsp;</td>=0D
+<td style=3D"height: 18px; width: 20px;">&nbsp;</td>=0D
+</tr>=0D
+<tr style=3D"height: 34px;">=0D
+<td class=3D"left-gutter" style=3D"width: 20px; height: 34px;">&nbsp;</td>=
+=0D
+<td style=3D"height: 34px; width: 694px;">The charge for your subscription =
+was declined by your payment method. To avoid losing access to your service=
+, update your payment method.</td>=0D
+<td class=3D"right-gutter" style=3D"width: 20px; height: 34px;">&nbsp;</td>=
+=0D
+</tr>=0D
+<tr class=3D"paragraph-spacer" style=3D"height: 20px;">=0D
+<td style=3D"height: 18px; width: 20px;">&nbsp;</td>=0D
+<td style=3D"height: 18px; width: 694px;">&nbsp;</td>=0D
+<td style=3D"height: 18px; width: 20px;">&nbsp;</td>=0D
+</tr>=0D
+<tr style=3D"height: 35px;">=0D
+<td class=3D"left-gutter" style=3D"width: 20px; height: 35px;">&nbsp;</td>=
+=0D
+<td style=3D"height: 35px; width: 694px; text-align: center;"><a href=3D"ht=
+tps://subterfuge.app.teenvio.com/v4/public/estadisticas/link/subterfuge/604=
+3/1/876184/d1c0e3d7a8f0519086da417dc11b74fc/" rel=3D"noopener noreferrer"><=
+button class=3D"action gradient" style=3D"font-size: 17px; line-height: 1.4=
+7059; font-weight: 400; letter-spacing: -0.022em; font-family: system-ui, -=
+apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica, Aria=
+l, sans-serif; background-color: #0070c9; border-radius: 4px; color: white;=
+ cursor: pointer; display: inline-block; min-width: 30px; text-align: cente=
+r; white-space: nowrap; padding: 4px 15px 4px 15px; border: 1px solid #07c;=
+">Fix Payment Information</button></a></td>=0D
+<td class=3D"right-gutter" style=3D"width: 20px; height: 35px;">&nbsp;</td>=
+=0D
+</tr>=0D
+<tr class=3D"paragraph-spacer" style=3D"height: 20px;">=0D
+<td style=3D"height: 18px; width: 20px;">&nbsp;</td>=0D
+<td style=3D"height: 18px; width: 694px;">&nbsp;</td>=0D
+<td style=3D"height: 18px; width: 20px;">&nbsp;</td>=0D
+</tr>=0D
+<tr style=3D"height: 34px;">=0D
+<td class=3D"left-gutter" style=3D"width: 20px; height: 34px;">&nbsp;</td>=
+=0D
+<td style=3D"height: 34px; width: 694px;">Regards,<br />Apple</td>=0D
+<td class=3D"right-gutter" style=3D"width: 20px; height: 34px;">&nbsp;</td>=
+=0D
+</tr>=0D
+<tr class=3D"paragraph-spacer" style=3D"height: 20px;">=0D
+<td style=3D"height: 18px; width: 20px;">&nbsp;</td>=0D
+<td style=3D"height: 18px; width: 694px;">&nbsp;</td>=0D
+<td style=3D"height: 18px; width: 20px;">&nbsp;</td>=0D
+</tr>=0D
+<tr style=3D"height: 18px;">=0D
+<td class=3D"left-gutter" style=3D"width: 20px; height: 18px;">&nbsp;</td>=
+=0D
+<td style=3D"font-size: 12px; color: #666666; line-height: 18px; height: 18=
+px; width: 694px;" align=3D"center">For help with subscriptions and purchas=
+es, visit <a href=3D"#" rel=3D"noopener noreferrer">Apple Support</a>.</td>=
+=0D
+<td class=3D"right-gutter" style=3D"width: 20px; height: 18px;">&nbsp;</td>=
+=0D
+</tr>=0D
+</tbody>=0D
+</table>=0D
+</td>=0D
+</tr>=0D
+<tr class=3D"footer-spacer" style=3D"height: 50px;">=0D
+<td colspan=3D"4">&nbsp;</td>=0D
+</tr>=0D
+<tr>=0D
+<td>&nbsp;</td>=0D
+<td class=3D"" style=3D"font-size: 12px; font-family: 'Helvetica Neue',Helv=
+etica,Arial,sans-serif; color: #666666;" colspan=3D"2" align=3D"center"><im=
+g class=3D"large-footer-logo" style=3D"border: none; padding: 0; margin: 0;=
+ -ms-interpolation-mode: bicubic;" src=3D"https://s.mzstatic.com/email/imag=
+es_shared/logo_apple_small_d-2x.png" alt=3D"Apple" width=3D"26" height=3D"2=
+6" border=3D"0" /> <img class=3D"small-footer-logo" style=3D"display: none;=
+ border: none; padding: 0; margin: 0; -ms-interpolation-mode: bicubic;" src=
+=3D"https://s.mzstatic.com/email/images_shared/logo_apple_small_m-3x.png" a=
+lt=3D"Apple" width=3D"14" height=3D"14" border=3D"0" /></td>=0D
+<td>&nbsp;</td>=0D
+</tr>=0D
+<tr>=0D
+<td colspan=3D"4">&nbsp;</td>=0D
+</tr>=0D
+<tr>=0D
+<td>&nbsp;</td>=0D
+<td style=3D"font-size: 12px; font-family: 'Helvetica Neue',Helvetica,Arial=
+,sans-serif; color: #666666;" colspan=3D"2" align=3D"center"><a style=3D"co=
+lor: #0073ff;" href=3D"#" rel=3D"noopener noreferrer">Apple ID Summary</a>&=
+nbsp;&bull;&nbsp;<a style=3D"color: #0073ff;" href=3D"#" rel=3D"noopener no=
+referrer">Terms of Sale</a>&nbsp;&bull;&nbsp;<a style=3D"color: #0073ff;" h=
+ref=3D"#" rel=3D"noopener noreferrer">Privacy Policy</a></td>=0D
+<td>&nbsp;</td>=0D
+</tr>=0D
+<tr>=0D
+<td colspan=3D"4">&nbsp;</td>=0D
+</tr>=0D
+<tr>=0D
+<td>&nbsp;</td>=0D
+<td dir=3D"auto" style=3D"font-size: 12px; font-family: 'Helvetica Neue',He=
+lvetica,Arial,sans-serif; color: #666666;" colspan=3D"2" align=3D"center">C=
+opyright &copy; 2023 Apple Inc. <br /><a style=3D"color: #1187ff;" href=3D"=
+#" rel=3D"noopener noreferrer">All rights reserved</a></td>=0D
+<td>&nbsp;</td>=0D
+</tr>=0D
+<tr>=0D
+<td colspan=3D"4" height=3D"30">&nbsp;</td>=0D
+</tr>=0D
+</tbody>=0D
+</table>=0D
+</div>=0D
+</div>
+<table class=3D"te-table-foot" width=3D"100%" align=3D"center" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" style=3D"margin:0; padding:0;max-width=
+: 100% !important;table-layout: fixed;">
+=09
+=09
+=09
+=09
+	<tr style=3D"mso-line-height-alt:0; mso-margin-top-alt:1px;font-size: 0; l=
+ine-height: 0;"><td width=3D"100%" height=3D"1" bgcolor=3D"#f1f1f1" style=
+=3D"height:1px;background:#f1f1f1 !important;">&nbsp;</td></tr>
+	<tr style=3D"mso-line-height-alt:0; mso-margin-top-alt:1px;font-size: 0; l=
+ine-height: 0;"><td width=3D"100%" height=3D"1" bgcolor=3D"#e1e1e1" style=
+=3D"height:1px;background:#e1e1e1 !important;">&nbsp;</td></tr>
+	<tr>
+		<td valign=3D"middle" width=3D"100%" align=3D"center" bgcolor=3D"#f1f1f1"=
+ class=3D"celdabasepie" style=3D"padding: 30px 0px;background:#f1f1f1 !impo=
+rtant;vertical-align: middle;">
+			<table class=3D"contenedorbasepie" width=3D"690" align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin:0; padding:0;max=
+-width: 100% !important;table-layout: fixed;">
+				<tr>
+					<td valign=3D"middle" width=3D"5%" bgcolor=3D"#f1f1f1" style=3D"backgr=
+ound:#f1f1f1 !important;"></td>
+					<td valign=3D"middle" width=3D"90%" bgcolor=3D"#f1f1f1" style=3D"backg=
+round:#f1f1f1 !important;">
+						<table width=3D"100%" class=3D"doscolumnas" cellpadding=3D"0" cellspa=
+cing=3D"0" border=3D"0" style=3D"max-width: 100% !important;table-layout: f=
+ixed;">
+							<tr>
+=09=09=09=09=09=09=09=09
+								<!--Columna izquierda-->
+								<td valign=3D"middle" align=3D"left" class=3D"columnaizquierdapie" =
+ bgcolor=3D"#f1f1f1" style=3D"background:#f1f1f1 !important;">
+									<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" style=3D"max-width: 100% !important;table-layout: fixed;">
+										<tr>
+											<td  bgcolor=3D"#f1f1f1" style=3D"background:#f1f1f1 !important;=
+">
+												<div style=3D"font-family:'Arial'; font-size:11px; line-height:=
+16px; color:#666666;">
+													<!-- Teenvio_Pie [Codigo de control, no borrar] -->=09=09
+													Enviado a  <em style=3D"color:#333333;">dynapapersubmission@gm=
+ail.com</em>  por  <em style=3D"color:#333333;">i=E2=80=8CC=E2=80=8Cl=E2=80=
+=8Co=E2=80=8Cu=E2=80=8Cd=E2=80=8C Distribution International Ltd. &lt;subte=
+r3@subterfuge.com&gt;</em><br />
+													<em>
+														Si quiere dejar de recibir mensajes pinche=20
+														<a href=3D"https://subterfuge.app.teenvio.com/v4/public/estad=
+isticas/link/subterfuge/6043/2/876184/d1c0e3d7a8f0519086da417dc11b74fc/" st=
+yle=3D"color:#116580; text-decoration:underline;"><strong>aqu&iacute;</stro=
+ng></a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09
+													</em>
+													<!-- [Codigo de control, no borrar] /Teenvio_Pie -->
+												</div>
+											</td>
+										</tr>
+									</table>
+								</td>
+								<!--Fin Columna izquierda-->
+=09=09=09=09=09=09=09=09
+								<!--Columna derecha-->
+								<td valign=3D"middle" align=3D"right" class=3D"columnaderechapie"  =
+bgcolor=3D"#f1f1f1" style=3D"background:#f1f1f1 !important; line-height: no=
+rmal !important;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-a=
+djust: 100%;-webkit-text-size-adjust: 100%;">
+=09=09=09=09=09=09=09=09=09=09=09
+								</td>
+								<!--Fin Columna derecha-->
+=09=09=09=09=09=09=09=09
+							</tr>
+						</table>
+					</td>
+					<td valign=3D"middle" width=3D"5%" bgcolor=3D"#f1f1f1" style=3D"backgr=
+ound:#f1f1f1 !important;"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr style=3D"mso-line-height-alt:0; mso-margin-top-alt:1px;font-size: 0; l=
+ine-height: 0;"><td width=3D"100%" height=3D"1" bgcolor=3D"#e1e1e1" style=
+=3D"height:1px;background:#e1e1e1 !important;">&nbsp;</td></tr>
+</table>
+
+<img src=3D"https://subterfuge.app.teenvio.com//v4/public/estadisticas/leid=
+o/subterfuge/6043/876184/d1c0e3d7a8f0519086da417dc11b74fc.gif" alt=3D"" wid=
+th=3D"1" heigth=3D"1" style=3D"width:1px;heigth:1px" />=
+
+
+--Boundary-01=_6b5a06673cef6054f04902a6e45ebcb9x--
+

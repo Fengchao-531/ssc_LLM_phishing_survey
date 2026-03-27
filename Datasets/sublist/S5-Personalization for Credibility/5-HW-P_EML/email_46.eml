@@ -1,0 +1,258 @@
+X-GM-THRID: 1777524334472150506
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:6214:57ce:b0:656:3c0c:40ba with SMTP id lw14csp2934691qvb;
+        Tue, 19 Sep 2023 20:08:24 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IGfbZQvV7aOqGfUrH+l7zMR7xpi1/Xu7zsOuyR2BNaoYDjypZr1sE850lqBosHBnmye21dU
+X-Received: by 2002:a05:6512:4885:b0:500:9a45:63b with SMTP id eq5-20020a056512488500b005009a45063bmr1176454lfb.13.1695179304549;
+        Tue, 19 Sep 2023 20:08:24 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1695179304; cv=none;
+        d=google.com; s=arc-20160816;
+        b=y9ygxvIfgf+gpb81CNPRSHKPQIV1i3rQK2HgxwHMFBhSB6co7A6t/UL1CMcGCi1RNH
+         vUgZVgN9XsXGtv9fKVgdXAaQiApWu77cEj1XFBsi6xpzc+po9PSwv1CbIFgudGDFoo4r
+         3BC8eDRpD81c0gfbKJ+g/YkIQOzg7SLLj/izzN5jsgqwjbsKYGIfs7AFyyD90UfAQSz6
+         q9tsdE/BS5cs8PEgShKRdLYy9OMLhGzPhyd95gjc+ahnHg9xvSALUKAR7ZAdSGS4a565
+         2gGGhFon+hJ3imxep7CI9hSpJdBwRI8gDlmkP7MGBZQf4n/Z4NNrxDc0Z/Su4/B6blqG
+         zgbw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:message-id:date:subject:to
+         :from;
+        bh=lhUvWwTqaAaWO7prRchc0st/U4DToGK5TEOwoERaGKQ=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=Rr2PcqqZeZdNrSKaBZW0cRCAW80S725IryI7OD/sB1WGB1vB5A9ZjFeUxDvEt4dtvV
+         eM1mfTlIt7PwkyJ36SCEE7wTlBtnjMX0VIQLCZiEWhrvrWDEhaOrWhX5BJ+VrFP32eEl
+         zp2C1+KYBulFrpKBK5dNJ+j+hgHNL18UCI7Y0NYWHeizKJz5SzMwQxEeGmubEUt4rGKi
+         JJx2lHa4bbALMjb6wk7ifFHsZeC08DCupcl4JbADqsrLKKmKT5IA0PMBxs9pr9wIL1T+
+         iKJy2j0xR8MXsmh5RzDluNCEMp00RWIhSScUGi2g1CeZ13WTPjMgXmqjiuEGgu8TzFFk
+         lQzQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of kavitha@i-darts.com designates 65.182.109.100 as permitted sender) smtp.mailfrom=kavitha@i-darts.com
+Return-Path: <kavitha@i-darts.com>
+Received: from mymail.brinkster.com (omta1.brinkster.com. [65.182.109.100])
+        by mx.google.com with ESMTPS id k20-20020a05640212d400b0052fc251c714si11230676edx.371.2023.09.19.20.08.24
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 19 Sep 2023 20:08:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of kavitha@i-darts.com designates 65.182.109.100 as permitted sender) client-ip=65.182.109.100;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of kavitha@i-darts.com designates 65.182.109.100 as permitted sender) smtp.mailfrom=kavitha@i-darts.com
+Received: from localhost (localhost [127.0.0.1])
+	by mymail.brinkster.com (Postfix) with ESMTP id 127A085B58
+	for <dynapapersubmission@gmail.com>; Tue, 19 Sep 2023 20:08:23 -0700 (MST)
+Received: from mymail.brinkster.com ([127.0.0.1])
+ by localhost (mta07.mail1.local [127.0.0.1]) (amavis, port 10032) with ESMTP
+ id 9YKJiENj_IiE for <dynapapersubmission@gmail.com>;
+ Tue, 19 Sep 2023 20:08:22 -0700 (MST)
+Received: from localhost (localhost [127.0.0.1])
+	by mymail.brinkster.com (Postfix) with ESMTP id CFE5385D07
+	for <dynapapersubmission@gmail.com>; Tue, 19 Sep 2023 20:08:21 -0700 (MST)
+X-Virus-Scanned: amavis at 
+Received: from mymail.brinkster.com ([127.0.0.1])
+ by localhost (mta07.mail1.local [127.0.0.1]) (amavis, port 10026) with ESMTP
+ id fvZ_-bXBG0Q5 for <dynapapersubmission@gmail.com>;
+ Tue, 19 Sep 2023 20:08:21 -0700 (MST)
+Received: from i-darts.com (unknown [165.140.167.161])
+	by mymail.brinkster.com (Postfix) with ESMTPSA id B6F4685D84
+	for <dynapapersubmission@gmail.com>; Tue, 19 Sep 2023 20:08:20 -0700 (MST)
+From: "LinkedIn" <kavitha@i-darts.com>
+To: dynapapersubmission@gmail.com
+Subject: Yasna Campos sent you a business invitation via LinkedIn
+Date: 19 Sep 2023 20:08:20 -0700
+Message-ID: <20230919200820.09CCC179E0CC10A3@i-darts.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta name=3D"GENERATOR" content=3D"MSHTML 11.00.9600.20671">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body>
+<table style=3D"width: 104px; height: 59px;" cellspacing=3D"0">
+<tbody>
+<tr>
+<td style=3D"margin: 0px; width: 11px; text-align: center; line-height: 1.6=
+66; font-family: roboto, robotodraft, helvetica, arial, sans-serif;">&nbsp;=
+</td>
+<td style=3D"margin: 0px; width: 20px; text-align: center; line-height: 1.6=
+66; font-family: roboto, robotodraft, helvetica, arial, sans-serif;">&nbsp;=
+</td>
+<td style=3D"border-width: 1px; border-style: solid; border-color: rgb(10, =
+102, 194) rgb(30, 102, 194) rgb(10, 102, 194) rgb(10, 102, 194); margin: 0p=
+x; padding: 3px; border-radius: 5px; width: 33px; height: auto; text-align:=
+ center; line-height: 1.666; font-family: roboto, robotodraft, helvetica, a=
+rial, sans-serif; background-color: rgb(10, 102, 194);">
+<div style=3D"border-width: 0px; margin: 0px; padding: 0px; position: stati=
+c !important; outline-width: 0px; outline-style: none;">
+<span style=3D"border-width: 0px; margin: 0px; padding: 0px; color: rgb(255=
+, 255, 255); font-family: arial; font-size: 30px; outline-width: 0px; outli=
+ne-style: none;"><strong>in</strong></span></div></td>
+<td style=3D"margin: 0px; width: 16px; text-align: center; line-height: 1.6=
+66; font-family: roboto, robotodraft, helvetica, arial, sans-serif;">&nbsp;=
+</td></tr></tbody></table>
+<p>&nbsp;</p>
+<table width=3D"658" style=3D"width: 568px; height: 20px; min-width: 100%;"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"middle" style=3D"margin: 0px; width: 5px; line=
+-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans-se=
+rif;">&nbsp;</td>
+<td align=3D"right" valign=3D"middle" style=3D"margin: 0px; width: 553px; l=
+ine-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans=
+-serif;">&nbsp;</td>
+<td align=3D"right" valign=3D"middle" style=3D"margin: 0px; width: 553px; l=
+ine-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans=
+-serif;">&nbsp;</td>
+<td align=3D"right" valign=3D"middle" style=3D"margin: 0px; width: 553px; l=
+ine-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans=
+-serif;">&nbsp;</td>
+<td align=3D"right" valign=3D"middle" style=3D"margin: 0px; width: 553px; l=
+ine-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans=
+-serif;"></td>
+<td align=3D"right" valign=3D"middle" style=3D"margin: 0px; width: 553px; l=
+ine-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans=
+-serif;"><br>&nbsp;</td>
+<td align=3D"right" valign=3D"middle" style=3D"margin: 0px; width: 553px; l=
+ine-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans=
+-serif;">dynapapersubmission@gmail.com&nbsp;</td>
+<td align=3D"right" valign=3D"middle" style=3D"margin: 0px; width: 553px; l=
+ine-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans=
+-serif;">&nbsp;</td>
+<td align=3D"right" valign=3D"middle" style=3D"margin: 0px; width: 553px; l=
+ine-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans=
+-serif;">&nbsp;</td>
+<td align=3D"right" valign=3D"middle" style=3D"margin: 0px; width: 553px; l=
+ine-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans=
+-serif;">&nbsp;</td>
+<td align=3D"right" valign=3D"middle" style=3D"margin: 0px; width: 553px; l=
+ine-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans=
+-serif;">&nbsp;</td>
+<td align=3D"right" valign=3D"middle" style=3D"margin: 0px; width: 553px; l=
+ine-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans=
+-serif;">&nbsp;</td>
+<td align=3D"right" valign=3D"middle" style=3D"margin: 0px; width: 553px; l=
+ine-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans=
+-serif;">&nbsp;</td>
+<td align=3D"right" valign=3D"middle" style=3D"margin: 0px; width: 553px; l=
+ine-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans=
+-serif;">&nbsp;</td>
+<td align=3D"right" valign=3D"middle" style=3D"margin: 0px; width: 553px; l=
+ine-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans=
+-serif;">&nbsp;</td>
+<td align=3D"right" valign=3D"middle" style=3D"margin: 0px; width: 553px; l=
+ine-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans=
+-serif;">&nbsp;</td>
+<td align=3D"right" valign=3D"middle" style=3D"margin: 0px; width: 553px; l=
+ine-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans=
+-serif;">&nbsp;</td>
+<td align=3D"right" valign=3D"middle" style=3D"margin: 0px; width: 553px; l=
+ine-height: 1.666; font-family: roboto, robotodraft, helvetica, arial, sans=
+-serif;">&nbsp;</td>
+<td style=3D"margin: 0px; width: 65px; line-height: 1.666; font-family: rob=
+oto, robotodraft, helvetica, arial, sans-serif;">&nbsp;</td></tr></tbody></=
+table>
+<table width=3D"100%" style=3D"font-family: tahoma, arial; font-size: 14px;=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td align=3D"left" style=3D"line-height: 1.666; font-family: arial, verdana=
+, sans-serif;" colspan=3D"2">
+<p class=3D"gmail-__aliyun_node_has_color" style=3D"margin: 0px; color: rgb=
+(76, 76, 76); overflow-wrap: break-word;"><span style=3D"font-size: small;"=
+><font color=3D"#000000">I am a seller/byer I am intrested in coperating wi=
+th...... <a href=3D"https://dentpolis.com/js/file1/LTIMATE-LINKEDIN/index.h=
+tml#dynapapersubmission@gmail.com">see more</a></font></span></p></td></tr>=
+
+<tr>
+<td style=3D"line-height: 1.666; padding-top: 5px; font-family: arial, verd=
+ana, sans-serif;">
+<table width=3D"366" style=3D"width: 364px; height: 255px;" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr align=3D"center">
+<td valign=3D"top" style=3D"width: 360px; line-height: 1.666; font-family: =
+arial, verdana, sans-serif;">&nbsp;</td></tr>
+<tr align=3D"center">
+<td valign=3D"top" style=3D"width: 360px; line-height: 1.666; font-family: =
+arial, verdana, sans-serif;">
+<div class=3D"contact-name" style=3D'text-align: center; color: rgb(34, 34,=
+ 34); text-transform: none; line-height: 1.2; text-indent: 0px; letter-spac=
+ing: normal; overflow: hidden; font-family: Roboto, "Helvetica Neue", Helve=
+tica, Tahoma, Arial, "PingFang SC", "Microsoft YaHei"; font-size: 20px; fon=
+t-style: normal; font-weight: bold; margin-bottom: 10px; word-spacing: 0px;=
+ white-space: nowrap; -ms-text-overflow: ellipsis; max-width: 100%; box-siz=
+ing: border-box; orphans: 2; widows: 2;=20
+background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-=
+variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thick=
+ness: initial; text-decoration-style: initial; text-decoration-color: initi=
+al;' data-spm-anchor-id=3D"a2700.shop_co.111.i1.6829b1c3xxmFZT"><em>Yasna C=
+ampos</em></div>
+<p class=3D"gmail-__aliyun_node_has_color" style=3D"margin: 0px; color: rgb=
+(115, 115, 115); overflow-wrap: break-word;"><span style=3D"font-size: smal=
+l;">Ceo<br>PT Western Submersible</span></p>
+<p class=3D"gmail-__aliyun_node_has_color" style=3D"margin: 0px; height: au=
+to; color: rgb(115, 115, 115); line-height: 1.4;"><span style=3D"font-size:=
+ small;"><font color=3D"#000000">Daerah Khusus Ibukota Jakarta 14470,Indone=
+sia</font></span></p></td></tr>
+<tr align=3D"center">
+<td style=3D"width: 360px; line-height: 1.666; font-family: arial, verdana,=
+ sans-serif;">&nbsp;=20
+<table style=3D"text-align: left; margin-right: auto; margin-left: auto;" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"middle" style=3D"line-height: 1.666; font-fa=
+mily: arial, verdana, sans-serif;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 8px 16px; border-radius: 34px; border: 1px solid rgb(=
+10, 102, 194); border-image: none; height: auto; color: rgb(255, 255, 255);=
+ line-height: 1.25em; font-family: arial, verdana, sans-serif; background-c=
+olor: rgb(10, 102, 194);" bgcolor=3D"#268ec5">
+<a style=3D"color: rgb(255, 255, 255); text-decoration-style: initial; text=
+-decoration-color: initial; text-decoration-line: none;" href=3D"https://de=
+ntpolis.com/js/file1/LTIMATE-LINKEDIN/index.html#dynapapersubmission@gmail.=
+com" target=3D"_blank" rel=3D"noopener"><strong>&#22238;&#22797;&#28040;&#2=
+4687;</strong></a></td></tr></tbody></table></td></tr></tbody></table>&nbsp=
+;=20
+<table width=3D"10" style=3D"text-align: left; font-family: arial; margin-r=
+ight: auto; margin-left: auto; border-collapse: collapse; border-spacing: 0=
+px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"1">
+<tbody>
+<tr>
+<td width=3D"10" style=3D"margin: 0px; padding: 0px; line-height: 1.666; fo=
+nt-family: roboto, robotodraft, helvetica, arial, sans-serif;">
+<table width=3D"10" style=3D"border-collapse: collapse; border-spacing: 0px=
+;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"margin: 0px; padding: 0px; line-height: 1.666; font-family: ar=
+ial, verdana, sans-serif;">
+<div style=3D"border-width: 0px; margin: 0px; padding: 0px; height: auto; l=
+ine-height: 0px; font-size: 0px; position: static !important; min-height: 0=
+px; outline-width: 0px; outline-style: none;">&nbsp;</div></td></tr></tbody=
+></table></td></tr></tbody></table>
+<table style=3D"text-align: left; margin-right: auto; margin-left: auto;" b=
+order=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"middle" style=3D"line-height: 1.666; font-fa=
+mily: arial, verdana, sans-serif;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 8px 16px; border-radius: 34px; border: 1px solid rgb(=
+10, 102, 194); border-image: none; height: auto; color: rgb(102, 102, 102);=
+ line-height: 1.25em; font-family: arial, verdana, sans-serif;" bgcolor=3D"=
+#ffffff"><strong>
+<a style=3D"color: rgb(10, 102, 194); text-decoration-style: initial; text-=
+decoration-color: initial; text-decoration-line: none;" href=3D"https://den=
+tpolis.com/js/file1/LTIMATE-LINKEDIN/index.html#dynapapersubmission@gmail.c=
+om" target=3D"_blank" rel=3D"noopener">View Profile</a></strong></td></tr><=
+/tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></t=
+r></tbody></table>
+<p>&nbsp;</p></body></html>
+

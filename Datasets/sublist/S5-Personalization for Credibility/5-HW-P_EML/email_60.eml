@@ -1,0 +1,86 @@
+X-GM-THRID: 1803345455457395809
+X-Gmail-Labels: Inbox,Important,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:6214:1fd6:b0:6b4:fe64:ab52 with SMTP id jh22csp1393446qvb;
+        Sun, 30 Jun 2024 20:24:04 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IH9w44D8aQ+Gc7jKSpnOMOotSXwoCXlaL/ihRK6oaOjnH0W5HRu6Z77wYsJf5KLqCr9PGBN
+X-Received: by 2002:a05:6830:328c:b0:700:ccc0:97f1 with SMTP id 46e09a7af769-702076994b9mr3157202a34.4.1719804244276;
+        Sun, 30 Jun 2024 20:24:04 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1719804244; cv=none;
+        d=google.com; s=arc-20160816;
+        b=gI7134BRScfoUuoOY6LEMb4siyuY6gIkJUTSs0PdTO311++EcChjTnM2E/IYn2BQsC
+         fQxTbYCMZ8AJN62Tib8EGb06g8Wa3nBOz3vnL6zAQZ3gQEfdGeRdRF/tW0eIkr82Yzpi
+         V6GC4jYuzj8To69elG5Zt3oTteFrjb52l6lSYtoKZa13woUIAdTAqI23ViJ5Nqealc+W
+         29heK7MIsuBga703oQpgQop7FF6lRZ0FdmH0UeThBgKz4e479D4GkMqfB5Ky/p9Er1d+
+         5kDuvRXDTsnVqqMf1CWV3TClBbA/zOwHywBDGSjWlflnaW4yiY442xWcvbz3seaew3aH
+         FUyQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=date:from:message-id:mime-version:subject:to:dkim-signature;
+        bh=hOW7mOWFaOLC38pAjaW3LX1475GBgqvJKr8Jdi0RB2k=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=r+XPJ+bRcBx+s06CBV73RiEoe3S8mEuGZzlLpORUQQsXaRi9qcMkO6PH7vadk+jbkt
+         1jWm5NNBfMK2DBXjV0KorPHfNt37mLEefI0Cg07Gr1iibPjAElYKUSZ4Xv1U00MXGbN9
+         3YTSP/VX5MTEOlf7pQXavJCvXmlg5+YoWpRIX7zmCeY1N6EzT9HU06l9McLnqb0iB+x9
+         OIN+z6LlQwmOwwwWViFGyT9GZ7+878hNpp3W6qql06fFnRpjZLNd+qx+egKs75X/rPNl
+         78wwRD/2eiZVl82XxbUS82yQ6b63cmirFyxHUiERAyrhFq2VHji97xUriI1uIGRGvuYa
+         zb5w==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@roninwalletsupport.com header.s=default header.b=bonZnWAS;
+       spf=pass (google.com: domain of roninwalletsuppo@server.cwhosting.com.mx designates 201.131.126.166 as permitted sender) smtp.mailfrom=roninwalletsuppo@server.cwhosting.com.mx
+Return-Path: <roninwalletsuppo@server.cwhosting.com.mx>
+Received: from server.cwhosting.com.mx (server.cwhosting.com.mx. [201.131.126.166])
+        by mx.google.com with ESMTPS id 46e09a7af769-701f7a9fa60si2796311a34.56.2024.06.30.20.24.04
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 30 Jun 2024 20:24:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of roninwalletsuppo@server.cwhosting.com.mx designates 201.131.126.166 as permitted sender) client-ip=201.131.126.166;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@roninwalletsupport.com header.s=default header.b=bonZnWAS;
+       spf=pass (google.com: domain of roninwalletsuppo@server.cwhosting.com.mx designates 201.131.126.166 as permitted sender) smtp.mailfrom=roninwalletsuppo@server.cwhosting.com.mx
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=roninwalletsupport.com; s=default; h=Date:From:Message-Id:Content-type:
+	MIME-Version:Subject:To:Sender:Reply-To:Cc:Content-Transfer-Encoding:
+	Content-ID:Content-Description:Resent-Date:Resent-From:Resent-Sender:
+	Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=hOW7mOWFaOLC38pAjaW3LX1475GBgqvJKr8Jdi0RB2k=; b=bonZnWASycU+UCOTykTIiThcwg
+	Y+8J7fmvHOcIM5HSWE9ghp59i4PEzohmpA83Z6mSdP5UTSORduWSGUZVZvCjkVsyCpW483T41ipsY
+	qMJY97VBmJ5rcDgR1VRK5HKJGfqc4z3Va1pjrTUO9sfuOBnri1Ht1QG3owDJa2aqjtoIMv9xIRGJL
+	yNT0o6LxgsulldFlM+ZRqRw7wgByPjyL/tdg/PVxSs8ZptpUV2kHN0G0YEKOin+9U84X+TxzPp69O
+	G6pdafIZcWBRPlAnpF22xaykRTQzSCeE2/ccRbCnvn7yi+Fuer9t7quv4kV/BenrRf8/g6ijBejX4
+	OxVbRa1Q==;
+Received: from roninwalletsuppo by server.cwhosting.com.mx with local (Exim 4.97.1)
+	(envelope-from <roninwalletsuppo@server.cwhosting.com.mx>)
+	id 1sO7e7-00000001Jpy-1oiv
+	for dynapapersubmission@gmail.com;
+	Sun, 30 Jun 2024 23:24:03 -0400
+To: dynapapersubmission@gmail.com
+Subject: Thank you for contacting Sky Mavis!
+X-PHP-Script: roninwalletsupport.com/mine.php for 212.87.193.201
+X-PHP-Originating-Script: 1195:mine.php
+MIME-Version: 1.0
+Content-type: text/html; charset=iso-8859-1
+Message-Id: <E1sO7e7-00000001Jpy-1oiv@server.cwhosting.com.mx>
+From: roninwalletsuppo@server.cwhosting.com.mx
+Date: Sun, 30 Jun 2024 23:24:03 -0400
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server.cwhosting.com.mx
+X-AntiAbuse: Original Domain - gmail.com
+X-AntiAbuse: Originator/Caller UID/GID - [1195 979] / [47 12]
+X-AntiAbuse: Sender Address Domain - server.cwhosting.com.mx
+X-Get-Message-Sender-Via: server.cwhosting.com.mx: authenticated_id: roninwalletsuppo/primary_hostname/system user
+X-Authenticated-Sender: server.cwhosting.com.mx: roninwalletsuppo
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: roninwalletsupport.com:/public_html
+
+<p style="font-size:14px;">Thank you for contacting Sky Mavis!<br><br>
+
+				Your request has been received and is being reviewed by our support staff.<br><br>
+
+				We have an estimated response time of 24 hrs<br><br>
+
+				To add additional comments, reply to this email or visit the link below.<br>
+				<a hre="https://support.axieinfinity.com/hc/en-us/requests/new">https://support.axieinfinity.com/hc/en-us/requests/new</a></p>
+

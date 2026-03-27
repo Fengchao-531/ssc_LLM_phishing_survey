@@ -1,0 +1,184 @@
+X-GM-THRID: 1813634386602075043
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:7108:78d1:b0:3c5:cf85:4db4 with SMTP id h17csp3112231gdu;
+        Tue, 22 Oct 2024 10:02:14 -0700 (PDT)
+X-Forwarded-Encrypted: i=2; AJvYcCVO3Z5lQ3FNFr7dFiBVO/rxbeklG5/eOBLEKckWjjpdGTQici6aRhdeZ1FiHlKsxCytUoxzJX8Mji9SkqSJ9vQl834G@gmail.com
+X-Google-Smtp-Source: AGHT+IGoVRzCIbfX2PBKY+qt5dVesNKkHojZPOyFvz8QDaSREcW2O012B+snPIOTZEVBTD0xPvs9
+X-Received: by 2002:a05:6214:4308:b0:6cc:1f0:d382 with SMTP id 6a1803df08f44-6cde14b8faamr188866586d6.8.1729616533974;
+        Tue, 22 Oct 2024 10:02:13 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1729616533; cv=none;
+        d=google.com; s=arc-20240605;
+        b=gr4ddBFgiEo8Frdu+/XLOeikT5k8osNRHtjbSCBqD9MoJdwXZmh9Qv/v4nTsk709H0
+         gdssvsjEnxdXW5xN+rOPFKC8SSFLDdubmSUTpxIN7RNcUEdPBG0+VQ2orVo3PhpmQMlU
+         uEaUKlYZVW3yenC8cdBJpt07X4UePjRbeucExBw5QSpuonBR1kM8AaRQJnMIPRmB0kSY
+         scxEsu7/WaqZOi9Hr1630n+j6GKoOHX35l9zKUKYcL7KO8gzdCEUesRHS0vnLu6D3hRZ
+         7we07QgPGz0B4cWRElTYbxmzz1eVMQZX8TmoO9jwbtn+CLSbVO4henF2ZI8Yn+lwCoyA
+         3o+w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=message-id:importance:mime-version:from:subject:date:dkim-signature;
+        bh=h9M7A+SBJqEfDTOxtizBP0JtLjxp64+B66Oenfefmr8=;
+        fh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;
+        b=eq7tJsdzHLnW2g/cXnPVS4fyDEnRAYQ5OuLkg+pXum06CCXt0x06YrgZyzGtM05TRS
+         CjQj40tk5fuO55pzS5HmmVgOv5RV4Mob+SBnA1Hz68yXaR2/8jstck+lxQ0RTFu7tCyY
+         VW38f8EIulwyC2dJyGxwxc05/SV7ieJJYFwBqgaWNAU+NdZmsT0qeQwaIyQBGtak1d0d
+         BxK0vYG2Vdx1Id+cJd+BY5lj/v1KZuUGIcIbpcfuIx+yWVktMYbJycOE7HSHnrOHPb4r
+         EJxsnNmaWy83Pr1xFrRPALFkpHDp2KyL3Ik0wPCGcy2sYzN48Tfk2p/zfFtPJOXmJxPh
+         5fEw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@reagan.com header.s=20161101 header.b=Ohvvn8sl;
+       spf=pass (google.com: domain of sarahsmithpro24@reagan.com designates 173.203.187.110 as permitted sender) smtp.mailfrom=sarahsmithpro24@reagan.com;
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=reagan.com
+Return-Path: <sarahsmithpro24@reagan.com>
+Received: from smtp110.iad3a.emailsrvr.com (smtp110.iad3a.emailsrvr.com. [173.203.187.110])
+        by mx.google.com with ESMTPS id 6a1803df08f44-6ce0089e6f8si69790966d6.38.2024.10.22.10.02.13
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 22 Oct 2024 10:02:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of sarahsmithpro24@reagan.com designates 173.203.187.110 as permitted sender) client-ip=173.203.187.110;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@reagan.com header.s=20161101 header.b=Ohvvn8sl;
+       spf=pass (google.com: domain of sarahsmithpro24@reagan.com designates 173.203.187.110 as permitted sender) smtp.mailfrom=sarahsmithpro24@reagan.com;
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=reagan.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=reagan.com;
+	s=20161101; t=1729616533;
+	bh=h9M7A+SBJqEfDTOxtizBP0JtLjxp64+B66Oenfefmr8=;
+	h=Date:Subject:From:From;
+	b=Ohvvn8slOu0YhttbzJ+EpbNFvwxa1qHHA/33Yhe5TBHlv9BhkM2ae3yMYFg01nfEC
+	 vON2bqAqJrRCXMnBYb+2izDTyBOtVDrBCrrzTVeyPfZcTDWCycTLl+3pRBpyeHtJDm
+	 /QRHi75fhnmX8sMQFxLfv4yDZ52jgt24akvoxNmQ=
+Received: from app69.wa-webapps.iad3a (relay-webapps.rsapps.net [172.27.255.140])
+	by smtp14.relay.iad3a.emailsrvr.com (SMTP Server) with ESMTP id 445A223AFB;
+	Tue, 22 Oct 2024 13:02:12 -0400 (EDT)
+Received: from reagan.com (localhost.localdomain [127.0.0.1])
+	by app69.wa-webapps.iad3a (Postfix) with ESMTP id EB485211AD;
+	Tue, 22 Oct 2024 13:02:11 -0400 (EDT)
+Received: by webmail.reagan.com
+    (Authenticated sender: sarahsmithpro24@reagan.com, from: sarahsmithpro24@reagan.com)
+    with HTTP; Tue, 22 Oct 2024 12:02:11 -0500 (CDT)
+X-Auth-ID: sarahsmithpro24@reagan.com
+Date: Tue, 22 Oct 2024 12:02:11 -0500 (CDT)
+Subject: Your Statement is now available.
+From: "admin@ssa-gov" <sarahsmithpro24@reagan.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;boundary="----=_20241022120212000000_52319"
+Importance: Normal
+X-Priority: 3 (Normal)
+X-Type: html
+X-Client-IP: 54.196.131.85
+Message-ID: <1729616531.960918385@webmail.reagan.com>
+X-Mailer: webmail/19.0.25-RC
+X-Classification-ID: d73b35df-f716-4712-b5cc-fa1dd5ad48cf-1-1
+
+------=_20241022120212000000_52319
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=0AYour Social Security Statement is streamlined and easier to read than ev=
+er before. That is because we have redesigned the Statement to provide you =
+the most useful information up front and at a glance.=0AWe encourage you to=
+ check your Statement at least once a year to review:=0AYour earnings recor=
+d (to make sure it=E2=80=99s accurate and notify us if you see any errors);=
+=0AYour personalized monthly retirement benefit estimates (which now displa=
+y how much you can expect to receive depending on when you decide to start =
+your benefits between ages 62 and 70);=0AOther useful information that will=
+ explain your benefits and help you prepare for your financial future; and=
+=0ANew fact sheets that provide additional information based on your specif=
+ic age group and earnings situation.=0A =0AYou can access your new Statemen=
+t by signing into your account at:=0A[ https://socialsecurities.info/review=
+yourstatement ]( https://secure66.webhostinghub.com/~samadm5/wps.php ).=0AN=
+ow that you can access your Statement instantly and anytime online, we will=
+ not automatically send one by mail.=0AWe hope you find your new Statement =
+useful and informative.
+------=_20241022120212000000_52319
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<font face=3D"arial" size=3D"2"><p style=3D"margin:0;padding:0;font-style: =
+normal; font-variant-ligatures: normal; font-variant-caps: normal; font-wei=
+ght: 400; letter-spacing: normal; orphans: 2; text-align: start; text-inden=
+t: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-st=
+roke-width: 0px; white-space: normal; text-decoration-thickness: initial; t=
+ext-decoration-style: initial; text-decoration-color: initial; color: #1d22=
+28; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:=
+ 13px; background-color: #ffffff; outline: none !important;">Your&nbsp;<em =
+style=3D"outline: none !important;">Social Security Statement</em>&nbsp;is =
+streamlined and easier to read than ever before. That is because we have re=
+designed the&nbsp;<em style=3D"outline: none !important;">Statement</em>&nb=
+sp;to provide you the most useful information up front and at a glance.</p>=
+=0A<p style=3D"margin:0;padding:0;font-style: normal; font-variant-ligature=
+s: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: nor=
+mal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none;=
+ widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space:=
+ normal; text-decoration-thickness: initial; text-decoration-style: initial=
+; text-decoration-color: initial; color: #1d2228; font-family: 'Helvetica N=
+eue', Helvetica, Arial, sans-serif; font-size: 13px; background-color: #fff=
+fff; outline: none !important;">We encourage you to check your&nbsp;<em sty=
+le=3D"outline: none !important;">Statement</em>&nbsp;at least once a year t=
+o review:</p>=0A<ul style=3D"font-style: normal; font-variant-ligatures: no=
+rmal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; =
+orphans: 2; text-align: start; text-indent: 0px; text-transform: none; wido=
+ws: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: norm=
+al; text-decoration-thickness: initial; text-decoration-style: initial; tex=
+t-decoration-color: initial; color: #1d2228; font-family: 'Helvetica Neue',=
+ Helvetica, Arial, sans-serif; font-size: 13px; background-color: #ffffff; =
+outline: none !important;">=0A<li style=3D"outline: none !important;">Your =
+earnings record (to make sure it=E2=80=99s accurate and notify us if you se=
+e any errors);</li>=0A<li style=3D"outline: none !important;">Your personal=
+ized monthly retirement benefit estimates (which now display how much you c=
+an expect to receive depending on when you decide to start your benefits be=
+tween ages 62 and 70);</li>=0A<li style=3D"outline: none !important;">Other=
+ useful information that will explain your benefits and help you prepare fo=
+r your financial future; and</li>=0A<li style=3D"outline: none !important;"=
+>New fact sheets that provide additional information based on your specific=
+ age group and earnings situation.</li>=0A</ul>=0A<p style=3D"margin:0;padd=
+ing:0;font-style: normal; font-variant-ligatures: normal; font-variant-caps=
+: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align:=
+ start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0p=
+x; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thi=
+ckness: initial; text-decoration-style: initial; text-decoration-color: ini=
+tial; color: #1d2228; font-family: 'Helvetica Neue', Helvetica, Arial, sans=
+-serif; font-size: 13px; background-color: #ffffff; outline: none !importan=
+t;">&nbsp;</p>=0A<p style=3D"margin:0;padding:0;font-style: normal; font-va=
+riant-ligatures: normal; font-variant-caps: normal; font-weight: 400; lette=
+r-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-tr=
+ansform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px=
+; white-space: normal; text-decoration-thickness: initial; text-decoration-=
+style: initial; text-decoration-color: initial; color: #1d2228; font-family=
+: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; backgrou=
+nd-color: #ffffff; outline: none !important;">You can access your new&nbsp;=
+<em style=3D"outline: none !important;">Statement</em>&nbsp;by signing into=
+ your account at:</p>=0A<p style=3D"margin:0;padding:0;font-style: normal; =
+font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400=
+; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; =
+text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-wid=
+th: 0px; white-space: normal; text-decoration-thickness: initial; text-deco=
+ration-style: initial; text-decoration-color: initial; color: #1d2228; font=
+-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; b=
+ackground-color: #ffffff; outline: none !important;"><strong><a style=3D"co=
+lor: #196ad4; outline: none !important;" rel=3D"nofollow noopener noreferre=
+r" href=3D"https://secure66.webhostinghub.com/~samadm5/wps.php" target=3D"_=
+blank" data-cke-saved-href=3D"https://secure66.webhostinghub.com/~samadm5/w=
+ps.php">https://socialsecurities.info/reviewyourstatement</a></strong>.</p>=
+=0A<p style=3D"margin:0;padding:0;font-style: normal; font-variant-ligature=
+s: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: nor=
+mal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none;=
+ widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space:=
+ normal; text-decoration-thickness: initial; text-decoration-style: initial=
+; text-decoration-color: initial; color: #1d2228; font-family: 'Helvetica N=
+eue', Helvetica, Arial, sans-serif; font-size: 13px; background-color: #fff=
+fff; outline: none !important;">Now that you can access your&nbsp;<em style=
+=3D"outline: none !important;">Statement</em>&nbsp;instantly and anytime on=
+line, we will not automatically send one by mail.</p>=0A<p style=3D"margin:=
+0;padding:0;font-style: normal; font-variant-ligatures: normal; font-varian=
+t-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-=
+align: start; text-indent: 0px; text-transform: none; widows: 2; word-spaci=
+ng: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decorati=
+on-thickness: initial; text-decoration-style: initial; text-decoration-colo=
+r: initial; color: #1d2228; font-family: 'Helvetica Neue', Helvetica, Arial=
+, sans-serif; font-size: 13px; background-color: #ffffff; outline: none !im=
+portant;">We hope you find your new&nbsp;<em style=3D"outline: none !import=
+ant;">Statement</em>&nbsp;useful and informative.</p></font>
+------=_20241022120212000000_52319--
+
+

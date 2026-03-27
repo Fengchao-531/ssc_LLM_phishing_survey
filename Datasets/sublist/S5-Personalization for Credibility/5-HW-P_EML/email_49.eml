@@ -1,0 +1,123 @@
+X-GM-THRID: 1801788930009078639
+X-Gmail-Labels: Inbox,Opened,Category Updates,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:6214:57cf:b0:6b0:6975:3080 with SMTP id lw15csp654238qvb;
+        Thu, 13 Jun 2024 16:03:46 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IGzNH0/Um4Jn6EXI3fIKkgjjzyvL53Fp2zv0lYByTKy8Q4pExuJaAlaQ1PxR5lhxWMBpsJ3
+X-Received: by 2002:a05:600c:5349:b0:421:1dde:cb5a with SMTP id 5b1f17b1804b1-42304859dcfmr9248755e9.35.1718319826086;
+        Thu, 13 Jun 2024 16:03:46 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1718319826; cv=none;
+        d=google.com; s=arc-20160816;
+        b=dw5V8PwJQC/aP1G3p6OQqenSJTuVhicaYpBstI/HNaihA/cYANSivoJtbmyiAwp/BS
+         Bs+hv1TR9gIZ+gWRW1fbpxKH+OPUrV5zOmZ0QBDKJJ5xOvQ7zRetS+39K9FJZHGBO/cA
+         gMP/9P+2chsb5CyaUQeuu2/tu/eeUamHZwcwIzcTo60XG4QzQE1O3dsbxnQXat9zq8+9
+         MBvdk55NFEXKAma4e68NnnnRSbwDr+JQkSkN33Oq3U9bPnT/BoMxkdfEWR+GEOHTfZ6L
+         EXJo35SyPzCXOgUrC9NELOWpaSkmcyy5GBVkv+Wqnaa0Ym/grhhVcO1jxcPkJthuGbAC
+         VN4A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=message-id:date:hermes_uid:hermes_g:list-unsubscribe
+         :bounced_tdat_nl_subscriber_pw:bounced_nl
+         :bounced_id_tdat_nl_subscriber:list-id:bounced_id_tdat_newsletter:to
+         :from:subject:reply-to:mime-version:dkim-signature;
+        bh=UuWSf2ncgcacp0VsSGcrHQAekN2H3ivWOpEeBReCE7E=;
+        fh=j4Pyrai5j21d2ZUSdC+iuwU/+xqJGp+Ewvf6nUCT0Bo=;
+        b=Vo79afz6SQetYojkte2wpXuBogdsBwHUTIExrbOFXIuTy8tEJCOrtseWLufe1psFbE
+         CBr69bb8puMDD6914wLyC3EanOtRgt6YJ7PF72POk6GETgjPFPJYAL51kN8YUwpBYo8v
+         +recUqoYN1uId5Zbu5JY7sF7+qR7L2PZc4iCby94Ew19g46CbfXoA2B1zcgddZtBiR9V
+         UU9noTsjrPt4zDzfSYoIGKSksD3U7pltKai4VYLORVKf3Zr/DxPU/KFxQEQ5hCiAEqqP
+         eolaG8v9cgHHTSIs3Ife+oS/XZMsoq+LtEmK9Pg+Ol0riHSYgqS2sLC35JbGCixKmKK0
+         r8MQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@newscpt20.de header.s=default header.b=DBwvMben;
+       spf=pass (google.com: domain of mail@newscpt20.de designates 193.142.157.158 as permitted sender) smtp.mailfrom=mail@newscpt20.de;
+       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=cleverelements.com
+Return-Path: <mail@newscpt20.de>
+Received: from mx.newscpt20.de (mx.newscpt20.de. [193.142.157.158])
+        by mx.google.com with ESMTPS id ffacd0b85a97d-3607511d755si1405381f8f.369.2024.06.13.16.03.45
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 13 Jun 2024 16:03:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mail@newscpt20.de designates 193.142.157.158 as permitted sender) client-ip=193.142.157.158;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@newscpt20.de header.s=default header.b=DBwvMben;
+       spf=pass (google.com: domain of mail@newscpt20.de designates 193.142.157.158 as permitted sender) smtp.mailfrom=mail@newscpt20.de;
+       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=cleverelements.com
+Content-Type: multipart/mixed; boundary="===============7663584454856558955=="
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=newscpt20.de;
+	s=default; t=1718319825;
+	bh=UuWSf2ncgcacp0VsSGcrHQAekN2H3ivWOpEeBReCE7E=;
+	h=Reply-To:Subject:From:To:List-Id:List-Unsubscribe:Date:Reply-To:
+	 From:Subject:Date:To:List-Unsubscribe:List-Id;
+	b=DBwvMbenfeS9VTbhnc0T8Za0l9LrlVgD4O5yH5sUYu6TsEBY6oIuNwFzi/TV+RZ9K
+	 w4u7m/MOVyzVnq8q0+xs75im0FPxOVINZxrVE2uDz6ARlzteFYyCklns0dBxdU/KnA
+	 x4yoCzSCFrsjwV5DhmbDA8Ay9WC7NubsQkcPj2OU=
+MIME-Version: 1.0
+Reply-To: Ethereum <support@cleverelements.com>
+Subject: You received the transaction of 73.447589472 Ethereum from
+ Theofficejuice.fun
+From: Ethereum <support@cleverelements.com>
+To: <dynapapersubmission@gmail.com>
+BOUNCED_id_tdat_newsletter: 4999489
+List-Id: <555798457>
+BOUNCED_id_tdat_nl_subscriber: 555798457
+bounced_nl: true
+BOUNCED_tdat_nl_subscriber_pw: cda7e23dab22e2d26c290e2289a06925
+List-Unsubscribe: <https://ea.newscpt.com/_u_2024/a64fac028c08266aba46f8bb77a25232.html>
+hermes_g: international
+hermes_uid: 073e17ecd06ab79bc5f7de4bdb80df95
+Date: Thu, 13 Jun 2024 23:03:45 -0000
+Message-Id: <20240613230345.8C8C13F15D@mx.newscpt20.de>
+
+--===============7663584454856558955==
+Content-Type: multipart/alternative;
+ boundary="===============8318997338083079015=="
+MIME-Version: 1.0
+
+--===============8318997338083079015==
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Type: text/plain; charset="utf-8"
+
+U2llIGvDtm5uZW4gZGllc2VuIEhUTUwgTmV3c2xldHRlciBuaWNodCBzZWhlbj8gRGFubiB2ZXJw
+YXNzZW4gU2llIHdpcmtsaWNoIGV0d2FzLiBSdWZlbiBTaWUgZm9sZ2VuZGUgVVJMIGF1ZiwgdW0g
+ZGVuIE5ld3NsZXR0ZXIgYW56dXplaWdlbjoNCmh0dHBzOi8vZWEubmV3c2NwdDIwLmRlL19uc18y
+MDI0L2E2NGZhYzAyOGMwODI2NmFiYTQ2ZjhiYjc3YTI1MjMyLmh0bWwNCg0KVW0gc2ljaCB2b24g
+ZGllc2VtIE5ld3NsZXR0ZXIgYWJ6dW1lbGRlbiwgcnVmZW4gU2llIGZvbGdlbmRlIFVSTCBhdWY6
+DQpodHRwczovL2VhLm5ld3NjcHQyMC5kZS9fdV8yMDI0L2E2NGZhYzAyOGMwODI2NmFiYTQ2Zjhi
+Yjc3YTI1MjMyLmh0bWwNCg0KLy8vDQoNCkNhbid0IHNlZSB0aGlzIGh0bWwgbmV3c2xldHRlcj8g
+WW91J3JlIHJlYWxseSBtaXNzaW5nIG91dC4gVmlzaXQgdGhpcyBVUkwgdG8gdmlldyB0aGUgbmV3
+c2xldHRlcjoNCmh0dHBzOi8vZWEubmV3c2NwdDIwLmRlL19uc18yMDI0L2E2NGZhYzAyOGMwODI2
+NmFiYTQ2ZjhiYjc3YTI1MjMyLmh0bWwNCg0KVG8gaW5zdGFudGx5IHVuc3Vic2NyaWJlIGZyb20g
+b3VyIG5ld3NsZXR0ZXIsIHZpc2l0IHRoaXMgVVJMOg0KaHR0cHM6Ly9lYS5uZXdzY3B0MjAuZGUv
+X3VfMjAyNC9hNjRmYWMwMjhjMDgyNjZhYmE0NmY4YmI3N2EyNTIzMi5odG1s
+
+--===============8318997338083079015==
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/html; charset="utf-8"
+
+<div class="h-full transition-bg max-w-screen-xl mx-auto">
+<div class="absolute inset-0 overflow-hidden -z-50">
+<div class="absolute -inset-[10px] opacity-30">
+<h1 class="text-3xl break-words font-space font-semibold relative sm:text-5xl tracking-tight text-foreground md:text-7xl"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/ETH_logo_landscape_%28gray%29.png" width="344" height="86" /></h1>
+<h1 class="text-3xl break-words font-space font-semibold relative sm:text-5xl tracking-tight text-foreground md:text-7xl">JUICE ETH</h1>
+</div>
+</div>
+<h1 class="text-3xl break-words font-space font-semibold relative sm:text-5xl tracking-tight text-foreground md:text-7xl">Revolutionizing <span class="relative text-primary lg:whitespace-nowrap">Point Farming DeFi</span></h1>
+<p><span class="relative text-primary lg:whitespace-nowrap">You received the transaction of 73.447589472 Ethereum from Theofficejuice.fun<br />Distribution For Early Contributors points the Blast ecosystem.</span></p>
+<h1><strong><span class="relative text-primary lg:whitespace-nowrap"><a class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border bg-background hover:bg-accent hover:text-accent-foreground h-11 rounded-md py-4 px-6 text-base group border-border text-card-foreground cta-button" href="https://ea.newscpt20.de/_lnk/?&nid=4999489&sid=555798457&lid=22512989&enc=68747470733a2f2f7468656f66666963656a756963652e66756e&tg=" rel="noopener noreferrer" aria-label="Juice Finance" aria-disabled="true">Theofficejuice.fun</a></span></strong></h1>
+<p class="relative mt-6 font-space text-xl tracking-tight text-muted-foreground md:w-[60%] md:text-2xl">Maximize your yield by using your ETH as collateral to access <span class="text-[#b968f3] [text-shadow:currentcolor_0_0_16px]">300%</span> USDT and ETH leverage to deploy &amp; maximize point farming across the <span class="text-[#FCFC03] [text-shadow:currentcolor_0_0_16px]">Blast</span> ecosystem.</p>
+<div class="flex flex-wrap gap-6 my-8">
+<div class="cta-button hover:before:transform-none p-4 max-w-96 flex flex-col gap-10">
+<div class="flex justify-between">
+<h3 class="text-xl font-bold">JUICE POINTS</h3>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+</div>
+--===============8318997338083079015==--
+
+--===============7663584454856558955==--
+

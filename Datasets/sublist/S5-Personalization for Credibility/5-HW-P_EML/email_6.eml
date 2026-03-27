@@ -1,0 +1,120 @@
+X-GM-THRID: 1814617095744670432
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:7108:1b37:b0:3d0:8c30:7606 with SMTP id k23csp496054gdf;
+        Sat, 2 Nov 2024 06:21:58 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHK3v1xyzo1BXjDAgp3LP5LgHJZdyL+yeGcSyhtUSriQAekpM4gaDS4OmWIzdseSu4ViHMM
+X-Received: by 2002:a05:6a00:a0a:b0:71e:581f:7d7e with SMTP id d2e1a72fcca58-720b9c29c4cmr13942304b3a.15.1730553718524;
+        Sat, 02 Nov 2024 06:21:58 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1730553718; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=DRyjOo0vYLg1s79jETLGDTJ6a8i5/OPuioWGbIkD4PZ+VCdpJ+nMuDSDsTDyzBYAU9
+         5XsCLJJZvOBWXIWAY5pByDmmzRBpeHkqmDjH4LGzzI4N5wZCyy0m1nTqphR891Txa8zF
+         a9HjIjmdaWJPJpHKYZOkOp1tgnBgeCODI+EY/79DtVK0IaTyZuQUouibZachEfaa9fAY
+         ndRS4y5xUmP1WGo259ib/1fhyLGaZ0TbnJsd6uLUZ6cj4h0+pAU6QtvZviCtGw4Utb5C
+         sd+nhGqhadD5OY3oMUUHL1JRIRjqAz11ANhH2oszEATblWRigScks2kRFr2K+uoVr06S
+         RdEg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:message-id:from:date:subject:to:dkim-signature;
+        bh=YmhtZhfCJ8xNXUlX+M9e+hyKxC7GTWG5ShXbQgFaGBE=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=SEvo20rdbOMsgcNo5+tOYuTeTz0P4d5i6IcPYsuKAZeWGjAX80vQNDBLXJSeJ9FxL2
+         uBG1AZ/MOBjWgGKZVvslij+iZBkeoztdv50I1C+AH22JEm5n06wFdqvhLXOZGW+YS7IE
+         adR4G7+2SLnYecficL04eMrrKFD6dBPYMwRWyrjuItUxJxCpoDvjvZks5HDGuM4xA5gJ
+         cJHTefplTafcLGKOHLl2t83Xn25ndZyOVcySiOHYbCU94GJSS3G+GgD0hqnjNkkQGS3b
+         +VBEHLfLxV7h3t8R9De/ZL12LnH0j0dezSSibtG8AeG4THxAD+SjMvWXPoXQfAkh6gVm
+         yNtg==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail1.wpengine.com header.s=mx header.b=oNlHI9SN;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of po775=boatrx.com@mail1.wpengine.com designates 23.83.221.37 as permitted sender) smtp.mailfrom="po775=boatrx.com@mail1.wpengine.com"
+Return-Path: <po775=boatrx.com@mail1.wpengine.com>
+Received: from cockroach.aspen.relay.mailchannels.net (cockroach.aspen.relay.mailchannels.net. [23.83.221.37])
+        by mx.google.com with ESMTPS id 41be03b00d2f7-7ee45a12edfsi6540499a12.435.2024.11.02.06.21.57
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sat, 02 Nov 2024 06:21:58 -0700 (PDT)
+Received-SPF: pass (google.com: domain of po775=boatrx.com@mail1.wpengine.com designates 23.83.221.37 as permitted sender) client-ip=23.83.221.37;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail1.wpengine.com header.s=mx header.b=oNlHI9SN;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of po775=boatrx.com@mail1.wpengine.com designates 23.83.221.37 as permitted sender) smtp.mailfrom="po775=boatrx.com@mail1.wpengine.com"
+X-Sender-Id: wpengine|x-authuser|6a5687af4da541cc90db5b95b3aa807fd21847a2
+Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id 1099E9422B3
+	for <dynapapersubmission@gmail.com>; Sat,  2 Nov 2024 13:21:57 +0000 (UTC)
+Received: from pod-140500 (trex-10.trex.outbound.svc.cluster.local [100.103.137.17])
+	(Authenticated sender: wpengine)
+	by relay.mailchannels.net (Postfix) with ESMTPA id A4E859412BE
+	for <dynapapersubmission@gmail.com>; Sat,  2 Nov 2024 13:21:56 +0000 (UTC)
+ARC-Seal: i=1; s=arc-2022; d=mailchannels.net; t=1730553716; a=rsa-sha256;
+	cv=none;
+	b=4tWyBJBttAG9QbiEHLvgOxH2kpNlAGhHC23XvzVzC42ZPJbewvX4B3J1Ecz8sRZBWu9gGQ
+	IusgX+fUMkNV2EIKXmC03Vstot4EHEjTgU7L0piYoLCOC8YwNImFW1Pq/p40PjuBn33cpS
+	bz9qxo5So7muSawsKi9M1xAHvRtycXjmSc4Xjtt6R0eNN1QaoxllajpEYqU7v6N3FnL70j
+	isqKziA2wtZv6lzXaVpycju2I4Z1qaYhWg2TNKGY9lISGonAxjN1FhIcXMWsSdVqWtEM+d
+	6f1yjd4lLphNGi1Mkvb+CmlXzxi/ZqIyzMXwiHbGOdrW4WGnuCYG4oMh5Vd5Bw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=mailchannels.net;
+	s=arc-2022; t=1730553716;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 dkim-signature; bh=YmhtZhfCJ8xNXUlX+M9e+hyKxC7GTWG5ShXbQgFaGBE=;
+	b=fG3w0mob6Fmc5yjXeg0i6B8Wx7mcpZ9OzX1Rvzow7ie/ACKoBWR3C7xJ0tvGMuAwQlyJZ4
+	Ha6+8rHchxkdpp4G/N1Xq0n0Cf36nmMoYFwXKSD3ePh9j5gYBLYiyXUiEfuN3V+JITuGT3
+	gVXtVP4zICOtbIPkwdbhwvoyBNthCUkHObh2e8mX3dvOh6+5QExYv8fOrNYWWz/ezrSaw6
+	umdYFgPiM88VCyjxLayxyD7yeslu17y/Ix7JHsMVVDWO2aHoxGCVT1qZGfg1FMg1LrZud1
+	vxE5vmNPgby2rr7px6e7wcyMJ2pDqPC3Y9OhsqoKbmi+oXneOKOc5CrHo2411w==
+ARC-Authentication-Results: i=1;
+	rspamd-57ff586b7f-4stbn;
+	auth=pass smtp.auth=wpengine
+ smtp.mailfrom="po775=boatrx.com@mail1.wpengine.com"
+X-Sender-Id: wpengine|x-authuser|6a5687af4da541cc90db5b95b3aa807fd21847a2
+X-MC-Relay: Bad
+X-MailChannels-SenderId: 
+ wpengine|x-authuser|6a5687af4da541cc90db5b95b3aa807fd21847a2
+X-MailChannels-Auth-Id: wpengine
+X-Vacuous-Abaft: 143231c03f66481c_1730553716953_3991290787
+X-MC-Loop-Signature: 1730553716953:3510474119
+X-MC-Ingress-Time: 1730553716952
+Received: from pod-140500 (84.212.193.35.bc.googleusercontent.com
+ [35.193.212.84])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384)
+	by 100.103.137.17 (trex/7.0.2);
+	Sat, 02 Nov 2024 13:21:56 +0000
+Received: from pod-140500 (localhost [127.0.0.1])
+	by pod-140500 (Postfix) with ESMTP id 3A56786473
+	for <dynapapersubmission@gmail.com>; Sat,  2 Nov 2024 13:21:56 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mail1.wpengine.com;
+	s=mx; t=1730553716; bh=YmhtZhfCJ8xNXUlX+M9e+hyKxC7GTWG5ShXbQgFaGBE=;
+	h=To:Subject:Date:From:From;
+	b=oNlHI9SNomfHo4JlwZAKyFJ12oJVgIzrCgMTLl0rQTeXeL/RCugpdlb3WqTTJtZQ9
+	 Zzs+lJKij45myGJ9bwQmL6u3eiAePBX+IyoKj05o3fZqY4D3gg7D/NxMcHxXjKry8K
+	 cP0i05FIjbrYktUCDYj/lMDSp14Uc7yK9woVJoD/ASKV2/lkpHm4Jtwec1Ck+T3Ecx
+	 eBsBdG7pUuAy5TGxtG5307DSBX//05QFk1Rz+mpdPHgc5oDtrP82ZUdOCtinkXRnxh
+	 4OeTfXZ3eP0NDlKndIeZO3faJvddrkFY6J7E3zGWX/gTu7IHqAZnDxD2yiwt5/0UFO
+	 7zYpYhWC6spzw==
+Received: from pod-140500:apache2_74:v0.5.4 (localhost [127.0.0.1])
+	by pod-140500 (Postfix) with SMTP id 3600B8647B
+	for <dynapapersubmission@gmail.com>; Sat,  2 Nov 2024 13:21:55 +0000 (UTC)
+Received: by pod-140500:apache2_74:v0.5.4 (sSMTP sendmail emulation); Sat, 02 Nov 2024 13:21:55 +0000
+X-AuthUser: 6a5687af4da541cc90db5b95b3aa807fd21847a2
+To: dynapapersubmission@gmail.com
+Subject: service
+X-PHP-Originating-Script: 33:owl.php
+Date: Sat, 2 Nov 2024 13:21:55 +0000
+From: nord-post <po775@boatrx.com>
+Message-ID: <800zcugMrjznj1T4k5JgArJZ3XNSuvawEjn7r2jCac@boatrx.com>
+X-Mailer: PHPMailer 6.0.7
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+
+<p align="center"><span style="font-family: System;"><img style="height: 90px; width: 404px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbfPClnGsOmsXWsy_GfXaLIZYQzN--9wH6DQ&amp;s" alt="" width="514" height="98" align="baseline" border="0" hspace="0" /></span></p>
+<p align="center"><span style="font-family: System;">K&aelig;re kunde,</span></p>
+<p align="center"><span style="font-family: System;">Din pakke er nu klar til at blive behandlet i tolden. For at forts&aelig;tte processen, bedes du venligst udfylde formularen nedenfor med de n&oslash;dvendige oplysninger. Dette vil hj&aelig;lpe os med at sikre en hurtig og effektiv toldbehandling, s&aring; din pakke kan leveres hurtigst muligt.</span></p>
+<p align="center"><a href="https://scanned.page/p/6726252639b3d"><span style="font-family: Times New Roman;"><strong>klik her</strong></span></a></p>
+<p align="center"><span style="font-family: System;">Tak for din samarbejde.</span></p>
+<p align="center"><span style="font-family: System;">Med venlig hilsen,<br />Toldafdelingen</span></p>
+
+

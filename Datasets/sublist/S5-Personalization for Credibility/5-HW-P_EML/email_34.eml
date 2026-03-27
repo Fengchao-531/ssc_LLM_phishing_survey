@@ -1,0 +1,153 @@
+X-GM-THRID: 1790350249156227812
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:6214:e46:b0:68c:cd67:9813 with SMTP id o6csp210447qvc;
+        Thu, 8 Feb 2024 08:50:50 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IFVH+Pivty5qK5fjZoancvDvOJR0wQjkMf2N12wpbLUj1rdjAhX4sEPIgt1wOuH8RQQ7c4h
+X-Received: by 2002:adf:a316:0:b0:33b:3b9d:d6b4 with SMTP id c22-20020adfa316000000b0033b3b9dd6b4mr24274wrb.42.1707411050148;
+        Thu, 08 Feb 2024 08:50:50 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1707411050; cv=none;
+        d=google.com; s=arc-20160816;
+        b=HzLXlg3tKyh00vrsfB6oE6GYONrlpjsqV/OGpzNllh6rjF52cBAaP4kUvXVhDHkTXS
+         WfUmDu7tQdnck23iWtAY0SC+68AY2NyyD8CzYYYWCW9JysChoTHjaavg+qMnZyzz4jOJ
+         xyIDFzuiiTbm/q/b5FxEo3IalY6fCZ/uHfdOFEDAk6wa5jxnL7uivno1I44WCt2oSZdz
+         FVkGVY2cS+X8k4wKI2hfS7AqJSnreGIalZEdQ5VLEB+/QIkaXXM+5cvC00zmU3643plx
+         WhFzIfjjevRAnUj5bjQ/r7IkOIQAQSYoLAQuEMpJedPHVKaHGokd+n/vZttUCPryxpYH
+         8y3w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=message-id:feedback-id:list-unsubscribe:precedence:mime-version
+         :subject:date:reply-to:to:from:dkim-signature;
+        bh=Z66GUeyZ8FntkyO4kWESjGFYmjG/lwMrf5K+UnImHmo=;
+        fh=ufgvx5+x65QLBGxRGy73d/n5xIDIk2eqlQV6PvBkqqQ=;
+        b=ECaYNRC/UfFFUBbWKfYNy+wmbnIw925UaVSn+GnOx6qej1G53Ft1lHmQixov4JExmN
+         /twm2V6z7PjAcLzkOJM3H1HpDk77HNrtwGNVHRDbIGvhS6rUMWBHKEnV3tQ39KRPRgPS
+         3bgY5LL+Su+cPMQLdE7RBuiAt3bKCINIUzlTZGqqGLCLWM7LQbBMxVqab/xXfqFSQmSX
+         KN2U+LTIYhOPiytmoEw2oWN6Reh4WJFKjzybqbJcJhr3Ae3o4xbXKYqjzs+v8KQW3oaU
+         dODWvGgfceEbXJ0Smte0GgH/MCFzS0ccpDh+AAv/LEBAhUveTL5KQvoLG+3NzS2/AhzZ
+         X6hA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@send360.pl header.s=default header.b=JqQw2RLp;
+       spf=pass (google.com: domain of 12x67012.1748578.253761849@news.send360.pl designates 91.230.36.150 as permitted sender) smtp.mailfrom=12x67012.1748578.253761849@news.send360.pl;
+       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=cemporcentofree.com.br
+Return-Path: <12x67012.1748578.253761849@news.send360.pl>
+Received: from smtp09.send360.pl (smtp09.send360.pl. [91.230.36.150])
+        by mx.google.com with ESMTPS id a8-20020a056000100800b0033b15b018d3si2027798wrx.575.2024.02.08.08.50.49
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 08 Feb 2024 08:50:50 -0800 (PST)
+Received-SPF: pass (google.com: domain of 12x67012.1748578.253761849@news.send360.pl designates 91.230.36.150 as permitted sender) client-ip=91.230.36.150;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@send360.pl header.s=default header.b=JqQw2RLp;
+       spf=pass (google.com: domain of 12x67012.1748578.253761849@news.send360.pl designates 91.230.36.150 as permitted sender) smtp.mailfrom=12x67012.1748578.253761849@news.send360.pl;
+       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=cemporcentofree.com.br
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=send360.pl;
+	s=default; t=1707411049;
+	bh=Z66GUeyZ8FntkyO4kWESjGFYmjG/lwMrf5K+UnImHmo=;
+	h=From:To:Reply-To:Date:Subject:List-Unsubscribe:From;
+	b=JqQw2RLplW/QBqVMGP6MJxl3ObRuH4Y960aAx6F9FyAS7Q8VtpFbVdkSnuS7NXBxO
+	 gPq3q2+6gzqUeI+WUChdm7nPYmy9pJyG3oamgJT8jR7KziZDEjjzC1Tl9MYa/hk446
+	 D5criW0KToqYPOIskcRvVY/SFFNTY5po6txz7THI=
+From: "email" <member@cemporcentofree.com.br> 
+To: "dynapapersubmission@gmail.com" <dynapapersubmission@gmail.com>
+Reply-To: member@cemporcentofree.com.br
+Date: Thu, 08 Feb 2024 17:50:49 +0100
+Subject: #Benachrichtigung zur Kontosperrung_SBB/
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="_=aspNetEmail=_ef64c74ace0c49b5b25768b30cdda535"
+Precedence: bulk
+List-Unsubscribe: <https://news.send360.pl/app/panel/Redirect.aspx?link_id=53D3D68A-D69B-4844-8B25-A00C0FBC79AE&mail_id=D13E8134-D687-4171-8A50-B1F27D3DF2DD&d=12A57018-7192-454E-AEE4-16F881262A12&cntct_id=eBIdDEAEVVoMeloQZ25AMBELFG9mezFoIVRgf1MXbnNFQWB8&s=2e868189788007b53fa5912e3314ccbf86f47d42&site=aHR0cHMlM2ElMmYlMmZuZXdzLnNlbmQzNjAucGwlMmZhcHAlMmZwYW5lbCUyZlJlZ2lzdGVyT3V0UGFnZS5hc3B4JTNmbWFpbF9pZCUzZCUyMyUyM21haWxfaWQlMjMlMjMlMjZhbXAlM2JkJTNkMTJBNTcwMTgtNzE5Mi00NTRFLUFFRTQtMTZGODgxMjYyQTEy>
+Feedback-ID: :1748578:67012:send360.pl
+X-Sid: 20240208.175049.5754@send360.pl
+Message-ID: <12x67012.1748578.253761849@news.send360.pl>
+
+--_=aspNetEmail=_ef64c74ace0c49b5b25768b30cdda535
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Es ist ein dringendes Verfahren von Ihnen heute erforderlich, solange Ihr=
+ Konto eingeschr=C3=A4nkt wurde, m=C3=BCssen Sie Ihr Konto so schnell wie=
+ m=C3=B6glich aktualisieren, damit Sie Ihr Konto wieder verwenden k=C3=B6=
+nnen=2ESie m=C3=BCssen Ihre Daten so schnell wie m=C3=B6glich aktualisier=
+en, oder wir werden sie dauerhaft schlie=C3=9Fen=2EAktualisieren Sie mein=
+e Daten jetzt=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 https://news=2Ese=
+nd360=2Epl/app/panel/RegisterOutPage=2Easpx?mail_id=3DD13E8134-D687-4171-=
+8A50-B1F27D3DF2DD=26d=3D12A57018-7192-454E-AEE4-16F881262A12 =0D=0A
+
+--_=aspNetEmail=_ef64c74ace0c49b5b25768b30cdda535
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div style=3D=22color: rgb(51, 51, 51); font-family: =26quot;Open sans=26=
+quot;, Arial, sans-serif; font-size: 16px; background-color: rgb(255, 255=
+, 255);=22><img src=3D=22http://templates=2Esend360=2Epl/67012/8df8f726-d=
+f40-41a8-901d-37332d67c123-files/swisspass-footer=2Epng=22></div><div sty=
+le=3D=22color: rgb(51, 51, 51); font-family: =26quot;Open sans=26quot;, A=
+rial, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);=22=
+>Es ist ein dringendes Verfahren von Ihnen heute erforderlich, solange Ih=
+r Konto eingeschr=C3=A4nkt wurde, m=C3=BCssen Sie Ihr Konto so schnell wi=
+e m=C3=B6glich aktualisieren, damit Sie Ihr Konto wieder verwenden k=C3=B6=
+nnen=2E</div><div style=3D=22color: rgb(51, 51, 51); font-family: =26quot=
+;Open sans=26quot;, Arial, sans-serif; font-size: 16px; background-color:=
+ rgb(255, 255, 255);=22>Sie m=C3=BCssen Ihre Daten so schnell wie m=C3=B6=
+glich aktualisieren, oder wir werden sie dauerhaft schlie=C3=9Fen=2E</div=
+><div style=3D=22color: rgb(51, 51, 51); font-family: =26quot;Open sans=26=
+quot;, Arial, sans-serif; font-size: 16px; background-color: rgb(255, 255=
+, 255);=22><a href=3D=22https://system=2Esend360=2Epl/redirect/index=2Eph=
+p?lid=3D0BBF0F68-29F3-40B4-BB66-2374CEE8AFA6=26mccid=3DD13E8134-D687-4171=
+-8A50-B1F27D3DF2DD=26did=3D12A57018-7192-454E-AEE4-16F881262A12=26mid=3DX=
+S9KLgIkFAlTPR5GMyoHAUoiVxZDIhMsCEJCIQY=253d=26cid=3DCGEQd0dyXA=253d=253d=26=
+cntct_id=3DeBIdDEAEVVoMeloQZ25AMBELFG9mezFoIVRgf1MXbnNFQWB8=26s=3D8eed74a=
+fc5dc3e204a40023ded321e66d88007a8=26site=3DaHR0cHMlM2ElMmYlMmZibG9nLmFtaW=
+dhc2hvcC5jb20uYnIlMmZpbWFnZXMlMmZpbWFnZXMlMmZzYiUyZg=253d=253d=22 rel=3D=22=
+noreferrer noopener=22 target=3D=22_blank=22 data-saferedirecturl=3D=22ht=
+tps://www=2Egoogle=2Ecom/url?q=3Dhttps://s=2Ereisminer=2Exyz/lIY8OQ=26sou=
+rce=3Dgmail=26ust=3D1707493583130000=26usg=3DAOvVaw1ahxShHqU7vHVhsolNFKj_=
+=22 style=3D=22color: rgb(17, 85, 204);=22><strong>Aktualisieren Sie mein=
+e Daten jetzt</strong></a></div><div style=3D=22color: rgb(51, 51, 51); f=
+ont-family: =26quot;Open sans=26quot;, Arial, sans-serif; font-size: 16px=
+; background-color: rgb(255, 255, 255);=22><strong>=26nbsp;</strong></div=
+><div style=3D=22color: rgb(51, 51, 51); font-family: =26quot;Open sans=26=
+quot;, Arial, sans-serif; font-size: 16px; background-color: rgb(255, 255=
+, 255);=22><strong>=26nbsp;</strong></div><div style=3D=22color: rgb(51, =
+51, 51); font-family: =26quot;Open sans=26quot;, Arial, sans-serif; font-=
+size: 16px; background-color: rgb(255, 255, 255);=22><strong>=26nbsp;</st=
+rong></div><div style=3D=22color: rgb(51, 51, 51); font-family: =26quot;O=
+pen sans=26quot;, Arial, sans-serif; font-size: 16px; background-color: r=
+gb(255, 255, 255);=22><strong>=26nbsp;</strong></div><div style=3D=22colo=
+r: rgb(51, 51, 51); font-family: =26quot;Open sans=26quot;, Arial, sans-s=
+erif; font-size: 16px; background-color: rgb(255, 255, 255);=22><strong>=26=
+nbsp;</strong></div><div style=3D=22color: rgb(51, 51, 51); font-family: =
+=26quot;Open sans=26quot;, Arial, sans-serif; font-size: 16px; background=
+-color: rgb(255, 255, 255);=22><strong>=26nbsp;</strong></div><div style=3D=
+=22color: rgb(51, 51, 51); font-family: =26quot;Open sans=26quot;, Arial,=
+ sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);=22><s=
+trong>=26nbsp;</strong></div><div style=3D=22color: rgb(51, 51, 51); font=
+-family: =26quot;Open sans=26quot;, Arial, sans-serif; font-size: 16px; b=
+ackground-color: rgb(255, 255, 255);=22><strong> <a href=3D=22https://new=
+s=2Esend360=2Epl/app/panel/Redirect=2Easpx?link_id=3DDDFFFD7B-2A10-4D1C-B=
+452-7F267E857A1A=26mail_id=3DD13E8134-D687-4171-8A50-B1F27D3DF2DD=26d=3D1=
+2A57018-7192-454E-AEE4-16F881262A12=26cntct_id=3DeBIdDEAEVVoMeloQZ25AMBEL=
+FG9mezFoIVRgf1MXbnNFQWB8=26s=3D27f85e08acdf329f35c611d90680bb3ea4e32b05=26=
+site=3DaHR0cHMlM2ElMmYlMmZuZXdzLnNlbmQzNjAucGwlMmZhcHAlMmZwYW5lbCUyZlJlZ2=
+lzdGVyT3V0UGFnZS5hc3B4JTNmbWFpbF9pZCUzZCUyMyUyM21haWxfaWQlMjMlMjMlMjZhbXA=
+lM2JkJTNkMTJBNTcwMTgtNzE5Mi00NTRFLUFFRTQtMTZGODgxMjYyQTEy=22>Kliknij je=C5=
+=9Bli nie chcesz od nas otrzymywa=C4=87 tego typu korespondencji=2E</a> <=
+/strong></div><img alt=3D=22image=22 src=3D=22https://system=2Esend360=2E=
+pl/open/index=2Ephp?mccid=3DD13E8134-D687-4171-8A50-B1F27D3DF2DD=26did=3D=
+12A57018-7192-454E-AEE4-16F881262A12=26mid=3DXS9KLgIkFAlTPR5GMyoHAUoiVxZD=
+IhMsCEJCIQY=253d=26cid=3DCGEQd0dyXA=253d=253d=26cntct_id=3DeBIdDEAEVVoMel=
+oQZ25AMBELFG9mezFoIVRgf1MXbnNFQWB8=26div=3D0=22 width=3D=221=22 height=3D=
+=222=22/><div style=3D=22width:1px;height:2px;background:url(=27https://s=
+ystem=2Esend360=2Epl/open/index=2Ephp?mccid=3DD13E8134-D687-4171-8A50-B1F=
+27D3DF2DD=26did=3D12A57018-7192-454E-AEE4-16F881262A12=26mid=3DXS9KLgIkFA=
+lTPR5GMyoHAUoiVxZDIhMsCEJCIQY=253d=26cid=3DCGEQd0dyXA=253d=253d=26cntct_i=
+d=3DeBIdDEAEVVoMeloQZ25AMBELFG9mezFoIVRgf1MXbnNFQWB8=26div=3D1=27)=22></d=
+iv>=0D=0A
+
+--_=aspNetEmail=_ef64c74ace0c49b5b25768b30cdda535--
+
+

@@ -1,0 +1,308 @@
+X-GM-THRID: 1815565096814454902
+X-Gmail-Labels: Inbox,Opened,Category Updates,Starred
+Received: from 326440123436
+	named unknown
+	by gmailapi.google.com
+	with HTTPREST;
+	Tue, 12 Nov 2024 19:30:02 -0500
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:6214:57ce:b0:656:3c0c:40ba with SMTP id lw14csp3316505qvb;
+        Wed, 20 Sep 2023 09:08:09 -0700 (PDT)
+X-Received: by 2002:a17:902:c10d:b0:1b6:6e3a:77fb with SMTP id 13-20020a170902c10d00b001b66e3a77fbmr2653249pli.2.1695225849016;
+        Wed, 20 Sep 2023 09:04:09 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHw3QP2J0Bl+k6hfxtpbMauzBapFP4iTW03xoK0vJAnNONzaB25j8z4SHguXJ5Jyy+J9n8l
+X-Received: by 2002:a17:902:c10d:b0:1b6:6e3a:77fb with SMTP id 13-20020a170902c10d00b001b66e3a77fbmr2653164pli.2.1695225847473;
+        Wed, 20 Sep 2023 09:04:07 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1695225847; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=r7XXRIEez1riKB8J/q9nPEesUtXIn4S/qF2smjR3s3SeA+7NKpwK8OhKsqPHflbpL5
+         oHtFZSAodKi6Y5pbGvsLMDfroctiYhaocI11w4M+2t81DWFuvAX1LVJYa7Z3x/qflSOZ
+         VSB5vPrhCgGZGfcbyks7nQnHDY0QoSYbhK+LBV4NC/Jj4S3tCOUK9RjO4MuifMYg5LBx
+         dFb/7mC9kp7OA/jmnIQtXAaIcOw2wP200kFTMAutv5bkeA//97oKi4gbjZDc4qCNM4Th
+         2Q3Cs3sCh5Q/g6ZQSRpEPRl5+SrjR+viLbw7oi7fuSb6gXwoEXudizntdC0NQFaKxGo8
+         Vm7w==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=tm-mail-jid:original-envelope-id:content-transfer-encoding
+         :mime-version:subject:message-id:to:from:date:dkim-signature;
+        bh=LiQ2e8yrxXZgXlccoi7DwoCgBaLv9LHAuGrpsJyYgjU=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=H5SJMOxbF7YQ4ekNGH7QOwnszu9Qv966F1XMt8nzxTqGM7izjQzsFxMpEXNJgRgk8W
+         Z71kTT0AVZKcAkaBqlnggvln59dfuTL+Ng80OlZQAw/+4xVAYM/+H+FQtahA/nZhY77f
+         oAGEZoW5iVN9Gwmi3iiHRg5AaT12e0S/uk0buYZzcRmb5Fz1lY9OGJPOwtDPTm1ze3e6
+         bV1hdg0AGo5nxFtsu38MDlU0hvmGucKXOfapXXgCHpq9AsFsdZ+N35wwNIlFzmNvsjtJ
+         gyMQvNPmqQ1/Qh5QQdyQNqh60N//LocrydCEN5nFg3WVPWp+7lQTdJmPFoZ9XBtG5Ut3
+         Ue/Q==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@charmtracker.com header.s=1522905413783 header.b="bc/UrfTz";
+       arc=pass (i=1 spf=pass spfdomain=mailerehr.charmtracker.com dkim=pass dkdomain=charmtracker.com dmarc=pass fromdomain=charmtracker.com>);
+       spf=pass (google.com: domain of bounces+424c0870-57cf-11ee-bf7e-52540064429e_vt1@mailerehr.charmtracker.com designates 135.84.80.94 as permitted sender) smtp.mailfrom=bounces+424c0870-57cf-11ee-bf7e-52540064429e_vt1@mailerehr.charmtracker.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=charmtracker.com
+Return-Path: <bounces+424c0870-57cf-11ee-bf7e-52540064429e_vt1@mailerehr.charmtracker.com>
+Received: from system-94.transmail.net (system-94.transmail.net. [135.84.80.94])
+        by mx.google.com with ESMTPS id b2-20020a170902d40200b001b8039317cesi11661782ple.301.2023.09.20.09.04.07
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 20 Sep 2023 09:04:07 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounces+424c0870-57cf-11ee-bf7e-52540064429e_vt1@mailerehr.charmtracker.com designates 135.84.80.94 as permitted sender) client-ip=135.84.80.94;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@charmtracker.com header.s=1522905413783 header.b="bc/UrfTz";
+       arc=pass (i=1 spf=pass spfdomain=mailerehr.charmtracker.com dkim=pass dkdomain=charmtracker.com dmarc=pass fromdomain=charmtracker.com>);
+       spf=pass (google.com: domain of bounces+424c0870-57cf-11ee-bf7e-52540064429e_vt1@mailerehr.charmtracker.com designates 135.84.80.94 as permitted sender) smtp.mailfrom=bounces+424c0870-57cf-11ee-bf7e-52540064429e_vt1@mailerehr.charmtracker.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=charmtracker.com
+ARC-Seal: i=1; a=rsa-sha256; t=1695225843; cv=none;
+	d=us.zohomail360.com; s=zohoarc;
+	b=kDNYgn5BSMJbFvi8lw0uSWVVVOQhDsxmVid0KmoUsOcovcP61WooTr1cOizwZFYYkR381D11kcxKxKCL6IWiSNAc4Wy0M/02RT8VoOesrWQr+j9WYDyxM39OMHqdyJ+P0MHVsE1Xwg9yHaou1npOaovjMbn8uBaawRTqdnSMNLY=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=us.zohomail360.com; s=zohoarc;
+	t=1695225843; h=Content-Type:Content-Transfer-Encoding:Date:From:MIME-Version:Message-ID:Subject:To;
+	bh=LiQ2e8yrxXZgXlccoi7DwoCgBaLv9LHAuGrpsJyYgjU=;
+	b=Aaq1cZzGg5PoZlAXfBZTwaUisiGoL39SbZOIfsHfs9xhWbUo/0XVByVbRONERyrucVGuPux6hdqzVDwkj+KL54ctU0ivMveSFvAr1pGKnn8oTfbevu5pg7JxyVY0cQrQZ/evu/O31Cp4a441vyVF0nwJjAXedP1Fr2YJFtn++bA=
+ARC-Authentication-Results: i=1; mx.us.zohomail360.com;
+	dkim=pass  header.i=charmtracker.com;
+	spf=pass  smtp.mailfrom=bounces+424c0870-57cf-11ee-bf7e-52540064429e_vt1@mailerehr.charmtracker.com;
+	dmarc=pass header.from=<noreply@charmtracker.com>
+Received: from [10.47.36.144] (10.47.36.144 [10.47.36.144]) by mx.zohomail.com
+	with SMTPS id 1695225819861655.6762177804745; Wed, 20 Sep 2023 09:03:39 -0700 (PDT)
+DKIM-Signature: a=rsa-sha256; b=bc/UrfTz3n6iPixPbpGRmo+culbehf5FX9pLN3jUZ694ZtD9GZox0kMRQzqdD+Un62Oy1Fe7KhsByCVBYFA2E/EwUHPawhfjadlZtUai0jKe21gOKMpfq0Ff48mRLuXebPpDElz6xzXL4Uulq+eTPQaDHvsNIQ6Me2SxzXUiUpA=; c=relaxed/relaxed; s=1522905413783; d=charmtracker.com; v=1; bh=LiQ2e8yrxXZgXlccoi7DwoCgBaLv9LHAuGrpsJyYgjU=; h=date:from:reply-to:to:cc:message-id:subject:mime-version:content-type:date:from:reply-to:to:cc:message-id:subject;
+Date: Wed, 13 Nov 2024 00:30:02 +0000 (UTC)
+From: Canada Post-Customer <noreply@charmtracker.com>
+To: dynapapersubmission@gmail.com
+Message-ID: <40742068-a712-433e-995b-595b85f28f55@streak.com>
+Subject: Canada Post PACKAGE PROBLEM DETAILS
+MIME-Version: 1.0
+Content-Type: text/html;charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Original-Envelope-Id: 2d6f.109cdde2b34f74ae.m1.424c0870-57cf-11ee-bf7e-52540064429e.18ab3552a77
+X-Report-Abuse: <mailto:abuse+2d6f.109cdde2b34f74ae.m1.424c0870-57cf-11ee-bf7e-52540064429e.18ab3552a77@zeptomail.com>
+TM-MAIL-JID: 2d6f.109cdde2b34f74ae.m1.424c0870-57cf-11ee-bf7e-52540064429e.18ab3552a77
+X-JID: 2d6f.109cdde2b34f74ae.m1.424c0870-57cf-11ee-bf7e-52540064429e.18ab3552a77
+X-App-Message-ID: 2d6f.109cdde2b34f74ae.m1.424c0870-57cf-11ee-bf7e-52540064429e.18ab3552a77
+X-ZohoMailClient: External
+X-Streak-Old-Message-ID: <2d6f.109cdde2b34f74ae.m1.424c0870-57cf-11ee-bf7e-52540064429e.18ab3552a77@mailerehr.charmtracker.com>
+X-Streak-Old-Date: Wed, 20 Sep 2023 09:03:39 -0700 (PDT)
+
+<html><body><table class=3D"m_6867293140434146982gem-element-nflxLogo" bord=
+er=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"border=
+-collapse: collapse; font-style: normal; font-variant-ligatures: normal; fo=
+nt-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans:=
+ 2; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal=
+; text-decoration-color: initial; border-spacing: 0px; color: rgb(34, 34, 3=
+4); font-family: Arial, Helvetica, sans-serif; font-size: small"><tbody><tr=
+><td class=3D"m_6867293140434146982content-padding" align=3D"left" style=3D=
+"border-collapse: collapse; margin: 0px; padding-left: 40px; padding-right:=
+ 40px; padding-top: 20px"><a href=3D"" target=3D"_blank" rel=3D"noopener no=
+referrer"><img class=3D"CToWUd" src=3D"https://ecp.yusercontent.com/mail?ur=
+l=3Dhttps%3A%2F%2Fwww.filepicker.io%2Fapi%2Ffile%2FLBIgGLtSRb6WODPSnnyU&amp=
+;t=3D1692982692&amp;ymreqid=3Dfb398ddc-c26a-7d96-1c20-660003014300&amp;sig=
+=3DNuMrXsIwlGg1.iO09m0viA--%7ED" alt=3D"" width=3D"290" border=3D"0" height=
+=3D"120" style=3D"border: none; height: auto; line-height: 13px; outline: n=
+one; text-decoration: none; border-collapse: collapse; display: block; marg=
+in-left: auto; margin-right: auto" /></a><br /></td></tr></tbody></table><t=
+able border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"left" style=3D"border-collapse: collapse; font-style: normal; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-=
+spacing: normal; orphans: 2; text-transform: none; widows: 2; word-spacing:=
+ 0px; white-space: normal; text-decoration-color: initial; border-spacing: =
+0px; color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; fon=
+t-size: small"><tbody><tr><td class=3D"m_6867293140434146982gem-copy m_6867=
+293140434146982content-padding m_6867293140434146982gem-p" align=3D"left" s=
+tyle=3D"border-collapse: collapse; margin: 0px; padding-left: 40px; padding=
+-right: 40px; font-family: NetflixSans-Light, Helvetica, Roboto, &quot;Sego=
+e UI&quot;, sans-serif; font-size: 16px; line-height: 21px; padding-top: 20=
+px; color: rgb(34, 31, 31)"><p style=3D"display: block; margin: 13px 0px">D=
+ear Customer ,<br /></p><div>We apologize, but unfortunately we have not be=
+en able to deliver your package due to an error in the delivery address.<br=
+ /></div></td></tr></tbody></table><table border=3D"0" width=3D"100%" cells=
+pacing=3D"0" cellpadding=3D"0" align=3D"left" style=3D"border-collapse: col=
+lapse; font-style: normal; font-variant-ligatures: normal; font-variant-cap=
+s: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-trans=
+form: none; widows: 2; word-spacing: 0px; white-space: normal; text-decorat=
+ion-color: initial; border-spacing: 0px; color: rgb(34, 34, 34); font-famil=
+y: Arial, Helvetica, sans-serif; font-size: small"><tbody><tr><td class=3D"=
+m_6867293140434146982gem-copy m_6867293140434146982content-padding m_686729=
+3140434146982gem-p" align=3D"left" style=3D"border-collapse: collapse; marg=
+in: 0px; padding-left: 40px; padding-right: 40px; font-family: NetflixSans-=
+Light, Helvetica, Roboto, &quot;Segoe UI&quot;, sans-serif; font-size: 16px=
+; line-height: 21px; padding-top: 20px; color: rgb(34, 31, 31)">To ensure a=
+ correct delivery, we kindly ask you to confirm your delivery address and p=
+ay the shipping costs.<br /></td></tr></tbody></table><table border=3D"0" w=
+idth=3D"100%" cellspacing=3D"0" cellpadding=3D"0" align=3D"left" style=3D"b=
+order-collapse: collapse; font-style: normal; font-variant-ligatures: norma=
+l; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orp=
+hans: 2; text-transform: none; widows: 2; word-spacing: 0px; white-space: n=
+ormal; text-decoration-color: initial; border-spacing: 0px; color: rgb(34, =
+34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small"><tbod=
+y><tr><td class=3D"m_6867293140434146982gem-copy m_6867293140434146982conte=
+nt-padding m_6867293140434146982gem-p" align=3D"left" style=3D"border-colla=
+pse: collapse; margin: 0px; padding-left: 40px; padding-right: 40px; font-f=
+amily: NetflixSans-Light, Helvetica, Roboto, &quot;Segoe UI&quot;, sans-ser=
+if; font-size: 16px; line-height: 21px; padding-top: 20px; color: rgb(34, 3=
+1, 31)">You can confirm your address and make the necessary payment for shi=
+pping by visiting the following link:<br /></td></tr></tbody></table><table=
+ class=3D"m_6867293140434146982gem-single-button-shell m_686729314043414698=
+2button-mobile-flex" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadd=
+ing=3D"0" align=3D"center" style=3D"border-collapse: collapse; font-style: =
+normal; font-variant-ligatures: normal; font-variant-caps: normal; font-wei=
+ght: 400; letter-spacing: normal; orphans: 2; text-transform: none; widows:=
+ 2; word-spacing: 0px; white-space: normal; text-decoration-color: initial;=
+ border-spacing: 0px; color: rgb(34, 34, 34); font-family: Arial, Helvetica=
+, sans-serif; font-size: small"><tbody><tr><td class=3D"m_68672931404341469=
+82gem-single-button m_6867293140434146982content-padding" align=3D"center" =
+style=3D"border-collapse: collapse; margin: 0px; padding-left: 40px; paddin=
+g-right: 40px; padding-top: 20px"><table class=3D"m_6867293140434146982gem-=
+single-button m_6867293140434146982button-1-table" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"border-collapse: collapse; border-spacing=
+: 0px; width: 420px"><tbody><tr><td class=3D"m_6867293140434146982gem-singl=
+e-button m_6867293140434146982button-1-text m_6867293140434146982gem-h5 m_6=
+867293140434146982button-text-light" style=3D"border-collapse: collapse; ma=
+rgin: 0px; font-family: NetflixSans-Bold, Helvetica, Roboto, &quot;Segoe UI=
+&quot;, sans-serif; font-weight: bold; line-height: 17px; letter-spacing: -=
+0.2px; border-radius: 4px; text-align: center; padding: 13px 0px; width: 41=
+8.4px; color: rgb(255, 255, 255); background-color: rgb(229, 9, 20); border=
+: 1px solid rgb(229, 9, 20)"><a class=3D"m_6867293140434146982gem-single-bu=
+tton m_6867293140434146982button-text-light m_6867293140434146982gem-h5" hr=
+ef=3D"https://t.co/3A1eDDM4CC" target=3D"_blank" rel=3D"noopener noreferrer=
+" style=3D"color: rgb(255, 255, 255); line-height: 17px; letter-spacing: -0=
+.2px; padding-left: 20px; padding-right: 20px; text-decoration-line: none; =
+display: block">Track my package</a></td></tr></tbody></table></td></tr></t=
+body></table><table border=3D"0" width=3D"100%" cellspacing=3D"0" cellpaddi=
+ng=3D"0" align=3D"left" style=3D"border-collapse: collapse; font-style: nor=
+mal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight=
+: 400; letter-spacing: normal; orphans: 2; text-transform: none; widows: 2;=
+ word-spacing: 0px; white-space: normal; text-decoration-color: initial; bo=
+rder-spacing: 0px; color: rgb(34, 34, 34); font-family: Arial, Helvetica, s=
+ans-serif; font-size: small"><tbody><tr><td class=3D"m_6867293140434146982g=
+em-copy m_6867293140434146982content-padding m_6867293140434146982gem-p" al=
+ign=3D"left" style=3D"border-collapse: collapse; margin: 0px; padding-left:=
+ 40px; padding-right: 40px; font-family: NetflixSans-Light, Helvetica, Robo=
+to, &quot;Segoe UI&quot;, sans-serif; font-size: 16px; line-height: 21px; p=
+adding-top: 20px; color: rgb(34, 31, 31)"><p style=3D"display: block; margi=
+n: 13px 0px">&nbsp;<br /></p><p style=3D"display: block; margin: 13px 0px">=
+<b>NOTICE:</b><br /></p><p style=3D"display: block; margin: 13px 0px">If a =
+redelivery is not scheduled within 48 hours, you won&#39;t be able to submi=
+t another redelivery request. Shipping and handling fees are non-refundable=
+.<br /></p><p style=3D"display: block; margin: 13px 0px">&nbsp;<br /></p><p=
+ style=3D"display: block; margin: 13px 0px">&nbsp;<br /></p><p style=3D"dis=
+play: block; margin: 13px 0px">With best regards,<br /></p><div><br /></div=
+><div><br /></div><div><br /></div><div><br /></div><div><br /></div><div><=
+br /></div><div><br /></div><div><br /></div><div><br /></div><div><br /></=
+div><div><br /></div><div><br /></div><div><br /></div><div><br /></div><di=
+v><br /></div><div><br /></div><div><br /></div><div><br /></div><div><br /=
+></div><div><br /></div><div><br /></div><div><br /></div><div><br /></div>=
+<div><br /></div><div><br /></div><div><br /></div><div><br /></div><div><b=
+r /></div><div><br /></div></td></tr></tbody></table><table id=3D"body-tabl=
+e" style=3D"table-layout: fixed; font-size: 12px; font-family: Open Sans, s=
+ans-serif" align=3D"center" bgcolor=3D"#fff" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"100%"><tbody><tr><td align=3D"center" valign=3D=
+"top"><table align=3D"center" bgcolor=3D"#ffffff" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"500"><tbody><tr><td align=3D"center" bgco=
+lor=3D"#ffffff" style=3D"box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.4)" valign=
+=3D"top"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%"><tbody><tr><td height=3D"15">&nbsp;<br /></td></tr></tbody></table><ta=
+ble class=3D"-menu" align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"480"><tbody><tr><td height=3D"15" valign=3D"middle"><ta=
+ble align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"211"><tbody><tr><td class=3D"center-stack" style=3D"font-size: 18px; fo=
+nt-weight: bold" align=3D"left" height=3D"30" valign=3D"middle"><br /></td>=
+</tr></tbody></table></td></tr></tbody></table><table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"100%"><tbody><tr><td height=3D"15">&nb=
+sp;<br /></td></tr></tbody></table><table bgcolor=3D"#3cbda9" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><tbody><tr><td height=3D=
+"50">&nbsp;<br /></td></tr><tr style=3D"background-color: rgb(99, 202, 186)=
+"><td><table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" width=3D"20%"><tbody><tr><td height=3D"100" align=3D"right" valign=3D"mid=
+dle"><img src=3D"http://ehr.charmtracker.com/images/physician/email_templat=
+es/phr-invitation.png" width=3D"54" height=3D"54" /><br /></td></tr></tbody=
+></table><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"75%"><tbody><tr><td height=3D"100" style=3D"font-size: 26px=
+; line-height: 60px; font-weight: 300; color: rgb(255, 255, 255)" align=3D"=
+left">Patient Portal Registration<br /></td></tr></tbody></table></td></tr>=
+<tr><td style=3D""><table cellpadding=3D"0" cellspacing=3D"0" height=3D"50"=
+ width=3D"100%"><tbody><tr><td width=3D"10%" align=3D"left">&nbsp;<br /></t=
+d><td valign=3D"bottom" align=3D"center" style=3D"border-color: rgb(255, 25=
+5, 255) transparent; border-style: solid; border-width: 0 15px 15px; displa=
+y: block; height: 0; margin-top: 35px; width: 0"><br /></td></tr></tbody></=
+table></td></tr></tbody></table><table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"100%"><tbody><tr><td height=3D"30">&nbsp;<br /></td><=
+/tr></tbody></table><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"500"><tbody><tr><td align=3D"center"><table alig=
+n=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"480"=
+><tbody><tr><td align=3D"center"><table align=3D"left" border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" width=3D"100%"><tbody><tr><td style=3D"font-si=
+ze: 13px" align=3D"left">Dear fethi dardour,<br /></td></tr><tr><td align=
+=3D"left" height=3D"10"><br /></td></tr><tr><td style=3D"font-size: 13px; l=
+ine-height: 25px; padding-bottom: 10px; font-weight: normal" align=3D"left"=
+>You have an invitation from <b>Canada Post-Customer</b> to create your Pat=
+ient Portal account.<br /></td></tr></tbody></table></td></tr></tbody></tab=
+le></td></tr></tbody></table><table align=3D"center" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" width=3D"480"><tbody><tr><td align=3D"center"><t=
+able align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%"><tbody><tr><td style=3D"font-size: 13px; line-height: 25px; paddi=
+ng-bottom: 10px; font-weight: normal; word-break: break-all" align=3D"left"=
+>Click on the link below to register your account. If clicking on the link =
+doesn&#39;t work, copy and paste it into your browser.<br /></td></tr><tr><=
+td align=3D"left" style=3D"font-size: 13px; line-height: 25px; padding-bott=
+om: 10px; font-weight: normal; color: rgb(0, 136, 204)"><a href=3D"https://=
+charmphr.com/phr/userProfileAction.sas?ACTION=3DADD_PHR_ACCOUNT&DIGEST=3D2d=
+a6cec48e5020f0345b788f928931f70c79d9c06816671965ee8d28c6246a0021770e3de85bb=
+b9cfa82ef4e3fd531dc4bdc44049cdc2cbf9509d6dbfe907f36a0ae868b6eb0918a" style=
+=3D"color:#0088CC; cursor:pointer;text-decoration:underline;width:480px;flo=
+at:left; ">https://charmphr.com/phr/userProfileAction.sas?ACTION=3DADD_PHR_=
+ACCOUNT&DIGEST=3D2da6cec48e5020f0345b788f928931f70c79d9c06816671965ee8d28c6=
+246a0021770e3de85bbb9cfa82ef4e3fd531dc4bdc44049cdc2cbf9509d6dbfe907f36a0ae8=
+68b6eb0918a</a><br /></td></tr><tr><td style=3D"font-size: 13px; line-heigh=
+t: 25px; padding-bottom: 10px; font-weight: normal" align=3D"left">Please g=
+o through the video and user guide below for further assistance on account =
+creation.<br /></td></tr><tr><td align=3D"left" style=3D"font-size: 13px; l=
+ine-height: 25px; padding-bottom: 10px; font-weight: normal; color: rgb(0, =
+136, 204)">Video : https://youtu.be/dKiSH3cM3EM<br /></td></tr><tr><td alig=
+n=3D"left" style=3D"font-size: 13px; line-height: 25px; padding-bottom: 10p=
+x; font-weight: normal; color: rgb(0, 136, 204)">User Guide : https://www.c=
+harmhealth.com/resources/phr-user-guide/introduction.html<br /></td></tr></=
+tbody></table></td></tr></tbody></table><table align=3D"center" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" width=3D"480"><tbody><tr><td height=
+=3D"10">&nbsp;<br /></td></tr></tbody></table><table align=3D"center" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"480"><tbody><tr><td al=
+ign=3D"center"><table align=3D"center" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"100%"><tbody><tr><td style=3D"font-size: 13px; line-h=
+eight: 20px" align=3D"left"><div>Regards,<br /></div><div> Administrator<br=
+ /></div></td></tr><tr><td style=3D"font-size: 13px; line-height: 20px; col=
+or: rgb(60, 189, 169)" align=3D"left">Canada Post-Customer<br /></td></tr><=
+tr><td style=3D"font-size: 13px; line-height: 20px" align=3D"left">203 S Av=
+enue G, 203 S Avenue G<br/>Clifton, TX 76634<br /></td></tr></tbody></table=
+></td></tr></tbody></table><table width=3D"100%" cellspacing=3D"0" cellpadd=
+ing=3D"0" border=3D"0"><tbody><tr><td height=3D"20">&nbsp;<br /></td></tr><=
+/tbody></table><table align=3D"center" bgcolor=3D"#ffc258" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" width=3D"500"><tbody><tr><td align=3D"cent=
+er"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" width=3D"480"><tbody><tr><td><table cellpadding=3D"0" cellspacing=3D"0" h=
+eight=3D"10" width=3D"100%"><tbody><tr><td width=3D"85%">&nbsp;<br /></td><=
+td valign=3D"bottom" align=3D"center" style=3D"width: 0; height: 0; border-=
+style: solid; border-width: 15px 15px 0; border-color: rgb(255, 255, 255) t=
+ransparent transparent transparent; display: block"><br /></td><td><br /></=
+td></tr></tbody></table></td></tr><tr><td height=3D"45" align=3D"center" va=
+lign=3D"middle"><table align=3D"left" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" style=3D""><tbody><tr><td><table align=3D"left" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0"><tbody><tr><td align=3D"center" valign=3D=
+"middle"><img src=3D"http://ehr.charmtracker.com/images/physician/email_tem=
+plates/map-icon.png" width=3D"20" height=3D"20" style=3D"margin-right: 10px=
+" /><br /></td><td style=3D"color: rgb(255, 255, 255); font-weight: 300; fo=
+nt-size: 13px; color: rgb(255, 255, 255)" align=3D"center" valign=3D"bottom=
+"><br /></td></tr></tbody></table></td></tr></tbody></table><table align=3D=
+"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D""><tbody>=
+<tr><td style=3D"font-weight: 300; font-size: 20px; line-height: 28px; colo=
+r: rgb(255, 255, 255)" align=3D"center" valign=3D"middle">CALL <br /></td><=
+/tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><ta=
+ble bgcolor=3D"#3cbda9" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"500"><tbody><tr><td style=3D"font-size: 11px; font-weight: normal" a=
+lign=3D"left" height=3D"35"><table align=3D"center" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"480"><tbody><tr><td style=3D"color: rgb(=
+255, 255, 255); font-size: 12px">This is an automated email. PLEASE DO NOT =
+REPLY.<br /></td></tr></tbody></table></td></tr></tbody></table></td></tr><=
+/tbody></table></td></tr></tbody></table><table bgcolor=3D"#fff" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" width=3D"500"><tbody><tr><td style=
+=3D"float: right"><span class=3D"colour" style=3D"color: grey"><span class=
+=3D"size" style=3D"font-size: 10px">Powered by</span></span> <img src=3D"ht=
+tp://ehr.charmtracker.com/images/physician/email_templates/charmhealthlogo.=
+png" alt=3D"" height=3D"27px" /><br /></td></tr></tbody></table><div><br />=
+</div></body></html>
+

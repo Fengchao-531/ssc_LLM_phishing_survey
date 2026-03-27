@@ -1,0 +1,395 @@
+X-GM-THRID: 1790448415771922265
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:6214:e46:b0:68c:cd67:9813 with SMTP id o6csp918758qvc;
+        Fri, 9 Feb 2024 10:51:09 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IEARFzJIIxM01DAIoVJAMWna6XQMtLMbOahcs49EG8tktSnDbHH9nbEntvum3tlvgpDUVR1
+X-Received: by 2002:a9d:6445:0:b0:6e2:bb44:10f5 with SMTP id m5-20020a9d6445000000b006e2bb4410f5mr2223535otl.15.1707504668920;
+        Fri, 09 Feb 2024 10:51:08 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1707504668; cv=none;
+        d=google.com; s=arc-20160816;
+        b=RCQPakmtUdtgXWOpfvdmnpM5Ztix4hqAA3uKnfzj0u+zfSt+fOt0bcQEmysA+8G1vp
+         ze6XkUmr9v64jsoJ3XzYzIJIuhUKcNhddXttYGDTIBuJGJK67NngpgiiLd8H2NzqeMUo
+         58syFU2+p9Q0fT6F3042V67hmQ+Vn3ZRzYb2oULLXLTJ3/rT3sI5IETq/s19eIK4hnQT
+         Ny4A13pPX3KUZmvB4NA5pzL3L1563T7u3rh98PbcpIWsc5JkGQZVj7/u4Iu3ItJD7PMl
+         4RL+GOBex2CPL/FRkaK+eSg4XNP2DwkAiVbjKtN5+S0Ch+kdxDTCPc+/RlREQ4v3Vn8A
+         MTnw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=message-id:reply-to:list-unsubscribe:to:from:subject:mime-version
+         :date:sender:dkim-signature:dkim-signature;
+        bh=7wGiFv8Ce5xAXAQmch/ZcIwx9IyKergOnqFseiwYIp0=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=lgAEN7DEqwXlqFZvp49zXtTdcNJ4/CHcIfLG6/Lh0X8MXB0T/H/ru4ZSrKgcXhE2u9
+         UHGbOluKvqhRzWTsiinFCiCUcRERygFsooEgSGmyihafhLUQIVR2pYP6EGy3k5QcibZN
+         CI6u/WBcfl6/Ts7l01UmqqvJLvGyT+tOLXYY0uam8sfcTjBawLcMznJImPBZoJeZCMkY
+         hYAsO6gVS827k0Hi3ILsCmPWZlNJBEeJaVqKu43TZPAbV3zmGZT1S9T2AzX3XlAbqLPq
+         jZj87qSNy6EhEAvnUoBc7J5vJkDbZh8TyYVK1PWqiER/SDQ6ZqRzJDm39Ohd/7kQuFm7
+         IeLw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@mail.iteratehq.com header.s=krs header.b=vSk1Pmf+;
+       dkim=pass header.i=@mailgun.org header.s=mg header.b=RGbqBo3p;
+       spf=pass (google.com: domain of bounce+a344a0.284a12-dynapapersubmission=gmail.com@mail.iteratehq.com designates 209.61.151.224 as permitted sender) smtp.mailfrom="bounce+a344a0.284a12-dynapapersubmission=gmail.com@mail.iteratehq.com";
+       dmarc=pass (p=REJECT sp=NONE dis=NONE) header.from=mail.iteratehq.com
+Return-Path: <bounce+a344a0.284a12-dynapapersubmission=gmail.com@mail.iteratehq.com>
+Received: from rs224.mailgun.us (rs224.mailgun.us. [209.61.151.224])
+        by mx.google.com with UTF8SMTPS id v22-20020a9d69d6000000b006e2c29954c1si740598oto.159.2024.02.09.10.51.08
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Fri, 09 Feb 2024 10:51:08 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce+a344a0.284a12-dynapapersubmission=gmail.com@mail.iteratehq.com designates 209.61.151.224 as permitted sender) client-ip=209.61.151.224;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.iteratehq.com header.s=krs header.b=vSk1Pmf+;
+       dkim=pass header.i=@mailgun.org header.s=mg header.b=RGbqBo3p;
+       spf=pass (google.com: domain of bounce+a344a0.284a12-dynapapersubmission=gmail.com@mail.iteratehq.com designates 209.61.151.224 as permitted sender) smtp.mailfrom="bounce+a344a0.284a12-dynapapersubmission=gmail.com@mail.iteratehq.com";
+       dmarc=pass (p=REJECT sp=NONE dis=NONE) header.from=mail.iteratehq.com
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mail.iteratehq.com; q=dns/txt; s=krs; t=1707504667; x=1707511867;
+ h=Message-Id: Reply-To: List-Unsubscribe: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: Sender: Sender: X-Feedback-Id;
+ bh=7wGiFv8Ce5xAXAQmch/ZcIwx9IyKergOnqFseiwYIp0=;
+ b=vSk1Pmf+TGb4aWw6oe+FJQ9UnXf7UCIBc6QF+rFEDsyDC8tPSFdhQodsxxAu0TEB5UIrj4D20YEUi+eLKj7txyI8qk4fJFzE4weHCeQfw48mbYou0noaVjTYU7jpttYQLfJgmZg2hsy9rXf8sLIMQ3JkVQTZ4WKMVepOXXuv6Z0=
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mailgun.org; q=dns/txt; s=mg; t=1707504667; x=1707511867;
+ h=Message-Id: Reply-To: List-Unsubscribe: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: Sender: Sender: X-Feedback-Id;
+ bh=7wGiFv8Ce5xAXAQmch/ZcIwx9IyKergOnqFseiwYIp0=;
+ b=RGbqBo3pGihhtkwRaq4Qyk3fIGB/Rtyv+EPavU3GgzwyZXaY0kBkcxlRZQ9+qCEtkbz+q4XmLiQV2RMFM+TqVv4DE4x/CWD+61f5dio2MXmvHvw4FD7kEgScwbtEcBOchlaqMci9fVJzMDoOpaacd+2mjk1CvP0+uhdOeOpECFs=
+X-Feedback-Id: ahlamontada@mail.iteratehq.com::578c30a00e6fc4a3f3ed5d6f:mailgun
+X-Mailgun-Sending-Ip: 209.61.151.224
+X-Mailgun-Sid: WyI1MjI2ZiIsImR5bmFwYXBlcnN1Ym1pc3Npb25AZ21haWwuY29tIiwiMjg0YTEyIl0=
+Received: from <unknown> (<unknown> []) by 25ba9466edc2 with HTTP id
+ 65c6741b5d963c0a3b18d992; Fri, 09 Feb 2024 18:51:07 GMT
+Sender: ahlamontada@mail.iteratehq.com
+Date: Fri, 09 Feb 2024 18:51:07 +0000
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="e8b2decdc02ce8b2ce4928e1cf4c71fed7d6f39f0707d8c6112f797ea2fe"
+Subject: SBB-Konto ist nicht mehr aktiv.
+From: email <ahlamontada@mail.iteratehq.com>
+To: dynapapersubmission@gmail.com
+List-Unsubscribe: <<nil>>
+Reply-To: email <jdid@distribuidoraaguavivalazer.com.br>
+Message-Id: <20240209185107.cf36154b2ff6c48b@mail.iteratehq.com>
+
+--e8b2decdc02ce8b2ce4928e1cf4c71fed7d6f39f0707d8c6112f797ea2fe
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+<p>Ihr Konto ist gesperrt, Wir haben Ihr Konto gesperrt, um Ihre Daten so s=
+chnell wie m=C3=B6glich zu aktualisieren, damit wir es nicht dauerhaft schl=
+ie=C3=9Fen.<br />
+Bitte best=C3=A4tigen sie ihr konto umgehend, um eine aussetzung zu vermeid=
+en. vielen dank fur ihre kooperation<br />
+Verifizierung starten</p>
+
+<p><a href=3D"http://email.mail.iteratehq.com/c/eJwczE1OxSAQAODTwM6GGYb-LFi=
+46VavQOmMJbaFBzwTPb3Ju8C3e5wpAGr2MJnJGRrHSR_eblaYdheECEK0wkAgKMsCbKObdfJokA=
+yaBWYHZhqi2BEcbSgyRpo3ReYK6RxS5xo6H48h5kuf_ui9NGXfFa4K12c939qRa-eb6xBKUbiWT=
+_n7eXyvH1lXv__eoYTCtT23K7WW8q3IfL3omK__AAAA__95qju9">http://email.mail.iter=
+atehq.com/c/eJwczE1OxSAQAODTwM6GGYb-LFi46VavQOmMJbaFBzwTPb3Ju8C3e5wpAGr2MJn=
+JGRrHSR_eblaYdheECEK0wkAgKMsCbKObdfJokAyaBWYHZhqi2BEcbSgyRpo3ReYK6RxS5xo6H4=
+8h5kuf_ui9NGXfFa4K12c939qRa-eb6xBKUbiWT_n7eXyvH1lXv__eoYTCtT23K7WW8q3IfL3om=
+K__AAAA__95qju9</a></p>
+
+<p>.</p>
+
+
+Let us know: http://email.mail.iteratehq.com/c/eJx0kL1u6zAMhZ9G3m5A_ZiSBw8X=
+MAx069K5kGk6FhpZjiW1yNsXabtkyPrxA3HOmXvljJeq4V5asC0YRNusvVu07iZngDpa0FgpUUm=
+eyHkiYsAm9AqUAQWddK0Ee6JFo2zNpJYFybhJGIg-XE6h8OELr9cTpdhc-rWUPQv9X6hRqPHhKt=
+To14uPaSt-9kKN2FLrrHStURMgAMiFcTYo9HitnEtI28ss9PDEA6GwlvieUz2IhR5yPT759u_p2=
+1898hxqFHrge4E_SD7uPpw3oYeHjFjSB9-ptXXp3vLr1605-vm2-d3vfOQ6xZBzSJswcP4ZhFL8=
+DgAA__9TQHL7
+
+
+
+----------------------------------------------------------
+
+Powered by Iterate
+
+
+Unsubscribe: http://email.mail.iteratehq.com/c/eJx0kL2u3CAQRp8Gd1kN_7hwEcmy=
+lC5N6miAYY2y2F4DifbtI19tc4vbnjmnmC9OwinkYqCJW7AalDF2WCfpPU9ceuWkCzEaiwqSIR3=
+ViGQhDXkSIBQIGLnTHOwtJGm4Vl6kZIJynikomB-33OjERuvzFvYyPKa1taMy-Z2JhYnl05WJpV=
+c6KxOL0cFY6VEmqUgBAJc4OgWXstXuazizJyaXZ6fa8r79iEzORgftLHdaCQ_mqhKZeFWmt_K77=
+v0MxORc-_mXXt--0M1bLxRzL0zOdD3yhgHLgfm-MTnj-sCybw0jMmHa_ocuam1P46_6899rOKf4=
+2vDAg87afcm15n1jCu4fw4S9_A8AAP__jBJ2Sg
+
+--e8b2decdc02ce8b2ce4928e1cf4c71fed7d6f39f0707d8c6112f797ea2fe
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+<!doctype html>
+<html lang=3D"en">
+	<head>
+	  <meta charset=3D"utf-8">
+	  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1, user-scalable=3Dno">
+	  <title>Iterate</title>
+	=09
+	<style type=3D"text/css">
+		@media (prefers-color-scheme: dark) {
+			.primaryTable { padding: 0 16px; }
+		}
+		@media screen and (max-width: 500px) {
+			.fullWidthOnMobile { width: 100% !important; }
+			.primaryTable { padding: 0 16px; }
+		}
+		@media screen and (max-width: 500px) {
+			*[class~=3DfullWidthOnMobile] { width: 100% !important; }
+			*[class~=3DtableOnMobile] { display: table !important; }
+			*[class~=3DinlineOnMobile] {
+				display: inline !important;
+				font-size: inherit !important;
+				line-height: inherit !important;
+				width: auto !important;
+				overflow: visible !important;
+				float: none !important;
+			}
+			*[class~=3DhiddenOnMobile] { display: none !important; }
+			*[class~=3DnoHorizontalMarginOnMobile] { margin-left: 0 !important; marg=
+in-right: 0 !important; }
+		}
+
+	=09
+		.iterateQuestionPrompt a,
+		#header-copy a {
+			color: #ffffff;
+		}
+		.iterateQuestionPrompt img {
+			max-width: 100%;
+		}
+	=09
+		.iterateQuestionPrompt p { text-align: center !important; }
+	</style>
+	<!--[if gte mso 9]>
+			<style type=3D"text/css">
+				.fullWidthOnOutlook { width: 100% !important; }
+				.hiddenOnOutlook { display: none !important; }
+				.noMarginOnOutlook { margin: 0 !important; }
+			</style>
+	<![endif]-->
+
+	</head>
+
+	<body style=3D"margin: 0; padding: 0;">
+		<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" =
+class=3D"primaryTable" style=3D"
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helv=
+etica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI =
+Symbol'; font-size: 15px; line-height: 21px;
+			background: #ffffff;
+			width: 100%;
+		">
+			<tr>
+				<td></td>
+				<td valign=3D"top" class=3D"fullWidthOnMobile" style=3D"width: 500px;">
+					<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cente=
+r" class=3D"fullWidthOnMobile" style=3D"
+						font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, H=
+elvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol'; font-size: 15px; line-height: 21px;
+						width: 500px;
+					">
+						<tr>
+							<td style=3D"font-family: -apple-system, BlinkMacSystemFont, 'Segoe =
+UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI E=
+moji', 'Segoe UI Symbol'; font-size: 15px; line-height: 21px; padding: 16px=
+ 0 0;">
+							=09
+=09
+	=09
+	<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%">
+	=09
+			<tr>
+				<td style=3D"padding: 10px 0 20px;">
+				=09
+	<img alt=3D"" src=3D"https://iterate.imgix.net/companies/65c5810fc423fd000=
+14a2cec/91ccdffaa862e14638c7816dd42445d5.png?w=3D200&amp;s=3D97808d6c99fdc4=
+827b6721cc6288e2ff" height=3D"60" style=3D"border-radius: 2px;
+		display: block;
+		height: auto;
+		max-height: 60px;
+		max-width: 300px;
+		width: auto;
+	" />
+
+				</td>
+			</tr>
+	=09
+	=09
+	</table>
+
+
+		<div style=3D"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',=
+ Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji=
+', 'Segoe UI Symbol'; font-size: 15px; line-height: 21px; margin-bottom: 24=
+px;">
+			<div id=3D"header-copy">
+			=09
+					<p>Ihr Konto ist gesperrt, Wir haben Ihr Konto gesperrt, um Ihre Daten=
+ so schnell wie m=C3=B6glich zu aktualisieren, damit wir es nicht dauerhaft=
+ schlie=C3=9Fen.<br />
+Bitte best=C3=A4tigen sie ihr konto umgehend, um eine aussetzung zu vermeid=
+en. vielen dank fur ihre kooperation<br />
+Verifizierung starten</p>
+
+<p><a href=3D"http://email.mail.iteratehq.com/c/eJwczE1OxSAQAODTwM6GGYb-LFi=
+46VavQOmMJbaFBzwTPb3Ju8C3e5wpAGr2MJnJGRrHSR_eblaYdheECEK0wkAgKMsCbKObdfJokA=
+yaBWYHZhqi2BEcbSgyRpo3ReYK6RxS5xo6H48h5kuf_ui9NGXfFa4K12c939qRa-eb6xBKUbiWT=
+_n7eXyvH1lXv__eoYTCtT23K7WW8q3IfL3omK__AAAA__95qju9">https://url-shortener.=
+app/pPfzvqkFOo</a></p>
+
+			=09
+			</div>
+		</div>
+
+	=09
+	<div style=3D"line-height: 0; font-size: 0; border-bottom: 2px solid #f8f8=
+f8; margin: 12px 0;">&nbsp;</div>
+
+	=09
+=09
+	<div class=3D"iterateQuestionPrompt" style=3D"font-family: -apple-system, =
+BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Appl=
+e Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 15px; line-=
+height: 21px; font-size: 17px; line-height: 21px; margin: 32px 0 1em 0; tex=
+t-align: center;">
+		<p>.</p>
+
+	=09
+	</div>
+=09
+=09
+	=09
+		<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"margin: =
+0px auto;">
+			<tr>
+				<td style=3D"text-align: center;">
+					<center>
+					=09
+					=09
+						&nbsp;
+						<a href=3D"http://email.mail.iteratehq.com/c/eJx0kL1u4zAQhJ9m1Z2xXP6q=
+UHGAIOC6a1IHlLi0iJiSLFIx_PaBkzQu3H77YTEzoSOnvKCGO2HRalTG2GbuRhFG51rU3mmKsZV=
+sW9RaRSMEKxua1BGSQsJWOC3QnqYojdBqpBjNpNwICrNPl1OqvPvK8_U0rbm5dHOtWwH5F2gAGp=
+6uQIOfLz6vS_XBAw1GT9pZ4bSiEQ0iisgmKANyuB5calqXfwFk_8JDIHPU_F7WY58YZF-O_ZPvf=
+16-_dEzh3RkkD0_CvzCyefNp_MCsn_KaOr6wQ9q7RHbt_L_dgcyfik33kH2zd6F--I3v_FejjGn=
+UtK6gMLz9zjTmr8CAAD__w-TdjU" content=3D"nofollow" target=3D"_blank" style=
+=3D"background-color: #ffffff;
+							border: 16px solid #ffffff;
+							border-right-width: 20px;
+							border-left-width: 20px;
+							border-radius: 2px;
+							color: #1a1a25;
+							display: inline-block;
+							font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, =
+Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe=
+ UI Symbol'; font-size: 15px; line-height: 21px;
+							margin: 0 0 15px;
+							text-decoration: none;
+						">
+							Let us know
+						</a>
+						&nbsp;
+					</center>
+				</td>
+			</tr>
+		</table>
+=09
+	<div style=3D"height: 1px; line-height: 1px; overflow: hidden;">
+		<a href=3D"http://email.mail.iteratehq.com/c/eJx0zztuwzAMgOHT0GNAUtQjg4Yu=
+uocsUY3Q-FHLCZDbF-1QoEPn_1v-GjlIJp40kkdvUZzz0y2SYXdlRc-EWAM3ozXbEFr1qmTc1CM=
+jCzJeKVhCfynNOLIyc2uuSJhBcMn9fumnHvnU2-elbMt0j7fz3AeYN-AEnP5U4JT3DpyeBJzKtu=
+x57TqAk7PFBsJWhE2riEiSuWgBTuNxPPX1izwFKzyj-0ZNXRX3f0LgdO_rx3TE-lrznnc9xmNe-=
+hh9W0Hw_WehbMtXAAAA___QaFY9" style=3D"color: #fff; color: rgba(255, 255, 25=
+5, 0.01); font-size: 1px;">.</a>
+	</div>
+
+=09
+
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td style=3D"
+					color: #c7c7c7;
+					padding: 16px 0 16px;
+					text-align: center;
+				">
+					<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cente=
+r" class=3D"fullWidthOnMobile" style=3D"
+						font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, H=
+elvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe =
+UI Symbol'; font-size: 15px; line-height: 21px;
+						width: 500px;
+					">
+						<tr>
+							<td>
+							=09
+	<div style=3D"line-height: 0; font-size: 0; border-bottom: 2px solid #f8f8=
+f8; margin: 12px 0;">&nbsp;</div>
+
+								<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"10=
+0%">
+									<tr>
+									=09
+											<td style=3D"font-family: -apple-system, BlinkMacSystemFont, 'Se=
+goe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe =
+UI Emoji', 'Segoe UI Symbol'; font-size: 15px; line-height: 21px; font-size=
+: 11px; line-height: 20px; text-align: left;">
+											=09
+	<a href=3D"http://email.mail.iteratehq.com/c/eJxUjsGOrCAQRb8Gd69TFFDogsVLj=
+L8xKaFsSUQdwUn67yc9mc1s7z3JOSlgb1ljJ0F78A4ske_WMGgCFEtCsjiPMSadtBcEHQfvaehy=
+QEALCIPunQb_iIsh7eyMy0LR9rOyUDhvj9zk4ibr5yMepdvC2tpZlfmvcFI4_XmVme5WPupxX1G=
+UGet9fcnrH7noeq97Z3EGAgC9CCVLCumNF0n5LsqM8vb9jpHLyfm5KzPyunE59saJuyuk184nn3=
+LVey651nzsysLzJzUe5TsAAP__upVVCQ" style=3D"color: #c7c7c7;
+		text-decoration: none;"
+	>
+		Powered by Iterate
+	</a>
+
+											</td>
+									=09
+									=09
+											<td style=3D"font-family: -apple-system, BlinkMacSystemFont, 'Se=
+goe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe =
+UI Emoji', 'Segoe UI Symbol'; font-size: 15px; line-height: 21px; font-size=
+: 11px; line-height: 20px; text-align: right;">
+												<a href=3D"http://email.mail.iteratehq.com/c/eJx0kL2u3CAQRp8Gd1=
+kN_7hwEcmylC5N6miAYY2y2F4DifbtI19tc4vbnjmnmC9OwinkYqCJW7AalDF2WCfpPU9ceuWkC=
+zEaiwqSIR3ViGQhDXkSIBQIGLnTHOwtJGm4Vl6kZIJynikomB-33OjERuvzFvYyPKa1taMy-Z2J=
+hYnl05WJpVc6KxOL0cFY6VEmqUgBAJc4OgWXstXuazizJyaXZ6fa8r79iEzORgftLHdaCQ_mqhK=
+ZeFWmt_K77v0MxORc-_mXXt--0M1bLxRzL0zOdD3yhgHLgfm-MTnj-sCybw0jMmHa_ocuam1P46=
+_6899rOKf42vDAg87afcm15n1jCu4fw4S9_A8AAP__jBJ2Sg"
+													style=3D"
+													color: #c7c7c7;
+													text-decoration: none;
+												">Unsubscribe</a>
+											</td>
+									=09
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td style=3D"height: 20px;"></td>
+				<td></td>
+			</tr>
+		</table>
+	<img width=3D"1px" height=3D"1px" alt=3D"" src=3D"http://email.mail.iterat=
+ehq.com/o/eJwcysEOgyAMANCvkaMptVB24GMKtpNkqBN32N8v2f2tGROJR6fZM3AAipHdlr2YM=
+UotdYlBkIOyhrRELUmVTVzLCEiA8PApeOC52hJ9oIJmsVIqE0GX9prbrZfcur3nenR35fW7yymn=
+XuNTehujHftE8PzbevRfAAAA__9kESv2"></body>
+</html>
+
+--e8b2decdc02ce8b2ce4928e1cf4c71fed7d6f39f0707d8c6112f797ea2fe--
+

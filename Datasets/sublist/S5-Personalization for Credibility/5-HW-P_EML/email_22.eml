@@ -1,0 +1,646 @@
+X-GM-THRID: 1813822819479797184
+X-Gmail-Labels: Inbox,Opened,Category Updates,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:7108:3652:b0:3c5:cf85:4db4 with SMTP id e18csp535772gdd;
+        Thu, 24 Oct 2024 11:57:17 -0700 (PDT)
+X-Forwarded-Encrypted: i=2; AJvYcCWWM6yjQXv8eWg/7sh0QeHhafJucV2fDfWs0/3lcg/0XRSnR2JR0u8vDDBfLSuU6QFnh0mjF7Fso1gUJK14YLAgBBaU@gmail.com
+X-Google-Smtp-Source: AGHT+IHoR8k6MiRD61wNGZhD1pqB069eMbI+RAq60WOsK3W0ikDvbh7KREz3gF8+XhsxhqeZYxH2
+X-Received: by 2002:a05:6214:5a09:b0:6cc:2cc0:ccda with SMTP id 6a1803df08f44-6d076e3f4f1mr39248576d6.0.1729796237650;
+        Thu, 24 Oct 2024 11:57:17 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1729796237; cv=none;
+        d=google.com; s=arc-20240605;
+        b=O18xmcprFN5Pw0wWM6mJgh3XabFP4WGfLIJIBNYohtuJKibRbvRaSAmbxZP/klV4hw
+         k2IwQVlGLlGeSjRNrDzUwCmFf0t7sSPqqDH9hxeFIVMyFmLWxPXw6igSLK2bgoyv/S2q
+         1ttIu7/jnJs3goPDvaaijmZRd9iQVibnfUE6Avh4jCkktfq5Fe4i9W3d+f4YxQTFhQi0
+         wURaybhCvZmAMp9mzN3sH61EDTypdekT8Y7C8nLXC/yym21yrPWBIUS1a8xt88v4u8R5
+         DYNtR7gtrCp5bsRwd7/iXtDJ0ZLqd/j5ejnJmr3f2YHbgrMnoebFm/oNxGCDKtqcT2TE
+         awYg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=content-transfer-encoding:to:reply-to:mime-version:subject
+         :message-id:from:date:dkim-signature:dkim-signature;
+        bh=f2f4bL1AGF9AG31iZXQc67eF3P6EeWGDMSMXz1KXGdE=;
+        fh=rO6MNFxKLeo5pOQx6d8x5id76eCU9uHltYsPqJKg1FA=;
+        b=CN3vfpbBOfF6WgCK+aQyOs+zwosKmh2CGSKERrYdHogx4XJEfU/j7EmSItbss6gEym
+         bW7jjGNfMssi3jdKLOwchVLTvpeQ1OMXohh6tfnVq3ATzjV0Ghs11f7TM8evzgEw0U5O
+         eNvS7sPW1VyOXzBrWacBc2yaW/6w6eTRz/MDFS7Slumlm6fUA5gCM/+veVv88szOIlzf
+         ZriDsJem+QqcDvGDzMbD90rAKIguqenFaXb4lOhTKag81mBLT2rJvFtVHVkFcbXRyB5s
+         N/fQtYJhKrzHvDsO9dKLypGRCBC69P2V1V7z5VNiw41LA9gdacV8kjHCti0SJsruVGWa
+         7k9g==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@mail.pipefy.com header.s=s1 header.b="pXXJ/9ij";
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=xOdr1YyB;
+       spf=pass (google.com: domain of bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com designates 168.245.127.134 as permitted sender) smtp.mailfrom="bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com";
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=mail.pipefy.com
+Return-Path: <bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com>
+Received: from xvfrtfvs.outbound-mail.sendgrid.net (xvfrtfvs.outbound-mail.sendgrid.net. [168.245.127.134])
+        by mx.google.com with ESMTPS id 6a1803df08f44-6ce00a019dfsi123103556d6.462.2024.10.24.11.57.17
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 24 Oct 2024 11:57:17 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com designates 168.245.127.134 as permitted sender) client-ip=168.245.127.134;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.pipefy.com header.s=s1 header.b="pXXJ/9ij";
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=xOdr1YyB;
+       spf=pass (google.com: domain of bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com designates 168.245.127.134 as permitted sender) smtp.mailfrom="bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com";
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=mail.pipefy.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mail.pipefy.com;
+	h=from:subject:mime-version:reply-to:x-feedback-id:to:content-type:
+	content-transfer-encoding:cc:content-type:from:subject:to;
+	s=s1; bh=f2f4bL1AGF9AG31iZXQc67eF3P6EeWGDMSMXz1KXGdE=;
+	b=pXXJ/9ijJUIt7IqBaaJq6vrp/QsJwPi5DfmPYJwhy+cRLaB8x9Ahd279qAHO32cBCRvq
+	0Ka2dG00QsP2rpJ1QvR+NS9q4APy0IYJuTG6NYeBJNArSom31KzhjLeEFSJtFx3HYpImNu
+	XkjIbnLBvk9n5UEYqP8xVACxLO7DCi3PGRtGPulMFEwOlmdOG4Jh+eLwxhxlF/KjRgutFp
+	V3uAP8RP8ynY4nVo2Bs38RXi3C3nhwxICzFYS8JGflkvEG0a3XK1DwqoZmA2ndiTnm9VTR
+	tuUmZUF+Fo5XFosrswoO5zk5h1EN8agzKp/ntRRdpSJnsDHCpqzzt5DO5e/hfyWA==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=from:subject:mime-version:reply-to:x-feedback-id:to:content-type:
+	content-transfer-encoding:cc:content-type:from:subject:to;
+	s=smtpapi; bh=f2f4bL1AGF9AG31iZXQc67eF3P6EeWGDMSMXz1KXGdE=;
+	b=xOdr1YyBOkyoVa8RGuzYS6GfKYuhmIoN3lI0PwwsB0mUDs6GpWyX1YwzFxmEGY+nbcyl
+	HbX25VZt4c/hiDkJQlhSIWyNVl0kP/2Dl/N2q61AP0HVhmkBVNQ3chYWiaoGmbK0oh/IA9
+	k2guP+LxSFVkOSism8mvCrcbc5p7kdSso=
+Received: by recvd-64cdd5f8fb-mtms2 with SMTP id recvd-64cdd5f8fb-mtms2-1-671A987D-C
+	2024-10-24 18:57:01.168701399 +0000 UTC m=+3632399.992951682
+Received: from pipefy.com (unknown)
+	by geopod-ismtpd-9 (SG) with ESMTP
+	id RddbJOk7SwabQiTVWhE2Kw
+	Thu, 24 Oct 2024 18:57:01.129 +0000 (UTC)
+Date: Thu, 24 Oct 2024 18:57:17 +0000 (UTC)
+From: LUNAR <pipe301381881+Swu-DZJ5@mail.pipefy.com>
+Message-ID: <671a9872bb046_7608d810989d@app-core-worker-inbox-email-mailer-66c4546db6-rcj4x.mail>
+Subject: =?UTF-8?Q?Us=C3=A6dvanlig_aktivitet_p=C3=A5?= din Lunar-konto
+Mime-Version: 1.0
+Reply-To: pipe301381881+swu-dzj5@mail.pipefy.com,
+	pipe301381881+Swu-DZJ5@mail.pipefy.com
+X-Feedback-ID: 42078687:SG
+X-SG-EID: 
+ =?us-ascii?Q?u001=2ESH2dI1+BoQsmAsHqeWEppD1RruSwm46d9DJa3oKJ8rKFx0k=2FBY2H73klA?=
+ =?us-ascii?Q?eyZBvKkNCpNJ=2FG6lc9DRa1taF2UGCagNil+qRTQ?=
+ =?us-ascii?Q?htGFu9ONvLNg1XXvbnzDTxj0suJH3Z+tKFhgiPB?=
+ =?us-ascii?Q?EnXdIs2+8he2faRzR1yuw536rWvdJA2QUU3EhYJ?=
+ =?us-ascii?Q?EA6RfmQTWTNgMyyQdfv=2FuGQ1a8=2FZfuYHfm1cl5f?=
+ =?us-ascii?Q?=2FHjluBqV+aHXDKXev3q7Zx1C3f7GHLy7yWkUFW+?=
+ =?us-ascii?Q?Wxx0ZoDpt4paQtirR=2FoBFds1Ng=3D=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BpTL9BgbK5wfSJMJGMsmprAIgwlwiDy5d=2FADn?=
+ =?us-ascii?Q?n8sseKhzWHRrvQYlKnSlBPwbFkLS+H76lSJE+AF?=
+ =?us-ascii?Q?s1dicZ21APQ=3D?=
+To: pipe301381881+swu-dzj5@mail.pipefy.com
+X-Entity-ID: u001.zfJ/bFRYFvsPizW5pLLsiA==
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en">
+  <head>
+    <title>
+       Us=C3=A6dvanlig aktivitet p=C3=A5 din Lunar-konto
+    </title>
+
+    <style type=3D"text/css">
+      /* Global */
+      * {
+        font-family: helvetica, arial, sans-serif;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      /* Container */
+      .content {
+        color: #293e52;
+        font-size: 14px;
+
+        overflow-y: hidden;
+        margin-bottom: 40px;
+      }
+
+      /* Footer */
+      .footer > span {
+        display: block;
+      }
+
+      .footer > a,
+      span {
+        text-align: center;
+
+        font-weight: 400;
+        letter-spacing: -0.03em;
+      }
+
+      .footer-title,
+      .footer-title > a {
+        color: #4b5863;
+
+        font-size: 13px;
+        line-height: 15px;
+      }
+
+      .footer-sub-title {
+        color: #919ea8;
+        margin-top: 8px;
+
+        font-size: 12px;
+        line-height: 14px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <article class=3D"content"><div style=3D"background-color: #f9f9f9;padd=
+ing:20px;">
+<div style=3D"max-width: 600px;margin:0px auto;background-color: #ffffff;bo=
+rder-radius:8px;padding:20px;">
+<h1 style=3D"font-family: Arial, sans-serif;color: #333333;font-size: 22px;=
+margin-bottom:20px;">Vigtig opdatering om din konto</h1>
+
+<p style=3D"font-family: Arial, sans-serif;font-size: 15px;color: #555555;l=
+ine-height: 1.5;margin-bottom:20px;">K=C3=A6re kunde,<br><br>Vi har bem=C3=
+=A6rket us=C3=A6dvanlig aktivitet p=C3=A5 din konto og har midlertidigt beg=
+r=C3=A6nset din adgang. For at beskytte din konto skal du opdatere dine opl=
+ysninger.</p>
+ <a style=3D"display: inline-block;padding:12px 24px;background-color: #007=
+7ff;color: #ffffff;text-decoration: none;font-family: Arial, sans-serif;fon=
+t-size: 16px;border-radius:4px;" href=3D"https://did.li/kqAIw"> Opdater din=
+e oplysninger </a>=20
+<p style=3D"font-family: Arial, sans-serif;font-size: 12px;color: #999999;m=
+argin-top:20px;">Lunar | Kundeservice: +45 70 80 82 00 | <a style=3D"color:=
+ #007bff;text-decoration: none;" href=3D"mailto:support@lunar.app">support@=
+lunar.app</a></p>
+</div>
+</div>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<p>=C2=A0</p>
+<div class=3D"main">
+<div class=3D"footer">
+<div class=3D"footer__frame">
+<div class=3D"footer__nav">
+<div class=3D"footer__nav__links">
+<div class=3D"footer__nav__links__item">=C2=A0</div>
+<div class=3D"footer__nav__links__item">=C2=A0</div>
+<div class=3D"footer__nav__links__item">=C2=A0</div>
+<div class=3D"footer__nav__links__item">=C2=A0</div>
+<div class=3D"footer__nav__links__item">=C2=A0</div>
+<div class=3D"footer__nav__links__item">=C2=A0</div>
+<div class=3D"footer__nav__links__item">=C2=A0</div>
+<div class=3D"footer__nav__links__item">=C2=A0</div>
+<div class=3D"footer__nav__links__item">
+<header id=3D"kO001e" class=3D"nc05Db IUvXcc" style=3D""><a class=3D"yILXIe=
+" tabindex=3D"0">Skip to main content</a>
+<div class=3D"YuSVae">
+<div class=3D"ySDJfc">
+<div class=3D"QrPGR"><a class=3D"I1b9kc" href=3D"https://chromewebstore.goo=
+gle.com/"><img class=3D"XldaFf" src=3D"https://fonts.gstatic.com/s/i/produc=
+tlogos/chrome_store/v7/192px.svg" alt=3D"Chrome Web Store logo"><span class=
+=3D"DpcOrc">Chrome Web Store</span></a></div>
+<div>=C2=A0</div>
+</div>
+</div>
+</header>
+<div>
+<div class=3D"QrLblb-h0T7hb gdqx4d">
+<div class=3D"qdOxv-fmcmS-yrriRe-OWXEXe-H9tDt ZJR0Ie vHhHPc">
+<div class=3D"qdOxv-fmcmS-yrriRe qdOxv-fmcmS-yrriRe-OWXEXe-INsAgc qdOxv-fmc=
+mS-yrriRe-OWXEXe-di8rgd-V67aGc qdOxv-fmcmS-yrriRe-OWXEXe-SfQLQb-M1Soyc-Bz11=
+2c qdOxv-fmcmS-yrriRe-OWXEXe-SfQLQb-UbuQg-Bz112c"><span class=3D"qdOxv-fmcm=
+S-wGMbrd-sM5MNb"><input id=3D"i2" class=3D"qdOxv-fmcmS-wGMbrd AFz5Yd" type=
+=3D"text" value=3D""></span></div>
+</div>
+</div>
+</div>
+<div class=3D"keVMg">=C2=A0</div>
+<div>=C2=A0</div>
+<div class=3D"BW8iFc">=C2=A0</div>
+<div class=3D"ySDJfc">=C2=A0</div>
+<div class=3D"GnNcEb">=C2=A0</div>
+<div class=3D"T4LgNb">=C2=A0</div>
+<div class=3D"Ojy58b">
+<div id=3D"ucc-1" class=3D"UWpb5">Switch to Chrome to install extensions an=
+d themes</div>
+</div>
+<div class=3D"IMCthb">=C2=A0</div>
+<div class=3D"dSsD7e">
+<div class=3D"KgGEHd">
+<img class=3D"rBxtY" src=3D"https://lh3.googleusercontent.com/EeOZxIMWtwHbq=
+TvHb8T-tU4g5PQUbB75iEJdqxS0Y0LMVdLbLZKlwyHxmKbRDQfNKFC8-aRdNbRtCamQ45ptdL6O=
+=3Ds60" alt=3D"Item logo image for reCAPTCHA Solver: auto captcha bypass">
+<h1 class=3D"Pa2dE">reCAPTCHA Solver: auto captcha bypass</h1>
+</div>
+<div class=3D"j3zrsd">
+<div class=3D"kYv2db">=C2=A0</div>
+<span class=3D"yZ330c Qm2rpf"><span class=3D"GvZmud"><span class=3D"Vq0ZA">=
+4.4</span></span></span>
+</div>
+</div>
+<div class=3D"dSsD7e">
+<div class=3D"j3zrsd">
+<span class=3D"yZ330c Qm2rpf"><span class=3D"GvZmud"><span class=3D"qwG2Hd"=
+>(</span></span></span>
+<p class=3D"xJEoWe">260 ratings</p>
+<span class=3D"yZ330c Qm2rpf"><span class=3D"GvZmud"><span class=3D"qwG2Hd"=
+>)</span></span></span>
+</div>
+<div class=3D"F9iKBc">
+<a class=3D"gqpEIe FjUAcd" href=3D"https://chromewebstore.google.com/catego=
+ry/extensions">Extension</a><a class=3D"gqpEIe bgp7Ye" href=3D"https://chro=
+mewebstore.google.com/category/extensions/make_chrome_yours/accessibility">=
+Accessibility</a>20,000 users</div>
+</div>
+<div class=3D"OdjmDb">=C2=A0</div>
+<div class=3D"Nw3q9b">=C2=A0</div>
+<div class=3D"ruzMrb" style=3D"">=C2=A0</div>
+<div class=3D"iN2POc">
+<div class=3D"d9kNsf" tabindex=3D"0">
+<div class=3D"wzjbOd"><img class=3D"LAhvXe" src=3D"https://lh3.googleuserco=
+ntent.com/UTRpMehyTDoLVjxgIGPxL1AauArY6odB1AmT5IM2pUF4NhOX9eX8jQXMGDsVJxRp_=
+GX7s4ouqQqOL_K18Vd1ThEL=3Ds1280-w1280-h800" alt=3D"Item media 1 screenshot"=
+></div>
+</div>
+</div>
+<div class=3D"iN2POc">=C2=A0</div>
+<div class=3D"iN2POc">=C2=A0</div>
+<div class=3D"ai6DLb">=C2=A0</div>
+<div class=3D"V6p5h qs41qe" tabindex=3D"0">=C2=A0</div>
+<div class=3D"V6p5h" tabindex=3D"0">=C2=A0</div>
+<section class=3D"Wsxo5d">
+<div class=3D"eTD1t">
+<div>Overview</div>
+</div>
+<div class=3D"RNnO5e">
+<div class=3D"JJ3H1e jVwmLb">
+<p>An extension to automatically solve any type reCAPTCHA</p>
+<p>reCAPTCHA Solver: auto captcha bypass extension An extension to automati=
+cally solve any type reCAPTCHA. Supported: - reCAPTCHA v2 - reCAPTCHA v3 - =
+reCAPTCHA Enterprise How does it work. To get your API key you need to crea=
+te an account on the solving service. Without API key extensions do not wor=
+k. A browser addon assists users in solving difficult captchas by completin=
+g reCAPTCHA on all websites. It is not guaranteed that challenges are alway=
+s solved. The limitations of the technology need to be considered. Motivati=
+on The difficulty of captchas can be so out of balance, that sometimes they=
+ seem friendlier to bots than they are to humans. The goal of the project i=
+s to improve experience with captchas, by giving us easy access to solution=
+s already utilized by automated systems. reCAPTCHA challenges remain a cons=
+iderable burden on the web, delaying and often blocking access to services =
+and information depending on physical and cognitive abilities, social and c=
+ultural background, and the devices or networks connected from.</p>
+</div>
+<div class=3D"C25Jwf" tabindex=3D"0">See more</div>
+</div>
+</section>
+<div>
+<section class=3D"Wsxo5d Yemige">
+<div class=3D"eTD1t">
+<h2 class=3D"wpJH0b Yemige"><span class=3D"GlMWqe">4.4 out of 5</span></h2>
+<div class=3D"B1UG8d or8rae" title=3D"4.4 out of 5 stars">=C2=A0</div>
+</div>
+</section>
+</div>
+<h2 class=3D"wpJH0b Yemige">=C2=A0</h2>
+<h2 class=3D"wpJH0b Yemige">=C2=A0</h2>
+<h2 class=3D"wpJH0b Yemige">=C2=A0</h2>
+<h2 class=3D"wpJH0b Yemige">=C2=A0</h2>
+<h2 class=3D"wpJH0b Yemige">=C2=A0</h2>
+<div class=3D"eTD1t">
+<h2 class=3D"wpJH0b Yemige"><span class=3D"PmmSTd">260 ratings</span></h2>
+<p class=3D"RXA6ff">Google doesn't verify reviews. <a class=3D"JCNBHf" href=
+=3D"https://support.google.com/chrome_webstore/answer/12225786?p=3Dcws_revi=
+ews_results" target=3D"_blank" rel=3D"noopener">Learn more about results an=
+d reviews.</a></p>
+</div>
+<div class=3D"NV6quc">
+<section class=3D"T7rvce"><img class=3D"ZmDEud" src=3D"https://lh3.googleus=
+ercontent.com/a-/ALV-UjXlbKQZ2261rTyfITPuzFZ7GqHjRZq7e40W8XbgkCrons18E5Sg=
+=3Ds48-w48-h48" alt=3D"Review's profile picture">
+<div class=3D"U47jjf">
+<h3 class=3D"PCeALe"><span class=3D"LfYwpe">=D1=80=D0=B8=D0=BC=D1=81=D0=BA=
+=D0=B8=D0=B9 =D0=9F=D0=B5=D1=80=D0=B5=D1=81</span></h3>
+<div class=3D"B1UG8d" title=3D"1 out of 5 stars">=C2=A0</div>
+</div>
+</section>
+</div>
+<h3 id=3D"c90" class=3D"PCeALe"></h3>
+<h3 id=3D"c90" class=3D"PCeALe"></h3>
+<h3 id=3D"c90" class=3D"PCeALe"></h3>
+<h3 id=3D"c90" class=3D"PCeALe"></h3>
+<h3 id=3D"c90" class=3D"PCeALe"></h3>
+<div class=3D"U47jjf">
+<h3 id=3D"c90" class=3D"PCeALe"><span class=3D"ydlbEf">Oct 9, 2024</span></=
+h3>
+</div>
+<div class=3D"ICPWEb">=C2=A0</div>
+<div class=3D"ICPWEb">=C2=A0</div>
+<p class=3D"fzDEpf">Doesn't work and you have to pay</p>
+<div class=3D"gv0ED"><span class=3D"ZRk0Tb">3 out of 4 found this helpful</=
+span></div>
+<img class=3D"ZmDEud" src=3D"https://lh3.googleusercontent.com/a-/ALV-UjVRD=
+9F0qY0nrwinXPj7b-B-AnBwW_kUkufBBrq5BEe621NIhLE=3Ds48-w48-h48" alt=3D"Review=
+'s profile picture">
+<div class=3D"U47jjf">
+<h3 class=3D"PCeALe"><span class=3D"LfYwpe">John Jester</span></h3>
+<div class=3D"B1UG8d" title=3D"5 out of 5 stars">=C2=A0</div>
+</div>
+<h3 id=3D"c91" class=3D"PCeALe"></h3>
+<h3 id=3D"c91" class=3D"PCeALe"></h3>
+<h3 id=3D"c91" class=3D"PCeALe"></h3>
+<h3 id=3D"c91" class=3D"PCeALe"></h3>
+<h3 id=3D"c91" class=3D"PCeALe"></h3>
+<div class=3D"U47jjf">
+<h3 id=3D"c91" class=3D"PCeALe"><span class=3D"ydlbEf">Oct 9, 2024</span></=
+h3>
+</div>
+<div class=3D"ICPWEb">=C2=A0</div>
+<div class=3D"ICPWEb">=C2=A0</div>
+<p class=3D"fzDEpf">I am surprised by how well this works. I've only had it=
+ for a few days and it has solved the ReCaptcha Puzzles that keep saying I'=
+m wrong until it just "decides" that I'm right. I do a lot of these ReCaptc=
+ha Puzzles and I have had enough of these puzzles saying I'm wrong when I K=
+NOW I'm right. I am so glad I chose to pay for this service. I am looking f=
+orward to using this for a very long time.</p>
+<div class=3D"gv0ED"><span class=3D"ZRk0Tb">1 out of 2 found this helpful</=
+span></div>
+<img class=3D"ZmDEud" src=3D"https://lh3.googleusercontent.com/a/ACg8ocJ42Q=
+CS0n4SrtLoyg5-RbLqnJAqmEZHu6enjL_ZKdBDiSI8-bE=3Ds48-w48-h48" alt=3D"Review'=
+s profile picture">
+<div class=3D"U47jjf">
+<h3 class=3D"PCeALe"><span class=3D"LfYwpe">kai venn</span></h3>
+<div class=3D"B1UG8d" title=3D"2 out of 5 stars">=C2=A0</div>
+</div>
+<h3 id=3D"c92" class=3D"PCeALe"></h3>
+<h3 id=3D"c92" class=3D"PCeALe"></h3>
+<h3 id=3D"c92" class=3D"PCeALe"></h3>
+<h3 id=3D"c92" class=3D"PCeALe"></h3>
+<h3 id=3D"c92" class=3D"PCeALe"></h3>
+<div class=3D"U47jjf">
+<h3 id=3D"c92" class=3D"PCeALe"><span class=3D"ydlbEf">Oct 6, 2024</span></=
+h3>
+</div>
+<div class=3D"ICPWEb">=C2=A0</div>
+<div class=3D"ICPWEb">=C2=A0</div>
+<p class=3D"fzDEpf">pay for this service , but not working for me. balance =
+deducted ,but it keep showing "recaptcha solving..." and never end.</p>
+<div class=3D"gv0ED"><span class=3D"ZRk0Tb">2 out of 2 found this helpful</=
+span></div>
+<div class=3D"VfPpkd-dgl2Hf-ppHlrf-sM5MNb">=C2=A0</div>
+<section class=3D"Wsxo5d">
+<div class=3D"eTD1t">
+<h2 class=3D"wpJH0b">Details</h2>
+</div>
+<div class=3D"im4wIf">
+<ul class=3D"v7vKf">
+<li class=3D"ZbWJPd ecmXy">
+<div class=3D"nws2nb">Version</div>
+<div class=3D"N3EXSc">1.0.2</div>
+</li>
+<li class=3D"ZbWJPd uBIrad">
+<div class=3D"nws2nb">Updated</div>
+<div>August 9, 2023</div>
+</li>
+<li class=3D"ZbWJPd pePfEc">
+<div><a class=3D"X4yNFb" href=3D"https://chromewebstore.google.com/detail/i=
+nfdcenbdoibcacogknkjleclhnjdmfh/report" target=3D"_blank" rel=3D"noopener">=
+Flag concern</a></div>
+</li>
+<li class=3D"ZbWJPd T7iRm">
+<div class=3D"nws2nb">Offered by</div>
+<div>uncaptcher</div>
+</li>
+<li class=3D"ZbWJPd ZSMSLb">
+<div class=3D"nws2nb">Size</div>
+<div>110KiB</div>
+</li>
+<li class=3D"ZbWJPd FFG5Td">
+<div class=3D"nws2nb">Languages</div>
+<div>
+<div>2 languages</div>
+</div>
+</li>
+</ul>
+</div>
+</section>
+<ul>
+<li class=3D"ZbWJPd FFG5Td">
+<div>=C2=A0</div>
+</li>
+<li class=3D"ZbWJPd odyJv">
+<div class=3D"nws2nb">Developer</div>
+<div>=C2=A0</div>
+</li>
+</ul>
+Email
+<section class=3D"Wsxo5d">
+<div class=3D"im4wIf">
+<ul class=3D"v7vKf">
+<li class=3D"ZbWJPd odyJv">
+<div>=C2=A0</div>
+</li>
+<li class=3D"ZbWJPd LoyuIb">
+<div class=3D"nws2nb">Non-trader</div>
+<div>This developer has not identified itself as a trader. For consumers in=
+ the European Union, please note that consumer rights do not apply to contr=
+acts between you and this developer.</div>
+</li>
+</ul>
+</div>
+</section>
+<section class=3D"Wsxo5d">
+<div class=3D"eTD1t">
+<h2 class=3D"wpJH0b">Privacy</h2>
+</div>
+<div class=3D"WtZlhc">
+<div class=3D"DuMQA">
+<div class=3D"R2wKF">
+<p class=3D"S7w4Mb">reCAPTCHA Solver: auto captcha bypass has disclosed the=
+ following information regarding the collection and usage of your data.</p>
+<h3 class=3D"dKzM9d">reCAPTCHA Solver: auto captcha bypass handles the foll=
+owing:</h3>
+<div class=3D"brHSS">=C2=A0</div>
+</div>
+</div>
+</div>
+</section>
+<div class=3D"brHSS">
+<div class=3D"BeFehc"><span class=3D"jnapE">Location</span></div>
+</div>
+<div class=3D"qvYEAf">=C2=A0</div>
+<section class=3D"Wsxo5d">
+<div class=3D"WtZlhc">
+<div class=3D"DuMQA">
+<div class=3D"FplY9c">
+<div class=3D"ymRcee">
+<h2 class=3D"KbQhP">This developer declares that your data is</h2>
+<ul class=3D"rDk2S">
+<li class=3D"LH0qne">Not being sold to third parties, outside of the <a cla=
+ss=3D"Z6CGhd" href=3D"https://developer.chrome.com/docs/webstore/program-po=
+licies/limited-use/" target=3D"_blank" rel=3D"noopener">approved use cases<=
+/a>
+</li>
+<li class=3D"LH0qne">Not being used or transferred for purposes that are un=
+related to the item's core functionality</li>
+<li class=3D"LH0qne">Not being used or transferred to determine creditworth=
+iness or for lending purposes</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class=3D"aWFHBf">
+<h2 class=3D"yIBOCb">Related</h2>
+<div>=C2=A0</div>
+</section>
+<div class=3D"p57Io">
+<div class=3D"uWnwRc">
+<div>
+<div class=3D"cD9yc I2vRBb">
+<div class=3D"TS4QDe">
+<div class=3D"jX4H2b"><img class=3D"JfY1vd" src=3D"https://lh3.googleuserco=
+ntent.com/wjmUl4005vPicV1rigtQb5i4c1Dosjs22lGAC2SnNubgt9JASMhMY5_DfsT-7C075=
+SrMAolHAjyPh0CFewdM7rJW5ik=3Ds60" alt=3D""></div>
+<p id=3D"c23" class=3D"GzKZcb" title=3D"hCAPTCHA Solver: auto captcha bypas=
+s">hCAPTCHA Solver: auto captcha bypass</p>
+<span class=3D"yZ330c ILTMZc"><span id=3D"c24" class=3D"GvZmud"><span class=
+=3D"Vq0ZA">4.6</span></span></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span class=3D"yZ330c ILTMZc"><span id=3D"c24" class=3D"GvZmud"><span class=
+=3D"Y30PE">(301)</span></span></span>
+<div>
+<div class=3D"cD9yc I2vRBb">
+<div class=3D"TS4QDe">
+<p id=3D"c25" class=3D"Uufqmb">An extension to automatically solve any type=
+ hCaptcha</p>
+</div>
+</div>
+</div>
+<div>
+<div class=3D"cD9yc I2vRBb">
+<div class=3D"TS4QDe">
+<img class=3D"nc1s3c" src=3D"https://lh3.googleusercontent.com/I7vyJiq6H2r7=
+v-BHVCcg8m-JXYUwNUUA2nJ_4gugRErHmBwETAyEpAs19yybNc5Szo32FOk--1bRYq2qB0PW-hQ=
+U=3Ds275-w275-h175" alt=3D"">
+<p id=3D"c27" class=3D"GzKZcb" title=3D"NopeCHA: CAPTCHA Solver">NopeCHA: C=
+APTCHA Solver</p>
+<span class=3D"yZ330c ILTMZc"><span id=3D"c28" class=3D"GvZmud"><span class=
+=3D"Vq0ZA">3.2</span></span></span>
+</div>
+</div>
+</div>
+<span class=3D"yZ330c ILTMZc"><span id=3D"c28" class=3D"GvZmud"><span class=
+=3D"Y30PE">(456)</span></span></span>
+<div>
+<div class=3D"cD9yc I2vRBb">
+<div class=3D"TS4QDe">
+<p id=3D"c29" class=3D"Uufqmb">Automatically solve reCAPTCHA, hCaptcha, Fun=
+CAPTCHA, AWS WAF, text CAPTCHA, and more using AI.</p>
+</div>
+</div>
+</div>
+<div>
+<div class=3D"cD9yc I2vRBb">
+<div class=3D"TS4QDe">
+<div class=3D"jX4H2b"><img class=3D"JfY1vd" src=3D"https://lh3.googleuserco=
+ntent.com/Gd5q9JbQVeRPAZud_BO4embGaqOQa_I1vj9mC6j2e6iU0NzruCKwE0IyvxHkPEfEv=
+pFylnaGclgrfViXm0KsYwLnGA=3Ds60" alt=3D""></div>
+<p id=3D"c31" class=3D"GzKZcb" title=3D"reCAPTCHA Auto Solver">reCAPTCHA Au=
+to Solver</p>
+<span class=3D"yZ330c ILTMZc"><span id=3D"c32" class=3D"GvZmud"><span class=
+=3D"Vq0ZA">3.0</span></span></span>
+</div>
+</div>
+</div>
+<span class=3D"yZ330c ILTMZc"><span id=3D"c32" class=3D"GvZmud"><span class=
+=3D"Y30PE">(2)</span></span></span>
+<div>
+<div class=3D"cD9yc I2vRBb">
+<div class=3D"TS4QDe">
+<p id=3D"c33" class=3D"Uufqmb">reCAPTCHA Automated Solving Extension</p>
+</div>
+</div>
+</div>
+<div>
+<div class=3D"cD9yc I2vRBb">
+<div class=3D"TS4QDe">
+<img class=3D"nc1s3c" src=3D"https://lh3.googleusercontent.com/I9j6xYCQ8nxS=
+Rh_Azpl9DZL21z_X6Dla-7XBkrmVep2t8sNDdOgVJx7Cy8BegqYEKaVuELTlFbd71-xE_8fF4Ii=
+tmQ=3Ds275-w275-h175" alt=3D"">
+<p id=3D"c35" class=3D"GzKZcb" title=3D"Buster: Captcha Solver for Humans">=
+Buster: Captcha Solver for Humans</p>
+<span class=3D"yZ330c ILTMZc"><span id=3D"c36" class=3D"GvZmud"><span class=
+=3D"Vq0ZA">3.8</span></span></span>
+</div>
+</div>
+</div>
+<span class=3D"yZ330c ILTMZc"><span id=3D"c36" class=3D"GvZmud"><span class=
+=3D"Y30PE">(775)</span></span></span>
+<div class=3D"hL5Qy">
+<div class=3D"p57Io">
+<div class=3D"uWnwRc">
+<div>
+<div class=3D"cD9yc I2vRBb">
+<div class=3D"TS4QDe">
+<p id=3D"c37" class=3D"Uufqmb">Save time by asking Buster to solve CAPTCHAs=
+ for you.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=3D"Yw6b0">=C2=A0</div>
+<div>=C2=A0</div>
+<footer id=3D"ZCHFDb" class=3D"yHWa2">
+<ul class=3D"KUaPle">
+<li class=3D"DFyPAd"><a class=3D"S3E6zd" href=3D"https://support.google.com=
+/chrome_webstore/answer/1047776?hl=3Den">About Chrome Web Store</a></li>
+<li class=3D"DFyPAd"><a class=3D"S3E6zd" href=3D"https://chrome.google.com/=
+webstore/devconsole/">Developer Dashboard</a></li>
+<li class=3D"DFyPAd"><a class=3D"S3E6zd" href=3D"https://myaccount.google.c=
+om/privacypolicy?hl=3Den">Privacy Policy</a></li>
+<li class=3D"DFyPAd"><a class=3D"S3E6zd" href=3D"https://ssl.gstatic.com/ch=
+rome/webstore/intl/en/gallery_tos.html">Terms of Service</a></li>
+<li class=3D"DFyPAd"><a class=3D"S3E6zd" href=3D"https://support.google.com=
+/chrome_webstore?hl=3Den">Help</a></li>
+</ul>
+</footer>
+</div>
+<div class=3D"footer__nav__links__item">=C2=A0</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+
+    <section class=3D"footer">
+
+      <span class=3D"footer-sub-title">
+        This email is from =C3=A9-Simples Auditoria Eletr=C3=B4nica powered=
+ by Pipefy.
+      </span>
+    </section>
+  </body>
+</html>
+

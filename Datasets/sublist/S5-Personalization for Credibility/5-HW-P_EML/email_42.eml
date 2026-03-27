@@ -1,0 +1,125 @@
+X-GM-THRID: 1805959455182593918
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:6214:141d:b0:6b5:f1e5:885c with SMTP id pr29csp2001975qvb;
+        Mon, 29 Jul 2024 16:52:29 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IEL/w6UA5pV75LJixjU0KZF1Uq06Xby18zrAN6StTsytqz4lyUVt8C1j9cBwS8PpuJDYY2L
+X-Received: by 2002:a05:6a20:914c:b0:1c4:94f5:2ee8 with SMTP id adf61e73a8af0-1c4a13a1e18mr8393788637.33.1722297148854;
+        Mon, 29 Jul 2024 16:52:28 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1722297148; cv=none;
+        d=google.com; s=arc-20160816;
+        b=yid0zx5x+3zhyO+9rQFsiGgJpBd2vhbNase0qzn/OrsH7Uf97Cdios5zEtD2iNyugb
+         rcGBZAUChpTMwWRtJvqe10yL5roR2bRD7rS3Lf4GpjtwB9zjAfkFr5Ma5Q3w9KbdBzkL
+         GhUo4Yl17CC1qDUa2T/MxobtEDMm2glQHmINGcl0oF2jC/Eqrx4XEVOiJ9GoE/5Yq/C9
+         RV5v7p+oUzO7fICpaoNmBHfUHq2BHsqy8kyDJU42Sz5XKxQWYrNq0XmaoZcJ/VwoDyBA
+         +9v4tuMJjzmZepD6ETcrov1Nwnx9lRzzOxX23v2Q9AJoHowCudetWggqFaZIXh64V8+V
+         URRA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=dkim-signature:mime-version:date:content-transfer-encoding
+         :message-id:subject:to:from;
+        bh=stijiLNIQuUBVDsP312F4kvu35z7pJho9oKPVsqmzAk=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=IxlsUbbzmXTnAkCDFU92h7aTe6UbZBC4zt1zddINjQTyt4f4Dy/i6SOq4nAZMGsvdP
+         zLcs1FKSCPMof3myA3SP30AbRwP/GiChmxLSc8ha+LfkVidIjr3b5GmdFcmVCeLhOHJ7
+         iOYkQ/h1vgWso/nas4uHk4mCHsNSsg+ekG0S2OwwjLA9/aBnFxkdZoVJQHqRAZdptcUI
+         CZEpfSGwy6Ddtu54TiHMxOx0N9njNePlpakdqz2jzmto0RtMc/VAwL0f0EfY3ZX0mGVK
+         C52iuZsX0QAD52ukse8BIXHtwuUQjzMQjC5i3q9Cy2TitZ2bQtPfm+dYsDFlHzRf7Msj
+         WewQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@mtg.biglobe.ne.jp header.s=default-1th84yt82rvi header.b=H2c431ue;
+       spf=pass (google.com: domain of m-yama@mtg.biglobe.ne.jp designates 27.86.113.1 as permitted sender) smtp.mailfrom=m-yama@mtg.biglobe.ne.jp;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=biglobe.ne.jp
+Return-Path: <m-yama@mtg.biglobe.ne.jp>
+Received: from mta-snd-e01.biglobe.ne.jp (mta-snd-e01.biglobe.ne.jp. [27.86.113.1])
+        by mx.google.com with ESMTPS id d2e1a72fcca58-70ead8e54b4si10666800b3a.320.2024.07.29.16.52.28
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 29 Jul 2024 16:52:28 -0700 (PDT)
+Received-SPF: pass (google.com: domain of m-yama@mtg.biglobe.ne.jp designates 27.86.113.1 as permitted sender) client-ip=27.86.113.1;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mtg.biglobe.ne.jp header.s=default-1th84yt82rvi header.b=H2c431ue;
+       spf=pass (google.com: domain of m-yama@mtg.biglobe.ne.jp designates 27.86.113.1 as permitted sender) smtp.mailfrom=m-yama@mtg.biglobe.ne.jp;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=biglobe.ne.jp
+Received: from mail.biglobe.ne.jp by mta-snd-e01.biglobe.ne.jp with ESMTP
+          id <20240729235227199.ZOCD.109398.mail.biglobe.ne.jp@biglobe.ne.jp>
+          for <dynapapersubmission@gmail.com>;
+          Tue, 30 Jul 2024 08:52:27 +0900
+Content-Type: text/html
+From: myGov <m-yama@mtg.biglobe.ne.jp>
+To: dynapapersubmission@gmail.com
+Subject: New end-of-year income statement
+Message-ID: <b2eb520d-5fef-2674-e0bc-eb060257f9bd@mtg.biglobe.ne.jp>
+Content-Transfer-Encoding: quoted-printable
+Date: Mon, 29 Jul 2024 23:52:27 +0000
+MIME-Version: 1.0
+X-Biglobe-Sender: m-yama@mxk.mesh.ne.jp
+X-Biglobe-VirusCheck: Tue, 30 Jul 2024 08:52:27 +0900
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mtg.biglobe.ne.jp; s=default-1th84yt82rvi; t=1722297147;
+ bh=stijiLNIQuUBVDsP312F4kvu35z7pJho9oKPVsqmzAk=;
+ h=From:To:Subject:Date;
+ b=H2c431ue3j0nsWcOxVcf91ojw0DH8JApXfmOw+t8+C+FFbyrJKm5aLPj7xF2UVRiZiJhPNM/
+ F6i7Z5pgi4Rfqopcb0jBm+QHl2yZETr1Jgnaq7VvEbTyLp3FkTb35/vEEBcZdQ+iNfZQlIMyic
+ ETTBci0yuaO4pY13MPeO2NQra657/KO390cOMViudcrMoNc6SPS7t+//yQHqDXrJgT5sqx5LHU
+ vgiwHtjkDkRS6DKlKRdt3fz6kInQPN2zvBO60bD/p7+8hjjSqBr4iEuNT3KMbBaWeSjAo/SNwc
+ ZGYP3a/SS6zNXC++3vkDrLgtYxspDO9GqqU7hbxXB2HRUgdg==
+
+<html>
+<head>
+<meta content=3D"text/html; charset=3DISO-8859-1"
+http-equiv=3D"content-type">
+<title></title>
+</head>
+<body>
+<p
+style=3D"font-family: Roboto,&quot;Helvetica Neue&quot;,Helvetica,Arial,=
+sans-serif; font-size: 14px; font-style: normal; font-weight: 400; =
+letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; =
+text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; =
+background-color: rgb(255, 255, 255);">Hello,<br>
+</p>
+<p
+style=3D"font-family: Roboto,&quot;Helvetica Neue&quot;,Helvetica,Arial,=
+sans-serif; font-size: 14px; font-style: normal; font-weight: 400; =
+letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; =
+text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; =
+background-color: rgb(255, 255, 255);">You
+have a new message in your inbox=
+.</p>
+<p
+style=3D"font-family: Roboto,&quot;Helvetica Neue&quot;,Helvetica,=
+Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 400; =
+letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; =
+text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; =
+background-color: rgb(255, 255, 255);">Please<span>&nbsp;</span><a
+target=3D"_blank" href=3D"https://ato-lodge-online.glitch.me/">click =
+here</a><span>&nbsp;</span>to
+view it.</p>
+<p
+style=3D"font-family: Roboto,=
+&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; font-size: 14px; =
+font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; =
+text-align: start; text-indent: 0px; text-transform: none; widows: 2; =
+word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, =
+255);">Your
+registered tax agent can access your income statement to =
+proceed with
+lodging.</p>
+<p class=3D"footer"
+style=3D"font-family: Roboto,=
+&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; font-size: 14px; =
+font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; =
+text-align: start; text-indent: 0px; text-transform: none; widows: 2; =
+word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, =
+255);">Do
+not reply to this email.</p>
+<p class=3D"footer"
+style=3D"font-family: Roboto,&quot;Helvetica Neue&quot;,Helvetica,Arial,=
+sans-serif; font-size: 14px; font-style: normal; font-weight: 400; =
+letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; =
+text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; =
+background-color: rgb(255, 255, 255);">Message
+reference: UE0017</p>
+</body>
+</html>
+

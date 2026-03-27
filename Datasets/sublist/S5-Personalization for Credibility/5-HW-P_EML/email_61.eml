@@ -1,0 +1,653 @@
+X-GM-THRID: 1789895143657697212
+X-Gmail-Labels: Inbox,Opened,Category Updates,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a0c:f514:0:b0:68c:4a25:16a1 with SMTP id j20csp1457794qvm;
+        Sat, 3 Feb 2024 08:17:07 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IFqodxYj2yzlBF1q96V5MElv2EsEipAaUPjDjQPqjQM6miBYrHlXCZE7FURx0IdinuzGHXA
+X-Received: by 2002:a05:600c:3510:b0:40e:aecc:25ac with SMTP id h16-20020a05600c351000b0040eaecc25acmr1123038wmq.30.1706977027302;
+        Sat, 03 Feb 2024 08:17:07 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1706977027; cv=none;
+        d=google.com; s=arc-20160816;
+        b=AMIrP6eluDB/ogj2/HYGUkrhNSCftVujmq3L400oB15UqappsMZTw/MmU8IeGrDi1j
+         x7WFMkvtlh4qf+igGNhu0g4Z/ZTdyF4oa3IyIHR2qIrHih0HOzNpGThIf3y9ixARdqQk
+         aHwf/sfJ+erJIg12r6nDeX1g0JB8BS8lUJktkAEomX2iKJcluyBj1l5l9yLGqq7Bzy+E
+         zPXppEsMVPY6sG97pq6G3Z13QJUJliTKo3jB9f+sPFCl6EszHlUPKScA5b3NNSFrS73u
+         cmKds8iZOIxGY4GkHvMoDrh9bpBMVFzmrPZYP5U7JKNF9J9P4y9TCtZ4HzKn6OIL5pcC
+         d4fQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:date:list-unsubscribe-post:list-unsubscribe
+         :mime-version:subject:message-id:to:reply-to:from:dkim-signature
+         :dkim-signature;
+        bh=l8ePw569weJ7FbtZ4UJIkuLwzjNDU5Kj2sl4tXXPr+4=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=fFQbVySd6kvaeh+Ss0HHZSlIZT4a3Gebpb1bbJLPdlh60PuUrkQlFlSngU4nAe3BXn
+         0jWuaxyWNVBNmCJOGD5TS3PYDf5JseKRTP3JxRIevmA6PehkIscudCnTeq66hv+toFSP
+         dPGLI+ZE68x8VsKKkn/V8jiUcqxYKj6/Mo/obwM/QcRUB1RdMwd1JI8d7bLr5Z7+pGJk
+         YrUEKq43L2T2cieyj59yU6TgZrNIlVDDfu0tLZjQLw0jGtQTrVgXWtxIv95O1wN5J78T
+         XCwdYFEg1iKn/Zq3/TGy9ZMP3VYG0RwwV70cj1FgzcX8nkoqImC6Nbw1Sm/JK7MT/AjP
+         sRyQ==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@cemporcentofree.com.br header.s=def header.b=Kd2VMHoV;
+       dkim=pass header.i=@amazonses.com header.s=shh3fegwg5fppqsuzphvschd53n6ihuv header.b=m64KzjRT;
+       spf=pass (google.com: domain of 0102018d6fc262dd-5a7de740-7f60-4c9a-a3e3-1e15514d25d0-000000@eu-west-1.amazonses.com designates 54.240.4.5 as permitted sender) smtp.mailfrom=0102018d6fc262dd-5a7de740-7f60-4c9a-a3e3-1e15514d25d0-000000@eu-west-1.amazonses.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=cemporcentofree.com.br
+Return-Path: <0102018d6fc262dd-5a7de740-7f60-4c9a-a3e3-1e15514d25d0-000000@eu-west-1.amazonses.com>
+Received: from a4-5.smtp-out.eu-west-1.amazonses.com (a4-5.smtp-out.eu-west-1.amazonses.com. [54.240.4.5])
+        by mx.google.com with ESMTPS id l24-20020a05600c1d1800b0040fb0110fa8si1229550wms.30.2024.02.03.08.17.07
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 03 Feb 2024 08:17:07 -0800 (PST)
+Received-SPF: pass (google.com: domain of 0102018d6fc262dd-5a7de740-7f60-4c9a-a3e3-1e15514d25d0-000000@eu-west-1.amazonses.com designates 54.240.4.5 as permitted sender) client-ip=54.240.4.5;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@cemporcentofree.com.br header.s=def header.b=Kd2VMHoV;
+       dkim=pass header.i=@amazonses.com header.s=shh3fegwg5fppqsuzphvschd53n6ihuv header.b=m64KzjRT;
+       spf=pass (google.com: domain of 0102018d6fc262dd-5a7de740-7f60-4c9a-a3e3-1e15514d25d0-000000@eu-west-1.amazonses.com designates 54.240.4.5 as permitted sender) smtp.mailfrom=0102018d6fc262dd-5a7de740-7f60-4c9a-a3e3-1e15514d25d0-000000@eu-west-1.amazonses.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=cemporcentofree.com.br
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple; s=def;
+	d=cemporcentofree.com.br; t=1706977026;
+	h=From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe:List-Unsubscribe-Post:Date;
+	bh=eaTG0+NF9XM2G4eBpW9Nb2wKwAfArl3ne/dKcDqe7po=;
+	b=Kd2VMHoVECNU4cewBYEIeWA6xLZ0aiWeRE/YFsJUIROYcjiI6fXnA19zOzft7ApD
+	iUrIhK8lxUgH1fhGSvyduHEJnUxoLcS7Hd/0Y4KpgAtFiZGeBKKYncMowhnDUH9EsLj
+	/RQChNFkD/KM28Ofkd3zp7f/E8365ImaYKLhl6ec=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=shh3fegwg5fppqsuzphvschd53n6ihuv; d=amazonses.com; t=1706977026;
+	h=From:Reply-To:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe:List-Unsubscribe-Post:Date:Feedback-ID;
+	bh=eaTG0+NF9XM2G4eBpW9Nb2wKwAfArl3ne/dKcDqe7po=;
+	b=m64KzjRTKX550aIYzHmnfDqeMCt/ER/ooaGbMn/qFLSvoY70Ddc4rLO4EPjtN3oD
+	SSqXEIPZiBmARAsIuJ3xozq4Uav2MsaBgFJJg8FR4b2c2SUlwvxRoNqfjZkF/b8OFDQ
+	dh+kLWzcI5UsXB7zuo6f82ISnSXMWw2KJRLqoalg=
+From: email <contato@cemporcentofree.com.br>
+Reply-To: contato@cemporcentofree.com.br
+To: dynapapersubmission@gmail.com
+Message-ID: <0102018d6fc262dd-5a7de740-7f60-4c9a-a3e3-1e15514d25d0-000000@eu-west-1.amazonses.com>
+Subject: benachrichtigung zur
+ kontosperrung-SBB-dynapapersubmission@gmail.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_Part_242_811700866.1706977026452"
+List-Unsubscribe: <https://ghassen801215.app.exur.com/_service/unsubscribe?p=eyJzZWNyZXROYW1lIjoicHJvZFNFU0FjY291bnQxIiwidGVzdCI6ZmFsc2UsInN1YmplY3QiOiJiZW5hY2hyaWNodGlndW5nIHp1ciBrb250b3NwZXJydW5nLVNCQi1keW5hcGFwZXJzdWJtaXNzaW9uQGdtYWlsLmNvbSIsImNyZWF0ZWQiOm51bGwsInN0ZXBJZCI6bnVsbCwidGV4dENvbnRlbnQiOm51bGwsInR5cGUiOiJDQU1QQUlHTiIsInBsYXRmb3JtIjoiYXBwLmV4dXIuY29tIiwibGlzdHMiOiIwIiwic2l0ZUlkIjoiMTExNzQyOSIsImlkIjoiMyIsInRvIjoiZHluYXBhcGVyc3VibWlzc2lvbkBnbWFpbC5jb20iLCJyZWdpb24iOiJldS13ZXN0LTEiLCJ3aGl0ZUxhYmVsIjoiMSJ9>, <mailto:contato@cemporcentofree.com.br?subject=unsubscribe>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Date: Sat, 3 Feb 2024 16:17:06 +0000
+Feedback-ID: 1.eu-west-1.IRDIniNKZ4ka6kJaY1ZMz4zsmvSknkWA/XIkzmnPn4g=:AmazonSES
+X-SES-Outgoing: 2024.02.03-54.240.4.5
+
+------=_Part_242_811700866.1706977026452
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Ihr Konto ist gesperrt... Wir haben Ihr Konto gesperrt, um Ihre Daten so sc=
+hnell wie m=C3=B6glich zu aktualisieren, damit wir es nicht dauerhaft schli=
+e=C3=9Fen. Bitte klicken Sie auf den Link unten, um Ihre Daten zu aktualisi=
+eren
+
+Aktualisieren Sie meine Daten jetzt
+
+ahlana ghassen801215@gmail.com Unsubscribe
+
+
+------=_Part_242_811700866.1706977026452
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+      <html lang=3D"en">
+        <head>
+          <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dutf-8"/>
+          <meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-s=
+cale=3D1"/>
+          <meta name=3D"x-apple-disable-message-reformatting"/>
+          <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"/>
+          <!--[if mso]>
+          <xml>
+            <o:OfficeDocumentSettings>
+              <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+          </xml>
+          <style>
+            table {
+              border-collapse: collapse;
+            }
+       =20
+            .spacer, .divider {
+              mso-line-height-rule: exactly;
+            }
+       =20
+            td, th, div, p, a {
+              font-size: 13px;
+              line-height: 23px;
+            }
+       =20
+            td, th, div, p, a, h1, h2, h3, h4, h5, h6 {
+              font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+            }
+          </style>
+          <![endif]-->
+          <style type=3D"text/css">
+           =20
+
+            @import url('https://fonts.googleapis.com/css?display=3Dswap&fa=
+mily=3DOpen+Sans%7CYanone+Kaffeesatz:regular%7COpen+Sans:regular%7CFrancois=
++One:regular');
+
+           =20
+
+            @media only screen {
+              .column, th, td, div, p {
+                =20
+                    font-family: 'Arial', -apple-system, system-ui, BlinkMa=
+cSystemFont, Helvetica, Arial, sans-serif;
+                  =20
+                font-weight: inherit;
+                color: #000000;=20
+              }
+
+              th { font-weight: normal;}
+            }
+
+            a {
+              text-decoration: none;
+            }
+            p { margin: 0;}
+            span a {
+              color: inherit !important;
+            }
+
+            img {
+              border: 0;
+              line-height: 100%;
+              max-width: 100%;
+              vertical-align: middle;
+            }
+
+            .wrapper {
+              min-width: 680px;
+              width: 100%;
+              max-width: 680px;
+            }
+
+            .row {
+              margin: 0 auto;
+              width: 100%;
+            }
+
+            .row .row, th .row {
+              width: 100%;
+            }
+
+            .column {
+              font-size: 15px;
+              line-height: 23px;
+              font-weight: normal;
+            }
+
+            .column div {
+              font-size: 15px;
+            }
+
+            div {
+              font-weight: normal;
+            }
+
+            .column-st {
+              padding-left: 40px;
+              padding-right: 40px;
+              text-align: left;
+            }
+
+            .align-center {
+              margin-left: auto !important;
+              margin-right: auto !important;
+            }
+
+            .align-left {
+              margin-left: 0;
+              margin-right: auto;
+            }
+
+            .align-right {
+              margin-left: auto;
+              margin-right: 0;
+            }
+
+           =20
+              .color-primary, .color-primary {
+                color: #e25141;
+              }
+
+              .bg-color-primary, .bg-color-primary {
+                background-color: #e25141;
+              }
+
+           =20
+              .color-secondary1, .color-secondary1 {
+                color: #028090;
+              }
+
+              .bg-color-secondary1, .bg-color-secondary1 {
+                background-color: #028090;
+              }
+
+           =20
+              .color-secondary2, .color-secondary2 {
+                color: #00A896;
+              }
+
+              .bg-color-secondary2, .bg-color-secondary2 {
+                background-color: #00A896;
+              }
+
+           =20
+              .color-secondary3, .color-secondary3 {
+                color: #02C39A;
+              }
+
+              .bg-color-secondary3, .bg-color-secondary3 {
+                background-color: #02C39A;
+              }
+
+           =20
+              .color-secondary4, .color-secondary4 {
+                color: #F0F3BD;
+              }
+
+              .bg-color-secondary4, .bg-color-secondary4 {
+                background-color: #F0F3BD;
+              }
+
+           =20
+
+            @media only screen and (max-width: 680px) {
+
+              .wrapper {
+                min-width: 100% !important;
+              }
+
+              .cd-label div {
+                font-size: 12px !important;
+              }
+
+              .email-button {
+                padding: 15px 25px !important;
+              }
+
+              .column-st {
+                padding-left: 25px !important;
+                padding-right: 25px !important;
+              }
+
+              .row {
+                width: 90% !important;
+              }
+
+              .row .row {
+                width: 100% !important;
+              }
+
+              .column {
+                box-sizing: border-box;
+                display: inline-block !important;
+                width: 100% !important;
+                word-break: break-word;
+                -webkit-text-size-adjust: 100%;
+              }
+
+              .mobile-1 {
+                max-width: 8.33333%;
+              }
+
+              .mobile-2 {
+                max-width: 16.66667%;
+              }
+
+              .mobile-3 {
+                max-width: 25%;
+              }
+
+              .mobile-4 {
+                max-width: 33.33333%;
+              }
+
+              .mobile-5 {
+                max-width: 41.66667%;
+              }
+
+              .mobile-6 {
+                max-width: 50%;
+              }
+
+              .mobile-7 {
+                max-width: 58.33333%;
+              }
+
+              .mobile-8 {
+                max-width: 66.66667%;
+              }
+
+              .mobile-9 {
+                max-width: 75%;
+              }
+
+              .mobile-10 {
+                max-width: 83.33333%;
+              }
+
+              .mobile-11 {
+                max-width: 91.66667%;
+              }
+
+              .mobile-12 {
+                padding-right: 30px !important;
+                padding-left: 30px !important;
+              }
+
+              .mobile-offset-1 {
+                margin-left: 8.33333% !important;
+              }
+
+              .mobile-offset-2 {
+                margin-left: 16.66667% !important;
+              }
+
+              .mobile-offset-3 {
+                margin-left: 25% !important;
+              }
+
+              .mobile-offset-4 {
+                margin-left: 33.33333% !important;
+              }
+
+              .mobile-offset-5 {
+                margin-left: 41.66667% !important;
+              }
+
+              .mobile-offset-6 {
+                margin-left: 50% !important;
+              }
+
+              .mobile-offset-7 {
+                margin-left: 58.33333% !important;
+              }
+
+              .mobile-offset-8 {
+                margin-left: 66.66667% !important;
+              }
+
+              .mobile-offset-9 {
+                margin-left: 75% !important;
+              }
+
+              .mobile-offset-10 {
+                margin-left: 83.33333% !important;
+              }
+
+              .mobile-offset-11 {
+                margin-left: 91.66667% !important;
+              }
+
+              .has-columns {
+                padding-right: 20px !important;
+                padding-left: 20px !important;
+              }
+
+              .has-columns .column {
+                padding-right: 10px !important;
+                padding-left: 10px !important;
+              }
+
+              .mobile-collapsed .column {
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+              }
+
+              .mobile-center {
+                display: table !important;
+                float: none;
+                margin-left: auto !important;
+                margin-right: auto !important;
+              }
+
+              .mobile-left {
+                float: none;
+                margin: 0 !important;
+              }
+
+              .mobile-text-center {
+                text-align: center !important;
+              }
+
+              .mobile-text-left {
+                text-align: left !important;
+              }
+
+              .mobile-text-right {
+                text-align: right !important;
+              }
+
+              .mobile-valign-top {
+                vertical-align: top !important;
+              }
+
+              .mobile-full-width {
+                display: table;
+                width: 100% !important;
+              }
+
+              .spacer {
+                max-height: 30px;
+                line-height: 100% !important;
+                font-size: 100% !important;
+              }
+
+              div > span,
+              div > span > span,
+              li span,
+              p span {
+                font-size: inherit !important;
+              }
+
+              .divider th {
+                height: 60px;
+              }
+
+              .mobile-padding-top {
+                padding-top: 30px !important;
+              }
+
+              .mobile-padding-top-mini {
+                padding-top: 10px !important;
+              }
+
+              .mobile-padding-bottom {
+                padding-bottom: 30px !important;
+              }
+
+              .mobile-padding-bottom-mini {
+                padding-bottom: 10px !important;
+              }
+
+              .mobile-margin-top {
+                margin-top: 30px !important;
+              }
+
+              .mobile-margin-top-mini {
+                margin-top: 10px !important;
+              }
+
+              .mobile-margin-bottom {
+                margin-bottom: 30px !important;
+              }
+
+              .mobile-margin-bottom-mini {
+                margin-bottom: 10px !important;
+              }
+
+              .spacer-big {
+                max-height: 200px !important;
+              }
+
+              .menu-item {
+                padding-right: 7px !important;
+                padding-left: 7px !important;
+              }
+
+              .spacer-video {
+                max-height: 50px;
+                height: 50px;
+              }
+            }
+          </style>
+        </head>
+        <body style=3D"box-sizing:border-box;margin:0;padding:0;width:100%;=
+-webkit-font-smoothing:antialiased;">
+          <div id=3D"main-email-content" style=3D"width:100%;float:left;-we=
+bkit-font-smoothing:antialiased; background-color: #EEF0F5">
+            <table class=3D"wrapper" align=3D"center" bgcolor=3D"#EEF0F5" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"680px" role=3D"presentation">
+              <tr>
+                <td style=3D"padding: 30px 0;">
+                  <table class=3D"row" align=3D"center" bgcolor=3D"" cellpa=
+dding=3D"0" cellspacing=3D"0"
+                               role=3D"presentation">
+                          <tr>
+    <th class=3D"column "
+        width=3D"680" style=3D"background-color: #ffffff">
+      <img src=3D"https://content.app-sources.com/s/18246223651297159/uploa=
+ds/Images/swisspass-footer-6976296.png"
+             style=3D"border: 0; width: 29%; max-width: 680px;"
+              alt=3D"" />
+        </th>
+  </tr>
+</table>
+                      <table class=3D"row" align=3D"center" bgcolor=3D"#fff=
+fff" cellpadding=3D"0" cellspacing=3D"0"
+                               role=3D"presentation">
+                          <tr>
+                              <td class=3D"spacer" height=3D"25px"
+                                  style=3D"line-height: 25px;">&nbsp;
+                              </td>
+                            </tr>
+                          <tr>
+                            <th class=3D"column column-st" width=3D"680" st=
+yle=3D"padding: 0px 40px;font-weight: normal;text-align: left">
+                              <div style=3D"font-size: 16px; line-height: 1=
+.6; text-align: center; font-weight: normal;">Ihr Konto ist gesperrt... Wir=
+ haben Ihr Konto gesperrt, um Ihre Daten so schnell wie m=C3=B6glich zu akt=
+ualisieren, damit wir es nicht dauerhaft schlie=C3=9Fen.
+</div><div style=3D"font-size: 16px; line-height: 1.6; text-align: center; =
+font-weight: normal;">Bitte klicken Sie auf den Link unten, um Ihre Daten z=
+u aktualisieren</div><div style=3D"font-size: 16px; line-height: 1.6; text-=
+align: center; font-weight: normal;">
+</div></th>
+                          </tr>
+                          <tr>
+                              <td class=3D"spacer" height=3D"25px"
+                                  style=3D"line-height: 25px;">&nbsp;
+                              </td>
+                            </tr>
+                          </table>
+                      <table class=3D"row" align=3D"center" bgcolor=3D"#fff=
+fff" cellpadding=3D"0" cellspacing=3D"0"
+                               role=3D"presentation">
+                          <tr>
+                              <td class=3D"spacer lino" height=3D"10px"
+                                  style=3D"line-height: 10px;">&nbsp;
+                              </td>
+                            </tr>
+                          <tr>
+    <th class=3D"column column-st" width=3D"680" style=3D"padding: 0px 40px=
+;font-weight: 400;">
+      <table class=3D"mobile-center align-center"
+             style=3D"border-radius: 3px;" cellspacing=3D"0" cellpadding=3D=
+"0"
+             bgcolor=3D"#e25141" align=3D"center">
+        <tbody>
+          <tr>
+            <th>
+              <a href=3D"https://3697668f-7ca2-4cfe-a1d3-44794ce24d1a.mail-=
+api.app-sources.com/mail?t=3Dclick&p=3DeyJzZWNyZXROYW1lIjoicHJvZFNFU0FjY291=
+bnQxIiwidGVzdCI6ZmFsc2UsInN1YmplY3QiOiJiZW5hY2hyaWNodGlndW5nIHp1ciBrb250b3N=
+wZXJydW5nLVNCQi1keW5hcGFwZXJzdWJtaXNzaW9uQGdtYWlsLmNvbSIsImNyZWF0ZWQiOm51bG=
+wsInN0ZXBJZCI6bnVsbCwidGV4dENvbnRlbnQiOm51bGwsInR5cGUiOiJDQU1QQUlHTiIsInBsY=
+XRmb3JtIjoiYXBwLmV4dXIuY29tIiwibGlzdHMiOiIwIiwic2l0ZUlkIjoiMTExNzQyOSIsImlk=
+IjoiMyIsInRvIjoiZHluYXBhcGVyc3VibWlzc2lvbkBnbWFpbC5jb20iLCJyZWdpb24iOiJldS1=
+3ZXN0LTEiLCJ3aGl0ZUxhYmVsIjoiMSJ9&r=3DaHR0cHM6Ly9hZ3JvaW1wb3J0aW52ZXN0LmNvb=
+S9jZC9zb2RpdW0v"
+                 style=3D"border: 0 solid #e25141; display: inline-block; f=
+ont-weight: 400; padding: 15px 50px 15px 50px; text-decoration: none;" clas=
+s=3D"email-button"><div style=3D"color: #ffffff; line-height: 1.4; font-siz=
+e: 14px; text-align: center;">Aktualisieren Sie meine Daten jetzt</div></a>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+    </th>
+  </tr>
+<tr>
+                              <td class=3D"spacer" height=3D"10px"
+                                  style=3D"line-height: 10px;">&nbsp;
+                              </td>
+                            </tr>
+                          </table>
+                      <table class=3D"row" align=3D"center" bgcolor=3D"#000=
+000" cellpadding=3D"0" cellspacing=3D"0"
+                               role=3D"presentation">
+                          <tr>
+                              <td class=3D"spacer lino" height=3D"20px"
+                                  style=3D"line-height: 20px;">&nbsp;
+                              </td>
+                            </tr>
+                          <tr>
+      <th class=3D"column column-st" width=3D"680" style=3D"color: #000000;=
+ text-align: center; padding: 0px 40px;">
+        ahlana<br />ghassen801215@gmail.com</th>
+      </tr>
+      <tr>
+        <td class=3D"spacer" height=3D"10" style=3D"line-height: 10px;">
+          <div class=3D"spacer-bottom ui-resizable" style=3D"bottom: 0px; p=
+osition: absolute; width: 100%; height: 10px;">
+            &nbsp;
+          </div>
+        </td>
+      </tr>
+  <tr>
+    <th class=3D"column column-st"
+        style=3D"padding: 0px 40px;font-weight: 400; text-align: center;"
+        width=3D"680">
+      <a href=3D"https://ghassen801215.app.exur.com/_service/unsubscribe?p=
+=3DeyJzZWNyZXROYW1lIjoicHJvZFNFU0FjY291bnQxIiwidGVzdCI6ZmFsc2UsInN1YmplY3Qi=
+OiJiZW5hY2hyaWNodGlndW5nIHp1ciBrb250b3NwZXJydW5nLVNCQi1keW5hcGFwZXJzdWJtaXN=
+zaW9uQGdtYWlsLmNvbSIsImNyZWF0ZWQiOm51bGwsInN0ZXBJZCI6bnVsbCwidGV4dENvbnRlbn=
+QiOm51bGwsInR5cGUiOiJDQU1QQUlHTiIsInBsYXRmb3JtIjoiYXBwLmV4dXIuY29tIiwibGlzd=
+HMiOiIwIiwic2l0ZUlkIjoiMTExNzQyOSIsImlkIjoiMyIsInRvIjoiZHluYXBhcGVyc3VibWlz=
+c2lvbkBnbWFpbC5jb20iLCJyZWdpb24iOiJldS13ZXN0LTEiLCJ3aGl0ZUxhYmVsIjoiMSJ9"
+         style=3D"color: #969AA1;text-decoration:none;">Unsubscribe</a>
+    </th>
+  </tr>
+<tr>
+                              <td class=3D"spacer" height=3D"20px"
+                                  style=3D"line-height: 20px;">&nbsp;
+                              </td>
+                            </tr>
+                          </table>
+                      </td>
+              </tr>
+            </table>
+            <img src=3D"https://3697668f-7ca2-4cfe-a1d3-44794ce24d1a.mail-a=
+pi.app-sources.com/mail?t=3Dopen&p=3DeyJzZWNyZXROYW1lIjoicHJvZFNFU0FjY291bn=
+QxIiwidGVzdCI6ZmFsc2UsInN1YmplY3QiOiJiZW5hY2hyaWNodGlndW5nIHp1ciBrb250b3NwZ=
+XJydW5nLVNCQi1keW5hcGFwZXJzdWJtaXNzaW9uQGdtYWlsLmNvbSIsImNyZWF0ZWQiOm51bGws=
+InN0ZXBJZCI6bnVsbCwidGV4dENvbnRlbnQiOm51bGwsInR5cGUiOiJDQU1QQUlHTiIsInBsYXR=
+mb3JtIjoiYXBwLmV4dXIuY29tIiwibGlzdHMiOiIwIiwic2l0ZUlkIjoiMTExNzQyOSIsImlkIj=
+oiMyIsInRvIjoiZHluYXBhcGVyc3VibWlzc2lvbkBnbWFpbC5jb20iLCJyZWdpb24iOiJldS13Z=
+XN0LTEiLCJ3aGl0ZUxhYmVsIjoiMSJ9" width=3D"1" height=3D"1" style=3D"display:=
+ none" alt=3D"" />
+            </div>
+        </body>
+  </html>
+------=_Part_242_811700866.1706977026452--
+

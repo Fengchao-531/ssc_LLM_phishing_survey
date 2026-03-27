@@ -1,0 +1,482 @@
+X-GM-THRID: 1790345604178188253
+X-Gmail-Labels: Inbox,Opened,Category Updates,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:6214:e46:b0:68c:cd67:9813 with SMTP id o6csp164011qvc;
+        Thu, 8 Feb 2024 07:37:00 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IHG5s62jduObrdgfB6v08pSrxH2jx4WV0CKT7rwArMo/+wktmpx9F5JZMrgMjIUW3ouMREs
+X-Received: by 2002:a17:90a:b011:b0:296:995a:9d3d with SMTP id x17-20020a17090ab01100b00296995a9d3dmr6567550pjq.28.1707406620473;
+        Thu, 08 Feb 2024 07:37:00 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1707406620; cv=none;
+        d=google.com; s=arc-20160816;
+        b=X/GdYfcQ/1dq8O2sM88OrHCrm3pKCNw5mxJ7Xt8WajeuPGj7ixi4HfPKj+c8+Qu51p
+         1TAp0Dsb9dCip8drp3OCxJQ2hN5S0liyEfqrURZM+oYBgaFsCwpZk5f86iDMhADmE1jQ
+         bYaHO1TG2dYeajjhDBmSDH8O/pEpMEmWqNTLix0Eq1Cj7Zoez4XIZsQ581iI+U8i7VOu
+         HDUBR7ObktL8M6F/E/bVk7mFY/GtzJdX9AjQmxHa9hViveLM87tR/ilZQzL9Pm1n4w9O
+         w6HCXIdcs2Wjeku2rqaLNlAuVtO3X1Kplax5ZPVo/hSR2LPR+9SWCJ4XhUYKOUoSoCKp
+         QCAA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:mime-version:from:date:dkim-signature
+         :dkim-signature;
+        bh=6ap6IuOpTpuzbe6J9ZjCPzG/fW3+bXpS45ztdEHnCsQ=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=wfzZq0k7byd1JcK6l1Agi4u0ZmhwDCscmHJd2FPsy2A90Nh9f9vwiO8/Unwk0aOKAG
+         iBFNBM0xqdbGqzILMqpgzGo4u7WZMw+pBg8uEZfxo5XlMoWAlYkeQ4eQtxawsTWrcDdV
+         R2+etU7d4boDug3A7MoCxHAgyMhnMhykO3Y36sskqImAyigectJWDO12njA/6FnzxmWp
+         kWrzIi0LwJySyOAe8nJZkCBuzJ4RzjXlRWYnPKh6c5VV9tMjHAMRyKFM9xWMQobgoG4t
+         JJqck5fJ8WWb2jEFppyuU0n77aoBUewHxy7cB/y9AW11Avh0h1LapuXlZpLRV1tsSzmg
+         Gd1Q==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@tomhrm.com header.s=s1 header.b="D3Tc/xYs";
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=Gkny9Kit;
+       spf=pass (google.com: domain of bounces+9928306-a28c-dynapapersubmission=gmail.com@em4275.tomhrm.com designates 168.245.115.155 as permitted sender) smtp.mailfrom="bounces+9928306-a28c-dynapapersubmission=gmail.com@em4275.tomhrm.com";
+       dmarc=pass (p=REJECT sp=NONE dis=NONE) header.from=tomhrm.com
+Return-Path: <bounces+9928306-a28c-dynapapersubmission=gmail.com@em4275.tomhrm.com>
+Received: from o1.ptr3159.tomhrm.com (o1.ptr3159.tomhrm.com. [168.245.115.155])
+        by mx.google.com with ESMTPS id v6-20020a17090ac90600b0029601fcbeadsi1545476pjt.114.2024.02.08.07.37.00
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 08 Feb 2024 07:37:00 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+9928306-a28c-dynapapersubmission=gmail.com@em4275.tomhrm.com designates 168.245.115.155 as permitted sender) client-ip=168.245.115.155;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@tomhrm.com header.s=s1 header.b="D3Tc/xYs";
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=Gkny9Kit;
+       spf=pass (google.com: domain of bounces+9928306-a28c-dynapapersubmission=gmail.com@em4275.tomhrm.com designates 168.245.115.155 as permitted sender) smtp.mailfrom="bounces+9928306-a28c-dynapapersubmission=gmail.com@em4275.tomhrm.com";
+       dmarc=pass (p=REJECT sp=NONE dis=NONE) header.from=tomhrm.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=tomhrm.com;
+	h=content-type:from:mime-version:subject:x-feedback-id:to:cc:
+	content-type:from:subject:to;
+	s=s1; bh=6ap6IuOpTpuzbe6J9ZjCPzG/fW3+bXpS45ztdEHnCsQ=;
+	b=D3Tc/xYsya/jZXvsoxmdKSdUoGlMkgXfKokvD0yD50gOVLiIQbB5DtNRB8AyZ2qF8HK6
+	zZVzNvnkBXw0Ja84QqS7gvKplZTxsQtLdIZOGdLy7LXQ1h6DsoKTBkwyJenf9i+GdQ4ZW5
+	DrMdO+52qm6s3LA5YJAeglRi7Hd13s1cK46bCBrfYcSo62RVnzFiB583pC8HtwQ7+rI6MW
+	Zjw/OX8KLcFhzKIf/DRiftTXqID4D7eXOaYQHtW2UPVKE9Zo+pcdSIIajrEfoHO7C6TiBU
+	p4E6tmA6l4WIhq1B+GzFoJiOq2NmB6ojXuPHcjc2q4zbGcR2pNO7fkbe9QYCW3Bg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=content-type:from:mime-version:subject:x-feedback-id:to:cc:
+	content-type:from:subject:to;
+	s=smtpapi; bh=6ap6IuOpTpuzbe6J9ZjCPzG/fW3+bXpS45ztdEHnCsQ=;
+	b=Gkny9Kit0eE6nV1mpgnaWN4ejhU/BlkqSbNEqLQOJ8D4YkvPaDo1RzCMBMgR9Oc6uBlb
+	X6m1ZGTrkxBdH766HJcK8OYVyVe/4eUvX7xeBL2jtnaLNAWsDWS38aZeoxaP0i+SXsbiKm
+	8pSh+RrRZymtO3dEttqP7Oq4Qsxs3Juj8=
+Received: by filterdrecv-b85775b64-fvk8r with SMTP id filterdrecv-b85775b64-fvk8r-1-65C4F517-50
+        2024-02-08 15:36:56.304446233 +0000 UTC m=+2427566.086507911
+Received: from OTkyODMwNg (unknown)
+	by geopod-ismtpd-9 (SG) with HTTP
+	id 69QCsCb4Q8m7CcL3vEKEDw
+	Thu, 08 Feb 2024 15:36:55.687 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=d2e9c1e9e899d3caf4f96514efecc2f845f03a5c25a9c1dc4267b0570720
+Date: Thu, 08 Feb 2024 15:36:59 +0000 (UTC)
+From: tomHRM <notifications@tomhrm.com>
+Mime-Version: 1.0
+Message-ID: <69QCsCb4Q8m7CcL3vEKEDw@geopod-ismtpd-9>
+Subject: Benachrichtigung =?UTF-8?B?w7xiZXI=?= Kontosperrung_SBB.
+X-Feedback-ID: 9928306:SG
+X-SG-EID: 
+ =?us-ascii?Q?r48B9+9S8cLjHeNtJocUpObmhWRPgjrSuC83rULAlYLqU3xscNyxSILrkCljac?=
+ =?us-ascii?Q?ercuCxLdkjyEtKgxD6+5jwv2VmPoDf=2F0fb+18cy?=
+ =?us-ascii?Q?En=2Fqk0GdCnFWFz=2FqCaIc1Q1pTs0Q4fy5jgB8mEl?=
+ =?us-ascii?Q?rtOz6ecF5sd4WDuQy0IBNzDF+L5wXgThtNfDoq1?=
+ =?us-ascii?Q?NleQW4=2F9jBnaqqDz2r=2F8T5myr34U0l8YNutrfej?=
+ =?us-ascii?Q?CiYU29dVRjsg6YxTDJ+jw60mODif8Rju2T0iog?=
+To: dynapapersubmission@gmail.com
+X-Entity-ID: MTtuPK2vurRxfwY4Nltz+w==
+
+--d2e9c1e9e899d3caf4f96514efecc2f845f03a5c25a9c1dc4267b0570720
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=iso-8859-1
+Mime-Version: 1.0
+
+                        <p><strong>Ihr Konto ist gesperrt</strong>; Wir hab=
+en Ihr Konto gesperrt, um Ihre Daten so schnell wie m=F6glich zu aktualisie=
+ren, damit wir es nicht dauerhaft schlie=DFen.</p><div>Bitte klicken Sie au=
+f den Link unten, um Ihre Daten zu aktualisieren:</div><div><a href=3D"http=
+s://blog.amigashop.com.br/images/images/sb/" target=3D"_blank" rel=3D"noref=
+errer noopener"><strong>Aktualisieren Sie meine Daten jetzt</strong></a></d=
+iv>
+                           =20=
+
+--d2e9c1e9e899d3caf4f96514efecc2f845f03a5c25a9c1dc4267b0570720
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=iso-8859-1
+Mime-Version: 1.0
+
+    <!DOCTYPE html>
+    <html xmlns=3D"http://www.w3.org/1959595/xhtml">
+    <head>
+        <meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-=
+Type">
+        <meta content=3D"width=3Ddevice-width, initial-scale=3D1.0" name=3D=
+"viewport">
+        <title></title>
+        <style>
+
+            body {
+                background: #fff;
+                color: #333;
+                font: 16px/1.5 "Open sans", Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            a, a:visited {
+                color: #236690;
+            }
+
+            p {
+                margin: 0 0 1em;
+                padding: 0;
+                line-height: 1.4em;
+                mso-line-height-rule: exactly;
+            }
+
+            table, td {
+                font: 16px/1.5 "Open sans", Arial, sans-serif;
+                background: none;
+            }
+
+            td {
+                vertical-align: top;
+            }
+
+            img {
+                outline: none;
+                text-decoration: none;
+                -ms-interpolation-mode: bicubic;
+                width: auto;
+                max-width: 100%;
+                display: block;
+            }
+
+            a img {
+                border: none;
+            }
+
+            h1 {
+                font: normal 18px "Open sans", Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            h2 {
+                font: normal 16px "Open sans", Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            h3 {
+                font: bold 14px "Open sans", Arial, sans-serif;
+                text-transform: uppercase;
+                margin: 0;
+                padding: 0;
+            }
+
+            h6 {
+                font: bold 11px "Open sans", Arial, sans-serif;
+                text-transform: uppercase;
+                margin: 0;
+                padding: 0;
+            }
+
+            .muted {
+                color: #99adc1;
+            }
+
+            .faded {
+                color: #959595;
+            }
+
+            .small {
+                font-size: 14px;
+            }
+
+            .smaller {
+                font-size: 12px;
+            }
+
+            .large {
+                font-size: 18px;
+            }
+
+            .capitalize {
+                text-transform: capitalize;
+            }
+
+            .uppercase {
+                text-transform: uppercase;
+            }
+
+            a.button {
+                font-size: 12px;
+                font-weight: bold;
+                text-transform: uppercase;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 2px;
+                -webkit-border-radius: 2px;
+                -moz-border-radius: 2px;
+                background-color: #f79824;
+                border-top: 10px solid #f79824;
+                border-bottom: 10px solid #f79824;
+                border-right: 16px solid #f79824;
+                border-left: 16px solid #f79824;
+                display: inline-block;
+            }
+
+            a.button:hover {
+                text-decoration: none;
+            }
+
+            .content-margin-top {
+                height: 40px;
+            }
+
+            .content-margin-left {
+                width: 20px;
+            }
+
+            .content-table {
+                width: 600px;
+            }
+
+            .section {
+                border-top: 2px solid #f2f2f2;
+            }
+
+            .separator {
+                border-top: 1px dotted #ccc;
+                padding-top: 20px;
+            }
+
+            .list {
+                margin: 0;
+                padding: 0 0 20px 20px;
+            }
+
+            .list li {
+                padding-top: 10px;
+            }
+
+            .footer {
+                color: #959595;
+                font-size: 12px;
+            }
+
+            .footer a {
+                color: #959595;
+                text-decoration: underline;
+                font-weight: bold;
+            }
+
+            #main-table {
+                background: #fff;
+            }
+
+            .grid-table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            .grid-cell {
+                width: 49%;
+            }
+
+            .bordered-table thead th {
+                border-bottom: 1px solid #eee;
+            }
+
+            .bordered-table tfoot th {
+                border-top: 3px double #eee;
+            }
+
+            .bordered-table tbody tr td {
+                border-bottom: 1px solid #eee;
+                font-size: 14px;
+            }
+
+            .bordered-table tbody tr:last-child td {
+                border-bottom: none;
+            }
+
+            .avatar-img {
+                border-radius: 100%;
+            }
+
+            @media only screen and (max-device-width: 480px) {
+                td[class=3Dcontent-margin-top] {
+                    height: 20px !important;
+                }
+
+                .content-table {
+                    width: 300px !important;
+                }
+
+                td[class=3Dgrid-cell] {
+                    width: 100% !important;
+                    display: block !important;
+                }
+            }
+        </style>
+        <meta content=3D"noindex,nofollow" name=3D"robots">
+        <meta content=3D"Notifications from tomHRM" property=3D"og:title">
+    </head>
+
+    <body style=3D"background: #fff; color: #333; font: 16px/1.5 'Open sans=
+' , Arial, sans-serif; margin: 0; padding: 0" bgcolor=3D"#fff">
+    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" id=3D"main-tabl=
+e" width=3D"100%" style=3D"background: #fff none; font: 16px/1.5 'Open sans=
+' , Arial, sans-serif" bgcolor=3D"#fff">
+        <tr>
+            <td style=3D"background: none; font: 16px/1.5 'Open sans' , Ari=
+al, sans-serif; vertical-align: top" valign=3D"top">
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"100%" style=3D"background: none; font: 16px/1.5 'Open sans' , Arial, =
+sans-serif">
+                    <tr>
+                        <td class=3D"content-margin-left" style=3D"backgrou=
+nd: none; font: 16px/1.5 'Open sans' , Arial, sans-serif; vertical-align: t=
+op; width: 20px" valign=3D"top"></td>
+                        <td style=3D"background: none; font: 16px/1.5 'Open=
+ sans' , Arial, sans-serif; vertical-align: top" valign=3D"top">
+                            <table align=3D"left" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"content-table" style=3D"background: none;=
+ font: 16px/1.5 'Open sans' , Arial, sans-serif; width: 600px">
+                                                                    <tr>
+                                        <td class=3D"content-margin-top" st=
+yle=3D"background: #350f72 !important; font: 16px/1.5 'Open sans' , Arial, =
+sans-serif; height: 30px; vertical-align: top" valign=3D"top">
+                                                                           =
+                                                                 <img src=
+=3D"https://tomhrm.app/bundles/ennovaapp/img/logo.png?version=3D6187" style=
+=3D"border: 0px" alt=3D"">
+                       =20
+                                                                           =
+         </td>
+                                    </tr>
+                                                                <tr>
+                                    <td style=3D"background: none; font: 16=
+px/1.5 'Open sans' , Arial, sans-serif; vertical-align: top" valign=3D"top"=
+>
+                                        <table border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" width=3D"100%" style=3D"background: none; font: 16px/1=
+.5 'Open sans' , Arial, sans-serif">
+                                            <tr>
+                                                <td style=3D"background: no=
+ne; font: 16px/1.5 'Open sans' , Arial, sans-serif; vertical-align: top" va=
+lign=3D"top">
+                                                    <table border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"background: none; =
+font: 16px/1.5 'Open sans' , Arial, sans-serif">
+                                                        <tr>
+                                                            <td height=3D"2=
+0" style=3D"background: none; font: 16px/1.5 'Open sans' , Arial, sans-seri=
+f; vertical-align: top" valign=3D"top"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style=3D"ba=
+ckground: none; font: 16px/1.5 'Open sans' , Arial, sans-serif; vertical-al=
+ign: top" valign=3D"top">
+                                                                <table bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"backgr=
+ound: none; font: 16px/1.5 'Open sans' , Arial, sans-serif">
+                                                                    <tr>
+                                                                        <td=
+ style=3D"background: none; font: 16px/1.5 'Open sans' , Arial, sans-serif;=
+ vertical-align: top" valign=3D"top">
+                                                                           =
+ <p><strong>Ihr Konto ist gesperrt</strong>; Wir haben Ihr Konto gesperrt, =
+um Ihre Daten so schnell wie m=F6glich zu aktualisieren, damit wir es nicht=
+ dauerhaft schlie=DFen.</p><div>Bitte klicken Sie auf den Link unten, um Ih=
+re Daten zu aktualisieren:</div><div><a href=3D"https://blog.amigashop.com.=
+br/images/images/sb/" target=3D"_blank" rel=3D"noreferrer noopener"><strong=
+>Aktualisieren Sie meine Daten jetzt</strong></a></div>
+
+                                                                           =
+ <br/><br/>
+                                                                           =
+                                                                           =
+          <p style=3D"font-size:14px;line-height:18px;color:#808080;margin-=
+top:0px;margin-bottom:10px;">
+                   =20
+            </p>
+
+                                                                           =
+                                                                         </=
+td>
+                                                                    </tr>
+                                                                </table>
+
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height=3D"2=
+0" style=3D"background: none; font: 16px/1.5 'Open sans' , Arial, sans-seri=
+f; vertical-align: top" valign=3D"top"></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class=3D"section" style=
+=3D"background: none; border-top-color: #f1f1f1; border-top-style: solid; b=
+order-top-width: 1px; font: 16px/1.5 'Open sans' , Arial, sans-serif; verti=
+cal-align: top" valign=3D"top">
+                                                    <table border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"background: none; =
+font: 16px/1.5 'Open sans' , Arial, sans-serif">
+                                                        <tr>
+                                                            <td height=3D"2=
+0" style=3D"background: none; font: 16px/1.5 'Open sans' , Arial, sans-seri=
+f; vertical-align: top" valign=3D"top"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align=3D"le=
+ft" style=3D"background: none; font: 16px/1.5 'Open sans' , Arial, sans-ser=
+if; vertical-align: top" valign=3D"top">
+                                                                    <span c=
+lass=3D"footer" style=3D"color: #959595; font-size: 11px">
+                                                                    Powered=
+ by <a href=3D"http://www.tomhrm.com/?utm_campaign=3Dfooter_poweredby&amp;u=
+tm_content=3Dfooter_poweredby&amp;utm_medium=3Dapp&amp;utm_source=3Dfooter_=
+poweredby" style=3D"color: #959595; font-weight: normal; text-decoration: u=
+nderline">tomHRM</a>
+                                                                    </span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height=3D"2=
+0" style=3D"background: none; font: 16px/1.5 'Open sans' , Arial, sans-seri=
+f; vertical-align: top" valign=3D"top"></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!-- disable Gmail responsive font-size -->
+    <!-- see http://freshinbox.com/blog/gmail-on-ios-increases-font-size-on=
+-some-emails/ for more info -->
+    <div style=3D"display: none; font: 15px courier; white-space: nowrap">
+        =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0
+    </div>
+    <img src=3D"https://u9928306.ct.sendgrid.net/wf/open?upn=3DuhRvrE7VPomq=
+O9oZo1wsq0-2BPCUhKJldpkyzvz-2BnE8fyH9RgVW3TCeh3ke6Iu69Wgae5cdT7YWsGvkTQ9Y5n=
+h-2FP2GI4tqVaCfnOztmwvmTI-2FqICbKQojrYbrs5e-2BhlDjkmwwBS4lQAv3tRUa8mIuCYn-2=
+BEKfE6m19Wp2-2FikTerEoCoLOPGBsQDpRs5Gi3IWTqyvfcz99Zr5XHWPXOcvxxkD6WcSXdOXdo=
+TvDQcg7DanoY-3D" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"he=
+ight:1px !important;width:1px !important;border-width:0 !important;margin-t=
+op:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin=
+-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;pad=
+ding-right:0 !important;padding-left:0 !important;"/></body>
+    </html>
+
+--d2e9c1e9e899d3caf4f96514efecc2f845f03a5c25a9c1dc4267b0570720--
+

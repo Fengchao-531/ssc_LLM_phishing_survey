@@ -1,0 +1,126 @@
+X-GM-THRID: 1812891197169378086
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:7108:8201:b0:3c5:cf85:4db4 with SMTP id y1csp1827642gdu;
+        Mon, 14 Oct 2024 05:09:33 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IE4eseSm4yhFgxWMSZ+BQVP3oFGqWZY6orgnt75usC/3jgL9AbDaN1c8MDKEUN8qCv9RDkY
+X-Received: by 2002:a05:6a00:3e03:b0:71d:f4ef:6b57 with SMTP id d2e1a72fcca58-71e4c1ce8a9mr12279737b3a.18.1728907773372;
+        Mon, 14 Oct 2024 05:09:33 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1728907773; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=L4YLEwNvC+ZdlimHfftVbvdnQRbUTjuq+/73s0NAWlNDYwD4UcY7iPFVwLMJQLx8Ft
+         x9iYdDUUMEf64Y+1EBsKmK1KDFRVGC1ZqvIDRzbKyNo4D/hr0nR7yd6syZDP/fJ43MJd
+         NJIomiZGYwFWTrGNddwOSZfE7FpUqBo0yvBYHwbQYjOwcVhO65VDa/HJIJhzPm6mXEGE
+         p0njpDpqkvge93mCYzJg2h9dKL3lPmSkS25YBnpo4ge72s3LH/pq87Zno2gCLoEMmUpt
+         R2w98A2zRSUDjQzfzf4IUx8VuuiZuWaF1fL2FIOSZUGuHgElDfG/FHFcz2ZF/6ObsmFF
+         NSBg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:message-id:from:date:subject:to:dkim-signature;
+        bh=aohwB7WRcvOw5m8JSj6KATDaFldk/DKVY68G5C7DnWI=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=Fle2s/y54Nf+a7O4ARYbsP37A4C4geTs0T9lL5+Ej6uzE11bFe71U65yE31XaZZyGk
+         TaYhY8+9iOps3Zoqtv0gwd7z4V2NcGxEO/scngM5izZEIprphTjYot2hN/N2Xs1vWLMB
+         a8pOX9teuMmjZAHaTnwtuqfVWTFTn+6TifEQUbxRq/Y+NZuitjlZqg1xtk0LUX2737hc
+         cXYPD/AXMtpXLVMNb/mGajG4SKs+Nw8tRJmYIiUyR+0oR5HIaMJBrmcYpuu9pcYmRmd0
+         N72iUKtSDPBXKM6KP+DuCjemHZf74osyRYMjiWUKpKQ5+0oURuJNbtF6DoTedWGeJ7cS
+         Y0PA==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail1.wpengine.com header.s=mx header.b=Tl1xJxfu;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of nord10=mail1.wpengine.com@mail1.wpengine.com designates 23.83.220.43 as permitted sender) smtp.mailfrom="nord10=mail1.wpengine.com@mail1.wpengine.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail1.wpengine.com
+Return-Path: <nord10=mail1.wpengine.com@mail1.wpengine.com>
+Received: from crane.yew.relay.mailchannels.net (crane.yew.relay.mailchannels.net. [23.83.220.43])
+        by mx.google.com with ESMTPS id 41be03b00d2f7-7ea5f977e50si7414643a12.269.2024.10.14.05.09.32
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 14 Oct 2024 05:09:33 -0700 (PDT)
+Received-SPF: pass (google.com: domain of nord10=mail1.wpengine.com@mail1.wpengine.com designates 23.83.220.43 as permitted sender) client-ip=23.83.220.43;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail1.wpengine.com header.s=mx header.b=Tl1xJxfu;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of nord10=mail1.wpengine.com@mail1.wpengine.com designates 23.83.220.43 as permitted sender) smtp.mailfrom="nord10=mail1.wpengine.com@mail1.wpengine.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail1.wpengine.com
+X-Sender-Id: wpengine|x-authuser|78b768486f470ce11d11ef4b036f36bae77b9b9c
+Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id 06C8E4E7A02
+	for <dynapapersubmission@gmail.com>; Mon, 14 Oct 2024 12:09:32 +0000 (UTC)
+Received: from pod-141212 (trex-6.trex.outbound.svc.cluster.local [100.101.175.246])
+	(Authenticated sender: wpengine)
+	by relay.mailchannels.net (Postfix) with ESMTPA id D0D7C4E71D5
+	for <dynapapersubmission@gmail.com>; Mon, 14 Oct 2024 12:09:31 +0000 (UTC)
+ARC-Seal: i=1; s=arc-2022; d=mailchannels.net; t=1728907771; a=rsa-sha256;
+	cv=none;
+	b=5HcbHBodvWFoVw2+u0X6pCy0FvQ1egiBlXVfjMh7gUBHJh/c+eMRX6Lrf7Xzcb34jdDp3v
+	WhwJjP3P6TYrCeBP2HMnbRIbB4qD+KuebaieJkojdWrFMQpqm45hUCN8hjnPaeXLl/wYQW
+	DolLxKHaBzdAjAjmOVY/MQTECj28zx3/IcQFVHspLOluIKs7pcDlSqyidIcfzQ12qcwsq+
+	wT2OZjJT5AskesFHSQa2hRlVJPGSyk3BfmlcNn98iT2PjJV0rEuW1MuC2CigRsY8r2+gZC
+	BlBRprGZt8TRAXwqG9tf8H5/UxH6m20EQxt9wKeNtIA5gakvKDwo9pKGNTJxLQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=mailchannels.net;
+	s=arc-2022; t=1728907771;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 dkim-signature; bh=aohwB7WRcvOw5m8JSj6KATDaFldk/DKVY68G5C7DnWI=;
+	b=kSMUEnP4HHBIWcI8mWD6x76xEgsQbZdJ4D4HoUMUZYb5cJ2fubOUfS6NtckMtniyV7WTGM
+	CU7QFHbsWz0QDb49kSwxfeTADKvxVg4pJ7IMnFEOA4xmnsgT6FxI04R7j/5UZRK+92Zd8M
+	bjxKwllGlbWIQGBO7tC3Ttj4tMmIg6QIiqtD5vy5bch55bxS2Mrr6yJ0hKhO3FuuCIWkl4
+	x++bPRAoO9HyPDpoC2/hx6mZ+/ZBWLuU7jigAuLN36GrdlGy05C6QMOjoND9Crk1/nwC3S
+	shNYW5XZiuc5/qfSEYy9s/HXLumR39HJVnlB5k+WN/1kY51SdyxPacvmKbFhMQ==
+ARC-Authentication-Results: i=1;
+	rspamd-6b8cf4b767-sqqgs;
+	auth=pass smtp.auth=wpengine
+ smtp.mailfrom="nord10=mail1.wpengine.com@mail1.wpengine.com"
+X-Sender-Id: wpengine|x-authuser|78b768486f470ce11d11ef4b036f36bae77b9b9c
+X-MC-Relay: Good
+X-MailChannels-SenderId: 
+ wpengine|x-authuser|78b768486f470ce11d11ef4b036f36bae77b9b9c
+X-MailChannels-Auth-Id: wpengine
+X-Rock-Befitting: 6621e8bc4d3400e4_1728907771904_3610906891
+X-MC-Loop-Signature: 1728907771904:2078346957
+X-MC-Ingress-Time: 1728907771904
+Received: from pod-141212 (149.5.105.34.bc.googleusercontent.com
+ [34.105.5.149])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384)
+	by 100.101.175.246 (trex/7.0.2);
+	Mon, 14 Oct 2024 12:09:31 +0000
+Received: from pod-141212 (localhost [127.0.0.1])
+	by pod-141212 (Postfix) with ESMTP id 55DF5BDA31
+	for <dynapapersubmission@gmail.com>; Mon, 14 Oct 2024 12:09:31 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mail1.wpengine.com;
+	s=mx; t=1728907771; bh=aohwB7WRcvOw5m8JSj6KATDaFldk/DKVY68G5C7DnWI=;
+	h=To:Subject:Date:From:From;
+	b=Tl1xJxfu7GzdydT0zUx7omuvkxUymtXbLUzGknu8lJCShIsH5Y3woKTqba4AGovIR
+	 0z/QYzofIMLlHHa1zHIR9vqeZL1SEDAzNEkn0cWacYOVIUpOj34MfR3ElYniA9PZYF
+	 5HHiZe/CqLkZdPXfJwKSTIyaqtssjqDxeTqKykBQ5PaoJob2DX/R01+ebm9qV+6vLy
+	 YxygdniLx/rUH0wPO1IW1VDYMuGExBNAbMdbt1L9wWCU2b1Y5eDwvqWqUPydumWFfy
+	 1cYnZ0DHICZoOV9rCi209rFzr0Yh7DHGvuQSruTDHoOZ6JToOEbqjUwpD1z8Ql4RF6
+	 RXVRkbbiTkIWw==
+Received: from pod-141212:apache2_74:v0.5.4 (localhost [127.0.0.1])
+	by pod-141212 (Postfix) with SMTP id 50D14BD14D
+	for <dynapapersubmission@gmail.com>; Mon, 14 Oct 2024 12:09:30 +0000 (UTC)
+Received: by pod-141212:apache2_74:v0.5.4 (sSMTP sendmail emulation); Mon, 14 Oct 2024 12:09:30 +0000
+X-AuthUser: 78b768486f470ce11d11ef4b036f36bae77b9b9c
+To: dynapapersubmission@gmail.com
+Subject: my pakke
+X-PHP-Originating-Script: 33:owl.php
+Date: Mon, 14 Oct 2024 12:09:30 +0000
+From: NORDPOST <nord10@mail1.wpengine.com>
+Message-ID: <o1B0LfunV5F2oDZzu84qGbzJgQyUpxQ3sktWtbtm8@lvwstage.wpengine.com>
+X-Mailer: PHPMailer 6.0.7
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+
+<h1><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="background-color: #00ccff;"><span style="background-color: #ffffff; color: #00ccff;">POST NORD</span></span></strong></h1>
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; K&aelig;re bruger,</strong></p>
+<p style="text-align: left;">Grundet din pakkest&oslash;rrelse 45cm, og v&aelig;gt 2,6 kg,</p>
+<p style="text-align: left;">skal der opkr&aelig;ves gebyrer p&aring; 22,24 kr. f&oslash;r levering af din pakke:<br /><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;For at tjekke <a href="https://itsssl.com/OIJF3">klik her</a></p>
+<div id="tw-target-rmn-container" class="tw-target-rmn tw-ta-container F0azHf tw-nfl" style="overflow: hidden; position: relative; outline-width: 0px; outline-style: none; outline-color: invert;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kopier linket og l&aelig;g det p&aring; Google</div>
+<div class="tw-target-rmn tw-ta-container F0azHf tw-nfl" style="overflow: hidden; position: relative; outline-width: 0px; outline-style: none; outline-color: invert;">&nbsp;</div>
+<div class="tw-target-rmn tw-ta-container F0azHf tw-nfl" style="overflow: hidden; position: relative; outline-width: 0px; outline-style: none; outline-color: invert;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; https://itsssl.com/OIJF3</div>
+<div id="tw-target-rmn-container" class="tw-target-rmn tw-ta-container F0azHf tw-nfl" style="overflow: hidden; position: relative; outline-width: 0px; outline-style: none; outline-color: invert;">
+<h4 class="tw-data-placeholder tw-text-small tw-ta" dir="ltr" style="font-size: 16px; overflow: hidden; font-family: inherit; width: 270px; white-space: pre-wrap; position: relative; font-weight: normal; color: black; text-align: left; margin: 0px; line-height: 24px; background-color: transparent; resize: none; overflow-wrap: break-word; padding: 0px 0.14em 0px 0px;"><strong>&nbsp;</strong></h4>
+</div>
+
+

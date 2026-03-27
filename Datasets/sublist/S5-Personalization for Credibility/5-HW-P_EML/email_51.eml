@@ -1,0 +1,203 @@
+X-GM-THRID: 1815153046279171208
+X-Gmail-Labels: Inbox,Opened,Category Updates,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:7108:1b37:b0:3d0:8c30:7606 with SMTP id k23csp4227751gdf;
+        Fri, 8 Nov 2024 03:20:40 -0800 (PST)
+X-Forwarded-Encrypted: i=2; AJvYcCVVJa/8DY3yWM90tJgQvPure3gsQpZm4n8cbifaVklenkKRWMre06FXL6hfwogXB+1LJCjHbuXGuI1tOPTEZhQ6p9s0@gmail.com
+X-Google-Smtp-Source: AGHT+IFLvp+wW5zuGNLowd/nkQtZX7rXUjtafLxckSJmAWf+H83glYXUaLbLDGVoy1jtHAQGZ+MX
+X-Received: by 2002:a05:6214:2b9a:b0:6cb:f89f:2069 with SMTP id 6a1803df08f44-6d39e1554b9mr26229606d6.3.1731064840580;
+        Fri, 08 Nov 2024 03:20:40 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1731064840; cv=none;
+        d=google.com; s=arc-20240605;
+        b=TkaS1PMJ31x+GcN0rA3S98+p8Hk2I3iuyJmdIbwOp1rbKMK7XYKLPzFUS4Y3YWurm2
+         Ef9J9ETNCXmuSY3ur6hcEK2irsIxB3VWlnsg8mIJXLnSkeIic8YbWmNHCQvC4Svqrty+
+         lp+QzmepEh1WIa1etYp6ZRsyEB+RqlhIzglOfPrq3fih2/JvecaGQGNwO2t234cJ3HzO
+         SRBiG4jXo4h6KKc4nTpywxV0B+jwHiepbjFB/nsfj7NmDh/mtLzrR88r+Qeji3Rdyv6R
+         E1LB7joDlo/6CGsrDFM8o/fmFFQiTzj2Xj2qEn2Eeoj3OpJazWFxjbSLyaEtDwJBl7Nd
+         LWPw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=content-transfer-encoding:to:reply-to:mime-version:subject
+         :message-id:from:date:dkim-signature:dkim-signature;
+        bh=WjyCj7bBaiPpI1d/68vgAIypPJOu0uLUc/ry+K6x/BQ=;
+        fh=TdoHb82ev8MOUInUKwWZNx51R6iM0OaBOiK7Ns94i4c=;
+        b=RpVZoTCJmnbXnBi1A8RNj9jqOYTNaxB6HBr/qaqZHxHgOj9HRp6MnLlHAO9wAnbUev
+         lfRD5iKceBWQI3Nr1fpiFEPVeMwzzyoYNvCSknJXe/gu+wbdw/ebSJxPND/XMCJh6xOI
+         aUebWU+rCckQOI6cxF5wvbyvYGsTyFiERMJHKWOyjRaBSs7uTZylbsoV515hdgXUThCn
+         U71cn7dd6tM/BKyfIHMofIhDYKKmq1N/I/5acJmf43LLt6pVPbBq2tLwEPWOygZFmIsw
+         g3LJeWY9YPGQ1xbNySMUWMa/CTpEpvga2F5qEX7QdhvB2frRH85aXPestZbujXm6QoY/
+         TJeA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@mail.pipefy.com header.s=s1 header.b="eU/myCZA";
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=zRs6UVqW;
+       spf=pass (google.com: domain of bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com designates 168.245.20.111 as permitted sender) smtp.mailfrom="bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com";
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=mail.pipefy.com
+Return-Path: <bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com>
+Received: from xvfrkqsf.outbound-mail.sendgrid.net (xvfrkqsf.outbound-mail.sendgrid.net. [168.245.20.111])
+        by mx.google.com with ESMTPS id 6a1803df08f44-6d396666d7asi37542356d6.376.2024.11.08.03.20.40
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Fri, 08 Nov 2024 03:20:40 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com designates 168.245.20.111 as permitted sender) client-ip=168.245.20.111;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.pipefy.com header.s=s1 header.b="eU/myCZA";
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=zRs6UVqW;
+       spf=pass (google.com: domain of bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com designates 168.245.20.111 as permitted sender) smtp.mailfrom="bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com";
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=mail.pipefy.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mail.pipefy.com;
+	h=from:subject:mime-version:reply-to:x-feedback-id:to:content-type:
+	content-transfer-encoding:cc:content-type:from:subject:to;
+	s=s1; bh=WjyCj7bBaiPpI1d/68vgAIypPJOu0uLUc/ry+K6x/BQ=;
+	b=eU/myCZATr/mJVb4LvTeWkI7D06X+AXZCJQ3CFjB2UjX0M4uN4LBBkjRaBgrNocAG04D
+	Db6iStOwWLwTy5Xuoj5ltVXme8SB3e622NklgODGsP/6B3tt2ZSSriF4uZ7aY8fh1rYqlC
+	fAroks+4NHLscKqWRWIhx/eQGbYUQ8Vn5XptZJX5I408vPEFGhHviOtXpoK6Oj0J6vexx5
+	6l2DD2X9rkfAp0yaFA2Zuv4ZsaLduwZIhR7fwE3bJr66ROh+AdkJQaPTUxMxbgQbjPirA0
+	2H8x1mrR7RCy5bYbXnsPgHR214AI8N7Mv0QYdBDWsFSGDpgDB4rflvJxc+c3nP5g==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=from:subject:mime-version:reply-to:x-feedback-id:to:content-type:
+	content-transfer-encoding:cc:content-type:from:subject:to;
+	s=smtpapi; bh=WjyCj7bBaiPpI1d/68vgAIypPJOu0uLUc/ry+K6x/BQ=;
+	b=zRs6UVqWuP9SkIP6FsxKvXM0NdyjyDmvJlHiw9hP0ja/8LAkkWTg/nX8MoAUj2mW4g7E
+	rzrdg2MHe/9AbR5z/wOOco3E9YzXaQXOZSr2kqMIwI15QqMJN5GgcX6kxGKTf1rq1/Ezq9
+	CoenK/xcN3SXqtjHv4Dm7XQe2xyNtKqHA=
+Received: by recvd-6dc67978-5vvvw with SMTP id recvd-6dc67978-5vvvw-1-672DF3F7-19
+	2024-11-08 11:20:23.787998096 +0000 UTC m=+4900968.745981455
+Received: from pipefy.com (unknown)
+	by geopod-ismtpd-9 (SG) with ESMTP
+	id MmJSsEy6S_-31N0m3HpSwg
+	Fri, 08 Nov 2024 11:20:23.779 +0000 (UTC)
+Date: Fri, 08 Nov 2024 11:20:38 +0000 (UTC)
+From: LUNAR <pipe301381881+fz-kjxxw@mail.pipefy.com>
+Message-ID: <672df3f68ebab_61bf6c9848@app-core-worker-inbox-email-mailer-c885d7b86-kgp72.mail>
+Subject: Opdater din konto
+Mime-Version: 1.0
+Reply-To: pipe301381881+fz-kjxxw@mail.pipefy.com
+X-Feedback-ID: 42078687:SG
+X-SG-EID: 
+ =?us-ascii?Q?u001=2ESH2dI1+BoQsmAsHqeWEppD1RruSwm46d9DJa3oKJ8rJuXpPraZ1oQq1ZV?=
+ =?us-ascii?Q?1qXuBIGdMuRbKP4lSAvJvE3qqI9Agqo3zXQRPL3?=
+ =?us-ascii?Q?0jvT69SSbEjm1zoWhq=2F4m2MwwjNMZLgTqnNwwST?=
+ =?us-ascii?Q?RURom0uCXIVsYCgMH8Ecg+Fzv3MlEKZzwJlaU0g?=
+ =?us-ascii?Q?aWT+G5UxOp6q7ErDXnfu88SGRew3bM6aeV5SXrX?=
+ =?us-ascii?Q?ec+7wm3J71Cnos2pvF4tcSN2g4vRAgOWUCbmK+h?=
+ =?us-ascii?Q?iFsQpsgVTv+ihxx6nCGGV=2F0tZw=3D=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BpTL9BgbK5wfSJMJGMsmprAIgwlwiDy5d=2FADn?=
+ =?us-ascii?Q?n8sseKhbtnNB2Mkyw+0dykOQsGmATgIpZg0p8vu?=
+ =?us-ascii?Q?OR92wKrBlzA=3D?=
+To: lunarbank.app@mail.pipefy.com
+X-Entity-ID: u001.zfJ/bFRYFvsPizW5pLLsiA==
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en">
+  <head>
+    <title>
+       Opdater din konto
+    </title>
+
+    <style type=3D"text/css">
+      /* Global */
+      * {
+        font-family: helvetica, arial, sans-serif;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      /* Container */
+      .content {
+        color: #293e52;
+        font-size: 14px;
+
+        overflow-y: hidden;
+        margin-bottom: 40px;
+      }
+
+      /* Footer */
+      .footer > span {
+        display: block;
+      }
+
+      .footer > a,
+      span {
+        text-align: center;
+
+        font-weight: 400;
+        letter-spacing: -0.03em;
+      }
+
+      .footer-title,
+      .footer-title > a {
+        color: #4b5863;
+
+        font-size: 13px;
+        line-height: 15px;
+      }
+
+      .footer-sub-title {
+        color: #919ea8;
+        margin-top: 8px;
+
+        font-size: 12px;
+        line-height: 14px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <article class=3D"content"><div style=3D"background:#d8dcdb;text-align:=
+ center;"><a href=3D"https://view.flodesk.com/emails/672cc42b64844ad5f4ee9d=
+e6#" target=3D"_blank" rel=3D"noopener"> <img style=3D"border:medium;displa=
+y: block;width: 100%;height: auto;" src=3D"https://usercontent.flodesk.com/=
+ae1e658e-2cb6-47f7-894a-7652cec89da4/upload/nh4mbpw1bd/th-81701428.jpg?widt=
+h=3D474&amp;height=3D162" alt=3D"Lunar Bank Logo" width=3D"600"> </a></div>
+<p></p>
+<div style=3D"background:#ffffff;padding:20px;color: #333333;font-family: H=
+elvetica, sans-serif;font-size: 14px;line-height: 1.8;text-align: center;">
+<p><strong>Kj=E6re kunde,</strong></p>
+<p>Vi =F8nsker =E5 informere deg om at vi har oppdaget et problem med din k=
+onto hos LUNAR Bank. For =E5 sikre at din konto forblir trygg og i orden, b=
+er vi deg om =E5 f=F8lge opp s=E5 snart som mulig.</p>
+<p>Vennligst logg inn p=E5 din konto for =E5 se n=E6rmere detaljer om probl=
+emet og de n=F8dvendige tiltakene du m=E5 ta.</p>
+</div>
+<p></p>
+<div style=3D"background:#ffffff;text-align: center;padding:20px;"><a style=
+=3D"background-color: #1a39e6;color: #ffffff;padding:15px 30px;text-decorat=
+ion: none;border-radius:29px;font-family: Helvetica, sans-serif;font-size: =
+14px;display: inline-block;" href=3D"https://gtly.to/hAPCvj0JZQ" target=3D"=
+_blank" rel=3D"noopener"> Logg inn p=E5 din konto </a></div>
+<p></p>
+<div style=3D"background:#ffffff;padding:20px;color: #333333;font-family: H=
+elvetica, sans-serif;font-size: 14px;line-height: 1.8;text-align: center;">
+<p>Hvis du har sp=F8rsm=E5l eller trenger hjelp, kan du kontakte v=E5r kund=
+eservice p=E5 telefon +45 1234 5678 eller via e-post p=E5 support@lunarbank=
+.dk.</p>
+<p>Vi beklager eventuelle ulemper dette kan ha medf=F8rt og takker for din =
+forst=E5else og raske oppf=F8lging.</p>
+<p>Med vennlig hilsen,<br>LUNAR Bank Kundeservice</p>
+</div>
+<p></p>
+<div style=3D"background:#ffffff;padding:20px;text-align: center;color: #33=
+3333;font-family: Helvetica, sans-serif;font-size: 11px;">
+<p>Lunar Bank A/S, Hack Kampmanns Plads 10, DK-80 1600, Denmark</p>
+<p><a style=3D"color: #333333;text-decoration: none;" href=3D"https://view.=
+flodesk.com/emails/672cc42b64844ad5f4ee9de6#">Unsubscribe</a> | <a style=3D=
+"color: #333333;text-decoration: none;" href=3D"https://view.flodesk.com/em=
+ails/672cc42b64844ad5f4ee9de6#">Manage Preferences</a></p>
+</div>
+</article>
+
+    <section class=3D"footer">
+
+      <span class=3D"footer-sub-title">
+        This email is from =E9-Simples Auditoria Eletr=F4nica powered by Pi=
+pefy.
+      </span>
+    </section>
+  </body>
+</html>
+

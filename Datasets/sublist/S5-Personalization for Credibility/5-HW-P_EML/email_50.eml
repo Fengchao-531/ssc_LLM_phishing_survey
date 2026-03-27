@@ -1,0 +1,313 @@
+X-GM-THRID: 1810639252977447090
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:ad4:5389:0:b0:6c5:1044:bf86 with SMTP id i9csp292417qvv;
+        Thu, 19 Sep 2024 08:35:52 -0700 (PDT)
+X-Forwarded-Encrypted: i=2; AJvYcCVGwoXSMTnfxR1+NuLFMUlH/LIKlbBCVGejVjd5v0KXJCrzgJxMHmhmMfnEUGmlMWHO1F0Anqa5TQ8J3kV95D15tgN3@gmail.com
+X-Google-Smtp-Source: AGHT+IEjCrTaYkMbfe4m6gCUGNCn8NtdaP9pRrdey5DvoHsaswDZoMYEB7mmbCYR5Lhi6kPdrx1q
+X-Received: by 2002:a05:6830:34a6:b0:709:42dc:a024 with SMTP id 46e09a7af769-71109480488mr16765172a34.15.1726760151690;
+        Thu, 19 Sep 2024 08:35:51 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1726760151; cv=none;
+        d=google.com; s=arc-20240605;
+        b=S34pC7KZ2UJs6L73xBMqnGthKe/TH/uomaVf80GAj8dPqLch06sK7n9/WRcvFApkBE
+         gqQNHxUtE0Bh8nzslx9Skmy1ZKNOflANgr+IgB8fRXBT2WIHIqGdXd43AtDAAAoK23rM
+         j8jiXpF3OJAisEhiLHYAkNUjoIvJWuLLFKm40tHgaaiduYaLdOwORxT6D3TqxCywn/Cv
+         wbAnwgXdbGWLPtgDbaV6GCJ0+fIAEzOZtwXiw7X6uapNa/UqcNCfpAU+R25VkRj6ECQo
+         QvMBSDn98KMnzr7rx/aEnmMdeM1CrtkhPz4pf4qtxy669sVYeO7rs+wKUtwGtd2Sxhlw
+         zexg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=message-id:user-agent:subject:to:from:date:mime-version;
+        bh=xnykWObyut3nrd97zzh1IqSQc6MyZrMWZpJ8Hv+XAE4=;
+        fh=Pr2plYkJn0ovdHybgHvE53243CPsqSX0NRPDPDnAMwQ=;
+        b=PS7M2h5DCWDrV5XMEUoubfeJNbO4gwaR0BszGTt5ofJV+UA8wJ6ObAx9jMNIR1O0sA
+         qbZffmoHn0DdZHINOyC0GDvkUiAhRt0TH8pepukIooFR2ag5oTOd9Tid3yZxFiWZ9CKG
+         GPmqZI+CgUGl/izQf6P1xT5Gtq+oCRs8ZmLlD2tT3ZE2XP6N9IEf56MwYBRAaJazaBhO
+         cNV5sl+phRcAaP/+gp79p7CyiEIIBdN9Bk2/MCDGiOalIlz0nbrmoUMJxHm02sy/g2Uw
+         oPb1zfyXIGY0BdiSgB3X7BqA6UDovA+4YTNG1RLCY0l+tL/Az/Bz/NDHq0zRB+8MJaJY
+         HVEw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of prvs=0992011d68=we.are.pleased.to.inform.you.that.the.delivery@ine.mx designates 200.34.164.202 as permitted sender) smtp.mailfrom="prvs=0992011d68=We.are.pleased.to.inform.you.that.the.delivery@ine.mx";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=ine.mx
+Return-Path: <prvs=0992011d68=We.are.pleased.to.inform.you.that.the.delivery@ine.mx>
+Received: from GWSMTP1.ine.mx (gwsmtp1.ine.mx. [200.34.164.202])
+        by mx.google.com with ESMTPS id 46e09a7af769-71389bcd0a1si741487a34.251.2024.09.19.08.35.38
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 19 Sep 2024 08:35:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of prvs=0992011d68=we.are.pleased.to.inform.you.that.the.delivery@ine.mx designates 200.34.164.202 as permitted sender) client-ip=200.34.164.202;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of prvs=0992011d68=we.are.pleased.to.inform.you.that.the.delivery@ine.mx designates 200.34.164.202 as permitted sender) smtp.mailfrom="prvs=0992011d68=We.are.pleased.to.inform.you.that.the.delivery@ine.mx";
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=ine.mx
+Received: from gw-proxy-correo-n1.ine.mx (unknown [10.0.43.34]) by GWSMTP1.ine.mx with smtp
+	(TLS: TLSv1/SSLv3,256bits,ECDHE-RSA-AES256-GCM-SHA384)
+	 id 3033_1641_9b13e236_bd14_4131_be83_843fe913fc6c;
+	Thu, 19 Sep 2024 10:35:37 -0500
+Received: from correo.ine.mx (unknown [10.0.43.251])
+	(using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by gw-proxy-correo-n1.ine.mx (Postfix) with ESMTPS id 1DE98600F6;
+	Thu, 19 Sep 2024 09:35:13 -0600 (CST)
+Received: from micorreo.ine.mx (gateway [10.0.48.254])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	(Authenticated sender: cfdi.jd.qr01@correo.ine.mx)
+	by correo.ine.mx (Postfix) with ESMTPSA id 0E189400243;
+	Thu, 19 Sep 2024 09:34:12 -0600 (CST)
+MIME-Version: 1.0
+Date: Thu, 19 Sep 2024 17:34:07 +0200
+From: Order is on its way!
+ <We.are.pleased.to.inform.you.that.the.delivery@ine.mx>
+To: undisclosed-recipients:;
+Subject: We'd love to have you stay with us and keep the good times rolling!
+User-Agent: Roundcube Webmail/1.4.9
+Message-ID: <8089969bad30ecbc8fb5bdb7792dd481@ine.mx>
+X-Sender: We.are.pleased.to.inform.you.that.the.delivery@ine.mx
+Content-Type: multipart/alternative;
+ boundary="=_0253594e33cfb93506ac00f6098d9839"
+
+--=_0253594e33cfb93506ac00f6098d9839
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+Thank you for choosing DHL. We appreciate your patience and 
+understanding.
+
+We are pleased to inform you that the delivery issue has been resolved. 
+Your updated delivery information is provided below, and your order is 
+now ready for dispatch. We will confirm any applicable fees shortly. 
+Thank you for your patience and understanding. Your order is now on its 
+way.
+
+  confirm [1]
+
+Copyright (c) 2024 DHL Inc. All Rights Reserved. all rights are saved.
+
+
+
+Links:
+------
+[1] https://buy.stripe.com/8wMbLaeQibDq8CI5kl
+--=_0253594e33cfb93506ac00f6098d9839
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8" /></head><body style=3D'font-size: 10pt; font-family: Verdana,Gen=
+eva,sans-serif'>
+<div class=3D"pre" style=3D"margin: 0; padding: 0; font-family: monospace">=
+<br />
+<div id=3D"signature">
+<div class=3D"pre" style=3D"margin: 0; padding: 0; font-family: monospace">
+<div id=3D"signature">
+<div class=3D"MailMessagePane-messageBody">
+<div>
+<div class=3D"mimetype-text-html"><span class=3D"sender"><span class=3D"sen=
+der"><br /></span></span>
+<div class=3D"mimetype-text-html">
+<table class=3D"nl-container" style=3D"background-color: #ffffff; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt;" border=3D"0" width=3D"100%" cellspaci=
+ng=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td>
+<table class=3D"row row-2" style=3D"mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" ali=
+gn=3D"center">
+<tbody>
+<tr>
+<td>
+<table class=3D"row-content" style=3D"width: 620px; color: #000000; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;" border=3D"0" width=3D"620" cellspac=
+ing=3D"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td class=3D"column column-1" style=3D"vertical-align: top; font-weight: 40=
+0; padding-bottom: 5px; text-align: left; padding-top: 5px; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt; border: 0px;" width=3D"100%">
+<table class=3D"image_block" style=3D"mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"width: 100%; padding-left: 0px; padding-right: 0px;">
+<div style=3D"line-height: 10px;" align=3D"center"><img style=3D"max-width:=
+ 100%; height: auto; width: 124px; display: block; border: 0px;" title=3D"p=
+icture" src=3D"https://d1oco4z2z1fhwp.cloudfront.net/templates/default/18/o=
+kok.gif" alt=3D"picture" width=3D"124" /></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"row row-3" style=3D"height: 156px; width: 100%;" border=3D"=
+0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr style=3D"height: 156px;">
+<td style=3D"height: 156px;">
+<table class=3D"row-content" style=3D"width: 620px; color: #000000; height:=
+ 140px;" border=3D"0" width=3D"620" cellspacing=3D"0" cellpadding=3D"0" ali=
+gn=3D"center">
+<tbody>
+<tr style=3D"height: 140px;">
+<td class=3D"column column-1" style=3D"vertical-align: top; font-weight: 40=
+0; padding-bottom: 10px; text-align: left; padding-top: 5px; border: 0px; h=
+eight: 140px; width: 617.333px;">
+<table class=3D"text_block" style=3D"mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 10px 10px 5px 10px;">
+<div style=3D"font-family: sans-serif;">
+<div style=3D"font-size: 12px; font-family: Lato, Tahoma, Verdana, Segoe, s=
+ans-serif; color: #000000; line-height: 1.2; mso-line-height-alt: 14.399999=
+999999999px;">
+<p style=3D"font-size: 14px; text-align: center; margin: 0px;"><span style=
+=3D"font-size: 13px;"><strong><span style=3D"vertical-align: inherit;"><spa=
+n style=3D"vertical-align: inherit;">Thank you for choosing DHL. We appreci=
+ate your patience and understanding.</span></span></strong></span></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"text_block" style=3D"mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"padding: 10px 10px 25px 10px;">
+<div style=3D"font-family: sans-serif;">
+<div style=3D"font-size: 12px; font-family: Lato, Tahoma, Verdana, Segoe, s=
+ans-serif; color: #71777d; line-height: 1.2; mso-line-height-alt: 14.399999=
+999999999px;">
+<p style=3D"font-size: 14px; text-align: center; margin: 0px;"><span style=
+=3D"vertical-align: inherit; color: #000000;"><span style=3D"vertical-align=
+: inherit;">We are pleased to inform you that the delivery issue has been r=
+esolved. Your updated delivery information is provided below, and your orde=
+r is now ready for dispatch. We will confirm any applicable fees shortly. T=
+hank you for your patience and understanding. Your order is now on its way=
+=2E</span></span></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"row row-10" style=3D"mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" al=
+ign=3D"center">
+<tbody>
+<tr>
+<td>
+<table class=3D"row-content" style=3D"width: 620px; color: #000000; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;" border=3D"0" width=3D"620" cellspac=
+ing=3D"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td class=3D"column column-1" style=3D"vertical-align: top; font-weight: 40=
+0; padding-bottom: 0px; text-align: left; padding-top: 5px; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt; border: 0px;" width=3D"100%">
+<table class=3D"button_block" style=3D"mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"10"=
+>
+<tbody>
+<tr>
+<td>
+<div align=3D"center"><a style=3D"text-decoration: none; border-top: #8a3b8=
+f 1px solid; font-family: Lato, Tahoma, Verdana, Segoe, sans-serif; border-=
+right: #b80909 1px solid; width: auto; border-bottom: #b80909 1px solid; wo=
+rd-break: keep-all; color: #ffffff; padding-bottom: 5px; text-align: center=
+; padding-top: 5px; border-left: 1px solid; display: inline-block; backgrou=
+nd-color: #b80909; border-radius: 4px; mso-border-alt: none;" href=3D"https=
+://buy.stripe.com/8wMbLaeQibDq8CI5kl"> <span style=3D"font-size: 16px; padd=
+ing-left: 20px; display: inline-block; letter-spacing: normal; padding-righ=
+t: 20px;"><span style=3D"font-size: 16px; line-height: 1.5; mso-line-height=
+-alt: 24px;"><span style=3D"vertical-align: inherit;"><span style=3D"vertic=
+al-align: inherit;">confirm</span></span></span></span></a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"row row-11" style=3D"mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" al=
+ign=3D"center">
+<tbody>
+<tr>
+<td>
+<table class=3D"row-content" style=3D"width: 620px; color: #000000; mso-tab=
+le-lspace: 0pt; mso-table-rspace: 0pt;" border=3D"0" width=3D"620" cellspac=
+ing=3D"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td class=3D"column column-1" style=3D"vertical-align: top; font-weight: 40=
+0; padding-bottom: 5px; text-align: left; padding-top: 5px; mso-table-lspac=
+e: 0pt; mso-table-rspace: 0pt; border: 0px;" width=3D"100%">
+<table class=3D"text_block" style=3D"mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;" border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"10">
+<tbody>
+<tr>
+<td>
+<div style=3D"font-family: sans-serif;">
+<div style=3D"font-size: 12px; font-family: Lato, Tahoma, Verdana, Segoe, s=
+ans-serif; color: #555555; line-height: 1.2; mso-line-height-alt: 14.399999=
+999999999px;">
+<p style=3D"font-size: 14px; text-align: center; margin: 0px;"><span style=
+=3D"font-size: 12px;"><span style=3D"vertical-align: inherit;"><span style=
+=3D"vertical-align: inherit;">Copyright &copy; 2024 DHL Inc. All Rights Res=
+erved. </span><span style=3D"vertical-align: inherit;">all rights are saved=
+=2E</span></span></span></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<div>&nbsp;</div>
+</div>
+</div>
+</div>
+<div class=3D"MailMessagePane-inlineContainer">&nbsp;</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body></html>
+
+--=_0253594e33cfb93506ac00f6098d9839--
+

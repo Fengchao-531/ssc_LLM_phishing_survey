@@ -1,0 +1,644 @@
+X-GM-THRID: 1808867421225980259
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:6214:5e97:b0:6bf:9c09:a6e6 with SMTP id mm23csp682178qvb;
+        Fri, 30 Aug 2024 19:13:21 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IGIUkA8X8/lk0K/x8LYlE5msRNGF+buQuBmYkZzKr1rV1w9Q2N0+kwinJ1W/L0Xuyb9U9Oy
+X-Received: by 2002:a05:6102:b09:b0:49a:59cc:b948 with SMTP id ada2fe7eead31-49a77756daamr1502297137.7.1725070401059;
+        Fri, 30 Aug 2024 19:13:21 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1725070401; cv=none;
+        d=google.com; s=arc-20160816;
+        b=L3VCqt6SFdWCCVkH2ONihv1Yx0oBpYwLmx2+ORqMc2iRAyDiL1FEbhceCLeJXaFig3
+         Og1Tews268C8kcZXoG5BFZzf505TtBPA3KN2lPIKZ0NBcX4DfAIVL9ByqmjpCkxX4kuM
+         dnYamgjKbPvbnjFi9QjP2pVkoJovdUt8FHMnT+36Zk0pzFEXorcP7qimBPkh7B8dvK49
+         9EE4zhc1v+tsd3rwLIWGGjy30fI28UHaWaIbqwTVWUIElhzd3CNf48HQzl7I/6XLGbyH
+         Y+xge5MMnB6uzheXHcgMruSzfkC/UN0gQus+c05QK41uHciopw2y27KuGBIBDY+PRXKQ
+         SopA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=message-id:reply-to:list-unsubscribe-post:list-unsubscribe
+         :feedback-id:to:from:subject:mime-version:date:sender:dkim-signature
+         :dkim-signature;
+        bh=OeH3qK0kcwGzZ5Hu5UgdQ5C7sUUqlt5SGsuAb6PTDBk=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=UtAxqNjznz6tNTk9ZdynRE/4dW99X+S2jfFUQyQCKmTGfyWNoVPM/2UTBfKhxhy/KU
+         bpXfm83OJ7dVVJbLHUAWOBcuY0b3goGnXaK+RYqAHvsVMaLmapy0o6NQvQY9mS8HUTU5
+         0a61eLKb4OtwLH0k1sXBnESm58yk8dxJm9xrTAAkSNldm2KiNIKEZiytSJYkRAqjpdqq
+         kdX3kHcwE1/6BiIaat5D6BgvM27yfw3zz5w3zvWZEak+LLhO/2SA/ih+bQHEdt9rEaE1
+         CGOOX7EboGinK3w1bW/K5DjfNyBv7QZPBEooKZdhdX3HcoIMf55sVZzPBWdNtyhSee6b
+         kIYA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=temperror (no key for signature) header.i=@uparcel.sg header.s=krs header.b=eC+4Vns4;
+       dkim=pass header.i=@mailgun.org header.s=mg header.b=PXiGmNQz;
+       spf=softfail (google.com: domain of transitioning bounce+3d994e.554663-dynapapersubmission=gmail.com@uparcel.sg does not designate 159.135.236.158 as permitted sender) smtp.mailfrom="bounce+3d994e.554663-dynapapersubmission=gmail.com@uparcel.sg";
+       dmarc=fail (p=QUARANTINE sp=QUARANTINE dis=QUARANTINE) header.from=uparcel.sg
+Return-Path: <bounce+3d994e.554663-dynapapersubmission=gmail.com@uparcel.sg>
+Received: from m236-158.mailgun.net (m236-158.mailgun.net. [159.135.236.158])
+        by mx.google.com with UTF8SMTPS id af79cd13be357-7a806c1a18asi528251185a.20.2024.08.30.19.13.20
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Fri, 30 Aug 2024 19:13:21 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounce+3d994e.554663-dynapapersubmission=gmail.com@uparcel.sg does not designate 159.135.236.158 as permitted sender) client-ip=159.135.236.158;
+Authentication-Results: mx.google.com;
+       dkim=temperror (no key for signature) header.i=@uparcel.sg header.s=krs header.b=eC+4Vns4;
+       dkim=pass header.i=@mailgun.org header.s=mg header.b=PXiGmNQz;
+       spf=softfail (google.com: domain of transitioning bounce+3d994e.554663-dynapapersubmission=gmail.com@uparcel.sg does not designate 159.135.236.158 as permitted sender) smtp.mailfrom="bounce+3d994e.554663-dynapapersubmission=gmail.com@uparcel.sg";
+       dmarc=fail (p=QUARANTINE sp=QUARANTINE dis=QUARANTINE) header.from=uparcel.sg
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=uparcel.sg; q=dns/txt; s=krs; t=1725070400; x=1725077600;
+ h=Message-Id: Reply-To: List-Unsubscribe-Post: List-Unsubscribe: X-Feedback-ID: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: Sender: Sender: X-Feedback-Id;
+ bh=OeH3qK0kcwGzZ5Hu5UgdQ5C7sUUqlt5SGsuAb6PTDBk=;
+ b=eC+4Vns4FrOofnfURSenpMzeZVlsQk8jiGHjyQCEGnPp4ZMX28M+/BiGZYV6myXsDZwxIo3/RTw/U2q5tFWWShLD8Wg57i6tIIfDS/j8CBfwLZQ6zXBlAF8nJpValHFFUMlR0byZ33wqzfrFpiECr1nfmiLtrL1q6cTpynvMSro=
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mailgun.org; q=dns/txt; s=mg; t=1725070400; x=1725077600;
+ h=Message-Id: Reply-To: List-Unsubscribe-Post: List-Unsubscribe: X-Feedback-ID: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: Sender: Sender: X-Feedback-Id;
+ bh=OeH3qK0kcwGzZ5Hu5UgdQ5C7sUUqlt5SGsuAb6PTDBk=;
+ b=PXiGmNQzOTebBtHsTLn3jueIAQvwUJBLBBpN870aH2PzlKYLj3rltXVOkgG/90Dih/ioQokqbAkOtNmjEl3QS0c1q0RXtGZa7R3L2AZm4SbODnb2ZdUaact8AJYfCQWN0zdfS4U9SDDVt/XzO10Y4gOiIyGOrV4NQ+yeE/pv7j0=
+X-Feedback-Id: angie@uparcel.sg:5689248188465152:60d4008e0b0a797e9eea8f9e:mailgun
+X-Mailgun-Sending-Ip: 159.135.236.158
+X-Mailgun-Sid: WyJkZjQyOCIsImR5bmFwYXBlcnN1Ym1pc3Npb25AZ21haWwuY29tIiwiNTU0NjYzIl0=
+Received: by 60f3a22bb915 with HTTP id 66d27c4023225210e084ce6b; Sat, 31 Aug 2024
+ 02:13:20 GMT
+Sender: angie@uparcel.sg
+Date: Sat, 31 Aug 2024 02:13:20 +0000
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="c7d453df738b6632e803133cbd31ebe57c42938b54e6b79c3e3b0ebed0b5"
+Subject: =?UTF-8?b?8J2QjfCdkKjwnZCt8J2QovCdkJzwnZCeOltkYXRlZCAzMS8wOC8yMDI0XQ==?=
+From: New Notification <angie@uparcel.sg>
+To: dynapapersubmission@gmail.com
+X-Mailgun-Tag: 5689248188465152
+Feedback-ID: 5689248188465152:engagebay
+X-Feedback-ID: 5689248188465152:engagebay
+List-Unsubscribe: <https://uparcelyp31.ebtrk6.com/unsubscribe?nid=5689248188465152&c=5987608317657088>
+List-Unsubscribe-Post: One-Click
+Reply-To: broadcast-eijejaeeehjcgchc-fgijceibiiegfbfc-fhdaigijgdfhdhga@ebmail4.com
+X-Mailgun-Variables: {"unique_args":
+ "{\"contactEmailId\":5730868963573760,\"contactId\":5987608317657088,\"domain\":\"5689248188465152\",\"entity_id\":4894904447926272}"}
+Message-Id: <20240831021320.fc4c8a3de1813f3e@uparcel.sg>
+
+--c7d453df738b6632e803133cbd31ebe57c42938b54e6b79c3e3b0ebed0b5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+
+=E2=80=8A =C2=A0 =C2=A0 =C2=A0 =C2=A0 Hello,=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 You have been charged for your subscription, but your payment me=
+thod has declined it. It is imperative that you update your payment method =
+as soon as possible to avoid losi =E2=80=8A =C2=A0 =C2=A0 =C2=A0 =C2=A0 Hel=
+lo,=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 You have been charged for your=
+ subscription, but your payment method has declined it. It is imperative th=
+at you update your payment method as soon as possible to avoid losing acces=
+s to your service. In order to do this,=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 Sign In. =C2=A0 =C2=A0 Regards, Apple =C2=A0 =C2=A0 For help with su=
+bscriptions and purchases, visit Apple Support. =C2=A0 =C2=A0 Apple ID Summ=
+ary=C2=A0=E2=80=A2=C2=A0Terms of Sale=C2=A0=E2=80=A2=C2=A0Privacy Policy =
+=C2=A0 =C2=A0 Copyright =C2=A9 2024 Apple Inc. All rights reserved =C2=A0 D=
+on't want to get emails like this? Unsubscribe from our emails Sent using E=
+ngageBay =E2=80=8A
+--c7d453df738b6632e803133cbd31ebe57c42938b54e6b79c3e3b0ebed0b5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+ <head>=20
+  <title></title>=20
+  <!--[if !mso]><!-->=20
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />=20
+  <!--<![endif]-->=20
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" =
+/>=20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1" />=20
+  <style type=3D"text/css">
+      #outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size=
+-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-r=
+space:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decora=
+tion:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }
+    </style>=20
+  <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->=20
+  <!--[if lte mso 11]>
+    <style type=3D"text/css">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->=20
+  <!--[if !mso]><!-->=20
+  <link href=3D"https://fonts.googleapis.com/css?family=3DUbuntu:300,400,50=
+0,700" rel=3D"stylesheet" type=3D"text/css" />=20
+  <style type=3D"text/css">
+          @import url(https://fonts.googleapis.com/css?family=3DUbuntu:300,=
+400,500,700);
+        </style>=20
+  <!--<![endif]-->=20
+  <style type=3D"text/css">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }
+    </style>=20
+  <style media=3D"screen and (min-width:480px)">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width:=
+ 100%; }
+    </style>=20
+  <style type=3D"text/css">
+   =20
+   =20
+    </style>=20
+  <style type=3D"text/css">
+    @media only screen and (max-width:480px) {@viewport { width:480px; } im=
+g{height: auto !important;}  }  img {border:0;height:auto;line-height:100%;=
+ outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;} .eb-ima=
+ge-full-width,.eb-image-full-width table,.eb-image-full-width td,eb-image-f=
+ull-width img{width:100% !important} .eb-image img{max-width: 100%;height:a=
+uto;box-sizing: border-box;} .eb-button,.eb-button a{word-break:break-word;=
+}  .eb-button.eb-btn-full-width table{width: 100% !important;max-width: 100=
+%;box-sizing: border-box;} .eb-button.eb-btn-full-width a{width: 100% !impo=
+rtant;max-width: 100%;box-sizing: border-box;}  .eb-text p{margin:0;word-br=
+eak: break-word;}
+    </style>=20
+  <!--[if mso | IE]><style type=3D"text/css">.eb-divider p{border-top:0px s=
+olid transparent !important;}</style><![endif]-->=20
+ </head>=20
+ <body style=3D"font-family: Arial, Helvetica, sans-serif; word-spacing: no=
+rmal; background-color: #f9f9f9;" class=3D" eb-drag-and-drop-builder">=20
+  <span class=3D"preheader" style=3D"color: transparent; display: none; hei=
+ght: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide=
+: all; visibility: hidden; width: 0;"> =E2=80=8A &nbsp; &nbsp; &nbsp; &nbsp=
+; Hello,&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; You have been charged for=
+ your subscription, but your payment method has declined it. It is imperati=
+ve that you update your payment method as soon as possible to avoid losi</s=
+pan>=20
+  <img src=3D"https://uparcelyp31.ebtrk6.com/openmail?nid=3D568924818846515=
+2&amp;c=3D5987608317657088&amp;b=3D4894904447926272&amp;e_id=3D573086896357=
+3760" alt=3D"Tracking Pixel" style=3D"display:block;width:1px!important;min=
+-width:1px!important;max-width:1px!important;height:1px!important;border:0;=
+overflow:hidden" border=3D"0" width=3D"1" height=3D"1" />=20
+  <div style=3D"background:#f9f9f9;background-color:#f9f9f9;">=20
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"width:100%;">=20
+    <tbody>=20
+     <tr>=20
+      <td>=20
+       <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:60=
+0px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-lin=
+e-height-rule:exactly;"><![endif]-->=20
+       <div style=3D"margin:0px auto;max-width:600px;">=20
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"width:100%;">=20
+         <tbody>=20
+          <tr>=20
+           <td style=3D"direction:ltr;font-size:0px;padding:0px 0px 0px 0px=
+;text-align:center;">=20
+            <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"eb-section-outlook mjml-s=
+ection-undefined-outlook" width=3D"600px" ><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"eb-section-outlook mjml=
+-section-undefined-outlook" role=3D"presentation" style=3D"width:600px;" wi=
+dth=3D"600" bgcolor=3D"transparent" ><tr><td style=3D"line-height:0px;font-=
+size:0px;mso-line-height-rule:exactly;"><![endif]-->=20
+            <div class=3D"eb-section mjml-section-undefined" style=3D"backg=
+round:transparent;background-color:transparent;margin:0px auto;max-width:60=
+0px;">=20
+             <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" role=3D"presentation" style=3D"background:transparent;background=
+-color:transparent;width:100%;">=20
+              <tbody>=20
+               <tr>=20
+                <td style=3D"direction:ltr;font-size:0px;padding:0px 0px 0p=
+x 0px;text-align:center;">=20
+                 <!--[if mso | IE]><table role=3D"presentation" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"mjml-column-undefine=
+d-outlook" style=3D"vertical-align:top;width:600px;" ><![endif]-->=20
+                 <div class=3D"mj-column-per-100 mj-outlook-group-fix mjml-=
+column-undefined" style=3D"font-size:0px;text-align:left;direction:ltr;disp=
+lay:inline-block;vertical-align:top;width:100%;">=20
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" width=3D"100%">=20
+                   <tbody>=20
+                    <tr>=20
+                     <td style=3D"vertical-align:top;padding:0px;">=20
+                      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"" width=3D"100%">=20
+                       <tbody>=20
+                        <tr>=20
+                         <td class=3D"mjml-content-e8a96e86-3572-c1a6-57e9-=
+dc63668febe6" style=3D"background:transparent;font-size:0px;word-break:brea=
+k-word;">=20
+                          <div style=3D"height:50px;line-height:50px;">
+                            =E2=80=8A=20
+                          </div> </td>=20
+                        </tr>=20
+                       </tbody>=20
+                      </table> </td>=20
+                    </tr>=20
+                   </tbody>=20
+                  </table>=20
+                 </div>=20
+                 <!--[if mso | IE]></td></tr></table><![endif]--> </td>=20
+               </tr>=20
+              </tbody>=20
+             </table>=20
+            </div>=20
+            <!--[if mso | IE]></td></tr></table></td></tr></table><![endif]=
+--> </td>=20
+          </tr>=20
+         </tbody>=20
+        </table>=20
+       </div>=20
+       <!--[if mso | IE]></td></tr></table><![endif]--> </td>=20
+     </tr>=20
+    </tbody>=20
+   </table>=20
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"width:100%;">=20
+    <tbody>=20
+     <tr>=20
+      <td>=20
+       <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:60=
+0px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-lin=
+e-height-rule:exactly;"><![endif]-->=20
+       <div style=3D"margin:0px auto;max-width:600px;">=20
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"width:100%;">=20
+         <tbody>=20
+          <tr>=20
+           <td style=3D"direction:ltr;font-size:0px;padding:0px 0px 0px 0px=
+;text-align:center;">=20
+            <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"eb-section-outlook eb-foo=
+ter-container-outlook eb-template-first-section-outlook eb-template-last-se=
+ction-outlook mjml-section-5d4a8a41-5b51-5dd2-91dc-5f9065a4e45f-outlook" wi=
+dth=3D"600px" ><table align=3D"center" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" class=3D"eb-section-outlook eb-footer-container-outlook eb-tem=
+plate-first-section-outlook eb-template-last-section-outlook mjml-section-5=
+d4a8a41-5b51-5dd2-91dc-5f9065a4e45f-outlook" role=3D"presentation" style=3D=
+"width:600px;" width=3D"600" bgcolor=3D"#f0f0f0" ><tr><td style=3D"line-hei=
+ght:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->=20
+            <table class=3D"eb-view-in-browser-system-added-table" role=3D"=
+presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100=
+%" bgcolor=3D"" style=3D"background:transparent;background-color:transparen=
+t;width:100%;">=20
+             <tbody>=20
+              <tr>=20
+               <td align=3D"right" valign=3D"top"><p style=3D"font-size:11p=
+x;color:rgb(104,111,122);text-align:right;margin: 0px 0px 5px 0px;padding:0=
+px;font-family: Roboto,helvetica,arial,sans-serif;"><a href=3D"https://upar=
+celyp.ebemails.com/emailviewinbrowser?nid=3D5689248188465152&amp;eid=3D5730=
+868963573760" style=3D"font-size: 10px; color: rgb(104,111,122); text-decor=
+ation: none;" target=3D"_blank" class=3D"eb-view-in-browser">View in browse=
+r</a></p></td>=20
+              </tr>=20
+             </tbody>=20
+            </table>=20
+            <div class=3D"eb-section eb-footer-container eb-template-first-=
+section eb-template-last-section mjml-section-5d4a8a41-5b51-5dd2-91dc-5f906=
+5a4e45f" style=3D"background:#f0f0f0 url('https://www.uparcel.sg/blog/book-=
+your-electric-van-now-and-save-uparcel-and-evcos-affordable-and-ecofriendly=
+-leasing-program/') center center / cover no-repeat;background-position:cen=
+ter center;background-repeat:no-repeat;background-size:cover;margin:0px aut=
+o;max-width:600px;">=20
+             <div style=3D"line-height:0;font-size:0;">=20
+              <table align=3D"center" background=3D"https://www.uparcel.sg/=
+blog/book-your-electric-van-now-and-save-uparcel-and-evcos-affordable-and-e=
+cofriendly-leasing-program/" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"background:#f0f0f0 url('https://www.uparc=
+el.sg/blog/book-your-electric-van-now-and-save-uparcel-and-evcos-affordable=
+-and-ecofriendly-leasing-program/') center center / cover no-repeat;backgro=
+und-position:center center;background-repeat:no-repeat;background-size:cove=
+r;width:100%;">=20
+               <tbody>=20
+                <tr>=20
+                 <td style=3D"direction:ltr;font-size:0px;padding:30px 10px=
+ 0px 10px;text-align:center;">=20
+                  <!--[if mso | IE]><table role=3D"presentation" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"mjml-column-undefin=
+ed-outlook" style=3D"vertical-align:top;width:580px;" ><![endif]-->=20
+                  <div class=3D"mj-column-per-100 mj-outlook-group-fix mjml=
+-column-undefined" style=3D"font-size:0px;text-align:left;direction:ltr;dis=
+play:inline-block;vertical-align:top;width:100%;">=20
+                   <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" width=3D"100%">=20
+                    <tbody>=20
+                     <tr>=20
+                      <td style=3D"vertical-align:top;padding:0px 0px 0px 0=
+px ;">=20
+                       <table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"" width=3D"100%">=20
+                        <tbody>=20
+                         <tr>=20
+                          <td align=3D"left" class=3D"mjml-content-eb_0c380=
+72f-d914-48ed-8f49-e7f817177184" style=3D"font-size:0px;padding:0;word-brea=
+k:break-word;">=20
+                           <div style=3D"font-family:Ubuntu, Helvetica, Ari=
+al, sans-serif;font-size:13px;font-weight:normal;line-height:1.6;text-align=
+:left;color:#000000;">=20
+                            <div class=3D"mail-message-defaults ic-1203xvo"=
+>=20
+                             <br />=20
+                             <br />=20
+                             <div class=3D"aapl-desktop-div" style=3D"displ=
+ay: block; padding: 0; margin: 0; height: 100%; max-height: none; min-heigh=
+t: none; line-height: normal; overflow: visible;">=20
+                              <table class=3D"aapl-desktop-tbl" style=3D"bo=
+rder-collapse: collapse; border-spacing: 0px; width: 742px; height: 288px;"=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center">=20
+                               <tbody>=20
+                                <tr style=3D"height: 245px;">=20
+                                 <td style=3D"height: 245px; width: 742px;"=
+ colspan=3D"4" align=3D"center">=20
+                                  <table id=3D"content-tbl" style=3D"font-f=
+amily: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; wid=
+th: 742px; height: 233px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+>=20
+                                   <tbody>=20
+                                    <tr class=3D"paragraph-spacer" style=3D=
+"height: 20px;">=20
+                                     <td style=3D"height: 18px; width: 19.9=
+167px;">&nbsp;</td>=20
+                                     <td style=3D"height: 18px; width: 691.=
+458px;">&nbsp;</td>=20
+                                     <td style=3D"height: 18px; width: 19.9=
+583px;">&nbsp;</td>=20
+                                    </tr>=20
+                                    <tr style=3D"height: 17px;">=20
+                                     <td class=3D"left-gutter" style=3D"wid=
+th: 19.9167px; height: 17px;">&nbsp;</td>=20
+                                     <td style=3D"height: 17px; width: 691.=
+458px;">Hello,&nbsp;</td>=20
+                                     <td class=3D"right-gutter" style=3D"wi=
+dth: 19.9583px; height: 17px;">&nbsp;</td>=20
+                                    </tr>=20
+                                    <tr class=3D"paragraph-spacer" style=3D=
+"height: 20px;">=20
+                                     <td style=3D"height: 18px; width: 19.9=
+167px;">&nbsp;</td>=20
+                                     <td style=3D"height: 18px; width: 691.=
+458px;">&nbsp;</td>=20
+                                     <td style=3D"height: 18px; width: 19.9=
+583px;">&nbsp;</td>=20
+                                    </tr>=20
+                                    <tr style=3D"height: 34px;">=20
+                                     <td class=3D"left-gutter" style=3D"wid=
+th: 19.9167px; height: 34px;">&nbsp;</td>=20
+                                     <td style=3D"height: 34px; width: 691.=
+458px;">You have been charged for your subscription, but your payment metho=
+d has declined it. It is imperative that you update your payment method as =
+soon as possible to avoid losing access to your service. In order to do thi=
+s,&nbsp;</td>=20
+                                     <td class=3D"right-gutter" style=3D"wi=
+dth: 19.9583px; height: 34px;">&nbsp;</td>=20
+                                    </tr>=20
+                                    <tr class=3D"paragraph-spacer" style=3D=
+"height: 20px;">=20
+                                     <td style=3D"height: 18px; width: 19.9=
+167px;">&nbsp;</td>=20
+                                     <td style=3D"height: 18px; width: 691.=
+458px;">&nbsp;</td>=20
+                                     <td style=3D"height: 18px; width: 19.9=
+583px;">&nbsp;</td>=20
+                                    </tr>=20
+                                    <tr style=3D"height: 35px;">=20
+                                     <td class=3D"left-gutter" style=3D"wid=
+th: 19.9167px; height: 35px;">&nbsp;</td>=20
+                                     <td style=3D"height: 35px; width: 691.=
+458px; text-align: center;"><a href=3D"https://uparcelyp31.ebtrk6.com/openu=
+rl?lid=3D4567583413239808&amp;nid=3D5689248188465152&amp;c=3D59876083176570=
+88&amp;b=3D4894904447926272&amp;e_id=3D5730868963573760" rel=3D"noreferrer"=
+ style=3D"color: #15c; text-decoration: underline;" data-eblinkid=3D"456758=
+3413239808"><button class=3D"action gradient" style=3D"font-size: 17px; lin=
+e-height: 1.47059; font-weight: 400; letter-spacing: -0.022em; font-family:=
+ system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, He=
+lvetica, Arial, sans-serif; background-color: #0070c9; border-radius: 4px; =
+color: white; cursor: pointer; display: inline-block; min-width: 30px; text=
+-align: center; white-space: nowrap; padding: 4px 15px 4px 15px; border: 1p=
+x solid #07c;">Sign In.</button></a></td>=20
+                                     <td class=3D"right-gutter" style=3D"wi=
+dth: 19.9583px; height: 35px;">&nbsp;</td>=20
+                                    </tr>=20
+                                    <tr style=3D"height: 34px;">=20
+                                     <td class=3D"left-gutter" style=3D"wid=
+th: 19.9167px; height: 34px;">&nbsp;</td>=20
+                                     <td style=3D"height: 34px; width: 691.=
+458px;">Regards,<br />Apple</td>=20
+                                     <td class=3D"right-gutter" style=3D"wi=
+dth: 19.9583px; height: 34px;">&nbsp;</td>=20
+                                    </tr>=20
+                                    <tr style=3D"height: 18px;">=20
+                                     <td class=3D"left-gutter" style=3D"wid=
+th: 19.9167px; height: 59px;">&nbsp;</td>=20
+                                     <td style=3D"font-size: 12px; color: #=
+666666; line-height: 18px; height: 59px; width: 691.458px;" align=3D"center=
+">For help with subscriptions and purchases, visit <a href=3D"https://uparc=
+elyp31.ebtrk6.com/openurl?lid=3D5953516133679104&amp;nid=3D5689248188465152=
+&amp;c=3D5987608317657088&amp;b=3D4894904447926272&amp;e_id=3D5730868963573=
+760" rel=3D"noopener noreferrer" style=3D"color: #15c; text-decoration: und=
+erline;" data-eblinkid=3D"5953516133679104">Apple Support</a>.</td>=20
+                                     <td class=3D"right-gutter" style=3D"wi=
+dth: 19.9583px; height: 59px;">&nbsp;</td>=20
+                                    </tr>=20
+                                   </tbody>=20
+                                  </table> </td>=20
+                                </tr>=20
+                                <tr style=3D"height: 17px;">=20
+                                 <td style=3D"height: 17px; width: 50px;">&=
+nbsp;</td>=20
+                                 <td style=3D"font-size: 12px; font-family:=
+ 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #666666; height: 17=
+px; width: 639.333px;" colspan=3D"2" align=3D"center"><a style=3D"text-deco=
+ration: underline; color: #0073ff;" href=3D"https://uparcelyp31.ebtrk6.com/=
+openurl?lid=3D5953516133679104&amp;nid=3D5689248188465152&amp;c=3D598760831=
+7657088&amp;b=3D4894904447926272&amp;e_id=3D5730868963573760" rel=3D"noopen=
+er noreferrer" data-eblinkid=3D"5953516133679104">Apple ID Summary</a>&nbsp=
+;=E2=80=A2&nbsp;<a style=3D"text-decoration: underline; color: #0073ff;" hr=
+ef=3D"https://uparcelyp31.ebtrk6.com/openurl?lid=3D5953516133679104&amp;nid=
+=3D5689248188465152&amp;c=3D5987608317657088&amp;b=3D4894904447926272&amp;e=
+_id=3D5730868963573760" rel=3D"noopener noreferrer" data-eblinkid=3D"595351=
+6133679104">Terms of Sale</a>&nbsp;=E2=80=A2&nbsp;<a style=3D"text-decorati=
+on: underline; color: #0073ff;" href=3D"https://uparcelyp31.ebtrk6.com/open=
+url?lid=3D5953516133679104&amp;nid=3D5689248188465152&amp;c=3D5987608317657=
+088&amp;b=3D4894904447926272&amp;e_id=3D5730868963573760" rel=3D"noopener n=
+oreferrer" data-eblinkid=3D"5953516133679104">Privacy Policy</a></td>=20
+                                 <td style=3D"height: 17px; width: 50px;">&=
+nbsp;</td>=20
+                                </tr>=20
+                                <tr style=3D"height: 26px;">=20
+                                 <td style=3D"height: 26px; width: 50px;">&=
+nbsp;</td>=20
+                                 <td dir=3D"auto" style=3D"font-size: 12px;=
+ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #66666=
+6; height: 26px; width: 639.333px;" colspan=3D"2" align=3D"center">Copyrigh=
+t &copy; 2024 Apple Inc. <br /><a style=3D"text-decoration: underline; colo=
+r: #1187ff;" href=3D"https://uparcelyp31.ebtrk6.com/openurl?lid=3D595351613=
+3679104&amp;nid=3D5689248188465152&amp;c=3D5987608317657088&amp;b=3D4894904=
+447926272&amp;e_id=3D5730868963573760" rel=3D"noopener noreferrer" data-ebl=
+inkid=3D"5953516133679104">All rights reserved</a></td>=20
+                                 <td style=3D"height: 26px; width: 50px;">&=
+nbsp;</td>=20
+                                </tr>=20
+                               </tbody>=20
+                              </table>=20
+                             </div>=20
+                            </div>=20
+                           </div> </td>=20
+                         </tr>=20
+                         <tr>=20
+                          <td align=3D"center" class=3D"mjml-content-995315=
+6d-63d7-5843-ac73-b834952b0d35 eb-divider" style=3D"background:transparent;=
+font-size:0px;padding:10px 25px;padding-top:15px;padding-right:15px;padding=
+-bottom:15px;padding-left:15px;word-break:break-word;"> <p style=3D"border-=
+top:solid 1px #DADFE1;font-size:1px;margin:0px auto;width:100%;"> </p>=20
+                           <!--[if mso | IE]><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-top:solid 1px #D=
+ADFE1;font-size:1px;margin:0px auto;width:550px;" role=3D"presentation" wid=
+th=3D"550px" ><tr><td style=3D"height:0;line-height:0;"> =C2=A0
+</td></tr></table><![endif]--> </td>=20
+                         </tr>=20
+                        </tbody>=20
+                       </table> </td>=20
+                     </tr>=20
+                    </tbody>=20
+                   </table>=20
+                  </div>=20
+                  <!--[if mso | IE]></td></tr></table><![endif]--> </td>=20
+                </tr>=20
+               </tbody>=20
+              </table>=20
+             </div>=20
+            </div>=20
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" bgcolor=3D"">=20
+             <tbody>=20
+              <tr>=20
+               <td align=3D"center" valign=3D"top" style=3D"height:0px;"></=
+td>=20
+              </tr>=20
+              <tr>=20
+               <td align=3D"center" valign=3D"top">=20
+                <div style=3D"padding-bottom: 5px;color: #8899a6;display: b=
+lock;font-size: 12px;">
+                  Don't want to get emails like this?=20
+                 <a href=3D"https://uparcelyp31.ebtrk6.com/unsubscribe?nid=
+=3D5689248188465152&amp;c=3D5987608317657088&amp;b=3D4894904447926272&amp;e=
+_id=3D5730868963573760" target=3D"_blank" class=3D"eb-unsubscribe-link">Uns=
+ubscribe</a> from our emails=20
+                </div></td>=20
+              </tr>=20
+              <tr>=20
+               <td align=3D"center" valign=3D"top" style=3D" padding-top: 1=
+0px; "> <span style=3D"color:#8899a6;padding: 2px 12px;display: inline-bloc=
+k;font-size: 11px;background: #fff;border:1px solid #f6f6f6;border-radius: =
+15px;"> Sent using <a href=3D"https://uparcelyp31.ebtrk6.com/openurl?lid=3D=
+6448562345082880&amp;nid=3D5689248188465152&amp;c=3D5987608317657088&amp;b=
+=3D4894904447926272&amp;e_id=3D5730868963573760" style=3D"text-decoration:n=
+one" target=3D"_blank">EngageBay</a> </span></td>=20
+              </tr>=20
+              <tr>=20
+               <td align=3D"center" valign=3D"top" style=3D"height:20px;"><=
+/td>=20
+              </tr>=20
+             </tbody>=20
+            </table>=20
+            <!--[if mso | IE]></td></tr></table></td></tr></table><![endif]=
+--> </td>=20
+          </tr>=20
+         </tbody>=20
+        </table>=20
+       </div>=20
+       <!--[if mso | IE]></td></tr></table><![endif]--> </td>=20
+     </tr>=20
+    </tbody>=20
+   </table>=20
+   <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"width:100%;">=20
+    <tbody>=20
+     <tr>=20
+      <td>=20
+       <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:60=
+0px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-lin=
+e-height-rule:exactly;"><![endif]-->=20
+       <div style=3D"margin:0px auto;max-width:600px;">=20
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"width:100%;">=20
+         <tbody>=20
+          <tr>=20
+           <td style=3D"direction:ltr;font-size:0px;padding:0px 0px 0px 0px=
+;text-align:center;">=20
+            <!--[if mso | IE]><table role=3D"presentation" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"eb-section-outlook mjml-s=
+ection-undefined-outlook" width=3D"600px" ><table align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"eb-section-outlook mjml=
+-section-undefined-outlook" role=3D"presentation" style=3D"width:600px;" wi=
+dth=3D"600" bgcolor=3D"transparent" ><tr><td style=3D"line-height:0px;font-=
+size:0px;mso-line-height-rule:exactly;"><![endif]-->=20
+            <div class=3D"eb-section mjml-section-undefined" style=3D"backg=
+round:transparent;background-color:transparent;margin:0px auto;max-width:60=
+0px;">=20
+             <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" role=3D"presentation" style=3D"background:transparent;background=
+-color:transparent;width:100%;">=20
+              <tbody>=20
+               <tr>=20
+                <td style=3D"direction:ltr;font-size:0px;padding:0px 0px 0p=
+x 0px;text-align:center;">=20
+                 <!--[if mso | IE]><table role=3D"presentation" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"mjml-column-undefine=
+d-outlook" style=3D"vertical-align:top;width:600px;" ><![endif]-->=20
+                 <div class=3D"mj-column-per-100 mj-outlook-group-fix mjml-=
+column-undefined" style=3D"font-size:0px;text-align:left;direction:ltr;disp=
+lay:inline-block;vertical-align:top;width:100%;">=20
+                  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" width=3D"100%">=20
+                   <tbody>=20
+                    <tr>=20
+                     <td style=3D"vertical-align:top;padding:0px;">=20
+                      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"" width=3D"100%">=20
+                       <tbody>=20
+                        <tr>=20
+                         <td class=3D"mjml-content-e8a96e86-3572-c1a6-57e9-=
+dc63668febe6" style=3D"background:transparent;font-size:0px;word-break:brea=
+k-word;">=20
+                          <div style=3D"height:50px;line-height:50px;">
+                            =E2=80=8A=20
+                          </div> </td>=20
+                        </tr>=20
+                       </tbody>=20
+                      </table> </td>=20
+                    </tr>=20
+                   </tbody>=20
+                  </table>=20
+                 </div>=20
+                 <!--[if mso | IE]></td></tr></table><![endif]--> </td>=20
+               </tr>=20
+              </tbody>=20
+             </table>=20
+            </div>=20
+            <!--[if mso | IE]></td></tr></table></td></tr></table><![endif]=
+--> </td>=20
+          </tr>=20
+         </tbody>=20
+        </table>=20
+       </div>=20
+       <!--[if mso | IE]></td></tr></table><![endif]--> </td>=20
+     </tr>=20
+    </tbody>=20
+   </table>=20
+  </div> =20
+ </body>
+</html>
+--c7d453df738b6632e803133cbd31ebe57c42938b54e6b79c3e3b0ebed0b5--
+

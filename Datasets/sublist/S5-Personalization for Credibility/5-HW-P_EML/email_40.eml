@@ -1,0 +1,116 @@
+X-GM-THRID: 1804288473376459320
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:ad4:4bcb:0:b0:6b5:f1e5:885c with SMTP id l11csp57489qvw;
+        Thu, 11 Jul 2024 06:12:56 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IFcBCI5WyuITYBWEU9O0RaHaCaw3W7I3EB05jjdvVGN3KVSBWjhPiXCMcH1vhigTUoLQCpN
+X-Received: by 2002:a17:90a:4e4e:b0:2c8:5055:e24f with SMTP id 98e67ed59e1d1-2ca9d7476d3mr3821112a91.2.1720703576404;
+        Thu, 11 Jul 2024 06:12:56 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1720703576; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=G3Jk1kITrx8PFEVrAEdBAYUFFF5Y7uX+5JFo+i4YntV7uOl2iaDnQ1r5LKrjRLGWS+
+         vNWeYjaXUp/kfJ2fkDICE903Qdn0HSQSZSqrT7B1SbwIwtDmGnH/sYS30JDmPWIeZSiU
+         ml3M8jjEao6wOM7Kq0ttgoXCedmKmL37C9lg8MY3bgcdiqYsIDx6WbkbJNxnJlg2SFqO
+         wYkAFGsA/nyhhyeEtvFHyZbb8E+BhssN93WtnSGB3Kn53xZJGhByK5sjmuVbp6piYmMW
+         GT/W11Zc+VLuwsQPN4NGWi0FwTOQ40i0Qi290m8OTHGO18Mz0B2oeZ/GORT0Ihjwhy04
+         2KIg==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:message-id:from:date:subject:to:dkim-signature;
+        bh=5HEJrZPtsikGoEDXsFvkPAkmwOcUHORyqR/K4BpP8o8=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=uGH4IKwMP74fybePFIvuCyic1b/P7yOG6FELVoiA/jFrE9Fxfck7bact84DkHMPFSg
+         +LWa2eH+5HOeJlgAjwmevdb/iwT2u8uapUgRnYSHNwGgaXkWvkghJh05mVDciWF4scN2
+         h5dSSJvKCyVP94IMYDt5I0jUnR6Dvce8b0wI11BVgGmnJY9gYEI67BhbpAjsXuYtFric
+         8NbG3s7Ke+lHL56/ukUk/spjVV0lGQwsfQEJQXo21Lieu3PCbgYrUmRp7qpAx9YdFAoZ
+         1qBxWlrEYiuAQWbBNX2rPrErELnsOIbzisWuB9Bx2YzcBli689FLovQCjNHVfvJcZfLP
+         kZTg==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail1.wpengine.com header.s=mx header.b=bWtuM2pK;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of dhl0045=mail1.wpengine.com@mail1.wpengine.com designates 23.83.223.73 as permitted sender) smtp.mailfrom="dhl0045=mail1.wpengine.com@mail1.wpengine.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail1.wpengine.com
+Return-Path: <dhl0045=mail1.wpengine.com@mail1.wpengine.com>
+Received: from golden.cherry.relay.mailchannels.net (golden.cherry.relay.mailchannels.net. [23.83.223.73])
+        by mx.google.com with ESMTPS id 98e67ed59e1d1-2ca344c3d15si5992894a91.20.2024.07.11.06.12.56
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 11 Jul 2024 06:12:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of dhl0045=mail1.wpengine.com@mail1.wpengine.com designates 23.83.223.73 as permitted sender) client-ip=23.83.223.73;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail1.wpengine.com header.s=mx header.b=bWtuM2pK;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of dhl0045=mail1.wpengine.com@mail1.wpengine.com designates 23.83.223.73 as permitted sender) smtp.mailfrom="dhl0045=mail1.wpengine.com@mail1.wpengine.com";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=mail1.wpengine.com
+X-Sender-Id: wpengine|x-authuser|55687aa823933145bd8b4ea01a506bc149086345
+Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id D575F4C38C8
+	for <dynapapersubmission@gmail.com>; Thu, 11 Jul 2024 13:12:54 +0000 (UTC)
+Received: from pod-141167 (unknown [127.0.0.6])
+	(Authenticated sender: wpengine)
+	by relay.mailchannels.net (Postfix) with ESMTPA id 7049F4C32B9
+	for <dynapapersubmission@gmail.com>; Thu, 11 Jul 2024 13:12:54 +0000 (UTC)
+ARC-Seal: i=1; s=arc-2022; d=mailchannels.net; t=1720703574; a=rsa-sha256;
+	cv=none;
+	b=fg4BfJfqtsLwz1fMoaaIEBCnawdeNmKhJJBmxZiYquVLdxvIVOazKlKTjLIeDtTCBXswwk
+	KshLVDZ9tBCo/YGe49V4uo0HVh7TWdA1y2hbK8xiO705fydtDRSMEJsHoyg6rjQov+ANTb
+	BNMaFj7vlbNwWdPdg/G/bdVC019x14mtbLYJwudi/U7GULYDF6t04oyK7t9U7sizE1zo+z
+	0tyEepuuWiOklTKgrOuqm1G2HgvHWFikr1NocezETAgk4S/Hr+TaWpIMbi6U7YOZBi9tlg
+	MAARV81gOsGct0fX3b0VI6y/D0ivooRVvstWoR8EcCzXoTiwleLDY98oYgU59A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=mailchannels.net;
+	s=arc-2022; t=1720703574;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 dkim-signature; bh=5HEJrZPtsikGoEDXsFvkPAkmwOcUHORyqR/K4BpP8o8=;
+	b=KWkWby3pHPTanlCbQBPkBvdP86/4mBmw0puFRN6wXj08GFsnCQ0KaI3uIfct8r+ee5xn/e
+	FcX4HtUkNAbULEc1fjt5RZA8G71ZSzFxLC4gfEoJp/r3xW6HSiK+ncMLglNwOPclcb4r4y
+	jDaGnuZe4yC6QDNB2PM1ROhL9creDcW8Vnk1tHH3w+CHTRItwyZ3VE8yZApXUpH3hsgqIe
+	ydlcTeDob9SCeq/rW02476Qr55rMPDxW5ppUQhE4y9/WmgpxaZc8LIqKN4zLLMeUptoOIb
+	WwrZKx4yNHigH2cowzr6+GOvZjJVSBfY+F+1q0r9PT8+/JTNclEvcPELnC7JUA==
+ARC-Authentication-Results: i=1;
+	rspamd-6db77b4858-jwkgz;
+	auth=pass smtp.auth=wpengine
+ smtp.mailfrom="dhl0045=mail1.wpengine.com@mail1.wpengine.com"
+X-Sender-Id: wpengine|x-authuser|55687aa823933145bd8b4ea01a506bc149086345
+X-MC-Relay: Good
+X-MailChannels-SenderId: 
+ wpengine|x-authuser|55687aa823933145bd8b4ea01a506bc149086345
+X-MailChannels-Auth-Id: wpengine
+X-Chemical-Arch: 498d650e4ce23968_1720703574756_894888195
+X-MC-Loop-Signature: 1720703574756:2303059402
+X-MC-Ingress-Time: 1720703574756
+Received: from pod-141167 (65.5.66.34.bc.googleusercontent.com [34.66.5.65])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384)
+	by 100.97.133.197 (trex/6.9.2);
+	Thu, 11 Jul 2024 13:12:54 +0000
+Received: from pod-141167 (localhost [127.0.0.1])
+	by pod-141167 (Postfix) with ESMTP id E51993F7ED
+	for <dynapapersubmission@gmail.com>; Thu, 11 Jul 2024 13:12:53 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mail1.wpengine.com;
+	s=mx; t=1720703573; bh=5HEJrZPtsikGoEDXsFvkPAkmwOcUHORyqR/K4BpP8o8=;
+	h=To:Subject:Date:From:From;
+	b=bWtuM2pKDAKXBhKEtXjjotNt4rzrCU4bxT64/kBcKjx33MgQ/8aJpcEdxItP9L2SH
+	 AXtKlpQ/KJztJbQ9jzFTrUm8h/xMAuudbxFgnK8u5HScqiQQVk97ETUyOS+99YyOoD
+	 ola2HIsEHiPiQYWHafnRl76DUJgUrXD+0bzj9aNcvhGPAPXAejdh3SASJSQWLap7Vh
+	 Um0WnqOND+MVH2dCQY3omBeRdXr/UbfruAXJbadjg0XEjFD5oi1jZlK80LfX9epFyL
+	 DBALbZu/LlYpZK6rzp97EywdBacramHxDZG2zkNA4L7EgL1HVhQz2lE6N/G3VkjKR0
+	 NO9v8EvqjpKNA==
+Received: from pod-141167:apache2_74:v0.3.9 (localhost [127.0.0.1])
+	by pod-141167 (Postfix) with SMTP id E0B4F3F9CC
+	for <dynapapersubmission@gmail.com>; Thu, 11 Jul 2024 13:12:52 +0000 (UTC)
+Received: by pod-141167:apache2_74:v0.3.9 (sSMTP sendmail emulation); Thu, 11 Jul 2024 13:12:52 +0000
+X-AuthUser: 55687aa823933145bd8b4ea01a506bc149086345
+To: dynapapersubmission@gmail.com
+Subject: package
+X-PHP-Originating-Script: 33:owl.php
+Date: Thu, 11 Jul 2024 13:12:52 +0000
+From: dhl <dhl0045@mail1.wpengine.com>
+Message-ID: <grT1rIvbQAO3wlY87kdDwnIAxxgbCOHiq4rYVv3cMt8@litstage01.wpengine.com>
+X-Mailer: PHPMailer 6.0.7
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+
+<P align=center><B>Dear Customer, <BR><BR>The package sent to you has been arrive to DHL office .<BR>you should pay (1.65$) on the link below :<BR><BR><BR><A style="TEXT-DECORATION: none; FONT-FAMILY: Tahoma, sans-serif; BACKGROUND: #d40511; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: #ffffff; PADDING-BOTTOM: 6px; FONT-STYLE: normal; PADDING-TOP: 6px; PADDING-LEFT: 20px; MARGIN: 20px 0px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 20px; TEXT-INDENT: 0px; border-radius: 2px" href="https://itsssl.com/K8DU6" target=_blank>Follow My Package</A><BR><BR><BR>14 days before it expires . <BR><BR>Keep an eye on your package's tracking status to know when it's out for delivery<BR><BR>and if there are any issues with payment or customs clearance. <BR>contact DHL customer service.<BR><BR>__________________________________<BR><BR>2024 - all rights reserved</B></P>
+
+

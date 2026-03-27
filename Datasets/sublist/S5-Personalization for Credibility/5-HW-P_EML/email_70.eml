@@ -1,0 +1,136 @@
+X-GM-THRID: 1804378556354075514
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:ad4:4bcb:0:b0:6b5:f1e5:885c with SMTP id l11csp627265qvw;
+        Fri, 12 Jul 2024 06:04:46 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHVQRV9XAKLLGbFZ0xb13zJrDUfoCvDzVxnhfD8qQQ/jTEIVbJHh89jj5cirnU6rQRO1Ysl
+X-Received: by 2002:a05:6a00:4f8c:b0:70b:1d77:7310 with SMTP id d2e1a72fcca58-70b436644b5mr12897902b3a.30.1720789486527;
+        Fri, 12 Jul 2024 06:04:46 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1720789486; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=gb6QGNo7pXwuwJhej/9hI9ZkN8+xvQ+1hQaqiVqpxKTx8mH5OYlMHEw4iHAuFI/qho
+         RVejcGNIy1j1MPcohlvGD/+0drJS0LaKEv/h5g8wTG9QZhtx+fitaLSXFZt5q09yU8i7
+         zwrvD73q8P9rZwCOr9NCQkMKciqL3vS8YLdzNqT6eFqSQP8zrPMo1XN7otlSUssvwZCa
+         uN2+rtkkZxUrbcqboWWlPERx/kdg0jDUPFL043oho/+Pljp1Buc499yOqZUw68TmBmWV
+         3HAB2jBlYYo3NfbDdQbFj4BaXCUmzDI4Ek9kiod0vWRcXTrhX893fQfaMV5bUeX1vWTN
+         8JNQ==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=content-transfer-encoding:mime-version:message-id:from:date:subject
+         :to:dkim-signature;
+        bh=LRKpO6ptGCoHKz4u5bffJQG/YDDPzPYjBhZSwvPfxh8=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=kso49VTA5kEhsxKXWU7XeaIV6rs/4SpbzzXKQ3bmYfLSo2Fqxqoq+HSG1NDybDUv8N
+         90dVOdtICbLmWnq8sJLa8Nq5FfH4IhTlZr38AjnygOdMK+GhjjClHCg4H3nuoul5ah1Z
+         HbawugwNOl87VkgsKClfYvM/AU+8vQJN69pj4VrnOOwpLEJu2WKH0sS4PXdTVh2bFL6D
+         FcZ9QrDZoYZ+H5HDzchoJI3xFFRiobtrigHDI9t717j70Svu0gx92jdk0Wynus1lo7YL
+         K5LFEjK/EjgpUieHWwBuDRhZpX2C7gHTzN+5rlw8mSnRgqhMf8QrxxEOZ3Auvyc+UaMo
+         6k5Q==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@mail1.wpengine.com header.s=mx header.b=FHyGida4;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of nord0098=boatrx.com@mail1.wpengine.com designates 23.83.220.25 as permitted sender) smtp.mailfrom="nord0098=boatrx.com@mail1.wpengine.com"
+Return-Path: <nord0098=boatrx.com@mail1.wpengine.com>
+Received: from bumble.yew.relay.mailchannels.net (bumble.yew.relay.mailchannels.net. [23.83.220.25])
+        by mx.google.com with ESMTPS id d2e1a72fcca58-70b438db8a1si8315146b3a.257.2024.07.12.06.04.45
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Fri, 12 Jul 2024 06:04:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of nord0098=boatrx.com@mail1.wpengine.com designates 23.83.220.25 as permitted sender) client-ip=23.83.220.25;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail1.wpengine.com header.s=mx header.b=FHyGida4;
+       arc=pass (i=1);
+       spf=pass (google.com: domain of nord0098=boatrx.com@mail1.wpengine.com designates 23.83.220.25 as permitted sender) smtp.mailfrom="nord0098=boatrx.com@mail1.wpengine.com"
+X-Sender-Id: wpengine|x-authuser|6a5687af4da541cc90db5b95b3aa807fd21847a2
+Received: from relay.mailchannels.net (localhost [127.0.0.1])
+	by relay.mailchannels.net (Postfix) with ESMTP id 8201E4528D
+	for <dynapapersubmission@gmail.com>; Fri, 12 Jul 2024 13:04:45 +0000 (UTC)
+Received: from pod-140500 (unknown [127.0.0.6])
+	(Authenticated sender: wpengine)
+	by relay.mailchannels.net (Postfix) with ESMTPA id 3FBA145EA1
+	for <dynapapersubmission@gmail.com>; Fri, 12 Jul 2024 13:04:45 +0000 (UTC)
+ARC-Seal: i=1; s=arc-2022; d=mailchannels.net; t=1720789485; a=rsa-sha256;
+	cv=none;
+	b=z4h0R7ryDU4/SDNqN91LbH4iw4g3/gPse1qlRLZ53yD8NZG/27HY3N4Ol+qgPFFCkYN+7d
+	zIC52WKShkqfi96O8JecVPuxuygmSAcnxiifDRsseuSbndjDYw8rCW86GbsSPiARdFOl6u
+	u9dakLfWoGs7oB4bJtR/GUAWGFgZcj6KdX3u/HP092khES6Ha+HssHJkKH5+avBgenqV1c
+	kumZMRIKGu4e/s30o7oGpRR2gP36ONVB0F3moLLdzj50a79RM1oaE3KpHfHIhLg9kboo8s
+	GXjRuXNOo5fn2tYG2O8Vu+jSVEhccl9D4+VOhzPRwBeOo96tKzceHBeLJzwLBg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=mailchannels.net;
+	s=arc-2022; t=1720789485;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:dkim-signature;
+	bh=LRKpO6ptGCoHKz4u5bffJQG/YDDPzPYjBhZSwvPfxh8=;
+	b=nNXRbc+G000sI6QmFeS7gLeiWR5jT9SADGCF8NbuukwCE7pFBKXRXST2H1W0RJ6MTzNS/8
+	7sFpUnYLOp/8YFSdkJnn5G5Dwu1xEuX11hXHxD+VZ+T5Vvpt3z+Oqlk1r8Dgvx5DINm+nz
+	hNMsSBPpeRDMYEdbICgRfgv+lavX5yb3jK9y2xB6VlsOBSWclPeTlsmtMs73tIWZufbofV
+	nVej7kNdmwSYaLLxUu7PPHM2YUEcl4cOvW/qoEuKZwRnWbNAfMCkL2FIPPmABQHnJ1FOVn
+	mad4Eamx6poRJjbpMkmMchAmjoTGq3MqWxomK9LmrSg3qzqkggVcIejnQDT3dA==
+ARC-Authentication-Results: i=1;
+	rspamd-7c4f8cbcf8-zzdc6;
+	auth=pass smtp.auth=wpengine
+ smtp.mailfrom="nord0098=boatrx.com@mail1.wpengine.com"
+X-Sender-Id: wpengine|x-authuser|6a5687af4da541cc90db5b95b3aa807fd21847a2
+X-MC-Relay: Good
+X-MailChannels-SenderId: 
+ wpengine|x-authuser|6a5687af4da541cc90db5b95b3aa807fd21847a2
+X-MailChannels-Auth-Id: wpengine
+X-Squirrel-Continue: 552544f76f8f0a3c_1720789485377_3341285723
+X-MC-Loop-Signature: 1720789485377:2702748792
+X-MC-Ingress-Time: 1720789485377
+Received: from pod-140500 (84.212.193.35.bc.googleusercontent.com
+ [35.193.212.84])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384)
+	by 100.109.88.244 (trex/6.9.2);
+	Fri, 12 Jul 2024 13:04:45 +0000
+Received: from pod-140500 (localhost [127.0.0.1])
+	by pod-140500 (Postfix) with ESMTP id BBB7980F49
+	for <dynapapersubmission@gmail.com>; Fri, 12 Jul 2024 13:04:44 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mail1.wpengine.com;
+	s=mx; t=1720789484; bh=LRKpO6ptGCoHKz4u5bffJQG/YDDPzPYjBhZSwvPfxh8=;
+	h=To:Subject:Date:From:From;
+	b=FHyGida46iYiJzYaXl14MIgSoi7D1JxfIGAehaaNQU/3EuK2K826HBlZ+TVgh2rSO
+	 HPMlYWZTvHwiffd4vRRq0Wvf2SSTi/mdN49kVBkdbcXnaZ1eZIbHgiLRqhp/6hF9R/
+	 EnP/XsYY8Cco6rmlzo41k2fqKS/20ZIRPRI1Ga/XtkysTmh8rVOfIaVyu26WbdyLvf
+	 r+1vKne3nIMXmboJb754Z70dBuXCVaIHQz10Qnqhk6fRhgdQAvfmZ/ylD6NL6LN5oi
+	 89JiO/5JtdX3fiFPtECxY4jTiMi4lSzWnykkQEsI6w3k8lFQ4E14UFZsAFXBujUdCK
+	 5KCa14kjqaLow==
+Received: from pod-140500:apache2_74:v0.3.9 (localhost [127.0.0.1])
+	by pod-140500 (Postfix) with SMTP id B698380F48
+	for <dynapapersubmission@gmail.com>; Fri, 12 Jul 2024 13:04:43 +0000 (UTC)
+Received: by pod-140500:apache2_74:v0.3.9 (sSMTP sendmail emulation); Fri, 12 Jul 2024 13:04:43 +0000
+X-AuthUser: 6a5687af4da541cc90db5b95b3aa807fd21847a2
+To: dynapapersubmission@gmail.com
+Subject: pakke
+X-PHP-Originating-Script: 33:owl.php
+Date: Fri, 12 Jul 2024 13:04:43 +0000
+From: nordpost <nord0098@boatrx.com>
+Message-ID: <m1KzUhlCRXNvx4JlPjM82mG6dTg6cEERArPdTAF7tdQ@boatrx.com>
+X-Mailer: PHPMailer 6.0.7
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PFA+S8OmcmUgYnJ1Z2VyLCA8L1A+DQo8UD5HcnVuZGV0IGRpbiBwYWtrZXN0w7hycmVsc2UgNDVj
+bSwgb2cgdsOmZ3QgMiw2IGtnLCBza2FsIGRlciBvcGtyw6Z2ZXMgZ2VieXJlciBww6UgMjIsMjQg
+a3IuIGbDuHIgbGV2ZXJpbmcgYWYgZGluIHBha2tlOjxCUj48QlI+Rm9yIGF0IHRqZWtrZSA8QSBo
+cmVmPSJodHRwczovL2l0c3NzbC5jb20vWFExVUgiPmtsaWsgaGVyPC9BPjwvUD4NCjxESVYgaWQ9
+dHctdGFyZ2V0LXJtbi1jb250YWluZXIgY2xhc3M9InR3LXRhcmdldC1ybW4gdHctdGEtY29udGFp
+bmVyIEYwYXpIZiB0dy1uZmwiIHN0eWxlPSJPVkVSRkxPVzogaGlkZGVuOyBQT1NJVElPTjogcmVs
+YXRpdmU7IE9VVExJTkUtV0lEVEg6IDBweDsgT1VUTElORS1TVFlMRTogbm9uZTsgT1VUTElORS1D
+T0xPUjogaW52ZXJ0Ij4mbmJzcDs8L0RJVj4NCjxESVYgaWQ9dHctdGFyZ2V0LXJtbi1jb250YWlu
+ZXIgY2xhc3M9InR3LXRhcmdldC1ybW4gdHctdGEtY29udGFpbmVyIEYwYXpIZiB0dy1uZmwiIHN0
+eWxlPSJPVkVSRkxPVzogaGlkZGVuOyBQT1NJVElPTjogcmVsYXRpdmU7IE9VVExJTkUtV0lEVEg6
+IDBweDsgT1VUTElORS1TVFlMRTogbm9uZTsgT1VUTElORS1DT0xPUjogaW52ZXJ0Ij48UFJFIGlk
+PXR3LXRhcmdldC1ybW4gY2xhc3M9InR3LWRhdGEtcGxhY2Vob2xkZXIgdHctdGV4dC1zbWFsbCB0
+dy10YSIgc3R5bGU9IkZPTlQtU0laRTogMTZweDsgT1ZFUkZMT1c6IGhpZGRlbjsgRk9OVC1GQU1J
+TFk6IGluaGVyaXQ7IFdJRFRIOiAyNzBweDsgV0hJVEUtU1BBQ0U6IHByZS13cmFwOyBQT1NJVElP
+TjogcmVsYXRpdmU7IEZPTlQtV0VJR0hUOiBub3JtYWw7IENPTE9SOiBibGFjazsgUEFERElORy1C
+T1RUT006IDBweDsgVEVYVC1BTElHTjogbGVmdDsgUEFERElORy1UT1A6IDBweDsgUEFERElORy1M
+RUZUOiAwcHg7IE1BUkdJTjogMHB4OyBMSU5FLUhFSUdIVDogMjRweDsgUEFERElORy1SSUdIVDog
+MC4xNGVtOyBCQUNLR1JPVU5ELUNPTE9SOiB0cmFuc3BhcmVudDsgYm9yZGVyLWltYWdlOiBub25l
+OyByZXNpemU6IG5vbmU7IG92ZXJmbG93LXdyYXA6IGJyZWFrLXdvcmQiIGRpcj1sdHIgZGF0YS1w
+bGFjZWhvbGRlcj0iIj48U1BBTiBjbGFzcz1ZMklRRmM+PC9TUEFOPjwvUFJFPjwvRElWPg0KDQoN
+Cg==

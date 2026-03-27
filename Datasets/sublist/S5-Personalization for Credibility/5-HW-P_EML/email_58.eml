@@ -1,0 +1,205 @@
+X-GM-THRID: 1815565034068842131
+X-Gmail-Labels: Inbox,Opened,Category Promotions,Starred
+Received: from 326440123436
+	named unknown
+	by gmailapi.google.com
+	with HTTPREST;
+	Tue, 12 Nov 2024 19:29:02 -0500
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:7108:1b37:b0:3d0:8c30:7606 with SMTP id k23csp5698679gdf;
+        Sun, 10 Nov 2024 17:16:50 -0800 (PST)
+X-Forwarded-Encrypted: i=2; AJvYcCUDuiesul0erx8oNV7sjvxc2GgwO2qN5dSy/xBSHL0+2Oj2cT7mXL0it8zAGN39pLkYSYJ+0awprxOJfpna6GJM/14H@gmail.com
+X-Google-Smtp-Source: AGHT+IG5zjTfatswGg99Zny1pBfuf+XVpppXATTvLWcVN1W6Q0PfG1YZjKL6WsY2grsMOy6MN9yz
+X-Received: by 2002:a05:620a:2482:b0:7b1:880c:5805 with SMTP id af79cd13be357-7b331e484a2mr1536744585a.45.1731287810051;
+        Sun, 10 Nov 2024 17:16:50 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1731287810; cv=none;
+        d=google.com; s=arc-20240605;
+        b=BxB3fhSOR7btkFz+8ubN2VrPkuTBKgJXhp61QchHR3HVhlsGWK1JeeXYAotDtg8SOx
+         Pd/ZSP6isJv0tpSmlQoCPBdJyxC/Wos5omziSDWxdcAc/lPud2UmRczNYCeQY2IfM70c
+         lWRbMHVXN+dnhITbjMifyypjG9Zz3sJtznxiuGWeASLDywfN6M795xDp4AKw080VN4Hn
+         BVXN/oN19eGdrk26LGxcqr57myQHkY6ZXk4311otQgNNkMp509kMOnx7sCtVOuK7UDig
+         /HFAF5L7IKgDz5eeFX4oBJLXaNDQOgehoqP/fmEVpGbUkY+SnUR/6kcP5WHhGOamMQQz
+         9obw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=content-transfer-encoding:to:reply-to:mime-version:subject
+         :message-id:from:date:dkim-signature:dkim-signature;
+        bh=39eqaN9eV7LpmPCA9vQk6G4ZiY7Xq2iQ7yJLiktO73M=;
+        fh=rP+TPoCSe7fOZMFx5mIA5KxMbMqi+/jUcUJAU76lFk0=;
+        b=OMub1kPPuYLHhInbMawEjNNwlRURyJgMPHxISU5y6tt5y/7NqtkxqaZUsT8Tb4tlP5
+         /rsiSVWewDmvdxNBaENzAf1Z6+aUi1A0tCXwuVarg6Zw9TYWLaqYB7jwazU+/1Z5fq8R
+         njW4G21M3H9GSw6ehxKTHAwViUu76+Dk6M1spT2yUWz+nDv6d7gn7J7o65SA0BxfeQ50
+         YfrxZnv0HCQ0LYSWax0wWRYsENKqSIGxRE57uitUPzBbDWu1xkCUI78XPmLaQaQDvzqO
+         fGW41HZ5J1e8dv7VW46ZkNC98ynXQRByQRZrtCKBCaVhw510CSP8dJv22qUyHzsxBP6H
+         3gDw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@mail.pipefy.com header.s=s1 header.b=DpBX8qVz;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=mjygDNqT;
+       spf=pass (google.com: domain of bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com designates 168.245.20.111 as permitted sender) smtp.mailfrom="bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com";
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=mail.pipefy.com
+Return-Path: <bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com>
+Received: from xvfrkqsf.outbound-mail.sendgrid.net (xvfrkqsf.outbound-mail.sendgrid.net. [168.245.20.111])
+        by mx.google.com with ESMTPS id af79cd13be357-7b32ac3d842si1027853785a.82.2024.11.10.17.16.49
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Sun, 10 Nov 2024 17:16:50 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com designates 168.245.20.111 as permitted sender) client-ip=168.245.20.111;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mail.pipefy.com header.s=s1 header.b=DpBX8qVz;
+       dkim=pass header.i=@sendgrid.info header.s=smtpapi header.b=mjygDNqT;
+       spf=pass (google.com: domain of bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com designates 168.245.20.111 as permitted sender) smtp.mailfrom="bounces+42078687-d5c8-dynapapersubmission=gmail.com@em719.mail.pipefy.com";
+       dmarc=pass (p=QUARANTINE sp=NONE dis=NONE) header.from=mail.pipefy.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mail.pipefy.com;
+	h=from:subject:mime-version:reply-to:x-feedback-id:to:content-type:
+	content-transfer-encoding:cc:content-type:from:subject:to;
+	s=s1; bh=39eqaN9eV7LpmPCA9vQk6G4ZiY7Xq2iQ7yJLiktO73M=;
+	b=DpBX8qVzFYjYsov5f3ehHxpIIymwz3tBteqc6YY4RmOizuNhFid7JmPbthdAWjoeSTRF
+	P0BiIEuZz/s+GLG+qoPJnoRY95BU3fCMHEo0bIl30sVI973zFfCOUj5h33Vz51MhUm9CPl
+	noEihM0Apnd4m+1Ntcri+8fZT1u0zpw5XYDM3eBdUdXdORpo58qiAsAkaFQgA5Tq6H27W7
+	zdnIVstcowDf+B9G7434p9u8dEnbZ8QxfS/Fnza+z9SZo624FKikWMSwKSQ8mEAOusrU3n
+	N7GGO5d5ZPpoVmE6R3o2bj+tS8NVRgDxH1guN+fApv7OgppcBzju3YphynzTS9tw==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.info;
+	h=from:subject:mime-version:reply-to:x-feedback-id:to:content-type:
+	content-transfer-encoding:cc:content-type:from:subject:to;
+	s=smtpapi; bh=39eqaN9eV7LpmPCA9vQk6G4ZiY7Xq2iQ7yJLiktO73M=;
+	b=mjygDNqTuRTAa2Igr+MEFAc1DsVTmkYXJa37lmWn25dMYJxVe0m/3Bdp8KYe9ydnNdJ7
+	/NEzHgqsSGJbI9KW3+i9VkQYf/HNpWnqpQC24VxBLbLyTxtPmfIeXSFqcNno+XskN7DCEV
+	y5mng8R8hM1c38PO0w6qZpJ8XaYH4gWTc=
+Received: by recvd-6dc67978-llnkm with SMTP id recvd-6dc67978-llnkm-1-67315AF2-24
+	2024-11-11 01:16:34.801206487 +0000 UTC m=+5123995.370906041
+Received: from pipefy.com (unknown)
+	by geopod-ismtpd-20 (SG) with ESMTP
+	id zycmQMe7QLCZostfoysnKw
+	Mon, 11 Nov 2024 01:16:34.759 +0000 (UTC)
+Date: Wed, 13 Nov 2024 00:29:02 +0000 (UTC)
+From: LUNAR <pipe301381881+l2JGs6kZ@mail.pipefy.com>
+Message-ID: <d100965c-8f9e-40bf-a914-9c8d194df516@streak.com>
+Subject: Aktiver dit Lunar-kort
+Mime-Version: 1.0
+Reply-To: pipe301381881+l2jgs6kz@mail.pipefy.com,
+	pipe301381881+l2JGs6kZ@mail.pipefy.com
+X-Feedback-ID: 42078687:SG
+X-SG-EID: =?us-ascii?Q?u001=2ESH2dI1+BoQsmAsHqeWEppD1RruSwm46d9DJa3oKJ8rIl2m6otx84gdTsL?=
+ =?us-ascii?Q?QYzTDIEaCCn3OhMu4=2Ffbvj=2Fn8UPT1=2FzXnyvIvfG?=
+ =?us-ascii?Q?DCHS7rwS2syiCG6ykZNG=2F87kumsj0mqVbK2fXqG?=
+ =?us-ascii?Q?W9U+SQi0aytV4Mbvv5HN9DMvAL9QnFZ+8JjGl6x?=
+ =?us-ascii?Q?e4lBn=2FyebvAdp+fzyAlU1frQUYnMQCS7lU6Fe02?=
+ =?us-ascii?Q?k+PO7C6a6nZ1NvXJT7=2Fa30DQsMeYRKinUYovB50?=
+ =?us-ascii?Q?cyGw3przEMFf3Kkt0vzeQPNxfw=3D=3D?=
+X-SG-ID: =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BpTL9BgbK5wfSJMJGMsmprAIgwlwiDy5d=2FADn?=
+ =?us-ascii?Q?n8sseKhPuamKba=2FrJ1JaqD4AIhXklCfD6v+ytEl?=
+ =?us-ascii?Q?aMdOW+DUaMY=3D?=
+To: lunar.app.personnel@mail.gmail.com
+X-Entity-ID: u001.zfJ/bFRYFvsPizW5pLLsiA==
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Streak-Old-Message-ID: <67315aea2c180_720404768d0@app-core-worker-inbox-email-mailer-59f4488944-pg9rs.mail>
+X-Streak-Old-Date: Mon, 11 Nov 2024 01:16:49 +0000 (UTC)
+
+<!DOCTYPE html>
+<html lang=3D"en">
+  <head>
+    <title>
+       Aktiver dit Lunar-kort
+    </title>
+
+    <style type=3D"text/css">
+      /* Global */
+      * {
+        font-family: helvetica, arial, sans-serif;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      /* Container */
+      .content {
+        color: #293e52;
+        font-size: 14px;
+
+        overflow-y: hidden;
+        margin-bottom: 40px;
+      }
+
+      /* Footer */
+      .footer > span {
+        display: block;
+      }
+
+      .footer > a,
+      span {
+        text-align: center;
+
+        font-weight: 400;
+        letter-spacing: -0.03em;
+      }
+
+      .footer-title,
+      .footer-title > a {
+        color: #4b5863;
+
+        font-size: 13px;
+        line-height: 15px;
+      }
+
+      .footer-sub-title {
+        color: #919ea8;
+        margin-top: 8px;
+
+        font-size: 12px;
+        line-height: 14px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <article class=3D"content"><table class=3D"container" style=3D"float: l=
+eft;">
+<tbody>
+<tr>
+<td class=3D"header">
+<img src=3D"https://internetremovals.com/france/wp-admin/lunar/2704f155-425=
+9-4bfc-b3e1-dd5a5c01b292-1.webp" alt=3D"LUNAR Logo">
+<h1 style=3D"text-align: center;">Dykka v=FFr nyhete fr=E5 LUNAR</h1>
+</td>
+</tr>
+
+<tr style=3D"text-align: center;">
+<td class=3D"content">
+<h2>K=E4ra kunder,</h2>
+<p>Oppdag v=FFre nye produkter og finn n=F8yaktig det som gj=F8r hverdagen =
+lysere! LUNAR tilbyr en eksklusiv serie kvalitetsprodukter til deg.</p>
+<p>F=E5 <strong>15% rabatt</strong> p=E5 ditt neste kj=F8p ved =E5 bruke ko=
+den <strong>LUNAR15</strong>.</p>
+<p style=3D"text-align: center;"><a class=3D"button" href=3D"https://gtly.t=
+o/Q9BmOIGhkX">Utforsk n=E5</a></p>
+<p>Vi takker deg for din tillit, og ser frem til =E5 se deg hos LUNAR!</p>
+<p>Med vennlig hilsen, LUNAR-teamet</p>
+</td>
+</tr>
+
+<tr style=3D"text-align: center;">
+<td class=3D"footer">
+<p>Du mottar denne e-posten fordi du er registrert p=E5 LUNAR sitt nyhetsbr=
+ev.</p>
+<p><a style=3D"color: #3d85c6;text-decoration: none;" href=3D"#">Meld deg a=
+v</a> | <a style=3D"color: #3d85c6;text-decoration: none;" href=3D"https://=
+votre-site.com">Bes=F8k v=E5r nettside</a></p>
+<p>=A9 2024 LUNAR. Alle rettigheter forbeholdt.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</article>
+
+    <section class=3D"footer">
+
+      <span class=3D"footer-sub-title">
+        This email is from =E9-Simples Auditoria Eletr=F4nica powered by Pi=
+pefy.
+      </span>
+    </section>
+  </body>
+</html>
+

@@ -1,0 +1,57 @@
+X-GM-THRID: 1806328443508439415
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:ad4:4e90:0:b0:6b5:f1e5:885c with SMTP id dy16csp230087qvb;
+        Fri, 2 Aug 2024 18:37:23 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IGWpba5yqGfuigFDQF94Upa5+V/VB21SyMk5XLtoHuMH10xvbJ7wc0mO0FMbzzzuWIY/b5B
+X-Received: by 2002:a05:6358:5287:b0:1aa:bc42:eb01 with SMTP id e5c5f4694b2df-1af3ba1e958mr652303055d.7.1722649043520;
+        Fri, 02 Aug 2024 18:37:23 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1722649043; cv=none;
+        d=google.com; s=arc-20160816;
+        b=P3pG2+nJlpKcu3zkWPDSX5QLFP2z7wApNNP4nXzYmapghi2BJ7FOwL46ToiMEMMPeR
+         u8WWTF2w+WxhD+lBnFvvuglvqEBUm9q194YKDub1JhhVrOl9EAuAjwT85ZYjaH+DZAS+
+         8pcASoEBYvItH06x9WkNy3aq3holL9PgFhGc5GpJsV8CxA3dIRuBYaNEpAUfk/yv4XPj
+         zQ55l6cBlxTwDYM+Q2OJ6AAbK//y2JdWbut27zhnQ/HrZ+DCM8te1NqaIqCSed0BgiK6
+         jTBeAYGartZAreRIRslP/s1mllJpKgFPDv0NfxqvXt6z/hhFq+b+pXtSB5sjLoYmnAEc
+         HJgw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:date:content-transfer-encoding:message-id:subject:to
+         :from;
+        bh=aHVMWC0pNuNTkuDaE91JlWVJz1p3v2IEa51MAKkU2Co=;
+        fh=9jKT+T1Uw0A+5dzq86MtnniWAZXbyTpzU841KB0pgzA=;
+        b=gwRRUl9Wd4vUU9kQPZ1OYHMl7p+eWdaclSOH0NRJZ71aHlDo3eZ/GbbWa0fAk84fGQ
+         EpYhLNwRsVDFqvXAZQRzRErnMQvgqmQ/43x26HqUIr2sxBPBk8WZPJZ6HqQv+ey9nwsu
+         y/MwoRWe07vfR6t899NEwaRYwVP+jewFraCUdom+7qt0wJ479BOu7soNFMD5aaAuCtPl
+         wFMPoEYG4AyO36fSQa058hanuPARAs7mCKEi7SXQNwre9mMAOaVi24gdfVcwHRNqMlgf
+         ZZSb5KsY2cpOUEcmHTRGEejbLYJqwN7zKd4KJaEU2/LMwTQTV5kvopXg2Ocn9DQ/0sVR
+         lc2g==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of info@rightscube.co.jp designates 183.90.241.78 as permitted sender) smtp.mailfrom=info@rightscube.co.jp
+Return-Path: <info@rightscube.co.jp>
+Received: from sv7557.xserver.jp (sv7557.xserver.jp. [183.90.241.78])
+        by mx.google.com with ESMTPS id 41be03b00d2f7-7b763562a16si2931022a12.201.2024.08.02.18.37.23
+        for <dynapapersubmission@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 02 Aug 2024 18:37:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of info@rightscube.co.jp designates 183.90.241.78 as permitted sender) client-ip=183.90.241.78;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of info@rightscube.co.jp designates 183.90.241.78 as permitted sender) smtp.mailfrom=info@rightscube.co.jp
+X-Virus-Status: clean(F-Secure/fsigk_smtp/521/virusgw7004.xserver.jp)
+Received: from [127.0.0.1] (unknown [172.93.220.105])
+	by sv7557.xserver.jp (Postfix) with ESMTPSA id E3C62C0EB6213
+	for <dynapapersubmission@gmail.com>; Sat,  3 Aug 2024 10:37:18 +0900 (JST)
+Content-Type: text/html
+From: "myGov." <info@rightscube.co.jp>
+To: dynapapersubmission@gmail.com
+Subject: New Income Statement Review
+Message-ID: <a57e0e6b-b084-82bc-f23d-2ab8b2dd672b@rightscube.co.jp>
+Content-Transfer-Encoding: quoted-printable
+Date: Sat, 03 Aug 2024 01:37:18 +0000
+MIME-Version: 1.0
+
+<p>Your 2023/2024 end-of-year income statement has been finalised by your =
+employer<br /><br />Click here:  ausdepttx.info  to access.<br /><br =
+/>Regards,<br /><br />myGov team.<br /><br />Do not reply to this email.<br=
+ /><br />Message reference: UE015</p>
+

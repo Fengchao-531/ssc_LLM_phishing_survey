@@ -1,0 +1,143 @@
+X-GM-THRID: 1812998791603033059
+X-Gmail-Labels: Inbox,Opened,Category Personal,Starred
+Delivered-To: dynapapersubmission@gmail.com
+Received: by 2002:a05:7108:1c02:b0:3c5:cf85:4db4 with SMTP id a2csp259229gdo;
+        Tue, 15 Oct 2024 09:43:45 -0700 (PDT)
+X-Forwarded-Encrypted: i=2; AJvYcCX6xhRik54mr8uP9z49R1gcpeePD5HNmmUmyJhMHvu2t0hc3VulfouZQRV3WXJi4KfSun0IXKtv2CteKw9SMYJKLhPO@gmail.com
+X-Received: by 2002:a17:903:2301:b0:207:1675:6709 with SMTP id d9443c01a7336-20ca1321ab8mr194793485ad.0.1729010385052;
+        Tue, 15 Oct 2024 09:39:45 -0700 (PDT)
+X-Received: by 2002:a17:903:2301:b0:207:1675:6709 with SMTP id d9443c01a7336-20ca1321ab8mr194792055ad.0.1729010383196;
+        Tue, 15 Oct 2024 09:39:43 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1729010383; cv=none;
+        d=google.com; s=arc-20240605;
+        b=HrUJVlJ9kTJnM/tTTK59Ucj+x2dZ3wWsTqTf3k9IX44K7oYSOBkk587W8xlIAYsxxc
+         tG8URqh+R0HEsuLi+hFcQ3OUpiYDpdnhR74og2PQplyGXqRLT52V07NCWS1lBj2Cd1mi
+         icBo3/ZVd+El/vZwrtoadAV1P+Zwfdvc1Zsua8b7qOj8/dDMLC690gB90wzA0rf899kQ
+         emNJcr79qPeEch06tCX4BXB3XeT0lHCK3i6ibb0bd/Aom8ma3cboSmhXofv9agzRirK0
+         G9gTibTm86PkbiHyUOwtkWxU+2Tqmim0st4QNfQ6S+I1cHWJhn1/lRPDpCac6UZzzv7M
+         s/6w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:auto-submitted:message-id:subject:reply-to:to:date
+         :from:dkim-signature;
+        bh=aBSWoOzzf7O6Ca3FcVd5NgJxS1GArocHN++DeWYf7HA=;
+        fh=OwYuTdYhGmQCABvP3O8k2A5WyOF7LnH3fZzyx7ueMDI=;
+        b=M+qWiCJAt/IA29mPYykFOiAec1hnCQQldP6JaRTYin7c28GhEGYp5uznQuatCQw98+
+         BHnDItPZK+REZ41BaLVmv1ogMpyO350QtOIbxgKwNNCTdMObKtYpSTw6e5EaZTfFqSil
+         uWFSgZnsgWc331rk2srjWFGaZyHQl48LcykG5Ama7Q+ZFAoOK3q90PK5BS2tL9gQHFMJ
+         C3gHurbHpoCUBtmjm+9x8hhug4a98VlwcqErC7int2IYxu/tzTWLyjb62wPC7RBWrg99
+         hjWqr5aAZmzJMcfqTPbFzP6uzDThed1aSJYhstbgi9Gr2Vp0lX678ZNPVn7SFjKLATQh
+         kzcg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@utez-edu-mx.20230601.gappssmtp.com header.s=20230601 header.b=Dtdbna51;
+       spf=softfail (google.com: domain of transitioning 20213tn082@utez.edu.mx does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=20213tn082@utez.edu.mx;
+       dara=pass header.i=@gmail.com
+Return-Path: <20213tn082@utez.edu.mx>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id d9443c01a7336-20d2cabab71sor13045ad.8.2024.10.15.09.39.42
+        for <dynapapersubmission@gmail.com>
+        (Google Transport Security);
+        Tue, 15 Oct 2024 09:39:43 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning 20213tn082@utez.edu.mx does not designate 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@utez-edu-mx.20230601.gappssmtp.com header.s=20230601 header.b=Dtdbna51;
+       spf=softfail (google.com: domain of transitioning 20213tn082@utez.edu.mx does not designate 209.85.220.41 as permitted sender) smtp.mailfrom=20213tn082@utez.edu.mx;
+       dara=pass header.i=@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=utez-edu-mx.20230601.gappssmtp.com; s=20230601; t=1729010382; x=1729615182; dara=google.com;
+        h=mime-version:auto-submitted:message-id:subject:reply-to:to:date
+         :from:from:to:cc:subject:date:message-id:reply-to;
+        bh=aBSWoOzzf7O6Ca3FcVd5NgJxS1GArocHN++DeWYf7HA=;
+        b=Dtdbna51/B/HBwhBqbNsHGxl1xoQmgRsC5LjrBrr5ZgCnqMUOMnGdr3TIz1rTRbzTM
+         ejLWbqEl6xtOUxvPHPxU/fgUU1Kf5KCpCBWEK4u8Rz/8QGUmZIC7I1Eb+tqHK7YRCpMs
+         mXBSfZtDVp3HceZlN1iNQRxIMdHDbhsKH5SSjfIo+7ulAEcwogm1BnsXMqPiRd4XyZiJ
+         id1l+XyVc1N9bD5P3KhhSZ6I0hY2vKEFkuFM/G5unXLRH7voQy14Pjlw1PgHQwcIrz6v
+         KkI5OhSJQYZROVkLlMbtgZ2RIUHHCpMM9k1sOM1A8CyXHfBOECwl47vf80d0BUUItz4B
+         NOHw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1729010382; x=1729615182;
+        h=mime-version:auto-submitted:message-id:subject:reply-to:to:date
+         :from:x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=aBSWoOzzf7O6Ca3FcVd5NgJxS1GArocHN++DeWYf7HA=;
+        b=p4IBRGsIidOitpR4ZyVGuv48v0PqsLeMUoYjI7rd5do5i2xc3MyEmX7igDH1LXn2L8
+         HiBx09uC3FzRvRP5oHEd/HBWLeqR3dkS9zAfhfHVhBdYvgKlZqpqP8zHWmbNfF3OKCGu
+         vk8OZfeBlmWySK5IcGrymuSpA3ot9oE5iz+UZY1VCpVuVaTRoKcFaDxZcQqdllqflyza
+         OIdyGui+vr9UlhOJJpKgFgQ8NHRybCP7tVAc8+04m6FCGIb/TEgtTdFXoBD5E/I952OT
+         qK89qinubXrfCoFowVQUwi5703mwZ5D1348xCkkylHeZo9Zv3Af0sWz4Odmm99hoG256
+         EkDg==
+X-Forwarded-Encrypted: i=1; AJvYcCU5RpMsqoC8/FstnjE2/ACQYLod6ymNh2kpFa/r5pmRZ9ut9BXrgXXd1zbf40Z5xB37NKWXRsd5LIYsudx4sk/XWGsq@gmail.com
+X-Gm-Message-State: AOJu0Yxw309OmSzJ7fsvoRMJOqKWUcgA2ra/rlNTpILvBJoPG39cj4yf
+	phAqLQDXnokleEtxuWWaF/F2YNyLtGCrDWjGdiMldVhpooJbeFU7CoZ2+DsKt6M=
+X-Google-Smtp-Source: AGHT+IFt3s0AJck2rIeOHFlOpwsGqe+93Ov6kvv1W/EMKtq5eFnTY5efuZRnv20QHij5Mx2U0bLivw==
+X-Received: by 2002:a17:902:ea0e:b0:20c:bcf1:c70e with SMTP id d9443c01a7336-20cbcf1f8a1mr150610915ad.13.1729010382479;
+        Tue, 15 Oct 2024 09:39:42 -0700 (PDT)
+Return-Path: <20213tn082@utez.edu.mx>
+Received: from bransontreehouseadventures.com (box5592.bluehost.com. [162.241.218.214])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-20d17f9b065sm14142685ad.74.2024.10.15.09.39.40
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 15 Oct 2024 09:39:42 -0700 (PDT)
+From: "=?UTF-8?B?UG9zdG5vcmQ=?=" <20213tn082@utez.edu.mx>
+X-Google-Original-From: =?UTF-8?B?UG9zdG5vcmQ=?= <info@utez.edu.mx>
+Date: Tue, 15 Oct 2024 10:39:39 -0600
+To: =?UTF-8?B?VW5kaXNjbG9zZWQgUmVjaXBpZW50cw==?= <info@utez.edu.mx>
+Reply-To: =?UTF-8?B?UG9zdG5vcmQ=?= <info@utez.edu.mx>
+Subject: =?UTF-8?B?SHZpcyBkdSBpa2tlIGJldGFsZXIgZ2VieXJlcm5lLCBrYW4gbGV2ZXJpbmdlbiBibGl2ZSBmb3JzaW5rZXQuIDAwMzI3ODEwMA==?=
+Message-ID: <h3lfa2w043kccammxie0@email.com>
+X-Priority: 3
+X-Mailer: V1P3RBOX v1.0-Ref53
+Auto-Submitted: auto-generated
+X-Auto-Response-Suppress: OOF, AutoReply
+X-Abuse: Please report abuse here <mailto:abuse@email.com?c=0760675682>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="b1_qmGBKUsONhJsr815QpsMgxUUoXCMfEZUiZlGT65o"
+
+This is a multi-part message in MIME format.
+
+--b1_qmGBKUsONhJsr815QpsMgxUUoXCMfEZUiZlGT65o
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+S8OmcmUgYnJ1Z2VyLA0KDQpQw6UgZ3J1bmQgYWYgZGluIHBha2tlcyBzdMO4cnJlbHNlICg0NSBj
+bSkgb2cgdsOmZ3QgKDIsNiBrZyksDQoNCnNrYWwgZGVyIG9wa3LDpnZlcyBldCBnZWJ5ciBww6Ug
+MjIsMjQga3IuIGbDuHIgbGV2ZXJpbmcgYWYgZGluIHBha2tlOg0KDQpGb3IgYXQgdGpla2tlLCBi
+ZWRlcyBkdSBrbGlra2UgcMOlIGxpbmtldCBoZXJ1bmRlcjoNCg0KwqBLbGlrIGhlciBmb3IgYXQg
+dGpla2tlDQoNCkJlbcOmcmssIGF0IGJldGFsaW5nIGVyIG7DuGR2ZW5kaWcgZm9yIGF0IGZvcnRz
+w6Z0dGUgcHJvY2Vzc2VuLg0KDQpIdmlzIGR1IGlra2UgYmV0YWxlciBnZWJ5cmV0LCBrYW4gbGV2
+ZXJpbmdlbiBibGl2ZSBmb3JzaW5rZXQuDQoNClZpIHRha2tlciBmb3IgZGluIGZvcnN0w6VlbHNl
+Lg0KDQpNZWQgdmVubGlnIGhpbHNlbiwNCg0KS3VuZGVzZXJ2aWNlDQo=
+
+--b1_qmGBKUsONhJsr815QpsMgxUUoXCMfEZUiZlGT65o
+Content-Type: text/html; charset=UTF-8
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p class="bjaD41XIZm5Q7jFUPVEW"><strong class="gJIS21iZhnr6a1Yj6zoJ">K&aelig;re bruger,</strong></p>
+
+<p class="BQKAqdVOv49Cv9pNYt3N">P&aring; grund af din pakkes st&oslash;rrelse (45 cm) og v&aelig;gt (2,6 kg),</p>
+
+<p class="EaHA6uIcuoMPAKzWwMFk">skal der opkr&aelig;ves et gebyr p&aring; 22,24 kr. f&oslash;r levering af din pakke:</p>
+
+<p class="cKcwfFRiYOsDDS5zpuRc">For at tjekke, bedes du klikke p&aring; linket herunder:</p>
+
+<p class="xnUxPrWsErIRVOFibzta">&nbsp;<a class="OQsnvhnJIwDufom3HXFh" href="https://tr.ee/UWYCZf#4da39cea49ba9439c1ac7c6a1c8ef470"><strong class="kYhTZLFnQl6T0PrtrSeb">Klik her for at tjekke</strong></a></p>
+
+<p class="hHuJSMyFs4w2fcvgz2xD">Bem&aelig;rk, at betaling er n&oslash;dvendig for at forts&aelig;tte processen.</p>
+
+<p class="iXUY6O6mHXZUZUQeClYa">Hvis du ikke betaler gebyret, kan leveringen blive forsinket.</p>
+
+<p class="EjLNJOYrl3IfaeY7nh9n">Vi takker for din forst&aring;else.</p>
+
+<p class="RgYIf131d999k5cB8cId">Med venlig hilsen,</p>
+
+<p class="wVxDihmkO4p8QMRfrOui">Kundeservice</p>
+</body>
+</html>
+
+
+--b1_qmGBKUsONhJsr815QpsMgxUUoXCMfEZUiZlGT65o--
+
+
