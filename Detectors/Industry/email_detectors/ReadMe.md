@@ -7,6 +7,8 @@ The current detector is:
 - `PyRIT-scan-original.py`
 - `PyRIT-scan-blocklist.py`
 - `PyRIT-scan-FT.py`
+- `garak_perspective.py`
+- `run_garak_perspective.sh`
 
 These detector files are Python CLI scripts. You run them from bash with `python ...`.
 
@@ -29,6 +31,104 @@ Use `blocklist` when you want:
 - phishing-oriented detection
 - explicit blocklist hits in `blocklistsMatch`
 - control over the keywords and phrases that should trigger detection
+
+Use `garak_perspective.py` when you want:
+
+- a lightweight text-only detector
+- a numeric spam score from Google Perspective API
+- a phishing-adjacent signal for suspicious unsolicited email text
+
+## Detector: `garak_perspective.py`
+
+`garak_perspective.py` sends text to Perspective API and requests only the `SPAM` attribute.
+
+This detector is useful when you only have plain text and want a simple score-based signal without using Azure Content Safety or PyRIT.
+
+Important limitation:
+
+- this is a `spam` detector, not a dedicated `phishing` classifier
+- it works best as a proxy signal for suspicious unsolicited email text
+- high-quality phishing messages may still receive a low spam score
+
+### Requirements
+
+You need:
+
+- Python
+- `requests`
+- a Perspective API key
+
+Set the key with:
+
+```bash
+export PERSPECTIVE_API_KEY="<your-api-key>"
+```
+
+### How to run
+
+#### 1. Scan one text string
+
+```bash
+python garak_perspective.py --text "Urgent: verify your account immediately at https://bit.ly/example"
+```
+
+#### 2. Scan text from stdin
+
+```bash
+echo "Urgent: verify your account immediately at https://bit.ly/example" | python garak_perspective.py
+```
+
+#### 3. Scan a CSV file
+
+If your CSV has a text column called `text`:
+
+```bash
+python garak_perspective.py \
+  --input-csv ./input.csv \
+  --output-csv ./output.csv \
+  --text-column text
+```
+
+If `--output-csv` is omitted, the script writes:
+
+```text
+<input_filename>.perspective_spam.csv
+```
+
+### Options
+
+- `--language`: language code sent to Perspective API, default `en`
+- `--threshold`: spam threshold for the boolean verdict, default `0.5`
+
+### Output
+
+For single-text mode, the script prints JSON containing:
+
+- `decision.score`: the Perspective `SPAM` score
+- `decision.threshold`: the threshold used for verdicting
+- `decision.is_spam`: `true` if score >= threshold
+- `perspective_result.raw_response`: the full API response
+
+For CSV mode, the script appends:
+
+- `perspective_spam_results_json`
+- `perspective_spam_elapsed_seconds`
+- `perspective_spam_error`
+- `perspective_spam_score`
+- `perspective_spam_is_spam`
+
+### Bash helper
+
+This directory also includes:
+
+- `run_garak_perspective.sh`
+
+You can run it with:
+
+```bash
+chmod +x run_garak_perspective.sh
+./run_garak_perspective.sh
+```
 
 ## Detector: `PyRIT-scan-blocklist.py`
 
