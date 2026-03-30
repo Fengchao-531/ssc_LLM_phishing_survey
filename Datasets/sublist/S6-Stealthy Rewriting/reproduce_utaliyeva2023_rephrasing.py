@@ -22,7 +22,13 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, NamedTuple, Optional, Sequence, Tuple
-from urllib import error, request
+
+try:
+    from openai import APIConnectionError, APIStatusError, OpenAI
+except ImportError:
+    APIConnectionError = None
+    APIStatusError = None
+    OpenAI = None
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 
@@ -147,8 +153,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--temperature",
         type=float,
-        default=None,
-        help="Optional sampling temperature. Omitted by default because the paper does not report it clearly.",
+        default=1.0,
+        help="Sampling temperature. Defaults to 1.0 for higher-diversity rewriting.",
     )
     parser.add_argument(
         "--max-completion-tokens",
@@ -179,6 +185,12 @@ def parse_args() -> argparse.Namespace:
         type=int,
         default=25,
         help="Progress logging interval.",
+    )
+    parser.add_argument(
+        "--save-every",
+        type=int,
+        default=100,
+        help="Write the output CSV every N completed rows as a checkpoint.",
     )
     return parser.parse_args()
 
@@ -265,6 +277,11 @@ class OpenAICompatibleChatClient:
     ) -> None:
         if not api_key:
             raise ValueError("Missing API key. Set OPENAI_API_KEY or pass --api-key.")
+        if OpenAI is None:
+            raise RuntimeError(
+                "The official 'openai' Python package is not installed. "
+                "Install it with: python3 -m pip install openai"
+            )
         self.api_key = api_key
         self.base_url = base_url.rstrip("/")
         self.model = model
@@ -272,6 +289,12 @@ class OpenAICompatibleChatClient:
         self.temperature = temperature
         self.max_completion_tokens = max_completion_tokens
         self.max_retries = max_retries
+        self.client = OpenAI(
+            api_key=self.api_key,
+            base_url=self.base_url,
+            timeout=self.timeout,
+            max_retries=0,
+        )
 
     def complete(self, user_prompt: str) -> Tuple[str, Dict[str, Any]]:
         payload: Dict[str, Any] = {
@@ -281,33 +304,28 @@ class OpenAICompatibleChatClient:
         if self.temperature is not None:
             payload["temperature"] = self.temperature
         if self.max_completion_tokens is not None:
-            payload["max_completion_tokens"] = self.max_completion_tokens
-
-        raw_payload = json.dumps(payload).encode("utf-8")
-        url = f"{self.base_url}/chat/completions"
+            payload["max_tokens"] = self.max_completion_tokens
 
         for attempt in range(1, self.max_retries + 1):
-            req = request.Request(
-                url,
-                data=raw_payload,
-                headers={
-                    "Authorization": f"Bearer {self.api_key}",
-                    "Content-Type": "application/json",
-                },
-                method="POST",
-            )
             try:
-                with request.urlopen(req, timeout=self.timeout) as response:
-                    response_payload = json.loads(response.read().decode("utf-8"))
+                response = self.client.chat.completions.create(**payload)
+                response_payload = (
+                    response.model_dump() if hasattr(response, "model_dump") else dict(response)
+                )
                 return extract_message_text(response_payload), response_payload
-            except error.HTTPError as exc:
-                body = exc.read().decode("utf-8", errors="replace")
-                retryable = exc.code in {408, 409, 425, 429, 500, 502, 503, 504}
-                if attempt >= self.max_retries or not retryable:
-                    raise RuntimeError(f"HTTP {exc.code} from API: {body}") from exc
-            except error.URLError as exc:
-                if attempt >= self.max_retries:
-                    raise RuntimeError(f"Network error while calling API: {exc}") from exc
+            except Exception as exc:
+                if APIStatusError is not None and isinstance(exc, APIStatusError):
+                    status_code = getattr(exc, "status_code", None)
+                    response_obj = getattr(exc, "response", None)
+                    body = getattr(response_obj, "text", None) if response_obj is not None else None
+                    retryable = status_code in {408, 409, 425, 429, 500, 502, 503, 504}
+                    if attempt >= self.max_retries or not retryable:
+                        raise RuntimeError("HTTP {} from API: {}".format(status_code, body)) from exc
+                elif APIConnectionError is not None and isinstance(exc, APIConnectionError):
+                    if attempt >= self.max_retries:
+                        raise RuntimeError("Network error while calling API: {}".format(exc)) from exc
+                else:
+                    raise
 
             time.sleep(min(2**attempt, 10))
 
@@ -348,6 +366,15 @@ def build_output_dir(output_dir_arg: str) -> Path:
 def build_output_source(original_source: str, prompt_kind: str, rounds: int) -> str:
     base = (original_source or "unknown").strip() or "unknown"
     return f"{base}|utaliyeva2023:{prompt_kind}:r{rounds}"
+
+
+def build_output_csv_name(model: str) -> str:
+    model_norm = (model or "").strip().lower()
+    if model_norm.startswith("gpt-3.5"):
+        return "LLM-GPT3.5.csv"
+    slug = re.sub(r"[^A-Za-z0-9.]+", "-", (model or "output").strip()).strip("-")
+    slug = slug or "output"
+    return "LLM-{}.csv".format(slug)
 
 
 def write_csv(path: Path, rows: Sequence[RowResult]) -> None:
@@ -413,7 +440,7 @@ def main() -> int:
 
     input_path = Path(args.input).resolve()
     output_dir = build_output_dir(args.output_dir)
-    rewritten_csv_path = output_dir / "rewritten.csv"
+    rewritten_csv_path = output_dir / build_output_csv_name(args.model)
     calls_jsonl_path = output_dir / "calls.jsonl"
     manifest_path = output_dir / "run_manifest.json"
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -448,6 +475,7 @@ def main() -> int:
 
     results: List[RowResult] = []
     selected_prompt_kinds = prompt_kinds_from_arg(args.prompt_kind)
+    completed_results = 0
 
     for selected_index, (row_number, row) in enumerate(selected_rows, start=1):
         original_subject = normalize_text(row.get(args.subject_column, ""))
@@ -477,6 +505,13 @@ def main() -> int:
                         skip_reason=f"token_estimate>{args.historical_token_limit}",
                     )
                 )
+                completed_results += 1
+                if args.save_every > 0 and completed_results % args.save_every == 0:
+                    write_csv(rewritten_csv_path, results)
+                    print(
+                        f"[checkpoint] saved {completed_results} rows to {rewritten_csv_path}",
+                        file=sys.stderr,
+                    )
                 continue
 
             current_email = seed_email
@@ -528,6 +563,13 @@ def main() -> int:
                     skip_reason="",
                 )
             )
+            completed_results += 1
+            if args.save_every > 0 and completed_results % args.save_every == 0:
+                write_csv(rewritten_csv_path, results)
+                print(
+                    f"[checkpoint] saved {completed_results} rows to {rewritten_csv_path}",
+                    file=sys.stderr,
+                )
 
         if args.print_every > 0 and selected_index % args.print_every == 0:
             print(
@@ -547,6 +589,7 @@ def main() -> int:
         },
         "input_path": str(input_path),
         "output_dir": str(output_dir),
+        "output_csv": str(rewritten_csv_path),
         "selected_rows": len(selected_rows),
         "result_rows": len(results),
         "prompt_kinds": selected_prompt_kinds,
@@ -556,6 +599,7 @@ def main() -> int:
         "historical_token_limit": args.historical_token_limit,
         "token_limit_skip_enabled": not args.disable_token_limit_skip,
         "temperature": args.temperature,
+        "save_every": args.save_every,
         "max_completion_tokens": args.max_completion_tokens,
         "notes": [
             "The large-scale paper prompt was 'Rewrite the following email to be less spammy: \"email text\"'.",
