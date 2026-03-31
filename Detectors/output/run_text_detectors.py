@@ -48,6 +48,7 @@ ALL_DETECTORS = [
     "email_phishing_detection_v3",
     "pyrit_original",
     "pyrit_blocklist",
+    "oopspam",
 ]
 
 
@@ -148,6 +149,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--to-address", default="recipient@example.com")
     parser.add_argument("--backend-root", default="http://127.0.0.1:5000")
     parser.add_argument("--openrouter-api-key", default=os.environ.get("OPENROUTER_API_KEY", ""))
+    parser.add_argument("--oopspam-api-key", default=os.environ.get("OOPSPAM_API_KEY", ""))
+    parser.add_argument("--oopspam-threshold", type=int, default=3)
+    parser.add_argument("--oopspam-sender-ip", default=os.environ.get("OOPSPAM_SENDER_IP", "127.0.0.1"))
+    parser.add_argument("--oopspam-email", default=os.environ.get("OOPSPAM_EMAIL", "testing@example.com"))
+    parser.add_argument("--oopspam-source", default=os.environ.get("OOPSPAM_SOURCE", "benchmark.local"))
     parser.add_argument(
         "--fail-fast",
         action="store_true",
@@ -417,6 +423,23 @@ def parse_pyrit_blocklist(summary_csv: Path) -> dict[int, dict[str, Any]]:
     return parsed
 
 
+def parse_oopspam(summary_csv: Path) -> dict[int, dict[str, Any]]:
+    parsed: dict[int, dict[str, Any]] = {}
+    with summary_csv.open("r", encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle):
+            row_id = int(row["row_number"])
+            parsed[row_id] = {
+                "oopspam_status": "ok" if not row.get("oopspam_error", "") else "row_error",
+                "oopspam_prediction": normalize_binary_prediction(row.get("oopspam_prediction")),
+                "oopspam_score": row.get("oopspam_score", ""),
+                "oopspam_is_content_spam": row.get("oopspam_is_content_spam", ""),
+                "oopspam_number_of_spam_words": row.get("oopspam_number_of_spam_words", ""),
+                "oopspam_spam_words": row.get("oopspam_spam_words", ""),
+                "oopspam_error": row.get("oopspam_error", ""),
+            }
+    return parsed
+
+
 def detector_fieldnames(detector_name: str) -> list[str]:
     mapping = {
         "llm_guard": [
@@ -457,6 +480,15 @@ def detector_fieldnames(detector_name: str) -> list[str]:
             "pyrit_blocklist_prediction",
             "pyrit_blocklist_match_count",
             "pyrit_blocklist_error",
+        ],
+        "oopspam": [
+            "oopspam_status",
+            "oopspam_prediction",
+            "oopspam_score",
+            "oopspam_is_content_spam",
+            "oopspam_number_of_spam_words",
+            "oopspam_spam_words",
+            "oopspam_error",
         ],
     }
     return mapping[detector_name]
@@ -605,6 +637,35 @@ def build_detector_command(
         ]
         return command, EMAIL_DETECTORS_DIR, output_csv, {}
 
+    if detector_name == "oopspam":
+        output_csv = summary_dir / "oopspam_summary.csv"
+        command = [
+            args.python_bin,
+            str(EMAIL_DETECTORS_DIR / "oopspam.py"),
+            "--input-csv",
+            str(chunk_input_csv),
+            "--subject-column",
+            args.subject_column,
+            "--body-column",
+            args.body_column,
+            "--sample-size",
+            str(chunk_size),
+            "--output-dir",
+            str(detector_dir),
+            "--threshold",
+            str(args.oopspam_threshold),
+            "--sender-ip",
+            args.oopspam_sender_ip,
+            "--email",
+            args.oopspam_email,
+            "--source",
+            args.oopspam_source,
+        ]
+        env_overrides = {}
+        if args.oopspam_api_key:
+            env_overrides["OOPSPAM_API_KEY"] = args.oopspam_api_key
+        return command, EMAIL_DETECTORS_DIR, output_csv, env_overrides
+
     raise SystemExit(f"Unsupported detector: {detector_name}")
 
 
@@ -619,6 +680,8 @@ def parse_detector_output(detector_name: str, summary_csv: Path) -> dict[int, di
         return parse_pyrit_original(summary_csv)
     if detector_name == "pyrit_blocklist":
         return parse_pyrit_blocklist(summary_csv)
+    if detector_name == "oopspam":
+        return parse_oopspam(summary_csv)
     raise SystemExit(f"Unsupported detector parser: {detector_name}")
 
 

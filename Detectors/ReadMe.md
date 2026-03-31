@@ -45,10 +45,23 @@ Notes:
 
 - default detectors are the currently benchmark-verified text detectors
 - the queue script now includes both PyRIT detectors: `pyrit_original` and `pyrit_blocklist`
+- `oopspam` is available in the unified runner, but is not part of the default detector list because it makes paid external API calls
 - `pyrit_ft` is intentionally not part of this unified pipeline
 - `garak` is intentionally not part of this unified pipeline
 - the top-level output only keeps two buckets: `LLM-result` and `HW-result`
 - `LLM-result` and `HW-result` are intended to contain CSV files only
 - `Detectors/output/` root holds the runner scripts; the CSV data/results stay inside `LLM-result` and `HW-result`
 - for the current phase, build and run `LLM-result` first; keep `HW-result` empty until the HW data is ready
-- `source Detectors/load_detector_env.sh` now loads both `OPENROUTER_API_KEY` and the Azure Content Safety variables used by the PyRIT detectors
+- `source Detectors/load_detector_env.sh` now loads `OPENROUTER_API_KEY`, the Azure Content Safety variables used by the PyRIT detectors, and the optional OOPSpam environment variables
+
+OOPSpam example:
+
+```bash
+export OOPSPAM_API_KEY="your-oopspam-key"
+
+python Detectors/output/run_text_detectors.py \
+  --input-csv Detectors/output/LLM-result/S1.csv \
+  --stage-name S1 \
+  --checkpoint-every 20 \
+  --detectors oopspam
+```

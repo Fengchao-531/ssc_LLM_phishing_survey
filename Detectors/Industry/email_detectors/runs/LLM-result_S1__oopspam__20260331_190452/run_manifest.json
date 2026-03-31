@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-03-31T08:04:53.993675Z",
+  "input_mode": "csv",
+  "input_csv": "Detectors/output/LLM-result/S1.csv",
+  "dataset_name": "LLM-result_S1",
+  "model_name": "oopspam",
+  "sample_size": 5,
+  "output_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/runs/LLM-result_S1__oopspam__20260331_190452/summary/oopspam_summary.csv",
+  "output_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/runs/LLM-result_S1__oopspam__20260331_190452",
+  "summary_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/runs/LLM-result_S1__oopspam__20260331_190452/summary",
+  "api_url": "https://api.oopspam.com/v1/spamdetection",
+  "threshold": 3,
+  "sender_ip": "127.0.0.1",
+  "email": "testing@example.com",
+  "source": "benchmark.local",
+  "saved_artifacts": [
+    "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/runs/LLM-result_S1__oopspam__20260331_190452/run_manifest.json",
+    "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/runs/LLM-result_S1__oopspam__20260331_190452/summary/oopspam_summary.csv"
+  ]
+}

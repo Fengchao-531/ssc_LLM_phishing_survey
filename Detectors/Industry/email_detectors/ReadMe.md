@@ -56,12 +56,14 @@ Recommended output naming:
 | `PyRIT-scan-original.py` | CSV text | CLI confirmed, but no benchmark output saved yet | `python PyRIT-scan-original.py --help` works |
 | `PyRIT-scan-blocklist.py` | CSV text | CLI confirmed, but no benchmark output saved yet | `python PyRIT-scan-blocklist.py --help` works |
 | `PyRIT-scan-FT.py` | train/status/detect | CLI confirmed, but no training or detection artifact saved yet | `python PyRIT-scan-FT.py --help` works |
+| `oopspam.py` | CSV text | integrated wrapper for OOPSpam REST API; requires `OOPSPAM_API_KEY` | local integration added on 2026-03-31 |
 | `garak_perspective.py` | CSV text | not currently runnable from this folder | `run_garak_perspective.sh` exists, but `garak_perspective.py` is missing |
 
 Practical takeaway:
 
 - Fully confirmed for immediate benchmarking: `llm_guard.py`, `Phishing-Email-Agent.py`, `email-phishing-detection_V3.py`
 - Present but not benchmark-verified yet: `PyRIT-scan-original.py`, `PyRIT-scan-blocklist.py`, `PyRIT-scan-FT.py`
+- External paid API, integrated but not benchmark-verified yet: `oopspam.py`
 - Currently blocked: `garak_perspective.py`
 
 ### 4. Detector x dataset matrix
@@ -107,6 +109,7 @@ The detector scripts currently in this folder include:
 - `PyRIT-scan-original.py`
 - `PyRIT-scan-blocklist.py`
 - `PyRIT-scan-FT.py`
+- `oopspam.py`
 - `llm_guard.py`
 - `open-source-git/Phishing-Email-Agent.py`
 - `open-source-git/email-phishing-detection_V3.py`
