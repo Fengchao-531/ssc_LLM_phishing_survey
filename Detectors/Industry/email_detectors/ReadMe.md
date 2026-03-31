@@ -2,13 +2,117 @@
 
 This directory contains detector scripts for email-oriented content scanning.
 
-The current detector is:
+## Experiment Progress (2026-03-31)
+
+This section is the working log for the current text-detection benchmark.
+
+Current benchmark rule:
+
+- For text detection, benign and phishing data should be merged within the same stage and source family (`LLM` or `HW`).
+- The merged rows should be shuffled before detector runs.
+- Labels stay unchanged: `0 = benign`, `1 = phishing`.
+- Counts below are true CSV record counts, not `wc -l` line counts, because many email bodies contain embedded newlines.
+
+### 1. Processed datasets currently ready
+
+| Stage | Family | Benign | Phishing | Mixed total | Current state |
+|---|---:|---:|---:|---:|---|
+| S1-Basic Instruction | LLM | 2000 | 673 | 2673 | ready for mixed text detection |
+| S1-Basic Instruction | HW | - | - | - | not prepared |
+| S2-Role-Framed Prompting | LLM | 998 | 997 | 1995 | ready for mixed text detection |
+| S2-Role-Framed Prompting | HW | 726 | 504 | 1230 | ready for mixed text detection |
+| S3-Multi-turn Task Decomposition | LLM/HW | - | - | - | no processed detector input in this folder yet |
+| S4-Scenarios-driven Adaptation | LLM | 5506 | 11743 | 17249 | ready for mixed text detection |
+| S4-Scenarios-driven Adaptation | HW | 2639 | 1198 | 3837 | ready for mixed text detection |
+| S5-Personalization for Credibility | LLM | 0 | 1228 | 1228 | phishing-only, not mix-ready yet |
+| S5-Personalization for Credibility | HW-EML | 0 | 70 files | 70 files | phishing-only `.eml`, not mix-ready yet |
+| S6-Stealthy Rewriting | test.csv | 0 | 20 | 20 | test-only, not main benchmark set |
+
+### 2. Mixed datasets that should be built first
+
+These are the five main text-detection combinations that are already supported by the processed sublists:
+
+- `S1 + LLM`: `LLM-B.csv + LLM-P.csv -> 2673`
+- `S2 + LLM`: `LLM-B.csv + LLM-P.csv -> 1995`
+- `S2 + HW`: `HW-B.csv + HW-P.csv -> 1230`
+- `S4 + LLM`: `LLM-B.csv + LLM-P.csv -> 17249`
+- `S4 + HW`: `HW-B.csv + HW-P.csv -> 3837`
+
+Recommended output naming:
+
+- `S1-Basic Instruction/LLM-mixed.csv`
+- `S2-Role-Framed Prompting/LLM-mixed.csv`
+- `S2-Role-Framed Prompting/HW-mixed.csv`
+- `S4-Scenarios-driven Adaptation/LLM-mixed.csv`
+- `S4-Scenarios-driven Adaptation/HW-mixed.csv`
+
+### 3. Detector status
+
+| Detector | Input mode | Status | Evidence |
+|---|---|---|---|
+| `llm_guard.py` | CSV text | confirmed runnable and already produced outputs | `runs/S5-Personalization_for_Credibility_LLM-P__llm-guard__20260331_125956/` and `...130500/` |
+| `open-source-git/Phishing-Email-Agent.py` | CSV text | confirmed runnable and already produced outputs | `open-source-git/runs/S5-Personalization_for_Credibility_LLM-P__Phishing-Email-Agent__20260331_121859/` |
+| `open-source-git/email-phishing-detection_V3.py` | `.eml` or CSV text | confirmed runnable and already produced outputs | `open-source-git/runs/5-HW-P_EML__email-phishing-detection_V3__20260331_121613/` |
+| `PyRIT-scan-original.py` | CSV text | CLI confirmed, but no benchmark output saved yet | `python PyRIT-scan-original.py --help` works |
+| `PyRIT-scan-blocklist.py` | CSV text | CLI confirmed, but no benchmark output saved yet | `python PyRIT-scan-blocklist.py --help` works |
+| `PyRIT-scan-FT.py` | train/status/detect | CLI confirmed, but no training or detection artifact saved yet | `python PyRIT-scan-FT.py --help` works |
+| `garak_perspective.py` | CSV text | not currently runnable from this folder | `run_garak_perspective.sh` exists, but `garak_perspective.py` is missing |
+
+Practical takeaway:
+
+- Fully confirmed for immediate benchmarking: `llm_guard.py`, `Phishing-Email-Agent.py`, `email-phishing-detection_V3.py`
+- Present but not benchmark-verified yet: `PyRIT-scan-original.py`, `PyRIT-scan-blocklist.py`, `PyRIT-scan-FT.py`
+- Currently blocked: `garak_perspective.py`
+
+### 4. Detector x dataset matrix
+
+Legend:
+
+- `Done-pilot`: already run at least once, but not yet as a full mixed benchmark
+- `Pending`: should be run next
+- `N/A`: current input format does not match directly
+- `Optional`: available for debugging only, not part of the main benchmark
+
+| Dataset target | Size | llm_guard | Phishing-Email-Agent | email-phishing-detection_V3 | PyRIT-original | PyRIT-blocklist | PyRIT-FT |
+|---|---:|---|---|---|---|---|---|
+| S1-LLM-mixed | 2673 | Pending | Pending | Pending | Pending | Pending | Pending |
+| S2-LLM-mixed | 1995 | Pending | Pending | Pending | Pending | Pending | Pending |
+| S2-HW-mixed | 1230 | Pending | Pending | Pending | Pending | Pending | Pending |
+| S4-LLM-mixed | 17249 | Pending | Pending | Pending | Pending | Pending | Pending |
+| S4-HW-mixed | 3837 | Pending | Pending | Pending | Pending | Pending | Pending |
+| S5-LLM-P only | 1228 | Done-pilot | Done-pilot | Pending | Pending | Pending | Pending |
+| S5-HW-P_EML only | 70 files | N/A | N/A | Done-pilot | N/A | N/A | N/A |
+| S6-test.csv only | 20 | Optional | Optional | Optional | Optional | Optional | Optional |
+
+### 5. Runs already completed
+
+| Time | Dataset | Detector | Sample size | Status |
+|---|---|---|---:|---|
+| 2026-03-31 12:16 | `S5/5-HW-P_EML` | `email-phishing-detection_V3` | 1 | completed |
+| 2026-03-31 12:18 | `S5/LLM-P.csv` | `Phishing-Email-Agent` | 20 | completed |
+| 2026-03-31 12:59 | `S5/LLM-P.csv` | `llm_guard` | 1 | completed |
+| 2026-03-31 13:05 | `S5/LLM-P.csv` | `llm_guard` | 1 | completed |
+
+Notes:
+
+- `runs/S5-Personalization_for_Credibility_LLM-P__llm-guard__20260331_125925/` exists but has no saved summary and can be treated as an incomplete/empty attempt.
+- No full mixed benign+phishing benchmark has been completed yet.
+- The immediate next step is to generate the five mixed CSVs listed above and then run the confirmed detectors on them.
+
+The detector scripts currently in this folder include:
 
 - `PyRIT-scan-original.py`
 - `PyRIT-scan-blocklist.py`
 - `PyRIT-scan-FT.py`
-- `garak_perspective.py`
-- `run_garak_perspective.sh`
+- `llm_guard.py`
+- `open-source-git/Phishing-Email-Agent.py`
+- `open-source-git/email-phishing-detection_V3.py`
+- `open-source-git/Phishing-Email-Agent.sh`
+- `open-source-git/email-phishing-detection_V3.sh`
+- `run_garak_perspective.sh` (helper exists, target Python script currently missing)
+- `run_llm_guard.sh`
+- `run_pyrit_scan.sh`
+- `run_pyrit_scan_blocklist.sh`
 
 These detector files are Python CLI scripts. You run them from bash with `python ...`.
 
@@ -32,11 +136,17 @@ Use `blocklist` when you want:
 - explicit blocklist hits in `blocklistsMatch`
 - control over the keywords and phrases that should trigger detection
 
-Use `garak_perspective.py` when you want:
+If `garak_perspective.py` is restored later, use it when you want:
 
 - a lightweight text-only detector
 - a numeric spam score from Google Perspective API
 - a phishing-adjacent signal for suspicious unsolicited email text
+
+Use `email-phishing-detection_V3.py` when you want:
+
+- the official `hithamO/email-phishing-detection_V3` detector workflow
+- `.eml` files from the processed sublist folders
+- a CSV export that records subject/body plus the upstream detector outputs
 
 ## Detector: `garak_perspective.py`
 
@@ -128,6 +238,103 @@ You can run it with:
 ```bash
 chmod +x run_garak_perspective.sh
 ./run_garak_perspective.sh
+```
+
+## Detector: `email-phishing-detection_V3.py`
+
+### What it does
+
+`email-phishing-detection_V3.py` is a thin batch wrapper around the public GitHub project `hithamO/email-phishing-detection_V3`.
+
+The upstream project already expects `.eml` and `.msg` files. This wrapper follows that official flow and adds only the benchmark-side batching:
+
+- it selects `.eml` files from a folder
+- it calls the upstream `main.py -f <email> -o <json>` detector for each file
+- it exports a CSV containing the email text and the detector outputs
+- it saves the raw upstream JSON and console log for every processed email
+
+### Requirements
+
+You need:
+
+- Python 3
+
+You will typically want the upstream dependencies available in the Python environment used to run the official detector.
+
+### How to run
+
+#### 1. Run the default 20-email sample
+
+```bash
+python3 email-phishing-detection_V3.py
+```
+
+This defaults to the processed sublist EML folder:
+
+```text
+Datasets/sublist/S5-Personalization for Credibility/5-HW-P_EML
+```
+
+#### 2. Choose a different EML folder and sample size
+
+```bash
+python3 email-phishing-detection_V3.py \
+  --eml-dir ./5-HW-P_EML \
+  --sample-size 20 \
+  --output-dir ./runs/email-phishing-detection_V3_test
+```
+
+#### 3. Override the Python interpreter used for the upstream detector
+
+```bash
+python3 email-phishing-detection_V3.py \
+  --python-bin /path/to/python \
+  --sample-size 20
+```
+
+If `--output-dir` is omitted, the script writes into:
+
+```text
+Detectors/Industry/email_detectors/runs/email-phishing-detection_V3_<timestamp>/
+```
+
+### Options
+
+- `--eml-dir`: folder containing `.eml` files
+- `--sample-size`: number of `.eml` files to test, default `20`
+- `--repo-dir`: local clone path for the upstream repo
+- `--python-bin`: Python interpreter used for upstream `main.py`
+- `--output-dir`: where to write CSV, JSON, logs, and manifest
+
+### Output
+
+The wrapper writes:
+
+- `email-phishing-detection_V3_sample.csv`
+- `run_manifest.json`
+- `detector_json/*.json`
+- `detector_logs/*.log`
+
+The CSV records:
+
+- source email path and filename
+- subject and extracted body text
+- upstream detector status and duration
+- suspicious indicator counts from headers/body/attachments
+- a simple summary label derived from the upstream output
+- paths to the saved upstream JSON and detector log
+
+### Bash helper
+
+This directory also includes:
+
+- `run_email-phishing-detection_V3.sh`
+
+You can run it with:
+
+```bash
+chmod +x run_email-phishing-detection_V3.sh
+./run_email-phishing-detection_V3.sh
 ```
 
 ## Detector: `PyRIT-scan-blocklist.py`

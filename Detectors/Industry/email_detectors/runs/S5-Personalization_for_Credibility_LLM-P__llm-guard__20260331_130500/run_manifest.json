@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-03-31T02:02:03.345920Z",
+  "python_bin": "/scratch3/che489/Ha/.conda/envs/FC-W2-gpu-p39/bin/python",
+  "input_mode": "csv",
+  "input_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S5-Personalization for Credibility/LLM-P.csv",
+  "dataset_name": "S5-Personalization_for_Credibility_LLM-P",
+  "model_name": "llm-guard",
+  "sample_size": 1,
+  "output_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/runs/S5-Personalization_for_Credibility_LLM-P__llm-guard__20260331_130500/summary/llm_guard_summary.csv",
+  "output_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/runs/S5-Personalization_for_Credibility_LLM-P__llm-guard__20260331_130500",
+  "summary_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/runs/S5-Personalization_for_Credibility_LLM-P__llm-guard__20260331_130500/summary",
+  "scanner_config": {
+    "malicious_urls_threshold": 0.7,
+    "ban_substrings": [
+      "verify your account",
+      "click the link",
+      "confirm your identity"
+    ],
+    "sensitive_entity_types": [
+      "PERSON",
+      "EMAIL"
+    ]
+  },
+  "saved_artifacts": [
+    "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/runs/S5-Personalization_for_Credibility_LLM-P__llm-guard__20260331_130500/run_manifest.json",
+    "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/runs/S5-Personalization_for_Credibility_LLM-P__llm-guard__20260331_130500/summary/llm_guard_summary.csv"
+  ]
+}
