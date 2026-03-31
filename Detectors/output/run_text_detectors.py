@@ -121,6 +121,12 @@ def parse_args() -> argparse.Namespace:
         help="Number of rows to run. Use 0 for all rows. Default: 0",
     )
     parser.add_argument(
+        "--checkpoint-every",
+        type=int,
+        default=100,
+        help="Write back combined results after every N rows per detector. Default: 100",
+    )
+    parser.add_argument(
         "--result-group",
         choices=RESULT_GROUPS,
         default=None,
@@ -231,6 +237,18 @@ def write_text_projection_csv(
             record = {name: row.get(name, "") for name in original_fieldnames}
             record["text"] = row.get("_combined_text", "")
             writer.writerow(record)
+
+
+def write_original_csv(
+    rows: list[dict[str, Any]],
+    original_fieldnames: list[str],
+    out_path: Path,
+) -> None:
+    with out_path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=original_fieldnames)
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({name: row.get(name, "") for name in original_fieldnames})
 
 
 def write_json(path: Path, payload: dict[str, Any]) -> None:
@@ -451,18 +469,31 @@ def empty_detector_values(detector_name: str, status: str) -> dict[str, Any]:
     return values
 
 
-def append_detector_results(
+def initialize_detector_status(
     combined_rows: list[dict[str, Any]],
     detector_name: str,
-    parsed_rows: dict[int, dict[str, Any]] | None,
-    run_status: str,
+    status: str,
 ) -> None:
+    status_key = detector_fieldnames(detector_name)[0]
     for row in combined_rows:
-        row_id = int(row["benchmark_row_number"])
-        if parsed_rows and row_id in parsed_rows:
-            row.update(parsed_rows[row_id])
+        if row.get(status_key, "") == "":
+            row.update(empty_detector_values(detector_name, status))
+
+
+def apply_chunk_results(
+    combined_rows: list[dict[str, Any]],
+    detector_name: str,
+    start_index: int,
+    chunk_size: int,
+    parsed_rows: dict[int, dict[str, Any]] | None,
+    fallback_status: str,
+) -> None:
+    for local_index in range(1, chunk_size + 1):
+        global_row = combined_rows[start_index + local_index - 1]
+        if parsed_rows and local_index in parsed_rows:
+            global_row.update(parsed_rows[local_index])
         else:
-            row.update(empty_detector_values(detector_name, run_status))
+            global_row.update(empty_detector_values(detector_name, fallback_status))
 
 
 def build_detector_command(
@@ -470,8 +501,9 @@ def build_detector_command(
     *,
     args: argparse.Namespace,
     detector_dir: Path,
-    text_projection_csv: Path,
-    effective_sample_size: int,
+    chunk_input_csv: Path,
+    chunk_text_projection_csv: Path,
+    chunk_size: int,
 ) -> tuple[list[str], Path, Path, dict[str, str]]:
     summary_dir = detector_dir / "summary"
     summary_dir.mkdir(parents=True, exist_ok=True)
@@ -481,13 +513,13 @@ def build_detector_command(
             args.python_bin,
             str(EMAIL_DETECTORS_DIR / "llm_guard.py"),
             "--input-csv",
-            str(args.input_csv),
+            str(chunk_input_csv),
             "--subject-column",
             args.subject_column,
             "--body-column",
             args.body_column,
             "--sample-size",
-            str(effective_sample_size),
+            str(chunk_size),
             "--output-dir",
             str(detector_dir),
         ]
@@ -502,13 +534,13 @@ def build_detector_command(
             "--python-bin",
             args.python_bin,
             "--input-csv",
-            str(args.input_csv),
+            str(chunk_input_csv),
             "--subject-column",
             args.subject_column,
             "--body-column",
             args.body_column,
             "--sample-size",
-            str(effective_sample_size),
+            str(chunk_size),
             "--output-dir",
             str(detector_dir),
             "--backend-root",
@@ -526,13 +558,13 @@ def build_detector_command(
             "--python-bin",
             args.python_bin,
             "--input-csv",
-            str(args.input_csv),
+            str(chunk_input_csv),
             "--subject-column",
             args.subject_column,
             "--body-column",
             args.body_column,
             "--sample-size",
-            str(effective_sample_size),
+            str(chunk_size),
             "--output-dir",
             str(detector_dir),
             "--from-address",
@@ -551,7 +583,7 @@ def build_detector_command(
             args.python_bin,
             str(EMAIL_DETECTORS_DIR / "PyRIT-scan-original.py"),
             "--input-csv",
-            str(text_projection_csv),
+            str(chunk_text_projection_csv),
             "--output-csv",
             str(output_csv),
             "--text-column",
@@ -565,7 +597,7 @@ def build_detector_command(
             args.python_bin,
             str(EMAIL_DETECTORS_DIR / "PyRIT-scan-blocklist.py"),
             "--input-csv",
-            str(text_projection_csv),
+            str(chunk_text_projection_csv),
             "--output-csv",
             str(output_csv),
             "--text-column",
@@ -605,6 +637,19 @@ def build_output_fieldnames(original_fieldnames: list[str], detectors: list[str]
     return fieldnames
 
 
+def write_combined_output(
+    output_csv: Path,
+    combined_rows: list[dict[str, Any]],
+    fieldnames: list[str],
+) -> None:
+    with output_csv.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer.writeheader()
+        for row in combined_rows:
+            serializable = {key: value for key, value in row.items() if not key.startswith("_")}
+            writer.writerow(serializable)
+
+
 def main() -> int:
     args = parse_args()
     run_dir = make_run_dir(args)
@@ -615,57 +660,94 @@ def main() -> int:
     effective_sample_size = len(combined_rows)
     dataset_name = infer_dataset_name(args.input_csv)
     stage_name = (args.stage_name or infer_stage_name(args.input_csv)).upper()
+    fieldnames = build_output_fieldnames(original_fieldnames, list(args.detectors))
+
+    for detector_name in args.detectors:
+        initialize_detector_status(combined_rows, detector_name, "pending")
+    write_combined_output(final_output_csv, combined_rows, fieldnames)
 
     with tempfile.TemporaryDirectory(prefix=f"{stage_name.lower()}_detector_suite_") as temp_dir:
         temp_root = Path(temp_dir)
-        text_projection_csv = temp_root / f"{dataset_name}__text_projection.csv"
-        write_text_projection_csv(combined_rows, original_fieldnames, text_projection_csv)
 
         for detector_name in args.detectors:
-            detector_dir = temp_root / detector_name
-            detector_dir.mkdir(parents=True, exist_ok=True)
-            log_path = temp_root / f"{detector_name}.log"
+            checkpoint = max(1, args.checkpoint_every)
+            for start_index in range(0, effective_sample_size, checkpoint):
+                chunk_rows = combined_rows[start_index:start_index + checkpoint]
+                chunk_size = len(chunk_rows)
+                chunk_tag = f"{detector_name}_{start_index + 1:06d}_{start_index + chunk_size:06d}"
+                detector_dir = temp_root / chunk_tag
+                detector_dir.mkdir(parents=True, exist_ok=True)
+                log_path = temp_root / f"{chunk_tag}.log"
+                chunk_input_csv = detector_dir / "chunk_input.csv"
+                chunk_text_projection_csv = detector_dir / "chunk_text_projection.csv"
+                write_original_csv(chunk_rows, original_fieldnames, chunk_input_csv)
+                write_text_projection_csv(chunk_rows, original_fieldnames, chunk_text_projection_csv)
 
-            try:
-                command, cwd, summary_csv, env_overrides = build_detector_command(
-                    detector_name,
-                    args=args,
-                    detector_dir=detector_dir,
-                    text_projection_csv=text_projection_csv,
-                    effective_sample_size=effective_sample_size,
-                )
-                returncode, stdout_text = run_subprocess(
-                    command,
-                    cwd=cwd,
-                    log_path=log_path,
-                    env_overrides=env_overrides,
-                )
-                if returncode != 0:
-                    append_detector_results(combined_rows, detector_name, None, "run_failed")
+                try:
+                    command, cwd, summary_csv, env_overrides = build_detector_command(
+                        detector_name,
+                        args=args,
+                        detector_dir=detector_dir,
+                        chunk_input_csv=chunk_input_csv,
+                        chunk_text_projection_csv=chunk_text_projection_csv,
+                        chunk_size=chunk_size,
+                    )
+                    returncode, stdout_text = run_subprocess(
+                        command,
+                        cwd=cwd,
+                        log_path=log_path,
+                        env_overrides=env_overrides,
+                    )
+                    if returncode != 0:
+                        apply_chunk_results(
+                            combined_rows,
+                            detector_name,
+                            start_index,
+                            chunk_size,
+                            None,
+                            "run_failed",
+                        )
+                        write_combined_output(final_output_csv, combined_rows, fieldnames)
+                        if args.fail_fast:
+                            raise SystemExit(stdout_text[-4000:] if stdout_text else "Detector run failed")
+                        continue
+
+                    if not summary_csv.exists():
+                        apply_chunk_results(
+                            combined_rows,
+                            detector_name,
+                            start_index,
+                            chunk_size,
+                            None,
+                            "missing_summary",
+                        )
+                        write_combined_output(final_output_csv, combined_rows, fieldnames)
+                        if args.fail_fast:
+                            raise SystemExit(f"Expected summary CSV not found: {summary_csv}")
+                        continue
+
+                    parsed_rows = parse_detector_output(detector_name, summary_csv)
+                    apply_chunk_results(
+                        combined_rows,
+                        detector_name,
+                        start_index,
+                        chunk_size,
+                        parsed_rows,
+                        "parse_failed",
+                    )
+                    write_combined_output(final_output_csv, combined_rows, fieldnames)
+                except Exception:
+                    apply_chunk_results(
+                        combined_rows,
+                        detector_name,
+                        start_index,
+                        chunk_size,
+                        None,
+                        "run_failed",
+                    )
+                    write_combined_output(final_output_csv, combined_rows, fieldnames)
                     if args.fail_fast:
-                        raise SystemExit(stdout_text[-4000:] if stdout_text else "Detector run failed")
-                    continue
-
-                if not summary_csv.exists():
-                    append_detector_results(combined_rows, detector_name, None, "missing_summary")
-                    if args.fail_fast:
-                        raise SystemExit(f"Expected summary CSV not found: {summary_csv}")
-                    continue
-
-                parsed_rows = parse_detector_output(detector_name, summary_csv)
-                append_detector_results(combined_rows, detector_name, parsed_rows, "ok")
-            except Exception:
-                append_detector_results(combined_rows, detector_name, None, "run_failed")
-                if args.fail_fast:
-                    raise
-
-    fieldnames = build_output_fieldnames(original_fieldnames, list(args.detectors))
-    with final_output_csv.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
-        writer.writeheader()
-        for row in combined_rows:
-            serializable = {key: value for key, value in row.items() if not key.startswith("_")}
-            writer.writerow(serializable)
+                        raise
 
     print(json.dumps({
         "timestamp": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
@@ -674,6 +756,7 @@ def main() -> int:
         "output_csv": str(final_output_csv),
         "rows": len(combined_rows),
         "detectors_requested": list(args.detectors),
+        "checkpoint_every": max(1, args.checkpoint_every),
     }, ensure_ascii=False, indent=2))
     return 0
 
