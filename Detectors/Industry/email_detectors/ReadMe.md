@@ -68,6 +68,8 @@ Practical takeaway:
 
 Legend:
 
+- `In Progress`: currently running
+- `Queued`: included in the current run, but not started yet
 - `Done-pilot`: already run at least once, but not yet as a full mixed benchmark
 - `Pending`: should be run next
 - `N/A`: current input format does not match directly
@@ -75,7 +77,7 @@ Legend:
 
 | Dataset target | Size | llm_guard | Phishing-Email-Agent | email-phishing-detection_V3 | PyRIT-original | PyRIT-blocklist | PyRIT-FT |
 |---|---:|---|---|---|---|---|---|
-| S1-LLM-mixed | 2673 | Pending | Pending | Pending | Pending | Pending | Pending |
+| S1-LLM-mixed | 2673 | In Progress | Queued | Queued | Queued | Queued | N/A |
 | S2-LLM-mixed | 1995 | Pending | Pending | Pending | Pending | Pending | Pending |
 | S2-HW-mixed | 1230 | Pending | Pending | Pending | Pending | Pending | Pending |
 | S4-LLM-mixed | 17249 | Pending | Pending | Pending | Pending | Pending | Pending |
@@ -97,7 +99,8 @@ Notes:
 
 - `runs/S5-Personalization_for_Credibility_LLM-P__llm-guard__20260331_125925/` exists but has no saved summary and can be treated as an incomplete/empty attempt.
 - No full mixed benign+phishing benchmark has been completed yet.
-- The immediate next step is to generate the five mixed CSVs listed above and then run the confirmed detectors on them.
+- `S1-LLM-mixed` full run started on 2026-03-31 and is currently executing through the unified detector pipeline.
+- The immediate next step after `S1` finishes is to run `S2-LLM-mixed`.
 
 The detector scripts currently in this folder include:
 

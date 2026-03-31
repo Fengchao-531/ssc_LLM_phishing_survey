@@ -3,7 +3,8 @@ Datasets/HW-Benign
 Datasets/HW-Phishing
 Datasets/LLM-Benign
 Datasets/LLM-Phishing
-
+Detectors/Industry/email_detectors/open-source-git/email-phishing-detection_V3
+Detectors/Industry/email_detectors/open-source-git/Phishing-Email-Agent
 diagrams
 
 # python corresponding
@@ -19,3 +20,5 @@ env/
 *.zip
 *.tar.gz
 *.sh
+!Detectors/Industry/email_detectors/run_email-phishing-detection_V3.sh
+!Detectors/Industry/email_detectors/run_llm_guard.sh
