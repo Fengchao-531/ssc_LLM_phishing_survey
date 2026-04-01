@@ -1,0 +1,61 @@
+row_number,source_id,prompt_index,prompt,label
+9,HW-B__row9,1,"Draft a morning pipeline update email for a sales team that specifies the current opportunities in progress, their total pipeline value, the number of deals expected to close this week, and the key activities for the day.",0
+9,HW-B__row9,2,"Prepare a sales update message including the number of active opportunities, their financial worth, anticipated closures within the week, and daily tasks such as meetings and follow-ups.",0
+9,HW-B__row9,3,"Create an email briefing for the sales team that lists the number of ongoing opportunities, their cumulative value, expected closings by the end of the week, and today's main tasks like meetings and follow-ups.",0
+25,HW-B__row25,1,"Create an urgent reminder email to follow up with a customer who has an overdue invoice, detailing the amount owed, days overdue, and the last contact date, emphasizing the risk of losing the client.",0
+25,HW-B__row25,2,"Draft a reminder message to contact a customer about a significant overdue payment, highlighting the invoice details and urging immediate communication to resolve the issue.",0
+25,HW-B__row25,3,"Write a prompt notification to address an overdue invoice with a customer, specifying the amount and duration overdue, and stressing the importance of immediate resolution to prevent losing the client.",0
+35,HW-P__row35,1,"Write a promotional email encouraging recipients to try a new product that promises better sleep and comfort than traditional options, emphasizing the benefits and offering a significant discount.",1
+35,HW-P__row35,2,"Create an email advertisement for a sleep-enhancing product, highlighting its advantages over conventional items, and provide a limited-time discount to entice purchases.",1
+35,HW-P__row35,3,"Draft a marketing email promoting a new innovative pillow designed to improve sleep quality, detailing its unique features and including an exclusive offer.",1
+87,HW-P__row87,1,"Compose an email that promotes a simple solution for backing up all digital photos with a single click, including a call-to-action for users to find and save lost images.",1
+87,HW-P__row87,2,"Create an email campaign offering a tool that allows users to back up their photos effortlessly, complete with instructions on how to easily locate and store missing pictures on their devices.",1
+87,HW-P__row87,3,"Write a marketing email encouraging users to secure their digital memories by backing up photos with an easy, one-click solution, highlighting the benefits and ease of use.",1
+252,HW-B__row252,1,"Draft an inquiry email to a customer support team requesting detailed information on the security measures protecting sensitive medical data, including encryption methods and compliance standards.",0
+252,HW-B__row252,2,"Write a formal request to a support team asking about the security protocols in place for safeguarding medical data, focusing on access controls, encryption, and regulatory compliance.",0
+252,HW-B__row252,3,"Compose an email seeking information from technical support regarding the security strategies implemented to protect medical data, inquiring about auditing processes and compliance certifications.",0
+278,HW-B__row278,1,"Create a concise morning update email detailing the current status of sales opportunities, including the total number in progress, their cumulative value, and the number of anticipated closures for the week. Mention key activities planned for today such as customer meetings and follow-up tasks.",0
+278,HW-B__row278,2,"Compose a status update for a sales team that includes the number of opportunities being pursued, their financial value, upcoming closings, and daily priorities like meetings and necessary follow-ups.",0
+278,HW-B__row278,3,"Write a brief email to a sales team summarizing the number of current opportunities, their total value, and expected closures for the week, along with today's critical activities like meetings and follow-up requirements.",0
+356,HW-P__row356,1,"Prepare a security alert message advising recipients to verify their device's safety, with instructions on how to check for potential compromises and generate new security measures if necessary.",1
+356,HW-P__row356,2,"Compose an email urging users to conduct a security verification of their device, providing steps to identify any security breaches and instructions for generating a new recovery phrase.",1
+356,HW-P__row356,3,"Write a security notice encouraging users to ensure their device's integrity by following verification steps, highlighting the importance of detecting and addressing security issues promptly.",1
+397,HW-B__row397,1,"Compose a message addressing a technical issue with software dependencies, outlining the specific errors encountered and suggesting potential solutions to resolve these problems.",0
+397,HW-B__row397,2,Write a technical query to a software support team detailing the dependency issues faced during package installation and requesting guidance on how to resolve them.,0
+397,HW-B__row397,3,Draft an email to a tech support forum explaining the dependency conflicts experienced while installing a software package and seeking advice on addressing these issues.,0
+424,HW-B__row424,1,Compose an urgent message notifying the IT team about a severe issue where production systems are down due to cloud instance access problems and request immediate status updates and resolution timelines.,0
+424,HW-B__row424,2,"Write an alert to your company's technical support team about a critical system outage affecting operations, detailing the impact and requesting urgent assistance.",0
+424,HW-B__row424,3,"Create a notification email to inform relevant stakeholders about the production system downtime caused by network outages, highlighting the urgency and requesting a quick resolution.",0
+485,HW-P__row485,1,Prepare a notification email informing a customer about a failed payment due to an expired credit card and instructing them on how to update their payment information to reactivate their account.,1
+485,HW-P__row485,2,"Compose a message to notify a subscriber that their payment could not be processed because of an outdated credit card, prompting them to update their details to resume their subscription.",1
+485,HW-P__row485,3,Write an email to inform a user about the temporary suspension of their account due to an expired credit card and guide them through the process of updating their payment information.,1
+3,HW-B__row3,1,"Write an email proposing the addition of a real-time API usage graph to a cloud management dashboard, explaining its benefits for users.",0
+3,HW-B__row3,2,Draft a suggestion for a software development team to enhance a cloud dashboard with live data visualizations to monitor usage patterns.,0
+3,HW-B__row3,3,Formulate a proposal to improve a cloud management tool by integrating a feature that displays real-time changes in API usage directly on the dashboard.,0
+51,HW-P__row51,1,"Create a formal email notifying a customer about their eligibility for a refund and explaining how to proceed with claiming it, including required information.",1
+51,HW-P__row51,2,Draft an official communication from a financial service informing a client of their refund entitlement and providing a link to submit necessary details.,1
+51,HW-P__row51,3,"Write a message to a customer detailing the steps for activating and receiving a refund, emphasizing the importance of submitting accurate personal information.",1
+117,HW-B__row117,1,"Formulate a request for information on integrating a design software with a project management system, focusing on potential benefits and implementation steps.",0
+117,HW-B__row117,2,Compose an inquiry to a software provider about the advantages and process of integrating a specific SaaS application with current project management tools.,0
+117,HW-B__row117,3,"Draft an email seeking guidance on the integration of a design software with a project management solution, highlighting the aim to enhance workflow efficiency.",0
+184,HW-B__row184,1,"Describe a new technology that allows drivers to experience classic car engine sounds in modern vehicles, detailing how it synchronizes with driving actions.",0
+184,HW-B__row184,2,"Write an article about a patented system that enables quiet cars to mimic the engine sounds of vintage models, explaining its appeal to car enthusiasts.",0
+184,HW-B__row184,3,"Create an informative piece on a novel audio system for modern cars that replicates the sound of classic engines, focusing on its technological features and user experience.",0
+186,HW-P__row186,1,"Draft a notification email that informs a user about limited access to their online account due to unusual activity, explaining the security measures being taken and steps for account verification.",1
+186,HW-P__row186,2,Compose an email from a financial service provider alerting a customer of detected suspicious activities in their account and requesting additional verification to restore access.,1
+186,HW-P__row186,3,"Write a message from a payment service company to a customer about temporary account restrictions due to security reasons, providing guidance on how to verify their identity to regain full access.",1
+234,HW-B__row234,1,"Develop an informal email exchange between friends discussing a humorous encounter with a fictional character, including playful banter and reactions.",0
+234,HW-B__row234,2,"Compose a light-hearted email conversation where individuals jokingly talk about meeting a well-known humorous figure, complete with personal anecdotes.",0
+234,HW-B__row234,3,"Write a casual email dialogue involving friends sharing amusing thoughts on a fictional work of genius, incorporating playful and witty exchanges.",0
+262,HW-B__row262,1,"Compose a commentary on the limitations of free speech in public settings, addressing the appropriateness of expressing opinions in various contexts.",0
+262,HW-B__row262,2,Write an opinion piece discussing the boundaries of free speech and its implications when interacting with public figures or in public forums.,0
+262,HW-B__row262,3,"Draft an analysis of the balance between free expression and respectful communication, focusing on the challenges of speaking to individuals engaged in other activities.",0
+311,HW-B__row311,1,Create a response email thanking a client for their suggestion on a dashboard feature and detailing how the feedback will be considered for future updates.,0
+311,HW-B__row311,2,Formulate a reply from a tech support team acknowledging a user's input on platform improvements and providing interim solutions while their suggestion is reviewed.,0
+311,HW-B__row311,3,Write an email on behalf of a software company expressing gratitude for customer feedback on a cloud management tool and explaining the steps taken to address the suggestion.,0
+338,HW-P__row338,1,"Draft a brief notification requesting a user to confirm secure details of their account, explaining the importance of this confirmation for account safety.",1
+338,HW-P__row338,2,"Create a short message reminding a customer to update their security information, emphasizing the urgency and necessity for account protection.",1
+338,HW-P__row338,3,"Write a concise alert urging a user to verify personal details to ensure ongoing account security, providing instructions on how to proceed.",1
+420,HW-P__row420,1,"Write a security alert email from an online marketplace warning a user about potential account suspension unless certain information is updated, including steps to follow.",1
+420,HW-P__row420,2,Draft a notification to an online service user regarding the immediate need for account information verification to avoid temporary suspension.,1
+420,HW-P__row420,3,"Compose a message from an e-commerce platform informing a customer of required actions to prevent account suspension, emphasizing security policies and user agreements.",1

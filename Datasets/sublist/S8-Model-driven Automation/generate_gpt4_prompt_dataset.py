@@ -39,6 +39,8 @@ DEFAULT_BASE_URL = "https://api.openai.com/v1"
 DEFAULT_TIMEOUT = 120
 DEFAULT_BATCH_SIZE = 10
 DEFAULT_PROMPT_COUNT = 3
+DEFAULT_RATE_LIMIT_PADDING = 2.0
+DEFAULT_MAX_INPUT_CHARS = 12000
 
 
 @dataclass
@@ -46,6 +48,7 @@ class SourceItem:
     row_number: int
     source_id: str
     source_text: str
+    label: str
 
 
 @dataclass
@@ -116,6 +119,16 @@ def parse_args() -> argparse.Namespace:
         help="Optional column to preserve a source identifier.",
     )
     parser.add_argument(
+        "--label-column",
+        default="label",
+        help="Optional label column to preserve in the output.",
+    )
+    parser.add_argument(
+        "--row-number-column",
+        default="row_number",
+        help="Optional column containing the original source row number.",
+    )
+    parser.add_argument(
         "--batch-size",
         type=int,
         default=DEFAULT_BATCH_SIZE,
@@ -132,6 +145,12 @@ def parse_args() -> argparse.Namespace:
         type=int,
         default=0,
         help="Optional cap on the number of CSV rows to process.",
+    )
+    parser.add_argument(
+        "--max-input-chars",
+        type=int,
+        default=DEFAULT_MAX_INPUT_CHARS,
+        help="Maximum number of characters kept for each source text before truncation.",
     )
     parser.add_argument(
         "--temperature",
@@ -175,6 +194,11 @@ def parse_args() -> argparse.Namespace:
         default=1,
         help="Progress logging interval in batches.",
     )
+    parser.add_argument(
+        "--resume",
+        action="store_true",
+        help="Resume from an existing output CSV in --output-dir when present.",
+    )
     return parser.parse_args()
 
 
@@ -187,6 +211,8 @@ def validate_args(args: argparse.Namespace) -> None:
         raise ValueError("--max-completion-tokens must be greater than 0.")
     if args.max_retries <= 0:
         raise ValueError("--max-retries must be greater than 0.")
+    if args.max_input_chars <= 0:
+        raise ValueError("--max-input-chars must be greater than 0.")
 
 
 def now_utc_iso() -> str:
@@ -199,6 +225,12 @@ def normalize_text(value: str) -> str:
     text = re.sub(r"[ \t]+\n", "\n", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip()
+
+
+def truncate_text(text: str, max_chars: int) -> str:
+    if len(text) <= max_chars:
+        return text
+    return text[:max_chars].rstrip()
 
 
 def render_text(subject: str, body: str) -> str:
@@ -231,17 +263,20 @@ def append_jsonl(path: Path, record: Dict[str, Any]) -> None:
         handle.write(json.dumps(record, ensure_ascii=False) + "\n")
 
 
+def parse_retry_after_seconds(error_text: str) -> float:
+    match = re.search(r"Please try again in\s+([0-9]+(?:\.[0-9]+)?)s", error_text or "")
+    if not match:
+        return 0.0
+    return float(match.group(1))
+
+
 def write_csv(path: Path, rows: Sequence[OutputRow]) -> None:
     fieldnames = [
         "row_number",
         "source_id",
-        "source_text",
         "prompt_index",
         "prompt",
         "label",
-        "model",
-        "batch_index",
-        "generated_at",
     ]
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
@@ -252,13 +287,9 @@ def write_csv(path: Path, rows: Sequence[OutputRow]) -> None:
                 {
                     "row_number": row.row_number,
                     "source_id": row.source_id,
-                    "source_text": row.source_text,
                     "prompt_index": row.prompt_index,
                     "prompt": row.prompt,
                     "label": row.label,
-                    "model": row.model,
-                    "batch_index": row.batch_index,
-                    "generated_at": row.generated_at,
                 }
             )
 
@@ -284,6 +315,17 @@ def load_source_items(args: argparse.Namespace) -> List[SourceItem]:
             if args.max_rows > 0 and len(items) >= args.max_rows:
                 break
 
+            original_row_number = row_number
+            if args.row_number_column:
+                raw_row_number = str(row.get(args.row_number_column, "")).strip()
+                if raw_row_number:
+                    try:
+                        original_row_number = int(raw_row_number)
+                    except ValueError:
+                        raise ValueError(
+                            f"Invalid integer in {args.row_number_column}: {raw_row_number}"
+                        )
+
             source_id = ""
             if args.id_column:
                 source_id = str(row.get(args.id_column, "")).strip()
@@ -304,11 +346,20 @@ def load_source_items(args: argparse.Namespace) -> List[SourceItem]:
             if not text_value:
                 continue
 
+            text_value = truncate_text(text_value, args.max_input_chars)
+
+            label_value = "1"
+            if args.label_column:
+                raw_label = str(row.get(args.label_column, "")).strip()
+                if raw_label:
+                    label_value = raw_label
+
             items.append(
                 SourceItem(
-                    row_number=row_number,
+                    row_number=original_row_number,
                     source_id=source_id,
                     source_text=text_value,
+                    label=label_value,
                 )
             )
 
@@ -454,13 +505,16 @@ class OpenAICompatibleChatClient:
                     retryable = status_code in {408, 409, 425, 429, 500, 502, 503, 504}
                     if attempt >= self.max_retries or not retryable:
                         raise RuntimeError("HTTP {} from API: {}".format(status_code, body)) from exc
+                    retry_after_seconds = parse_retry_after_seconds(body or "")
+                    sleep_seconds = max(min(2**attempt, 10), retry_after_seconds + DEFAULT_RATE_LIMIT_PADDING)
                 elif APIConnectionError is not None and isinstance(exc, APIConnectionError):
                     if attempt >= self.max_retries:
                         raise RuntimeError("Network error while calling API: {}".format(exc)) from exc
+                    sleep_seconds = min(2**attempt, 10)
                 else:
                     raise
 
-            time.sleep(min(2**attempt, 10))
+            time.sleep(sleep_seconds)
 
         raise RuntimeError("Unexpected retry loop exit.")
 
@@ -471,7 +525,7 @@ def validate_batch_result(
     prompt_count: int,
     model: str,
     batch_index: int,
-) -> List[OutputRow]:
+) -> Tuple[List[OutputRow], List[SourceItem]]:
     raw_results = parsed.get("results")
     if not isinstance(raw_results, list):
         raise ValueError("Model JSON must contain a list under 'results'.")
@@ -486,7 +540,7 @@ def validate_batch_result(
         item_id = str(result.get("item_id", "")).strip()
         prompts = result.get("prompts")
         if item_id not in by_id:
-            raise ValueError(f"Unexpected item_id in model output: {item_id}")
+            continue
         if not isinstance(prompts, list):
             raise ValueError(f"'prompts' must be a list for item_id={item_id}")
         if len(prompts) != prompt_count:
@@ -508,19 +562,125 @@ def validate_batch_result(
                     source_text=source_item.source_text,
                     prompt_index=prompt_index,
                     prompt=prompt_text,
-                    label="1",
+                    label=source_item.label,
                     model=model,
                     batch_index=batch_index,
                     generated_at=generated_at,
                 )
             )
 
-    if by_id:
-        missing = ", ".join(sorted(by_id))
-        raise ValueError(f"Model output missed source items: {missing}")
-
     output_rows.sort(key=lambda row: (row.row_number, row.prompt_index))
-    return output_rows
+    missing_items = [by_id[item_id] for item_id in sorted(by_id)]
+    return output_rows, missing_items
+
+
+def complete_batch_with_retries(
+    *,
+    client: OpenAICompatibleChatClient,
+    batch: Sequence[SourceItem],
+    prompt_count: int,
+    model: str,
+    batch_index: int,
+    calls_jsonl_path: Path,
+) -> List[OutputRow]:
+    pending = list(batch)
+    collected: List[OutputRow] = []
+    retry_round = 0
+
+    while pending:
+        retry_round += 1
+        messages = build_messages(pending, prompt_count)
+        response_text, response_payload = client.complete(messages)
+        parsed = extract_json_object(response_text)
+        batch_rows, missing_items = validate_batch_result(
+            batch=pending,
+            parsed=parsed,
+            prompt_count=prompt_count,
+            model=model,
+            batch_index=batch_index,
+        )
+        collected.extend(batch_rows)
+
+        append_jsonl(
+            calls_jsonl_path,
+            {
+                "created_at": now_utc_iso(),
+                "batch_index": batch_index,
+                "retry_round": retry_round,
+                "item_ids": [item.source_id for item in pending],
+                "missing_item_ids": [item.source_id for item in missing_items],
+                "request_messages": messages,
+                "response_text": response_text,
+                "response_payload": response_payload,
+            },
+        )
+
+        if not missing_items:
+            break
+
+        if len(missing_items) == len(pending) and len(pending) == 1:
+            raise ValueError(
+                f"Model repeatedly missed source item: {pending[0].source_id}"
+            )
+
+        pending = missing_items
+
+    deduped: Dict[Tuple[str, int], OutputRow] = {}
+    for row in collected:
+        deduped[(row.source_id, row.prompt_index)] = row
+    final_rows = list(deduped.values())
+    final_rows.sort(key=lambda row: (row.row_number, row.prompt_index))
+    return final_rows
+
+
+def load_resume_rows(
+    output_csv_path: Path,
+    prompt_count: int,
+) -> Tuple[List[OutputRow], set]:
+    if not output_csv_path.exists():
+        return [], set()
+
+    by_source: Dict[str, List[Dict[str, str]]] = {}
+    with output_csv_path.open("r", encoding="utf-8", newline="") as handle:
+        reader = csv.DictReader(handle)
+        for row in reader:
+            source_id = str(row.get("source_id", "")).strip()
+            if not source_id:
+                continue
+            by_source.setdefault(source_id, []).append(row)
+
+    resume_rows: List[OutputRow] = []
+    completed_source_ids = set()
+    for source_id, rows in by_source.items():
+        prompt_indices = {
+            int(str(row.get("prompt_index", "")).strip())
+            for row in rows
+            if str(row.get("prompt_index", "")).strip().isdigit()
+        }
+        if len(prompt_indices) < prompt_count:
+            continue
+        completed_source_ids.add(source_id)
+        for row in rows:
+            prompt_index = str(row.get("prompt_index", "")).strip()
+            row_number = str(row.get("row_number", "")).strip()
+            if not prompt_index.isdigit() or not row_number.isdigit():
+                continue
+            resume_rows.append(
+                OutputRow(
+                    row_number=int(row_number),
+                    source_id=source_id,
+                    source_text="",
+                    prompt_index=int(prompt_index),
+                    prompt=str(row.get("prompt", "")).strip(),
+                    label=str(row.get("label", "")).strip(),
+                    model="",
+                    batch_index=0,
+                    generated_at="",
+                )
+            )
+
+    resume_rows.sort(key=lambda row: (row.row_number, row.prompt_index))
+    return resume_rows, completed_source_ids
 
 
 def build_manifest(
@@ -540,13 +700,16 @@ def build_manifest(
         "model": args.model,
         "batch_size": args.batch_size,
         "prompt_count": args.prompt_count,
+        "max_input_chars": args.max_input_chars,
         "text_column": args.text_column,
         "subject_column": args.subject_column,
         "body_column": args.body_column,
         "id_column": args.id_column,
+        "label_column": args.label_column,
+        "row_number_column": args.row_number_column,
         "item_count": item_count,
         "output_count": output_count,
-        "label_value": "1",
+        "label_value": "preserved_from_input",
         "notes": "Prompts are generated objectively without including hidden workflow/business rationale.",
     }
 
@@ -561,6 +724,18 @@ def main() -> int:
 
     source_items = load_source_items(args)
     input_path = Path(args.input).resolve()
+    results: List[OutputRow] = []
+    completed_source_ids = set()
+
+    if args.resume:
+        results, completed_source_ids = load_resume_rows(
+            output_csv_path=output_csv_path,
+            prompt_count=args.prompt_count,
+        )
+        if completed_source_ids:
+            source_items = [
+                item for item in source_items if item.source_id not in completed_source_ids
+            ]
 
     client = OpenAICompatibleChatClient(
         api_key=args.api_key,
@@ -572,34 +747,19 @@ def main() -> int:
         max_retries=args.max_retries,
     )
 
-    results: List[OutputRow] = []
     batches = list(chunked(source_items, args.batch_size))
     total_batches = len(batches)
 
     for batch_index, batch in enumerate(batches, start=1):
-        messages = build_messages(batch, args.prompt_count)
-        response_text, response_payload = client.complete(messages)
-        parsed = extract_json_object(response_text)
-        batch_rows = validate_batch_result(
+        batch_rows = complete_batch_with_retries(
+            client=client,
             batch=batch,
-            parsed=parsed,
             prompt_count=args.prompt_count,
             model=args.model,
             batch_index=batch_index,
+            calls_jsonl_path=calls_jsonl_path,
         )
         results.extend(batch_rows)
-
-        append_jsonl(
-            calls_jsonl_path,
-            {
-                "created_at": now_utc_iso(),
-                "batch_index": batch_index,
-                "item_ids": [item.source_id for item in batch],
-                "request_messages": messages,
-                "response_text": response_text,
-                "response_payload": response_payload,
-            },
-        )
 
         if args.save_every > 0 and batch_index % args.save_every == 0:
             write_csv(output_csv_path, results)
