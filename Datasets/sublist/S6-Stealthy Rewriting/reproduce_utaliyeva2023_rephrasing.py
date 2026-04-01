@@ -43,6 +43,11 @@ DEFAULT_LABEL_COLUMN = "label"
 DEFAULT_LABEL_VALUE = "1"
 DEFAULT_SUBJECT_COLUMN = "Subject"
 DEFAULT_BODY_COLUMN = "Body"
+DEFAULT_COMPLETION_TOKEN_RESERVE = 512
+
+MODEL_CONTEXT_LIMITS: Dict[str, int] = {
+    "gpt-3.5-turbo": 16385,
+}
 
 PROMPT_TEMPLATES: Dict[str, str] = {
     "adversarial": "Rewrite the following email to be less spammy: '{email_text}'",
@@ -69,6 +74,10 @@ class RowResult(NamedTuple):
     token_estimate: int
     skipped: bool
     skip_reason: str
+
+
+class ContextLengthExceededError(RuntimeError):
+    """Raised when the model rejects a prompt for exceeding context length."""
 
 
 def parse_args() -> argparse.Namespace:
@@ -201,6 +210,18 @@ def parse_args() -> argparse.Namespace:
         default=100,
         help="Write the output CSV every N completed rows as a checkpoint.",
     )
+    parser.add_argument(
+        "--model-context-limit",
+        type=int,
+        default=0,
+        help="Model context limit. Defaults to an inferred limit for known models.",
+    )
+    parser.add_argument(
+        "--completion-token-reserve",
+        type=int,
+        default=DEFAULT_COMPLETION_TOKEN_RESERVE,
+        help="Reserved tokens for the model response when truncating long inputs.",
+    )
     return parser.parse_args()
 
 
@@ -251,6 +272,76 @@ def infer_token_count(text: str, model: str) -> int:
         return len(encoding.encode(text))
     except Exception:
         return max(1, math.ceil(len(text) / 4))
+
+
+def get_model_context_limit(model: str, requested_limit: int) -> int:
+    if requested_limit > 0:
+        return requested_limit
+    model_norm = (model or "").strip().lower()
+    for prefix, limit in MODEL_CONTEXT_LIMITS.items():
+        if model_norm.startswith(prefix):
+            return limit
+    return 16385
+
+
+def maybe_get_model_encoding(model: str) -> Any:
+    try:
+        import tiktoken  # type: ignore
+
+        try:
+            return tiktoken.encoding_for_model(model)
+        except KeyError:
+            return tiktoken.get_encoding("cl100k_base")
+    except Exception:
+        return None
+
+
+def truncate_email_to_fit_prompt(
+    *,
+    prompt_kind: str,
+    email_text: str,
+    model: str,
+    model_context_limit: int,
+    completion_token_reserve: int,
+) -> Tuple[str, str, int]:
+    target_prompt_tokens = max(1, model_context_limit - max(0, completion_token_reserve))
+    prompt_text = PROMPT_TEMPLATES[prompt_kind].format(email_text=email_text)
+    prompt_tokens = infer_token_count(prompt_text, model)
+    if prompt_tokens <= target_prompt_tokens:
+        return email_text, prompt_text, prompt_tokens
+
+    base_prompt = PROMPT_TEMPLATES[prompt_kind].format(email_text="")
+    base_prompt_tokens = infer_token_count(base_prompt, model)
+    allowed_email_tokens = max(1, target_prompt_tokens - base_prompt_tokens)
+
+    encoding = maybe_get_model_encoding(model)
+    if encoding is not None:
+        email_tokens = encoding.encode(email_text)
+        truncated_email = encoding.decode(email_tokens[:allowed_email_tokens])
+    else:
+        truncated_email = email_text[: max(1, allowed_email_tokens * 4)]
+
+    # Trim a little further if template framing or tokenization variance still pushes us over.
+    while truncated_email:
+        prompt_text = PROMPT_TEMPLATES[prompt_kind].format(email_text=truncated_email)
+        prompt_tokens = infer_token_count(prompt_text, model)
+        if prompt_tokens <= target_prompt_tokens:
+            return truncated_email, prompt_text, prompt_tokens
+
+        if encoding is not None:
+            email_tokens = encoding.encode(truncated_email)
+            if len(email_tokens) <= 1:
+                break
+            shrink_by = max(1, min(128, len(email_tokens) // 20))
+            truncated_email = encoding.decode(email_tokens[:-shrink_by])
+        else:
+            if len(truncated_email) <= 4:
+                break
+            shrink_by = max(1, min(512, len(truncated_email) // 20))
+            truncated_email = truncated_email[:-shrink_by]
+
+    final_prompt = PROMPT_TEMPLATES[prompt_kind].format(email_text=truncated_email)
+    return truncated_email, final_prompt, infer_token_count(final_prompt, model)
 
 
 def extract_message_text(payload: Dict[str, Any]) -> str:
@@ -327,6 +418,11 @@ class OpenAICompatibleChatClient:
                     status_code = getattr(exc, "status_code", None)
                     response_obj = getattr(exc, "response", None)
                     body = getattr(response_obj, "text", None) if response_obj is not None else None
+                    body_text = str(body or "")
+                    if status_code == 400 and "context_length_exceeded" in body_text:
+                        raise ContextLengthExceededError(body_text) from exc
+                    if status_code == 400 and "maximum context length" in body_text.lower():
+                        raise ContextLengthExceededError(body_text) from exc
                     retryable = status_code in {408, 409, 425, 429, 500, 502, 503, 504}
                     if attempt >= self.max_retries or not retryable:
                         raise RuntimeError("HTTP {} from API: {}".format(status_code, body)) from exc
@@ -463,6 +559,8 @@ def main() -> int:
     args = parse_args()
     if args.rounds < 1:
         raise ValueError("--rounds must be at least 1.")
+    if args.completion_token_reserve < 0:
+        raise ValueError("--completion-token-reserve must be non-negative.")
 
     input_path = Path(args.input).resolve()
     output_dir = build_output_dir(args.output_dir)
@@ -490,6 +588,8 @@ def main() -> int:
     if not selected_rows:
         raise ValueError("No input rows matched the selection criteria.")
 
+    model_context_limit = get_model_context_limit(args.model, args.model_context_limit)
+
     client = OpenAICompatibleChatClient(
         api_key=args.api_key,
         base_url=args.base_url,
@@ -513,42 +613,38 @@ def main() -> int:
         token_estimate = infer_token_count(seed_email, args.model)
 
         for prompt_kind in selected_prompt_kinds:
-            if not args.disable_token_limit_skip and token_estimate > args.historical_token_limit:
-                results.append(
-                    RowResult(
-                        row_number=row_number,
-                        prompt_kind=prompt_kind,
-                        prompt_rounds=args.rounds,
-                        original_subject=original_subject,
-                        original_body=original_body,
-                        rewritten_subject=original_subject,
-                        rewritten_body=original_body,
-                        label=label,
-                        original_data_source=original_data_source,
-                        output_data_source=build_output_source(original_data_source, prompt_kind, args.rounds),
-                        model=args.model,
-                        token_estimate=token_estimate,
-                        skipped=True,
-                        skip_reason=f"token_estimate>{args.historical_token_limit}",
-                    )
-                )
-                completed_results += 1
-                if args.save_every > 0 and completed_results % args.save_every == 0:
-                    write_csv(rewritten_csv_path, results)
-                    write_simplified_csv(simplified_csv_path, results)
-                    print(
-                        f"[checkpoint] saved {completed_results} rows to {rewritten_csv_path}",
-                        file=sys.stderr,
-                    )
-                continue
-
             current_email = seed_email
             final_subject = original_subject
             final_body = original_body
+            skip_reason = ""
+            was_skipped = False
 
             for round_idx in range(1, args.rounds + 1):
-                prompt_text = PROMPT_TEMPLATES[prompt_kind].format(email_text=current_email)
-                response_text, raw_response = client.complete(prompt_text)
+                current_email, prompt_text, prompt_token_estimate = truncate_email_to_fit_prompt(
+                    prompt_kind=prompt_kind,
+                    email_text=current_email,
+                    model=args.model,
+                    model_context_limit=model_context_limit,
+                    completion_token_reserve=args.completion_token_reserve,
+                )
+                try:
+                    response_text, raw_response = client.complete(prompt_text)
+                except ContextLengthExceededError:
+                    current_email, prompt_text, prompt_token_estimate = truncate_email_to_fit_prompt(
+                        prompt_kind=prompt_kind,
+                        email_text=current_email,
+                        model=args.model,
+                        model_context_limit=max(1, model_context_limit - 512),
+                        completion_token_reserve=args.completion_token_reserve,
+                    )
+                    try:
+                        response_text, raw_response = client.complete(prompt_text)
+                    except ContextLengthExceededError:
+                        was_skipped = True
+                        skip_reason = "context_length_exceeded"
+                        final_subject = original_subject
+                        final_body = original_body
+                        break
                 final_subject, final_body = parse_subject_and_body(response_text, final_subject)
                 current_email = render_email(final_subject, final_body)
 
@@ -562,6 +658,7 @@ def main() -> int:
                         "round": round_idx,
                         "model": args.model,
                         "token_estimate": token_estimate,
+                        "prompt_token_estimate": prompt_token_estimate,
                         "original_subject": original_subject,
                         "original_body": original_body,
                         "input_email_for_round": prompt_text,
@@ -587,8 +684,8 @@ def main() -> int:
                     output_data_source=build_output_source(original_data_source, prompt_kind, args.rounds),
                     model=args.model,
                     token_estimate=token_estimate,
-                    skipped=False,
-                    skip_reason="",
+                    skipped=was_skipped,
+                    skip_reason=skip_reason,
                 )
             )
             completed_results += 1
@@ -629,6 +726,8 @@ def main() -> int:
         "base_url": args.base_url,
         "historical_token_limit": args.historical_token_limit,
         "token_limit_skip_enabled": not args.disable_token_limit_skip,
+        "model_context_limit": model_context_limit,
+        "completion_token_reserve": args.completion_token_reserve,
         "temperature": args.temperature,
         "save_every": args.save_every,
         "max_completion_tokens": args.max_completion_tokens,

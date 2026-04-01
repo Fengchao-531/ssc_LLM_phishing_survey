@@ -23,6 +23,7 @@ Notes on fidelity:
 import argparse
 import csv
 import json
+import math
 import os
 import re
 import sys
@@ -51,6 +52,12 @@ DEFAULT_SUBJECT_COLUMN = "Subject"
 DEFAULT_BODY_COLUMN = "Body"
 DEFAULT_LABEL_COLUMN = "label"
 DEFAULT_DATA_SOURCE_COLUMN = "data_source"
+DEFAULT_COMPLETION_TOKEN_RESERVE = 1000
+
+MODEL_CONTEXT_LIMITS: Dict[str, int] = {
+    "gpt-4o": 128000,
+    "gpt-3.5-turbo": 16385,
+}
 
 SUBJECT_RE = re.compile(r"(?im)^\s*subject(?:\s*line)?\s*[:：]\s*(.+)$")
 CODE_FENCE_RE = re.compile(r"^```[a-zA-Z0-9_-]*\s*|\s*```$", re.MULTILINE)
@@ -70,6 +77,10 @@ class RowResult(NamedTuple):
     prompt_rounds: int
     skipped: bool
     skip_reason: str
+
+
+class ContextLengthExceededError(RuntimeError):
+    """Raised when the model rejects a prompt for exceeding context length."""
 
 
 def parse_args() -> argparse.Namespace:
@@ -181,6 +192,18 @@ def parse_args() -> argparse.Namespace:
         default=25,
         help="Progress logging interval.",
     )
+    parser.add_argument(
+        "--model-context-limit",
+        type=int,
+        default=0,
+        help="Model context limit. Defaults to an inferred limit for known models.",
+    )
+    parser.add_argument(
+        "--completion-token-reserve",
+        type=int,
+        default=DEFAULT_COMPLETION_TOKEN_RESERVE,
+        help="Reserved tokens for the model response when truncating long inputs.",
+    )
     return parser.parse_args()
 
 
@@ -223,6 +246,41 @@ def parse_subject_and_body(model_text: str, fallback_subject: str) -> Tuple[str,
 def is_phishing_label(label: str) -> bool:
     value = str(label).strip().lower()
     return value in {"1", "phishing", "spam", "malicious", "true", "yes"}
+
+
+def infer_token_count(text: str, model: str) -> int:
+    try:
+        import tiktoken  # type: ignore
+
+        try:
+            encoding = tiktoken.encoding_for_model(model)
+        except KeyError:
+            encoding = tiktoken.get_encoding("cl100k_base")
+        return len(encoding.encode(text))
+    except Exception:
+        return max(1, math.ceil(len(text) / 4))
+
+
+def maybe_get_model_encoding(model: str) -> Any:
+    try:
+        import tiktoken  # type: ignore
+
+        try:
+            return tiktoken.encoding_for_model(model)
+        except KeyError:
+            return tiktoken.get_encoding("cl100k_base")
+    except Exception:
+        return None
+
+
+def get_model_context_limit(model: str, requested_limit: int) -> int:
+    if requested_limit > 0:
+        return requested_limit
+    model_norm = (model or "").strip().lower()
+    for prefix, limit in MODEL_CONTEXT_LIMITS.items():
+        if model_norm.startswith(prefix):
+            return limit
+    return 128000
 
 
 def infer_api_mode(model: str, requested_mode: str) -> str:
@@ -307,6 +365,67 @@ def build_adversarial_prompts(
         email_text=email_text,
     )
     return developer_prompt, user_prompt
+
+
+def truncate_source_email_to_fit_prompts(
+    *,
+    developer_prompt: str,
+    subject: str,
+    body: str,
+    label: str,
+    round_idx: int,
+    model: str,
+    model_context_limit: int,
+    completion_token_reserve: int,
+) -> Tuple[str, str, str, int]:
+    email_text = render_email(subject, body)
+    developer_prompt_text, user_prompt = build_adversarial_prompts(
+        subject=subject,
+        body=body,
+        label=label,
+        round_idx=round_idx,
+    )
+    total_prompt = developer_prompt_text + "\n\n" + user_prompt
+    target_prompt_tokens = max(1, model_context_limit - max(0, completion_token_reserve))
+    prompt_tokens = infer_token_count(total_prompt, model)
+    if prompt_tokens <= target_prompt_tokens:
+        return email_text, developer_prompt_text, user_prompt, prompt_tokens
+
+    fixed_user_prompt = user_prompt.replace(email_text, "")
+    fixed_tokens = infer_token_count(developer_prompt_text + "\n\n" + fixed_user_prompt, model)
+    allowed_email_tokens = max(1, target_prompt_tokens - fixed_tokens)
+
+    encoding = maybe_get_model_encoding(model)
+    if encoding is not None:
+        email_tokens = encoding.encode(email_text)
+        truncated_email = encoding.decode(email_tokens[:allowed_email_tokens])
+    else:
+        truncated_email = email_text[: max(1, allowed_email_tokens * 4)]
+
+    while truncated_email:
+        candidate_user_prompt = user_prompt.replace(email_text, truncated_email, 1)
+        candidate_total_prompt = developer_prompt_text + "\n\n" + candidate_user_prompt
+        prompt_tokens = infer_token_count(candidate_total_prompt, model)
+        if prompt_tokens <= target_prompt_tokens:
+            return truncated_email, developer_prompt_text, candidate_user_prompt, prompt_tokens
+
+        if encoding is not None:
+            email_tokens = encoding.encode(truncated_email)
+            if len(email_tokens) <= 1:
+                break
+            shrink_by = max(1, min(128, len(email_tokens) // 20))
+            truncated_email = encoding.decode(email_tokens[:-shrink_by])
+        else:
+            if len(truncated_email) <= 4:
+                break
+            shrink_by = max(1, min(512, len(truncated_email) // 20))
+            truncated_email = truncated_email[:-shrink_by]
+
+    candidate_user_prompt = user_prompt.replace(email_text, truncated_email, 1)
+    candidate_total_prompt = developer_prompt_text + "\n\n" + candidate_user_prompt
+    return truncated_email, developer_prompt_text, candidate_user_prompt, infer_token_count(
+        candidate_total_prompt, model
+    )
 
 
 def write_csv(path: Path, rows: Sequence[RowResult]) -> None:
@@ -453,6 +572,11 @@ class OpenAITextClient:
                     status_code = getattr(exc, "status_code", None)
                     response_obj = getattr(exc, "response", None)
                     body = getattr(response_obj, "text", None) if response_obj is not None else None
+                    body_text = str(body or "")
+                    if status_code == 400 and "context_length_exceeded" in body_text:
+                        raise ContextLengthExceededError(body_text) from exc
+                    if status_code == 400 and "maximum context length" in body_text.lower():
+                        raise ContextLengthExceededError(body_text) from exc
                     retryable = status_code in {408, 409, 425, 429, 500, 502, 503, 504}
                     if attempt >= self.max_retries or not retryable:
                         raise RuntimeError("HTTP {} from API: {}".format(status_code, body)) from exc
@@ -508,6 +632,8 @@ def main() -> int:
     args = parse_args()
     if args.rounds < 1:
         raise ValueError("--rounds must be at least 1.")
+    if args.completion_token_reserve < 0:
+        raise ValueError("--completion-token-reserve must be non-negative.")
 
     input_path = Path(args.input).resolve()
     output_dir = build_output_dir(args.output_dir)
@@ -537,6 +663,7 @@ def main() -> int:
             break
 
     api_mode = infer_api_mode(args.model, args.api_mode)
+    model_context_limit = get_model_context_limit(args.model, args.model_context_limit)
     client = OpenAITextClient(
         api_key=args.api_key,
         base_url=args.base_url,
@@ -559,6 +686,8 @@ def main() -> int:
 
         final_subject = original_subject
         final_body = original_body
+        was_skipped = False
+        skip_reason = ""
 
         for round_idx in range(1, args.rounds + 1):
             developer_prompt, user_prompt = build_adversarial_prompts(
@@ -567,7 +696,37 @@ def main() -> int:
                 label=label,
                 round_idx=round_idx,
             )
-            response_text, raw_response = client.generate(developer_prompt, user_prompt)
+            _, developer_prompt, user_prompt, prompt_token_estimate = truncate_source_email_to_fit_prompts(
+                developer_prompt=developer_prompt,
+                subject=final_subject,
+                body=final_body,
+                label=label,
+                round_idx=round_idx,
+                model=args.model,
+                model_context_limit=model_context_limit,
+                completion_token_reserve=args.completion_token_reserve,
+            )
+            try:
+                response_text, raw_response = client.generate(developer_prompt, user_prompt)
+            except ContextLengthExceededError:
+                _, developer_prompt, user_prompt, prompt_token_estimate = truncate_source_email_to_fit_prompts(
+                    developer_prompt=developer_prompt,
+                    subject=final_subject,
+                    body=final_body,
+                    label=label,
+                    round_idx=round_idx,
+                    model=args.model,
+                    model_context_limit=max(1, model_context_limit - 512),
+                    completion_token_reserve=args.completion_token_reserve,
+                )
+                try:
+                    response_text, raw_response = client.generate(developer_prompt, user_prompt)
+                except ContextLengthExceededError:
+                    was_skipped = True
+                    skip_reason = "context_length_exceeded"
+                    final_subject = original_subject
+                    final_body = original_body
+                    break
             final_subject, final_body = parse_subject_and_body(response_text, final_subject)
 
             append_jsonl(
@@ -580,6 +739,7 @@ def main() -> int:
                     "label": label,
                     "model": args.model,
                     "api_mode": api_mode,
+                    "prompt_token_estimate": prompt_token_estimate,
                     "developer_prompt": developer_prompt,
                     "user_prompt": user_prompt,
                     "response_text": response_text,
@@ -603,8 +763,8 @@ def main() -> int:
                 model=args.model,
                 api_mode=api_mode,
                 prompt_rounds=args.rounds,
-                skipped=False,
-                skip_reason="",
+                skipped=was_skipped,
+                skip_reason=skip_reason,
             )
         )
 
@@ -641,6 +801,8 @@ def main() -> int:
         "result_rows": len(results),
         "model": args.model,
         "api_mode": api_mode,
+        "model_context_limit": model_context_limit,
+        "completion_token_reserve": args.completion_token_reserve,
         "rounds": args.rounds,
         "temperature": args.temperature,
         "save_every": args.save_every,
