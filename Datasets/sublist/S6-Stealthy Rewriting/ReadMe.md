@@ -45,14 +45,14 @@ It can also be pointed at custom column names through CLI flags.
 
 ## Example
 
-Run on the phishing subset from S4:
+Run on the phishing subset prepared in S6:
 
 ```bash
 cd /scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey
 conda run -n FC-W2-gpu-p39 python -m pip install openai
 export OPENAI_API_KEY=your_key_here
 conda run -n FC-W2-gpu-p39 python "Datasets/sublist/S6-Stealthy Rewriting/reproduce_utaliyeva2023_rephrasing.py" \
-  --input "Datasets/sublist/S4-Scenarios-driven Adaptation/HW-P.csv" \
+  --input "Datasets/sublist/S6-Stealthy Rewriting/HW-P.csv" \
   --prompt-kind adversarial \
   --rounds 1 \
   --model gpt-3.5-turbo \
@@ -64,7 +64,7 @@ Compare adversarial vs general rewriting:
 
 ```bash
 python3 "Datasets/sublist/S6-Stealthy Rewriting/reproduce_utaliyeva2023_rephrasing.py" \
-  --input "Datasets/sublist/S4-Scenarios-driven Adaptation/HW-P.csv" \
+  --input "Datasets/sublist/S6-Stealthy Rewriting/HW-P.csv" \
   --prompt-kind all \
   --rounds 1 \
   --model gpt-3.5-turbo
@@ -74,7 +74,7 @@ Try iterative rewriting:
 
 ```bash
 python3 "Datasets/sublist/S6-Stealthy Rewriting/reproduce_utaliyeva2023_rephrasing.py" \
-  --input "Datasets/sublist/S4-Scenarios-driven Adaptation/HW-P.csv" \
+  --input "Datasets/sublist/S6-Stealthy Rewriting/HW-P.csv" \
   --prompt-kind adversarial \
   --rounds 3 \
   --model gpt-3.5-turbo

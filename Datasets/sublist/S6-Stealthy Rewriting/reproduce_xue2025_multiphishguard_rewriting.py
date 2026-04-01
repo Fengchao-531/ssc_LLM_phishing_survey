@@ -38,10 +38,15 @@ except ImportError:
     APIStatusError = None
     OpenAI = None
 
+# Some Generic-Data derived emails are very large HTML messages.
+csv.field_size_limit(10**9)
+
 
 SCRIPT_DIR = Path(__file__).resolve().parent
+SIMPLIFIED_OUTPUT_PATH = SCRIPT_DIR / "MPG-LLM-P.csv"
 DEFAULT_BASE_URL = "https://api.openai.com/v1"
 DEFAULT_TIMEOUT = 120
+DEFAULT_INPUT_PATH = SCRIPT_DIR / "HW-P.csv"
 DEFAULT_SUBJECT_COLUMN = "Subject"
 DEFAULT_BODY_COLUMN = "Body"
 DEFAULT_LABEL_COLUMN = "label"
@@ -71,7 +76,11 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Reproduce the MultiPhishGuard adversarial rewriting agent."
     )
-    parser.add_argument("--input", required=True, help="Input CSV path.")
+    parser.add_argument(
+        "--input",
+        default=str(DEFAULT_INPUT_PATH),
+        help="Input CSV path. Defaults to S6-Stealthy Rewriting/HW-P.csv.",
+    )
     parser.add_argument(
         "--output-dir",
         default="",
@@ -340,6 +349,23 @@ def write_csv(path: Path, rows: Sequence[RowResult]) -> None:
             )
 
 
+def write_simplified_csv(path: Path, rows: Sequence[RowResult]) -> None:
+    fieldnames = ["Subject", "Body", "label", "data_source"]
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer.writeheader()
+        for row in rows:
+            writer.writerow(
+                {
+                    "Subject": row.rewritten_subject,
+                    "Body": row.rewritten_body,
+                    "label": row.label,
+                    "data_source": row.original_data_source,
+                }
+            )
+
+
 def append_jsonl(path: Path, record: Dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("a", encoding="utf-8") as handle:
@@ -486,6 +512,7 @@ def main() -> int:
     input_path = Path(args.input).resolve()
     output_dir = build_output_dir(args.output_dir)
     output_csv_path = output_dir / build_output_csv_name(args.model)
+    simplified_csv_path = SIMPLIFIED_OUTPUT_PATH
     calls_jsonl_path = output_dir / "calls.jsonl"
     manifest_path = output_dir / "run_manifest.json"
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -584,6 +611,7 @@ def main() -> int:
         completed_rows += 1
         if args.save_every > 0 and completed_rows % args.save_every == 0:
             write_csv(output_csv_path, results)
+            write_simplified_csv(simplified_csv_path, results)
             print(
                 "[checkpoint] saved {} rows to {}".format(completed_rows, output_csv_path),
                 file=sys.stderr,
@@ -596,6 +624,7 @@ def main() -> int:
             )
 
     write_csv(output_csv_path, results)
+    write_simplified_csv(simplified_csv_path, results)
 
     manifest = {
         "timestamp_utc": now_utc_iso(),
@@ -607,6 +636,7 @@ def main() -> int:
         "input_path": str(input_path),
         "output_dir": str(output_dir),
         "output_csv": str(output_csv_path),
+        "simplified_output_csv": str(simplified_csv_path),
         "selected_rows": len(selected_rows),
         "result_rows": len(results),
         "model": args.model,
@@ -623,6 +653,7 @@ def main() -> int:
     manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     print("Wrote {} rows to {}".format(len(results), output_csv_path), file=sys.stderr)
+    print("Wrote simplified export to {}".format(simplified_csv_path), file=sys.stderr)
     print("Saved call logs to {}".format(calls_jsonl_path), file=sys.stderr)
     print("Saved manifest to {}".format(manifest_path), file=sys.stderr)
     return 0
