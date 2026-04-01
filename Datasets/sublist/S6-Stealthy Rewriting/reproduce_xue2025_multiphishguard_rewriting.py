@@ -61,6 +61,10 @@ MODEL_CONTEXT_LIMITS: Dict[str, int] = {
 
 SUBJECT_RE = re.compile(r"(?im)^\s*subject(?:\s*line)?\s*[:：]\s*(.+)$")
 CODE_FENCE_RE = re.compile(r"^```[a-zA-Z0-9_-]*\s*|\s*```$", re.MULTILINE)
+RATE_LIMIT_TOKENS_RE = re.compile(
+    r"Limit\s+(?P<limit>\d+)\s*,\s*Requested\s+(?P<requested>\d+)",
+    re.IGNORECASE,
+)
 
 
 class RowResult(NamedTuple):
@@ -81,6 +85,21 @@ class RowResult(NamedTuple):
 
 class ContextLengthExceededError(RuntimeError):
     """Raised when the model rejects a prompt for exceeding context length."""
+
+
+class TokenRateLimitExceededError(RuntimeError):
+    """Raised when one request exceeds the organization's token-per-minute cap."""
+
+    def __init__(
+        self,
+        message: str,
+        *,
+        limit_tokens: Optional[int] = None,
+        requested_tokens: Optional[int] = None,
+    ) -> None:
+        super().__init__(message)
+        self.limit_tokens = limit_tokens
+        self.requested_tokens = requested_tokens
 
 
 def parse_args() -> argparse.Namespace:
@@ -491,6 +510,105 @@ def append_jsonl(path: Path, record: Dict[str, Any]) -> None:
         handle.write(json.dumps(record, ensure_ascii=False) + "\n")
 
 
+def load_existing_results(path: Path) -> List[RowResult]:
+    if not path.exists():
+        return []
+
+    with path.open("r", encoding="utf-8", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+
+    results: List[RowResult] = []
+    for row in rows:
+        results.append(
+            RowResult(
+                row_number=int(str(row.get("row_number", "0") or "0")),
+                rewritten_subject=normalize_text(row.get("Subject", "")),
+                rewritten_body=normalize_text(row.get("Body", "")),
+                label=str(row.get("label", "")).strip(),
+                data_source=str(row.get("data_source", "")).strip(),
+                original_subject=normalize_text(row.get("original_subject", "")),
+                original_body=normalize_text(row.get("original_body", "")),
+                original_data_source=str(row.get("original_data_source", "")).strip(),
+                model=str(row.get("model", "")).strip(),
+                api_mode=str(row.get("api_mode", "")).strip(),
+                prompt_rounds=int(str(row.get("prompt_rounds", "0") or "0")),
+                skipped=str(row.get("skipped", "")).strip().lower() in {"1", "true", "yes"},
+                skip_reason=str(row.get("skip_reason", "")).strip(),
+            )
+        )
+    return results
+
+
+def recover_results_from_call_logs(
+    *,
+    existing_results: Sequence[RowResult],
+    selected_rows: Sequence[Tuple[int, Dict[str, str]]],
+    calls_jsonl_path: Path,
+    subject_column: str,
+    body_column: str,
+    label_column: str,
+    data_source_column: str,
+    model: str,
+    api_mode: str,
+    rounds: int,
+) -> List[RowResult]:
+    if not calls_jsonl_path.exists():
+        return list(existing_results)
+
+    input_lookup = {row_number: row for row_number, row in selected_rows}
+    results = list(existing_results)
+    next_row_number = results[-1].row_number + 1 if results else 2
+
+    calls_by_row: Dict[int, Dict[int, Dict[str, Any]]] = {}
+    with calls_jsonl_path.open("r", encoding="utf-8") as handle:
+        for line in handle:
+            line = line.strip()
+            if not line:
+                continue
+            record = json.loads(line)
+            row_number = int(record.get("row_number"))
+            round_idx = int(record.get("round"))
+            calls_by_row.setdefault(row_number, {})[round_idx] = record
+
+    while next_row_number in input_lookup:
+        round_records = calls_by_row.get(next_row_number, {})
+        if any(round_idx not in round_records for round_idx in range(1, rounds + 1)):
+            break
+
+        row = input_lookup[next_row_number]
+        original_subject = normalize_text(row.get(subject_column, ""))
+        original_body = normalize_text(row.get(body_column, ""))
+        label = str(row.get(label_column, "")).strip()
+        original_data_source = str(row.get(data_source_column, "")).strip()
+
+        final_subject = original_subject
+        final_body = original_body
+        for round_idx in range(1, rounds + 1):
+            response_text = normalize_text(round_records[round_idx].get("response_text", ""))
+            final_subject, final_body = parse_subject_and_body(response_text, final_subject)
+
+        results.append(
+            RowResult(
+                row_number=next_row_number,
+                rewritten_subject=final_subject,
+                rewritten_body=final_body,
+                label=label,
+                data_source=build_output_source(original_data_source, model, rounds),
+                original_subject=original_subject,
+                original_body=original_body,
+                original_data_source=original_data_source,
+                model=model,
+                api_mode=api_mode,
+                prompt_rounds=rounds,
+                skipped=False,
+                skip_reason="",
+            )
+        )
+        next_row_number += 1
+
+    return results
+
+
 def validate_columns(rows: Sequence[Dict[str, str]], required_columns: Sequence[str]) -> None:
     if not rows:
         raise ValueError("Input CSV does not contain any data rows.")
@@ -577,6 +695,15 @@ class OpenAITextClient:
                         raise ContextLengthExceededError(body_text) from exc
                     if status_code == 400 and "maximum context length" in body_text.lower():
                         raise ContextLengthExceededError(body_text) from exc
+                    if status_code == 429 and "tokens per min" in body_text.lower():
+                        match = RATE_LIMIT_TOKENS_RE.search(body_text)
+                        limit_tokens = int(match.group("limit")) if match else None
+                        requested_tokens = int(match.group("requested")) if match else None
+                        raise TokenRateLimitExceededError(
+                            body_text,
+                            limit_tokens=limit_tokens,
+                            requested_tokens=requested_tokens,
+                        ) from exc
                     retryable = status_code in {408, 409, 425, 429, 500, 502, 503, 504}
                     if attempt >= self.max_retries or not retryable:
                         raise RuntimeError("HTTP {} from API: {}".format(status_code, body)) from exc
@@ -671,14 +798,52 @@ def main() -> int:
         api_mode=api_mode,
         timeout=args.timeout,
         temperature=args.temperature,
-        max_completion_tokens=args.max_completion_tokens,
+        max_completion_tokens=(
+            args.max_completion_tokens
+            if args.max_completion_tokens is not None
+            else (args.completion_token_reserve or None)
+        ),
         max_retries=args.max_retries,
     )
 
-    results: List[RowResult] = []
-    completed_rows = 0
+    existing_results = load_existing_results(output_csv_path)
+    results = recover_results_from_call_logs(
+        existing_results=existing_results,
+        selected_rows=selected_rows,
+        calls_jsonl_path=calls_jsonl_path,
+        subject_column=args.subject_column,
+        body_column=args.body_column,
+        label_column=args.label_column,
+        data_source_column=args.data_source_column,
+        model=args.model,
+        api_mode=api_mode,
+        rounds=args.rounds,
+    )
+    if len(results) > len(existing_results):
+        write_csv(output_csv_path, results)
+        write_simplified_csv(simplified_csv_path, results)
+        print(
+            "[recovery] restored {} rows from {}".format(
+                len(results) - len(existing_results), calls_jsonl_path
+            ),
+            file=sys.stderr,
+        )
+    completed_rows = len(results)
+    if completed_rows > len(selected_rows):
+        raise ValueError(
+            "Existing output has {} rows, but the current input only selected {} rows.".format(
+                completed_rows, len(selected_rows)
+            )
+        )
+    if completed_rows > 0:
+        print(
+            "[resume] loaded {} existing rows from {}".format(completed_rows, output_csv_path),
+            file=sys.stderr,
+        )
 
-    for selected_index, (row_number, row) in enumerate(selected_rows, start=1):
+    for selected_index, (row_number, row) in enumerate(
+        selected_rows[completed_rows:], start=completed_rows + 1
+    ):
         original_subject = normalize_text(row.get(args.subject_column, ""))
         original_body = normalize_text(row.get(args.body_column, ""))
         label = str(row.get(args.label_column, "")).strip()
@@ -690,43 +855,69 @@ def main() -> int:
         skip_reason = ""
 
         for round_idx in range(1, args.rounds + 1):
-            developer_prompt, user_prompt = build_adversarial_prompts(
-                subject=final_subject,
-                body=final_body,
-                label=label,
-                round_idx=round_idx,
-            )
-            _, developer_prompt, user_prompt, prompt_token_estimate = truncate_source_email_to_fit_prompts(
-                developer_prompt=developer_prompt,
-                subject=final_subject,
-                body=final_body,
-                label=label,
-                round_idx=round_idx,
-                model=args.model,
-                model_context_limit=model_context_limit,
-                completion_token_reserve=args.completion_token_reserve,
-            )
-            try:
-                response_text, raw_response = client.generate(developer_prompt, user_prompt)
-            except ContextLengthExceededError:
-                _, developer_prompt, user_prompt, prompt_token_estimate = truncate_source_email_to_fit_prompts(
-                    developer_prompt=developer_prompt,
+            effective_context_limit = model_context_limit
+            response_text = ""
+            raw_response: Dict[str, Any] = {}
+            prompt_token_estimate = 0
+
+            for adaptive_attempt in range(1, 5):
+                developer_prompt, user_prompt = build_adversarial_prompts(
                     subject=final_subject,
                     body=final_body,
                     label=label,
                     round_idx=round_idx,
-                    model=args.model,
-                    model_context_limit=max(1, model_context_limit - 512),
-                    completion_token_reserve=args.completion_token_reserve,
                 )
                 try:
+                    (
+                        _,
+                        developer_prompt,
+                        user_prompt,
+                        prompt_token_estimate,
+                    ) = truncate_source_email_to_fit_prompts(
+                        developer_prompt=developer_prompt,
+                        subject=final_subject,
+                        body=final_body,
+                        label=label,
+                        round_idx=round_idx,
+                        model=args.model,
+                        model_context_limit=effective_context_limit,
+                        completion_token_reserve=args.completion_token_reserve,
+                    )
                     response_text, raw_response = client.generate(developer_prompt, user_prompt)
-                except ContextLengthExceededError:
-                    was_skipped = True
-                    skip_reason = "context_length_exceeded"
-                    final_subject = original_subject
-                    final_body = original_body
                     break
+                except ContextLengthExceededError:
+                    next_limit = max(1, effective_context_limit - 512)
+                    if next_limit >= effective_context_limit or adaptive_attempt >= 4:
+                        was_skipped = True
+                        skip_reason = "context_length_exceeded"
+                        final_subject = original_subject
+                        final_body = original_body
+                        break
+                    effective_context_limit = next_limit
+                    continue
+                except TokenRateLimitExceededError as exc:
+                    rate_cap = exc.limit_tokens or model_context_limit
+                    next_limit = min(
+                        effective_context_limit - 1,
+                        max(1, rate_cap - max(args.completion_token_reserve, 1024)),
+                    )
+                    if next_limit >= effective_context_limit:
+                        next_limit = max(
+                            1,
+                            effective_context_limit - max(1024, effective_context_limit // 10),
+                        )
+                    if adaptive_attempt >= 4:
+                        was_skipped = True
+                        skip_reason = "token_rate_limit_exceeded"
+                        final_subject = original_subject
+                        final_body = original_body
+                        break
+                    time.sleep(min(2 ** adaptive_attempt, 10))
+                    effective_context_limit = next_limit
+                    continue
+
+            if was_skipped:
+                break
             final_subject, final_body = parse_subject_and_body(response_text, final_subject)
 
             append_jsonl(
