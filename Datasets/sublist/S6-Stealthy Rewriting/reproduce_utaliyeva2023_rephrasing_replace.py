@@ -36,7 +36,7 @@ except Exception:  # pragma: no cover - optional dependency fallback
 csv.field_size_limit(10**9)
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-SIMPLIFIED_OUTPUT_PATH = SCRIPT_DIR / "UTA-LLM-P-replace.csv"
+SIMPLIFIED_OUTPUT_PATH = SCRIPT_DIR / "UTA-LLM-B.csv"
 
 DEFAULT_TIMEOUT = 120
 DEFAULT_INPUT_PATH = SCRIPT_DIR / "HW-P.csv"
@@ -45,10 +45,12 @@ DEFAULT_LABEL_VALUE = "1"
 DEFAULT_SUBJECT_COLUMN = "Subject"
 DEFAULT_BODY_COLUMN = "Body"
 DEFAULT_COMPLETION_TOKEN_RESERVE = 512
+MODEL_NAME = "meta-llama/Llama-3.1-8B-Instruct"
 
 MODEL_CONTEXT_LIMITS: Dict[str, int] = {
     "gpt-3.5-turbo": 16385,
     "deepseek-ai/deepseek-r1-distill-llama-70b": 128000,
+    "meta-llama/llama-3.1-8b-instruct": 128000,
 }
 
 PROMPT_TEMPLATES: Dict[str, str] = {
@@ -82,6 +84,44 @@ class ContextLengthExceededError(RuntimeError):
     """Raised when the model prompt exceeds the configured local context length."""
 
 
+def resolve_hf_token() -> str:
+    for name in ("HF_TOKEN", "HUGGINGFACE_HUB_TOKEN", "HF_HUB_TOKEN"):
+        value = (os.environ.get(name) or "").strip()
+        if value:
+            return value
+    return ""
+
+
+def maybe_hf_login(token: str) -> None:
+    if not token:
+        return
+    try:
+        from huggingface_hub import login  # type: ignore
+
+        login(token=token, add_to_git_credential=False)
+    except Exception as exc:
+        print(
+            "Warning: could not run huggingface_hub.login(); continuing with token-based loading. "
+            "Details: {}".format(exc),
+            file=sys.stderr,
+        )
+
+
+def load_hf_with_auth(
+    loader: Any,
+    model_id: str,
+    *,
+    hf_token: str,
+    **kwargs: Any,
+) -> Any:
+    if not hf_token:
+        return loader(model_id, **kwargs)
+    try:
+        return loader(model_id, token=hf_token, **kwargs)
+    except TypeError:
+        return loader(model_id, use_auth_token=hf_token, **kwargs)
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Batch reproduction of the Utaliyeva et al. 2023 email rephrasing setup."
@@ -110,7 +150,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--model",
-        default=os.environ.get("HF_MODEL", "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"),
+        default=MODEL_NAME,
         help="Local Hugging Face model id.",
     )
     parser.add_argument(
@@ -385,15 +425,21 @@ class LocalTransformersChatClient:
         self.model = model
         self.temperature = temperature
         self.max_completion_tokens = max_completion_tokens
-        self.tokenizer = AutoTokenizer.from_pretrained(
+        self.hf_token = resolve_hf_token()
+        maybe_hf_login(self.hf_token)
+        self.tokenizer = load_hf_with_auth(
+            AutoTokenizer.from_pretrained,
             self.model,
+            hf_token=self.hf_token,
             trust_remote_code=trust_remote_code,
         )
         self.tokenizer.padding_side = "left"
         if self.tokenizer.pad_token_id is None and self.tokenizer.eos_token_id is not None:
             self.tokenizer.pad_token = self.tokenizer.eos_token
-        self.model_obj = AutoModelForCausalLM.from_pretrained(
+        self.model_obj = load_hf_with_auth(
+            AutoModelForCausalLM.from_pretrained,
             self.model,
+            hf_token=self.hf_token,
             trust_remote_code=trust_remote_code,
             torch_dtype="auto",
             device_map="auto",
