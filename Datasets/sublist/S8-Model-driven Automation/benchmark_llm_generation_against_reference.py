@@ -51,11 +51,12 @@ DEFAULT_OUTPUT_TOKENS = 1024
 DEFAULT_PERPLEXITY_MODEL = "gpt2"
 DEFAULT_TOPIC_COUNT = 5
 DEFAULT_TOPIC_TOP_WORDS = 10
+DEFAULT_HF_MODEL_ROOT = os.environ.get("HF_MODEL_ROOT", "").strip()
 DEFAULT_TOP_MODELS = [
     "gpt-5.4",
     "claude-sonnet-4",
     "gemini-2.5-pro",
-    "deepseek-v3.2-chat",
+    "deepseek-r1-distill-llama-70b",
     "llama-4-scout",
     "mistral-small-3.2",
 ]
@@ -169,27 +170,15 @@ MODEL_CATALOG: List[ModelSpec] = [
         notes="Google's state-of-the-art Gemini API model.",
     ),
     ModelSpec(
-        alias="deepseek-v3.2-chat",
+        alias="deepseek-r1-distill-llama-70b",
         company="DeepSeek",
         family="DeepSeek",
-        access_type="black_box",
-        provider="openai_chat",
-        model_name="deepseek-chat",
-        api_base_url="https://api.deepseek.com/v1",
-        api_key_env="DEEPSEEK_API_KEY",
+        access_type="white_box",
+        provider="local_hf",
+        model_name="deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+        hf_model_id="deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
         enabled_by_default=True,
-        notes="`deepseek-chat` currently serves DeepSeek-V3.2.",
-    ),
-    ModelSpec(
-        alias="deepseek-reasoner",
-        company="DeepSeek",
-        family="DeepSeek",
-        access_type="black_box",
-        provider="openai_chat",
-        model_name="deepseek-reasoner",
-        api_base_url="https://api.deepseek.com/v1",
-        api_key_env="DEEPSEEK_API_KEY",
-        notes="DeepSeek reasoning endpoint.",
+        notes="Open-weight DeepSeek R1 distilled Llama 70B model for local Hugging Face inference.",
     ),
     ModelSpec(
         alias="grok-4",
@@ -421,6 +410,11 @@ def parse_args() -> argparse.Namespace:
         "--hf-dtype",
         default="auto",
         help="torch dtype hint for local Hugging Face models: auto, float16, bfloat16, float32.",
+    )
+    parser.add_argument(
+        "--hf-model-root",
+        default=DEFAULT_HF_MODEL_ROOT,
+        help="Optional local Hugging Face model root. If set, local_hf models are loaded from this directory first.",
     )
     return parser.parse_args()
 
@@ -834,8 +828,26 @@ def resolve_torch_dtype(dtype_name: str) -> Any:
     return mapping[dtype_name]
 
 
+def resolve_local_hf_model_source(spec: ModelSpec, args: argparse.Namespace) -> str:
+    model_id = (spec.hf_model_id or spec.model_name or "").strip()
+    if not model_id:
+        raise ValueError(f"No local HF model id configured for {spec.alias}.")
+
+    root = Path(args.hf_model_root).expanduser().resolve() if args.hf_model_root else None
+    if root:
+        candidates = [
+            root / model_id,
+            root / model_id.replace("/", "--"),
+            root / model_id.split("/")[-1],
+        ]
+        for candidate in candidates:
+            if candidate.exists():
+                return str(candidate)
+    return model_id
+
+
 def get_local_generator(spec: ModelSpec, args: argparse.Namespace) -> Any:
-    cache_key = f"{spec.alias}|{args.hf_device_map}|{args.hf_dtype}"
+    cache_key = f"{spec.alias}|{args.hf_device_map}|{args.hf_dtype}|{args.hf_model_root}"
     if cache_key in _LOCAL_GENERATORS:
         return _LOCAL_GENERATORS[cache_key]
 
@@ -847,10 +859,11 @@ def get_local_generator(spec: ModelSpec, args: argparse.Namespace) -> Any:
             "Install it with: python3 -m pip install transformers torch"
         ) from exc
 
+    model_source = resolve_local_hf_model_source(spec, args)
     generator = pipeline(
         "text-generation",
-        model=spec.hf_model_id or spec.model_name,
-        tokenizer=spec.hf_model_id or spec.model_name,
+        model=model_source,
+        tokenizer=model_source,
         device_map=args.hf_device_map,
         torch_dtype=resolve_torch_dtype(args.hf_dtype),
     )
@@ -1160,6 +1173,7 @@ def build_manifest(
             "BLEU and ROUGE-1 are computed pairwise against the aligned reference row.",
             "Perplexity is computed with a separate local scorer model, not the generation model itself.",
             "Topic coherence is corpus-level and is reported separately for generated texts and reference texts.",
+            "local_hf models resolve from --hf-model-root first and fall back to Hugging Face model ids if no local copy is found.",
         ],
     }
 

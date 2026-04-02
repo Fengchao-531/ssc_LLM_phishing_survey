@@ -1,0 +1,80 @@
+Subject,Body,label,data_source,original_subject,original_body,original_data_source,row_number,model,api_mode,prompt_rounds,skipped,skip_reason
+Re: [ILUG] cheap linux PCs,"Dear Sir/Madam,
+
+I am writing to inform you that we have noticed a significant drop in sales for our popular Xbox 360 console. The current price of €300 on your site seems excessively high considering the limited quantity available.
+
+Furthermore, I would like to highlight some additional features that may be worth considering:
+
+1. **Modchip**: This feature adds an extra layer of functionality, enhancing the gaming experience.
+2. **Time to Put On**: It ensures compatibility with various hardware setups, allowing for optimal performance across different systems.
+
+Considering these factors, I believe there might be room for improvement by adding the Modchip and",0,phishpuzzer|multiphishguard:Qwen-Qwen2.5-0.5B-Instruct:r1,Re: [ILUG] cheap linux PCs,">I'd normally never buy this but the Xbox is Eur300 on IOL's shop, a very
+>large company are making a loss on it and:
+>
+>http://xbox-linux.sourceforge.net/articles.php?aid=1&sub=Press%20Release%3A%20Xbox%20Linux%20Mandrake%209%20Released
+>
+>Mandrake has been released for it.
+
+isn't it 250 in Smyths?
+
+don't forget to add to that the modchip, and the time to put it on.
+
+(/me thinks unless you want 3d graphics, www.mini-itx.com is the way to go :))
+
+L.
+--
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie",phishpuzzer,2,Qwen/Qwen2.5-0.5B-Instruct,local_hf,1,false,
+Pipeline Update - February 15,"Morning update:
+
+Opportunities in progress: 16
+Value in pipeline: €1,025,793
+Closes this week: 4
+
+Key activities today:
+- Customer meetings: 6
+- Proposals to send: 2
+- Follow-ups needed: 12
+
+Sara",0,uberjugaad|multiphishguard:Qwen-Qwen2.5-0.5B-Instruct:r1,Pipeline Update - February 14,"Morning update:
+
+Opportunities in progress: 12
+Value in pipeline: €998,347
+Closes this week: 3
+
+Key activities today:
+- Customer meetings: 5
+- Proposals to send: 1
+- Follow-ups needed: 10
+
+Kevin",uberjugaad,3,Qwen/Qwen2.5-0.5B-Instruct,local_hf,1,false,
+Urgent: Problem with Synchronization in Windows 10 Pro,"Dear [Recipient's Name],
+
+I hope this message finds you well.
+
+We have encountered some issues with synchronization on our Windows 10 Pro systems. The software updates conflict or there may be a damaged database causing problems. We've tried restarting the system, updating the software, and clearing the cache, but these steps haven't resolved the issue.
+
+Please let us know what we need assistance with so we can address the problem promptly. Thank you for your attention to this matter.
+
+Best regards,
+[Your Name]",0,tobiasbuek|multiphishguard:Qwen-Qwen2.5-0.5B-Instruct:r1,Problems with Synchronization in Windows 10 Pro,"The project timelines are failing to sync. Software updates conflicts or a damaged database could be the reason. Despite restarting the system, installing updates, and cleaning the cache, the issue still remains unresolved.",tobiasbuek,4,Qwen/Qwen2.5-0.5B-Instruct,local_hf,1,false,
+Urgent: Digital Integration Challenges for Products,"Dear [Recipient's Name],
+
+We urgently need assistance in resolving integration issues between our current products and new digital strategies we're developing. The software incompatibilities and outdated tools pose significant hurdles.
+
+Please review our latest application updates and ensure they align perfectly with our digital strategy. If you have any suggestions or can expedite this process, please let us know.
+
+Best regards,
+
+[Your Full Name]
+[Your Position]
+[Company Name]
+[Contact Information]",0,tobiasbuek|multiphishguard:Qwen-Qwen2.5-0.5B-Instruct:r1,Challenges in Digital Integration for Products,A marketing agency is facing challenges in integrating digital strategies with existing products due to software incompatibilities and outdated tools. Reinstalling applications and checking for updates might help resolve the issues.,tobiasbuek,5,Qwen/Qwen2.5-0.5B-Instruct,local_hf,1,false,
+Request for Information,"Dear [Recipient's Name],
+
+I hope this message finds you well. My name is [Your Full Name] and I am reaching out regarding our recent discussion about enhancing hospital security.
+
+Could you please share with us the specific measures we should implement to secure sensitive patient information and prevent data breaches? Furthermore, could you kindly provide us with any relevant compliance certifications, such as those held by [Company's Name], like HIPAA?
+
+Additionally, I am particularly interested in understanding more about your security services, including network monitoring, threat detection, and incident response. If you have any case studies or whitepapers related to",0,tobiasbuek|multiphishguard:Qwen-Qwen2.5-0.5B-Instruct:r1,Customer Support Ticket,"Customer Support, seeking to explore solutions for securing medical data to enhance hospital security. Could you provide details on the measures your company has implemented to protect sensitive patient information and prevent data breaches? I would greatly appreciate information on any compliance certifications your company holds, such as HIPAA. Additionally, I am interested in learning more about your security services, including network monitoring, threat detection, and incident response. Please let me know if you have any case studies or whitepapers available.",tobiasbuek,6,Qwen/Qwen2.5-0.5B-Instruct,local_hf,1,false,

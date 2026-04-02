@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "2026-04-02T08:06:31+00:00",
+  "paper": {
+    "citation_key": "utaliyeva2023chatgpt",
+    "title": "ChatGPT: A Threat to Spam Filtering Systems",
+    "venue": "HPCC/DSS/SmartCity/DependSys",
+    "year": 2023
+  },
+  "input_path": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S6-Stealthy Rewriting/HW-B.csv",
+  "output_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S6-Stealthy Rewriting/runs/hwb5_uta_replace_qwen05b",
+  "output_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S6-Stealthy Rewriting/runs/hwb5_uta_replace_qwen05b/LLM-Qwen-Qwen2.5-0.5B-Instruct-replace.csv",
+  "simplified_output_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S6-Stealthy Rewriting/UTA-LLM-P-replace.csv",
+  "selected_rows": 5,
+  "result_rows": 5,
+  "prompt_kinds": [
+    "adversarial"
+  ],
+  "rounds": 1,
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "historical_token_limit": 4096,
+  "token_limit_skip_enabled": true,
+  "model_context_limit": 16385,
+  "completion_token_reserve": 512,
+  "temperature": 0.7,
+  "save_every": 1,
+  "max_completion_tokens": 128,
+  "notes": [
+    "The large-scale paper prompt was 'Rewrite the following email to be less spammy: \"email text\"'.",
+    "The paper also compares this against the general prompt 'Rewrite the following email: \"email text\"'.",
+    "Iterative rewriting is supported here because the paper notes it as beneficial, but does not report one fixed multi-round schedule.",
+    "This replace variant uses local Hugging Face loading with AutoTokenizer/AutoModelForCausalLM and apply_chat_template."
+  ]
+}
