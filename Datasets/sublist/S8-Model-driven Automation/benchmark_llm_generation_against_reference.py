@@ -1,17 +1,12 @@
 #!/usr/bin/env python3
-"""Generate texts with multiple LLMs and compare them against a reference CSV.
+"""Generate texts with multiple LLMs and save the raw generations.
 
 This script is designed for the S8 Model-driven Automation setting:
 
 1. Read an input CSV that contains generation prompts or model inputs.
 2. Run multiple LLMs over the same inputs.
-3. Compare each generated output against a second reference CSV.
-4. Save both the generated dataset contents and evaluation metrics.
-
-Supported metric groups:
-- Pairwise row-level: BLEU, ROUGE-1
-- Fluency/model-fit: Perplexity
-- Corpus-level: Topic Coherence
+3. Align each prompt with a reference row so the reference text is preserved.
+4. Save the generated dataset contents for later scoring in a separate script.
 
 The built-in model catalog separates models into:
 - `black_box`: proprietary or primarily API-only models
@@ -47,7 +42,7 @@ csv.field_size_limit(10**9)
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_TIMEOUT = 180
-DEFAULT_OUTPUT_TOKENS = 1024
+DEFAULT_OUTPUT_TOKENS = 756
 DEFAULT_PERPLEXITY_MODEL = "gpt2"
 DEFAULT_TOPIC_COUNT = 5
 DEFAULT_TOPIC_TOP_WORDS = 10
@@ -101,12 +96,6 @@ class GenerationRow:
     prompt_text: str
     generated_text: str
     reference_text: str
-    bleu: float
-    rouge1_precision: float
-    rouge1_recall: float
-    rouge1_f1: float
-    generated_perplexity: float
-    reference_perplexity: float
     created_at: str
 
 
@@ -273,7 +262,7 @@ _PERPLEXITY_SCORER: Dict[str, Any] = {}
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Run multiple LLMs on an input CSV and compare outputs to a reference CSV."
+        description="Run multiple LLMs on an input CSV and save generation outputs for later scoring."
     )
     parser.add_argument("--input", default="", help="Input CSV containing prompts or source inputs.")
     parser.add_argument(
@@ -375,33 +364,6 @@ def parse_args() -> argparse.Namespace:
         help="Progress logging interval in completed generations.",
     )
     parser.add_argument(
-        "--disable-perplexity",
-        action="store_true",
-        help="Skip perplexity scoring.",
-    )
-    parser.add_argument(
-        "--perplexity-model",
-        default=DEFAULT_PERPLEXITY_MODEL,
-        help="Local scorer model used for perplexity, e.g. gpt2.",
-    )
-    parser.add_argument(
-        "--disable-topic-coherence",
-        action="store_true",
-        help="Skip topic coherence scoring.",
-    )
-    parser.add_argument(
-        "--topic-count",
-        type=int,
-        default=DEFAULT_TOPIC_COUNT,
-        help="Number of topics used for corpus-level topic coherence.",
-    )
-    parser.add_argument(
-        "--topic-top-words",
-        type=int,
-        default=DEFAULT_TOPIC_TOP_WORDS,
-        help="Top words per topic used for topic coherence.",
-    )
-    parser.add_argument(
         "--hf-device-map",
         default="auto",
         help="Device map for local Hugging Face models.",
@@ -428,10 +390,6 @@ def validate_args(args: argparse.Namespace) -> None:
         raise ValueError("--max-output-tokens must be greater than 0.")
     if args.timeout <= 0:
         raise ValueError("--timeout must be greater than 0.")
-    if args.topic_count <= 0:
-        raise ValueError("--topic-count must be greater than 0.")
-    if args.topic_top_words <= 1:
-        raise ValueError("--topic-top-words must be greater than 1.")
 
 
 def now_utc_iso() -> str:
@@ -493,12 +451,6 @@ def write_generation_csv(path: Path, rows: Sequence[GenerationRow]) -> None:
         "prompt_text",
         "generated_text",
         "reference_text",
-        "bleu",
-        "rouge1_precision",
-        "rouge1_recall",
-        "rouge1_f1",
-        "generated_perplexity",
-        "reference_perplexity",
         "created_at",
     ]
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -519,27 +471,9 @@ def write_generation_csv(path: Path, rows: Sequence[GenerationRow]) -> None:
                     "prompt_text": row.prompt_text,
                     "generated_text": row.generated_text,
                     "reference_text": row.reference_text,
-                    "bleu": safe_float(row.bleu),
-                    "rouge1_precision": safe_float(row.rouge1_precision),
-                    "rouge1_recall": safe_float(row.rouge1_recall),
-                    "rouge1_f1": safe_float(row.rouge1_f1),
-                    "generated_perplexity": safe_float(row.generated_perplexity),
-                    "reference_perplexity": safe_float(row.reference_perplexity),
                     "created_at": row.created_at,
                 }
             )
-
-
-def write_summary_csv(path: Path, rows: Sequence[Dict[str, Any]]) -> None:
-    if not rows:
-        return
-    fieldnames = list(rows[0].keys())
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
-        writer.writeheader()
-        for row in rows:
-            writer.writerow(row)
 
 
 def print_model_catalog() -> None:
@@ -1165,14 +1099,10 @@ def build_manifest(
         "reference_id_column": args.reference_id_column,
         "sample_count": sample_count,
         "models": [asdict(spec) for spec in selected_models],
-        "metrics": {
-            "row_level": ["BLEU", "ROUGE-1", "Perplexity"],
-            "corpus_level": [] if args.disable_topic_coherence else ["Topic Coherence"],
-        },
+        "metrics": {"row_level": [], "corpus_level": []},
         "notes": [
-            "BLEU and ROUGE-1 are computed pairwise against the aligned reference row.",
-            "Perplexity is computed with a separate local scorer model, not the generation model itself.",
-            "Topic coherence is corpus-level and is reported separately for generated texts and reference texts.",
+            "This run only saves raw generations and aligned reference text.",
+            "Use the separate scoring script to compute BLEU, ROUGE-1, perplexity, and topic coherence.",
             "local_hf models resolve from --hf-model-root first and fall back to Hugging Face model ids if no local copy is found.",
         ],
     }
@@ -1190,7 +1120,6 @@ def main() -> int:
     samples = align_samples(args)
     output_dir = build_output_dir(args.output_dir)
     generations_csv_path = output_dir / "generated_outputs.csv"
-    summary_csv_path = output_dir / "metrics_summary.csv"
     calls_jsonl_path = output_dir / "calls.jsonl"
     manifest_path = output_dir / "run_manifest.json"
 
@@ -1204,22 +1133,6 @@ def main() -> int:
                 generated_text, raw_payload = generate_text_for_model(
                     spec, sample.prompt_text, args.system_prompt, args
                 )
-                bleu = compute_bleu(sample.reference_text, generated_text)
-                rouge_precision, rouge_recall, rouge_f1 = compute_rouge1(
-                    sample.reference_text, generated_text
-                )
-
-                if args.disable_perplexity:
-                    generated_perplexity = float("nan")
-                    reference_perplexity = float("nan")
-                else:
-                    generated_perplexity = compute_perplexity(
-                        generated_text, args.perplexity_model
-                    )
-                    reference_perplexity = compute_perplexity(
-                        sample.reference_text, args.perplexity_model
-                    )
-
                 row = GenerationRow(
                     join_key=sample.join_key,
                     input_row_number=sample.input_row_number,
@@ -1232,12 +1145,6 @@ def main() -> int:
                     prompt_text=sample.prompt_text,
                     generated_text=generated_text,
                     reference_text=sample.reference_text,
-                    bleu=bleu,
-                    rouge1_precision=rouge_precision,
-                    rouge1_recall=rouge_recall,
-                    rouge1_f1=rouge_f1,
-                    generated_perplexity=generated_perplexity,
-                    reference_perplexity=reference_perplexity,
                     created_at=now_utc_iso(),
                 )
                 generations.append(row)
@@ -1280,7 +1187,7 @@ def main() -> int:
 
             if args.print_every > 0 and completed % args.print_every == 0:
                 print(
-                    f"[progress] completed {completed}/{total} generations",
+                    f"[progress] completed {completed}/{total} generations for {spec.alias} on sample {sample.join_key}",
                     file=sys.stderr,
                 )
 
@@ -1288,8 +1195,6 @@ def main() -> int:
                 time.sleep(args.sleep_seconds)
 
     write_generation_csv(generations_csv_path, generations)
-    summary_rows = build_summary_rows(generations, args)
-    write_summary_csv(summary_csv_path, summary_rows)
 
     manifest = build_manifest(args, selected_models, len(samples), output_dir)
     manifest_path.parent.mkdir(parents=True, exist_ok=True)
@@ -1298,7 +1203,6 @@ def main() -> int:
         handle.write("\n")
 
     print(f"Wrote generated outputs to {generations_csv_path}", file=sys.stderr)
-    print(f"Wrote metric summary to {summary_csv_path}", file=sys.stderr)
     print(f"Saved call logs to {calls_jsonl_path}", file=sys.stderr)
     print(f"Saved manifest to {manifest_path}", file=sys.stderr)
     return 0
