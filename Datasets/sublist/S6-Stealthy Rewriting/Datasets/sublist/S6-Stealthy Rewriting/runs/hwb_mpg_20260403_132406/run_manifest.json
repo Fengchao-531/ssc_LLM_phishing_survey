@@ -1,0 +1,27 @@
+{
+  "timestamp_utc": "2026-04-03T09:28:27+00:00",
+  "paper": {
+    "citation_key": "xue2025multiphishguard",
+    "title": "MultiPhishGuard: An LLM-based multi-agent system for phishing email detection",
+    "year": 2025
+  },
+  "input_path": "/fs04/scratch2/pk79/fche0036/ssc_LLM_phishing_survey/Datasets/sublist/S6-Stealthy Rewriting/HW-B.csv",
+  "output_dir": "/fs04/scratch2/pk79/fche0036/ssc_LLM_phishing_survey/Datasets/sublist/S6-Stealthy Rewriting/Datasets/sublist/S6-Stealthy Rewriting/runs/hwb_mpg_20260403_132406",
+  "output_csv": "/fs04/scratch2/pk79/fche0036/ssc_LLM_phishing_survey/Datasets/sublist/S6-Stealthy Rewriting/Datasets/sublist/S6-Stealthy Rewriting/runs/hwb_mpg_20260403_132406/LLM-MultiPhishGuard-meta-llama-Llama-3.1-8B-Instruct-replace.csv",
+  "simplified_output_csv": "/fs04/scratch2/pk79/fche0036/ssc_LLM_phishing_survey/Datasets/sublist/S6-Stealthy Rewriting/MPG-LLM-B.csv",
+  "selected_rows": 1600,
+  "result_rows": 1600,
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "api_mode": "local_hf",
+  "model_context_limit": 4096,
+  "completion_token_reserve": 256,
+  "rounds": 3,
+  "temperature": 1.0,
+  "save_every": 20,
+  "batch_size": 1,
+  "notes": [
+    "The paper describes a GPT-4o-based adversarial agent in Section 3.4.",
+    "This script focuses on pure adversarial email generation without any external detector loop.",
+    "This replace variant uses local Hugging Face loading with AutoTokenizer/AutoModelForCausalLM and apply_chat_template."
+  ]
+}

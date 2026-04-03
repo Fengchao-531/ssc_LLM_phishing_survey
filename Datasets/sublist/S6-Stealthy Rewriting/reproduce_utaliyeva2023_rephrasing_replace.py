@@ -14,6 +14,7 @@ official DeepSeek chat-template usage pattern.
 
 import argparse
 import csv
+import gc
 import json
 import math
 import os
@@ -50,7 +51,7 @@ MODEL_NAME = "meta-llama/Llama-3.1-8B-Instruct"
 MODEL_CONTEXT_LIMITS: Dict[str, int] = {
     "gpt-3.5-turbo": 16385,
     "deepseek-ai/deepseek-r1-distill-llama-70b": 128000,
-    "meta-llama/llama-3.1-8b-instruct": 128000,
+    "meta-llama/llama-3.1-8b-instruct": 8192,
 }
 
 PROMPT_TEMPLATES: Dict[str, str] = {
@@ -120,6 +121,12 @@ def load_hf_with_auth(
         return loader(model_id, token=hf_token, **kwargs)
     except TypeError:
         return loader(model_id, use_auth_token=hf_token, **kwargs)
+
+
+def preferred_torch_dtype() -> Any:
+    if torch.cuda.is_available():
+        return torch.bfloat16
+    return "auto"
 
 
 def parse_args() -> argparse.Namespace:
@@ -441,7 +448,7 @@ class LocalTransformersChatClient:
             self.model,
             hf_token=self.hf_token,
             trust_remote_code=trust_remote_code,
-            torch_dtype="auto",
+            torch_dtype=preferred_torch_dtype(),
             device_map="auto",
         )
         if (
@@ -458,7 +465,7 @@ class LocalTransformersChatClient:
             "max_new_tokens": self.max_completion_tokens or DEFAULT_COMPLETION_TOKEN_RESERVE,
         }
         if self.temperature is not None and self.temperature > 0:
-            generation_kwargs["do_sample"] = True
+            generation_kwargs["do_sample"] = False
             generation_kwargs["temperature"] = self.temperature
         if self.tokenizer.pad_token_id is not None:
             generation_kwargs["pad_token_id"] = self.tokenizer.pad_token_id
@@ -653,6 +660,47 @@ def write_simplified_csv(path: Path, rows: Sequence[RowResult]) -> None:
             )
 
 
+def load_existing_results(path: Path) -> List[RowResult]:
+    if not path.exists():
+        return []
+
+    with path.open("r", encoding="utf-8", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+
+    results: List[RowResult] = []
+    for row in rows:
+        results.append(
+            RowResult(
+                row_number=int(str(row.get("row_number", "0") or "0")),
+                prompt_kind=str(row.get("prompt_kind", "")).strip(),
+                prompt_rounds=int(str(row.get("prompt_rounds", "0") or "0")),
+                original_subject=normalize_text(row.get("original_subject", "")),
+                original_body=normalize_text(row.get("original_body", "")),
+                rewritten_subject=normalize_text(row.get("Subject", "")),
+                rewritten_body=normalize_text(row.get("Body", "")),
+                label=str(row.get("label", "")).strip(),
+                original_data_source=str(row.get("original_data_source", "")).strip(),
+                output_data_source=str(row.get("data_source", "")).strip(),
+                model=str(row.get("model", "")).strip(),
+                token_estimate=int(str(row.get("token_estimate", "0") or "0")),
+                skipped=str(row.get("skipped", "")).strip().lower() in {"1", "true", "yes"},
+                skip_reason=str(row.get("skip_reason", "")).strip(),
+            )
+        )
+    return results
+
+
+def sort_results(rows: Sequence[RowResult], prompt_kinds: Sequence[str]) -> List[RowResult]:
+    prompt_kind_order = {name: idx for idx, name in enumerate(prompt_kinds)}
+    return sorted(
+        rows,
+        key=lambda row: (
+            prompt_kind_order.get(row.prompt_kind, len(prompt_kind_order)),
+            row.row_number,
+        ),
+    )
+
+
 def append_jsonl(path: Path, record: Dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("a", encoding="utf-8") as handle:
@@ -665,6 +713,12 @@ def validate_columns(rows: Sequence[Dict[str, str]], required_columns: Sequence[
     missing = [name for name in required_columns if name not in rows[0]]
     if missing:
         raise ValueError(f"Missing required columns: {', '.join(missing)}")
+
+
+def release_memory() -> None:
+    gc.collect()
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
 
 
 def main() -> int:
@@ -711,19 +765,60 @@ def main() -> int:
         max_completion_tokens=args.max_completion_tokens,
     )
 
-    results: List[RowResult] = []
     selected_prompt_kinds = prompt_kinds_from_arg(args.prompt_kind)
-    completed_results = 0
-    total_batches = len(selected_prompt_kinds) * math.ceil(len(selected_rows) / args.batch_size)
+    selected_row_numbers = {row_number for row_number, _ in selected_rows}
+    existing_results = load_existing_results(rewritten_csv_path)
+    invalid_existing = [
+        row
+        for row in existing_results
+        if row.prompt_kind not in selected_prompt_kinds or row.row_number not in selected_row_numbers
+    ]
+    if invalid_existing:
+        raise ValueError(
+            "Existing output contains rows outside the current prompt-kind or max-row selection."
+        )
+
+    results = sort_results(existing_results, selected_prompt_kinds)
+    completed_pairs = {(row.prompt_kind, row.row_number) for row in results}
+    completed_prompt_counts = {prompt_kind: 0 for prompt_kind in selected_prompt_kinds}
+    for row in results:
+        if row.prompt_kind in completed_prompt_counts:
+            completed_prompt_counts[row.prompt_kind] += 1
+
+    total_expected_results = len(selected_rows) * len(selected_prompt_kinds)
+    completed_results = len(results)
+    if completed_results > total_expected_results:
+        raise ValueError(
+            "Existing output has {} rows, but the current configuration only expects {} rows.".format(
+                completed_results, total_expected_results
+            )
+        )
+    if completed_results > 0:
+        print(
+            "[resume] loaded {} existing rows from {}".format(
+                completed_results, rewritten_csv_path
+            ),
+            file=sys.stderr,
+        )
+
+    total_batches = sum(
+        math.ceil(max(0, len(selected_rows) - completed_prompt_counts[prompt_kind]) / args.batch_size)
+        for prompt_kind in selected_prompt_kinds
+    )
     progress_bar = make_progress_bar(total=total_batches, desc="Utaliyeva replace")
+    selected_index_lookup = {
+        row_number: idx for idx, (row_number, _) in enumerate(selected_rows, start=1)
+    }
 
     for prompt_kind in selected_prompt_kinds:
-        for batch_index, batch_rows in enumerate(iter_batches(selected_rows, args.batch_size), start=1):
+        pending_rows = [
+            (row_number, row)
+            for row_number, row in selected_rows
+            if (prompt_kind, row_number) not in completed_pairs
+        ]
+        for batch_index, batch_rows in enumerate(iter_batches(pending_rows, args.batch_size), start=1):
             batch_states: List[Dict[str, Any]] = []
-            for selected_index, (row_number, row) in enumerate(
-                batch_rows,
-                start=(batch_index - 1) * args.batch_size + 1,
-            ):
+            for row_number, row in batch_rows:
                 original_subject = normalize_text(row.get(args.subject_column, ""))
                 original_body = normalize_text(row.get(args.body_column, ""))
                 label = str(row.get(args.label_column, "")).strip()
@@ -731,7 +826,7 @@ def main() -> int:
                 seed_email = render_email(original_subject, original_body)
                 batch_states.append(
                     {
-                        "selected_index": selected_index,
+                        "selected_index": selected_index_lookup[row_number],
                         "row_number": row_number,
                         "label": label,
                         "original_subject": original_subject,
@@ -803,6 +898,7 @@ def main() -> int:
 
                 if args.sleep_seconds > 0:
                     time.sleep(args.sleep_seconds)
+                release_memory()
 
             for state in batch_states:
                 results.append(
@@ -825,27 +921,32 @@ def main() -> int:
                         skip_reason=state["skip_reason"],
                     )
                 )
+                completed_pairs.add((prompt_kind, state["row_number"]))
+                completed_prompt_counts[prompt_kind] += 1
                 completed_results += 1
                 if args.save_every > 0 and completed_results % args.save_every == 0:
-                    write_csv(rewritten_csv_path, results)
-                    write_simplified_csv(simplified_csv_path, results)
+                    ordered_results = sort_results(results, selected_prompt_kinds)
+                    write_csv(rewritten_csv_path, ordered_results)
+                    write_simplified_csv(simplified_csv_path, ordered_results)
                     print(
                         f"[checkpoint] saved {completed_results} rows to {rewritten_csv_path}",
                         file=sys.stderr,
                     )
 
             if args.print_every > 0 and batch_index % args.print_every == 0:
-                processed_rows = min(batch_index * args.batch_size, len(selected_rows))
+                processed_rows = completed_prompt_counts[prompt_kind]
                 print(
                     f"[progress] processed {processed_rows}/{len(selected_rows)} selected rows for {prompt_kind}",
                     file=sys.stderr,
                 )
             if progress_bar is not None:
                 progress_bar.update(1)
+            release_memory()
 
     if progress_bar is not None:
         progress_bar.close()
 
+    results = sort_results(results, selected_prompt_kinds)
     write_csv(rewritten_csv_path, results)
     write_simplified_csv(simplified_csv_path, results)
 

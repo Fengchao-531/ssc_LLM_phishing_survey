@@ -21,6 +21,7 @@ Notes on fidelity:
 
 import argparse
 import csv
+import gc
 import json
 import math
 import os
@@ -52,14 +53,14 @@ DEFAULT_BODY_COLUMN = "Body"
 DEFAULT_LABEL_COLUMN = "label"
 DEFAULT_DATA_SOURCE_COLUMN = "data_source"
 DEFAULT_COMPLETION_TOKEN_RESERVE = 1000
-MODEL_NAME = "meta-llama/Meta-Llama-3.1-8B-Instruct"
+MODEL_NAME = "meta-llama/Llama-3.1-8B-Instruct"
 
 MODEL_CONTEXT_LIMITS: Dict[str, int] = {
     "gpt-4o": 128000,
     "gpt-3.5-turbo": 16385,
     "deepseek-ai/deepseek-r1-distill-llama-70b": 128000,
     "meta-llama/meta-llama-3.1-8b-instruct": 8192,
-    "meta-llama/llama-3.1-8b-instruct": 128000,
+    "meta-llama/llama-3.1-8b-instruct": 8192,
 }
 
 SUBJECT_RE = re.compile(r"(?im)^\s*subject(?:\s*line)?\s*[:：]\s*(.+)$")
@@ -141,6 +142,12 @@ def load_hf_with_auth(
         return loader(model_id, token=hf_token, **kwargs)
     except TypeError:
         return loader(model_id, use_auth_token=hf_token, **kwargs)
+
+
+def preferred_torch_dtype() -> Any:
+    if torch.cuda.is_available():
+        return torch.bfloat16
+    return "auto"
 
 
 def parse_args() -> argparse.Namespace:
@@ -674,6 +681,12 @@ def validate_columns(rows: Sequence[Dict[str, str]], required_columns: Sequence[
         raise ValueError("Missing required columns: {}".format(", ".join(missing)))
 
 
+def release_memory() -> None:
+    gc.collect()
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+
+
 class LocalTransformersTextClient:
     def __init__(
         self,
@@ -706,7 +719,7 @@ class LocalTransformersTextClient:
             self.model,
             hf_token=self.hf_token,
             trust_remote_code=trust_remote_code,
-            torch_dtype="auto",
+            torch_dtype=preferred_torch_dtype(),
             device_map="auto",
         )
         if (
@@ -1046,6 +1059,7 @@ def main() -> int:
 
             if args.sleep_seconds > 0:
                 time.sleep(args.sleep_seconds)
+            release_memory()
 
         for state in batch_states:
             results.append(
@@ -1085,6 +1099,7 @@ def main() -> int:
             )
         if progress_bar is not None:
             progress_bar.update(1)
+        release_memory()
 
     if progress_bar is not None:
         progress_bar.close()
