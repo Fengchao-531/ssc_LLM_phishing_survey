@@ -29,6 +29,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 from collections import Counter
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
@@ -41,8 +42,12 @@ csv.field_size_limit(10**9)
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
+DEFAULT_MODELS_OUTPUT_DIR = str((SCRIPT_DIR / "Models-Output").resolve())
 DEFAULT_TIMEOUT = 180
 DEFAULT_OUTPUT_TOKENS = 756
+DEFAULT_CHUNK_SIZE = 100
+DEFAULT_MAX_PROMPT_CHARS = 12000
+DEFAULT_MAX_REFERENCE_CHARS = 20000
 DEFAULT_PERPLEXITY_MODEL = "gpt2"
 DEFAULT_TOPIC_COUNT = 5
 DEFAULT_TOPIC_TOP_WORDS = 10
@@ -51,12 +56,14 @@ DEFAULT_TOP_MODELS = [
     "gpt-5.4",
     "claude-sonnet-4",
     "gemini-2.5-pro",
-    "deepseek-r1-distill-llama-70b",
+    "deepseek-r1-distill-qwen-7b",
     "llama-4-scout",
     "mistral-small-3.2",
 ]
 
 WORD_RE = re.compile(r"[A-Za-z0-9_]+")
+SUBJECT_LINE_RE = re.compile(r"^\s*subject\s*:\s*(.+?)\s*$", re.IGNORECASE)
+BODY_LINE_RE = re.compile(r"^\s*body\s*:\s*(.*)$", re.IGNORECASE)
 
 
 @dataclass(frozen=True)
@@ -81,6 +88,7 @@ class Sample:
     reference_row_number: int
     prompt_text: str
     reference_text: str
+    label: str
 
 
 @dataclass
@@ -95,7 +103,10 @@ class GenerationRow:
     provider: str
     prompt_text: str
     generated_text: str
+    generated_subject: str
+    generated_body: str
     reference_text: str
+    label: str
     created_at: str
 
 
@@ -159,15 +170,15 @@ MODEL_CATALOG: List[ModelSpec] = [
         notes="Google's state-of-the-art Gemini API model.",
     ),
     ModelSpec(
-        alias="deepseek-r1-distill-llama-70b",
+        alias="deepseek-r1-distill-qwen-7b",
         company="DeepSeek",
         family="DeepSeek",
         access_type="white_box",
         provider="local_hf",
-        model_name="deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-        hf_model_id="deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+        model_name="deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+        hf_model_id="deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
         enabled_by_default=True,
-        notes="Open-weight DeepSeek R1 distilled Llama 70B model for local Hugging Face inference.",
+        notes="Open-weight DeepSeek R1 distilled Qwen 7B model for local Hugging Face inference.",
     ),
     ModelSpec(
         alias="grok-4",
@@ -200,6 +211,16 @@ MODEL_CATALOG: List[ModelSpec] = [
         model_name="meta-llama/Llama-4-Maverick-17B-128E-Instruct",
         hf_model_id="meta-llama/Llama-4-Maverick-17B-128E-Instruct",
         notes="Open-weight Llama 4 Maverick.",
+    ),
+    ModelSpec(
+        alias="llama-3.1-8b",
+        company="Meta",
+        family="Llama",
+        access_type="white_box",
+        provider="local_hf",
+        model_name="meta-llama/Llama-3.1-8B-Instruct",
+        hf_model_id="meta-llama/Llama-3.1-8B-Instruct",
+        notes="Open-weight Llama 3.1 8B Instruct model for local Hugging Face inference.",
     ),
     ModelSpec(
         alias="qwen3-30b-a3b",
@@ -276,6 +297,11 @@ def parse_args() -> argparse.Namespace:
         help="Optional output directory. Defaults to S8-Model-driven Automation/runs/<timestamp>/",
     )
     parser.add_argument(
+        "--models-output-dir",
+        default=DEFAULT_MODELS_OUTPUT_DIR,
+        help="Directory that stores cumulative per-model generated output CSVs for later reuse.",
+    )
+    parser.add_argument(
         "--prompt-column",
         default="prompt",
         help="Column in the input CSV used as model input.",
@@ -340,6 +366,24 @@ def parse_args() -> argparse.Namespace:
         help="Maximum output tokens for each generation.",
     )
     parser.add_argument(
+        "--max-prompt-chars",
+        type=int,
+        default=DEFAULT_MAX_PROMPT_CHARS,
+        help="Truncate prompt text to at most this many characters before generation.",
+    )
+    parser.add_argument(
+        "--max-reference-chars",
+        type=int,
+        default=DEFAULT_MAX_REFERENCE_CHARS,
+        help="Truncate aligned reference text to at most this many characters before saving.",
+    )
+    parser.add_argument(
+        "--chunk-size",
+        type=int,
+        default=DEFAULT_CHUNK_SIZE,
+        help="Number of aligned rows processed at a time for each model.",
+    )
+    parser.add_argument(
         "--timeout",
         type=int,
         default=DEFAULT_TIMEOUT,
@@ -378,6 +422,23 @@ def parse_args() -> argparse.Namespace:
         default=DEFAULT_HF_MODEL_ROOT,
         help="Optional local Hugging Face model root. If set, local_hf models are loaded from this directory first.",
     )
+    parser.add_argument(
+        "--resume-existing",
+        action="store_true",
+        help="Load existing per-model generated output CSVs and skip samples that were already generated.",
+    )
+    parser.add_argument(
+        "--resume-match-key",
+        choices=("prompt_text", "join_key"),
+        default="prompt_text",
+        help="Field used to decide whether a sample already exists when --resume-existing is enabled.",
+    )
+    parser.add_argument(
+        "--local-batch-size",
+        type=int,
+        default=4,
+        help="Batch size for local Hugging Face generation. Larger values can improve throughput if GPU memory allows.",
+    )
     return parser.parse_args()
 
 
@@ -388,6 +449,14 @@ def validate_args(args: argparse.Namespace) -> None:
         raise ValueError("Missing --input CSV path.")
     if args.max_output_tokens <= 0:
         raise ValueError("--max-output-tokens must be greater than 0.")
+    if args.max_prompt_chars <= 0:
+        raise ValueError("--max-prompt-chars must be greater than 0.")
+    if args.max_reference_chars <= 0:
+        raise ValueError("--max-reference-chars must be greater than 0.")
+    if args.chunk_size <= 0:
+        raise ValueError("--chunk-size must be greater than 0.")
+    if args.local_batch_size <= 0:
+        raise ValueError("--local-batch-size must be greater than 0.")
     if args.timeout <= 0:
         raise ValueError("--timeout must be greater than 0.")
 
@@ -402,6 +471,49 @@ def normalize_text(value: str) -> str:
     text = re.sub(r"[ \t]+\n", "\n", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip()
+
+
+def strip_local_hf_problematic_chars(text: str) -> str:
+    cleaned_chars: List[str] = []
+    for ch in text or "":
+        codepoint = ord(ch)
+        category = unicodedata.category(ch)
+        if 0xFE00 <= codepoint <= 0xFE0F:
+            continue
+        if 0xE0100 <= codepoint <= 0xE01EF:
+            continue
+        if category in {"Cf", "Cs"}:
+            continue
+        cleaned_chars.append(ch)
+    return "".join(cleaned_chars)
+
+
+def make_latin1_safe(text: str) -> str:
+    return (text or "").encode("latin-1", errors="ignore").decode("latin-1")
+
+
+def truncate_text(text: str, max_chars: int) -> str:
+    if max_chars <= 0 or len(text) <= max_chars:
+        return text
+    return text[:max_chars].rstrip()
+
+
+def truncate_with_notice(
+    text: str,
+    max_chars: int,
+    *,
+    field_name: str,
+    row_number: int,
+    join_key: str,
+) -> str:
+    truncated = truncate_text(text, max_chars)
+    if len(truncated) != len(text):
+        print(
+            f"[truncate] {field_name} for join_key={join_key} row={row_number} "
+            f"from {len(text)} to {len(truncated)} chars",
+            file=sys.stderr,
+        )
+    return truncated
 
 
 def tokenize_words(text: str) -> List[str]:
@@ -424,6 +536,29 @@ def build_output_dir(output_dir_arg: str) -> Path:
     return (SCRIPT_DIR / "runs" / f"benchmark_{stamp}").resolve()
 
 
+def iter_sample_chunks(samples: Sequence[Sample], chunk_size: int) -> Iterator[Tuple[int, int, List[Sample]]]:
+    if chunk_size <= 0:
+        raise ValueError("--chunk-size must be greater than 0.")
+    for start in range(0, len(samples), chunk_size):
+        end = min(start + chunk_size, len(samples))
+        yield start, end, list(samples[start:end])
+
+
+def iter_batches(items: Sequence[Any], batch_size: int) -> Iterator[List[Any]]:
+    if batch_size <= 0:
+        raise ValueError("batch_size must be greater than 0.")
+    for start in range(0, len(items), batch_size):
+        yield list(items[start : start + batch_size])
+
+
+def chunk_name(start: int, end: int) -> str:
+    return f"chunk_{start + 1:06d}_{end:06d}"
+
+
+def build_model_generated_output_path(base_dir: Path, model_alias: str) -> Path:
+    return base_dir / f"{model_alias}-generated_output.csv"
+
+
 def append_jsonl(path: Path, record: Dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("a", encoding="utf-8") as handle:
@@ -438,6 +573,37 @@ def safe_float(value: Optional[float]) -> str:
     return f"{value:.6f}"
 
 
+def split_generated_email_fields(text: str) -> Tuple[str, str]:
+    cleaned = normalize_text(text)
+    if not cleaned:
+        return "", ""
+
+    lines = cleaned.splitlines()
+    subject = ""
+    body_lines = lines
+
+    for index, line in enumerate(lines[:5]):
+        match = SUBJECT_LINE_RE.match(line.strip())
+        if match:
+            subject = normalize_text(match.group(1))
+            body_lines = lines[index + 1 :]
+            break
+
+    while body_lines and not normalize_text(body_lines[0]):
+        body_lines = body_lines[1:]
+
+    if body_lines:
+        body_match = BODY_LINE_RE.match(body_lines[0].strip())
+        if body_match:
+            replacement = normalize_text(body_match.group(1))
+            body_lines = ([replacement] if replacement else []) + body_lines[1:]
+
+    body = normalize_text("\n".join(body_lines))
+    if not subject and body:
+        return "", body
+    return subject, body
+
+
 def write_generation_csv(path: Path, rows: Sequence[GenerationRow]) -> None:
     fieldnames = [
         "join_key",
@@ -450,7 +616,10 @@ def write_generation_csv(path: Path, rows: Sequence[GenerationRow]) -> None:
         "provider",
         "prompt_text",
         "generated_text",
+        "generated_subject",
+        "generated_body",
         "reference_text",
+        "label",
         "created_at",
     ]
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -470,10 +639,112 @@ def write_generation_csv(path: Path, rows: Sequence[GenerationRow]) -> None:
                     "provider": row.provider,
                     "prompt_text": row.prompt_text,
                     "generated_text": row.generated_text,
+                    "generated_subject": row.generated_subject,
+                    "generated_body": row.generated_body,
                     "reference_text": row.reference_text,
+                    "label": row.label,
                     "created_at": row.created_at,
                 }
             )
+
+
+def load_generation_csv(path: Path) -> List[GenerationRow]:
+    if not path.exists():
+        return []
+
+    rows: List[GenerationRow] = []
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        for row in reader:
+            try:
+                input_row_number = int(str(row.get("input_row_number", "")).strip() or 0)
+            except ValueError:
+                input_row_number = 0
+            try:
+                reference_row_number = int(str(row.get("reference_row_number", "")).strip() or 0)
+            except ValueError:
+                reference_row_number = 0
+            rows.append(
+                GenerationRow(
+                    join_key=str(row.get("join_key", "")),
+                    input_row_number=input_row_number,
+                    reference_row_number=reference_row_number,
+                    model_alias=str(row.get("model_alias", "")),
+                    company=str(row.get("company", "")),
+                    family=str(row.get("family", "")),
+                    access_type=str(row.get("access_type", "")),
+                    provider=str(row.get("provider", "")),
+                    prompt_text=str(row.get("prompt_text", "")),
+                    generated_text=str(row.get("generated_text", "")),
+                    generated_subject=str(row.get("generated_subject", "")),
+                    generated_body=str(row.get("generated_body", "")),
+                    reference_text=str(row.get("reference_text", "")),
+                    label=str(row.get("label", "")),
+                    created_at=str(row.get("created_at", "")),
+                )
+            )
+    return rows
+
+
+def dedupe_generation_rows(rows: Sequence[GenerationRow]) -> List[GenerationRow]:
+    deduped: List[GenerationRow] = []
+    seen: set[Tuple[str, int, str]] = set()
+    for row in rows:
+        key = (row.model_alias, row.input_row_number, row.prompt_text)
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(row)
+    return deduped
+
+
+def get_sample_match_value(sample: Sample, match_key: str) -> str:
+    if match_key == "join_key":
+        return sample.join_key
+    if match_key == "prompt_text":
+        return sample.prompt_text
+    raise ValueError(f"Unsupported resume match key: {match_key}")
+
+
+def get_generation_match_value(row: GenerationRow, match_key: str) -> str:
+    if match_key == "join_key":
+        return row.join_key
+    if match_key == "prompt_text":
+        return row.prompt_text
+    raise ValueError(f"Unsupported resume match key: {match_key}")
+
+
+def write_model_content_csv(path: Path, rows: Sequence[GenerationRow]) -> None:
+    fieldnames = ["subject", "body", "label"]
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer.writeheader()
+        for row in rows:
+            writer.writerow(
+                {
+                    "subject": row.generated_subject,
+                    "body": row.generated_body,
+                    "label": row.label,
+                }
+            )
+
+
+def write_json(path: Path, payload: Dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as handle:
+        json.dump(payload, handle, ensure_ascii=False, indent=2)
+        handle.write("\n")
+
+
+def write_generation_csv_targets(rows: Sequence[GenerationRow], paths: Sequence[Path]) -> None:
+    seen: set[str] = set()
+    for path in paths:
+        normalized = str(path.resolve())
+        if normalized in seen:
+            continue
+        seen.add(normalized)
+        write_generation_csv(path, rows)
 
 
 def print_model_catalog() -> None:
@@ -579,6 +850,23 @@ def align_samples(args: argparse.Namespace) -> List[Sample]:
             )
             if not reference_text:
                 continue
+            prompt_text = truncate_with_notice(
+                prompt_text,
+                args.max_prompt_chars,
+                field_name="prompt_text",
+                row_number=input_row_number,
+                join_key=join_key,
+            )
+            reference_text = truncate_with_notice(
+                reference_text,
+                args.max_reference_chars,
+                field_name="reference_text",
+                row_number=reference_row_number,
+                join_key=join_key,
+            )
+            label = normalize_text(str(input_row.get("label", ""))) or normalize_text(
+                str(reference_row.get("label", ""))
+            )
             aligned.append(
                 Sample(
                     join_key=join_key,
@@ -586,6 +874,7 @@ def align_samples(args: argparse.Namespace) -> List[Sample]:
                     reference_row_number=reference_row_number,
                     prompt_text=prompt_text,
                     reference_text=reference_text,
+                    label=label,
                 )
             )
     else:
@@ -601,6 +890,23 @@ def align_samples(args: argparse.Namespace) -> List[Sample]:
             )
             if not reference_text:
                 continue
+            prompt_text = truncate_with_notice(
+                prompt_text,
+                args.max_prompt_chars,
+                field_name="prompt_text",
+                row_number=input_row_number,
+                join_key=str(index),
+            )
+            reference_text = truncate_with_notice(
+                reference_text,
+                args.max_reference_chars,
+                field_name="reference_text",
+                row_number=reference_row_number,
+                join_key=str(index),
+            )
+            label = normalize_text(str(input_row.get("label", ""))) or normalize_text(
+                str(reference_row.get("label", ""))
+            )
             aligned.append(
                 Sample(
                     join_key=str(index),
@@ -608,6 +914,7 @@ def align_samples(args: argparse.Namespace) -> List[Sample]:
                     reference_row_number=reference_row_number,
                     prompt_text=prompt_text,
                     reference_text=reference_text,
+                    label=label,
                 )
             )
 
@@ -678,6 +985,24 @@ def get_api_key(spec: ModelSpec) -> str:
     if not spec.api_key_env:
         return ""
     return os.environ.get(spec.api_key_env, "").strip()
+
+
+def get_hf_token() -> str:
+    for env_name in ("HF_TOKEN", "HUGGING_FACE_HUB_TOKEN", "HUGGINGFACE_TOKEN"):
+        value = os.environ.get(env_name, "").strip()
+        if value:
+            return value
+    return ""
+
+
+def load_hf_component(loader: Any, source: str, **kwargs: Any) -> Any:
+    token = get_hf_token()
+    if not token:
+        return loader.from_pretrained(source, **kwargs)
+    try:
+        return loader.from_pretrained(source, token=token, **kwargs)
+    except TypeError:
+        return loader.from_pretrained(source, use_auth_token=token, **kwargs)
 
 
 def generate_with_openai_chat(
@@ -786,7 +1111,7 @@ def get_local_generator(spec: ModelSpec, args: argparse.Namespace) -> Any:
         return _LOCAL_GENERATORS[cache_key]
 
     try:
-        from transformers import pipeline  # type: ignore
+        from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline  # type: ignore
     except ImportError as exc:
         raise RuntimeError(
             "transformers is required for local Hugging Face models. "
@@ -794,35 +1119,95 @@ def get_local_generator(spec: ModelSpec, args: argparse.Namespace) -> Any:
         ) from exc
 
     model_source = resolve_local_hf_model_source(spec, args)
-    generator = pipeline(
-        "text-generation",
-        model=model_source,
-        tokenizer=model_source,
+    tokenizer = load_hf_component(AutoTokenizer, model_source)
+    tokenizer.padding_side = "left"
+    if tokenizer.pad_token is None and tokenizer.eos_token is not None:
+        tokenizer.pad_token = tokenizer.eos_token
+    model = load_hf_component(
+        AutoModelForCausalLM,
+        model_source,
         device_map=args.hf_device_map,
         torch_dtype=resolve_torch_dtype(args.hf_dtype),
+    )
+
+    try:
+        import torch  # type: ignore
+    except ImportError:
+        torch = None  # type: ignore
+
+    requested_gpu = str(args.hf_device_map).lower() != "cpu"
+    if requested_gpu and torch is not None and hasattr(model, "device"):
+        model_device = str(model.device)
+        if not model_device.startswith("cuda"):
+            raise RuntimeError(
+                f"Local model {spec.alias} loaded on {model_device} instead of GPU. "
+                "Check CUDA_VISIBLE_DEVICES, torch CUDA availability, and --hf-device-map."
+            )
+
+    generator = pipeline(
+        "text-generation",
+        model=model,
+        tokenizer=tokenizer,
     )
     _LOCAL_GENERATORS[cache_key] = generator
     return generator
 
 
-def generate_with_local_hf(
-    spec: ModelSpec, prompt_text: str, system_prompt: str, args: argparse.Namespace
-) -> Tuple[str, Dict[str, Any]]:
-    generator = get_local_generator(spec, args)
-    chat_messages = [
-        {"role": "system", "content": system_prompt},
-        {"role": "user", "content": prompt_text},
-    ]
-    result = generator(
-        chat_messages,
-        max_new_tokens=args.max_output_tokens,
-        temperature=args.temperature,
-        do_sample=args.temperature > 0,
-        return_full_text=False,
-    )
-    if not result:
-        raise ValueError(f"No output returned by local model {spec.alias}")
-    first = result[0]
+def sanitize_local_hf_chat_payload(payload: Any, sanitizer: Any) -> Any:
+    if isinstance(payload, list):
+        return [sanitize_local_hf_chat_payload(item, sanitizer) for item in payload]
+    if isinstance(payload, dict) and "content" in payload:
+        return {
+            "role": payload.get("role", ""),
+            "content": sanitizer(str(payload.get("content", ""))),
+        }
+    return payload
+
+
+def run_local_hf_generation(generator: Any, chat_payload: Any, args: argparse.Namespace) -> Tuple[Any, str]:
+    retry_mode = "none"
+    try:
+        result = generator(
+            chat_payload,
+            max_new_tokens=args.max_output_tokens,
+            temperature=args.temperature,
+            do_sample=args.temperature > 0,
+            return_full_text=False,
+            batch_size=args.local_batch_size,
+        )
+    except UnicodeEncodeError as exc:
+        retry_mode = "strip_problematic_unicode"
+        sanitized_messages = sanitize_local_hf_chat_payload(
+            chat_payload, strip_local_hf_problematic_chars
+        )
+        try:
+            result = generator(
+                sanitized_messages,
+                max_new_tokens=args.max_output_tokens,
+                temperature=args.temperature,
+                do_sample=args.temperature > 0,
+                return_full_text=False,
+                batch_size=args.local_batch_size,
+            )
+        except UnicodeEncodeError:
+            retry_mode = "latin1_safe"
+            fallback_messages = sanitize_local_hf_chat_payload(
+                chat_payload,
+                lambda value: make_latin1_safe(strip_local_hf_problematic_chars(value)),
+            )
+            result = generator(
+                fallback_messages,
+                max_new_tokens=args.max_output_tokens,
+                temperature=args.temperature,
+                do_sample=args.temperature > 0,
+                return_full_text=False,
+                batch_size=args.local_batch_size,
+            )
+    return result, retry_mode
+
+
+def extract_local_hf_result_text(result_item: Any) -> str:
+    first = result_item[0] if isinstance(result_item, list) and result_item else result_item
     if isinstance(first, dict):
         if "generated_text" in first and isinstance(first["generated_text"], str):
             text = first["generated_text"]
@@ -836,8 +1221,57 @@ def generate_with_local_hf(
             text = str(first)
     else:
         text = str(first)
-    payload = {"provider": "local_hf", "raw_result": result}
-    return normalize_text(text), payload
+    return normalize_text(text)
+
+
+def generate_with_local_hf(
+    spec: ModelSpec, prompt_text: str, system_prompt: str, args: argparse.Namespace
+) -> Tuple[str, Dict[str, Any]]:
+    generator = get_local_generator(spec, args)
+    chat_messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": prompt_text},
+    ]
+    result, retry_mode = run_local_hf_generation(generator, chat_messages, args)
+    if not result:
+        raise ValueError(f"No output returned by local model {spec.alias}")
+    payload = {"provider": "local_hf", "raw_result": result, "retry_mode": retry_mode}
+    return extract_local_hf_result_text(result), payload
+
+
+def generate_with_local_hf_batch(
+    spec: ModelSpec, prompt_texts: Sequence[str], system_prompt: str, args: argparse.Namespace
+) -> List[Tuple[str, Dict[str, Any]]]:
+    if not prompt_texts:
+        return []
+
+    generator = get_local_generator(spec, args)
+    chat_payload = [
+        [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": prompt_text},
+        ]
+        for prompt_text in prompt_texts
+    ]
+    result, retry_mode = run_local_hf_generation(generator, chat_payload, args)
+    if not isinstance(result, list) or len(result) != len(prompt_texts):
+        raise ValueError(
+            f"Unexpected batched output shape from local model {spec.alias}: expected {len(prompt_texts)} results."
+        )
+
+    outputs: List[Tuple[str, Dict[str, Any]]] = []
+    for item in result:
+        outputs.append(
+            (
+                extract_local_hf_result_text(item),
+                {
+                    "provider": "local_hf",
+                    "raw_result": item,
+                    "retry_mode": retry_mode,
+                },
+            )
+        )
+    return outputs
 
 
 def generate_text_for_model(
@@ -852,6 +1286,14 @@ def generate_text_for_model(
     if spec.provider == "local_hf":
         return generate_with_local_hf(spec, prompt_text, system_prompt, args)
     raise ValueError(f"Unsupported provider for {spec.alias}: {spec.provider}")
+
+
+def generate_batch_for_model(
+    spec: ModelSpec, prompt_texts: Sequence[str], system_prompt: str, args: argparse.Namespace
+) -> List[Tuple[str, Dict[str, Any]]]:
+    if spec.provider == "local_hf":
+        return generate_with_local_hf_batch(spec, prompt_texts, system_prompt, args)
+    return [generate_text_for_model(spec, prompt_text, system_prompt, args) for prompt_text in prompt_texts]
 
 
 def ngrams(tokens: Sequence[str], n: int) -> Counter:
@@ -1093,19 +1535,107 @@ def build_manifest(
         "input_csv": str(Path(args.input).resolve()),
         "reference_csv": str(Path(args.reference).resolve()) if args.reference else "",
         "output_dir": str(output_dir),
+        "models_output_dir": str(Path(args.models_output_dir).resolve()) if args.models_output_dir else "",
         "prompt_column": args.prompt_column,
         "reference_column": args.reference_column,
         "id_column": args.id_column,
         "reference_id_column": args.reference_id_column,
         "sample_count": sample_count,
+        "chunk_size": args.chunk_size,
+        "max_prompt_chars": args.max_prompt_chars,
+        "max_reference_chars": args.max_reference_chars,
         "models": [asdict(spec) for spec in selected_models],
         "metrics": {"row_level": [], "corpus_level": []},
         "notes": [
             "This run only saves raw generations and aligned reference text.",
+            "Per-model content CSVs are saved as <model_alias>-content.csv with subject, body, and label columns.",
+            "Chunk runs are saved under chunks/<model_alias>/chunk_<start>_<end>/.",
             "Use the separate scoring script to compute BLEU, ROUGE-1, perplexity, and topic coherence.",
             "local_hf models resolve from --hf-model-root first and fall back to Hugging Face model ids if no local copy is found.",
         ],
     }
+
+
+def build_model_manifest(
+    args: argparse.Namespace,
+    spec: ModelSpec,
+    sample_count: int,
+    output_dir: Path,
+    content_csv_path: Path,
+    generated_csv_path: Path,
+) -> Dict[str, Any]:
+    manifest = build_manifest(args, [spec], sample_count, output_dir)
+    manifest["content_csv"] = str(content_csv_path)
+    manifest["generated_outputs_csv"] = str(generated_csv_path)
+    return manifest
+
+
+def build_chunk_manifest(
+    args: argparse.Namespace,
+    spec: ModelSpec,
+    chunk_dir: Path,
+    chunk_start: int,
+    chunk_end: int,
+    chunk_generations: Sequence[GenerationRow],
+) -> Dict[str, Any]:
+    return {
+        "created_at": now_utc_iso(),
+        "output_dir": str(chunk_dir),
+        "models_output_dir": str(Path(args.models_output_dir).resolve()) if args.models_output_dir else "",
+        "chunk_name": chunk_name(chunk_start, chunk_end),
+        "chunk_start_index": chunk_start,
+        "chunk_end_index_exclusive": chunk_end,
+        "chunk_sample_count": chunk_end - chunk_start,
+        "completed_generations": len(chunk_generations),
+        "model": asdict(spec),
+        "input_csv": str(Path(args.input).resolve()),
+        "reference_csv": str(Path(args.reference).resolve()) if args.reference else "",
+        "prompt_column": args.prompt_column,
+        "reference_column": args.reference_column,
+        "id_column": args.id_column,
+        "reference_id_column": args.reference_id_column,
+        "chunk_size": args.chunk_size,
+        "max_prompt_chars": args.max_prompt_chars,
+        "max_reference_chars": args.max_reference_chars,
+        "notes": [
+            "This manifest describes one model over one contiguous chunk of aligned samples.",
+            "Chunk indices are zero-based for start and exclusive for end.",
+        ],
+    }
+
+
+def persist_model_run_state(
+    args: argparse.Namespace,
+    spec: ModelSpec,
+    *,
+    all_generations_path: Path,
+    all_generations: Sequence[GenerationRow],
+    model_generations_paths: Sequence[Path],
+    model_generations: Sequence[GenerationRow],
+    model_content_path: Path,
+    model_manifest_path: Path,
+    output_dir: Path,
+    chunk_generations_path: Path,
+    chunk_generations: Sequence[GenerationRow],
+    chunk_content_path: Path,
+    chunk_manifest_path: Path,
+    chunk_manifest: Dict[str, Any],
+) -> None:
+    write_generation_csv_targets(all_generations, [all_generations_path])
+    write_generation_csv_targets(model_generations, model_generations_paths)
+    write_generation_csv_targets(chunk_generations, [chunk_generations_path])
+    write_model_content_csv(model_content_path, model_generations)
+    write_model_content_csv(chunk_content_path, chunk_generations)
+    model_manifest = build_model_manifest(
+        args=args,
+        spec=spec,
+        sample_count=len(model_generations),
+        output_dir=output_dir,
+        content_csv_path=model_content_path,
+        generated_csv_path=model_generations_paths[0],
+    )
+    write_json(model_manifest_path, model_manifest)
+    write_json(chunk_manifest_path, chunk_manifest)
 
 
 def main() -> int:
@@ -1119,88 +1649,255 @@ def main() -> int:
     selected_models = select_models(args)
     samples = align_samples(args)
     output_dir = build_output_dir(args.output_dir)
-    generations_csv_path = output_dir / "generated_outputs.csv"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    models_output_dir = Path(args.models_output_dir).resolve() if args.models_output_dir else None
+    if models_output_dir:
+        models_output_dir.mkdir(parents=True, exist_ok=True)
+    if len(selected_models) == 1 and models_output_dir:
+        generations_csv_path = build_model_generated_output_path(models_output_dir, selected_models[0].alias)
+    elif len(selected_models) == 1:
+        generations_csv_path = build_model_generated_output_path(output_dir, selected_models[0].alias)
+    else:
+        generations_csv_path = output_dir / "generated_outputs.csv"
     calls_jsonl_path = output_dir / "calls.jsonl"
     manifest_path = output_dir / "run_manifest.json"
 
     generations: List[GenerationRow] = []
-    completed = 0
-    total = len(samples) * len(selected_models)
+    generations_by_model: Dict[str, List[GenerationRow]] = {}
+    pending_samples_by_model: Dict[str, List[Sample]] = {}
 
     for spec in selected_models:
-        for sample in samples:
-            try:
-                generated_text, raw_payload = generate_text_for_model(
-                    spec, sample.prompt_text, args.system_prompt, args
-                )
-                row = GenerationRow(
-                    join_key=sample.join_key,
-                    input_row_number=sample.input_row_number,
-                    reference_row_number=sample.reference_row_number,
-                    model_alias=spec.alias,
-                    company=spec.company,
-                    family=spec.family,
-                    access_type=spec.access_type,
-                    provider=spec.provider,
-                    prompt_text=sample.prompt_text,
-                    generated_text=generated_text,
-                    reference_text=sample.reference_text,
-                    created_at=now_utc_iso(),
-                )
-                generations.append(row)
-                append_jsonl(
-                    calls_jsonl_path,
-                    {
-                        "created_at": now_utc_iso(),
-                        "model_alias": spec.alias,
-                        "join_key": sample.join_key,
-                        "prompt_text": sample.prompt_text,
-                        "reference_text": sample.reference_text,
-                        "response_payload": raw_payload,
-                        "status": "ok",
-                    },
-                )
-            except Exception as exc:
-                append_jsonl(
-                    calls_jsonl_path,
-                    {
-                        "created_at": now_utc_iso(),
-                        "model_alias": spec.alias,
-                        "join_key": sample.join_key,
-                        "prompt_text": sample.prompt_text,
-                        "reference_text": sample.reference_text,
-                        "status": "error",
-                        "error": str(exc),
-                    },
-                )
-                print(
-                    f"[warn] {spec.alias} failed on sample {sample.join_key}: {exc}",
-                    file=sys.stderr,
-                )
-                completed += 1
-                continue
+        existing_rows: List[GenerationRow] = []
+        model_generated_output_path = (
+            build_model_generated_output_path(models_output_dir, spec.alias)
+            if models_output_dir
+            else build_model_generated_output_path(output_dir, spec.alias)
+        )
+        if args.resume_existing:
+            existing_rows = dedupe_generation_rows(load_generation_csv(model_generated_output_path))
+            if existing_rows:
+                generations.extend(existing_rows)
 
-            completed += 1
+        generations_by_model[spec.alias] = list(existing_rows)
+        existing_match_values = {
+            get_generation_match_value(row, args.resume_match_key) for row in existing_rows
+        }
+        if existing_match_values:
+            pending_samples = [
+                sample
+                for sample in samples
+                if get_sample_match_value(sample, args.resume_match_key) not in existing_match_values
+            ]
+        else:
+            pending_samples = list(samples)
+        pending_samples_by_model[spec.alias] = pending_samples
 
-            if args.save_every > 0 and completed % args.save_every == 0:
-                write_generation_csv(generations_csv_path, generations)
+        if args.resume_existing:
+            print(
+                f"[resume] {spec.alias}: loaded {len(existing_rows)} existing rows, "
+                f"skipping {len(samples) - len(pending_samples)} aligned samples by {args.resume_match_key}, "
+                f"pending {len(pending_samples)}",
+                file=sys.stderr,
+            )
 
-            if args.print_every > 0 and completed % args.print_every == 0:
-                print(
-                    f"[progress] completed {completed}/{total} generations for {spec.alias} on sample {sample.join_key}",
-                    file=sys.stderr,
-                )
+    completed = 0
+    total = sum(len(rows) for rows in pending_samples_by_model.values())
 
-            if args.sleep_seconds > 0:
-                time.sleep(args.sleep_seconds)
+    for spec in selected_models:
+        model_generated_output_path = (
+            build_model_generated_output_path(models_output_dir, spec.alias)
+            if models_output_dir
+            else build_model_generated_output_path(output_dir, spec.alias)
+        )
+        model_generations_paths: List[Path] = [model_generated_output_path]
+        if len(selected_models) > 1:
+            model_generations_paths.append(build_model_generated_output_path(output_dir, spec.alias))
+        model_content_csv_path = output_dir / f"{spec.alias}-content.csv"
+        model_calls_jsonl_path = output_dir / f"{spec.alias}-calls.jsonl"
+        model_manifest_path = output_dir / f"{spec.alias}-run_manifest.json"
 
-    write_generation_csv(generations_csv_path, generations)
+        pending_samples = pending_samples_by_model[spec.alias]
+        if not pending_samples:
+            print(
+                f"[resume] {spec.alias}: no pending samples remain after loading existing outputs",
+                file=sys.stderr,
+            )
+
+        for chunk_start, chunk_end, chunk_samples in iter_sample_chunks(pending_samples, args.chunk_size):
+            current_chunk_name = chunk_name(chunk_start, chunk_end)
+            chunk_dir = output_dir / "chunks" / spec.alias / current_chunk_name
+            chunk_generations_csv_path = chunk_dir / "generated_outputs.csv"
+            chunk_calls_jsonl_path = chunk_dir / "calls.jsonl"
+            chunk_content_csv_path = chunk_dir / f"{spec.alias}-content.csv"
+            chunk_manifest_path = chunk_dir / "run_manifest.json"
+            chunk_rows: List[GenerationRow] = []
+
+            for sample_batch in iter_batches(
+                chunk_samples,
+                args.local_batch_size if spec.provider == "local_hf" else 1,
+            ):
+                batch_results: List[Any]
+                try:
+                    batch_results = generate_batch_for_model(
+                        spec,
+                        [sample.prompt_text for sample in sample_batch],
+                        args.system_prompt,
+                        args,
+                    )
+                except Exception as batch_exc:
+                    if spec.provider == "local_hf" and len(sample_batch) > 1:
+                        print(
+                            f"[warn] {spec.alias} batch failed for {len(sample_batch)} samples; "
+                            f"retrying sequentially: {batch_exc}",
+                            file=sys.stderr,
+                        )
+                        batch_results = []
+                        for sample in sample_batch:
+                            try:
+                                batch_results.append(
+                                    generate_text_for_model(
+                                        spec, sample.prompt_text, args.system_prompt, args
+                                    )
+                                )
+                            except Exception as exc:
+                                batch_results.append(exc)
+                    else:
+                        batch_results = [batch_exc]
+
+                for sample, result in zip(sample_batch, batch_results):
+                    try:
+                        if isinstance(result, Exception):
+                            raise result
+
+                        generated_text, raw_payload = result
+                        generated_subject, generated_body = split_generated_email_fields(generated_text)
+                        row = GenerationRow(
+                            join_key=sample.join_key,
+                            input_row_number=sample.input_row_number,
+                            reference_row_number=sample.reference_row_number,
+                            model_alias=spec.alias,
+                            company=spec.company,
+                            family=spec.family,
+                            access_type=spec.access_type,
+                            provider=spec.provider,
+                            prompt_text=sample.prompt_text,
+                            generated_text=generated_text,
+                            generated_subject=generated_subject,
+                            generated_body=generated_body,
+                            reference_text=sample.reference_text,
+                            label=sample.label,
+                            created_at=now_utc_iso(),
+                        )
+                        generations.append(row)
+                        generations_by_model[spec.alias].append(row)
+                        chunk_rows.append(row)
+                        call_record = {
+                            "created_at": now_utc_iso(),
+                            "model_alias": spec.alias,
+                            "chunk_name": current_chunk_name,
+                            "join_key": sample.join_key,
+                            "prompt_text": sample.prompt_text,
+                            "reference_text": sample.reference_text,
+                            "label": sample.label,
+                            "response_payload": raw_payload,
+                            "status": "ok",
+                        }
+                        append_jsonl(calls_jsonl_path, call_record)
+                        append_jsonl(model_calls_jsonl_path, call_record)
+                        append_jsonl(chunk_calls_jsonl_path, call_record)
+                    except Exception as exc:
+                        error_record = {
+                            "created_at": now_utc_iso(),
+                            "model_alias": spec.alias,
+                            "chunk_name": current_chunk_name,
+                            "join_key": sample.join_key,
+                            "prompt_text": sample.prompt_text,
+                            "reference_text": sample.reference_text,
+                            "label": sample.label,
+                            "status": "error",
+                            "error": str(exc),
+                        }
+                        append_jsonl(calls_jsonl_path, error_record)
+                        append_jsonl(model_calls_jsonl_path, error_record)
+                        append_jsonl(chunk_calls_jsonl_path, error_record)
+                        print(
+                            f"[warn] {spec.alias} failed on sample {sample.join_key}: {exc}",
+                            file=sys.stderr,
+                        )
+                        completed += 1
+                        continue
+
+                    completed += 1
+
+                    if args.print_every > 0 and completed % args.print_every == 0:
+                        print(
+                            f"[progress] completed {completed}/{total} generations for {spec.alias} on sample {sample.join_key}",
+                            file=sys.stderr,
+                        )
+
+                    if args.save_every > 0 and completed % args.save_every == 0:
+                        current_chunk_manifest = build_chunk_manifest(
+                            args=args,
+                            spec=spec,
+                            chunk_dir=chunk_dir,
+                            chunk_start=chunk_start,
+                            chunk_end=chunk_end,
+                            chunk_generations=chunk_rows,
+                        )
+                        persist_model_run_state(
+                            args=args,
+                            spec=spec,
+                            all_generations_path=generations_csv_path,
+                            all_generations=generations,
+                            model_generations_paths=model_generations_paths,
+                            model_generations=generations_by_model[spec.alias],
+                            model_content_path=model_content_csv_path,
+                            model_manifest_path=model_manifest_path,
+                            output_dir=output_dir,
+                            chunk_generations_path=chunk_generations_csv_path,
+                            chunk_generations=chunk_rows,
+                            chunk_content_path=chunk_content_csv_path,
+                            chunk_manifest_path=chunk_manifest_path,
+                            chunk_manifest=current_chunk_manifest,
+                        )
+
+                    if args.sleep_seconds > 0:
+                        time.sleep(args.sleep_seconds)
+
+            chunk_manifest = build_chunk_manifest(
+                args=args,
+                spec=spec,
+                chunk_dir=chunk_dir,
+                chunk_start=chunk_start,
+                chunk_end=chunk_end,
+                chunk_generations=chunk_rows,
+            )
+            persist_model_run_state(
+                args=args,
+                spec=spec,
+                all_generations_path=generations_csv_path,
+                all_generations=generations,
+                model_generations_paths=model_generations_paths,
+                model_generations=generations_by_model[spec.alias],
+                model_content_path=model_content_csv_path,
+                model_manifest_path=model_manifest_path,
+                output_dir=output_dir,
+                chunk_generations_path=chunk_generations_csv_path,
+                chunk_generations=chunk_rows,
+                chunk_content_path=chunk_content_csv_path,
+                chunk_manifest_path=chunk_manifest_path,
+                chunk_manifest=chunk_manifest,
+            )
+
+            print(
+                f"[chunk] saved {spec.alias} {current_chunk_name} with {len(chunk_rows)}/{len(chunk_samples)} successful generations",
+                file=sys.stderr,
+            )
+
+    write_generation_csv_targets(generations, [generations_csv_path])
 
     manifest = build_manifest(args, selected_models, len(samples), output_dir)
-    manifest_path.parent.mkdir(parents=True, exist_ok=True)
-    with manifest_path.open("w", encoding="utf-8") as handle:
-        json.dump(manifest, handle, ensure_ascii=False, indent=2)
-        handle.write("\n")
+    write_json(manifest_path, manifest)
 
     print(f"Wrote generated outputs to {generations_csv_path}", file=sys.stderr)
     print(f"Saved call logs to {calls_jsonl_path}", file=sys.stderr)

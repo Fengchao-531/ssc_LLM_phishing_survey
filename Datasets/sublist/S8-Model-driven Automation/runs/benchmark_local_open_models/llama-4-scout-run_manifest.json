@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-04-03T05:04:59+00:00",
+  "input_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S8-Model-driven Automation/candidate-prompts.csv",
+  "reference_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S8-Model-driven Automation/HW-combined-shuffled.csv",
+  "output_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S8-Model-driven Automation/runs/benchmark_local_open_models",
+  "models_output_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S8-Model-driven Automation/Models-Output",
+  "prompt_column": "prompt",
+  "reference_column": "Body",
+  "id_column": "source_id",
+  "reference_id_column": "source_id",
+  "sample_count": 60,
+  "chunk_size": 100,
+  "max_prompt_chars": 12000,
+  "max_reference_chars": 20000,
+  "models": [
+    {
+      "alias": "llama-4-scout",
+      "company": "Meta",
+      "family": "Llama",
+      "access_type": "white_box",
+      "provider": "local_hf",
+      "model_name": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+      "api_base_url": "",
+      "api_key_env": "",
+      "hf_model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+      "enabled_by_default": true,
+      "notes": "Open-weight Llama 4 Scout."
+    }
+  ],
+  "metrics": {
+    "row_level": [],
+    "corpus_level": []
+  },
+  "notes": [
+    "This run only saves raw generations and aligned reference text.",
+    "Per-model content CSVs are saved as <model_alias>-content.csv with subject, body, and label columns.",
+    "Chunk runs are saved under chunks/<model_alias>/chunk_<start>_<end>/.",
+    "Use the separate scoring script to compute BLEU, ROUGE-1, perplexity, and topic coherence.",
+    "local_hf models resolve from --hf-model-root first and fall back to Hugging Face model ids if no local copy is found."
+  ],
+  "content_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S8-Model-driven Automation/runs/benchmark_local_open_models/llama-4-scout-content.csv",
+  "generated_outputs_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S8-Model-driven Automation/Models-Output/llama-4-scout-generated_output.csv"
+}
