@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-04-03T20:27:00.334701Z",
+  "repo_dir": "Detectors/Industry/email_detectors/open-source-git/email-phishing-detection_V3",
+  "python_bin": "/home/fche0036/pk79_scratch/anaconda3/envs/FC-W2-gpu-p39/bin/python",
+  "input_mode": "csv",
+  "input_eml_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S5-Personalization for Credibility/5-HW-P_EML",
+  "input_csv": "Detectors/output/LLM-result/S5.csv",
+  "sample_size": 2456,
+  "dataset_name": "LLM-result_S5",
+  "model_name": "email-phishing-detection_V3",
+  "output_csv": "/fs04/scratch2/pk79/fche0036/ssc_LLM_phishing_survey/Detectors/output/LLM-result/S5_email_v3_summary.csv",
+  "output_dir": "/fs04/scratch2/pk79/fche0036/ssc_LLM_phishing_survey/Detectors/output/LLM-result",
+  "summary_dir": "/fs04/scratch2/pk79/fche0036/ssc_LLM_phishing_survey/Detectors/output/LLM-result",
+  "saved_artifacts": [
+    "/fs04/scratch2/pk79/fche0036/ssc_LLM_phishing_survey/Detectors/output/LLM-result/run_manifest.json",
+    "/fs04/scratch2/pk79/fche0036/ssc_LLM_phishing_survey/Detectors/output/LLM-result/S5_email_v3_summary.csv"
+  ],
+  "intermediate_artifacts_saved": false
+}

@@ -53,9 +53,18 @@ ALL_DETECTORS = [
 
 
 def detect_default_python() -> str:
-    preferred = Path("/scratch3/che489/Ha/.conda/envs/FC-W2-gpu-p39/bin/python")
-    if preferred.exists():
-        return str(preferred)
+    env_python = os.environ.get("PYTHON_BIN", "").strip()
+    if env_python:
+        return env_python
+
+    for env_name in ("VIRTUAL_ENV", "CONDA_PREFIX"):
+        env_prefix = os.environ.get(env_name, "").strip()
+        if not env_prefix:
+            continue
+        preferred = Path(env_prefix) / "bin" / "python"
+        if preferred.exists():
+            return str(preferred)
+
     return sys.executable
 
 
