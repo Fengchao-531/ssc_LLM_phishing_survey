@@ -137,6 +137,20 @@ def parse_args() -> argparse.Namespace:
         help="Write back combined results after every N rows per detector. Default: 100",
     )
     parser.add_argument(
+        "--resume-existing",
+        action="store_true",
+        help=(
+            "Resume from an existing combined output CSV if it exists. "
+            "Completed chunks are skipped and only unfinished chunk statuses are rerun."
+        ),
+    )
+    parser.add_argument(
+        "--start-row",
+        type=int,
+        default=1,
+        help="Optional 1-based row to start from when not using resume, or to force a lower bound when resuming.",
+    )
+    parser.add_argument(
         "--result-group",
         choices=RESULT_GROUPS,
         default=None,
@@ -234,6 +248,24 @@ def read_input_rows(args: argparse.Namespace) -> tuple[list[dict[str, Any]], lis
         rows.append(enriched)
 
     return rows, list(reader.fieldnames)
+
+
+def load_existing_output_rows(output_csv: Path) -> dict[int, dict[str, Any]]:
+    if not output_csv.exists():
+        return {}
+
+    with output_csv.open("r", encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        if not reader.fieldnames:
+            return {}
+
+        existing: dict[int, dict[str, Any]] = {}
+        for row in reader:
+            row_number_raw = str(row.get("benchmark_row_number", "")).strip()
+            if not row_number_raw.isdigit():
+                continue
+            existing[int(row_number_raw)] = dict(row)
+        return existing
 
 
 def write_text_projection_csv(
@@ -537,6 +569,32 @@ def apply_chunk_results(
             global_row.update(empty_detector_values(detector_name, fallback_status))
 
 
+def status_requires_run(status: Any) -> bool:
+    return str(status or "").strip() in {"", "pending", "run_failed", "missing_summary", "parse_failed"}
+
+
+def chunk_requires_run(
+    combined_rows: list[dict[str, Any]],
+    detector_name: str,
+    start_index: int,
+    chunk_size: int,
+    start_row: int,
+) -> bool:
+    chunk_first_row = start_index + 1
+    chunk_last_row = start_index + chunk_size
+    if chunk_last_row < start_row:
+        return False
+
+    status_key = detector_fieldnames(detector_name)[0]
+    for local_index in range(chunk_size):
+        global_row_number = start_index + local_index + 1
+        if global_row_number < start_row:
+            continue
+        if status_requires_run(combined_rows[start_index + local_index].get(status_key, "")):
+            return True
+    return False
+
+
 def build_detector_command(
     detector_name: str,
     *,
@@ -724,6 +782,9 @@ def write_combined_output(
 
 def main() -> int:
     args = parse_args()
+    if args.start_row <= 0:
+        raise SystemExit("--start-row must be greater than 0.")
+
     run_dir = make_run_dir(args)
     run_dir.mkdir(parents=True, exist_ok=True)
     final_output_csv = make_output_csv_path(args)
@@ -736,6 +797,18 @@ def main() -> int:
 
     for detector_name in args.detectors:
         initialize_detector_status(combined_rows, detector_name, "pending")
+
+    if args.resume_existing and final_output_csv.exists():
+        existing_rows = load_existing_output_rows(final_output_csv)
+        for row in combined_rows:
+            row_number = int(row["benchmark_row_number"])
+            if row_number not in existing_rows:
+                continue
+            existing_row = existing_rows[row_number]
+            for key in fieldnames:
+                if key in existing_row and existing_row[key] != "":
+                    row[key] = existing_row[key]
+
     write_combined_output(final_output_csv, combined_rows, fieldnames)
 
     with tempfile.TemporaryDirectory(prefix=f"{stage_name.lower()}_detector_suite_") as temp_dir:
@@ -746,6 +819,14 @@ def main() -> int:
             for start_index in range(0, effective_sample_size, checkpoint):
                 chunk_rows = combined_rows[start_index:start_index + checkpoint]
                 chunk_size = len(chunk_rows)
+                if not chunk_requires_run(
+                    combined_rows,
+                    detector_name,
+                    start_index,
+                    chunk_size,
+                    args.start_row,
+                ):
+                    continue
                 chunk_tag = f"{detector_name}_{start_index + 1:06d}_{start_index + chunk_size:06d}"
                 detector_dir = temp_root / chunk_tag
                 detector_dir.mkdir(parents=True, exist_ok=True)
