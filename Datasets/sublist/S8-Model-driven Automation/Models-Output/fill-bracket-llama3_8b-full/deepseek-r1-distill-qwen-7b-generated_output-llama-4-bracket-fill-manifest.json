@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-04-03T13:44:23+00:00",
+  "input_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S8-Model-driven Automation/Models-Output/deepseek-r1-distill-qwen-7b/deepseek-r1-distill-qwen-7b-generated_output.csv",
+  "output_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S8-Model-driven Automation/Models-Output/fill-bracket-llama3_8b-full/deepseek-r1-distill-qwen-7b-generated_output.fill_bracket.csv",
+  "calls_jsonl": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S8-Model-driven Automation/Models-Output/fill-bracket-llama3_8b-full/deepseek-r1-distill-qwen-7b-generated_output-llama-4-bracket-fill-calls.jsonl",
+  "model_alias": "llama-3.1-8b",
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "subject_column": "generated_subject",
+  "body_column": "generated_body",
+  "generated_text_column": "generated_text",
+  "label_column_dropped": "",
+  "keep_extra_columns": true,
+  "processed_rows": 3000,
+  "context_chars": 120,
+  "max_text_chars": 12000,
+  "max_response_tokens": 768,
+  "save_every": 1,
+  "notes": [
+    "Only text inside square brackets is replaced.",
+    "Non-bracket text is preserved locally by span replacement.",
+    "Rows that fail model parsing keep their original subject/body text."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-04-03T17:57:16+00:00",
+  "processed_file_count": 1,
+  "files": [
+    {
+      "input_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S8-Model-driven Automation/Models-Output/llama-3.1-8b/llama-3.1-8b-generated_output.csv",
+      "output_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S8-Model-driven Automation/Models-Output/fill-bracket-llama3_8b-full/llama-3.1-8b-generated_output.fill_bracket.csv",
+      "processed_rows": 3000,
+      "subject_column": "generated_subject",
+      "body_column": "generated_body",
+      "generated_text_column": "generated_text"
+    }
+  ],
+  "notes": [
+    "CSV file names are preserved when --input-dir is used.",
+    "Only square-bracket placeholders are replaced."
+  ]
+}
