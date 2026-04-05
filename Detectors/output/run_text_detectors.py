@@ -19,6 +19,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+csv.field_size_limit(10**9)
+
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 DETECTORS_DIR = SCRIPT_DIR.parent
