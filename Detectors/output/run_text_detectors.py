@@ -25,6 +25,8 @@ DETECTORS_DIR = SCRIPT_DIR.parent
 EMAIL_DETECTORS_DIR = DETECTORS_DIR / "Industry" / "email_detectors"
 OPEN_SOURCE_DIR = EMAIL_DETECTORS_DIR / "open-source-git"
 OUTPUT_ROOT = SCRIPT_DIR
+LOGS_ROOT = OUTPUT_ROOT / "logs"
+TMP_SUITES_ROOT = LOGS_ROOT / "tmp"
 
 DEFAULT_INPUT_CSV = (
     DETECTORS_DIR.parent
@@ -135,6 +137,12 @@ def parse_args() -> argparse.Namespace:
         type=int,
         default=100,
         help="Write back combined results after every N rows per detector. Default: 100",
+    )
+    parser.add_argument(
+        "--progress-every",
+        type=int,
+        default=500,
+        help="Print detector progress every N rows. Set 0 to disable. Default: 500",
     )
     parser.add_argument(
         "--resume-existing",
@@ -780,10 +788,21 @@ def write_combined_output(
             writer.writerow(serializable)
 
 
+def print_progress(message: str) -> None:
+    print(message, flush=True)
+
+
+def make_temp_root(stage_name: str) -> Path:
+    TMP_SUITES_ROOT.mkdir(parents=True, exist_ok=True)
+    return TMP_SUITES_ROOT.resolve()
+
+
 def main() -> int:
     args = parse_args()
     if args.start_row <= 0:
         raise SystemExit("--start-row must be greater than 0.")
+    if args.progress_every < 0:
+        raise SystemExit("--progress-every cannot be negative.")
 
     run_dir = make_run_dir(args)
     run_dir.mkdir(parents=True, exist_ok=True)
@@ -810,15 +829,39 @@ def main() -> int:
                     row[key] = existing_row[key]
 
     write_combined_output(final_output_csv, combined_rows, fieldnames)
+    print_progress(
+        (
+            f"[start] dataset={dataset_name} stage={stage_name} rows={effective_sample_size} "
+            f"detectors={','.join(args.detectors)} checkpoint_every={max(1, args.checkpoint_every)} "
+            f"output={final_output_csv}"
+        )
+    )
 
-    with tempfile.TemporaryDirectory(prefix=f"{stage_name.lower()}_detector_suite_") as temp_dir:
-        temp_root = Path(temp_dir)
-
-        for detector_name in args.detectors:
+    temp_parent = make_temp_root(stage_name)
+    print_progress(f"[temp-root-parent] {temp_parent}")
+    with tempfile.TemporaryDirectory(
+        prefix=f"{stage_name.lower()}_detector_suite_",
+        dir=str(temp_parent),
+    ) as temp_dir:
+        temp_root = Path(temp_dir).resolve()
+        detector_total = len(args.detectors)
+        for detector_index, detector_name in enumerate(args.detectors, start=1):
             checkpoint = max(1, args.checkpoint_every)
-            for start_index in range(0, effective_sample_size, checkpoint):
+            total_chunks = max(1, (effective_sample_size + checkpoint - 1) // checkpoint)
+            print_progress(
+                (
+                    f"[detector-start] {detector_index}/{detector_total} {detector_name} "
+                    f"rows=1-{effective_sample_size} chunks={total_chunks}"
+                )
+            )
+            processed_chunks = 0
+            skipped_chunks = 0
+            next_progress_row = args.progress_every if args.progress_every > 0 else None
+            for chunk_index, start_index in enumerate(range(0, effective_sample_size, checkpoint), start=1):
                 chunk_rows = combined_rows[start_index:start_index + checkpoint]
                 chunk_size = len(chunk_rows)
+                chunk_first_row = start_index + 1
+                chunk_last_row = start_index + chunk_size
                 if not chunk_requires_run(
                     combined_rows,
                     detector_name,
@@ -826,6 +869,13 @@ def main() -> int:
                     chunk_size,
                     args.start_row,
                 ):
+                    skipped_chunks += 1
+                    if next_progress_row is not None:
+                        while chunk_last_row >= next_progress_row:
+                            print_progress(
+                                f"[progress] detector={detector_name} rows={next_progress_row}/{effective_sample_size}"
+                            )
+                            next_progress_row += args.progress_every
                     continue
                 chunk_tag = f"{detector_name}_{start_index + 1:06d}_{start_index + chunk_size:06d}"
                 detector_dir = temp_root / chunk_tag
@@ -861,6 +911,13 @@ def main() -> int:
                             "run_failed",
                         )
                         write_combined_output(final_output_csv, combined_rows, fieldnames)
+                        print_progress(
+                            (
+                                f"[chunk-failed] detector={detector_name} {detector_index}/{detector_total} "
+                                f"chunk={chunk_index}/{total_chunks} rows={chunk_first_row}-{chunk_last_row} "
+                                f"status=run_failed log={log_path}"
+                            )
+                        )
                         if args.fail_fast:
                             raise SystemExit(stdout_text[-4000:] if stdout_text else "Detector run failed")
                         continue
@@ -875,6 +932,13 @@ def main() -> int:
                             "missing_summary",
                         )
                         write_combined_output(final_output_csv, combined_rows, fieldnames)
+                        print_progress(
+                            (
+                                f"[chunk-failed] detector={detector_name} {detector_index}/{detector_total} "
+                                f"chunk={chunk_index}/{total_chunks} rows={chunk_first_row}-{chunk_last_row} "
+                                f"status=missing_summary expected={summary_csv}"
+                            )
+                        )
                         if args.fail_fast:
                             raise SystemExit(f"Expected summary CSV not found: {summary_csv}")
                         continue
@@ -889,6 +953,13 @@ def main() -> int:
                         "parse_failed",
                     )
                     write_combined_output(final_output_csv, combined_rows, fieldnames)
+                    processed_chunks += 1
+                    if next_progress_row is not None:
+                        while chunk_last_row >= next_progress_row:
+                            print_progress(
+                                f"[progress] detector={detector_name} rows={next_progress_row}/{effective_sample_size}"
+                            )
+                            next_progress_row += args.progress_every
                 except Exception:
                     apply_chunk_results(
                         combined_rows,
@@ -899,17 +970,36 @@ def main() -> int:
                         "run_failed",
                     )
                     write_combined_output(final_output_csv, combined_rows, fieldnames)
+                    print_progress(
+                        (
+                            f"[chunk-failed] detector={detector_name} {detector_index}/{detector_total} "
+                            f"chunk={chunk_index}/{total_chunks} rows={chunk_first_row}-{chunk_last_row} "
+                            f"status=exception log={log_path}"
+                        )
+                    )
                     if args.fail_fast:
                         raise
+            if args.progress_every > 0 and (next_progress_row is None or next_progress_row <= effective_sample_size):
+                print_progress(f"[progress] detector={detector_name} rows={effective_sample_size}/{effective_sample_size}")
+            print_progress(
+                (
+                    f"[detector-done] {detector_index}/{detector_total} {detector_name} "
+                    f"processed_chunks={processed_chunks} skipped_chunks={skipped_chunks} "
+                    f"output={final_output_csv}"
+                )
+            )
+        print_progress("[temp-root-cleaned]")
 
     print(json.dumps({
         "timestamp": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "result_group": args.result_group or infer_result_group(args.input_csv),
         "stage_name": stage_name,
         "output_csv": str(final_output_csv),
+        "temp_root_parent": str(temp_parent),
         "rows": len(combined_rows),
         "detectors_requested": list(args.detectors),
         "checkpoint_every": max(1, args.checkpoint_every),
+        "progress_every": args.progress_every,
     }, ensure_ascii=False, indent=2))
     return 0
 

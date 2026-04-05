@@ -5,6 +5,8 @@ Datasets/LLM-Benign
 Datasets/LLM-Phishing
 Detectors/Industry/email_detectors/open-source-git/email-phishing-detection_V3
 Detectors/Industry/email_detectors/open-source-git/Phishing-Email-Agent
+Detectors/output/logs
+
 diagrams
 
 # python corresponding
