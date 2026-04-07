@@ -1,0 +1,10 @@
+{
+  "dataset_name": "S1-GD.csv",
+  "input_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/output/HW-result/datasets/S1-GD.csv",
+  "output_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/output/HW-result/academic_results/S1-GD.csv",
+  "detectors": [
+    "xgboost"
+  ],
+  "chunk_size": 100,
+  "updated_at": "2026-04-07 12:16:47"
+}
