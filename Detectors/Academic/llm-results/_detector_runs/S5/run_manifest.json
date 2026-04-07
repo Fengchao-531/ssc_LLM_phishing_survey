@@ -1,0 +1,14 @@
+{
+  "dataset_name": "S5.csv",
+  "input_csv": "/fs04/scratch2/pk79/fche0036/ssc_LLM_phishing_survey/Detectors/output/LLM-result/S5.csv",
+  "output_csv": "/fs04/scratch2/pk79/fche0036/ssc_LLM_phishing_survey/Detectors/Academic/llm-results/S5.csv",
+  "detectors": [
+    "scamllm",
+    "pimref",
+    "t5phishing",
+    "ml_watermark_logreg",
+    "xgboost",
+    "securenet_llama"
+  ],
+  "updated_at": "2026-04-06 03:20:58"
+}
