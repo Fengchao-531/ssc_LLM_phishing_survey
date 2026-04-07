@@ -7,6 +7,7 @@ import argparse
 import csv
 import json
 import re
+import sys
 from pathlib import Path
 from typing import Any
 
@@ -229,6 +230,7 @@ def batched(items: list[dict[str, str]], batch_size: int):
 
 def main() -> int:
     args = parse_args()
+    csv.field_size_limit(sys.maxsize)
     input_csv = args.input_csv.resolve()
     output_dir = args.output_dir.resolve()
     output_dir.mkdir(parents=True, exist_ok=True)

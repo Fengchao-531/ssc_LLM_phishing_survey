@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import sys
 from pathlib import Path
 from typing import Any
 
@@ -151,6 +152,7 @@ def batched(items: list[dict[str, str]], batch_size: int):
 
 def main() -> int:
     args = parse_args()
+    csv.field_size_limit(sys.maxsize)
     input_csv = args.input_csv.resolve()
     output_dir = args.output_dir.resolve()
     model_dir = args.model_dir.resolve()
