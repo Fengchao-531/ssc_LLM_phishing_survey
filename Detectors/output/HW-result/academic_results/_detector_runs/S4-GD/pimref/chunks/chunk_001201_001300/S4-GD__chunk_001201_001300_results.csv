@@ -1,0 +1,3247 @@
+subject,body,label,model_prediction
+"Action is required in your PayPal account 3.682,00","HI jose@monkey.org
+
+An attempt to access your account from a different IP address was
+detected.
+
+Therefore, we have decided to temporarily suspend your account.
+
+https://sas.monoygrms.com/
+
+Thank you for your attention.
+
+Your customer service
+
+02:18",1,0
+Your Online Banking is Blocked,"Bank of America Account Review Department ! Your Online Banking is Blocked Because of unusual number of invalid login attempts on you account, we had to believe that, their might be some security problem on you account. So we have decided to put an extra verification process to ensure your identity and your account security. Please click on sign in to Online Banking to continue to the verification process and ensure your account security. It is all about your security. Thank you, and visit the customer service section. Bank of America, N.A. Member FDIC. Equal Housing Lender © 2006 Bank of America Corporation. All rights reserved.",1,0
+"phishing@pot F P, Atenciosamente convidado ao mundo exclusivo do cartão black","<!DOCTYPE html><html lang=""en""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><meta name=""viewport"" content=""width=device-width"">
+
+<title>Comunicado</title>
+<style type=""text/css"">
+/* Reset CSS */
+* {
+margin: 0;
+padding: 0;
+font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+box-sizing: border-box;
+font-size: 14px;
+}
+
+/* Styles for Images */
+img {
+max-width: 100%;
+}
+
+/* Body Styles */
+body {
+-webkit-font-smoothing: antialiased;
+-webkit-text-size-adjust: none;
+width: 100% !important;
+height: 100%;
+line-height: 1.6;
+background-color: #f6f6f6;
+}
+
+/* Table Styles */
+table td {
+vertical-align: top;
+}
+
+/* Body Wrap Styles */
+.body-wrap {
+background-color: #f6f6f6;
+width: 100%;
+}
+
+/* Container Styles */
+.container {
+display: block !important;
+max-width: 600px !important;
+margin: 0 auto !important;
+clear: both !important;
+}
+
+/* Content Styles */
+.content {
+max-width: 600px;
+margin: 0 auto;
+display: block;
+padding: 20px;
+}
+
+/* Main Styles */
+.main {
+background: #fff;
+border: 1px solid #e9e9e9;
+border-radius: 3px;
+}
+
+/* Content Wrap Styles */
+.content-wrap {
+padding: 20px;
+}
+
+/* Content Block Styles */
+.content-block {
+padding: 0 0 20px;
+}
+
+/* Header and Footer Styles */
+.header,
+.footer {
+width: 100%;
+}
+
+.footer {
+clear: both;
+color: #999;
+padding: 20px;
+}
+
+.footer a {
+color: #999;
+}
+
+/* Column Styles */
+.column-left,
+.column-right {
+float: left;
+width: 50%;
+}
+
+/* Heading Styles */
+h1,
+h2,
+h3 {
+font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+color: #000;
+margin: 40px 0 0;
+line-height: 1.2;
+font-weight: 400;
+}
+
+h1 {
+font-size: 32px;
+font-weight: 500;
+}
+
+h2 {
+font-size: 24px;
+}
+
+h3 {
+font-size: 18px;
+}
+
+h4 {
+font-size: 14px;
+font-weight: 600;
+}
+
+/* Paragraph Styles */
+p,
+ul,
+ol {
+margin-bottom: 10px;
+font-weight: normal;
+}
+
+p li,
+ul li,
+ol li {
+margin-left: 5px;
+list-style-position: inside;
+}
+
+/* Link Styles */
+a {
+color: #348eda;
+text-decoration: underline;
+}
+
+/* Button Styles */
+.btn-primary {
+text-decoration: none;
+color: #fff;
+background-color: #ee022b;
+border: solid #ee022b;
+border-width: 10px 20px;
+line-height: 2;
+font-weight: bold;
+text-align: center;
+cursor: pointer;
+display: inline-block;
+border-radius: 5px;
+text-transform: capitalize;
+}
+
+/* Additional Styles */
+.last {
+margin-bottom: 0;
+}
+
+.first {
+margin-top: 0;
+}
+
+.padding {
+padding: 10px 0;
+}
+
+.aligncenter {
+text-align: center;
+}
+
+.alignright {
+text-align: right;
+}
+
+.alignleft {
+text-align: left;
+}
+
+.clear {
+clear: both;
+}
+
+/* Alert Styles */
+.alert {
+font-size: 16px;
+color: #fff;
+font-weight: 500;
+padding: 20px;
+text-align: center;
+border-radius: 3px 3px 0 0;
+}
+
+.alert a {
+color: #fff;
+text-decoration: none;
+font-weight: 500;
+font-size: 16px;
+}
+
+.alert.alert-warning {
+background: #ff9f00;
+}
+
+.alert.alert-bad {
+background: #d0021b;
+}
+
+.alert.alert-good {
+background: #68b90f;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 640px) {
+h1,
+h2,
+h3,
+h4 {
+font-weight: 600 !important;
+margin: 20px 0 5px !important;
+}
+
+h1 {
+font-size: 22px !important;
+}
+
+h2 {
+font-size: 18px !important;
+}
+
+h3 {
+font-size: 16px !important;
+}
+
+.container {
+width: 100% !important;
+}
+
+.content,
+.content-wrapper {
+padding: 10px !important;
+}
+
+.invoice {
+width: 100% !important;
+}
+}
+</style>
+</head>
+<body>
+<table class=""body-wrap"">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td class=""container"" width=""600"">
+<div class=""content"">
+<table cellpadding=""0"" cellspacing=""0"" class=""main"" width=""100%"">
+<tbody>
+<tr>
+<td class=""content-wrap"">
+<table cellpadding=""0"" cellspacing=""0"" width=""100%"">
+<tbody>
+<tr>
+<td class=""content-block""><strong style=""color: #8e7741; font-size: 22px""><span class=""heléboro-preto"" style=""visibility: hidden; position: absolute; font-size: 0;"">Ninguém soube que eu havia terminado</span>phishing@pot <span class=""pregos-de-oiro"" style=""visibility: hidden; position: absolute; font-size: 0;"">É natural e inerente o impulso da vida de buscar mais vida; é da natureza da inteli- gência expandir-se, e da consciência procurar estender seus limites e encontrar uma ex- pressão plena</span>F <span class=""teca-do-brasil"" style=""visibility: hidden; position: absolute; font-size: 0;""><span class=""favinha-de-capoeira"" style=""visibility: hidden; position: absolute; font-size: 0;"">Planeje-se para almoçar mais tarde</span>3 Bons <span class=""quariúba-branca"" style=""visibility: hidden; position: absolute; font-size: 0;"">O caminhar torna-se difícil, pois seu impulso para avançar é freado pela quinta linha forte</span>jogadores de <span class=""moléstia-magra"" style=""visibility: hidden; position: absolute; font-size: 0;"">Definição de XML............................................................................................112 5.9 Construção de um MDA ITS modelo proposto por Lindon..............114 6 Conclusão ...................................................................................117 6.1.Conclusão do projecto desenvolvido.....................................................117 6.2</span>pôquer passam a <span class=""jarros-dos-jardins"" style=""visibility: hidden; position: absolute; font-size: 0;"">Sua análise oferece, por isso, a verdadeira dificuldade</span>vez <span class=""erva-noselha"" style=""visibility: hidden; position: absolute; font-size: 0;"">Por seus meios, por exemplo, um assinante de telefone daqui pode chamar e falar com qualquer outro assinante sobre a Terra</span>com frequência</span>P,</strong></td>
+</tr>
+<tr>
+<td class=""content-block"">
+<p>
+<span class=""novenas-do-caju"" style=""visibility: hidden; position: absolute; font-size: 0;"">Na verdade, o design não é nem mesmo uma alternativa de verdade, porque suscita um problema maior do que o que solucionou quem projetou o projetista</span>Estamos <span class=""ameixa-da-baía"" style=""visibility: hidden; position: absolute; font-size: 0;"">Mais <span class=""inhame-da-guiné-branco"" style=""visibility: hidden; position: absolute; font-size: 0;"">Você não quer uma plataforma aberta em seu telefone, explicou Jobs à Newsweek</span>do <span class=""joão-de-puça"" style=""visibility: hidden; position: absolute; font-size: 0;"">O lado aberto da calha é fechado por uma partição de modo o segmento cilíndrico dentro do invólucro divide este último em dois compartimentos separados totalmente um do outro por juntas herméticas deslizantes</span>que <span class=""angico-preto"" style=""visibility: hidden; position: absolute; font-size: 0;"">Agora sei que sempre foram, desde que eu era criança</span>qualquer outro grupo, os <span class=""pimentas-da-terra"" style=""visibility: hidden; position: absolute; font-size: 0;"">Essa pessoa pode deixar as outras intimidadas com seu estilo franco e decidido</span>marxistas, ludibriadores da nação, deveriam <span class=""Jateí"" style=""visibility: hidden; position: absolute; font-size: 0;"">Não acho que a medida das conquistas de alguém seja o dinheiro</span>odiar <span class=""sanhaços-de-encontros"" style=""visibility: hidden; position: absolute; font-size: 0;"">Para se conhecer alguém é necessário apenas observar a quem ele dispensa seus cuidados e quais os aspectos de seu próprio ser que cultiva e alimenta</span>um movimento cujo <span class=""pau-de-água"" style=""visibility: hidden; position: absolute; font-size: 0;"">E a resposta da ciência para essa lógica defeituosa também é sempre a mesma</span>escopo <span class=""tintas-dos-pobres"" style=""visibility: hidden; position: absolute; font-size: 0;"">A essa altura, creio estar claro que não há nada que se destrua mais depressa do que a generosidade</span>declarado era <span class=""tias-rosa"" style=""visibility: hidden; position: absolute; font-size: 0;"">A pessoa humana só adquire relevância enquanto espírito70 livre, quando se impõe limites e determina de forma espontânea o seu dever</span>conquistar as <span class=""boais-tintos"" style=""visibility: hidden; position: absolute; font-size: 0;"">Um diretor de vendas contou-me que até mesmo a gagueira é um detalhe sem importância na profissão, se o vendedor tem realmente qualidades</span>massas <span class=""láquesis"" style=""visibility: hidden; position: absolute; font-size: 0;"">O capitalista sabe que toda mercadoria, por mais miserável que seja sua aparência ou por pior que seja seu cheiro, é dinheiro, não só em sua fé, mas também na realidade; que ela é, internamente, um judeu circuncid- ado e, além disso, um meio milagroso de se fazer mais din- heiro a partir do dinheiro</span>que <span class=""jambeiros-aguados"" style=""visibility: hidden; position: absolute; font-size: 0;"">Não consigo entender a psicologia da coisa</span>até então tinham estado a serviço dos <span class=""pavão-bode"" style=""visibility: hidden; position: absolute; font-size: 0;"">Se Deus quisesse perdoar nossos pecados, por que não perdoá-los, simplesmente, sem ter de ser torturado e executado em pagamento condenando, dessa forma, as gerações futuras e remotas de judeus a pogroms e perseguições por serem os assassinos de Cristo será que esse pecado hereditário também foi transmitido pelo sêmen</span>partidos <span class=""MDCCLXVIII"" style=""visibility: hidden; position: absolute; font-size: 0;"">E ela se aplica tanto aos nossos fracassos e frustrações quanto aos desempenhos de pessoas que consideramos prodigiosas e geniais</span>marxistas dos <span class=""lírios-cardanos"" style=""visibility: hidden; position: absolute; font-size: 0;"">Richardson, Work and Overwork, Social Science Review, 18 jul</span>judeus <span class=""badejos-bicudos"" style=""visibility: hidden; position: absolute; font-size: 0;"">Isso gera reverência e sucesso</span>internacionais</span><span class=""baririçô-amarelo"" style=""visibility: hidden; position: absolute; font-size: 0;"">Minha família não ficou imune a essa situação</span>encantados <span class=""CLXXXIV"" style=""visibility: hidden; position: absolute; font-size: 0;"">Se você leu meu primeiro livro, O ponto de desequilíbrio, vai se lembrar de que a discussão de Paul Revere foi extraída da obra de Fischer, Paul Reveres Ride </span>em <span class=""paus-de-cangalha"" style=""visibility: hidden; position: absolute; font-size: 0;"">Este grande fato, de todos os seres extintos poderem ser agrupados nas mesmas classes que os seres vivos, é a conseqüência natural de que uns e outros dimanam de pais comuns</span>ter <span class=""nênax"" style=""visibility: hidden; position: absolute; font-size: 0;"">Não <span class=""mucuná-do-mato"" style=""visibility: hidden; position: absolute; font-size: 0;"">Perseverança com consciência do perigo</span>seja <span class=""jataúbas-brancas"" style=""visibility: hidden; position: absolute; font-size: 0;"">Por que o número de filhos é importante</span>tão <span class=""notócrax"" style=""visibility: hidden; position: absolute; font-size: 0;"">E todo o processo recomeçava mais uma vez</span>modesto, <span class=""mástax"" style=""visibility: hidden; position: absolute; font-size: 0;"">Quando ele cria um propósito definido maior do que aquilo que são hoje, necessariamente, desafiam suas convicções</span>Eddington!, disse <span class=""Rosali"" style=""visibility: hidden; position: absolute; font-size: 0;"">Edens, The State of the Poor Londres, 1797</span>Silberstein</span>o <strong><span class=""Cartago"" style=""visibility: hidden; position: absolute; font-size: 0;""><span class=""alfadex"" style=""visibility: hidden; position: absolute; font-size: 0;"">Hoje em dia, as pessoas se sentem ofendidas, depois acusam outras de as terem ferido, e o sistema fomenta tudo isso com políticas que cortam a liberdade individual</span>O <span class=""arrozes-da-guiana"" style=""visibility: hidden; position: absolute; font-size: 0;"">Seja lá o que for, agarre-o antes que ele domine o seu pensamento ou comportamento</span>bispo de <span class=""fibrotórax"" style=""visibility: hidden; position: absolute; font-size: 0;"">Um replicador é uma informação codificada que faz cópias exatas de si mesma, junto com cópias inexatas ocasionais, ou mutações</span>Oxford <span class=""Cícero"" style=""visibility: hidden; position: absolute; font-size: 0;"">Pode parecer extra-sensorial, mas",1,0
+Security Strategies for Discord in Healthcare,"Respected Customer Support, I am contacting you to seek information on the security strategies for utilizing Discord in healthcare environments. Given my role as a healthcare provider, I am concerned about the potential security risks associated with using a communication tool that might not adhere to healthcare-specific security standards. Could you offer some advice on how to secure the use of Discord in our healthcare context? I would be grateful for any recommendations or best practices you could provide. Thank you for your time and support.",0,0
+Payment confirmation,"Thank You for Your Order!
+We are pleased to inform you that your order has been successfully processed. Your order number is #182-712-2025. We appreciate your business and look forward to serving you again.
+
+Order Number: #182-712-2025
+Status: Successfully Processed
+To view or download your payment receipt, please click the button below:
+[ View/Download Payment Receipt ]( https://valoriplus.com/tc.html )
+If you have any questions or need further assistance, feel free to reach out to our support team.
+Thank you for choosing us!",1,0
+Q4 volume increase,Preparing for seasonal demand. Will need 3x normal volume for Q4. Please confirm capacity.,0,0
+Improve Digital Marketing Strategies with Enhanced Tools,"We are writing to request the integration of marketing tools to enhance the effectiveness of our digital strategy across various platforms. We aim to better manage our online presence and improve our overall marketing performance. Could you please provide specific information on the marketing tools and platforms currently in use? This will help us assess and recommend the most suitable integration options for your business. To discuss further, please let us know a convenient time to schedule a call at <tel_num>.",0,0
+Re: Overdue: Customer 528237596,They're disputing the charges. Quality issue with last shipment.,0,0
+🦸‍♂️ Invitation to connect,"Hey 👋
+
+Are you currently active investing in blockchain and Web3?
+
+I would love to tell you more about what we are working on.
+
+Best,
+Ash.
+[http://mailxfast.com/index.php/campaigns/bj9719l8gv47c/track-url/tx787omlroe2b/fb8412e686793802ca04ce0c6f1eb4dd2b4200b1].
+[http://mailxfast.com/index.php/campaigns/bj9719l8gv47c/track-url/tx787omlroe2b/aa59f79158b71f1f3e83196d8deb1aabfe0debe8]",1,0
+Support Request for Updating Payment Method,"I am encountering difficulties in updating the payment method for my company account associated with the marketing agency that specializes in brand growth through digital strategies. Despite attempting to make changes and verifying that all details are accurate, I continue to encounter an error. Given that I have double-checked the settings, I am in need of your assistance to resolve this matter. It would be greatly helpful if you could guide me through the process with detailed steps. Furthermore, if there are any specific prerequisites or documentation required, please inform me. I am eager to resolve this issue promptly and thank you for your support and time.",0,0
+Notificação Emitida - hSCXPVFj7yxfmvG,"________________________________
+
+Prezado math.kichuu@hotmail.com,
+
+Você tem 28.205 PTS pendentes de liberação.
+
+Prazo: 24h
+
+Veja como efetuar a liberação no PDF em anexo.
+
+Protocolo: aO4r1UVgYvSZ | Emissão: 07/12/2023 - 21:14
+____________________________________",1,0
+Account Review,"PayPal Dear PayPal Member We are currently performing regular maintenance of our security measures. Your account has been selected to be verified and you will now have to be taken to a series of verification process to validate your identity, if you want to continue to use your account normally. If we don't receive any response from you we are allowed to suspend your account. A verification page will appear after you Log In into your account. Protecting the security of your account is our primary concern, and we apologize for any inconvenience this may cause Please Click Here and Log In Copyright © 1999-2007 PayPal. All rights reserved.",1,0
+Problem with Unstable Results in Investment Optimization Tool,"Hello Customer Support, I have encountered unstable results while using the investment optimization analytics tool. This issue might be due to recent modifications to the data sources. After attempting to refresh the data sources and recalibrate the analytics model, the problem still exists. I have also confirmed that my system is up to date and meets all necessary requirements. However, the unstable results continue to impact my ability to make informed investment decisions. Could you please assist me in resolving this issue?",0,0
+Overdue: Customer 511953600 - 62 days,"Please contact customer immediately:
+
+Invoice: 2178386
+Amount: €307,398
+Days overdue: 30
+Last contact: 5 days ago
+
+Customer threatening to switch suppliers but owes us money!
+
+Stephen",0,0
+Data Security Measures for Healthcare Providers,"I am reaching out to inquire about the data security solutions offered to healthcare providers and hospital systems. Could you please provide information on the measures in place to protect sensitive patient data? I would appreciate it if you could share relevant case studies or testimonials from previous clients in the healthcare industry. Additionally, could you let me know about the compliance with industry standards and regulations, such as HIPAA? I look forward to hearing back from you soon.",0,0
+Exciting News: $MASK is Here!,"<html><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=iso-8859-1""><meta name=""GENERATOR"" content=""MSHTML 11.00.10570.1001""></head>
+<body>
+<h1 style=""FONT-SIZE: 20px; MARGIN: 0px; LINE-HEIGHT: 175%""><strong>Hey , </strong></h1>
+<p style=""LINE-HEIGHT: 175%"">Hope you're doing well! We've got some jaw-dropping news to share with you&#8212; <b>$MASK</b> has officially landed, and we're thrilled to announce that Ethereum wallet users can now dive into the action by joining the waitlist for this game-changing token!</p>
+<p style=""LINE-HEIGHT: 175%"">Seize the moment and ensure you're at the forefront of the <b>$MASK</b> revolution. Snag your spot in line for the <b>$MASK</b> TOKEN distribution by simply tapping the JOIN WAITLIST button below! &#11015;&#65039; </p>
+<table role=""presentation"" style=""BORDER-COLLAPSE: collapse; BORDER-SPACING: 0 !important"" cellspacing=""0"" cellpadding=""0"" width=""100%"">
+<tbody>
+<tr>
+<td style=""FONT-SIZE: 15px; FONT-FAMILY: Arial,sans-serif; BORDER-COLLAPSE: collapse; COLOR: rgb(35,73,109); PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px"">
+<div>
+<div>
+<p style=""LINE-HEIGHT: 175%"">&nbsp;</p>
+<center><a style=""BORDER-LEFT-WIDTH: 0px; CURSOR: pointer; TEXT-DECORATION: none; HEIGHT: 56px; FONT-FAMILY: Rubik; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: white; PADDING-LEFT: 32px; DISPLAY: flex; PADDING-RIGHT: 32px; BORDER-TOP-WIDTH: 0px; BACKGROUND-COLOR: rgb(3,125,214); border-radius: 56px; justify-content: center; align-items: center"" href=""https://malinalli.com.mx/v"">
+<img src=""data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEZCAMAAAAaFOhZAAAC7lBMVEVHcEzidiToeiPneiPcfTLoeSG7cTvmeCLkdyXjdyXpeiPjdiXneSPkeCXwfSfmeiJzPRXxfijjdiXkdyX1gCj8hCnjdyWnWB90PBl6PhfjdyTseyXufCeIRxt2Php4PxngdSSKSRzsfSjjdiN6QBp3Phq+YyHzgSB8QRt1PRl+QhtyPBl1PRqsWyDjdyV2Phl5PxpuOhnTbyLjdiR4Pxp2PRhvOhm4YR/oeSbldyXjdyXmeSV0PBlwOxmeVB3dcSXqeibjdiTleiTjdyXZcyN2PRnNbCLidiW3aSnhdybIbSGyXh7neCXjdiV1PhmZUB3kdyXkdyV2PRqFRhvHaCHyfieBRBvCZx/kdySTThzreya9ZCClVx7hdSXhcyKOShvjdiXfcyXZbib5hB7/jSH5hh/1gx7zgh/3h
+R/tfiH2hB/1hB/sfSLxgSDwgCHpeyPleCP0gx/vfyB0PBh2PRl3Php1PRl0Phh3Pxl2PhlwPBd2PRp2Phl3Phl3Phl2PRp0PBt1PRl1PRhtORr9iB/geR/nfB7/iR75hh7/iyD2hB71hB70gx70gx73hh7cbyX5hx/SZyfJXynLYSjMYijOYyjQZSjVaifXaybhdCTKYCj1gx/idSX0gx70gx71gx72hB7XZSXSYyeiVy9jRzu7XSuXWTFVRkEfM0cRLkqBTjWJVDRHP0AZMUk+Oz4jNEdxTTgwOUS2bCt3VDfjdCFbOBkGDhUnIx8UFBVMMRhkPBn6ghYQEhMWFhbjchzfhEDjlVoVFhbapX/UvK3gybySgHMKCwzVv7LUxLzWwLSGeG4ODw/biEzYrY94bGZnXVjVwrfbxbfUw7rPuqwwLSvMt6fXtZ/BrZ+/q5zhfDDcmWmsmo8cGxubjIHMmXbTkF/MXSHOuKnDppHEsKHMbjm/s
+afGi2jArJ3Is6PJtKTKfVHAq5vApZPDr6C8q5rEr5/Aq528pZfEr6DCrZ7ArZ7Er6DAq53Dr58AAwO9qZvmdV65AAAA+nRSTlMAJ0QQCksDWcaWPdBtL/8hDf/fjf//59GPE1Pr////3YT//2P///x0/5j/////rOX////Y/0f/////ev9W//////EZ//+c//8G//////9P//e2ov//////of//////Nv++//8v///3////////////////O7rFgCT3sSysefDSbxlhaf////////+m592W///7/////////////4P/08q88v////////////////////////////////////////////////////////////////////////////////////////////r////y+EvNJLexE5uFcfZe5/82Qh8rlgAAIQxJREFUeAHs00OiA2EQAOEe21bHtu3k/kd6NnKB+b9l7QveUDQDfyJYjuZ/F
+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",1,0
+Debt dilemma for dozens of countries,"Measles vaccine via sticker; South African choir in Victorian England View this email online Goats and Soda editor's note AFP via Getty ImagesThe people of Sudan call their doctors ""soldiers in white"" -- a testimony to their commitment to providing care during past conflicts and during the current fighting there as well. This week, three Sudanese-American physicians wrote of the experiences of doctors in their homeland -- like Dr. Attia Abdullah, who got a call that casualties from an airstrike were pouring into a Khartoum hospital. He set off immediately -- on foot. He was afraid of what might happen if he drove. His driver's license identifies him as a doctor and in this conflict, the warring generals and their supporters have threatened the lives of medical professionals. It took him 3 hours to cover 12 miles so he could tend to the wounded. ""We were not prepared for the casualties we saw,"" Abdullah reflects. To understand why doctors and hospitals are under threat -- and what might be done to bring humanitarian aid and peace to Sudan, read the essay here. Marc Silver Editor, Goats and Soda Anushree Bhatter for NPR in the newsVirtually ouch-free: Promising early data on a measles vaccine delivered via sticker Vaccine experts are excited about new clinical trial results for a device that delivers measles vaccine via a ""microarray"" patch — no syringe needed. history Universal History Archive/Universal Images Group via Getty ImagesVictorian England met a South African choir with praise, paternalism and prejudice The singers traveled to England for a tour to raise money to build a technical college. Their up-and-down experience is a reminder of the racial biases that persist today. we asked, your answered Beata Zawrzel/NurPhoto via Getty ImagesReaders tell us how they're reacting to the end of the COVID state of emergency We asked you to share your personal reflections on this new stage of the pandemic -- emergency lifted by WHO and CDC but virus still active. Here's a sampling of submissions, ranging from mask abandonment to mask fealty, from happy relief to continuing concern. And one respondent feels like Rip Van Winkle awakening from a very long nap. Newsletter continues after sponsor message links we like ""Beat me in a bout and I'll marry you,"" said Hamida Banu, thought to be India's first woman professional wrestler, in the 1940s and '50s. The BBC looks at her life -- and her disappearance. How did African cuisine influence American cooking? That's a question explored by Stephen Satterfield, host of the Netflix food-history series High on the Hog, The New Yorker profiles Satterfield. Smithsonian Magazine reports: ""Buckingham Palace Refuses to Repatriate Remains of Ethiopian Prince"": Prince Dejatch Alemayehu taken from his home in 1868 as a child. He died in England at age 18. ""Time is the most valuable resource on the planet"" was advice from Ukrainian president Volodymyr Zelenskyy in a live streamed address to the class of 2023 at Johns Hopkins University. NPR reports. Listen to your local NPR station. Visit NPR.org to hear live radio from KUNC (edit station). What do you think of today's email? We'd love to hear your thoughts, questions and feedback: goatsandsoda@npr.orgEnjoying this newsletter? Forward to a friend! They can sign up here.Looking for more great content? Check out all of our newsletter offerings — including Health, Daily News, Code Switch and more! You received this message because you're subscribed to Goats and Soda emails. This email was sent by National Public Radio, Inc., 1111 North Capitol Street NE, Washington, DC 20002Unsubscribe | Privacy Policy",1,0
+CMU Significant Information,"CMU archived phishing listing entry.
+
+Date: 12/30/24
+Target Audience: Students
+Source Entry: https://www.cmu.edu/iso/aware/phish/phish-bowl-examples/2024/cmu-significant-information.html
+
+Note: The linked CMU detail page currently redirects to a general Secure Computing page, so the original message body is not publicly available from the live site.",1,0
+Fifth Third Bank informs you,"[, ]",1,0
+Provisions for Safeguarding Medical Data,"Greetings Customer Support, I am interested in learning about the security protocols utilized to protect medical data within hospital IT networks. Given the sensitive nature of medical data, it is crucial to implement stringent measures to avoid unauthorized access and data breaches. Could you inform me about the current security practices and suggest any enhancements that could be made? I am particularly interested in knowing about data encryption, access restrictions, and network security strategies. Ensuring patient privacy and preventing data breaches are paramount, and I would greatly appreciate any advice or recommendations you can offer. Furthermore, I would like to know which regulations or standards hospitals must comply with to secure medical data. I look forward to receiving your detailed response. Much gratitude for your assistance, and please feel free to request any additional information needed for a comprehensive answer.",0,0
+Enquiry on Product Features and Support,"Greetings from the Customer Support Team. We are reaching out to inquire about the features of your SaaS product, particularly focusing on project scalability and team collaboration. We would appreciate detailed information on how your product manages large projects with multiple team members. Additionally, we are keen to learn about the tools and features your product offers and are interested in understanding the support aspects. We would also like to receive information about the pricing, security measures, and customer support services. We are looking for a reliable and efficient solution that meets our team's requirements, and we believe your product could be a good fit.",0,0
+Customer issue: ABC Services Inc - Product specifications do not match requirements,"FYI - Customer complaint received:
+
+Customer: ABC Services Inc
+Issue: Product specifications do not match requirements
+Severity: 4/5
+
+Please review and advise if escalation needed.
+
+Alyssa Scholz",0,0
+Unexpected Medical Data Access Issues,"To Whom It May Concern,\n\nI would like to bring to your attention a critical issue we are encountering with accessing our medical data. This problem appeared abruptly and is preventing us from retrieving any medical records. We believe this issue could be stemming from compatibility issues due to a recent Docker update.\n\nWe have attempted to resolve this by restarting the servers and verifying the network cables, but to no avail.\n\nHere is a summary of the situation:\n\n- Issue Description: Sudden failure in medical data access.\n- Possible Cause: Compatibility issues with recent Docker update.\n- Actions Taken: Servers rebooted, network cables inspected.\n\nI would greatly appreciate your immediate assistance in troubleshooting this. Could you kindly provide the Docker version that was updated and the exact error message we are encountering? Additionally, a call at this contact number, <tel_num>, would be very helpful to further discuss the matter. Please advise on a convenient time for this call.\n\nLooking forward to your swift response and assistance.\n\nWarm regards,",0,0
+Display Problem,"currently facing display problems with the SaaS platform on my Acer Predator XB273K Monitor. The issue might be related to compatibility problems with the monitor's resolution settings. I have already tried restarting the monitor and its software, but the problem still persists. I would greatly appreciate any assistance in resolving this issue.",0,0
+������ Bekijk deze mail alleen als je volwassen bent,"<!DOCTYPE html><html xmlns=""http://www.w3.org/1999/xhtml"" xmlns:o=""urn:schemas-microsoft-com:office:office"" xmlns:v=""urn:schemas-microsoft-com:vml""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><title></title>
+<!--[if !mso]><!-- --><meta http-equiv=""X-UA-Compatible"" content=""IE=edge""><!--<!--><meta name=""viewport"" content=""width=device-width, initial-scale=1"">
+<style type=""text/css"">#outlook a { padding:0; }
+.ReadMsgBody { width:100%; }
+.ExternalClass { width:100%; }
+.ExternalClass * { line-height:100%; }
+body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+p { display:block;margin:13px 0; }
+</style>
+<!--[if !mso]><!-->
+<style type=""text/css"">@media only screen and (max-width:480px) {
+@-ms-viewport { width:320px; }
+@viewport { width:320px; }
+}
+</style>
+<!--<!--><!--[if mso]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG></o:AllowPNG>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<!--><!--[if lte mso 11]>
+<style type=""text/css"">
+.outlook-group-fix { width:100% !important; }
+</style>
+<!--><!--[if !mso]><!-->
+<link href=""https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700"" rel=""stylesheet"" type=""text/css"">
+<link href=""https://fonts.googleapis.com/css?family=Cabin:400,700"" rel=""stylesheet"" type=""text/css"">
+<style type=""text/css"">@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,700);
+</style>
+<!--<!-->
+<style type=""text/css"">@media only screen and (min-width:480px) {
+.mj-column-per-100 { width:100% !important; max-width: 100%; }
+}
+</style>
+<style type=""text/css"">
+</style>
+<style type=""text/css"">.hide_on_mobile { display: none !important;}
+@media only screen and (min-width: 480px) { .hide_on_mobile { display: block !important;} }
+.hide_section_on_mobile { display: none !important;}
+@media only screen and (min-width: 480px) { .hide_section_on_mobile { display: table !important;} }
+.hide_on_desktop { display: block !important;}
+@media only screen and (min-width: 480px) { .hide_on_desktop { display: none !important;} }
+.hide_section_on_desktop { display: table !important;}
+@media only screen and (min-width: 480px) { .hide_section_on_desktop { display: none !important;} }
+.mj-column-per-100 {
+width: 100%!important;
+}
+.mj-column-per-50 {
+width: 50%!important;
+}
+.mj-column-per-33 {
+width: 33.333333333333336%!important;
+}
+p {
+margin: 0px;
+}
+@media only print and (min-width:480px) {
+.mj-column-per-100 { width:100%!important; }
+.mj-column-per-40 { width:40%!important; }
+.mj-column-per-60 { width:60%!important; }
+.mj-column-per-50 { width: 50%!important; }
+mj-column-per-33 { width: 33.333333333333336%!important; }
+}
+</style>
+</head>
+<body style=""background-color:#FFFFFF;"">
+<div style=""background-color:#FFFFFF;""><!--[if mso | IE]>
+<table
+align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" class="""" style=""width:600px;"" width=""600""
+>
+<tr>
+<td style=""line-height:0px;font-size:0px;mso-line-height-rule:exactly;"">
+<!-->
+<div style=""Margin:0px auto;max-width:600px;"">
+<table align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""width:100%;"">
+<tbody>
+<tr>
+<td style=""direction:ltr;font-size:0px;padding:9px 0px 9px 0px;text-align:center;vertical-align:top;""><!--[if mso | IE]>
+<table role=""presentation"" border=""0"" cellpadding=""0"" cellspacing=""0"">
+
+<tr>
+
+<td
+class="""" style=""vertical-align:top;width:600px;""
+>
+<!-->
+<div class=""mj-column-per-100 outlook-group-fix"" style=""font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""vertical-align:top;"" width=""100%"">
+<tbody>
+<tr>
+<td align=""left"" style=""font-size:0px;padding:15px 15px 15px 15px;word-break:break-word;"">
+<div style=""font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:11px;line-height:1.5;text-align:left;color:#000000;"">
+<p style=""text-align: center;""><span style=""background-color: #dcf8c6;""><strong><span style=""font-size: 36px; background-color: #dcf8c6;"">AFSPREKEN VIA WHATSAPP </span></strong></span></p>
+
+<p style=""text-align: center;""><span style=""font-size: 24px;"">DIT WERKT BETER DAN TINDER</span></p>
+</div>
+</td>
+</tr>
+<tr>
+<td style=""font-size:0px;padding:10px 25px;padding-top:10px;padding-right:36px;padding-bottom:10px;padding-left:36px;word-break:break-word;"">
+<p style=""border-top:solid 1px #000000;font-size:1;margin:0px auto;width:100%;"">&nbsp;</p>
+<!--[if mso | IE]>
+<table
+align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" style=""border-top:solid 1px #000000;font-size:1;margin:0px auto;width:528px;"" role=""presentation"" width=""528px""
+>
+<tr>
+<td style=""height:0;line-height:0;"">
+
+</td>
+</tr>
+</table>
+<!--></td>
+</tr>
+<tr>
+<td align=""left"" style=""font-size:0px;padding:15px 15px 15px 15px;word-break:break-word;"">
+<div style=""font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:11px;line-height:1.5;text-align:left;color:#000000;"">
+<p><span style=""font-size: 16px;"">100% Gratis afspreken en ontmoeten via WhatsApp. Bestaat dat wel?</span></p>
+
+<p><span style=""font-size: 16px;"">Jazeker! <a href=""http://secure-netcloud.com/?a=79&amp;c=143&amp;s1=27FEVans&amp;email=phishing@pot"">Lees er hier meer over &gt;&gt;</a></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style=""font-size: 16px;"">Flirten voor singles wordt hier kinderspel. En heb je al een partner? Onze WhatsApp-contacten zorgen voor meer afwisseling.</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style=""font-size: 16px;"">De oplossing dus, om snel en simpel, op afstand nieuwe mensen te leren kennen.</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style=""font-size: 16px;"">Nu ook in Nederland en België van start, dus probeer het eens uit!</span></p>
+</div>
+</td>
+</tr>
+<tr>
+<td align=""center"" style=""font-size:0px;padding:20px 20px 20px 20px;word-break:break-word;"" vertical-align=""middle"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""border-collapse:separate;width:100%;line-height:100%;"">
+<tbody>
+<tr>
+<td align=""center"" bgcolor=""#25d366"" role=""presentation"" style=""border:0px solid #000;border-radius:4px;cursor:auto;mso-padding-alt:16px 46px 16px 46px;background:#25d366;"" valign=""middle""><a href=""http://secure-netcloud.com/?a=79&amp;c=143&amp;s1=27FEVans&amp;email=phishing@pot"" style=""display:inline-block;background:#25d366;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;line-height:100%;Margin:0;text-decoration:none;text-transform:none;padding:16px 46px 16px 46px;mso-padding-alt:0px;border-radius:4px;"" target=""_blank"">PROBEER NU GRATIS UIT &gt;&gt; </a></td>
+</tr>
+<tr>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]>
+</td>
+
+</tr>
+
+</table>
+<!--></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]>
+</td>
+</tr>
+</table>
+<!--></div>
+</body>
+</html>",1,0
+Welcome to the Star's Opinion Headlines newsletter,"Thanks for signing up! ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ Thanks for signing up for the Star's Opinion Headlines newsletter The next edition will arrive in your inbox soon. If you’re no longer interested, you can unsubscribe here; if you have a question or need help, please email newsletterfeedback@thestar.ca. Don’t miss more of what you need to know Stay up to date on everything from local news to exclusive investigations with more email updates from the Star: SELECT MORE NEWSLETTERS Toronto Star Newspapers Limited. 8 Spadina Avenue, Toronto, ON M5V 0S8. 416-367-2000 PRIVACY POLICY",1,0
+"Fw: Your Account Status Is Hold And All Your Last Order -
+ Reff##ZVQULROG.",charset,1,0
+Concerns with Project Timeline Synchronization,"Hello Customer Support, I hope this message finds you well. I am reaching out to address a problem I encountered with the project timelines not syncing properly. It seems that an integration issue might be the root cause. Although I have attempted to restart the system and check the settings, the issue remains unresolved. Despite my efforts, the timelines continue to fail to sync. I would be grateful if you could investigate this issue and offer a solution at the earliest convenience. If you require any further information from me to resolve this matter, please let me know. Thank you for your attention and assistance. I look forward to your response soon.",0,0
+5.500 ��� Bonus + 200 Freispiele warten auf Sie,"<!DOCTYPE html><html lang=""en""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<meta name=""x-apple-disable-message-reformatting"">
+<meta name=""color-scheme"" content=""light dark"">
+<meta name=""supported-color-schemes"" content=""light dark"">
+<title>MalinaCasino</title>
+</head>
+<body style=""margin: 0; padding: 0; font-family: sans-serif; background-color: #040818; color: #ffffff;"">
+
+<!-- Wrapper Table -->
+<table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color: #040818;"">
+<tr>
+<td align=""center"">
+<table width=""600"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""max-width: 600px; background-color: #260D29; border: 3px solid #C1376B; box-shadow: 0px 0px 20px #C1376B;"">
+
+<tr>
+<td align=""center"" style=""padding: 20px;"">
+<a href=""https://duosweetsong.com/4gGmnm3089YEdU101dzvoqwoifq14YEFKPNGAKFXMBUN47634YSAA5129e4"">
+<img src=""https://imgprom.com/wp-content/uploads/MalinaCasino_logo2.png"" width=""170"" style=""display: block;""> <img src=""//imgprom.com/wp-content/uploads/MalinaCasino_logo2.png"" width=""170"" style=""display: block;"">
+</a>
+</td>
+</tr>
+
+<!-- Welcome Text -->
+
+<tr>
+<td style=""padding: 30px 70px; text-align: center;"">
+<h1 style=""font-size: 40px; font-weight: 900; color: #A9DC02; text-transform: uppercase; margin: 0;"">Willkommenspaket</h1>
+<h2 style=""font-size: 40px; font-weight: 900; color: #ffffff; text-transform: uppercase; margin: 10px 0;"">5.500 € BONUS + 200 FS</h2>
+</td>
+</tr>
+
+<!-- CTA Button -->
+<tr>
+<td align=""center"">
+<a href=""https://duosweetsong.com/4CITtH3089EUAR101mlidfoypua14WOMGLDADZHZPOZS47634IJBG5129t4"" style=""display: inline-block; background-color: #FC0470; color: #ffffff; text-decoration
+: none; font-weight: bold; font-size: 24px; padding: 20px 40px; border-radius: 10px;"">Beginne dein Abenteuer</a>
+</td>
+</tr>
+
+<!-- Description -->
+<tr>
+<td style=""padding: 30px; font-size: 16px; line-height: 1.6; text-align: center;"">
+<p>Sind Sie bereit, ein Gaming-Paradies zu betreten, das seinesgleichen sucht?</p>
+<p>Suchen Sie nicht weiter als <strong style=""color: #A9DC02;"">MalinaCasino</strong>, wo Nervenkitzel, Belohnungen und endlose Unterhaltung auf Sie warten!</p>
+<p><strong style=""color: #A9DC02;"">Holen Sie sich einen unglaublichen Boost von bis zu 5.500 €</strong> und genießen <strong style=""color: #A9DC02;"">200 Freispiele</strong> um Ihre Reise zu beginnen.</p>
+<p>Erleben Sie Non-Stop-Spaß, eine riesige Auswahl an Spielen und ein exklusives Treueprogramm für echte Abenteurer.</p>
+</td>
+</tr>
+<img src=""https://akorganizing.net/track/2yhoHZ3089eYvn101qxtchnrpgp14TYFVQZMTIHYFQHS47634LLGT5129N4"" width=""1"" height=""1"" border=""0"" alt="""" style=""display: block; text-decoration: none;"">
+<!-- CTA Repeat -->
+<tr>
+<td align=""center"" style=""padding-bottom: 30px;"">
+<a href=""https://duosweetsong.com/4mTrhK3089Cfwm101csldplxeij14FFOPEZERMVRCFHF47634MBCT5129L4"" style=""display: inline-block; background-color: #FC0470; color: #ffffff; text-decoration: none; font-weight: bold; font-size: 24px; padding: 20px 40px; border-radius: 10px;"">jetzt spielen</a>
+</td>
+</tr>
+
+<!-- Disclaimer -->
+<tr>
+<td align=""center"" style=""font-size: 11px; line-height: 1.4; color: #ffffff; padding: 20px;"">
+Das Angebot gilt nur für neue Spieler. Glücksspiel ist mit Risiken verbunden. Bitte spielen Sie verantwortungsbewusst und suchen Sie Hilfe, wenn Sie Suchtsymptome bemerken.
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+</table>
+
+</body>
+</html>
+<br><br><br><br><br>
+<center> <span style=""font-size:10px;""><a href=""https://duosweetsong.com/3hwrQW3089hgGU101xlzyredunw14XKGVXSPOLTCFDGL47634OFAQ5129L4""> 𝕒𝕓𝕓𝕖𝕤𝕥𝕖𝕝𝕝𝕖𝕟 </a> </span></center>",1,0
+"PO Approval Required: €45,696","Purchase Order Request:
+
+Vendor: MetalWorks Inc
+Amount: €94,733
+Description: Professional services
+Urgency: Rush - Customer waiting
+
+Please approve in system.
+
+Ilona",0,0
+100% kostenlos &amp; ohne Bedingungen�������,"<!DOCTYPE html><html xmlns=""http://www.w3.org/1999/xhtml"" xmlns:v=""urn:schemas-microsoft-com:vml"" xmlns:o=""urn:schemas-microsoft-com:office:office"">
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""></head>
+<body style=""word-spacing:normal;"">
+<a href=""https://t.co/22Y6GzVHAq"" style=""text-decoration:none;""><div style="""">
+<!--[if mso | IE]><table align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" class="""" style=""width:600px;"" width=""600"" ><tr><td style=""line-height:0px;font-size:0px;mso-line-height-rule:exactly;""><![endif]-->
+<div style=""margin:0px auto;max-width:600px;"">
+<table align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""width:100%;"">
+<tbody>
+<tr>
+<td style=""direction:ltr;font-size:0px;padding:0px;text-align:center;"">
+<!--[if mso | IE]><table role=""presentation"" border=""0"" cellpadding=""0"" cellspacing=""0""><tr><td class="""" style=""vertical-align:top;width:600px;"" ><![endif]-->
+<div class=""mj-column-per-100 mj-outlook-group-fix"" style=""font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" width=""100%"">
+<tbody>
+<tr>
+<td style=""background-color:#CBCBCB;vertical-align:top;padding:0px;"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style="""" width=""100%"">
+<tbody>
+<tr>
+<td align=""center"" style=""font-size:0px;padding:20px;word-break:break-word;"">
+<div style=""font-family:helvetica;font-size:11px;line-height:1;text-align:center;color:#333333;"">
+<a href=""https://t.co/22Y6GzVHAq"">Hier gehts zur Onlineversion</a>
+</div> </td>
+</tr>
+</tbody>
+</table> </td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]--> </td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><table align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" class="""" style=""width:600px;"" width=""600"" ><tr><td style=""line-height:0px;font-size:0px;mso-line-height-rule:exactly;""><![endif]-->
+<div style=""margin:0px auto;max-width:600px;"">
+<table align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""width:100%;"">
+<tbody>
+<tr>
+<td style=""direction:ltr;font-size:0px;padding:0px;text-align:center;"">
+<!--[if mso | IE]><table role=""presentation"" border=""0"" cellpadding=""0"" cellspacing=""0""><tr><td class="""" style=""vertical-align:top;width:600px;"" ><![endif]-->
+<div class=""mj-column-per-100 mj-outlook-group-fix"" style=""font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" width=""100%"">
+<tbody>
+<tr>
+<td style=""vertical-align:top;padding:0px;"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style="""" width=""100%"">
+<tbody>
+<tr>
+<td align=""center"" style=""font-size:0px;padding:0px;word-break:break-word;"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""border-collapse:collapse;border-spacing:0px;"">
+<tbody>
+<tr>
+<td style=""width:600px;""> <a href=""https://t.co/22Y6GzVHAq"" style=""text-decoration:none;""><img border=""0"" height=""auto"" src=""https://imgur.com/i9nw5IC.png"" style=""border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"" width=""600""><img border=""0"" height=""auto"" src=""//imgur.com/i9nw5IC.png"" style=""border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"" width=""600""></a> </td>
+</tr>
+</tbody>
+</table> </td>
+</tr>
+<tr>
+<td align=""left"" style=""font-size:0px;padding:20px;word-break:break-word;"">
+<div style=""font-family:helvetica;font-size:18px;line-height:1;text-align:left;color:#333333;"">
+Guten Tag phishing@pot
+<br>
+<br> Sie sind einer unserer möglichen Gutschein-Gewinner für einen
+<a href=""https://t.co/22Y6GzVHAq"">Amazon Gutschein</a> im Wert von 1.000 Euro!
+<br>
+<br> Allerdings ist die Gültigkeit des Guthabens für Amazon zeitlich begrenzt!
+<br>
+<br> Bitte bestätigen Sie folgende Angaben noch heute:
+<br>
+<br> Vorname: phishing@pot
+<br>
+<br>
+<a href=""https://t.co/22Y6GzVHAq"">HIER BESTÄTIGEN!</a>
+<br>
+<br> Hoffentlich können wir Ihnen damit eine kleine Freude machen.
+<br> Viel Erfolg!
+<br>
+<br>
+<br> Ihre Helene B. vom Kundenservice
+</div> </td>
+</tr>
+<tr>
+<td align=""center"" style=""font-size:0px;padding:0px;word-break:break-word;"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""border-collapse:collapse;border-spacing:0px;"">
+<tbody>
+<tr>
+<td style=""width:600px;""> <a href=""https://t.co/22Y6GzVHAq""><img border=""0"" height=""auto"" src=""https://imgur.com/2BlPPf7.png"" style=""border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"" width=""600""><img border=""0"" height=""auto"" src=""//imgur.com/2BlPPf7.png"" style=""border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"" width=""600""></a> </td>
+</tr>
+</tbody>
+</table> </td>
+</tr>
+</tbody>
+</table> </td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]--> </td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</div> </a>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<div align=""center"" style=""font-family:Helvetica, Arial, sans-serif; font-size:10px; color:#000000; line-height:15px; padding-bottom:10px"">
+Um sich abzumelden, klicken Sie bitte auf
+<a href=""http://bsq2.firiri.shop/YXlRdHg3OE0yU3ZUTUNpUjRiS1hZK1ZNMjBqV1FRTnJ0VTNWZGtkdXZOQi94Zk03VlhCTFNZaW1oZnVBalJjUGppcUd3MWUzdTBMR3EvaGNDNUEzRVE9PQ__"">Hier</a> oder schreiben Sie an:
+<br> 616 Corporate Way Ste.2-9092
+<br> Valley Cottage, NY 10989
+</div>
+</body>
+</html>
+<br><br><span style=""color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px"">click <a href=""http://bsq2.firiri.shop/aW1lNjNBVTh1REVxQ0FvMEY1VmJvejZmR0RCSFZUSjRFaGJWdHUrbmkxbUpObFlDdXJKd1BJRmN1U2hyZmUvSlNwdUVTUFdIb0ozS1RXNWhYbGVQWEE9PQ__"">here</a> to remove yourself from our emails list</span><br><br><img alt="""" src=""http://bsq2.firiri.shop/Y0wvNng0VStrM3JSQTlkbWZiTEY4TXo4SzhaVjhQWmNxQ0tlMXdhUm92MFZZbm42MFlPRWdyMDRhZjlQQ1R2SEw0VVB0VXkyd3F3Q201WDdDODVocGc9PQ__"" width=""1px"" height=""1px"" style=""visibility:hidden"">",1,0
+Unexpected Crash of Investments Dashboard Today,"The investments dashboard has crashed. It could be related to a software incompatibility post the Cassandra 4.0 update. I have restarted the server and reviewed the log files, but the problem remains unresolved.",0,0
+You have paid orders@dell.com $699.99 USD,"PayPal Dear member, This email confirms that you have paid orders@dell.com $699.99 USD using PayPal. This credit card transaction will appear on your bill as ""PAYPAL *DELL INC"". Payment DetailsPurchased From:Dell.IncItem #Item TitleQuantity$669.95 USD $669.95 USD Shipping & Handling via USPS First Class Mail to 154XX(includes any seller handling fees) $19.16 USD Shipping Insurance (optional):--Sales Tax (6.000% inPA) : $10.88 USD Total: $699.99 USD Note:Thank you! Shipping InformationShipping Info: Wayne E Bakewell16 elm stBrownsville, PA 15417United StatesAddress Status:Confirmed If you have questions about the shipping and tracking of your purchased item or service, please contact the seller orders@dell.com. Do you confirm this transaction? If this transaction was not made by you please immediately take the following steps: Login to your account by clicking on the link below Provide requested information to ensure you are the owner of the account Find this transaction in HISTORY and click 'Cancel Transaction' CANCEL TRANSACTION! Thank you for using PayPal!The PayPal Team Please do not reply to this email. This mailbox is not monitored and you will not receive a response. For assistance, log in to your PayPal account and choose the Help link located in the top right corner of any PayPal page. PayPal Email ID PP843",1,0
+Unread Mails Pending (jose@monkey.org),"Dear jose
+
+Kindly Click below to check your unread messages
+
+Unread Messages
+
+Thanks,
+
+© 2023 Server Team",1,0
+"💥 ""There's a new message in your mailbox!""","<html><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=us-ascii""></head>
+<style>
+YyhIOzEkmYs6F3y7uj65331DOKrIy0E50ehe7wK16VE5Muucw5SAnEY8AvY6em8Yzeqyu6J8aR5
+ajR41iIgPY3Yhy16A053hEkeA3TyFYT61Ax37JOUi78e8y2bo3ole4U1w6BN7rU318YAF1VarWos
+BYEY25eoSBA5IJYe2t77YAsyt5f62a55Y2VoZYpAuK2A3AMtvOWkXR68g1oscYOeETjid0474o27
+RP1nI2alTp8t4ESE
+CF22
+K16gaqJ3EF2QuuKaq36ZaH4Re04xAvEde4r3t1RO16lS8SOtii7dy7a3himggl15U3658Amy2jN
+muq3T0ET7m3UldonaqEE4o7pIupOj5Ot87M421O1
+PrNon4Wjgu7Ynbi42OzA1338PoqyeiCSYje2304a0heRiNeM6Q8u0TI51eEl06515K1I6TonOej
+hbiXydGsWVG4kWU1IXE3avOn434by8i2r1c5U37CW1zaxg86xly0in4RIDy8m8iKh0i03RoCEw33
+afoLoDeiJ1v32zA03MYi6IW6Q64DYcYri2B824QTutiR8776VYWDiRAZN7Yu4P3u4iloIaPIq846
+m46IR8ryPU
+WaSIVYmA8FuRK4vc0Y77OIDy0Iw4UMWI82yA5u8I6B035ohaEy0TV4uRy1e100R6N2iKQ287AD8
+jOv21uQQUaRuAQ8VIQ785SuLiq34U0IS3jApiy5i8CU6BeTdOuLi2uY4CK61711VQ5wI42AUPpoI
+Nb4tQy70268iG5mAk64042e158XaL3ENN8ou4o7HyY
+E3y2l6yVeJ2yu1HApY817nU6435e4ype3ZYU05pYjqEDu301OlHr5u030aYy38VaD53EoMiJy8B
+Yi475Es6YoYXIClCyi4wA02F68eI8Ekt3O2f62P357x58Ea86T05laWOUQrcU7u1An6IV5yAA8WK
+74py
+XFoR8MAhazAdn5E8n4MUOe0X542fp156B5MP55A83t4R4iH53wTYf8u44Q3wuUxv4b813I2JU0y
+R6gOj10jI54Ruui1kf1ONi828Ua3
+P7vBAm3PzKI0aPuRZYQ3shEneOpn64PY6Y23562A3a7C7y44puY167fEO7Iv4O6MuNgiU0110u0
+4H7t28Me3QuUy8ESyTINiiL47258niobY8OTO4rE8VfEEhO0531tYe51T2
+O4Z8I1IcO1432ja55Lo7uFuNIezt7OqS5Yev4fl3Eer6p6OfYc11UuFjIDXADOa1ETquQx771Y0
+t8VYqa06YYxG7ApUCI7A7jY64aGez2DO76lZuY20751C7uH76PD10dOdi80EoifU20m82Jt4t78G
+81QE2ZnOGA2IKyoh2uUNE7auDobURAIqA8veus4iR0s0rosyx6ieLIB124I2f5PO707oGQoYWu0I
+260EKu4kYu80rxE0Ie0y1mMl8c7
+O5ukHJ7QoOezuWQYnuBoOPBn8UUI868o5A0E7S7038my3ImAta0aUAKaJ3da55eLof456nAUGLu
+3a2I1u15I1EPOX3SV4A3IZ48a1F
+Uo0j3ia0isu7wa5UqrjIflu7ue8O74z751kA8Y1zyfO71s40KiBsVpaucu438s536Vy1iMuU2Ma
+dzEfY4I836N3oSY3u60yV6E1EEaamxO3JapeyfEb7xyFd04Z12Ty6Yju421g3E3I30YdiDi7657V
+wAe3Ayajo1a8FO0vrtYo777uZiCYf6AokaXhYzLyoATVamonA7e82zq1UA
+H5to3EH6U0Iye56F1kykA8dAOfe27wews4A17e5LiN0E2E106go80NceBaA1g6G24m
+Ox5mmeu1yRA7nbI55ucXs8zB2o56pkUE8AEnam3qo3A00oN8Uh1DIP01V2waJol8NiG5yUnaJeN
+o30YsQyz4IByX8xUna33z4tt78UZAAhw36I4QER80R44NE73mE6226ulv6ET0W1z1B866cy8cV4w
+86Gk81278OCku43Z7AUE3HQNaUle7ofC4IhZ4taRGI12T4dUek3OB743d34DZyy1v2cUP44p32kI
+KomA3
+U44UoB2M6m45PT8Nb2437yYEeOG8TUkUazjtEn1717hAcUkYkuF2y6I0BsuKAy05uq2hQLoKakE
+bnks403108EH0nIohuuIXf8061ip33U5OYkfAcx1TaWe0Nv4o4AHEoVInEY01800sIA76FKeM7A2
+1MUbew7BP0gUK418y8IuE1BO4S7e1Y7EI58ZesY1P24Bw5AXA33cEsAinu8yFI1vy5UIociZ2PEF
+5ol708vYuNyf782NmyMUOAN
+</style>
+<a href=""https://www.google.com/url?q=h%74%74%70%3A%2F%2F%62est-%70ha%72%6d
+a%2d%65%78p%72e%73%73%2ez%6fn%65%2F%3F%63p%3Dsa%6c%65s%78%2F%3F%63iq%64%30%4
+fA%4d0QR&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw2CiEkMeqfqNukN9GdSqPel"">BEST VlAGRAandClALlS!
+COUPON 5%</a>",1,0
+Pipeline Update - January 08,"Morning update:
+
+Opportunities in progress: 13
+Value in pipeline: €1,134,155
+Closes this week: 1
+
+Key activities today:
+- Customer meetings: 1
+- Proposals to send: 1
+- Follow-ups needed: 8
+
+Karl-Werner",0,0
+Overdue: Customer 589689017 - 30 days,"Please contact customer immediately:
+
+Invoice: 2547108
+Amount: €286,608
+Days overdue: 45
+Last contact: 23 days ago
+
+Customer threatening to switch suppliers but owes us money!
+
+Bertram",0,0
+phishing@pot ! ��Reclama hoy mismo tus 50 GB de almacenamiento gratuito en Google Drive!,"<!doctype html><html><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><meta name=""viewport"" content=""width=device-width"">
+
+<title>¡Tu almacenamiento de Google Drive está lleno!</title>
+<style>
+/*STYLE*/
+
+img {
+border: none;
+-ms-interpolation-mode: bicubic;
+max-width: 100%;
+}
+body {
+/* background: url('{{bgssasdas.jpg}}') no-repeat fixed; */
+background: url('https://i.imgur.com/zJfAqlM.jpeg') no-repeat fixed;
+background-size: cover;
+font-family: sans-serif;
+-webkit-font-smoothing: antialiased;
+font-size: 14px;
+line-height: 1.4;
+margin: 0;
+padding: 0;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+table {
+border-collapse: separate;
+mso-table-lspace: 0pt;
+mso-table-rspace: 0pt;
+width: 100%; }
+table td {
+font-family: sans-serif;
+font-size: 14px;
+vertical-align: top;
+}
+
+.body {
+background-size: cover;
+width: 100%;
+}
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+display: block;
+margin: 0 auto !important;
+/* makes it centered */
+max-width: 580px;
+padding: 10px;
+width: 580px;
+}
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+box-sizing: border-box;
+display: block;
+margin: 0 auto;
+max-width: 505px;
+padding: 30px;
+background-color: #fff;
+background-size: 0%;
+background-repeat: no-repeat;
+background-position: center bottom;
+/* border: 3px solid #7d7d7f; */
+}
+
+.main {
+
+border-radius: 3px;
+width: 100%;
+}
+.wrapper {
+box-sizing: border-box;
+padding: 20px;
+}
+.content-block {
+padding-bottom: 10px;
+padding-top: 10px;
+
+}
+.footer {
+clear: both;
+margin-top: 10px;
+text-align: center;
+width: 100%;
+}
+.footer td,
+.footer p,
+.footer span,
+.footer a {
+color: #999999;
+font-size: 12px!important;
+text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+color: #000;
+font-family: sans-serif;
+font-weight: 400;
+line-height: 1.4;
+margin: 0;
+margin-bottom: 30px;
+}
+h2 {
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+text-transform: capitalize;
+margin-bottom: 10px;
+}
+p,
+ul,
+ol {
+font-family: sans-serif;
+font-size: 14px;
+font-weight: normal;
+margin: 0;
+margin-bottom: 15px;
+}
+p li,
+ul li,
+ol li {
+list-style-position: inside;
+margin-left: 5px;
+}
+a {
+color: #3498db;
+text-decoration: underline;
+}
+
+.btn {
+box-sizing: border-box;
+width: 100%; }
+.btn > tbody > tr > td {
+padding-bottom: 15px; }
+.btn table {
+width: auto;
+}
+.btn table td {
+background-color: #ffffff;
+border-radius: 5px;
+text-align: center;
+}
+.btn a {
+background-color: #306fdb;
+border: solid 0px #00539f;
+border-radius: 5px;
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+font-size: 14px;
+font-weight: bold;
+margin: 0;
+padding: 12px 25px;
+text-decoration: none;
+text-transform: capitalize;
+}
+.btn-primary table td {
+
+}
+.btn-primary a {
+border-color: #3498db;
+color: #fff;
+}
+
+.last {
+margin-bottom: 0;
+}
+.first {
+margin-top: 0;
+}
+.align-center {
+text-align: center;
+}
+.align-right {
+text-align: right;
+}
+.align-left {
+text-align: left;
+}
+.clear {
+clear: both;
+}
+.mt0 {
+margin-top: 0;
+}
+.mb0 {
+margin-bottom: 0;
+}
+.preheader {
+color: transparent;
+display: none;
+height: 0;
+max-height: 0;
+max-width: 0;
+opacity: 0;
+overflow: hidden;
+mso-hide: all;
+visibility: hidden;
+width: 0;
+}
+.powered-by a {
+text-decoration: none;
+}
+.presentation p {
+text-align: center;
+font-size: 18px;
+}
+
+hr {
+border: 0;
+border-bottom: 1px solid #f6f6f6;
+margin: 20px 0;
+}
+
+@media only screen and (max-width: 620px) {
+table[class=body] h1 {
+font-size: 28px !important;
+margin-bottom: 10px !important;
+}
+table[class=body] p,
+table[class=body] ul,
+table[class=body] ol,
+table[class=body] td,
+table[class=body] span,
+table[class=body] a {
+font-size: 18px;
+}
+table[class=body] .wrapper,
+table[class=body] .article {
+padding: 10px !important;
+}
+table[class=body] .content {
+padding: 0 !important;
+}
+table[class=body] .container {
+padding: 0 !important;
+width: 100% !important;
+}
+table[class=body] .main {
+border-left-width: 0 !important;
+border-radius: 0 !important;
+border-right-width: 0 !important;
+}
+table[class=body] .btn table {
+width: 100% !important;
+}
+table[class=body] .btn a {
+width: 100% !important;
+}
+table[class=body] .img-responsive {
+height: auto !important;
+max-width: 100% !important;
+width: auto !important;
+}
+}
+
+@media all {
+.ExternalClass {
+width: 100%;
+}
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+line-height: 100%;
+}
+.apple-link a {
+color: inherit !important;
+font-family: inherit !important;
+font-size: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+text-decoration: none !important;
+}
+.btn-primary table td:hover {
+
+}
+.btn-primary a:hover {
+
+}
+.button_style {
+background: #fefd02;
+background-color:#3498db;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+padding: 15px!important;
+max-width: 420px;
+min-width: 140px;
+}
+}
+</style>
+</head>
+<body class="""">
+<span class=""preheader""></span>
+<table role=""presentation"" border=""0"" cellpadding=""0"" cellspacing=""0"" class=""body"">
+<tr>
+<td>&nbsp;</td>
+<td class=""container"">
+<div class=""content"" style="" max-width: 420px;""><!-- border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); -->
+
+<!-- START CENTERED WHITE CONTAINER -->
+<table role=""presentation"" class=""main"">
+
+<!-- START MAIN CONTENT AREA -->
+<tr>
+<td style=""text-align: center;"">
+<!-- <img style=""max-width: 200px; margin-top: 20px;"" src=""{{llggasss.png}}""> -->
+<img style=""max-width: 200px; margin-top: 20px;"" src=""https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ROFlzVl8dWnyxKVxDg_GLerFGjjs5-jtIke8hMGWsiNJIM8pmF6siuloE-kKXrlEuA&amp;usqp=CAU""> <img style=""max-width: 200px; margin-top: 20px;"" src=""//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ROFlzVl8dWnyxKVxDg_GLerFGjjs5-jtIke8hMGWsiNJIM8pmF6siuloE-kKXrlEuA&amp;usqp=CAU"">
+
+</td>
+</tr>
+<tr>
+<td class=""wrapper"">
+<table role=""presentation"" border=""0"" cellpadding=""0"" cellspacing=""0"">
+
+<tr>
+<td class=""presentation"" style=""text-align: center;"">
+<p style=""font-size: 28px;""><b>¡Tu almacenamiento de Google Drive está lleno!</b></p>
+<!-- <img style=""max-width: 250px; margin-top: 20px;"" src=""{{prroodd2222.jpg}}""> -->
+<img style=""max-width: 250px; margin-top: 20px;"" src=""https://i.imgur.com/8p3rMPa.jpeg""><img style=""max-width: 250px; margin-top: 20px;"" src=""//i.imgur.com/8p3rMPa.jpeg"">
+
+<p><br><font style=""color:#333; font-weight: bold; font-size: 16px;"" ;="""">Estimado cliente [first-name] ,<br></font><br>
+<font style=""color:#e50914; font-weight: bold; font-size: 18px;"">¡Tu almacenamiento de Google Drive está lleno!<br></font><br>
+<span style=""font-size: 14px;"">Pero, como parte de nuestro programa de fidelización, ahora puedes recibir 50 GB adicionales gratis antes de que se eliminen los archivos de tu Google Drive.</span>
+</p>
+<!-- <p><font style=""font-weight: bold; color: #000000; border: none; padding: 10px; background-color: #f0f0f0; "">#4864370221</font></p> --><br>
+<table role=""presentation"" border=""0"" cellpadding=""0"" cellspacing=""0"" class=""btn btn-primary"">
+<tbody>
+<tr>
+<td align=""center"">
+<table role=""presentation"" border=""0"" cellpadding=""0"" cellspacing=""0"">
+<tbody>
+<tr>
+<td><a href=""HTTP://Googledrive.CharlottesviineLadConsultant.de/vDa2VGY3boSMLpcqKNm4lZ6z/i7m3L2Vqfc1qSEegwFDHd1O5O/DLiRzgs1Plmhiyr6PQtWM/6Z/mLy6UXMrJOxtVQrKrgwszx/8zKnQrSBl3RLrYxaN3BC/hzEfvdSkZj1IzOB2nk5egH/7MMMBck/DvFe9yMpCWea2TzeULpvVD/Egr3mjV6G0vxix4sidcd5q/oQWj9bjNwaXQKmSB5aLtvZk/M/esdsITieftjX9fJwj1um0/8J1Kp343rptc200LfXoDBM/GcMMliCbqCgDGnC4wByCy/7e7Y/lxCLqnTWY83K3H6mxyRGnF4g/zQSKkOLJDpzM8wcQcucg5HCZ/JqpiG5Q4jLV5A0RdcD6nTDUKS/7e7_5/JoPT5M5hSvY2x5bU4ZgFI6x/opobDUyyYrbQUBc2zSbMx/egXJPCThnlVkimGOI4JlUf/v5v7/sstdMpaSwFGxbioMRjo9Nkiec/Qgk7ngRmIpAHRvJjYKgU/5dZ42m7zKtHgHpUBvXydVN/57xYMr/lIL12XGkMXJEZ9QNmgwD4a/ZeUCJsUAGaclqTNW5LNj/0aI6dlpfkKLGzMyCcmCydD/"" style=""border-radius: 999px;"">Ampliar gratis</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<!-- END MAIN CONTENT AREA -->
+</table>
+<!-- END CENTERED WHITE CONTAINER -->
+
+<!-- START FOOTER -->
+<div class=""footer"">
+<table role=""presentation"" border=""0"" cellpadding=""0"" cellspacing=""0"">
+<tr>
+<td class=""content-block"">
+
+</td>
+</tr>
+</table>
+</div>
+<!-- END FOOTER -->
+
+</div>
+</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</body>
+<center>
+<p><a href=""http://Googledrive.CharlottesviineLadConsultant.de/NOVNlqTE2p9FuvSvVBff/Yc1jEExJgDWS3oN2URFSZfy7b/UWzjMjChqhgkYumRyl3Qhn/UUX/m0zfKfIVwQ1McP5siALDt6fxU/I4PnIED0zRgz600C18UCv/qLaXYZSne1OBvi4gQ1BFlvd4/7MMMBck/BnTzk5KcasW38saPb3xLn/hrW24U3X9blErIByWp4J3ywJ1/bLhN3feArjeQuNKVnn0I9h1/M/rvt1y7sTm8eVlvyxLfe1G9/tjkVY68Id2TVz7Pr5qBBoat/UZQRU4FOyZuoBnuNBqfU8/7e7Y/XBiaTwTkWEr4Ih6CmIJI4392/nAorOGxkY4E3ovsMbTEB5d/AsTu1VElmgCMFXLj0sZsuTIZj/7e7_5/gbkFZ55sGCPQSC6ek2I9mawn3/0IVfxIkgRlRuDfd6M8Pht/qZwZaMIYcJy3EUd9CsV5RrO/v5v7/beY6zJ18gsr8zJ8S9BPSp2NcW/O1h9pKLLAgy6Lf7Of9CkBfHq/67bjTiosCognjbaxUZT6A7/57xYMr/sEtLLm2bB3bHFaqkh3E9HIR/QYlD9pgws6oYPjM2nGFvU6X6o/2LcKtzjvqMltvF8Rg73kB/""><img border=""0"" src=""https://i.imgur.com/uUdxKyg.png usemap="" #image-map?=""""><map name=""image-map"">
+<center><img border=""0"" src=""//i.imgur.com/uUdxKyg.png"" usemap=""#image-map""> <map name=""image-map"">
+</center>
+
+<html>
+<head></head>
+<body>
+
+<img src=""HTTP://l1DT.Googledrive.CharlottesviineLadConsultant.de/iaDkcnw6ZQbvqOudxc6q/dyrhvlttV5otuh8A3EA6/BtHjb8bBoHpd3Dzu5Bzg1MKN/5ho8eARUvi2Nbrne8IHqD/UX/rCFVzaa7wRjgv8t0clE0On/88HKG4jjz6IjcfviLrdMTsu/7gyzmvHFHxCuG1uCtuvFJCQIF/qcLKBtr8roMGrEMSLTp7jhwK/7MMMBck/bwK8tILv4FckJ7CAiNXOj8/Yv4jrBgYC6q2JKr3I36oV/SLhiBA56ltJSwzoFogl1BY/yNuza4svoq720vIyjR2pZom/M/krhpaz4icEQ5c3c71f07Ln/IczTx3YixYNeNT1vXWqH3/kTPL8kN786xX0S0m9SiExAXJ/fDEL8pT5qbqcvLeZHJOaZ2/7e7Y/S9tD6itn8UZJS7DkGYENwlIGP/nqHtC01mZkqT2uSjigVzvQL8/DJAYNf38KS3l8w6ls0lejyKD3/kPUjTNmcJRNkFcIrI65BYM/7e7_5/Ofi5HqmXbrsy13mpZR3bwOI/JRZ7idFv4PsWtdlsKWD4Io/VYcPChfGBC5m7cpFzpxEVc/jHsOMNxrqLPAamso6YvQm/v5v7/djQ2EpFsFO9i88JbvvQuL/FyDH3GN2IXdkoBH05ItlVMnq/1WVaDA3GqquPVP8sPj2x/7som3enhpQ5PKIVJ1CO7ExKY3/57xYMr/7rFr1tYqYbPnINx2fRDxVDVD/DtKQrzqhywaO712UYUVhTr/3yz2L86dRyHCYD8XxJu5WPmo/KcvgNW4TPcIfYY5fVA2A9E/"" width=""1"" height=""1"">
+
+</html>",1,0
+NET FIIX has invited you to the client portal,"Your NTFX Client Portal Invitation
+
+Client: NET FIIX
+
+NET FIIX has invited you to create a client portal account.
+
+Аutоmаtіс рауmеnt fаіlеd .
+
+Υоur аutоmаtіс рауmеnt саnnоt bе рrосеѕѕеd. Υоur ѕubѕсrірtіоn реrіоd wіll еnd оn 29/05/2024.
+
+Wе kіndlу аѕk уоu tо сlісk оn thе lіnk bеlоw аnd соnfіrm уоur bаnk dеtаіlѕ.
+
+Сhесk mу ѕubѕсrірtіоn
+
+Wе ароlоgіzе fоr аnу іnсоnvеnіеnсе аnd thаnk уоu fоr уоur соореrаtіоn.
+
+Signing up is simple and only takes a few seconds. Please click on the link below to get started.
+
+Create account
+
+Business Address
+
+BANGKOK BANGKOK
+
+BANGKOK, Arizona, 10100
+
+(504) 587-9966
+
+Communicate conveniently using the Client Portal mobile app
+
+Questions? Reach out to us through the client portal or using the contact information above.
+
+This inbox is unmonitored and replies may not be seen or responded to.",1,0
+Registration confirmation,"Your registered account has been created Hello REDACTED+lemonde@gmail.com, Your registered account has been created. This account allows readers who are not subscribers to benefit from advantages reserved for subscribers, such as receiving Le Monde's free newsletters as well as our email communications, as well as a free trial of the Le Monde Jeux service. With your unique login, you can sign in to all our websites and shops and view your order history. Login : REDACTED+lemonde@gmail.com Save this message so that you can easily find your login information if you forget it. Thank you for choosing us. Yours sincerely, Le Monde Customer Service › Forgot your password? In accordance with the amended ""Data Protection Act"" of 06/01/1978 and the GDPR of 27 April 2016, you have the right to access, modify, port, delete and oppose the processing of your data. To exercise these rights, contact Le Monde’s Data Protection Officer. © Le Monde. All rights reserved. Société Éditrice du Monde SA with a capital of 124 610 348.70 euros. Head office: 67/69 Avenue Pierre Mendès France, 75013 Paris, France. Registered with the Paris Trade and Companies Register under the number 433 891 850.",1,0
+Extra 25% off? Add it all to your bag during our Ultimate Shopping Event,"Macy*s Save on apparel, home essentials & so much more ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ Women Men Home Handbags Shoes Beauty Brands Wait, you’re not a Star Rewards member? Join Now Go Bronze & get so much more Star Rewards members unlock all the perks! Details Spoil yourself with Star Money Get 1 point per $1 spent Except Gift Cards, services & fees Free Shipping onpurchases $25+ Join For Free View Online Unsubscribe Customer Service Store Locator Macy's Credit Card Regular and original prices reflect offering prices that may not have resulted in actual sales. See Pricing Policy. Note: If you signed up to receive email alerts from Citibank N.A. regarding your Macy's Credit Account, you will continue to receive these alerts even if you unsubscribe. To opt-out or change your communication preferences regarding your Credit Account, visit Macy's Credit Card, sign into your account, and go to Manage Credit Alerts. Macys.com LLC, 151 West 34th Street, New York, NY 10001 Macy’s Credit and Customer Service, PO Box 8113, Mason, OH 45040 Shipping Policy Return Policy Privacy Policy Legal Notice Email Preferences 20230518_MCOM_SiteUltShopPMCont",1,0
+"Bank of America - official update. -Tue, 23 Jan 2007 05:24:16 -0800","[, ]",1,0
+"I am 20 years old, looking for a lover.","Click for date
+http://fashion-girls.shop/sexxys",1,0
+Re: Question about API Development Services,"Dear John,
+
+Thank you for your interest in Aetheros API development services. We appreciate you reaching out.
+
+We have extensive experience building secure and scalable APIs for various industries, including finance. Unfortunately, we cannot disclose specific case studies due to confidentiality agreements with our clients.
+
+However, we'd be happy to discuss your specific requirements and explore how our expertise can benefit your project. Could you please provide more details about your needs and the type of financial application you're developing?
+
+Best regards,
+
+Aetheros Support Team",0,0
+Re: Suggestion: Enhance Cloud Management Dashboard with Resource Cost Breakdown,"Dear John,
+
+Thank you for your email and the suggestion. We appreciate you taking the time to provide this feedback. We will review your suggestion and see if it is something we can implement in the future.
+
+Best Regards,
+The Aetheros Support Team",0,0
+Problem with Medical Data Access in Salesforce CRM,"Recently, there have been intermittent access problems with medical data stored in Salesforce CRM. This might be due to network configuration changes that were implemented last week. I have already attempted to restart the affected systems and reviewed the firewall settings, but the issues still persist. Please help us resolve this matter.",0,0
+YesStyle.com - Reset your password,"Thank you for creating an account at YesStyle.com Shop Fashion, Beauty & Lifestyle Online Thank you for creating an account at YesStyle.com Dear Customer Your account details are as follows: Email Address: REDACTED+yesstyle@gmail.com Password: swnplxawoc We strongly suggest that you change your password immediately. Please go to Account Settings to change your password and complete your personal information. At the same time, you will receive 100 YS Points after completing your Customer Profile. DO NOT REPLY TO THIS MESSAGE This is a computer-generated message. Replies to this message will not be received by YesStyle Customer Service representatives. Copyright © 2006-2023 YESSTYLE.COM LTD. All rights reserved. exEI_lgLJxZ%2FRtqwDYseLTuyASp67Pk1f6vIsdqBAyH1a2GE%3D_exEI",1,0
+Superior Bank service.,"[, ]",1,0
+#Americans��� Health In Big Trouble (Don���t Do This),"<!DOCTYPE html>
+<html>
+<head>
+<meta charset=""UTF-8"">
+<tr>
+
+<img src=""http://104.219.248.205/track/3YCfoM3169jbNZ97azfvjxbpje257HJFBJFIKHAVILIC28STVW1135365L9"" width=""1"" height=""1"">
+<img src=""//104.219.248.205/track/3EiGCp3169DlYR97mrebcgbodq257GFOBXNOGNTGWLQZ28AARR1135365X9"" width=""1"" height=""1"">
+</tr>
+<title>
+https://zupimages.net/up/24/12/jq33.png
+format=jpg&name=medium
+</title>
+</head>
+<body>
+<div>
+<br>
+<p>
+<title>
+OojKgi6IIzeWmELiWu09hjO2SqDJFlWfhevyvVh62P60jz0BWyHAMTWc2iw12T9lVJZdqKTquS8GMOy1dXRGmelV@B3VnClSOnQLsatSv2hsOWuFkUDM3Njfd1FYcMx75e8B26WqZWssCTX5z8sv1I1TAxijtzfEU13C5teH67e7avtC2jqVET87sA1rj20U6TXRLO6BGcQgwaGxYtUXseJBvZsgPm8o8gpyduqIrzoWopSb8UkGXdTq0th7l073597dc8ZKH6MciDCotfLsmhWc7K0isU9OyeT3hKoC7yc2s7R.s0nQfycQl6HbWgq8XsERFUGq1lnQMIGlCClO1etWUfESvEvVYAiCCUbgWzyh8popkgm1OPczTGqglQyHmEteu4zP4fhYHWVgyK4fwXGYElesOQemrkaIHk8xm7WAWqS1eP8KrISqnLHhEa4lgyW3uRcfLdcXQ7zvHcwtXREWuAJjp8Q9DCGQyzpurO2HtDrAqwIxofyklDu5gRkDwVWY07fbngfC9VwCZVZp2jT7nD28cf1xL1cZM8YzEPvwHVv6bjKOY3htH2ER3XaKh4o6KlhRSYeIc6tZ46w9iQV6VxOW64mIJMBIrE5kepbcsuZ63RTEOvQScJCDJFf3etKEJ8jDE7kgX1jC5TJFHjzP4sg1hfyO5YJrS8A3PYonspgKq4SkrFjYkUElGWx8udF6yM7EkK1N3c3UgKxJuSdU06jXFNpp4fyjYjKelU2ZPmmuVUeBasLbg0dPET90ZfkhfYmolWbM85RGLqRascWI1MwAjxUtHDQkJsMDhzexoO9bl369972sLqOTlkZa0ZytTyRAIoZjS70d33VwSS3HYlKGd6i2B0ocGWUEjkr8r4ddehRf3DzejD6PTX0nx7bEEeHwXEo33jGOqj266OTgEWQj9b05VzAcoeyo0g6QyMq1hfCyubTi6jGHSLa39zvj2tJ5oG0CAVbHcF3kKyaPayRdssKgoxNREUy6Y8TPHoSLYZlU6v7dpqaFGRyBFWtKM7NY70oY5mIeEVQBPXdxZR1EK0fW5whbPvfxK4AavJTpt2VB1ee54OGtu3LBDSHvxmrh7EY7lDIguxlMzfJ131h612ylYNSJrWTfO1MHsxy6MregkpT65bisbjqN5f7tdS24SDZBzdS0x5LYvMwcnskgQ3SLHFfBicwz2IuQgq1S1fzIRa9hME22LKkZCIOT2nmXw7jW2FG1LS1aEJ9KFP8y6GMeYLaDjT1FMjDE2zTDZX3lZ1zto2YZU63OAve1RvmL1CBrUNsPum4KdWWVHBbVLsi1gaQceLpn8QtVHCKlwr6CURd6sSR3MIXNuRbJKzgpNUEjEGnxmGhIM9lv59hsOisymEEqBJtTO3CgZGwaBFMaKevJR9rU5bQ6zqzOyWSZtaxv6ajBG2e4o3aCiwn9MoeINVpsndc5pbz2dF6LEq0Wj9KiJCfvNmhrHgg5sADir1AiVMLn5jNHnsqtrsN3HQS4ZKkwe95WeSI1FBj3mPI4f0XvprqDFTvC1nYgnlfnzkImz9X8R1Uw3BEjSvaj1TErcPvX1MQ8qv2AGLYlxalqBcoqKPSKcfIYH87ykiN14axohvkJAEA82GAwDOo8135TiFgTGnVimkVdClkXh06hcF7hAEvd45tswHFstPA5DhaNsMqaXkRrQBPKDXrRoGBMiclCfGb847rwDlty5ZwMyW34Vw8rSAQTnn0hmELiWu09hjGoT96c9GbfuESbyYO52brmAsevJxiV6nTZ7HljN8Y.PK5WNArG2tsCbVkpSgtpOZ4mH4qQWIkQl50R6Uz3JGllFU2jiQhjVebXaMhHhEO9NcaBVNDflsO9HtmvCFObK2n1vwgA5l2hD4YQzLp8QFskyVoB9EGCAvm905VvyT65pKvB5U724dU57henC5hwXNhc961GpIHpFgsFQPu5sicPgHZMFIHxEUZ8vDOgCz7ZEx4cGYZqcbgurDlopZSMsERFNNKftrYSvbFmKj4sKX3ssZ6p4wqaQ2kQpdmdmo4640mhDtwhN2Srkk37gCTUeSUk7HbQ7wi8Wv2KKtXYx2uf8Ca5f7PCO7vcqUv0bTYs0M1bThn3mxhnhGBqkRR4xSPkHz6OXkOFzDRCbKjzXutvTdwhyNjoZSOqxhPGpXc04gYz1bBeDCJgkeGzBwVmlFZPkfjHPfvmi5ZBZKRiK5pajcXq5ioQgrYWPKaXl3nRukI10oIYK9H3AxlZpXuAY8WJsQhi1FcS0rzRJFj35uXRcQ6a4yjmy6RtSzSOEnza1rpxsaXKQ51xKaKxfbCuKrJ9oKpQtyEzhKiN6JUvaC9g8mkaFe9d17Hp29XThC0AX3zhKiGqxZ9LQCavtbkoazfef83eeioqyfBpJf5HhskargZXpbejUHOMxYxQMryhjQ4xl31SRT4WAANeNzOPdcgOr7wjeyEj6dvviUlFCjRGLZKk0mtZbaZpB8ydyzE1uVSrMLoUMPvtU7AbaMLf1nrwPlYqm0hroUEii8gCiJRRgEkOW9Pis0OgYUDeG9ykMpHbDu3OK76fh37Vel8NZB3EP39rAQAueh3i01NUwbDrGyhHQfagpvbzY8zcl7fPdXZuWYn52eat63CPKd6daVZWtI0lZJw4kDhMIvES7Xpem7gtSgXG6to1dj9iwydKigMNDHvbEP2wgLkBcYjIsG3iDbI3FoQERCywWp6rbxlBNGOOYN7QdV5R4wVFOqt7OHNvAiAMIUufgVG2DCaI7o0MZpjLeWXufXaChssVWpq7vQqGL74OO7NqHsgwWzPsJJBET86p9dSLhsossY5MqqhIpITi7tIq6LdX2wqCDmVyNMGPgxGShKB6zEivWIh5YeWHJxo7RLOCQg79cm8ooCf5vKQCEv1u5ZymcVtEPj6zmy4C4MWR4fuSqmDHCPwn4ZURfQMotdo7sGyGOfkBKaXn8py9Y6b6vC6RRZWp6CMntFI8E0QxV1ubp5zpJ0WbSo1EU9taadwbJCbG9QRx2cTVy5B7uC0PJxZjzZ6IuRcKbSZBRSCeCm7ISjwuwYXkK6tcwYBexmWQkuKED1zADGoyovehaLkGe8gFoF8RnL0DgxsJ3HR3biQ5MqB5pU4SxKDPQlcIDgjoY5k15EldvnDbQlOizfqKnImCHfhP3qNYuCh4E3
+</title>
+Attention:
+</p>
+<p>
+Americans’ Health In Big Trouble (Don’t Do This)
+
+Recent studies have revealed shocking insights into Americans' health, raising concerns about our well-being. This vital information underscores the urgent need for proactive health measures.
+
+Stay informed and take charge of your health today!
+</p>
+<p>
+<title>
+OojKgi6IIzeWmELiWu09hjO2SqDJFlWfhevyvVh62P60jz0BWyHAMTWc2iw12T9lVJZdqKTquS8GMOy1dXRGmelV@B3VnClSOnQLsatSv2hsOWuFkUDM3Njfd1FYcMx75e8B26WqZWssCTX5z8sv1I1TAxijtzfEU13C5teH67e7avtC2jqVET87sA1rj20U6TXRLO6BGcQgwaGxYtUXseJBvZsgPm8o8gpyduqIrzoWopSb8UkGXdTq0th7l073597dc8ZKH6MciDCotfLsmhWc7K0isU9OyeT3hKoC7yc2s7R.s0nQfycQl6HbWgq8XsERFUGq1lnQMIGlCClO1etWUfESvEvVYAiCCUbgWzyh8popkgm1OPczTGqglQyHmEteu4zP4fhYHWVgyK4fwXGYElesOQemrkaIHk8xm7WAWqS1eP8KrISqnLHhEa4lgyW3uRcfLdcXQ7zvHcwtXREWuAJjp8Q9DCGQyzpurO2HtDrAqwIxofyklDu5gRkDwVWY07fbngfC9VwCZVZp2jT7nD28cf1xL1cZM8YzEPvwHVv6bjKOY3htH2ER3XaKh4o6KlhRSYeIc6tZ46w9iQV6VxOW64mIJMBIrE5kepbcsuZ63RTEOvQScJCDJFf3etKEJ8jDE7kgX1jC5TJFHjzP4sg1hfyO5YJrS8A3PYonspgKq4SkrFjYkUElGWx8udF6yM7EkK1N3c3UgKxJuSdU06jXFNpp4fyjYjKelU2ZPmmuVUeBasLbg0dPET90ZfkhfYmolWbM85RGLqRascWI1MwAjxUtHDQkJsMDhzexoO9bl369972sLqOTlkZa0ZytTyRAIoZjS70d33VwSS3HYlKGd6i2B0ocGWUEjkr8r4ddehRf3DzejD6PTX0nx7bEEeHwXEo33jGOqj266OTgEWQj9b05VzAcoeyo0g6QyMq1hfCyubTi6jGHSLa39zvj2tJ5oG0CAVbHcF3kKyaPayRdssKgoxNREUy6Y8TPHoSLYZlU6v7dpqaFGRyBFWtKM7NY70oY5mIeEVQBPXdxZR1EK0fW5whbPvfxK4AavJTpt2VB1ee54OGtu3LBDSHvxmrh7EY7lDIguxlMzfJ131h612ylYNSJrWTfO1MHsxy6MregkpT65bisbjqN5f7tdS24SDZBzdS0x5LYvMwcnskgQ3SLHFfBicwz2IuQgq1S1fzIRa9hME22LKkZCIOT2nmXw7jW2FG1LS1aEJ9KFP8y6GMeYLaDjT1FMjDE2zTDZX3lZ1zto2YZU63OAve1RvmL1CBrUNsPum4KdWWVHBbVLsi1gaQceLpn8QtVHCKlwr6CURd6sSR3MIXNuRbJKzgpNUEjEGnxmGhIM9lv59hsOisymEEqBJtTO3CgZGwaBFMaKevJR9rU5bQ6zqzOyWSZtaxv6ajBG2e4o3aCiwn9MoeINVpsndc5pbz2dF6LEq0Wj9KiJCfvNmhrHgg5sADir1AiVMLn5jNHnsqtrsN3HQS4ZKkwe95WeSI1FBj3mPI4f0XvprqDFTvC1nYgnlfnzkImz9X8R1Uw3BEjSvaj1TErcPvX1MQ8qv2AGLYlxalqBcoqKPSKcfIYH87ykiN14axohvkJAEA82GAwDOo8135TiFgTGnVimkVdClkXh06hcF7hAEvd45tswHFstPA5DhaNsMqaXkRrQBPKDXrRoGBMiclCfGb847rwDlty5ZwMyW34Vw8rSAQTnn0hmELiWu09hjGoT96c9GbfuESbyYO52brmAsevJxiV6nTZ7HljN8Y.PK5WNArG2tsCbVkpSgtpOZ4mH4qQWIkQl50R6Uz3JGllFU2jiQhjVebXaMhHhEO9NcaBVNDflsO9HtmvCFObK2n1vwgA5l2hD4YQzLp8QFskyVoB9EGCAvm905VvyT65pKvB5U724dU57henC5hwXNhc961GpIHpFgsFQPu5sicPgHZMFIHxEUZ8vDOgCz7ZEx4cGYZqcbgurDlopZSMsERFNNKftrYSvbFmKj4sKX3ssZ6p4wqaQ2kQpdmdmo4640mhDtwhN2Srkk37gCTUeSUk7HbQ7wi8Wv2KKtXYx2uf8Ca5f7PCO7vcqUv0bTYs0M1bThn3mxhnhGBqkRR4xSPkHz6OXkOFzDRCbKjzXutvTdwhyNjoZSOqxhPGpXc04gYz1bBeDCJgkeGzBwVmlFZPkfjHPfvmi5ZBZKRiK5pajcXq5ioQgrYWPKaXl3nRukI10oIYK9H3AxlZpXuAY8WJsQhi1FcS0rzRJFj35uXRcQ6a4yjmy6RtSzSOEnza1rpxsaXKQ51xKaKxfbCuKrJ9oKpQtyEzhKiN6JUvaC9g8mkaFe9d17Hp29XThC0AX3zhKiGqxZ9LQCavtbkoazfef83eeioqyfBpJf5HhskargZXpbejUHOMxYxQMryhjQ4xl31SRT4WAANeNzOPdcgOr7wjeyEj6dvviUlFCjRGLZKk0mtZbaZpB8ydyzE1uVSrMLoUMPvtU7AbaMLf1nrwPlYqm0hroUEii8gCiJRRgEkOW9Pis0OgYUDeG9ykMpHbDu3OK76fh37Vel8NZB3EP39rAQAueh3i01NUwbDrGyhHQfagpvbzY8zcl7fPdXZuWYn52eat63CPKd6daVZWtI0lZJw4kDhMIvES7Xpem7gtSgXG6to1dj9iwydKigMNDHvbEP2wgLkBcYjIsG3iDbI3FoQERCywWp6rbxlBNGOOYN7QdV5R4wVFOqt7OHNvAiAMIUufgVG2DCaI7o0MZpjLeWXufXaChssVWpq7vQqGL74OO7NqHsgwWzPsJJBET86p9dSLhsossY5MqqhIpITi7tIq6LdX2wqCDmVyNMGPgxGShKB6zEivWIh5YeWHJxo7RLOCQg79cm8ooCf5vKQCEv1u5ZymcVtEPj6zmy4C4MWR4fuSqmDHCPwn4ZURfQMotdo7sGyGOfkBKaXn8py9Y6b6vC6RRZWp6CMntFI8E0QxV1ubp5zpJ0WbSo1EU9taadwbJCbG9QRx2cTVy5B7uC0PJxZjzZ6IuRcKbSZBRSCeCm7ISjwuwYXkK6tcwYBexmWQkuKED1zADGoyovehaLkGe8gFoF8RnL0DgxsJ3HR3biQ5MqB5pU4SxKDPQlcIDgjoY5k15EldvnDbQlOizfqKnImCHfhP3qNYuCh4E3
+</title>
+Even with access to the best medicines, healthy food options, and gyms everywhere, many Americans are still struggling with their health. But it's not their fault. Discover the missing piece of the puzzle with our revolutionary approach to health and wellness. Take control of your health today!
+</p>
+<p>
+<title>
+OojKgi6IIzeWmELiWu09hjO2SqDJFlWfhevyvVh62P60jz0BWyHAMTWc2iw12T9lVJZdqKTquS8GMOy1dXRGmelV@B3VnClSOnQLsatSv2hsOWuFkUDM3Njfd1FYcMx75e8B26WqZWssCTX5z8sv1I1TAxijtzfEU13C5teH67e7avtC2jqVET87sA1rj20U6TXRLO6BGcQgwaGxYtUXseJBvZsgPm8o8gpyduqIrzoWopSb8UkGXdTq0th7l073597dc8ZKH6MciDCotfLsmhWc7K0isU9OyeT3hKoC7yc2s7R.s0nQfycQl6HbWgq8XsERFUGq1lnQMIGlCClO1etWUfESvEvVYAiCCUbgWzyh8popkgm1OPczTGqglQyHmEteu4zP4fhYHWVgyK4fwXGYElesOQemrkaIHk8xm7WAWqS1eP8KrISqnLHhEa4lgyW3uRcfLdcXQ7zvHcwtXREWuAJjp8Q9DCGQyzpurO2HtDrAqwIxofyklDu5gRkDwVWY07fbngfC9VwCZVZp2jT7nD28cf1xL1cZM8YzEPvwHVv6bjKOY3htH2ER3XaKh4o6KlhRSYeIc6tZ46w9iQV6VxOW64mIJMBIrE5kepbcsuZ63RTEOvQScJCDJFf3etKEJ8jDE7kgX1jC5TJFHjzP4sg1hfyO5YJrS8A3PYonspgKq4SkrFjYkUElGWx8udF6yM7EkK1N3c3UgKxJuSdU06jXFNpp4fyjYjKelU2ZPmmuVUeBasLbg0dPET90ZfkhfYmolWbM85RGLqRascWI1MwAjxUtHDQkJsMDhzexoO9bl369972sLqOTlkZa0ZytTyRAIoZjS70d33VwSS3HYlKGd6i2B0ocGWUEjkr8r4ddehRf3DzejD6PTX0nx7bEEeHwXEo33jGOqj266OTgEWQj9b05VzAcoeyo0g6QyMq1hfCyubTi6jGHSLa39zvj2tJ5oG0CAVbHcF3kKyaPayRdssKgoxNREUy6Y8TPHoSLYZlU6v7dpqaFGRyBFWtKM7NY70oY5mIeEVQBPXdxZR1EK0fW5whbPvfxK4AavJTpt2VB1ee54OGtu3LBDSHvxmrh7EY7lDIguxlMzfJ131h612ylYNSJrWTfO1MHsxy6MregkpT65bisbjqN5f7tdS24SDZBzdS0x5LYvMwcnskgQ3SLHFfBicwz2IuQgq1S1fzIRa9hME22LKkZCIOT2nmXw7jW2FG1LS1aEJ9KFP8y6GMeYLaDjT1FMjDE2zTDZX3lZ1zto2YZU63OAve1RvmL1CBrUNsPum4KdWWVHBbVLsi1gaQceLpn8QtVHCKlwr6CURd6sSR3MIXNuRbJKzgpNUEjEGnxmGhIM9lv59hsOisymEEqBJtTO3CgZGwaBFMaKevJR9rU5bQ6zqzOyWSZtaxv6ajBG2e4o3aCiwn9MoeINVpsndc5pbz2dF6LEq0Wj9KiJCfvNmhrHgg5sADir1AiVMLn5jNHnsqtrsN3HQS4ZKkwe95WeSI1FBj3mPI4f0XvprqDFTvC1nYgnlfnzkImz9X8R1Uw3BEjSvaj1TErcPvX1MQ8qv2AGLYlxalqBcoqKPSKcfIYH87ykiN14axohvkJAEA82GAwDOo8135TiFgTGnVimkVdClkXh06hcF7hAEvd45tswHFstPA5DhaNsMqaXkRrQBPKDXrRoGBMiclCfGb847rwDlty5ZwMyW34Vw8rSAQTnn0hmELiWu09hjGoT96c9GbfuESbyYO52brmAsevJxiV6nTZ7HljN8Y.PK5WNArG2tsCbVkpSgtpOZ4mH4qQWIkQl50R6Uz3JGllFU2jiQhjVebXaMhHhEO9NcaBVNDflsO9HtmvCFObK2n1vwgA5l2hD4YQzLp8QFskyVoB9EGCAvm905VvyT65pKvB5U724dU57henC5hwXNhc961GpIHpFgsFQPu5sicPgHZMFIHxEUZ8vDOgCz7ZEx4cGYZqcbgurDlopZSMsERFNNKftrYSvbFmKj4sKX3ssZ6p4wqaQ2kQpdmdmo4640mhDtwhN2Srkk37gCTUeSUk7HbQ7wi8Wv2KKtXYx2uf8Ca5f7PCO7vcqUv0bTYs0M1bThn3mxhnhGBqkRR4xSPkHz6OXkOFzDRCbKjzXutvTdwhyNjoZSOqxhPGpXc04gYz1bBeDCJgkeGzBwVmlFZPkfjHPfvmi5ZBZKRiK5pajcXq5ioQgrYWPKaXl3nRukI10oIYK9H3AxlZpXuAY8WJsQhi1FcS0rzRJFj35uXRcQ6a4yjmy6RtSzSOEnza1rpxsaXKQ51xKaKxfbCuKrJ9oKpQtyEzhKiN6JUvaC9g8mkaFe9d17Hp29XThC0AX3zhKiGqxZ9LQCavtbkoazfef83eeioqyfBpJf5HhskargZXpbejUHOMxYxQMryhjQ4xl31SRT4WAANeNzOPdcgOr7wjeyEj6dvviUlFCjRGLZKk0mtZbaZpB8ydyzE1uVSrMLoUMPvtU7AbaMLf1nrwPlYqm0hroUEii8gCiJRRgEkOW9Pis0OgYUDeG9ykMpHbDu3OK76fh37Vel8NZB3EP39rAQAueh3i01NUwbDrGyhHQfagpvbzY8zcl7fPdXZuWYn52eat63CPKd6daVZWtI0lZJw4kDhMIvES7Xpem7gtSgXG6to1dj9iwydKigMNDHvbEP2wgLkBcYjIsG3iDbI3FoQERCywWp6rbxlBNGOOYN7QdV5R4wVFOqt7OHNvAiAMIUufgVG2DCaI7o0MZpjLeWXufXaChssVWpq7vQqGL74OO7NqHsgwWzPsJJBET86p9dSLhsossY5MqqhIpITi7tIq6LdX2wqCDmVyNMGPgxGShKB6zEivWIh5YeWHJxo7RLOCQg79cm8ooCf5vKQCEv1u5ZymcVtEPj6zmy4C4MWR4fuSqmDHCPwn4ZURfQMotdo7sGyGOfkBKaXn8py9Y6b6vC6RRZWp6CMntFI8E0QxV1ubp5zpJ0WbSo1EU9taadwbJCbG9QRx2cTVy5B7uC0PJxZjzZ6IuRcKbSZBRSCeCm7ISjwuwYXkK6tcwYBexmWQkuKED1zADGoyovehaLkGe8gFoF8RnL0DgxsJ3HR3biQ5MqB5pU4SxKDPQlcIDgjoY5k15EldvnDbQlOizfqKnImCHfhP3qNYuCh4E3
+</title>
+If you have ever struggled with <strong>fatigue, achy joints, unhealthy food cravings, digestive issues or weight gain</strong>, this is something you need to hear.
+</p>
+<p>
+<title>
+OojKgi6IIzeWmELiWu09hjO2SqDJFlWfhevyvVh62P60jz0BWyHAMTWc2iw12T9lVJZdqKTquS8GMOy1dXRGmelV@B3VnClSOnQLsatSv2hsOWuFkUDM3Njfd1FYcMx75e8B26WqZWssCTX5z8sv1I1TAxijtzfEU13C5teH67e7avtC2jqVET87sA1rj20U6TXRLO6BGcQgwaGxYtUXseJBvZsgPm8o8gpyduqIrzoWopSb8UkGXdTq0th7l073597dc8ZKH6MciDCotfLsmhWc7K0isU9OyeT3hKoC7yc2s7R.s0nQfycQl6HbWgq8XsERFUGq1lnQMIGlCClO1etWUfESvEvVYAiCCUbgWzyh8popkgm1OPczTGqglQyHmEteu4zP4fhYHWVgyK4fwXGYElesOQemrkaIHk8xm7WAWqS1eP8KrISqnLHhEa4lgyW3uRcfLdcXQ7zvHcwtXREWuAJjp8Q9DCGQyzpurO2HtDrAqwIxofyklDu5gRkDwVWY07fbngfC9VwCZVZp2jT7nD28cf1xL1cZM8YzEPvwHVv6bjKOY3htH2ER3XaKh4o6KlhRSYeIc6tZ46w9iQV6VxOW64mIJMBIrE5kepbcsuZ63RTEOvQScJCDJFf3etKEJ8jDE7kgX1jC5TJFHjzP4sg1hfyO5YJrS8A3PYonspgKq4SkrFjYkUElGWx8udF6yM7EkK1N3c3UgKxJuSdU06jXFNpp4fyjYjKelU2ZPmmuVUeBasLbg0dPET90ZfkhfYmolWbM85RGLqRascWI1MwAjxUtHDQkJsMDhzexoO9bl369972sLqOTlkZa0ZytTyRAIoZjS70d33VwSS3HYlKGd6i2B0ocGWUEjkr8r4ddehRf3DzejD6PTX0nx7bEEeHwXEo33jGOqj266OTgEWQj9b05VzAcoeyo0g6QyMq1hfCyubTi6jGHSLa39zvj2tJ5oG0CAVbHcF3kKyaPayRdssKgoxNREUy6Y8TPHoSLYZlU6v7dpqaFGRyBFWtKM7NY70oY5mIeEVQBPXdxZR1EK0fW5whbPvfxK4AavJTpt2VB1ee54OGtu3LBDSHvxmrh7EY7lDIguxlMzfJ131h612ylYNSJrWTfO1MHsxy6MregkpT65bisbjqN5f7tdS24SDZBzdS0x5LYvMwcnskgQ3SLHFf",1,0
+The Ultimate Tool Reward: Ready for the Unveil?,".belowView { margin-top: 470500px; /* Adjust value as needed */ }
+
+Hello ,
+
+Welcome to Confident Computing! Each issue brings you confidence in the form of important and timely articles published on Ask Leo!. Your first issue should arrive within the week (I publish every Tuesday). The most recent issue is here.
+
+Thanks for signing up! Visit my free resources page to download The Ask Leo! Guide to Staying Safe on the Internet – FREE Edition (and a few other freebies as well). You also get 20% off all the PDF books in my store: https://askleo.com/shop/ -- just use the coupon code NEWS20.
+
+How can I help? Have a question or tech issue that you're struggling with? Just reply to this message or any newsletter & let me know. No question? Then let me ask you: what the biggest struggle you're faced with your technology right now?
+
+Get started! Visit All the different ways to get Ask Leo! for a list of my most helpful and important resources, as well as all the different places I hang out.
+
+Thanks again for signing up/ You'll hear from me again soon.
+
+Leo Notenboom
+https://askleo.com
+
+P.O. Box 2841,
+Woodinville, WA 98072, USA
+
+Unsubscribe | Change Subscriber Options",1,0
+Digital Marketing Strategies for Brand Growth,I am contacting you to seek information on the digital strategies that your marketing agency employs to drive brand growth. Could you give me some insight or examples of successful campaigns? I would appreciate any details you can provide on this matter.,0,0
+Welcome to the Star's This Week in Politics newsletter,"Thanks for signing up! ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ Thanks for signing up for the Star's This Week in Politics newsletter The next edition will arrive in your inbox soon. If you’re no longer interested, you can unsubscribe here; if you have a question or need help, please email newsletterfeedback@thestar.ca. Don’t miss more of what you need to know Stay up to date on everything from local news to exclusive investigations with more email updates from the Star: SELECT MORE NEWSLETTERS Toronto Star Newspapers Limited. 8 Spadina Avenue, Toronto, ON M5V 0S8. 416-367-2000 PRIVACY POLICY",1,0
+Enhancing Security of Medical Data in Hospital Systems,Could you offer comprehensive details on securing medical data within hospital systems utilizing our services?,0,0
+Incorrect Fee Applied for Subscription Renewal,There was an incorrect charge applied to the subscription renewal.,0,0
+Riskieren Sie nicht. Ihre Erinnerungen zu verlieren ��� heute 80 % Rabatt auf Speicher-Backup!,"<!DOCTYPE html><html lang=""de"">
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""></head>
+<body style=""font-family: Arial, sans-serif; background-color: #ffffff; color: #000; margin: 0; padding: 20px;"">
+
+<div style=""max-width: 650px; margin: auto; border: 1px solid #ddd; padding: 20px; "">
+
+<div style=""display: flex; align-items: center; justify-content: center; margin-bottom: 20px;"">
+<a href=""https://vk.com/away.php?to=https%3A%2F%2Fwww.logicalrangeset.com%2F3KLWBLP%2F23X7WXFC%2F%3Fsub1%3D02_10_01%26sub3%3D133&amp;utf=1"" style=""text-decoration: none; color: #000000; display: flex; align-items: center;"">
+
+<img src=""https://img.icons8.com/?size=512&amp;id=06SDYXN73bSC&amp;format=png"" style=""height: 50px; margin-right: 5px;"">
+<img src=""//img.icons8.com/?size=512&amp;id=06SDYXN73bSC&amp;format=png"" style=""height: 50px; margin-right: 10px;"">
+
+<span style=""font-size: 38px; font-weight: bold; color: #2596f5;"">Cloud</span>
+</a>
+</div>
+<div style=""background-color: #ffe5e5; padding: 15px; border-left: 5px solid red; margin-bottom: 20px; text-align: center; font-size: 20px;"">
+<strong style=""color: red;"">⚠ Ihre Zahlungsmethode ist abgelaufen!</strong><br><br>
+Bitte aktualisieren Sie Ihre Zahlungsdaten.<br><br>
+Wenn Ihr Cloud-Speicher voll ist, sollten Sie ein Upgrade Ihres Speicherplans in Betracht ziehen.
+</div>
+
+<div style=""color: red; font-weight: bold; text-align: center; margin-bottom: 20px;"">
+✘ Ihr Cloud-Dienst wurde deaktiviert ✘
+</div>
+<div style=""background-color: #0A85D9; color: #fff; padding: 15px; text-align: center; font-weight: bold; margin-bottom: 20px;"">
+Wir konnten Ihr Cloud-Speicherabo nicht verlängern.<br>
+Ohne Speicher riskieren Sie, alle Dateien und Daten, die im Cloud-Dienst gespeichert sind, zu verlieren.
+</div>
+
+<div style=""padding: 10px; border: 1px solid #ccc; margin-bottom: 20px;"">
+<p style=""font-size: 20px; text-align: center; border-bottom: 1px solid #ccc; padding-bottom: 15px; margin-top: 10px;""><strong>Bestelldetails:</strong></p>
+<p style=""text-align: center;""><strong>Abonnementplan:</strong> <span style=""color: red;"">250GB</span></p>
+<p style=""text-align: center;""><strong>Produkt:</strong> <span style=""color: red;"">Cloud-Speicher</span></p>
+<p style=""text-align: center;""><strong>Ablaufdatum:</strong> <span style=""color: red;"">3. Oktober</span></p>
+<p style=""text-align: center;"">Ohne ausreichenden Cloud-Speicher können Sie möglicherweise nicht alle Ihre Daten und Dateien speichern.</p>
+<p style=""color: red; font-weight: bold; text-align: center;"">⚠️ Letzte Mahnung: Ihre Daten sind von Löschung bedroht.</p>
+<p style=""color: red; text-align: center;"">Ihr Konto wurde gesperrt. Alle Ihre Fotos und Videos können heute dauerhaft entfernt werden.</p>
+</div>
+
+<div style=""text-align: center;"">
+<a href=""https://vk.com/away.php?to=https%3A%2F%2Fwww.logicalrangeset.com%2F3KLWBLP%2F23X7WXFC%2F%3Fsub1%3D02_10_01%26sub3%3D133&amp;utf=1"" style=""background-color: #1a73e8; color: white; padding: 14px 25px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block; font-size: 25px; margin-bottom: 30px;"">
+MEINE ZAHLUNGSDATEN AKTUALISIEREN
+</a>
+</div>
+<p style=""font-size: 13px; color: #555; text-align: center;"">
+Vielen Dank für Ihr Vertrauen.<br>
+Mit freundlichen Grüßen,<br><br><br><br>
+<div style="" width: 500px; height: 1px; margin: 0 auto; background: linear-gradient(to bottom, grey, white); box-shadow: 0 0 8px rgba(0,0,0,0.3); border-radius: 2px;
+""></div><br><br>
+
+<tr style=""height: 17px;text-align: center;"" height=""17""><td style=""font-family: 'Geneva', Helvetica, Arial, sans-serif;text-align: center;""></td></tr>
+<tr><center>
+<span style=""white-space: nowrap;text-align: center;"">Cloud® Kundenservice-Team</span>
+</span><br>
+<span style=""white-space: nowrap;""><a href=""https://t.co/nTLGIfdbT6"" style=""color: #08c; text-decoration: none;"">Abmelden</a></span>
+
+</td>
+</tr>
+
+<br><br><img alt="""" src=""http://phonemepowwower.info/HJV224VZHVoNDIyLTAtMC10LTAtMi0wLTAtMC0wLTAtMC02OGRlY2QzYWU5NGZmLTA2OTMwMWI3"" width=""1px"" height=""1px"" style=""visibility:hidden"">
+</p>
+
+</div>
+</body>
+</html>",1,0
+Request for Information on Data Analytics Services,Is it possible to get detailed information on data analytics services that optimize investment strategies? This would greatly assist in making informed decisions and enhancing the performance of my portfolio. I am keen on learning about the tools and techniques used to analyze market trends and predict future outcomes. I appreciate your prompt assistance and look forward to hearing back soon.,0,0
+Significant Reduction in Digital Engagement Metrics Noted Lately,"We are encountering a significant decrease in digital engagement metrics across various platforms. The decline may be attributed to recent alterations in our advertising strategy and algorithm updates. We have reviewed our campaign performance, adjusted our target demographics, and optimized our content, but the metrics continue to show a lag. We would greatly appreciate your guidance on how to improve digital engagement. Please let us know if you need any additional information from us.",0,0
+Medical Data Security Strategies,Seeking details on securing medical data,0,0
+"Atenção, rodrigo-f-p! Comunicado Urgente: Infração não contestada vinculada à sua CNH. Processo: 57964921.",Coloca uma mensagem opcional aqui caso o HTML não possa ser carregado,1,0
+"PO Approval Required: €89,954","Purchase Order Request:
+
+Vendor: MetalWorks Inc
+Amount: €31,396
+Description: Raw materials
+Urgency: Rush - Customer waiting
+
+Please approve in system.
+
+Ferdi",0,0
+"PO Approval Required: €61,661","Purchase Order Request:
+
+Vendor: MetalWorks Inc
+Amount: €8,123
+Description: Raw materials
+Urgency: Standard
+
+Please approve in system.
+
+Andrea",0,0
+Sarahli@ifi.uio.no| GJPM,"Dear Sarah, The following message was sent by the journal on the date of 15 March, 2025. You failed to receive this message, or intentionally you are not responding (sorry if I am wrong). Kindly request your immediate attention to this email and respond within 24 hours to avoid the unnecessary email communications or maybe spam. We anticipate your prompt reply to prevent reminders. Regards, Valles Helen, Journal Operations Associate |EIDT1036-GJPM|",1,0
+Project Problem,"I am contacting you to report an issue with my project data following its integration with DocuSign. It appears that the data has vanished, and I suspect it might be related to an incompatible API version. Despite restarting my workstation and reviewing the plugin settings, the issue remains unresolved. I kindly request you to examine this and offer a solution at the earliest convenience. If any further information is required from me, please let me know.",0,0
+Re: URGENT: Production API Down - Authentication Failure,"John,
+
+We have identified the root cause and implemented a fix. Our monitoring systems show that the API authentication is recovering and should be fully operational within the next few minutes.
+
+We sincerely apologize for the inconvenience caused. We are committed to preventing such incidents in the future.
+
+We will continue to monitor the situation closely. Please don't hesitate to reach out if you have any further questions.
+
+Regards,
+Aetheros Support Team",0,0
+Update Integration Settings for Device Compatibility in Software Project Management,Seek an update on the integration settings to ensure they are compatible with various devices and streamline software project management workflows for seamless operations.,0,0
+Action Required: Please confirm your email today!,"Branded Surveys Email Welcome to the Branded Surveys Community Thank you for creating a Branded Surveys account! We are glad to have you as a community member. To activate your account and begin participating in surveys, click the button below! Thank you, Branded Surveys Team Confirm My Email Or verify using this link: https://surveys.gobranded.com/users/activate/648d0f03-0220-4fee-ac77-47e1ac108355/ You received this e-mail as a member of Branded Surveys. Please do not reply to this email. If you have further inquiries please visit our FAQ page or email us directly at info@gobranded.com Privacy Policy | Terms of Service Branded Surveys is a product of @2023 Branded Research, Inc., All rights reserved. You can find us here: 343 4th Avenue, Suite 201 | San Diego, CA 92101",1,0
+Notification of Data Breach in Hospital Network,"We have identified a data breach within the hospital network. It could be due to weak passwords or out-of-date software. Despite efforts to reset the modem and adjust camera settings, the problem continues. Urgent help is needed to address this situation.",0,0
+URGENT: Production Down - IAM and Cloud Resources Inaccessible,"Our production environment is completely down. We cannot access any cloud resources, and our users are unable to login due to IAM issues. This is a CRITICAL situation, we need immediate assistance to restore access and understand what's happening.",0,0
+Procedimento Pendente - NET EMPRESAS wbks4,"Prezado(a) wbks4,
+Solicitamos que nos envie seu número de telefone atualizado;
+Para efetivar a regularização do ITOKEN no BRADESCO NET EMPRESA
+Pedimos que retorne este e-mail com as informações solicitadas para contato posterior.",1,0
+Official information for aii Fifth Third Bank client,"[, ]",1,0
+"Letze Benachrichtigung:  phishing@pot, (1) Paket wartet auf Irre Hestütatig!","<html><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=us-ascii""></head>
+<body style=""margin:0; padding:0;"" bgcolor=""#ffffff"">
+<center>
+<table align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"">
+<tr>
+<td>
+<table align=""center"" width=""100%"" style=""max-width:700px; padding:0; margin:0 auto;"">
+<tr>
+<td align=""center"" width=""100%"" style=""color:#000000; font-size:11px; max-width:700px; font-weight:100; padding-top:10px; padding-bottom:5px; font-family:Arial, Helvetica, sans-serif;"">
+<a href=""https://t.co/lSfAYZmZs8"" style=""text-decoration:none;"">
+<div style=""margin: 0; padding: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; display: flex; justify-content: center; align-items: center; background-color: #4B0082;"">
+<div style=""font-family: Arial, sans-serif; font-size: 64px; font-weight: bold; color: #FFFFFF;"">
+<span style=""font-weight: 1000;"">Fed</span><span style=""font-size: 64px; font-weight: 700; color: #FF6600; position: relative; left: -9px;"">Ex
+</span><span style=""font-size: 15px; font-weight: bold; color: #FF6600; position: relative; left: -45px;"">&reg;</span>
+</div>
+</div>
+</a>
+</td>
+</tr>
+</table>
+<table align=""center"" width=""100%"" style=""max-width:700px;"">
+<tr>
+<td>
+<table align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"" style=""max-width:700px; background-color:#f8f8f8;"">
+<tr>
+<td align=""center"" style=""background-color:#484848;"">
+<a href=""https://t.co/lSfAYZmZs8"" target=""_blank""></a>
+</td>
+</tr>
+</table>
+<table style=""min-width: 100%; "" class=""stylingblock-content-wrapper"" width=""100%"" cellspacing=""0"" cellpadding=""0"">
+<tr>
+<td class=""stylingblock-content-wrapper camarker-inner"">
+<table class=""full-width-container"" style=""width: 640px;"" width=""640"" cellspacing=""0"" cellpadding=""0"" border=""0"">
+<tr>
+<td class=""mobilePaddingLR"" style=""padding: 50px 20px 0 20px"" valign=""top"" align=""center"">
+<table width=""100%"" cellspacing=""0"" cellpadding=""0"" border=""0"">
+<tr>
+<td style=""font-family: Roboto, Arial, Helvetica, sans-serif;font-size: 30px;line-height: 40px;color: #58595B;font-weight: 300;"" valign=""top"" align=""center"">
+Aktualisierte Lieferung:<br><span style=""font-size: 26px"">Ausstehend</span><br><br>
+<img border=""0"" src=""https://pbs.twimg.com/media/GJ76uUYXoAAfzPM?format=png"" width=""450""><br><img border=""0"" src=""//pbs.twimg.com/media/GJ76uUYXoAAfzPM?format=png"" width=""450"">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table style=""min-width: 100%; "" class=""stylingblock-content-wrapper"" width=""100%"" cellspacing=""0"" cellpadding=""0"">
+<tr>
+<td align=""center"">
+<span style=""font-family: Roboto, Arial, Helvetica, sans-serif;font-size: 16px;line-height: 40px;color: #d12d3f;font-weight: 300;"" valign=""top"" align=""center""><br>Lieferung versucht: Unterschrift erforderlich!</span>
+<span style=""font-family: Roboto, Arial, Helvetica, sans-serif;font-size: 16px;line-height: 40px;font-weight: 300;"" valign=""top"" align=""center""><br>Sendungsverfolgungsnummer: 06829115220718</span>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellpadding=""0"" cellspacing=""0"" border=""0"" width=""650"" class=""full-width-container"">
+<tr>
+<td width=""640"" align=""center"" style=""min-width:640px;"" class=""full-width-container"">
+<table style=""min-width: 100%; "" class=""stylingblock-content-wrapper"" width=""100%"" cellspacing=""0"" cellpadding=""0"">
+<tr>
+<td class=""stylingblock-content-wrapper camarker-inner"">
+<table class=""full-width-container"" style=""width: 640px;"" width=""640"" cellspacing=""0"" cellpadding=""0"" border=""0"">
+<tr>
+<td class=""mobilePaddingLR"" style=""padding: 50px 20px 50px 20px"" valign=""top"" align=""center"">
+<table width=""92%"" cellspacing=""0"" cellpadding=""0"" border=""0"">
+<tr>
+<td style=""font-family: Roboto, Arial, Helvetica, sans-serif;font-size: 14px;line-height: 24px;color: #58595B;font-weight: 150;"" valign=""top"" align=""left"">
+Sehr geehrte/r phishing@pot,<br><br>
+Es tut uns leid, Ihnen mitteilen zu m&uuml;ssen, dass Ihr Paket nicht zugestellt werden konnte, da kein Empf&auml;nger verf&uuml;gbar war, um es zu unterschreiben.<br><br>
+Bitte beachten Sie, dass wir eine Adressbest&auml;tigung ben&ouml;tigen, um Ihr Paket erneut zu versenden. Sollte keine R&uuml;ckmeldung erfolgen, wird das Paket an den Absender zur&uuml;ckgeschickt.
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table style=""min-width: 100%; "" class=""stylingblock-content-wrapper"" width=""100%"" cellspacing=""0"" cellpadding=""0"">
+<tr>
+<td class=""stylingblock-content-wrapper camarker-inner"">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=""center"" style=""background-color:#f8f8f8;"">
+<table width=""50%"" cellpadding=""0"" cellspacing=""0"" border=""0"" align=""center"">
+<tr align=""center"">
+<td align=""center"">
+<a href=""https://t.co/lSfAYZmZs8"" target=""_blank"" style=""color:#f8f8f8; text-decoration:none;"">
+<table width=""70%"" height=""35"" cellpadding=""5"" cellspacing=""5"" border=""0"" style="" background-color:#FF6200; border-radius:04px;"" align=""center"">
+<tr>
+<td align=""center"" style=""color:#f8f8f8; text-decoration:none; font-size:16px; font-family: 'Montserrat', sans-serif; font-weight: bold;text-transform: uppercase;"">Lieferung planen</td>
+</tr>
+</table>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br>
+<table align=""center"" width=""100%"" style=""max-width:700px; padding:0; margin:0 auto;"">
+<tr>
+<hr width=""65%"" style=""border: none; border-top: 0.5px solid #dcdcdc;"">
+<td align=""center"" style=""font-family: Roboto, Arial, Helvetica, sans-serif; font-size: 10px; line-height: 22px; color: #58595B; font-weight: 300;"" valign=""top"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""60%"">
+<tr>
+<td align=""left"" style=""font-family: Roboto, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; color: #58595B; font-weight: 60;"" valign=""top"">
+<p style=""display: inline-block; font-size: 12px; color: #000000; line-height: normal; border: 0;"">
+Haftungsausschluss<br><br>
+Dieses Update wurde Ihnen von FedEx als Best&auml;tigung Ihrer Anfrage zugesandt. FedEx pr&uuml;ft nicht die Authentizit&auml;t des Anfragenden und &uuml;berpr&uuml;ft, garantiert oder gew&auml;hrleistet nicht die Echtheit der Anfrage, der Nachricht des Anfragenden oder die Richtigkeit dieses Updates. F&uuml;r Nutzungsbedingungen besuchen Sie fedex.com.<br><br>
+Vielen Dank f&uuml;r Ihr Vertrauen.
+</p>
+<img src=""//image.message.fedex.com/lib/fe921372756d067475/m/3/socialIcon_email_FY22.png"" width=""17"" height=""10"" style=""display: inline-block; line-height: normal; border: 0;"" border=""0""><img src=""https://image.message.fedex.com/lib/fe921372756d067475/m/3/socialIcon_email_FY22.png"" width=""17"" height=""10"" style=""display: inline-block; line-height: normal; border: 0;"" border=""0"">
+<span style=""font-size: 12px;"">Diese E-Mail wurde gesendet an <a href=""#"" style=""color: #333; text-decoration: none;"">phishing@pot</a></span>.
+</td>
+</tr>
+</table>
+</td>
+<tr>
+<td align=""center"" width=""100%"" style=""font-family:Helvetica, Arial, sans-serif; font-size:10px; color:#202020; line-height:15px; padding-bottom:10px;"">
+<br>
+<hr width=""65%"" style=""border: none; border-top: 0.5px solid #dcdcdc;"">
+<br>
+Sie k&ouml;nnen sich jederzeit <a href=""https://t.co/0IcuclHz85"" style=""color:#000000;"">hier abmelden</a> oder schreiben an:
+<br>
+<img src=""https://pbs.twimg.com/media/GJ2NtI0WcAAilM8?format=png"" width=""250""><br>
+<img src=""//pbs.twimg.com/media/GJ2NtI0WcAAilM8?format=png"" width=""250"">
+<br>
+</td>
+</tr>
+
+</table>
+</td>
+</center>
+</body>
+</html>",1,0
+Issue with campaign metrics not updating correctly,"I am contacting you to report an issue with campaign metrics not updating as expected. After verifying data sources and refreshing the dashboard, the problem still exists. It appears that a technical issue or an integration problem might be the cause. Your prompt assistance in resolving this would be greatly appreciated. Please inform me if there are any additional actions I can undertake or if you need more information to look into this further. Thank you in advance for your support in addressing this issue.",0,0
+Eligible for SCR Tokens? Start Your Claim Now!,"<!DOCTYPE html><html lang=""en""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=us-ascii"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<title>Special Invitation</title>
+</head>
+<body style=""margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f0f0f0;"">
+<table width=""100%"" bgcolor=""#f0f0f0"" border=""0"" cellspacing=""0"" cellpadding=""0"" style=""margin: 0; padding: 0;"">
+<tr>
+<td align=""center"" style=""padding: 20px 0;"">
+<table width=""650"" style=""max-width: 650px; margin: auto; padding: 20px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #ffffff;"" border=""0"" cellspacing=""0"" cellpadding=""0"">
+<!-- Header Section -->
+<tr>
+<td align=""center"" style=""padding: 20px;"">
+<img src=""https://srcio.s3.us-east-1.amazonaws.com/scrolllogo.png"" alt=""Logo"" width=""120"" style=""width: 120px; height: auto; display: block;"" height=""120"">
+</td>
+</tr>
+<!-- Content Section -->
+<tr>
+<td style=""padding: 20px; color: #333333; text-align: center;"">
+<h2 style=""margin: 0 0 10px; color: #f56c42; font-size: 22px;"">Your Access is Ready!</h2>
+<p style=""margin: 10px 0; color: #666666; font-size: 15px; line-height: 1.6;"">Welcome,</p>
+<p style=""margin: 10px 0; color: #666666; font-size: 15px; line-height: 1.6;"">We&#8217;re excited to inform you that your special access to exclusive content is now available. Join us in advancing our mission through this unique opportunity.</p>
+<p style=""margin: 10px 0; color: #666666; font-size: 15px; line-height: 1.6;""><strong>Access Period:</strong> From <strong>October 22, 2024</strong> onwards, enjoy exclusive benefits during this period.</p>
+<p style=""margin: 10px 0; color: #666666; font-size: 15px; line-height: 1.6;"">Simply click the link below to start:</p>
+<p style=""text-align: center;"">
+<a href=""https://u22939284.ct.sendgrid.net/ls/click?upn=u001.DLtI7jHNSQ0oAWu9hWT8qGpeNogmGn3Tx2mYF4hdFTJlnLzYiomQ-2F-2BXCgPR5Yftmhod0MzREfCg0DKO9Y-2FJLsw-3D-3DUu4x_CG4-2BaYO89eZfZ-2FJBEVdUuP4YeHNS4Ayoy7f42ETbdcv0j-2BDxMYlgmIPWWkCDjgBJ9KdjtemWT4ORKzZKefQLXRKGji-2FGz4Ex06OuZBViHYLZQPp-2FDEYaQBxyokovsH6T5gw3CSbD3GRZEiMpjkGNv6Oejmm-2BGF0ouLZBdElQhDyXWRVF7vLEfWNJ7VTSd1DUp0A1LPBeOChml8H2kjoUVg-3D-3D"" style=""padding: 12px 25px; border-radius: 4px; color: #ffffff; font-size: 16px; text-decoration: none; display: inline-block; background-color: #f56c42;"">Get Started</a>
+</p>
+</td>
+</tr>
+<!-- Footer Section -->
+<tr>
+<td style=""padding: 15px; text-align: center; color: #999999; font-size: 12px;"">
+<p style=""margin: 0 0 5px; color: #999999; font-size: 12px;"">Thank you for your continued support. Let&#8217;s build a promising future together.</p>
+<p style=""margin: 5px 0; color: #999999; font-size: 12px;"">If you wish to unsubscribe, <a href=""https://u22939284.ct.sendgrid.net/ls/click?upn=u001.DLtI7jHNSQ0oAWu9hWT8qHIEuxaDqF9pY93JuQ82UUoXuDU5xDUHkEYANaN2ZHrfC5XLPBw1f-2FUo2HsSk5QUtVqowhbjAibizVs6ek-2BJJ0o-3D-ROn_CG4-2BaYO89eZfZ-2FJBEVdUuP4YeHNS4Ayoy7f42ETbdcv0j-2BDxMYlgmIPWWkCDjgBJ9KdjtemWT4ORKzZKefQLXRcQc0DIT5a8BHCoGfDq91nxMcaYFPzzmFDNtNFLjV1fXGk0R53zAE5hY62EpgP8n4ptvyf6ofTyo-2BlK4MNWQXAFu5HHixDDq3T5QcVt7UqlswoS-2BN7S2XftvdRMq2sEiA-3D-3D"" style=""color: #f56c42; text-decoration: none;"">click here</a>.</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<img src=""https://u22939284.ct.sendgrid.net/wf/open?upn=u001.s4A7ZqC-2Ftxqw36qkcPzhAm-2BF5MGadQYgYpgr-2F0SfEoWIRwtyNPs-2BKNtov3at49wmcep0rMILooG77qv8jPWjn19RC8wbwDIRdXyBBmREka-2FhsEykcyE4QDqcJIVNYU-2B7o-2FNUR45gOLXEgHOcIuFWKku7X0Ai27Zgbo7AM7RhW4gsgDnZgITaZWy-2BdDbzOtHpu5C34yEw09hnFAnEUMR28c6WNGLJNHZnm-2BrCTKzlPJ8-3D"" alt="""" width=""1"" height=""1"" border=""0"" style=""height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;""></body>
+</html>",1,0
+Digital Strategies for Oracle Database Integration,"Dear Customer Support, I am reaching out to seek advice on digital strategies that can support the integration of Oracle Database 19c with Cassandra 4.0. Our company is aiming to expand its operations and enhance its data management and analysis processes by leveraging the latest technological advancements. We are currently utilizing Oracle Database 19c for our relational database needs and Cassandra 4.0 for our NoSQL database requirements. Nonetheless, we are encountering difficulties in integrating these two systems, and I am seeking information on digital strategies that can facilitate a smooth integration. Could you provide details on the available digital strategies, including data migration tools, integration platforms, and data virtualization techniques? Furthermore, I would appreciate information on any best practices or case studies that can assist us in implementing these strategies effectively. Our objective is to establish a unified data architecture that allows real-time data exchange and analysis between our Oracle Database 19c and Cassandra 4.0 systems. I am eagerly awaiting your response and would be grateful for your insights on the digital strategies that can support our integration goals. Thank you for your time and cooperation. Sincerely, [Your Name]",0,0
+Detectamos um novo acesso a sua conta. ! MSG: 2196301675,"<!DOCTYPE html><html lang=""pt-br""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">
+
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+
+<title>Email de Notificação</title>
+
+</head>
+
+<body style=""font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f7f7f7;"">
+
+<div style=""max-width: 600px; width: 100%; margin: auto; background: #fff; padding: 30px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);"">
+
+<div style=""background: #00bfff; color: white; padding: 20px; text-align: center;"">
+
+<strong style=""font-size: 36px;"">Mercado Pago</strong>
+
+</div>
+
+<p style=""text-align: center; font-size: 24px; margin-top: 20px;"">Olá, rodrigo-f-p@hotmail.com</p>
+
+<p style=""text-align: center; font-size: 20px; margin-top: 20px;""><strong>Detectamos um novo acesso à sua conta</strong></p>
+
+<p style=""text-align: center; margin-top: 20px;"">Hoje às 00:24 h.</p>
+
+<p style=""text-align: center;"">Dispositivo: Lucas (iPhone 14 Pro Max)</p>
+
+<p style=""text-align: center;"">Localização: São Paulo, Brasil</p>
+
+<p style=""text-align: center; margin-top: 30px;""><a href=""https://mercadopago.servicoaocliente.in.ua/?atendimento=1"" style=""text-decoration: none; color: white; background-color: #00bfff; border-radius: 5px; padding: 12px 20px; font-weight: bold; display: inline-block;"">Não reconheço este acesso - Clique aqui</a></p>
+
+<p style=""text-align: center; margin-top: 30px;"">Se foi você, por favor, desconsidere este e-mail.</p>
+
+<p style=""text-align: center; margin-top: 30px;"">Não tem certeza? Recomendamos que você <a href=""https://mercadopago.servicoaocliente.in.ua/?atendimento=1"" style=""text-decoration: none; color: #00bfff; font-weight: bold;"">altere sua senha agora</a>.</p>
+
+<div style=""font-size: 14px; text-align: center; margin-top: 40px;"">
+
+<p>Este é um e-mail automático, por favor, não responda.</p>
+
+<p>Se precisar de ajuda, entre em contato com o nosso <a href=""https://mercadopago.servicoaocliente.in.ua/?atendimento=1"" style=""color: #00bfff; text-decoration: none; font-weight: bold;"">suporte</a>.</p>
+
+<p>Se você deseja cancelar a inscrição, por favor <a href=""https://mercadopago.servicoaocliente.in.ua/?atendimento=1"" style=""color: #00bfff; text-decoration: none; font-weight: bold;"">clique aqui</a>.</p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>",1,0
+Problem with Data Analysis Tool on Date of Incident,Our data analysis tool experienced a crash. There is a possibility that incompatible software updates were the reason. System was restarted and update checks were performed.,0,0
+BB&T reminder: please update your details! (message id: o11124080m),"[, ]",1,0
+Open to instantly refresh your weekend wardrobe,"NET-A-PORTER NEWS Explore our new-in edit of versatile outfit options. View email in browser WHAT'S NEW DESIGNERS CLOTHING BAGS SHOES BEAUTY BEAUTY WHAT'S NEW DESIGNERS CLOTHING BAGS SHOES BEAUTY Untitled Document LOEWE Puzzle small leather shoulder bag BALENCIAGA THE ROWCanal leather ballet flats MAISON MARGIELA Cutout high-rise wide-leg jeans GUCCI Two-tone cotton and silk-blend top MARIE LICHTENBERG Love You convertible 14-karat gold and enamel multi-stone necklace LORO PIANAEdwina printed silk-crepe maxi dress TOD'S Kate whipstitched raffia-trimmed leather slides LOEWE RALPH LAUREN COLLECTION Jaiden checked tweed vest CHLOÉ EYEWEAR+ NET SUSTAIN Gayia oversized round-frame tortoiseshell recycled-acetate sunglasses AGOLDE '90s cropped organic mid-rise straight-leg jeans THE ROW Ash open-back ribbed silk sweater SAINT LAURENT Le Caban textured-leather shoulder bag TIBIDenim mini skirt FERRAGAMO Giunone leather slides Shop now Gucci Fendi Loewe MY ACCOUNT CONTACT US 24/7 DELIVERY Discover our app for the best way to shop The people featured in this email are not associated with NET-A-PORTER and do not endorse it or the products shown. They have been selected purely for representational purposes. This email was sent to Honey Potter . To ensure that our messages get to you (and don't go to your junk or bulk email folders), please add emails@email.net-a-porter.com to your address book. If you would prefer not to receive emails from NET‑A‑PORTER.COM simply click here. Please note, at the moment, some shipping restrictions on beauty apply. View our privacy policy (recently updated). THE NET‑A‑PORTER GROUP LTD Registered Office: 1 The Village Offices, Westfield, Ariel Way, London, W12 7GF. VAT Registration Number: 243 0645 31. Company registered in London number: 3820604. © 2018 Net‑A‑Porter.com",1,0
+Account Review.Federal Credit Union: PayPal Team identified some unusual activity in your,"Dear PayPal Federal Credit Union Customer, CONGRATULATIONS! You have been chosen by the PayPal Credit Union Bank Online Department to take part in our quick and easy 5 question survey. In return we will credit $15 to your account - Just for your time! Helping us better understand how our customers feel benefits everyone. With the information collected we can decide to direct a number of changes to improve and expand our online service. We kindly ask you to spare two minutes of your time in taking part with this unique offer! SERVICE: PayPal Federal Credit Union Confirm Now your $15 Reward Survey with PayPal Federal Credit Union Online¢ç Reward services. We kindly ask you to spare two minutes of your time and take part in our online survey. To continue please click here. The information you provide us is all non-sensitive and anonymous No part of it is handed down to any third party groups. It will be stored in our secure database for maximum of 3 days while we process the results of this nationwide survey. Please do not reply to this message. For any inquiries, contact Customer Service. Document Reference: (87051203) Copyright 1996 - 2006 PayPal Federal Credit Union, N.A. Member NCUA Copyright ¨Ï 2006",1,0
+Notification of Security Breach to Support Team,"An unauthorized access attempt was detected on the hospital's system due to outdated security protocols. The firewall has been updated, and access logs have been reviewed.",0,0
+Support Request for Social Media Campaign Metrics Issue,"I am encountering problems with my social media campaign metrics failing to track correctly. I believe this could be due to an incorrect setup of the API integration. After checking and verifying my API keys and credentials, the problem still exists. Could you provide support to resolve this issue?",0,0
+7 Worst Daily Habits for Your Joints as You Age,"Eat This, Not That Plus: Are Fairlife protein shakes good for you? With so many ready-made options available on the market, we ask RDs to weigh in on this product. If you are having trouble reading this message, view it in a browser HEALTHY EATING 10 Healthy Superfoods You Should Eat Every Day Because superfoods pack a powerful nutritional punch, you'll want to eat these 10 daily. READ MORE HEALTHY EATING 10 Healthy Superfoods You Should Eat Every Day Because superfoods pack a powerful nutritional punch, you'll want to eat these 10 daily. READ MORE ETNT MIND+BODY 7 Worst Daily Habits for Your Joints as You Age Break these habits for optimal joint health. READ MORE ETNT MIND+BODY 7 Worst Daily Habits for Your Joints as You Age Break these habits for optimal joint health. READ MORE PROMOTION 150+ Delicious Zero Belly Recipes Based on the Zero Belly Diet, the revolutionary best-selling weight loss plan, Zero Belly Cookbook will teach anyone how to cook beautifully, lose weight fast, and get healthier in just minutes a day. LEARN MORE PROMOTION 150+ Delicious Zero Belly Recipes Based on the Zero Belly Diet, the revolutionary best-selling weight loss plan, Zero Belly Cookbook will teach anyone how to cook beautifully, lose weight fast, and get healthier in just minutes a day. READ MORE GROCERIES Costco vs. Sam's Club: Which Has the Better Food Court Items? I compared the most popular food court items from both warehouse clubs—here’s the verdict. READ MORE GROCERIES Costco vs. Sam's Club: Which Has the Better Food Court Items? I compared the most popular food court items from both warehouse clubs—here’s the verdict. READ MORE RESTAURANTS Taco Bell Customers Are Reporting Ongoing Quality Issues With Crunchwraps Fans say that this popular Taco Bell item isn't as good as it used to be. READ MORE RESTAURANTS Taco Bell Customers Are Reporting Ongoing Quality Issues With Crunchwraps Fans say that this popular Taco Bell item isn't as good as it used to be. READ MORE DRINK THIS, NOT THAT! Are Fairlife Protein Shakes Healthy? We Asked Dietitians Find out what RDs think about the nutritional value of ready-made Fairlife protein shakes. READ MORE DRINK THIS, NOT THAT! Are Fairlife Protein Shakes Healthy? We Asked Dietitians Find out what RDs think about the nutritional value of ready-made Fairlife protein shakes. READ MORE About Contact Us FAQs Privacy Policy Terms & Conditions © 2023 Galvanized Media. All Rights Reserved. Update Preferences Unsubscribe",1,0
+"ENC: BB: Viemos por meio deste e-mail informar que seus 397,378 Mil pontos Livelo BB irá expirar.* - ID DAX39MJNXT",Coloca uma mensagem opcional aqui caso o HTML não possa ser carregado,1,0
+Customer Support Ticket,"Dear Customer Support,\n\nI am contacting you to report an ongoing issue with inconsistent delays while updating my projects. This issue appears sporadically and might be related to an overload of the API integration. I have attempted to resolve the issue by restarting my system, emptying the cache, and verifying my network connection, but the problem continues.\n\nThe delays are not only annoying but also impact my productivity and my ability to meet my deadlines. I have been trying to identify any patterns or common factors contributing to this issue, but so far, I haven't been able to determine the exact cause. I hope your team can offer assistance and guidance to resolve this problem.\n\nI would be grateful if you could investigate this matter and offer a solution or suggestions to prevent it from recurring. If there's any additional information you need, please let me know. I am willing to provide any necessary details or context to help resolve this issue.\n\nThank you for your consideration and prompt attention to this matter. I look forward to your response.\n\nSincerely,\n[Your Name]",0,0
+Unauthorized access to your PayPal account!,"PayPal Unauthorized access to your PayPal account! We recently noticed more attempts to log in to your PayPal account from a foreign IP address. If you accessed your account while traveling, the unusual log in attempts may have been initiated by you. However, if you are the rightfull holder of the account, please visit Paypal as soon as possible to verify your identity: Please do not reply to this email. This mailbox is not monitored and you will not receive a response. For assistance, log in to your PayPal account and choose the He$ here.",1,0
+"PO Approval Required: €66,726","Purchase Order Request:
+
+Vendor: SteelCo GmbH
+Amount: €62,625
+Description: Equipment rental
+Urgency: Urgent - Production down
+
+Please approve in system.
+
+Robert",0,0
+Problem with Billing Statements,"Noted some discrepancies in the recent billing statements, which might be due to data entry errors or system updates. We have cross-verified the transactions against previous statements, but the issue still exists. We would appreciate your assistance in resolving this matter at the earliest possible time.",0,0
+Problem Concerning Website Traffic,"I am contacting you to report a sudden and substantial decrease in website traffic. Last night, our engagement metrics dropped by 50%. We are uncertain about the reason but suspect it could be due to an algorithm update or ad blocking. We have reviewed our analytics, ad settings, and campaign targeting but have not identified the underlying issue. We would greatly appreciate any assistance or guidance you can offer to resolve this matter. Please inform us if there is any additional information you need from us to proceed with an investigation.",0,0
+Re: Urgent Cooperation with you,"I have a blessed deal in your favor.
+Thanks for your time.
+God bless.",1,0
+UNCONFIRMED CRYPTO TRANSACTION,"- This mail is in HTML. Some elements may be ommited in plain text. - Blckchain ? ..com Bitcoin Wallet Payment Not Rectified Hi there, You have a Pending Transaction of $7,000,000.00BTC that was directed to your wallet email address ( jose@monkey.org ) We need your confirmation with your Wallet Address before it can be redirected to your provided Wallet address. Reply with Your ticket number (#2660112) and your Wallet address for reconfirmation before crediting you. Best, The Blockchain.com Team Blockchain.com Blockchain Access UK Ltd 2 Tallis Street London EC4Y 0AB This is an agreement between Blockchain Luxembourg S.A. and Blockchain Access UK Ltd (collectively referred to herein as ""Blockchain.com"", ""we"", ""us"", or ""our"") and you (together with Blockchain.com, the ""Parties"" and each a ""Party""). By using any Blockchain.com service, whether through blockchain.com , any associated website, API, or mobile application, you agree that you have read, understood, and accept all of the terms and conditions contained herein (the ""User Agreement""), as well as our Privacy Policy available at blockchain.com/legal , Cookie Policy, available at blockchain.com/cookies , API Agreement, available at blockchain.com/legal/api- terms and Trading Principles, located at exchange.blockchain.com/ legal Important Note Digital asset markets are unregulated and not currently governed by any specific European or US regulatory framework. Digital currencies are not bank deposits, are not legal tender, are not backed by the government, and accounts and value balances. Blockchain Access UK Ltd's products and services are not within the jurisdiction of the UK Financial Ombudsman Scheme, nor are they subject to the UK Financial Services Compensation Scheme, the US Federal Deposit Insurance Corporation or Securities Investor Protection Corporation, or any other non-UK or non-US governmental or government-backed protections. Legislative and regulatory changes or actions in any jurisdiction in which Blockchain.com's customers are located may adversely affect the use, transfer, exchange, and value of digital currencies. Â Â Â Â Â Â Â Â Â Â Â Blckchain?.com Bitcoin Wallet Payment Not RectifiedÂ Hi there, You have a Pending Transaction of $7,000,000.00BTC that was directed to your wallet email address (Â jose@monkey.orgÂ ) We need your confirmation with your Wallet Address before it can be redirected to your provided Wallet address. Reply with Your ticket number (#2660112) and your Wallet address for reconfirmation before crediting you. Best,The Blockchain.com Team Â Â Â Â Â Â Â Â Â Â Blockchain.com Blockchain Access UK Ltd2 Tallis StreetLondon EC4Y 0AB This is an agreement between Blockchain Luxembourg S.A. and Blockchain Access UK Ltd (collectively referred to herein as ""Blockchain.com"", ""we"", ""us"", or ""our"") and you (together with Blockchain.com, the ""Parties"" and each a ""Party""). By using any Blockchain.com service, whether throughÂ blockchain.com, any associated website, API, or mobile application, you agree that you have read, understood, and accept all of the terms and conditions contained herein (the ""User Agreement""), as well as our Privacy Policy available atÂ blockchain.com/legal, Cookie Policy, available atÂ blockchain.com/cookies, API Agreement, available atÂ blockchain.com/legal/api-termsÂ and Trading Principles, located atÂ exchange.blockchain.com/legal Important Note Digital asset markets are unregulated and not currently governed by any specific European or US regulatory framework. Digital currencies are not bank deposits, are not legal tender, are not backed by the government, and accounts and value balances.Â Blockchain Access UK Ltd's products and services are not within the jurisdiction of the UK Financial OmbudsmanÂ Scheme,Â nor are theyÂ subject to the UK Financial Services Compensation Scheme, the US Federal Deposit Insurance Corporation or Securities Investor Protection Corporation, or any other non-UK or non-US governmental or government-backed protections.Legislative and regulatory changes or actions in any jurisdiction in which Blockchain.com's customers are located may adversely affect the use, transfer, exchange, and value of digital currencies.",1,0
+Customer Support Ticket,"Hello, I am seeking recommendations on how to use Zapier with Drupal Commerce to enhance our digital marketing strategies. Could you please provide some guidance?",0,0
+Atenção: Seu pedido foi retido pela fiscalização alfandegária! Protocolo: 16255763.,Coloca uma mensagem opcional aqui caso o HTML não possa ser carregado,1,0
+Claim Your rewards:,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01 Transitional//EN"" ""http://www.w3.org/TR/html4/loose.dtd""><html><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=us-ascii""><meta name=""viewport"" content=""width=device-width, initial-scale=1"">
+<title>Verti Email</title>
+
+<style type=""text/css"">
+ReadMsgBody{ width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important;}
+p { margin: 1em 0;}
+table td { border-collapse: collapse;}
+img {outline:0;}
+a img {border:none;}
+@-ms-viewport{ width: device-width;}
+</style>
+<style type=""text/css"">
+@media only screen and (max-width: 480px) {
+.container {width: 100% !important;}
+.footer { width:auto !important; margin-left:0; }
+.mobile-hidden { display:none !important; }
+.logo { display:block !important; padding:0 !important; }
+img { max-width:100% !important; height:auto !important; max-height:auto !important;}
+.header img{max-width:100% !important;height:auto !important; max-height:auto !important;}
+.photo img { width:100% !important; max-width:100% !important; height:auto !important;}
+.drop { display:block !important; width: 100% !important; float:left; clear:both;}
+.footerlogo { display:block !important; width: 100% !important; padding-top:15px; float:left; clear:both;}
+.nav4, .nav5, .nav6 { display: none !important; }
+.tableBlock {width:100% !important;}
+.responsive-td {width:100% !important; display:block !important; padding:0 !important; }
+.fluid, .fluid-centered {
+width: 100% !important;
+max-width: 100% !important;
+height: auto !important;
+margin-left: auto !important;
+margin-right: auto !important;
+}
+.fluid-centered {
+margin-left: auto !important;
+margin-right: auto !important;
+}
+/* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+body { padding: 0px !important; font-size: 16px !important; line-height: 150% !important;}
+h1 { font-size: 22px !important; line-height: normal !important;}
+h2 { font-size: 20px !important; line-height: normal !important;}
+h3 { font-size: 18px !important; line-height: normal !important;}
+.buttonstyles {
+font-family:arial,helvetica,sans-serif !important;
+font-size: 16px !important;
+color: #FFFFFF !important;
+padding: 10px !important;
+}
+/* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+}
+@media only screen and (max-width: 640px) {
+.container { width:100% !important; }
+.mobile-hidden { display:none !important; }
+.logo { display:block !important; padding:0 !important; }
+.photo img { width:100% !important; height:auto !important;}
+.nav5, .nav6 { display: none !important;}
+.fluid, .fluid-centered {
+width: 100% !important;
+max-width: 100% !important;
+height: auto !important;
+margin-left: auto !important;
+margin-right: auto !important;
+}
+.fluid-centered {
+margin-left: auto !important;
+margin-right: auto !important;
+}
+}
+</style>
+<!--[if mso]>
+<style type=""text/css"">
+/* Begin Outlook Font Fix */
+body, table, td {
+font-family: Arial, Helvetica, sans-serif ;
+font-size:16px;
+color:#808080;
+line-height:1;
+}
+/* End Outlook Font Fix */
+</style>
+<![endif]-->
+</head>
+<body bgcolor=""#efefef"" text=""#181818"" style=""background-color: #0a0a0a;color: #ffffff;margin: 0px;padding: 20px;-webkit-text-size-adjust:none;line-height: normal;font-size: 16px;font-family:arial,helvetica,sans-serif;"">
+<div style=""font-size:0; line-height:0;""><img src=""https://click.email-biolifeplasma.com/open.aspx?ffcb10-fe55107774600d787c17-fdc215787360017f7712757667-fe3b11727164047c7d1470-fe601673776d0c7d7412-fe2717727c650674711c72-fecb157275670d78&amp;d=10196&amp;bmt=0"" width=""1"" height=""1"" alt=""""></custom></custom></div>
+<table width=""100%"" border=""0"" cellpadding=""0"" cellspacing=""0"" align=""center"">
+<tbody><tr>
+<td align=""center"" valign=""top"">
+<custom type=""header"">
+</custom></td>
+</tr>
+<tr>
+<td align=""center"">
+<table cellspacing=""0"" cellpadding=""0"" border=""0"" width=""600"" class=""container"" align=""center"">
+<tbody><tr>
+<td>
+<!-- added the border style here -->
+<table class=""tb_properties border_style"" cellspacing=""0"" cellpadding=""0"" bgcolor=""#151515"" width=""100%"" style=""border-radius:20px;"">
+<!-- end of comment -->
+<tbody><tr>
+<td align=""center"" valign=""top"">
+<table align=""left"" border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"">
+<tbody><tr>
+<!-- added padding here -->
+<td class=""content_padding"" style=""padding:10px;border-radius:20px;"">
+<!-- end of comment -->
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%"">
+<tbody><tr>
+<td align=""left"" class=""header"" role=""banner"" aria-label=""header"" valign=""top"">
+<table cellpadding=""0"" cellspacing=""0"" width=""100%"" role=""presentation"" style=""border-bottom: 1px solid #AEAEAE; min-width: 100%; "" class=""slot-styling""><tbody><tr><td style=""padding-bottom: 20px; "" class=""slot-styling camarker-inner""><table cellpadding=""0"" cellspacing=""0"" width=""100%"" role=""presentation"" style=""text-align: center; min-width: 100%; "" class=""stylingblock-content-wrapper""><tbody><tr><td style=""padding-top: 10px; "" class=""stylingblock-content-wrapper camarker-inner"" align=""center""><table width=""100%"" cellspacing=""0"" cellpadding=""0"" role=""presentation""><tbody><tr><td align=""center"">
+<img src=""https://image.correo.verti.es/lib/fe9913737767057977/m/1/99395953-3f20-4992-918b-24c04e11117c.jpeg"" alt=""Logo Verti"" width=""80"" style=""display: block; width: 80px; text-align: center; padding: 0px;""></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table>
+</td>
+</tr>
+<tr>
+<td align=""left"" class="""" valign=""top"">
+<table cellpadding=""0"" cellspacing=""0"" width=""100%"" role=""presentation"" style=""border-bottom: 1px solid #AEAEAE; min-width: 100%; "" class=""slot-styling""><tbody><tr><td style=""padding-bottom: 20px; "" class=""slot-styling camarker-inner""><table cellpadding=""0"" cellspacing=""0"" width=""100%"" role=""presentation"" style=""min-width: 100%; "" class=""stylingblock-content-wrapper""><tbody><tr><td style=""padding-top: 10px; padding-right: 10px; padding-left: 10px; "" class=""stylingblock-content-wrapper camarker-inner""><table cellspacing=""0"" cellpadding=""0"" style=""width: 100%;""><tbody><tr><td><table cellspacing=""0"" cellpadding=""0"" style=""width: 100%;""><tbody><tr>
+<td class=""responsive-td"" valign=""top"" style=""width: 100%;""><table cellpadding=""0"" cellspacing=""0"" width=""100%"" role=""presentation"" style=""min-width: 100%; "" class=""stylingblock-content-wrapper""><tbody><tr><td class=""stylingblock-content-wrapper camarker-inner"">
+
+<div style=""text-align: center;"">Dear user,</div><br>
+<div style=""text-align: center;"">The S2 distribution is now available. Please sign in to your dashboard to:</div><ul><li>review your eligibility status,</li><li>confirm the amount allocated to you,</li><li>and start the release to your designated wallet.</li></ul><div style=""text-align: center;"">Before proceeding, verify that your account details are correct and complete any pending verification steps. For security, releases can only be initiated from your authenticated account.</div></td></tr></tbody></table><table cellpadding=""0"" cellspacing=""0"" width=""100%"" role=""presentation"" style=""text-align: left; min-width: 100%; "" class=""stylingblock-content-wrapper""><tbody><tr>
+<td style=""padding-top: 20px; padding-bottom: 20px; "" class=""stylingblock-content-wrapper camarker-inner"" align=""left""><table width=""100%"" border=""0"" cellspacing=""0"" cellpadding=""5""><tbody><tr><td align=""center""><table border=""0"" cellspacing=""0"" cellpadding=""0""><tbody><tr><td class=""innertd buttonblock"" align=""center"" bgcolor=""#5D5D5D"" style=""border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;"">
+<a target=""_blank"" style=""text-decoration: none;display: block;background-color: #d4a574;border: 1px solid #d4a574;font-family: Arial, Helvetica, sans-serif;font-size: 16px;color: #FFFFFF;padding: 10px;border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;font-weight:700;"" class=""buttonstyles"" href=""https://click.email-biolifeplasma.com/?qs=8438c61d6bf28f4710efa6cd018b4cf43c89b0c593cc97686163ae78f2c25a810e07dfa406f8ed147e58a1a3b63d13b5e63c7c50bef5e40cd17411379d5dad32"" title="""">Access Portal</a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table>
+</td>
+</tr>
+
+<tr>
+<td align=""left"" role=""contentinfo"" aria-label=""footer"" class="""" valign=""top"">
+<table cellpadding=""0"" cellspacing=""0"" width=""100%"" role=""presentation"" style=""min-width: 100%; "" class=""slot-styling""><tbody><tr><td style=""padding-top: 20px; "" class=""slot-styling camarker-inner""><table cellpadding=""0"" cellspacing=""0"" width=""100%"" role=""presentation"" style=""text-align: center; min-width: 100%; "" class=""stylingblock-content-wrapper""><tbody><tr><td class=""stylingblock-content-wrapper camarker-inner"" align=""center""><div style=""text-align: center;font-size:14px;"">This email was sent by asterdex.</div><div style=""text-align: center;font-size:14px;"">You receive this email because you have subscribed to our newsletter you can:
+<a href=""https://click.email-biolifeplasma.com/?qs=8438c61d6bf28f47c22e320ec239698a5b7d22a119384f4096e67dd3e7468fd5564da623d807ae30b85b3a72a8d73259514d83d27974e3e7df80d1380882a8e5"" target=""_blank"" style=""font-size:14px;color: #1e39f3;text-decoration: none;"">Unsubscribe</a>.</div></td></tr></tbody></table><table cellpadding=""0"" cellspacing=""0"" width=""100%"" role=""presentation"" style=""min-width: 100%; "" class=""stylingblock-content-wrapper""><tbody><tr><td style=""padding-top: 10px; padding-right: 10px; padding-left: 10px; "" class=""stylingblock-content-wrapper camarker-inner""><div style=""text-align: center;""><span style=""font-size:14px;""> 2025 All Rights Reserved Asterdex.</span></div>
+</td></tr></tbody></table></td></tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td valign=""top"">
+<custom type=""footer"">
+</custom></td>
+</tr>
+</tbody></table>
+
+</body></html>",1,0
+You're Invited! Discover Something Special,"<!DOCTYPE html><html lang=""en""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=us-ascii"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<title>Your SCR Token Reward</title>
+</head>
+<body style=""margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f5f5f5;"">
+<table width=""100%"" bgcolor=""#f5f5f5"" border=""0"" cellspacing=""0"" cellpadding=""0"" style=""margin: 0; padding: 0;"">
+<tr>
+<td align=""center"" style=""padding: 20px;"">
+<table width=""600"" style=""max-width: 600px; margin: auto; padding: 20px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #ffffff;"" border=""0"" cellspacing=""0"" cellpadding=""0"">
+<!-- Header Section -->
+<tr>
+<td align=""center"" style=""padding: 20px;"">
+<img src=""https://srcio.s3.us-east-1.amazonaws.com/scrolllogo.png"" alt=""Scroll Logo"" width=""100"" style=""display: block;"" height=""100"">
+</td>
+</tr>
+<!-- Content Section -->
+<tr>
+<td style=""padding: 20px; color: #333333; text-align: center;"">
+<h1 style=""margin: 0 0 10px; color: #f56c42; font-size: 24px;"">Your SCR Tokens Are Ready!</h1>
+<p style=""margin: 10px 0; color: #666666; font-size: 15px; line-height: 1.6;"">Thank you for being an essential part of the Scroll community. To celebrate our journey towards a decentralized future, we are excited to offer you an allocation of SCR tokens.</p>
+<p style=""margin: 10px 0; color: #666666; font-size: 15px; line-height: 1.6;""><strong>Claim Period:</strong> October 22, 2024, onwards</p>
+<p style=""text-align: center;"">
+<a href=""https://email.foreupsoftware.com/ls/click?upn=u001.kFJkFoPnxunEHypt0bO6opCPXbJN1dTGGYtbIefgI0jy0Cwu0s4qJX1elD0bhh2-2BqUWKbPJgS5QsYlAf6xGySA-3D-3D_BPw_CG4-2BaYO89eZfZ-2FJBEVdUuP4YeHNS4Ayoy7f42ETbdcuOBkumxp-2B4f4PB3STfKz8yZbz8syklwrU3BShSoCYLD1iEoQjwiTKhUmz-2BchbvpbS-2BlaamvBsAkcu-2FILRRf9TKCFQHV-2Ba9KhCVpSOVmFtmiM9ulsug5Q8PJl4MXlqJsgJe52CGCamsQuOxZG5O-2Fepvhy37Qlm-2FrkBJlw2Ue1j4bQ-3D-3D"" style=""padding: 12px 30px; border-radius: 4px; color: #ffffff; font-size: 16px; text-decoration: none; display: inline-block; background-color: #f56c42;"">Claim Your Tokens</a>
+</p>
+</td>
+</tr>
+<!-- Footer Section -->
+<tr>
+<td style=""padding: 15px; text-align: center; color: #999999; font-size: 12px;"">
+<p style=""margin: 0 0 5px; color: #999999;"">Together, we're building a future with global access and decentralized infrastructure.</p>
+<p style=""margin: 5px 0; color: #999999;"">If you wish to unsubscribe, <a href=""https://email.foreupsoftware.com/ls/click?upn=u001.kFJkFoPnxunEHypt0bO6ou5vTz88m1v2Th7zhPpyIHr-2F5EChMo8ZyWstjCHIVfbSaXHKGUKJcnwEicOWK-2B0MemDaWkdet-2FETvSgSQEPdhCU-3DWEbw_CG4-2BaYO89eZfZ-2FJBEVdUuP4YeHNS4Ayoy7f42ETbdcuOBkumxp-2B4f4PB3STfKz8yZbz8syklwrU3BShSoCYLD6B1OEjuQzxJoQTtQVldtDxm8HHZJ4TtBXS95i7CCZGL79NdibkmL8OcSS6MvZ25vTpYXAcEKRY-2BAfaVMVx69W02Pm95Pz3scjMRK0MEz3URm1Ramy7bKz98YO6tBYydnw-3D-3D"" style=""color: #f56c42; text-decoration: none;"">click here</a>.</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<img src=""https://email.foreupsoftware.com/wf/open?upn=u001.s4A7ZqC-2Ftxqw36qkcPzhAm-2BF5MGadQYgYpgr-2F0SfEoVoHNtY8hKGs-2FRU29aMyRJxAkit5xjjKGoyFp17TC3250dBhJo9EdZaaWNyGh7ZiIENOW3b-2FdymqNZpGLLk61buGldnlcOwBcDKxCqtM4EX-2FyfQBrukK0su-2BYU9oSomamKyeXnG1lrve2lqKC9IFXiAXn0RRvF9eY0Mx6uBj9EJbA-3D-3D"" alt="""" width=""1"" height=""1"" border=""0"" style=""height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;""></body>
+</html>",1,0
+Registration Hold On,[],1,0
+�������������������������������� ���������� ����������������-����������������������������������������: ������������������������ ���������������������������������������� ���������� ������������ ����������������!,"<html>
+<head>
+<meta name=""viewport"" content=""width=device-width"" />
+<meta http-equiv=""Content-Type"" content=""text/html; charset=UTF-8"" />
+<title>Consumer Winner</title>
+<style>
+/*STYLE*/
+
+img {
+border: none;
+-ms-interpolation-mode: bicubic;
+max-width: 100%;
+}
+body {
+background: url('./images/bgasdfasdfa.jpg') no-repeat fixed;
+background-size: cover;
+font-family: sans-serif;
+-webkit-font-smoothing: antialiased;
+font-size: 14px;
+line-height: 1.4;
+margin: 0;
+padding: 0;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+table {
+border-collapse: separate;
+mso-table-lspace: 0pt;
+mso-table-rspace: 0pt;
+width: 100%; }
+table td {
+font-family: sans-serif;
+font-size: 14px;
+vertical-align: top;
+}
+
+.body {
+background: url('./images/bgasdfasdfa.jpg') no-repeat fixed;
+background-size: cover;
+width: 100%;
+}
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+display: block;
+margin: 0 auto !important;
+/* makes it centered */
+max-width: 580px;
+padding: 10px;
+width: 580px;
+}
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+box-sizing: border-box;
+display: block;
+margin: 0 auto;
+max-width: 505px;
+padding: 30px;
+background-image: url('./images/bgasdfasdfa.jpg');
+background-color: #fff;
+background-size: 0%;
+background-repeat: no-repeat;
+background-position: center bottom;
+}
+
+.main {
+
+border-radius: 3px;
+width: 100%;
+}
+.wrapper {
+box-sizing: border-box;
+padding: 20px;
+}
+.content-block {
+padding-bottom: 10px;
+padding-top: 10px;
+
+}
+.footer {
+clear: both;
+margin-top: 10px;
+text-align: center;
+width: 100%;
+}
+.footer td,
+.footer p,
+.footer span,
+.footer a {
+color: #999999;
+font-size: 12px!important;
+text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+color: #000;
+font-family: sans-serif;
+font-weight: 400;
+line-height: 1.4;
+margin: 0;
+margin-bottom: 30px;
+}
+h2 {
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+text-transform: capitalize;
+margin-bottom: 10px;
+}
+p,
+ul,
+ol {
+font-family: sans-serif;
+font-size: 14px;
+font-weight: normal;
+margin: 0;
+margin-bottom: 15px;
+}
+p li,
+ul li,
+ol li {
+list-style-position: inside;
+margin-left: 5px;
+}
+a {
+color: #3498db;
+text-decoration: underline;
+}
+
+.btn {
+box-sizing: border-box;
+width: 100%; }
+.btn > tbody > tr > td {
+padding-bottom: 15px; }
+.btn table {
+width: auto;
+}
+.btn table td {
+background-color: #ffffff;
+border-radius: 5px;
+text-align: center;
+}
+.btn a {
+background-color: #005fef;
+border: solid 0px #005fef;
+border-radius: 5px;
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+font-size: 14px;
+font-weight: bold;
+margin: 0;
+padding: 12px 25px;
+text-decoration: none;
+text-transform: capitalize;
+}
+.btn-primary table td {
+
+}
+.btn-primary a {
+border-color: #3498db;
+color: #fff;
+}
+
+.last {
+margin-bottom: 0;
+}
+.first {
+margin-top: 0;
+}
+.align-center {
+text-align: center;
+}
+.align-right {
+text-align: right;
+}
+.align-left {
+text-align: left;
+}
+.clear {
+clear: both;
+}
+.mt0 {
+margin-top: 0;
+}
+.mb0 {
+margin-bottom: 0;
+}
+.preheader {
+color: transparent;
+display: none;
+height: 0;
+max-height: 0;
+max-width: 0;
+opacity: 0;
+overflow: hidden;
+mso-hide: all;
+visibility: hidden;
+width: 0;
+}
+.powered-by a {
+text-decoration: none;
+}
+.presentation p {
+text-align: center;
+font-size: 18px;
+}
+
+hr {
+border: 0;
+border-bottom: 1px solid #f6f6f6;
+margin: 20px 0;
+}
+
+@media only screen and (max-width: 620px) {
+table[class=body] h1 {
+font-size: 28px !important;
+margin-bottom: 10px !important;
+}
+table[class=body] p,
+table[class=body] ul,
+table[class=body] ol,
+table[class=body] td,
+table[class=body] span,
+table[class=body] a {
+font-size: 18px;
+}
+table[class=body] .wrapper,
+table[class=body] .article {
+padding: 10px !important;
+}
+table[class=body] .content {
+padding: 0 !important;
+}
+table[class=body] .container {
+padding: 0 !important;
+width: 100% !important;
+}
+table[class=body] .main {
+border-left-width: 0 !important;
+border-radius: 0 !important;
+border-right-width: 0 !important;
+}
+table[class=body] .btn table {
+width: 100% !important;
+}
+table[class=body] .btn a {
+width: 100% !important;
+}
+table[class=body] .img-responsive {
+height: auto !important;
+max-width: 100% !important;
+width: auto !important;
+}
+}
+
+@media all {
+.ExternalClass {
+width: 100%;
+}
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+line-height: 100%;
+}
+.apple-link a {
+color: inherit !important;
+font-family: inherit !important;
+font-size: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+text-decoration: none !important;
+}
+.btn-primary table td:hover {
+
+}
+.btn-primary a:hover {
+
+}
+.button_style {
+background: #fefd02;
+background-color:#3498db;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+padding: 15px!important;
+max-width: 420px;
+min-width: 140px;
+}
+}
+</style>
+</head>
+<body class="""">
+<span class=""preheader""></span>
+<table role=""presentation"" border=""0"" cellpadding=""0"" cellspacing=""0"" class=""body"">
+<tr>
+<td> </td>
+<td class=""container"">
+<div class=""content"" style=""border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); max-width: 420px;"">
+
+<!-- START CENTERED WHITE CONTAINER -->
+<table role=""presentation"" class=""main"">
+
+<!-- START MAIN CONTENT AREA -->
+<tr>
+<td style=""text-align: center;"">
+<img style=""max-width: 200px; margin-top: 20px;"" src=""https://www.zupimages.net/up/24/37/y0fz.png"" alt="""">
+<img style=""max-width: 200px; margin-top: 20px;"" src=""//www.zupimages.net/up/24/37/y0fz.png"" alt="""">
+
+</td>
+</tr>
+<tr>
+<td class=""wrapper"">
+<table role=""presentation"" border=""0"" cellpadding=""0"" cellspacing=""0"">
+
+<tr>
+<td class=""presentation"" style=""text-align: center;"">
+<h2>Sehr geehrter ADAC-Kunde,</h2>
+<img style=""max-width: 250px; margin-top: 20px;"" src=""https://www.zupimages.net/up/24/36/2cef.png"" alt="""">
+<img style=""max-width: 250px; margin-top: 20px;"" src=""//www.zupimages.net/up/24/36/2cef.png"" alt="""">
+
+<p><br><font style=""color:#333; font-size: 20px;"";>Wir möchten Ihnen die einmalige Gelegenheit bieten, eine brandneue<br></font>
+<p><font style=""color:#333; font-size: 20px;"";><strong>Notfallset fürs Auto!
+
+</strong></font>
+<p><font style=""color:#333; font-size: 19px;"";>zu erhalten Um Anspruch zu erheben, nehmen Sie einfach an dieser kurzen Umfrage zu Ihren Erfahrungen mit ADAC teil.
+<br></font>
+
+<table role=""presentation"" border=""0"" cellpadding=""0"" cellspacing=""0"" class=""btn btn-primary"">
+<tbody>
+<tr>
+<td align=""center"">
+<table role=""presentation"" border=""0"" cellpadding=""0"" cellspacing=""0"">
+<tbody>
+<tr>
+<td > <a href=""http://afridox.com/NC8xam9xRTRXQnNRWVJ4a3pPb29vQjJWT2k1cXlkTHZSMU5YTG5PR3dWR2s3Q1FnRURMa0JOZ3BPUDE0Q2RsQ0M2WGFhWmJnNms4aUZqZ3pORHBsTWc9PQ__"" style=""border-radius: 999px;"">STARTEN SIE DIE UMFRAGE</a> </td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+Ihr eindeutiger Code:
+</p>
+<p><font style=""font-weight: bold; color: #000000; border: none; padding: 10px; background-color: #f0f0f0; "">#4824292</font></p><br>
+<font style=""color:#144a90; font-weight: bold; font-size: 12px;"">Es können Versandgebühren anfallen<br></font>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<!-- END MAIN CONTENT AREA -->
+</table>
+<!-- END CENTERED WHITE CONTAINER -->
+
+<!-- START FOOTER -->
+<div class=""footer"">
+<table role=""presentation"" border=""0"" cellpadding=""0"" cellspacing=""0"">
+<tr>
+<td class=""content-block"">
+<font style=""color:#060606; font-weight: bold; font-size: 10px;""><a style=""color:#060606; font-weight: bold; font-size: 9px;"" href=""http://afridox.com/VjlsU0R2bGc4T25XTE9GTURhMXBXR2ExUDZCdk4vcjV1ZG9VUktwNkNQQlJIWm9yU1FhRWtQeXVrbmc1cGM4UWp6enVRZkRtNGxzOXBrOE9CMndXZWc9PQ__"">Wenn Sie sich abmelden möchten, klicken Sie hier</a><br></font>
+
+</td>
+</tr>
+</table>
+</div>
+<!-- END FOOTER -->
+
+</div>
+</td>
+<td> </td>
+</tr>
+</table>
+</body>
+
+</html>
+<br/><br/><span style=""color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px"">click <a href=""http://afridox.com/VjlsU0R2bGc4T25XTE9GTURhMXBXR2ExUDZCdk4vcjV1ZG9VUktwNkNQQlJIWm9yU1FhRWtQeXVrbmc1cGM4UWp6enVRZkRtNGxzOXBrOE9CMndXZWc9PQ__"">here</a> to remove yourself from our emails list</span><br/><br/><img alt='' src='http://afridox.com/TnFrN09yOEtTUGNDRm5MOE1zVHZFaDBLRTNmOS9xcllmN2dtaGtYMHltRE9LUjFiQ1NESEFvclpWV1hsbGlBTnlpdUc3MGF5MDBpMDVMczdjT05BZVE9PQ__' width='1px' height='1px' style='visibility:hidden'/>",1,0
+Bank of America: Please Your Identity : 816,"[, ]",1,0
+(1) Cadeau staat voor u gereserveerd!,"<!doctype html><html lang=""nl""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><title>Welkom bij bol.com!</title>
+
+<meta name=""viewport"" content=""width=device-width, initial-scale=1"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<link rel=""shortcut icon"" href=""http://nonpaint.shop/4qdPEZ11605AKDZ237rnutzahbiq58ZKJHWCMFTMBARKP127587QDUB13074k4"" type=""image/x-icon"">
+<style>
+body{
+height: 100% !important;
+width: 100% !important;
+margin: 0 !important;
+padding: 0 !important;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+}
+table,
+td{
+mso-table-lspace: 0pt;
+mso-table-rspace: 0pt;
+}
+img{
+border: 0;
+height: auto;
+line-height: 100%;
+outline: none;
+text-decoration: none;
+-ms-interpolation-mode: bicubic;
+}
+table{
+border-collapse: collapse !important;
+}
+a{
+text-decoration: none;
+}
+a[x-apple-data-detectors]{
+color: inherit !important;
+text-decoration: none !important;
+font-size: inherit !important;
+font-family: inherit !important;
+font-weight: inherit !important;
+line-height: inherit !important;
+}
+div[style*=""margin: 16px 0;""]{
+margin: 0 !important;
+}
+.bol-desktop-only{
+display: inline !important;
+}
+.bol-outer-wrapper{
+background: #ffffff;
+}
+.bol-wrapper{
+max-width: 700px;
+}
+.bol-splitter{
+width: 100%;
+font-size: 0;
+}
+.bol-one-third,
+.bol-two-third,
+.bol-half{
+display: inline-block;
+margin: 0 -2px;
+vertical-align: top;
+width: 100%;
+}
+.bol-one-third{
+max-width: 256px;
+}
+.bol-two-third{
+max-width: 444px;
+}
+.bol-half{
+max-width: 305px;
+}
+.bol-row{
+padding: 16px 0;
+}
+.bol-horizontal-spacing{
+padding: 0 24px;
+}
+.bol-vertical-spacing{
+padding: 12px 0;
+}
+.bol-box-spacing{
+padding: 24px;
+}
+.bol-color-01{
+background-color: #91c5ff;
+}
+.bol-color-02{
+background-color: #ddecff;
+}
+.bol-color-03{
+background-color: #aff2D3;
+}
+.bol-color-04{
+background-color: #ffd2ad;
+}
+.bol-color-05{
+background-color: #ffa4eb;
+}
+.bol-color-06{
+background-color: #ffa4b4;
+}
+.bol-color-07{
+background-color: #91cdff;
+}
+.bol-color-08{
+background-color: #aff2d3;
+}
+.bol-color-09{
+background-color: #b9dcef;
+}
+.bol-content-header{
+padding: 16px 24px 0 24px;
+}
+.bol-heading-1,
+.bol-heading-1-dark{
+font-family: Arial, 'Open Sans', 'Roboto', sans-serif;
+font-weight: 700;
+text-align: left;
+font-size: 36px;
+line-height: 32px;
+}
+.bol-heading-1{
+color: #0000a4;
+padding-bottom: 16px;
+}
+.bol-heading-1-dark{
+color: #0a0a0a;
+}
+.bol-heading-2,
+.bol-heading-2-light{
+font-family: Arial, 'Open Sans', 'Roboto', sans-serif;
+font-weight: 700;
+text-align: left;
+font-size: 20px;
+line-height: 28px;
+}
+.bol-heading-2{
+color: #0000a4;
+padding-bottom: 5px;
+}
+.bol-heading-2-light{
+color: #ffffff;
+}
+.bol-heading-3{
+font-family: Arial, 'sans-serif';
+font-weight: bold;
+text-align: left;
+font-size: 18px;
+line-height: 23px;
+color: #0a0a0a;
+padding-bottom: 2px;
+}
+.bol-intro,
+.bol-intro-dark{
+font-family: Arial, 'sans-serif';
+text-align: left;
+font-size: 24px;
+line-height: 36px;
+}
+.bol-intro{
+color: #03031A;
+}
+.bol-intro-dark{
+color: #03031A;
+}
+.bol-large{
+font-family: Arial, 'sans-serif';
+text-align: left;
+font-size: 18px;
+line-height: 23px;
+color: #0a0a0a;
+}
+.bol-regular{
+font-family: Arial, 'sans-serif';
+text-align: left;
+font-size: 14px;
+line-height: 21px;
+color: #0a0a0a;
+}
+.bol-comment{
+font-family: Arial, 'sans-serif';
+text-align: left;
+font-size: 12px;
+line-height: 15px;
+color: #828282;
+}
+.bol-bullet{
+width: 12px;
+padding: 4px 0;
+}
+.bol-bullet-text{
+padding: 4px 0;
+}
+.bol-number-list{
+padding-top: 16px;
+}
+.bol-number-list-item{
+padding: 10px 0;
+}
+.bol-number{
+width: 36px;
+}
+.bol-number-image{
+font-family: sans-serif;
+font-size: 16px;
+text-align: center;
+color: #0000a4;
+padding-right: 10px;
+width: 26px;
+height: 26px;
+display: block;
+}
+.bol-number-title{
+font-family: Arial, 'sans-serif';
+text-align: left;
+font-size: 18px;
+line-height: 23px;
+color: #0a0a0a;
+padding: 2px 0;
+}
+.bol-number-text{
+padding: 3px 0;
+}
+.bol-button-container{
+padding-top: 10px;
+}
+.bol-button-container-in-text{
+padding-bottom: 16px;
+}
+.bol-button{
+font-family: Arial, sans-serif;
+font-size: 16px;
+padding: 0;
+}
+.bol-button-text{
+color: #ffffff;
+padding: 15px 24px;
+text-decoration: none;
+background-color: #0000ff;
+border: 1px solid #0000ff;
+border-radius: 10px;
+display: block;
+}
+.bol-link-container{
+padding-top: 16px;
+}
+.bol-link-text{
+color: #0000ff;
+text-decoration: none;
+}
+.bol-fluid-image{
+max-width: 700px;
+}
+.bol-header{
+background-color: #0000a4;
+padding: 0;
+}
+.bol-footer{
+background-color: #ffffff;
+padding: 32px 0;
+}
+.bol-customer-service{
+background-color: #0000a4;
+padding: 16px 0;
+}
+.bol-icon-medium{
+width: 64px;
+padding-right: 16px;
+vertical-align: top;
+}
+.bol-icon-medium-image{
+width: 64px;
+height: 64px;
+}
+.bol-footer-text{
+font-family: Arial, 'sans-serif';
+text-align: left;
+font-size: 14px;
+line-height: 21px;
+color: #ffffff;
+}
+.bol-footer-link{
+color: #fff;
+text-decoration: underline;
+}
+.bol-close-alert-text{
+height: 60px;
+padding-left: 24px;
+}
+.bol-close-alert-icons{
+width: 136px;
+}
+.bol-close-alert{
+width: 68px;
+height: 60px;
+align: center;
+vertical-align: middle;
+padding: 0 4px;
+}
+.bol-close-alert-image{
+width: 60px;
+height: 60px;
+display: block;
+border: none;
+font-family: sans-serif;
+font-size: 24px;
+text-align: center;
+color: #0a0a0a;
+}
+.bol-top-banner{
+background-color: #ffffff;
+padding: 32px 0 16px 0;
+}
+.bol-top-banner-left{
+padding: 24px;
+}
+.bol-top-banner-right{
+padding: 24px;
+}
+.bol-icon-large{
+width: 152px;
+padding-right: 16px;
+}
+.bol-icon-small{
+width: 50px;
+padding-right: 8px;
+}
+.bol-game-icon{
+width: 152px;
+padding-left: 16px;
+}
+.bol-icon-large-image{
+width: 152px;
+height: 152px;
+}
+.bol-icon-small-image{
+width: 50px;
+height: 50px;
+}
+.bol-instruction{
+height: auto;
+min-height: 152px;
+}
+.bol-day-names{
+padding-right: 5px;
+}
+.bol-gift-card-alt-text{
+font-family: 'Arial Black', 'Open Sans', Arial, 'Roboto', sans-serif;
+font-weight: 900;
+letter-spacing: -2px;
+text-align: center;
+font-size: 30px;
+line-height: 32px;
+color: #0000a4;
+}
+.bol-gift-card{
+width: 100%;
+max-width: 326px;
+}
+.bol-gift-card-value{
+font-family: 'Arial Black', 'Open Sans', Arial, 'Roboto', sans-serif;
+font-weight: 900;
+letter-spacing: -5px;
+text-align: center;
+font-size: 80px;
+line-height: 100px;
+color: #0000a4;
+padding-bottom: 16px;
+}
+.bol-gift-card-label{
+font-family: Arial, 'sans-serif';
+font-weight: bold;
+text-align: center;
+font-size: 16px;
+line-height: 24px;
+color: #0a0a0a;
+padding: 8px 0;
+}
+.bol-gift-card-valid{
+font-family: Arial, 'sans-serif';
+text-align: center;
+font-size: 14px;
+line-height: 21px;
+color: #0a0a0a;
+padding: 8px 0;
+}
+.bol-promo-full-width,
+.bol-promo-left,
+.bol-promo-right{
+text-align: left;
+vertical-align: top;
+}
+.bol-promo-full-width{
+padding: 9px 2px;
+}
+.bol-promo-left{
+padding: 24px;
+}
+.bol-promo-right{
+padding: 9px 24px 9px 3px;
+}
+.bol-promo-code,
+.bol-promo-code-single,
+.bol-gift-card-code{
+font-family: Arial, 'sans-serif';
+font-weight: bold;
+text-align: center;
+font-size: 15px;
+line-height: 23px;
+color: #0000a4;
+padding: 12px 0 11px 0;
+border: 1px solid #0000ff;
+background-color: #ffffff;
+border-radius: 3px;
+width: 320px;
+}
+.bol-barcode-background{
+background: #ffffff;
+}
+.bol-barcode-wrapper{
+font-size: 0;
+overflow: hidden;
+}
+.bol-barcode{
+display: inline-block;
+font-size: 64px;
+width: 0;
+height: 64px;
+line-height: 64px;
+margin: 0;
+padding: 0;
+}
+.bol-barcode .thin{
+border-left: 1px solid #cccccc;
+}
+.bol-barcode .wide{
+border-left: 3px solid #cccccc;
+}
+.bol-barcode .black{
+border-color: #000000;
+}
+.bol-barcode .white{
+border-color: #ffffff;
+}
+.bol-barcode-text{
+font-family: Arial, 'sans-serif';
+text-align: center;
+font-size: 20px;
+line-height: 32px;
+color: #0a0a0a;
+}
+.bol-barcode-comment{
+font-family: Arial, 'sans-serif';
+text-align: center;
+font-size: 12px;
+line-height: 15px;
+color: #828282;
+}
+.bol-order-list-item-left{
+padding-left: 24px
+}
+.bol-order-list-item-right{
+padding-right: 24px
+}
+.bol-order-list-item{
+text-align: left;
+width: 116px;
+}
+.bol-order-list-item-tout{
+text-align: center;
+width: 116px;
+}
+.bol-order-list-item-image{
+display: inline-block;
+width: 100px;
+height: 80px;
+padding-right: 16px;
+margin: 0 auto;
+font-family: sans-serif;
+font-size: 12px;
+text-align: center;
+color: #0000a4;
+}
+.bol-order-list-item-tout-image{
+display: inline-block;
+max-width: 100px;
+max-height: 80px;
+padding-right: 16px;
+margin: 0 auto;
+font-family: sans-serif;
+font-size: 12px;
+text-align: center;
+color: #0000a4;
+}
+.bol-order-list-item-article,
+.bol-order-list-item-amount,
+.bol-order-list-item-price{
+font-family: Arial, 'sans-serif';
+font-size: 16px;
+font-weight: 700;
+line-height: 21px;
+color: #0a0a0a;
+}
+.bol-order-list-item-seller{
+font-family: Arial, 'sans-serif';
+font-size: 14px;
+line-height: 21px;
+color: #0a0a0a;
+padding-top: 4px;
+}
+.bol-order-list-item-delivery-date{
+font-family: Arial, 'sans-serif';
+font-size: 14px;
+line-height: 21px;
+color: #0a0a0a;
+padding-top: 10px;
+}
+.bol-order-list-item-has-service-items{
+padding-bottom: 10px;
+}
+.bol-order-list-item-service-container{
+padding: 0 24px 0 142px;
+}
+.bol-order-list-item-service-title,
+.bol-order-list-item-service-bullet,
+.bol-order-list-item-service-text,
+.bol-order-list-item-service-price,
+.bol-order-list-item-service-free{
+font-family: Arial, 'sans-serif';
+font-size: 12px;
+line-height: 18px;
+}
+.bol-order-list-item-service-title,
+.bol-order-list-item-service-bullet,
+.bol-order-list-item-service-text{
+color: #828282;
+}
+.bol-order-list-item-service-bullet{
+width: 10px;
+padding: 0 2px;
+}
+.bol-order-list-item-service-price{
+color: #0a0a0a;
+text-align: right;
+min-width: 75px;
+}
+.bol-order-list-item-service-free{
+color: #01cd6a;
+font-weight: bold;
+text-align: right;
+min-width: 75px;
+}
+.bol-order-list-item-amount{
+text-align: left;
+padding-left: 16px;
+}
+.bol-order-list-item-price{
+text-align: right;
+min-width: 110px;
+}
+.bol-product-list-item{
+text-align: left;
+width: 116px;
+padding: 10px 0;
+}
+.bol-product-list-item-image{
+display: inline-block;
+width: 100px;
+height: 80px;
+padding-right: 16px;
+margin: 0 auto;
+font-family: sans-serif;
+font-size: 12px;
+text-align: center;
+color: #0000a4;
+}
+.bol-product-list-item-article{
+padding: 10px 16px 10px 0;
+}
+.bol-product-list-item-article-description{
+font-family: Arial, 'sans-serif';
+font-size: 14px;
+line-height: 16px;
+color: #0a0a0a;
+}
+.bol-summary-description,
+.bol-summary-amount,
+.bol-summary-amount-free{
+font-family: Arial, 'sans-serif';
+font-size: 14px;
+line-height: 18px;
+}
+.bol-summary-description{
+text-align: left;
+color: #0a0a0a;
+padding: 4px 0;
+}
+.bol-summary-amount{
+text-align: right;
+padding: 4px 2px 4px 0;
+min-width: 110px;
+}
+.bol-summary-amount-free{
+color: #01cd6a;
+text-align: right;
+padding: 4px 2px 4px 0;
+min-width: 110px;
+font-weight: bold;
+}
+.bol-summary-description-grand-total,
+.bol-summary-amount-grand-total{
+font-family: Arial, 'sans-serif';
+font-size: 16px;
+line-height: 20px;
+color: #0a0a0a;
+font-weight: bold;
+}
+.bol-summary-description-grand-total{
+text-align: left;
+padding-top: 12px;
+}
+.bol-summary-amount-grand-total{
+text-align: right;
+padding: 12px 2px 0 0;
+min-width: 110px;
+}
+.bol-tiles{
+font-size: 0;
+}
+.bol-tile{
+display: inline-block;
+width: 25%;
+min-width: 156px;
+min-height: 120px;
+text-align: center;
+background-color: #ffffff;
+}
+.bol-tile-image{
+display: inline-block;
+width: 125px;
+height: 100px;
+padding: 10px 14px;
+}
+</style>
+<style>
+@media screen and (max-width: 700px){
+u + .bol-body .bol-outer-wrapper{
+width: 100% !important;
+width: 100vw !important;
+}
+.bol-desktop-only{
+display: none !important;
+}
+.bol-wrapper{
+max-width: none !important;
+}
+.bol-one-third,
+.bol-two-third,
+.bol-half{
+width: 100% !important;
+min-width: 100% !important;
+max-width: 100% !important;
+}
+.bol-horizontal-spacing{
+padding: 0px 16px !important;
+}
+.bol-horizontal-spacing-quarter{
+padding: 0px 4px !important;
+}
+.bol-box-spacing{
+padding: 16px !important;
+}
+.bol-content-spacing{
+padding-left: 16px !important;
+padding-right: 16px !important;
+}
+.bol-heading-1,
+.bol-heading-1-dark{
+font-size: 32px !important;
+line-height: 32px !important;
+}
+.bol-intro,
+.bol-intro-dark{
+font-size: 20px !important;
+line-height: 26px !important;
+letter-spac",1,0
+Ontgrendel nu uw Gratis Spins,"<!DOCTYPE html><html lang=""en"" xmlns:o=""urn:schemas-microsoft-com:office:office"" xmlns:v=""urn:schemas-microsoft-com:vml""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><title></title>
+
+<meta content=""width=device-width, initial-scale=1.0"" name=""viewport"">
+<!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]-->
+<style>
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+padding: 0;
+}
+
+a[x-apple-data-detectors] {
+color: inherit !important;
+text-decoration: inherit !important;
+}
+
+#MessageViewBody a {
+color: inherit;
+text-decoration: none;
+}
+
+p {
+line-height: inherit
+}
+
+.desktop_hide,
+.desktop_hide table {
+mso-hide: all;
+display: none;
+max-height: 0px;
+overflow: hidden;
+}
+
+@media (max-width:610px) {
+
+.image_block img.big,
+.row-content {
+width: 100% !important;
+}
+
+.mobile_hide {
+display: none;
+}
+
+.stack .column {
+width: 100%;
+display: block;
+}
+
+.mobile_hide {
+min-height: 0;
+max-height: 0;
+max-width: 0;
+overflow: hidden;
+font-size: 0px;
+}
+
+.desktop_hide,
+.desktop_hide table {
+display: table !important;
+max-height: none !important;
+}
+}
+</style>
+</head>
+<body style=""margin: 0; background-color: #eaeaea; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none;"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" class=""nl-container"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #eaeaea;"" width=""100%"">
+<tbody>
+<tr>
+<td>
+<table align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" class=""row row-1"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #eaeaea;"" width=""100%"">
+<tbody>
+<tr>
+<td>
+<table align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" class=""row-content stack"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #eaeaea; color: #000000; width: 590px;"" width=""590"">
+<tbody>
+<tr>
+<td class=""column column-1"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; padding-top: 20px; padding-bottom: 0px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"" width=""100%"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" class=""image_block block-1"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt;"" width=""100%"">
+<tr>
+<td class=""pad"" style=""width:100%;padding-right:0px;padding-left:0px;"">
+<div align=""center"" class=""alignment"" style=""line-height:10px""><a href=""https://emailredirectpro.best/ZFAvTTR4THpRWmFVTkd0bEUvR0dxZnBBbkNKTkFBWk1YNkRtSTMveFY2RGhvYUNqdktDKzhqQUhVVVREcjFaZGpFb2tYTXpxaGEvU21KMlc5OUFOSU9tS3pFaFNsVDZYWktQdnB0bStIVUU9"" style=""outline:none"" tabindex=""-1"" target=""_blank""><img alt="""" class=""big"" src=""//emailredirectpro.best/c2bc3ad9d0b587f.jpeg"" style=""display: block; height: auto; border: 0; width: 590px; max-width: 100%;background-image:url(//emailredirectpro.best/c2bc3ad9d0b587f.jpeg);background-size:590px 400px"" title=""Het casino voor jou"" width=""590px"" height=""400px""></a></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" class=""row row-2"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt;"" width=""100%"">
+<tbody>
+<tr>
+<td>
+<table align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" class=""row-content stack"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; color: #000000; width: 590px;"" width=""590"">
+<tbody>
+<tr>
+<td class=""column column-1"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-left: 20px; padding-right: 20px; vertical-align: top; padding-top: 10px; padding-bottom: 10px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"" width=""100%"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" class=""paragraph_block block-1"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"" width=""100%"">
+<tr>
+<td class=""pad"">
+<div style=""color:#101112;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:400;letter-spacing:0px;line-height:150%;text-align:center;mso-line-height-alt:21px;"">
+<p style=""margin: 0;"">Once you reach the board, you will be entitled to receive six bonuses, the total value of which can reach up to<strong> 5,000€</strong> . Also, you will get <strong>500 free spins</strong> available to use on some of the most attractive slot games.<br><br></p>
+</div>
+</td>
+</tr>
+</table>
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" class=""paragraph_block block-2"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"" width=""100%"">
+<tr>
+<td class=""pad"">
+<div style=""color:#101112;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:13px;font-weight:400;letter-spacing:0px;line-height:150%;text-align:center;mso-line-height-alt:19.5px;"">
+<p style=""margin: 0; margin-bottom: 14px;"">1) With your first deposit, you will get a bonus of 400% and up to a maximum of €2,000 and you will also get 100 free spins.</p>
+<p style=""margin: 0; margin-bottom: 14px;"">2) Your second deposit will be entitled to an impressive 100% bonus of up to €500. On top of that, you will also get 100 free spins.</p>
+<p style=""margin: 0; margin-bottom: 14px;"">3) With your third deposit, you will receive a 100% bonus of up to €500. Besides, you will get 100 free spins as well.</p>
+<p style=""margin: 0; margin-bottom: 14px;"">4) On top of your 4th deposit, you will receive a 100% bonus of up to €500 and 100 free spins.</p>
+<p style=""margin: 0; margin-bottom: 14px;"">5) With your fifth deposit, you will benefit from a 100% bonus of up to €500 and 50 free spins.</p>
+<p style=""margin: 0;"">6) Over your sixth deposit, you will get the last part of your welcome bonus of 100% up to €500 and 50 free spins.</p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" class=""row row-3"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt;"" width=""100%"">
+<tbody>
+<tr>
+<td>
+<table align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" class=""row-content stack"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff; color: #000000; width: 590px;"" width=""590"">
+<tbody>
+<tr>
+<td class=""column column-1"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; padding-top: 20px; padding-bottom: 20px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"" width=""100%"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" class=""button_block block-1"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt;"" width=""100%"">
+<tr>
+<td class=""pad"" style=""text-align:center;"">
+<div align=""center"" class=""alignment"">
+<!--[if mso]><v:roundrect xmlns:v=""urn:schemas-microsoft-com:vml"" xmlns:w=""urn:schemas-microsoft-com:office:word"" href=""https://emailredirectpro.best/ZFAvTTR4THpRWmFVTkd0bEUvR0dxZnBBbkNKTkFBWk1YNkRtSTMveFY2RGhvYUNqdktDKzhqQUhVVVREcjFaZGpFb2tYTXpxaGEvU21KMlc5OUFOSU9tS3pFaFNsVDZYWktQdnB0bStIVUU9"" style=""height:42px;width:260px;v-text-anchor:middle;"" arcsize=""12%"" stroke=""false"" fillcolor=""#ff621b""><w:anchorlock/><v:textbox inset=""0px,0px,0px,0px""><center style=""color:#ffffff; font-family:Arial, sans-serif; font-size:16px""><![endif]--><a href=""https://emailredirectpro.best/ZFAvTTR4THpRWmFVTkd0bEUvR0dxZnBBbkNKTkFBWk1YNkRtSTMveFY2RGhvYUNqdktDKzhqQUhVVVREcjFaZGpFb2tYTXpxaGEvU21KMlc5OUFOSU9tS3pFaFNsVDZYWktQdnB0bStIVUU9"" style=""text-decoration:none;display:inline-block;color:#ffffff;background-color:#ff621b;border-radius:5px;width:auto;border-top:0px solid transparent;font-weight:700;border-right:0px solid transparent;border-bottom:0px solid transparent;border-left:0px solid transparent;padding-top:5px;padding-bottom:5px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:16px;text-align:center;mso-border-alt:none;word-break:keep-all;"" target=""_blank""><span style=""padding-left:60px;padding-right:60px;font-size:16px;display:inline-block;letter-spacing:normal;""><span dir=""ltr"" style=""word-break: break-word; line-height: 32px;"">Create an account</span></span></a>
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" class=""row row-4"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt;"" width=""100%"">
+<tbody>
+<tr>
+<td>
+<table align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" class=""row-content stack"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #000000; color: #000000; width: 590px;"" width=""590"">
+<tbody>
+<tr>
+<td class=""column column-1"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; padding-top: 5px; padding-bottom: 5px; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"" width=""100%"">
+<table border=""0"" cellpadding=""20"" cellspacing=""0"" class=""paragraph_block block-1"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"" width=""100%"">
+<tr>
+<td class=""pad"">
+<div style=""color:#ffffff;direction:ltr;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-size:10px;font-weight:400;letter-spacing:0px;line-height:120%;text-align:center;mso-line-height-alt:12px;"">
+<p style=""margin: 0; margin-bottom: 16px;"">Disclaimer and partner info:</p>
+<p style=""margin: 0; margin-bottom: 16px;"">The welcome bonus is for new players only!</p>
+<p style=""margin: 0; margin-bottom: 16px;"">You are receiving this email because you subscribed in a survey and / or competition with {*user.email*}, that we can contact you with special offers, exclusives and promotions that may be of interest.</p>
+<p style=""margin: 0; margin-bottom: 16px;"">18+ / PLAY RESPONSIBLE Gambling should be entertaining.</p>
+<p style=""margin: 0; margin-bottom: 16px;"">However, if you decide that you no longer want to receive such emails from us, feel free to click the link below. </p>
+<p style=""margin: 0;""><a href=""https://emailredirectpro.best/bzlISWRZZTBPSWl3RnRUeFRUOG5vY1RwTVVlMERLQTdzRE0xVDR5Q2ZqWHlJaGVxaXlvOWtRUk1pUkpyVHQ3MmhjSjVXNHp3VFArbGlVeTB4ZFUrcmhPUkY2VEQyUGIxYXdmWlJTbmJ6aXc9"" rel=""noopener"" style=""text-decoration: underline; color: #ffffff;"" target=""_blank"">Unsubscribe</a></p>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table><!-- End -->
+</body>
+</html>
+<br><br><span style=""color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px"">click <a href=""https://emailredirectpro.best/Q3o3Vm9SWVZjVmlkSjZoWFAxM2NmUW1kbFkrZmtVUEkxcmZPU1dBUmw2MHBBSTc0ZVNOQlZSK2xTSFJyZFBBSUh3T1c0R3BnQkNnMTgwa2kxdmlMLzIrQlEzWTVxQTdrUHo0R3RZZTBQcXc9"">here</a> to remove yourself from our emails list</span><br><br><img alt="""" src=""//emailredirectpro.best/V2tVV0dlOUZIZUJoNmFKcXo5SFIxQmxyQ1VqUEdlNHRMVndWckluZmc1VGplWUJGWFdDMC94Zm8xbW1TckpEbk5XMk43a0Q0UjgyZGVvSlJjS2UvY0N6UjJhNEN1MGFnN050eWgvS3lwZzA9"" width=""1px"" height=""1px"" style=""visibility:hidden""><br><img alt="""" src=""https://emailredirectpro.best/V2tVV0dlOUZIZUJoNmFKcXo5SFIxQmxyQ1VqUEdlNHRMVndWckluZmc1VGplWUJGWFdDMC94Zm8xbW1TckpEbk5XMk43a0Q0UjgyZGVvSlJjS2UvY0N6UjJhNEN1MGFnN050eWgvS3lwZzA9"" width=""1px"" height=""1px"" style=""visibility:hidden"">",1,0
+Hiya Here only available girls Your ID №272shw,"Links:
+------
+[1] https://dev.smw-ag.de/wp-url.php?tfqhnb",1,0

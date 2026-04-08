@@ -1,0 +1,15 @@
+{
+  "dataset_name": "S8-deepseek-GD.csv",
+  "input_csv": "/fs04/scratch2/pk79/fche0036/ssc_LLM_phishing_survey/Detectors/output/HW-result/datasets/S8-deepseek-GD.csv",
+  "output_csv": "/fs04/scratch2/pk79/fche0036/ssc_LLM_phishing_survey/Detectors/output/HW-result/academic_results/S8-deepseek-GD.csv",
+  "detectors": [
+    "scamllm",
+    "pimref",
+    "t5phishing",
+    "ml_watermark_logreg",
+    "xgboost",
+    "securenet_llama"
+  ],
+  "chunk_size": 100,
+  "updated_at": "2026-04-08 11:50:27"
+}

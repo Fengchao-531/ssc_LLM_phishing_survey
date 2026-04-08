@@ -1,0 +1,3262 @@
+subject,body,label,model_prediction,model_score,model_reason,raw_response
+Visa Card Account Security Measures,[],1,1,8,"Suspicious subject line and empty body, potential phishing attempt","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious subject line and empty body, potential phishing attempt"",
+  ""score"": 8
+}"
+Customer issue: Johnson Supply Company - Billing entity clarification needed,"FYI - Customer complaint received:
+
+Customer: Johnson Supply Company
+Issue: Billing entity clarification needed
+Severity: 4/5
+
+Please review and advise if escalation needed.
+
+Oscar Hein",0,0,1,Legitimate email from a known sender with a clear subject and body.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email from a known sender with a clear subject and body."",
+  ""score"": 1
+}"
+Importance of Security Protocols in Medical Data Management,Could you elaborate on the security protocols?,0,0,1,The message is a simple inquiry and does not contain any suspicious language or links.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""The message is a simple inquiry and does not contain any suspicious language or links."",
+  ""score"": 1
+}"
+[𝗡𝗲𝘁𝗳𝗹𝗶𝘅]: Account On-Hold!,[PDF Password]:62734,1,1,8,"Suspicious PDF password in email body, potential phishing attempt","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious PDF password in email body, potential phishing attempt"",
+  ""score"": 8
+}"
+Bom dia,"Por favor, posso falar com você?",1,0,1,The message is a simple greeting and does not contain any suspicious language or links.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""The message is a simple greeting and does not contain any suspicious language or links."",
+  ""score"": 1
+}"
+Re: URGENT: Production environment down - Instance unreachable,Our Aetheros Account ID is 857492 and the outage started around 08:05 AM UTC.,0,0,2,"Legitimate email with company-specific information, no suspicious links or attachments.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with company-specific information, no suspicious links or attachments."",
+  ""score"": 2
+}"
+Re: High API Latency in Production,"Hi,
+
+We're also experiencing some issues with our cloud resources provisioned through Aetheros. We're seeing resource contention and some instances are becoming unresponsive. Could this be related to the API latency issue?
+
+Regards,
+John",0,0,1,"Legitimate email with proper greeting, signature, and context.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with proper greeting, signature, and context."",
+  ""score"": 1
+}"
+"Tell adidas what you like, we'll send you things you'll love","adidas Personalise your adidas experience Personalise your adidas experience View this email online MEN WOMEN KIDS STORE FINDER YOUR SPORTS, YOUR STYLE -NOTHING ELSE We want to get the good gear in your inbox. Personalise your adidas profile and cut out the clutter for a more tailored adidas experience. TELL US MORE YOUR SPORTS, YOUR STYLE -NOTHING ELSE We want to get the good gear in your inbox. Personalise your adidas profile and cut out the clutter for a more tailored adidas experience. TELL US MORE 15% off* for you To redeem offer, enter promo code below during online checkout or present this email at your local adidas store. Limited time offer valid until May 21, 2023. 5D93-4MD2-GC9W-RXNWC REDEEM ONLINE Privacy Statement Support My Account Unsubscribe adidas.com *Limited time offer valid for 8 days from the receipt of the email. Discount applied at checkout. Offer cannot be combined with any other promotions or discounts. Offer does not apply to adidas gift cards and select products. Valid on domestic US order only. adidas reserves the right to end or change promotions at any time. If you didn’t enroll to the service, please reach out to our customer care. © 2023 adidas America, Inc. adidas and the 3-Stripes mark are registered trademarks of adidas America 5055 N. Greeley Avenue Portland, OR 97217 www.adidas.com",1,0,2,Legitimate email from adidas with clear branding and no suspicious links or attachments.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email from adidas with clear branding and no suspicious links or attachments."",
+  ""score"": 2
+}"
+Improvement of Encryption Protocols for Security,I am contacting you to request the improvement of encryption protocols to ensure the security of sensitive medical data and the hospital's IT systems. This is essential for safeguarding patient information and defending against cyber threats. I would greatly appreciate it if you could address this matter urgently and offer a solution.,0,0,1,Legitimate email from a hospital regarding security improvement,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email from a hospital regarding security improvement"",
+  ""score"": 1
+}"
+customer notification: data confirmation! (mess_id: Z34628878105OT),[],1,1,8,Suspicious subject line with urgent tone and lack of personalization,"{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious subject line with urgent tone and lack of personalization"",
+  ""score"": 8
+}"
+"Moodle integration broke unexpectedly due to a synchronization glitch possibly stemming from a recent plugin update. After restarting Docker and reviewing the logs, the problem still exists. I would greatly appreciate your help in addressing this issue.","Moodle integration broke unexpectedly due to a synchronization glitch possibly stemming from a recent plugin update. After restarting Docker and reviewing the logs, the problem still exists. I would greatly appreciate your help in addressing this issue.",0,0,1,Legitimate email with no suspicious language or formatting.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with no suspicious language or formatting."",
+  ""score"": 1
+}"
+Important banking mail from BB&T!,"[, ]",1,1,8,Suspicious subject line and missing content,"{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious subject line and missing content"",
+  ""score"": 8
+}"
+Customer Support Ticket,Project information has vanished. There's a suspicion of an integration problem between ClickUp and PDFfiller. Attempted to restart IntelliJ IDEA and reviewed Norton Antivirus records.,0,0,2,Lack of suspicious language or links.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Lack of suspicious language or links."",
+  ""score"": 2
+}"
+Urgent: IAM Role Assignment Failing in Production,"We are experiencing a critical issue in our production environment where new IAM role assignments are failing. This is preventing our team from accessing critical cloud resources.
+
+We are using Aetheros Cloud Management and IAM services. We have verified that the roles and policies are correctly configured in the IAM service, but the assignments are not being reflected in our cloud environment.
+
+We have tried the following:
+- Re-assigning the roles
+- Checking for any error messages in the Aetheros console
+- Verifying our network connectivity
+
+However, the issue persists. This is causing a major disruption to our operations. We need urgent assistance to resolve this issue as soon as possible.",0,0,2,"Legitimate email with technical issue description, no suspicious language or links.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with technical issue description, no suspicious language or links."",
+  ""score"": 2
+}"
+Tommy Bahama Beach Chairs,"<tr>
+<img src=""http://104.219.248.205/track/3dgsMP4663obew166bbtrgmigxg308KEGBQRYYDMAQOEV707UGOL1530752J20"" width=""1"" height=""1"">
+<img src=""//104.219.248.205/track/3kCbjD4663ByBW166tkjfqnclnw308OFLZZENKUKHCMPJ707THQZ1530752C20"" width=""1"" height=""1"">
+</tr>
+<center>
+<a href=""https://t.co/RHOzx1dBif"">
+<h1>Limited
+</h1>
+<br>
+<img src=""https://zupimages.net/up/24/34/zlh3.png"">
+<br>
+<img src=""//zupimages.net/up/24/34/zlh3.png"">
+
+</a>
+<br>
+The advertiser does not manage your subscription.<br>
+If you prefer not to receive further communication, please unsubscribe <a href=""https://t.co/YiLqVpJdSL""> here </a><br>
+
+</a>",1,1,8,"Suspicious tracking images and links, lack of sender authenticity, and formatting irregularities.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious tracking images and links, lack of sender authenticity, and formatting irregularities."",
+  ""score"": 8
+}"
+[Lockergnome Tech Specialist] Tantamount Revelation,"<!-- body { BACKGROUND-IMAGE: url( color: #331F30 } a:link { COLOR: #331F30; TEXT-DECORATION: underline; font-weight: normal } a:visited { COLOR: #331F30; TEXT-DECORATION: underline; font-weight: normal } a:active { COLOR: GRAY; text-decoration: none } a:hover { color: GRAY; TEXT-DECORATION: none } p.title { BACKGROUND: #C69EBF; BORDER-BOTTOM: #4F2F4A 4px solid; BORDER-LEFT: #E7D5E4 4px solid; BORDER-RIGHT: #4F2F4A 4px solid; BORDER-TOP: #E7D5E4 4px solid; COLOR: #331F30; FONT-FAMILY: Comic Sans MS, Trebuchet MS, Helvetica, Arial; FONT-SIZE: 14pt; FONT-WEIGHT: normal } p.sidebar { BACKGROUND: #E7D5E4; BORDER-BOTTOM: #C69EBF 3px solid; BORDER-LEFT: #FFFFFF 3px solid; BORDER-RIGHT: #C69EBF 3px solid; BORDER-TOP: #FFFFFF 3px solid; COLOR: #331F30; FONT-FAMILY: Comic Sans MS, Trebuchet MS, Helvetica, Arial; FONT-SIZE: 10pt; FONT-WEIGHT: bold; TEXT-ALIGN: center } .url { font-size: 8pt; font-family: Verdana, Tahoma, Arial }-->20020715 Lockergnome Tech Specialist
+07.15.2002 GnomeREPORT Hackers and crackers respect only one thing: strong security. Keep the bad guysout of your PC or network with the advanced technology that's trusted by millions: ZoneAlarm Pro 3.0. This best-in-class personal firewall stops hackers cold, defendsyour online privacy,and sets up in minutes. Click here to download now! As if there weren't enough hypocrisy and misinformation being spewed by marketing and sales departments. This time, a startling revelation that Microsoft refuses to use their own ISA Server to protect themselves from the very things the product is meant to stop - worms and intrusion. Nimda was turned loose within Microsoft and they've chosen NetScreen's 500 series security appliance to cure what ills them. I find this staggeringly hilarious, to say the least. The move is tantamount to Intel deploying desktops based on AMD processors!Ok, so a hardware solution might be better than a software defense in many cases. I suppose we can't entirely blame Microsoft for opting to go that route. Probably a wise decision, in fact - admit defeat and move on. However, why is Nimda spreading within the corporate walls to the point that they felt the needed to make such a leap in the first place? After all, patches were released months ago, so IIS is impervious to attack now. Still considering the deployment of IIS as your web server platform of choice? Things that make you go hmmmm...See You in August,
+Randy Nieland
+GnomeNETWORKSQL Server Install Leaves Passwords Behind the installation of SQL Server 7.0 or 2000, various bits of configuration information are stored in a setup.iss file, including account passwords that have been captured in order to configure the services. Prior to certain service packs, these passwords are stored as clear text, which is problematic because the file is left on the hard drive after the installation process is completed. Peruse the details of the bulletin to be sure you've cleaned up any relevant bits and pieces applicable to your environment.
+SQL Server Cumulative Patch new roll-up patch is available for SQL Server that takes care of all previous security issues, plus a trio of new items. Two buffer overrun vulnerabilities exist that could allow an attacker to gain control over the server, and a different privilege elevation flaw can be exploited due to improper permissions within the registry. All three are spackled over by the latest cumulative patch described further in this bulletin.
+GnomeSYSTEMWin2K Memory Allocation Adjustments
+Unearthed by Wayne Clark Windows 2000 servers tune themselves fairly well and do not need further tweaking. In those cases, it's best to just leave things alone unless you specifically identify a problem somewhere. Serdar Yegulalp has an excellent explanation of one particular situation where memory pools can be exhausted and crash the server. Before you go diving into the registry to play with the knobs and buttons, be certain you know what you're messing with or you could just make things worse. Backups, backups, backups.
+GnomeALERTZToday's Top 5 kbAlertzQ325582 - FIX: Output Data Overwritten When Input Data Is Larger than Destination Field (Q325582)Q305356 - Windows XP Prompts You to Re-activate After You Restore Your Computer (Q305356)Q304622 - CAPS LOCK Key Behavior with 16-Bit VDM Is Incorrect for French MultiLanguage Versions of Windows (Q304622)Q235063 - Error C00D0035 Using Windows Media Player (Q235063)Q277843 - FIX: Restore of Log in Standby Mode May Cause 9004 Error Message if the Original Database has Shrink Enabled (Q277843) GET WINDOWS XP TIPS: Months after the release of Windows XP Professional and Home editions, people are still learning the nuances of Microsoft's newest operating system. Whether you've been using it for a while or are planning to upgrade to the new OS soon, this ebook is right up your alley. GET YOUR COPY of Lockergnome's Top 50 Windows XP tips now! Recommend It!
+GnomeASSISTANTSorting IP Addresses Via Script is everything. If you have a handle on your network configuration, it's much easier to manage. IP addresses are one bit of information that must be properly tracked, but often it's a manual effort to enter and sort data. Using the script techniques provided in this brief article, you can convert an address to a 32-bit number, perform the sort, then convert back to the standard dotted decimal format. An Excel sample spreadsheet is also provided to get you started.
+GnomeSTUFFBroadband Sharing Crackdown of us with wireless networking equipment might be tempted to allow the neighbors to share the wealth, but be careful. Broadband companies are catching on and putting a stop to the practice. What's concerning to me is that I don't share my wireless network, but I do use quite a few different machines at any given time. If someone is snooping around and seeing a lot of different sessions and gets curious, might I be subject to a teeth-kicking?Virtual Sketching
+Discovered by Diana believe I still have an old Etch-A-Sketch in a box somewhere. Maybe I should dig it back out and webify the thing just for grins. Check out this example of novelty web programming, assuming y'all don't kill the site. If it's down, check back later. Using a web form, you can enter the moves you'd like to see represented on the pad, which is viewed through a live webcam. I'd love to see someone craft the Lockergnome logo. Impress me...Recommend It!
+subscribed e-mail address is: [qqqqqqqqqq-lg@example.com] - To unsubscribe or change your delivery address, please visit the subscription management page. For further information, please refer to the GnomeCREDITS in the sidebar.LOOK OVER HERE
+Download Tip eBooks
+Latest Windows Daily
+Latest Digital Media
+Latest Tech Specialist
+Latest Penguin Shell
+Latest Apple Core
+Latest Web Weekly
+Latest Bits & Bytes
+Latest Audio Show Low Price Search
+Our Tech Conference
+Microsoft Office Tips
+PC Productivity Tips
+Cool Internet Tips
+Windows 2000 Tips
+Windows XP Tips
+Tell a Friend About Us!
+Suggest a Feature
+Advertise With Us
+High-Tech Job Search
+Chat With Gnomies
+Watch The Webcams
+Computer Power User
+Read Past Issues
+Download X-Setup
+About Lockergnome
+Our Privacy Policy
+View More Options
+Our XML / RSS Feed
+Syndicate Our Tips
+Link To Lockergnome
+Get Chris's Book
+E-mail a Suggestion
+Your Rant / Rave
+General Feedback
+The Editor's Blog E-mail the Editor
+SOUND SYSTEMS
+Yamaha RX-V1200Sony DAVC900Harman Kardon AVR520Denon AVR5803Pioneer VSXD811SPioneer Elite VSX49TXSony HTDDW840Yamaha HTR5560BOSE LS122BKSony DAVC450 GNOMESPECIALS
+Manage Your Workgroup
+Form Pilot
+Say the Time 5.0
+Boomer - Stream Now
+Create Web/CD catalog
+Easy Web Editor
+Kleptomania
+Tag&Rename
+Pretty Good Solitaire
+Visualize Color Combos
+FirstStop WebSearch
+Ecobuilder
+Book Collector
+Get Listed HereQuestion: which group is 250,000+ strong and always looking for stuff to make their personal and professional lives run smoother? CLICK HERE TO ZOOM LOOK IT UP
+BYTE ME NOW
+©2002, Lockergnome LLC. ISSN: 1095-3965. All Rights Reserved. Please read our Terms of Service. Our Web site is hosted by DigitalDaze. Domain registered at DNS Central.",0,0,2,Legitimate newsletter from Lockergnome with various tech tips and resources.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate newsletter from Lockergnome with various tech tips and resources."",
+  ""score"": 2
+}"
+"PO Approval Required: €84,927","Purchase Order Request:
+
+Vendor: MetalWorks Inc
+Amount: €93,806
+Description: Equipment rental
+Urgency: Rush - Customer waiting
+
+Please approve in system.
+
+Crystal",0,0,4,"Legitimate email with proper formatting and context, but contains a discrepancy in the amount requested (€84,927 vs €93,806).","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with proper formatting and context, but contains a discrepancy in the amount requested (€84,927 vs €93,806)."",
+  ""score"": 4
+}"
+Enhance Digital Strategy,We require an enhancement in customer support and an increase in brand engagement across our affected products. The goal is to outperform competitors and boost user interaction. Could you recommend effective tools for a successful digital transformation that could lead to significant brand growth upon the implementation of the new plan? Your prompt attention to this request is greatly appreciated.,0,0,2,"Legitimate language and request, no suspicious links or attachments.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate language and request, no suspicious links or attachments."",
+  ""score"": 2
+}"
+Problem with Authentication Process Today,"I faced an unexpected login failure recently. This might be due to the latest security updates. I have already attempted restarting my browser and clearing the cache, but the issue still exists. I would really appreciate your help in resolving this as soon as possible.",0,0,2,"Lack of urgency and specific details about the issue, no suspicious links or attachments.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Lack of urgency and specific details about the issue, no suspicious links or attachments."",
+  ""score"": 2
+}"
+Security Incident: Data Compromise,"Dear Customer Support, we are reporting a serious incident involving the compromise of medical data security within our hospital's systems. The breach may have been caused by vulnerabilities from outdated software access. We have taken steps to resolve the issue by updating the software and enhancing firewall settings. Despite these efforts, we have not been able to fully recover from the breach. This incident has significant implications for patient confidentiality and trust. We urge you to treat this matter with the utmost priority and seek immediate assistance.",0,0,2,"Legitimate email with a plausible scenario, but lacks urgency and specific action request.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with a plausible scenario, but lacks urgency and specific action request."",
+  ""score"": 2
+}"
+Overdue: Customer 519834119 - 46 days,"Please contact customer immediately:
+
+Invoice: 2033104
+Amount: €310,191
+Days overdue: 29
+Last contact: 11 days ago
+
+Customer threatening to switch suppliers but owes us money!
+
+Bertram",0,0,2,"Legitimate email from a company, but lacks urgency and threatening tone is unusual.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email from a company, but lacks urgency and threatening tone is unusual."",
+  ""score"": 2
+}"
+Information on Integrating Data Analytics Tools,"Hello Customer Support, I am reaching out to seek details on the integration of data analytics tools with investment platforms to improve portfolio optimization and gain predictive insights. This integration would help investors in making more informed decisions and possibly boosting their returns. Could you please share more about the steps to integrate these tools and the options available? Also, are there any specific prerequisites or factors I need to consider? I appreciate your time and look forward to your response. Thanks in advance for your assistance.",0,0,2,Legitimate email with proper greeting and request for information,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with proper greeting and request for information"",
+  ""score"": 2
+}"
+Issue with System Downtime Affecting Data Analytics Investment Optimization,"Hello Customer Support, I am currently working on a report that highlights an unexpected system downtime which is impacting our data analytics investment optimization. The problem might be due to resource overload on Microsoft Azure. Despite my attempts to restart Docker containers and clear caches, the issue still persists. I would greatly appreciate your assistance in resolving this matter as soon as possible to minimize any impact on our operations.",0,0,2,"Legitimate email with a clear subject and body, no suspicious links or attachments.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with a clear subject and body, no suspicious links or attachments."",
+  ""score"": 2
+}"
+Application Crash,"Facing an application crash while using project management software on a 4K touchscreen monitor. The issue might be due to compatibility problems, graphics driver issues, or high resolution settings. Despite updating the drivers and adjusting the screen resolution, the problem still persists. Your assistance in resolving this matter would be greatly appreciated, as it is affecting the team's productivity. Please let me know if there's any additional information needed to investigate further.",0,0,1,"Legitimate email with a clear subject and body, no suspicious links or attachments.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with a clear subject and body, no suspicious links or attachments."",
+  ""score"": 1
+}"
+[UAI] AISTATS 2005 Submission Deadline Extended (Sep 28),"---------------------------------------------------------------------- Call for Papers Submission Deadline Extended: Sep 28th AISTATS 2005 Tenth International Workshop on Artificial Intelligence and Statistics January 6-8, 2005, The Savannah Hotel, Barbados http://www.gatsby.ucl.ac.uk/aistats/ Submission Deadline: September 28, 2004 ---------------------------------------------------------------------- This is the tenth workshop on Artificial Intelligence and Statistics, an interdisciplinary gathering of researchers at the intersection of computer science, statistics, and related areas. Since its inception in 1985, the primary goal of this workshop has been to broaden research in both of these fields by promoting the exchange of ideas between them. We encourage the submission of all papers which are in keeping with this objective. Presentations will include invited talks, contributed talks, and posters. Papers for poster sessions will be treated equally with papers for presentation in the publication. Submission Requirements: ------------------------- Electronic submission of papers is required. The papers (up to 8 pages in length) should be submitted through the AI and Statistics Conference Management page. See: http://www.gatsby.ucl.ac.uk/aistats/submit.htm Submissions will be considered if they are received by 11:59 PM September 28, 2004, Pacific Daylight Time. Acceptance notices will be emailed by November 3, 2004. Final papers (up to 8 pages, double column) must be received by November 24, 2004. These papers will be made available on the web, published in the proceedings, and distributed at the workshop in electronic form. Invited Speakers ---------------- Craig Boutelier (University of Toronto) Nir Friedman (Hebrew University) Tommi Jaakkola (MIT) Steffen Lauritzen (University of Oxford) Tom Minka (Microsoft Research) Program Chairs: ---------------- Robert Cowell, Actuarial Science and Statistics, City University, London Zoubin Ghahramani, Gatsby Unit, University College London",0,0,2,Legitimate email from a well-known organization (University College London) with clear formatting and no suspicious links.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email from a well-known organization (University College London) with clear formatting and no suspicious links."",
+  ""score"": 2
+}"
+"PO Approval Required: €73,441","Purchase Order Request:
+
+Vendor: SteelCo GmbH
+Amount: €89,362
+Description: Equipment rental
+Urgency: Urgent - Production down
+
+Please approve in system.
+
+Robin",0,0,4,"Legitimate email with proper formatting and sender information, but contains a discrepancy in the amount requested (€73,441 vs €89,362).","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with proper formatting and sender information, but contains a discrepancy in the amount requested (€73,441 vs €89,362)."",
+  ""score"": 4
+}"
+Approval needed: Special pricing,"Need approval for:
+
+Customer: Company_265
+Deal size: €230,158
+Discount requested: 12%
+Reason: Long-term contract
+
+Please approve in system.
+
+Richard",0,1,8,Lack of sender authenticity and suspicious request for approval in an unverified system.,"{
+  ""is_phishing"": 1,
+  ""reason"": ""Lack of sender authenticity and suspicious request for approval in an unverified system."",
+  ""score"": 8
+}"
+Microsoft account unusual signin activity,"<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><table dir=""ltr"" style=""height: 323px;"">
+<tbody>
+<tr style=""height: 22px;"">
+<td id=""i1"" style=""padding: 0px; font-family: 'Segoe UI Semibold', 'Segoe UI Bold', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size: 17px; color: #707070; height: 22px; width: 696px;"">Microsoft account</td>
+</tr>
+<tr style=""height: 53px;"">
+<td id=""i2"" style=""padding: 0px; font-family: 'Segoe UI Light', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size: 41px; color: #2672ec; height: 53px; width: 696px;"">Unusual sign.in activity</td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i3"" style=""padding: 25px 0px 0px; font-size: 14px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; color: #2a2a2a; height: 18px; width: 696px;"">We detected something unusual about a recent sign-in to the Microsoft account <a id=""iAccount"" class=""link"" dir=""ltr"" style=""color: #2672ec; text-decoration: none;"" href=""mailto:info@secaccinfoacesseesp.com?&amp;cc=info@secaccinfoacesseesp.com&amp;Subject=Report+The+User"">phishing@pot</a>.</td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i4"" style=""padding: 25px 0px 0px; font-family: 'Segoe UI Bold', 'Segoe UI Semibold', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size: 14px; font-weight: bold; color: #2a2a2a; height: 18px; width: 696px;""><strong>Sign-in details</strong></td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i5"" style=""padding: 6px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 18px; width: 696px;"">Country/region: <strong>Russia/Moscow</strong></td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i6"" style=""padding: 6px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 18px; width: 696px;"">IP address: <strong>103.225.77.255</strong></td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i7"" style=""padding: 6px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 18px; width: 696px;"">Date: <strong>Tue, 16 Jan 2024 10:11:37 +0000</strong></td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i8"" style=""padding: 6px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 18px; width: 696px;"">Platform: <strong>Windows 10</strong></td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i9"" style=""padding: 6px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 18px; width: 696px;"">Browser: <strong>Firefox</strong></td>
+</tr>
+<tr style=""height: 36px;"">
+<td id=""i10"" style=""padding: 25px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 36px; width: 696px;"">A user from <strong>Russia/Moscow</strong> just logged into your account from a new device, If this wasn't you, please report the user. If this was you, we'll trust similar activity in the future.</td>
+</tr>
+<tr style=""height: 32px;"">
+<td style=""padding: 25px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 32px; width: 696px;"">
+<table border=""0"" cellspacing=""0"">
+<tbody>
+<tr>
+<td style=""background-color: #2672ec; min-width: 50px; padding: 5px 20px 5px 20px;"" bgcolor=""#2672ec""><a id=""i11"" style=""font-family: 'Segoe UI Semibold', 'Segoe UI Bold', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size: 14px; text-align: center; text-decoration: none; font-weight: 600; letter-spacing: 0.02em; color: #fff;"" href=""mailto:info@secaccinfoacesseesp.com?&amp;cc=info@secaccinfoacesseesp.com&amp;subject=unusual signin activity&amp;body=Report The User"">Report The User</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i12"" style=""padding: 25px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 18px; width: 696px;"">To opt out or change where you receive security notifications, <a id=""iLink5"" class=""link"" style=""color: #2672ec; text-decoration: none;"" href=""mailto:info@secaccinfoacesseesp.com?&amp;cc=info@secaccinfoacesseesp.com&amp;Subject=Unsubscribe+me"">click here</a>.</td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i13"" style=""padding: 25px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 18px; width: 696px;"">Thanks,</td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i14"" style=""padding: 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 18px; width: 696px;"">The Microsoft account team</td>
+</tr>
+<img alt="""" src=""http://thebandalisty.com/track/o54291WklxU27539914QeTg1547817EpB70440CUYc176"" width=""1px"" height=""1px"" style=""visibility:hidden"">
+</tbody>
+</table>
+
+<style type=""text/css"">nergie b326,
+
+tweeting pbt85voo_pm,
+
+detecting,
+
+cacher bec4 plea,
+
+bfba robuste,
+
+d21c,
+
+sami,
+
+pensamientos,
+
+static,
+
+maldives,
+
+bbca,
+
+wuhan,
+
+a439,
+
+a1a0,
+
+extpm,
+
+withdrawal hora,
+
+b09b b531,
+
+e1e9,
+
+introduire westjet,
+
+aula bbcc,
+
+complying,
+
+a786,
+
+realised,
+
+f104,
+
+premises,
+
+mailbag,
+
+heavenly a466 portugu,
+
+aad7 leftcol,
+
+trailing,
+
+mt50,
+
+contre,
+
+pleno,
+
+producir,
+
+f4d4 countertop denmark,
+
+ea97 b016,
+
+ba27 temporales,
+
+mailtrack cloudinary,
+
+artikeln,
+
+a198 ec1a centercolumn,
+
+besucht bunch,
+
+conclu a645 talebi,
+
+bersicht ips_logo,
+
+erstellt acupuncture actuales,
+
+blicas ddcb,
+
+rata taper,
+
+ayuda durum,
+
+b917,
+
+ndtv_logo vibrations,
+
+nite forks,
+
+duda,
+
+record depository avanzar,
+
+daa0 soit,
+
+tilting app_logo w100,
+
+hil_t1wc0dbm goya,
+
+11pt index__logo pertenecen,
+
+graciela b73b,
+
+substituted liable app_store_logo,
+
+yarn alumno,
+
+reminder materias replacing,
+
+aukshndac_pm reforzar,
+
+instrument,
+
+a1fc,
+
+icon__caret,
+
+sopranos,
+
+abordar,
+
+ances ransom unbegrenzt,
+
+concorde img_1633,
+
+hc_post_as paddingtop10 b727,
+
+esperamos looked,
+
+mattias snapping recording,
+
+neg_bofa dd39,
+
+contemplate,
+
+produccion,
+
+title4,
+
+b6d5,
+
+simplisafe,
+
+_total_,
+
+avila,
+
+rifiez,
+
+aero,
+
+patti,
+
+b595,
+
+colegio,
+
+a308,
+
+fp_1400x1400,
+
+a457,
+
+c575 munster_logo lluvia,
+
+x2019 music,
+
+richly,
+
+alkaline,
+
+elena,
+
+dejo,
+
+forums mite,
+
+magento superiores,
+
+sentation scope,
+
+anwar,
+
+a034,
+
+a16a,
+
+bea9,
+
+clj858j4_pm,
+
+rechnung,
+
+ministerio sebastien,
+
+b507 footer_v2,
+
+nachfrage,
+
+martel cologique debat_2160776,
+
+pascual tore,
+
+hige da13 botella,
+
+badge_logo lacy,
+
+a07f,
+
+criptomonedas,
+
+traslados,
+
+logo_outer,
+
+c87e,
+
+tokens ayuntamiento,
+
+juguetes riences,
+
+productores,
+
+d29e,
+
+co2_4837443,
+
+e027,
+
+a4c7,
+
+rancher,
+
+a024 justa bc56,
+
+msci hmenu_logo,
+
+uc_zav2ewlhf zuerst d0be,
+
+leuchten topix,
+
+misma,
+
+reached,
+
+f4f8,
+
+a0a1,
+
+b8f5,
+
+fb68 vergangenheit,
+
+decathlon geimpfte,
+
+a92b,
+
+llena,
+
+deux,
+
+labour,
+
+restez,
+
+romania,
+
+grohl interessante ac29,
+
+dunlop montes,
+
+soweit,
+
+eaac,
+
+a863,
+
+a388,
+
+logistico,
+
+ad85 bffc manifold,
+
+youversion a29c,
+
+showmenu,
+
+a663,
+
+x_1805,
+
+c0d5,
+
+situada,
+
+nbcnews commun c764,
+
+jacques osteoporosis,
+
+comptons,
+
+kombinera,
+
+preise,
+
+chuck,
+
+b195,
+
+caer fd9a mnemonic,
+
+simpson a35b,
+
+a352,
+
+tarifaire,
+
+wear,
+
+reassure,
+
+trifft,
+
+genera,
+
+genes,
+
+pack bunch,
+
+troubleshoot,
+
+investigating,
+
+ab07 hallan a546,
+
+d3d6 bae3,
+
+preferenze b69b niemals,
+
+interactivo vemos,
+
+robin,
+
+a9c1,
+
+a11c,
+
+c142,
+
+cac1,
+
+registrati schluss baird,
+
+w256 novedad,
+
+figueroa,
+
+morceaux,
+
+f9e5,
+
+a66e,
+
+ad61,
+
+hutchinson optics,
+
+na5vufcg_pm carburants,
+
+jeunes_4845685,
+
+cobb baumarkt worldview,
+
+davis waterstones,
+
+recorte,
+
+a539,
+
+c206,
+
+circunstancia,
+
+schweiz,
+
+ital barrera,
+
+digitalen robbing,
+
+welfare,
+
+attachments loom bb68,
+
+quinoa b590,
+
+serie atencion,
+
+barrios af4d,
+
+bac7,
+
+b18a,
+
+bodas,
+
+outer_wrap,
+
+waging,
+
+subj,
+
+building_ice,
+
+b268,
+
+constitucional,
+
+logo__culture,
+
+row4,
+
+goodreads,
+
+corpse,
+
+af49,
+
+ballard,
+
+lovingly,
+
+amsterdam bc0b,
+
+dbe0 flight_86056,
+
+theatres,
+
+ac3f reportaje agencias,
+
+emptied a7fe,
+
+bureaucratic b981,
+
+invitaci staffed,
+
+kiosks,
+
+pokemon sendungen f5a8,
+
+disciples licensees,
+
+logo_3 interne,
+
+statistik arbeitet,
+
+f2f2f2,
+
+b5c1,
+
+facultad,
+
+aporta,
+
+exclus,
+
+nimm,
+
+victor,
+
+loudoun,
+
+vorsitzende,
+
+ace2,
+
+vt4vqbo8_pm,
+
+samui renal,
+
+uc_store mp_logo,
+
+sponsor_logo,
+
+b9bf,
+
+awakening 11pt,
+
+b5d6,
+
+_logo,
+
+rhonda,
+
+diaz paddingtop,
+
+atkinson ca0a,
+
+continente,
+
+niro ineligible sezione_351,
+
+pager__item ae87,
+
+vittoria,
+
+verder,
+
+evaporating,
+
+fisica,
+
+ad46,
+
+a541,
+
+declara,
+
+vises,
+
+liberado,
+
+film_pages,
+
+c409 n2i0r8hg_pm logo_08,
+
+e845 bbe1,
+
+households daphne a3f9,
+
+b71e daardoor,
+
+b565,
+
+assoc,
+
+pera,
+
+ba3e,
+
+b219,
+
+spaced aelig a7bd,
+
+ba92 a2f4,
+
+avisa supporting analizado,
+
+dades c384,
+
+weighed buckeye,
+
+d2232a tecnico,
+
+scholarships,
+
+font14 depart,
+
+d08d dere,
+
+richten,
+
+b3e9 ml10,
+
+b185 bd081c,
+
+faf6,
+
+ssel,
+
+ea05,
+
+sumo,
+
+logo__icon,
+
+transferencia,
+
+b79e pager beer_garden,
+
+a13a mittlerweile,
+
+reporte seam,
+
+b2cc f276,
+
+painting,
+
+b0c4,
+
+markeets_logo,
+
+philipp,
+
+encompasses,
+
+nils,
+
+logo_set b02c nueve,
+
+fingers lsow_settings,
+
+a823 b156 x2018,
+
+a512 a836,
+
+aragon,
+
+d1d1d1,
+
+toasts__logo,
+
+evolved,
+
+replace_2x,
+
+brunt tapia rudolph,
+
+panelists metre,
+
+completed c542,
+
+dave benfit,
+
+wolfe,
+
+complex forts,
+
+axjch sheryl,
+
+a26f,
+
+pm_1200x768 ae55,
+
+a764 dce3,
+
+scalise,
+
+nerg renvoyer forgot_option,
+
+aed0 ab28,
+
+top4 desayuno,
+
+deceptive c6e0,
+
+exclaimed,
+
+thibaut,
+
+b6ea,
+
+icici,
+
+summary_3x2,
+
+bb39,
+
+kommunikation edwards,
+
+be9a mallory,
+
+mechanism,
+
+kaki footer_logo,
+
+encuestas fieles,
+
+quv73pek_pm,
+
+arms,
+
+consell,
+
+c5b1,
+
+teaser,
+
+b31d,
+
+meatball empleos,
+
+golpes maxcdn,
+
+dixon,
+
+smoking reverso msg_logo_111,
+
+pavillon pager__items,
+
+antoinette b3da,
+
+a3ef a68b,
+
+yesterday,
+
+prot nottingham keene,
+
+favoriser durchgef,
+
+f2f6,
+
+bahnhof,
+
+geimpft,
+
+leica,
+
+shone,
+
+quede,
+
+f5f5f7,
+
+burnt,
+
+a51e,
+
+kjell,
+
+accompanied manage_account klicke,
+
+literal troop,
+
+giraffe brains ad05,
+
+associer changeable,
+
+poeta e138 cese,
+
+mentaire asistir,
+
+bed8 murky ea4f,
+
+samaritan hc_sailthru,
+
+iefix ffcb10,
+
+heed,
+
+maestros,
+
+spotlights,
+
+ticas,
+
+habitaciones displacement rjp5612_bse,
+
+b2d4 a400,
+
+nuria biblical,
+
+a778 a7da,
+
+giorgio,
+
+adelphi c08b bonnier,
+
+poeta emily weisen,
+
+erna barometer puffs,
+
+_17a elkaar,
+
+df47 greenwashing,
+
+f28f copy1,
+
+northbound,
+
+tsla dragon bc16,
+
+a411 facilitar,
+
+antibiotic,
+
+sennheiser,
+
+paddling,
+
+a861,
+
+devin,
+
+restricting,
+
+penne,
+
+aptos,
+
+coordinador,
+
+bott,
+
+kessler,
+
+appuyer,
+
+bosques,
+
+ramifications,
+
+e91f,
+
+execution,
+
+b32a,
+
+blaming,
+
+charter,
+
+aec6,
+
+piloting,
+
+servlet,
+
+gallery_,
+
+rouler,
+
+supone,
+
+stoxx consciously bumble,
+
+burl annat,
+
+nace faq_link,
+
+unter c877,
+
+a3a6,
+
+montreal kpbkfj5g_pm,
+
+cabbage cnica,
+
+situaciones,
+
+the_shovel_,
+
+rockin,
+
+natasha,
+
+af81,
+
+mancha,
+
+alerta b735 fbf4,
+
+skyward pubads,
+
+hi2u4rj8_pm glen,
+
+octopus fosse,
+
+renseignez,
+
+b90f tanja avisos,
+
+poll_msg_ dubbed,
+
+citrus debat bb77,
+
+quesos lgbtqia,
+
+calves,
+
+square_2x,
+
+bc25,
+
+sebi,
+
+logo_tablet,
+
+yxxx b6fc,
+
+b022 e676,
+
+a62e,
+
+ambito,
+
+f76d,
+
+previsiones,
+
+devait,
+
+bnrt_gb,
+
+a796 hampstead honeywell,
+
+uniqlo auraient,
+
+estafas,
+
+mikhail,
+
+wary,
+
+knak,
+
+matthew,
+
+b8cf underway,
+
+assignments be68,
+
+pistes,
+
+e9c4 b7c4,
+
+a4ec f654,
+
+logs1238,
+
+b15f c340 slack,
+
+aa08 ramada,
+
+ac13 outward enrichment,
+
+svetlana asheville,
+
+fourths aftershocks,
+
+a172 feta,
+
+style5,
+
+instalado,
+
+hoods,
+
+reconoce,
+
+podcast_banner,
+
+oubli,
+
+zimmer momo bfed,
+
+typo ados rgate micro,
+
+caetano confines,
+
+ilse b63c,
+
+a7a9,
+
+estrenos,
+
+b9ba,
+
+e7d1,
+
+elaborar,
+
+testimonio,
+
+j5qkw_uc weaver,
+
+portrait auftrag,
+
+b19e,
+
+logo_4 cords,
+
+roque ndra,
+
+zanzibar,
+
+b776 b489,
+
+comunicar efectuadas,
+
+heather,
+
+expedia,
+
+quay,
+
+neurons,
+
+spoilers,
+
+intrigue,
+
+goya_3003 manifiesto turner,
+
+t_qty b31c,
+
+demolished,
+
+b453,
+
+b370,
+
+joan,
+
+calibre,
+
+repas,
+
+blumen,
+
+shifter,
+
+buscador,
+
+hilton,
+
+tomaten,
+
+mediante,
+
+a51a,
+
+logo_01,
+
+incompetence,
+
+secr carne,
+
+imglogo edinburgh,
+
+a93b,
+
+halign manzana,
+
+__tbc acton,
+
+encompass,
+
+stolen stammen circulaire,
+
+blader b9b1,",1,1,9,Suspicious email with a fake Microsoft account notification and a link to a phishing website.,"{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email with a fake Microsoft account notification and a link to a phishing website."",
+  ""score"": 9
+}"
+M&T Bank: You Have an Important Notice,"Customize your M&T Card today!
+
+View as a webpage
+
+Hello jose@monkey.org,
+
+Our security department recently suspected an unusual activity on your M&T Bank Account on 3/12/2024 12:00:44 p.m..
+
+For your safety, We have temporarily placed your account on hold until you verify your accounts information.
+
+To verify your account, Click on the secured link below so you could help us confirm your account and prevent permanent termination.
+
+Verify Now
+
+CONTACT US
+| LOCATIONS
+| ONLINE BANKING
+| EMAIL PREFERENCES
+
+GET OUR MOBILE BANKING APP
+
+CONNECT WITH US
+VISIT MTB.COM
+
+*Discount available using any M&T Debit Card or M&T Visa ® Credit Card. 10% discount is valid for in-store or online purchases of regular-priced merchandise. Now through 6/30/22, cardholders will need to use the code
+dq58Vtu5 to get the 10% discount for their online purchases. Other restrictions may apply.
+
+Use of the M&T Custom Card design service is subject to program Terms and Conditions and Image Guidelines. The “Identify Yourself” card is not a form of photo identification. There is no guarantee or expectation that merchants will use a photo on your card as an added form of security.
+
+Visa ® is a registered trademark of Visa International Service Association.
+
+CLMA1049 RVN
+
+Unless otherwise specified, all advertised offers and terms and conditions of accounts and services are subject to change at any time without notice. After an account is opened or service begins, it is subject to its features, conditions, and terms, which are subject to change at any time in accordance with applicable laws and agreements. Please contact an M&T representative for details.
+
+CONTACT US
+
+Please do not reply to this email. This message was sent from a notification-only email address that cannot accept incoming email. If you have any questions, please contact M&T at One M&T Plaza, 4th Floor, Buffalo, NY 14203, visit mtb.com/email or call 1‑800‑724‑2440 .
+
+PROTECT YOUR PERSONAL INFORMATION
+
+M&T Bank does NOT initiate emails seeking personal information such as account numbers, card PINs and Social Security numbers. If you receive a suspicious email, please forward it, as an attachment, to us at phishing@mtb.com
+. For more fraud prevention tips, visit our Security Center
+. You can also view our Privacy Policy .
+
+UPDATE YOUR EMAIL PREFERENCES
+This email was sent to ##email##
+. If you'd like to update your email preferences, please visit our Email Preference Center
+. To ensure proper delivery to your inbox, please add MandTBank@mtbemail.com to your email address book.
+
+HOW TO UNSUBSCRIBE
+This is an advertisement from M&T Bank
+. As a subscriber of our email list, you can be among the first to know about special offers and promotions from M&T Bank via email. Of course, if you choose not to receive emails from M&T Bank, you can UNSUBSCRIBE or call 1‑800‑785‑3162 and we will remove you from our email list. Please note, if you choose to opt-out of email, you still may receive service and legal announcements as well as transactional emails regarding your M&T account(s) in accordance with your M&T service agreements.
+
+Equal Housing Lender. ©2022 M&T Bank. Member FDIC.",1,1,8,"Suspicious email asking for verification of account information through a link, lack of personalization, and a generic greeting.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email asking for verification of account information through a link, lack of personalization, and a generic greeting."",
+  ""score"": 8
+}"
+herzlichen Gl��ckwunsch! Sie wurden ausgew��hlt! ���,"<!DOCTYPE html><html xmlns:v=""urn:schemas-microsoft-com:vml"" xmlns:o=""urn:schemas-microsoft-com:office:office"" lang=""de-DE""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><title>Fressnapf </title>
+
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0""><!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]-->
+<style>
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+padding: 0;
+}
+
+a[x-apple-data-detectors] {
+color: inherit !important;
+text-decoration: inherit !important;
+}
+
+#MessageViewBody a {
+color: inherit;
+text-decoration: none;
+}
+
+p {
+line-height: inherit
+}
+
+.desktop_hide,
+.desktop_hide table {
+mso-hide: all;
+display: none;
+max-height: 0px;
+overflow: hidden;
+}
+
+.image_block img+div {
+display: none;
+}
+
+@media (max-width:620px) {
+.desktop_hide table.icons-inner {
+display: inline-block !important;
+}
+
+.icons-inner {
+text-align: center;
+}
+
+.icons-inner td {
+margin: 0 auto;
+}
+
+.row-content {
+width: 100% !important;
+}
+
+.stack .column {
+width: 100%;
+display: block;
+}
+
+.mobile_hide {
+max-width: 0;
+min-height: 0;
+max-height: 0;
+font-size: 0;
+display: none;
+overflow: hidden;
+}
+
+.desktop_hide,
+.desktop_hide table {
+max-height: none !important;
+display: table !important;
+}
+}
+</style>
+</head>
+
+<body style=""text-size-adjust: none; background-color: #fff; margin: 0; padding: 0;"">
+
+<!-- HIER PREHEADER BEARBEITEN //-->
+<div class=""preheader"" style=""display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;"">Fressnapf</div>
+<!-- HIER PREHEADER BEARBEITEN //-->
+
+<table class=""nl-container"" width=""100%"" border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #D3D3D3;"">
+<tbody>
+<tr>
+<td>
+<table class=""row row-1"" align=""center"" width=""100%"" border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tbody>
+<tr>
+<td>
+<table class=""row-content stack"" align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #ffffff; width: 600px; margin: 0 auto;"" width=""600"">
+<tbody>
+<tr>
+<td class=""column column-1"" width=""100%"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; text-align: left; font-weight: 400; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"">
+<table class=""paragraph_block block-1"" width=""100%"" border=""0"" cellpadding=""10"" cellspacing=""0"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"">
+<tr>
+<td class=""pad"">
+<div style=""color:#101112;direction:ltr;font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Geneva, Verdana, sans-serif;font-size:13px;font-weight:400;letter-spacing:0px;line-height:150%;text-align:center;mso-line-height-alt:19.5px;"">
+<!-- HIER HEADER BEARBEITEN //-->
+<p style=""margin: 0;"">Hinweis: Wenn der Link bei Ihnen nicht funktioniert, verschieben Sie ihn bitte <a style=""color:#2f2f2f"" href=""https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1404605/515d16s1d5c16s5d1c65sd1515d11c.shtml#cl/5360_md/4049/24541/1147/143/149762"" target=""_blank""> in Ihren Posteingang »</a></p>
+<!-- HIER HEADER BEARBEITEN //-->
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=""row row-2"" align=""center"" width=""100%"" border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tbody>
+<tr>
+<td>
+<table class=""row-content stack"" align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000; background-color: #ffffff; border-radius: 0; width: 600px; margin: 0 auto;"" width=""600"">
+<tbody>
+<tr>
+<td class=""column column-1"" width=""100%"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; text-align: left; font-weight: 400; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"">
+<table class=""paragraph_block block-1"" width=""100%"" border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"">
+<tr>
+</div>
+</td>
+</tr>
+</table>
+<table class=""image_block block-2"" width=""100%"" border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tr>
+<td class=""pad"" style=""width:100%;"">
+<div class=""alignment"" align=""center"" style=""line-height:10px""><a href=""https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1404605/515d16s1d5c16s5d1c65sd1515d11c.shtml#cl/5360_md/4049/24541/1147/143/149762"" target=""_blank"" style=""outline:none"" tabindex=""-1"">
+<!-- HIER TEASER BEARBEITEN //-->
+<img src=""https://pet-ck-500.iumfragen.com/images/questions/656d928fcfb37.png"" style=""height: auto; display: block; border: 0; max-width: 600px; width: 100%;"" width=""600"">
+<img src=""//pet-ck-500.iumfragen.com/images/questions/656d928fcfb37.png"" style=""height: auto; display: block; border: 0; max-width: 600px; width: 100%;"" width=""600"">
+<!-- HIER TEASER BEARBEITEN //-->
+</a></div>
+</td>
+</tr>
+</table>
+<table class=""paragraph_block block-3"" width=""100%"" border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"">
+<tr>
+<td class=""pad"" style=""padding-bottom:10px;padding-left:30px;padding-right:30px;padding-top:30px;"">
+<div style=""color:#101112;direction:ltr;font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Geneva, Verdana, sans-serif;font-size:15px;font-weight:400;letter-spacing:0px;line-height:120%;text-align:left;mso-line-height-alt:19.2px;"">
+<!-- HIER TEXT BEARBEITEN //-->
+Hallo phishing@pot,<br><br>
+
+<b>herzlichen Glückwunsch! Sie wurden ausgewählt!</b><br><br>
+
+Mit etwas Glück können Sie einen <a href=""https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1404605/515d16s1d5c16s5d1c65sd1515d11c.shtml#cl/5360_md/4049/24541/1147/143/149762"" target=""_blank"" style=""color:#DF0101; font-weight:bold; text-decoration:underline;"">Fressnapf Gutschein
+im Wert von 150€ erhalten</a>!<br><br>
+Ihre Vorteile:</p>
+<p><div style=""line-height: 17pt"">
+- Der Gutschein ist online oder im Geschäft einlösbar<br>
+
+- 100% kostenlose Teilnahme<br>
+
+- sofort, einfach und unverbindlich<br>
+<p>
+</div>
+<b><a href=""https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1404605/515d16s1d5c16s5d1c65sd1515d11c.shtml#cl/5360_md/4049/24541/1147/143/149762"" target=""_blank"" style=""color:#DF0101; font-weight:bold; text-decoration:underline;"">Falls Sie als möglicher Gewinner ausgewählt wurden, bitte hier nachsehen!</a></b><br>
+<p>
+Wir freuen uns für Sie!<br>
+Ihr Gewinner-Team</p>
+
+<!-- HIER TEXT BEARBEITEN //-->
+</div>
+</td>
+</tr>
+</table>
+<table class=""button_block block-4"" width=""100%"" border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tr>
+<td class=""pad"" style=""padding-bottom:25px;padding-left:10px;padding-right:10px;padding-top:20px;text-align:center;"">
+<div class=""alignment"" align=""center""><!--[if mso]><v:roundrect xmlns:v=""urn:schemas-microsoft-com:vml"" xmlns:w=""urn:schemas-microsoft-com:office:word"" href=""https://trk2.de/907qb982"" style=""height:52px;width:209px;v-text-anchor:middle;"" arcsize=""12%"" stroke=""false"" fillcolor=""#006025""><w:anchorlock/><v:textbox inset=""0px,0px,0px,0px""><center style=""color:#fffff; font-family:Verdana, sans-serif; font-size:16px""><![endif]--><a href=""https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1404605/515d16s1d5c16s5d1c65sd1515d11c.shtml#cl/5360_md/4049/24541/1147/143/149762"" target=""_blank"" style=""text-decoration:none;display:inline-block;color:#ffffff;background-color: #006025;border-radius:6px;width:auto;border-top:0px solid transparent;font-weight:400;border-right:0px solid transparent;border-bottom:0px solid transparent;border-left:0px solid transparent;padding-top:10px;padding-bottom:10px;font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Geneva, Verdana, sans-serif;font-size:16px;text-align:center;mso-border-alt:none;word-break:keep-all;""><span style=""padding-left:35px;padding-right:35px;font-size:18px;display:inline-block;letter-spacing:normal;""><span style=""word-break: break-word; line-height: 32px;"">Jetzt mitmachen!</span></span></a><!--[if mso]></center></v:textbox></v:roundrect><![endif]--></div>
+</td>
+</tr>
+</table>
+<table class=""image_block block-5"" width=""100%"" border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tr>
+<td class=""pad"" style=""width:100%;"">
+<div class=""alignment"" align=""center"" style=""line-height:10px"">
+<a href=""https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1404605/515d16s1d5c16s5d1c65sd1515d11c.shtml#cl/5360_md/4049/24541/1147/143/149762"" target=""_blank"" style=""outline:none"" tabindex=""-1"">
+<!-- HIER TEASER-2 BEARBEITEN //-->
+<!-- HIER TEASER-2 BEARBEITEN //-->
+</a>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=""row row-3"" align=""center"" width=""100%"" border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tbody>
+<tr>
+<td>
+<table class=""row-content stack"" align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000; border-radius: 0; width: 600px; margin: 0 auto;"" width=""600"">
+<tbody>
+<tr>
+<td class=""column column-1"" width=""100%"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; text-align: left; font-weight: 400; padding-bottom: 15px; padding-left: 15px; padding-right: 15px; padding-top: 15px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;"">
+<table class=""paragraph_block block-1"" width=""100%"" border=""0"" cellpadding=""10"" cellspacing=""0"" role=""presentation"" style=""mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;"">
+<tr>
+<td class=""pad"">
+<div style=""color:#101112;direction:ltr;font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Geneva, Verdana, sans-serif;font-size:13px;font-weight:400;letter-spacing:0px;line-height:120%;text-align:center;mso-line-height-alt:15.6px;"">
+<!-- HIER TEASER-2 BEARBEITEN //-->
+
+<!-- HIER TEASER-2 BEARBEITEN //-->
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table><!-- End -->
+</body>
+
+</html>
+<br><br><span style=""color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px"">click <a href=""https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1404605/515d16s1d5c16s5d1c65sd1515d11c.shtml#oop/5360_md/4049/24541/1147/143/149762"">here</a> to remove yourself from our emails list</span><br><br><img alt="""" src=""http://pcapps.store/op/5360_md/4049/24541/1147/143/149762"" width=""1px"" height=""1px"" style=""visibility:hidden"">",1,1,8,"Suspicious email with a giveaway prize, multiple links to the same URL, and a request to remove from the email list.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email with a giveaway prize, multiple links to the same URL, and a request to remove from the email list."",
+  ""score"": 8
+}"
+Problem with Digital Campaign Metrics,"Hello Customer Support, I am contacting you to address an unexpected inconsistency in my digital campaign metrics. This could be caused by an integration error. After attempting to reset my QuickBooks and Mailchimp links, the issue remains unresolved. Could you please investigate and offer a resolution? Additionally, if there is any extra information you need from me to help solve this, please let me know. Thank you for your time and help. I am looking forward to your response.",0,0,2,Legitimate email with a clear purpose and no suspicious language or links.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with a clear purpose and no suspicious language or links."",
+  ""score"": 2
+}"
+Online Security Update,"Your Chase Banking has been disabled. Your online access has been disabled due to multiple use of incorrect passwords. For your security reason, we have disabled your online banking. To restore your account and continue the use of online banking and stop further disabling of your bank account, click here to restore and Protect Your Account 0nline If you have any questions, we are available 24 hours a day, 7 days a week. Thank you for choosing Chase. If you're concerned about the authent;9city of this mess;1ge, please visit our fraud information page or c;1ll us using the ph;Fne number on the back of your c;1rd or acc;Funt st;1tement. If you reply to this mess;1ge, we will not be able to read or respond to it. You will find a confirmation of this message in your Messages & Alerts inbox. 2019 JPMorgan Chase & Co. YourÂ Chase Banking has been disabled. Your online accessÂ has been disabled due to multiple use of incorrect passwords. For your security reason, we have disabled your online banking. To restore your account and continue the use of online banking and stop further disabling of your bank account, clickÂ hereÂ to restore and Protect Your Account 0nline If you have any questions, we are available 24 hours a day, 7 days a week. Thank you for choosing Chase. If you're concerned about the authentÎ¹city of this messÎ±ge, please visit our fraud information page or cÎ±ll us using the phÎ¿ne number on the back of your cÎ±rd or accÎ¿unt stÎ±tement.Â Â If you reply to this messÎ±ge, we will not be able to read or respond to it. You will find a confirmation of this message in your Messages & Alerts inbox.Â© 2019 JPMorgan Chase & Co.",1,1,8,"Suspicious email with grammatical errors, inconsistent formatting, and a link to restore account without proper authentication.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email with grammatical errors, inconsistent formatting, and a link to restore account without proper authentication."",
+  ""score"": 8
+}"
+Re: As Requested,"Hello,
+
+Your bitcoin wallet has been funded with 51.85 BTC making a total of $ 1,204,519.22 USD. Login with details below;
+
+Website : Astarcoin .net [REMOVE GAP]
+Customer ID : 87453088
+Password : module@22
+
+My investment interest will be due in a week time, I'm so excited.
+
+Cheers,
+Victoria Cross",1,1,8,"Suspicious login details provided in the email, and the sender is asking for login credentials.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious login details provided in the email, and the sender is asking for login credentials."",
+  ""score"": 8
+}"
+Important: Install SSA Access to View Your 2025 Benefit.,"View Your New Benefit Amount Using Your my Social Security Account
+
+[social security administration]
+[https://ledcim.com/campaigns/ac201h4ya06cd/track-url/ja8564of2ma68/85bb4f5ef4c28b25adade2f7e0e13bb618344d4d]
+
+YOUR 2025 SOCIAL SECURITY STATEMENT IS NOW AVAILABLE
+
+Dear Beneficiary,
+
+As of July 2025, your updated SOCIAL SECURITY STATEMENT is now
+available and includes revised benefit calculations, projected
+retirement payments, and updated cost-of-living adjustments (COLA).
+
+To improve data privacy and identity verification, the Social Security
+Administration now provides access to your digital statement through
+our new official application for Windows:
+
+SSA SECURE ACCESS — WINDOWS EDITION
+
+* View updated 2025 benefit estimates and COLA adjustments
+* Review your earnings history
+* Manage direct deposit and contact preferences
+* Access and download official documents (W-2, SSA-1099, etc.)
+
+REQUIRED ACTION:
+
+* Click the button below to DOWNLOAD AND INSTALL SSA Secure Access
+for Windows.
+* Once installed, open the application and sign in with your SSA ID
+and PIN.
+
+Download SSA Secure Access 2025
+[https://ledcim.com/campaigns/ac201h4ya06cd/track-url/ja8564of2ma68/8c61122c4a9512030b6434ba6adf5690d2cfe9aa]
+
+Digital access is required to view or manage your 2025 benefit data.
+Paper mailings are no longer automatically distributed.
+
+We appreciate your cooperation in helping us keep your data secure.
+
+© 2025 U.S. Social Security Administration
+
+-------------------------",1,1,8,"Suspicious URL, sender authenticity, and formatting. The URL does not match the official Social Security Administration website.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious URL, sender authenticity, and formatting. The URL does not match the official Social Security Administration website."",
+  ""score"": 8
+}"
+(1) Nieuw bericht,"<!DOCTYPE html><html xmlns=""http://www.w3.org/1999/xhtml"" xmlns:o=""urn:schemas-microsoft-com:office:office"" xmlns:v=""urn:schemas-microsoft-com:vml""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><title></title>
+<!--[if !mso]><!-- --><meta http-equiv=""X-UA-Compatible"" content=""IE=edge""><!--<!--><meta name=""viewport"" content=""width=device-width, initial-scale=1"">
+<style type=""text/css"">#outlook a { padding:0; }
+.ReadMsgBody { width:100%; }
+.ExternalClass { width:100%; }
+.ExternalClass * { line-height:100%; }
+body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+p { display:block;margin:13px 0; }
+</style>
+<!--[if !mso]><!-->
+<style type=""text/css"">@media only screen and (max-width:480px) {
+@-ms-viewport { width:320px; }
+@viewport { width:320px; }
+}
+</style>
+<!--<!--><!--[if mso]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG></o:AllowPNG>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<!--><!--[if lte mso 11]>
+<style type=""text/css"">
+.outlook-group-fix { width:100% !important; }
+</style>
+<!--><!--[if !mso]><!-->
+<link href=""https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700"" rel=""stylesheet"" type=""text/css"">
+<link href=""https://fonts.googleapis.com/css?family=Cabin:400,700"" rel=""stylesheet"" type=""text/css"">
+<style type=""text/css"">@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Cabin:400,700);
+</style>
+<!--<!-->
+<style type=""text/css"">@media only screen and (min-width:480px) {
+.mj-column-per-100 { width:100% !important; max-width: 100%; }
+}
+</style>
+<style type=""text/css"">
+</style>
+<style type=""text/css"">.hide_on_mobile { display: none !important;}
+@media only screen and (min-width: 480px) { .hide_on_mobile { display: block !important;} }
+.hide_section_on_mobile { display: none !important;}
+@media only screen and (min-width: 480px) { .hide_section_on_mobile { display: table !important;} }
+.hide_on_desktop { display: block !important;}
+@media only screen and (min-width: 480px) { .hide_on_desktop { display: none !important;} }
+.hide_section_on_desktop { display: table !important;}
+@media only screen and (min-width: 480px) { .hide_section_on_desktop { display: none !important;} }
+.mj-column-per-100 {
+width: 100%!important;
+}
+.mj-column-per-50 {
+width: 50%!important;
+}
+.mj-column-per-33 {
+width: 33.333333333333336%!important;
+}
+p {
+margin: 0px;
+}
+@media only print and (min-width:480px) {
+.mj-column-per-100 { width:100%!important; }
+.mj-column-per-40 { width:40%!important; }
+.mj-column-per-60 { width:60%!important; }
+.mj-column-per-50 { width: 50%!important; }
+mj-column-per-33 { width: 33.333333333333336%!important; }
+}
+</style>
+</head>
+<body style=""background-color:#FFFFFF;"">
+<div style=""background-color:#FFFFFF;""><!--[if mso | IE]>
+<table
+align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" class="""" style=""width:600px;"" width=""600""
+>
+<tr>
+<td style=""line-height:0px;font-size:0px;mso-line-height-rule:exactly;"">
+<!-->
+<div style=""Margin:0px auto;max-width:600px;"">
+<table align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""width:100%;"">
+<tbody>
+<tr>
+<td style=""direction:ltr;font-size:0px;padding:9px 0px 9px 0px;text-align:center;vertical-align:top;""><!--[if mso | IE]>
+<table role=""presentation"" border=""0"" cellpadding=""0"" cellspacing=""0"">
+
+<tr>
+
+<td
+class="""" style=""vertical-align:top;width:600px;""
+>
+<!-->
+<div class=""mj-column-per-100 outlook-group-fix"" style=""font-size:13px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""vertical-align:top;"" width=""100%"">
+<tbody>
+<tr>
+<td align=""left"" style=""font-size:0px;padding:15px 15px 15px 15px;word-break:break-word;"">
+<div style=""font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:11px;line-height:1.5;text-align:left;color:#000000;"">
+<p style=""text-align: center;""><span style=""background-color: #dcf8c6;""><strong><span style=""font-size: 36px; background-color: #dcf8c6;"">AFSPREKEN VIA WHATSAPP </span></strong></span></p>
+
+<p style=""text-align: center;""><span style=""font-size: 24px;"">DIT WERKT BETER DAN TINDER</span></p>
+</div>
+</td>
+</tr>
+<tr>
+<td style=""font-size:0px;padding:10px 25px;padding-top:10px;padding-right:36px;padding-bottom:10px;padding-left:36px;word-break:break-word;"">
+<p style=""border-top:solid 1px #000000;font-size:1;margin:0px auto;width:100%;"">&nbsp;</p>
+<!--[if mso | IE]>
+<table
+align=""center"" border=""0"" cellpadding=""0"" cellspacing=""0"" style=""border-top:solid 1px #000000;font-size:1;margin:0px auto;width:528px;"" role=""presentation"" width=""528px""
+>
+<tr>
+<td style=""height:0;line-height:0;"">
+
+</td>
+</tr>
+</table>
+<!--></td>
+</tr>
+<tr>
+<td align=""left"" style=""font-size:0px;padding:15px 15px 15px 15px;word-break:break-word;"">
+<div style=""font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:11px;line-height:1.5;text-align:left;color:#000000;"">
+<p><span style=""font-size: 16px;"">100% Gratis afspreken en ontmoeten via WhatsApp. Bestaat dat wel?</span></p>
+
+<p><span style=""font-size: 16px;"">Jazeker! <a href=""http://secure-netcloud.com/?a=77&amp;c=143&amp;s1=daddad&amp;email]"">Lees er hier meer over &gt;&gt;</a></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style=""font-size: 16px;"">Flirten voor singles wordt hier kinderspel. En heb je al een partner? Onze WhatsApp-contacten zorgen voor meer afwisseling.</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style=""font-size: 16px;"">De oplossing dus, om snel en simpel, op afstand nieuwe mensen te leren kennen.</span></p>
+
+<p>&nbsp;</p>
+
+<p><span style=""font-size: 16px;"">Nu ook in Nederland en België van start, dus probeer het eens uit!</span></p>
+</div>
+</td>
+</tr>
+<tr>
+<td align=""center"" style=""font-size:0px;padding:20px 20px 20px 20px;word-break:break-word;"" vertical-align=""middle"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" role=""presentation"" style=""border-collapse:separate;width:100%;line-height:100%;"">
+<tbody>
+<tr>
+<td align=""center"" bgcolor=""#25d366"" role=""presentation"" style=""border:0px solid #000;border-radius:4px;cursor:auto;mso-padding-alt:16px 46px 16px 46px;background:#25d366;"" valign=""middle""><a href=""http://secure-netcloud.com/?a=77&amp;c=143&amp;s1=daddad&amp;email=phishing@pot"" style=""display:inline-block;background:#25d366;color:#ffffff;font-family:Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif;font-size:23px;font-weight:bold;line-height:100%;Margin:0;text-decoration:none;text-transform:none;padding:16px 46px 16px 46px;mso-padding-alt:0px;border-radius:4px;"" target=""_blank"">PROBEER NU GRATIS UIT &gt;&gt; </a></td>
+</tr>
+<tr>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]>
+</td>
+
+</tr>
+
+</table>
+<!--></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!--[if mso | IE]>
+</td>
+</tr>
+</table>
+<!--></div>
+</body>
+</html>",1,1,8,Suspicious link in email body: http://secure-netcloud.com/?a=77&amp;c=143&amp;s1=daddad&amp;email=phishing@pot,"{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious link in email body: http://secure-netcloud.com/?a=77&amp;c=143&amp;s1=daddad&amp;email=phishing@pot"",
+  ""score"": 8
+}"
+Tbe direct membersbip association for federal credit unions:update your Online banking account!,"Dear NAFCU member, As part of our security measures, we regularly screen activity in Federal Credit Union network.We recently noticed the following issue on your account: A recent review of your transaction history determined that we require an update of your account in order to provide you with secure services. Case ID Number: PP-065-617-349 For your protection, we have limited your access, until additional security measures can be completed. We apologize for any inconvenience this may cause. Please restore your access as soon as possible. You must click the link below and fill in the form on the following page to complete the verification process. We thank you for your prompt attention to this matter. Please understand that this is a security measure intended to help protect you and your account. We apologize for any inconvenience. Sincerely, Nation Association of Federal Credit Unions Account Review Department Please do not reply to this e-mail. Mail sent to this address cannot be answered.",1,1,8,"Suspicious email with a generic greeting, vague security concerns, and a demand to click on a link to update account information.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email with a generic greeting, vague security concerns, and a demand to click on a link to update account information."",
+  ""score"": 8
+}"
+Support Required for Smart Thermometer Integration,Could you please provide details on the integration options for the Smart Thermometer with your SaaS project management platform?,0,0,2,"Legitimate email with clear subject and body content, no suspicious links or attachments.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with clear subject and body content, no suspicious links or attachments."",
+  ""score"": 2
+}"
+Pipeline Update - January 24,"Morning update:
+
+Opportunities in progress: 8
+Value in pipeline: €409,707
+Closes this week: 0
+
+Key activities today:
+- Customer meetings: 4
+- Proposals to send: 1
+- Follow-ups needed: 4
+
+Paul",0,0,1,Legitimate business update with no suspicious language or links.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate business update with no suspicious language or links."",
+  ""score"": 1
+}"
+Pipeline Update - January 27,"Morning update:
+
+Opportunities in progress: 25
+Value in pipeline: €777,422
+Closes this week: 1
+
+Key activities today:
+- Customer meetings: 1
+- Proposals to send: 3
+- Follow-ups needed: 2
+
+Shawn",0,0,1,Legitimate business update with no suspicious language or links.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate business update with no suspicious language or links."",
+  ""score"": 1
+}"
+M��chten Sie etwas zus��tzliches Geld verdienen? Verdiene Geld mit Bitcoin.,"<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><div style=""background: #f4f4f4; padding-top: 1px;"">
+<center>
+<a style=""text-decoration: none;"" href=""https://is.gd/Cwe2Mo"">
+<h2 style=""color: black;"">
+<u>
+Schließen Sie sich Tausenden von erfolgreichen Bitcoin-Investoren an
+</u>
+</h2>
+<img src=""//zupimages.net/up/25/03/qh1r.png"">
+<img src=""https://zupimages.net/up/25/03/qh1r.png"">
+</a>
+</center>
+</div>
+<hr>
+<p>
+<center>
+Wenn Sie diese E-Mails nicht mehr erhalten möchten, können Sie sich <a href=""https://is.gd/vk56Vk"" style=""color:#666;text-decoration:none;"">hier abmelden</a>.
+</center>
+
+</p>",1,1,8,"Suspicious link in email body, lack of sender authenticity, and formatting irregularities.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious link in email body, lack of sender authenticity, and formatting irregularities."",
+  ""score"": 8
+}"
+Account Verification,"Dear jose@monkey.org , Your account has exceeded it quota limit as set by Administrator, and you may not be able to send or receive new mails until you Re-Validate your jose@monkey.org account. To Re-Validate jose@monkey.org account, Please CLICK: Re-Validate jose@monkey.org Account --- This email has been checked for viruses by Avast antivirus software. https://www.avast.com/antivirus Dear jose@monkey.org , Your account has exceeded it quota limit as set by Administrator, and you may not be able to send or receive new mails until you Re-Validate your jose@monkey.org account. To Re-Validate jose@monkey.org account, Please CLICK:Â Re-Validate jose@monkey.org Account This email has been checked for viruses by Avast antivirus software. www.avast.com",1,1,8,"Suspicious email with generic threat, lack of personalization, and urgency to click on a link without specifying the destination.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email with generic threat, lack of personalization, and urgency to click on a link without specifying the destination."",
+  ""score"": 8
+}"
+Last notification from Capital One !! Read it carefully !!,"Dear Capital One Client, This email is to inform that we had to block your Capital One account because this ip 87.117.5.23 tryed to access your account 3 times. We apologise for the inconvinience but the safety of your account is our main priority. Click here: To remove the limitation immediately To remove the limitation, read carefully and complete all steps listed in the link above. !! Your Account Tips to Protect Your Account Capital One's world class fraud investigators share 3 important actions you can take to help prevent identity theft and protect your account. Update Your Profile If you've closed a credit card or bank account recently, remember to go to the official Capital One website and update your profile. Identity Protection Highlights New spoof tutorial Learn how to spot and avoid fraudulent ""spoof"" emails and websites with Capital One's handy 5-step spoof tutorial. Protect yourself with tools Guard yourself against ""spoof"" emails with the SafetyBar, and against fraudulent websites with the Capital One Toolbar. Checklist if you are a victim... When you suspect a problem with your identity, you have to act fast. Use Capital One's checklist for what you should do. Click here: To remove the limitation immediately Thank you for using Capital One services! This notification was sent to you by Capital One Bank. To modify your notification preferences, log in to your Capital One account, click the Profile sub-tab, then click the Notifications link under Account Information. Changes may take up to 10 days to be reflected in our mailings. Capital One will not sell or rent any of your personally identifiable information to third parties. For more information about the security of your information, read our Privacy Policy at ©2007 Capital One Services, Inc. Capital One is a federally registered service mark. All rights reserved.Capital One, N.A. is located PO Box 60024 City of Industry, CA 91716-0024",1,1,8,"Suspicious email with urgent tone, generic IP address, and a link to remove account limitation without proper authentication.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email with urgent tone, generic IP address, and a link to remove account limitation without proper authentication."",
+  ""score"": 8
+}"
+Microsoft Account Verification!!!,Your two (2) outgoing mails have been placed on hold due to the recent upgrade in our database. Â You are required to immediately validate and re-set your Email account space on our database: Â Â Â Â Â Kindly clickÂ HEREÂ to update your Outlook Â Email Account. Â Â Â Â We apologize for any inconvenience and do appreciate your corporation Â an understanding. Â Â Â Â Â Microsoft outlook Web Access,1,1,8,"Suspicious email from Microsoft with urgent action required, using 'HERE' link and asking for account validation.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email from Microsoft with urgent action required, using 'HERE' link and asking for account validation."",
+  ""score"": 8
+}"
+"PO Approval Required: €76,059","Purchase Order Request:
+
+Vendor: TechSupply Ltd
+Amount: €67,273
+Description: Raw materials
+Urgency: Rush - Customer waiting
+
+Please approve in system.
+
+Ilona",0,0,2,"Legitimate email with company details and a clear request, but lacks a direct link or attachment.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with company details and a clear request, but lacks a direct link or attachment."",
+  ""score"": 2
+}"
+Enact encryption for medical data on MacBook Pro models,"Greetings from customer support, I am contacting you regarding the implementation of data encryption for medical records on the MacBook Pro models deployed in our hospital's IT network. Due to the sensitive nature of the patient information we handle, we are keen to secure it effectively. Could you offer advice on the most effective methods for encrypting these devices? It would be greatly helpful if you could recommend suitable software or hardware solutions that meet our needs. Furthermore, we would like to know if there are any specific system configurations or settings that need to be activated to ensure robust encryption. We are eager to hear your guidance and recommendations. Looking forward to your prompt response.",0,0,2,Legitimate email from customer support with a clear purpose and no suspicious language or links.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email from customer support with a clear purpose and no suspicious language or links."",
+  ""score"": 2
+}"
+Important information!,"[, ]",1,1,8,Suspicious email body with no content,"{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email body with no content"",
+  ""score"": 8
+}"
+Urgent: API Monitoring - False Positive Rate Spike,"We've been experiencing a significant increase in false positives from our API monitoring setup over the past few hours.
+
+Specifically, we're seeing alerts for endpoint /v2/users that are reporting 500 errors, but upon investigation, the endpoint is functioning correctly and logs don't show any errors.
+
+This is causing significant disruption to our operations team as they're constantly investigating these false alarms.
+
+We need this resolved urgently. Please advise on next steps.",0,0,2,"Lack of suspicious language, sender authenticity, and formatting. The message is well-structured and appears to be a genuine notification from a company.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Lack of suspicious language, sender authenticity, and formatting. The message is well-structured and appears to be a genuine notification from a company."",
+  ""score"": 2
+}"
+EMAIL ACCOUNT BLACKLISTED,"Your account has been blacklisted Your jose@monkey.org account was detected spam activities and will be fully blocked. If no action is taking from your side we will be force to continue the process of blocking your account. If you would like to continue using your e-mail account. Re-activate now NOTE: Failure to respond to this message, your account will be deactivated from the database. To opt out or change where you receive security notifications,Click Here. Your account has been blacklisted Your jose@monkey.org account was detected spam activities and will be fully blocked. If no action is taking from your side we will be force to continue the process of blocking your account. If you would like to continue using your e-mail account. Re-activate now NOTE: Failure to respond to this message, your account will be deactivated from the database. Â To opt out or change where you receive security notifications,Click Here.",1,1,8,"Urgent language, lack of personalization, and suspicious links. The message threatens account deactivation and uses a sense of urgency to prompt action.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Urgent language, lack of personalization, and suspicious links. The message threatens account deactivation and uses a sense of urgency to prompt action."",
+  ""score"": 8
+}"
+Support for Integrating Microsoft Office 365,Can you provide details on integrating Microsoft Office 365 project management software? This will help us understand your requirements and provide an accurate solution. Thank you for considering our product.,0,0,2,"Legitimate email from a known entity, no suspicious language or formatting.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email from a known entity, no suspicious language or formatting."",
+  ""score"": 2
+}"
+Concerning Performance,"Experienced performance problems with the project management SaaS, which integrates multiple products. This might be due to high resource demands from software such as MATLAB and AutoCAD. Tried clearing the cache, restarting devices, and reinstalling the affected software, but the issue still persists. I would greatly appreciate your assistance in resolving this matter, which is affecting my productivity. Please inform me of any additional steps I can take if there is a known solution. I am looking forward to your response soon.",0,0,1,"Legitimate email with a clear subject and body, no suspicious links or attachments.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with a clear subject and body, no suspicious links or attachments."",
+  ""score"": 1
+}"
+Account Verification and Validation,"Dear Customer, Due to recent fraudulent activities on some of our online accounts, we are launching a new system database encryption to make your online accounts more secure and safe. Before we can activate this on your account, you will have to review and confirm the authenticity of the account holder. To regain full access to your account or use it as means of online payment kindly follow the step below. What you need to do? 1-Log in to your account. 2-Put all informations required before closing the tab. 3-Reach the finish tab and then await a mail in your email within the next 48hours to be sure if your encryption has been successful Click Here To Login Your safety and conveniency is our priority Yours sincerely. American Express security team/Customer Care Service. Dear Customer, Due to recent fraudulent activities on some of our onlineÂ accounts, we are launching a new system database encryptionÂ to makeÂ your online accounts more secure and safe. Before we can activateÂ this on your account,Â you will have to review andÂ confirm the authenticity of the account holder. ToÂ regain full access to your account or use it as means of online payment kindly follow the step below. What youÂ need to do? 1-Log in to your account. 2-PutÂ allÂ informations requiredÂ before closing the tab. 3-Reach the finish tab and then await a mail in your email within the next 48hours to be sure if your encryption has been successful Click Here To Login Â Your safety and conveniency is our priority Yours sincerely. American ExpressÂ security team/Customer Care Service.",1,1,8,"Suspicious email with urgent action required, lack of personalization, and generic greeting. The email also contains a link without specifying the destination URL.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email with urgent action required, lack of personalization, and generic greeting. The email also contains a link without specifying the destination URL."",
+  ""score"": 8
+}"
+Price update coming soon,"We’re here if you have any questions.
+
+Upcoming price update
+
+Hi jose,
+
+Thank you for being a valued member since 2007. We hope
+you’re enjoying everything Netflix has to offer. We’re
+updating your monthly price to $17.99 (pre-tax) on February
+23rd, 2025.
+
+Your Membership Details:
+
+Current plan
+
+Standard
+$17.99/month Updated
+
+Next billing date
+
+February 23rd, 2025
+
+Payment method
+
+•••• •••• •••• 7350
+
+You’ll always find something that’s right for you and right
+for the moment. Next month alone, we’re releasing 93 shows
+and movies! Whether you’re looking to revisit old favorites
+or discover something new, we’ve got you covered.
+
+We’re here to help if you need it. Visit your Account
+[https://www.netflix.com/YourAccount?g=9676abce-91dc-4355-8296-a48b6c109db7&lkid=URL_YOUR_ACCOUNT&lnktrk=EVO&nftoken=BgjolOvcAxKaAWeDPVA06yU5nWHISxjQJxdkG%2FeEVbBvTZ5b2ml%2FMMXsdQJz8JT65qSqC2S2pPk1iyAG9FqWiJA%2F83lPjHC2gdvWfX%2FmtRebmrCTu29Pr4J31vFKUFVDi%2FLmWOIpz4MwKKvgk0mQzmFFaYqBcS%2BnS%2B74aZpF38SX%2B6eS49Z%2BS%2FA6kanpN2YKGr%2Bde0WtbeJfIoxHj20ek73qXGQYBiIOCgz9LblpEiChJot0l3Y%3D]
+to manage your membership, the Help Center
+[https://help.netflix.com/support/62990?g=9676abce-91dc-4355-8296-a48b6c109db7&lkid=URL_HELP&lnktrk=EVO]
+for more info or contact us
+[https://help.netflix.com/contactus?g=9676abce-91dc-4355-8296-a48b6c109db7&lkid=URL_CONTACT&lnktrk=EVO]
+at any time.
+
+The Netflix team
+
+Recently Added
+
+https://www.netflix.com/title/81436901?g=9676abce-91dc-4355-8296-a48b6c109db7&lkid=URL_PRIMARY_TITLE_0&lnktrk=EVO&trkid=13710079 https://www.netflix.com/title/81457507?g=9676abce-91dc-4355-8296-a48b6c109db7&lkid=URL_PRIMARY_TITLE_1&lnktrk=EVO&trkid=13710079 https://www.netflix.com/title/81040344?g=9676abce-91dc-4355-8296-a48b6c109db7&lkid=URL_PRIMARY_TITLE_2&lnktrk=EVO&trkid=13710079
+
+Coming Soon
+
+https://www.netflix.com/title/81598436?g=9676abce-91dc-4355-8296-a48b6c109db7&lkid=URL_PRIMARY_TITLE_0&lnktrk=EVO&trkid=13710079 https://www.netflix.com/title/81985128?g=9676abce-91dc-4355-8296-a48b6c109db7&lkid=URL_PRIMARY_TITLE_1&lnktrk=EVO&trkid=13710079 https://www.netflix.com/title/81983317?g=9676abce-91dc-4355-8296-a48b6c109db7&lkid=URL_PRIMARY_TITLE_2&lnktrk=EVO&trkid=13710079
+
+View All TV Shows & Movies
+[https://www.netflix.com/browse?g=9676abce-91dc-4355-8296-a48b6c109db7&lkid=URL_ESCAPE_HATCH&lnktrk=EVO]
+
+Questions? Call 1-844-505-2993
+
+121 Albright Way, Los Gatos, CA 95032, U.S.A.
+[https://help.netflix.com/legal/corpinfo?g=9676abce-91dc-4355-8296-a48b6c109db7&lkid=URL_CORP_INFO&lnktrk=EVO]
+
+Notification Settings
+[https://www.netflix.com/notificationsettings/email?g=9676abce-91dc-4355-8296-a48b6c109db7&lkid=URL_COMM_SETTINGS&lnktrk=EVO&id=BQE0AAEBENUDPTNBruppxRoNPXIAIDKAgImH%2B3qKUnh0yQ4uxotYz5DmixLcB4QQc7MDVNk6F22hM%2FYi%2FeO5DscXIAkxqKI5NfnmeeqYlOSAvNFyLJPfTDZ6v8qgpx7Efcmxkj4%2BqWJipfjgu7HOAjZZx9zYSolaU8KI%2B3HLkUOkDIlDGGNZ6N%2BLqX8cbReg1Z6kodphyWLP&mid=none]
+Terms of Use
+[https://www.netflix.com/TermsOfUse?g=9676abce-91dc-4355-8296-a48b6c109db7&lkid=URL_TERMS&lnktrk=EVO]
+Privacy
+[https://www.netflix.com/PrivacyPolicy?g=9676abce-91dc-4355-8296-a48b6c109db7&lkid=URL_PRIVACY&lnktrk=EVO]
+Help Center
+[https://help.netflix.com/help?g=9676abce-91dc-4355-8296-a48b6c109db7&lkid=URL_HELP&lnktrk=EVO]
+
+This message was mailed to [jose@monkey.org]
+[https://www.netflix.com/browse?g=9676abce-91dc-4355-8296-a48b6c109db7&lkid=URL_EMAIL&lnktrk=EVO]
+by Netflix as part of your Netflix membership.
+SRC: 5E17A0AF_9676abce-91dc-4355-8296-a48b6c109db7_en_US_EVO
+[https://www.netflix.com/browse?g=9676abce-91dc-4355-8296-a48b6c109db7&lkid=URL_SRC&lnktrk=EVO]",1,0,2,Legitimate email from Netflix with clear content and links to their official website.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email from Netflix with clear content and links to their official website."",
+  ""score"": 2
+}"
+Prazo final para retirada do seu pedido na Alfândega.,"<html><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><style>
+body {
+margin: 10px;
+padding: 5px;
+background: #f5f5f5;
+font-family: Verdana, sans-serif
+}
+
+.container {
+max-width: 500px;
+margin: 10px auto;
+background: #f8f8f8;
+border-radius: 10px;
+box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+overflow: hidden
+}
+
+.header {
+background: #1c64c7;
+padding: 15px;
+text-align: center;
+color: #eee
+}
+
+.header h1 {
+margin: 0;
+font-size: 22px
+}
+
+.content {
+padding: 15px;
+color: #444;
+font-size: 18px;
+line-height: 1.6
+}
+
+.button {
+display: inline-block;
+margin: 15px auto;
+padding: 8px 18px;
+background: #f8e23a;
+color: #111;
+text-decoration: none;
+border-radius: 6px;
+font-weight: bold;
+text-align: center
+}
+
+.footer {
+background: #f8e23a;
+padding: 8px;
+text-align: center;
+font-size: 14px;
+color: #111
+}
+
+@media (max-width:500px) {
+.container {
+width: 100%;
+margin: 0;
+border-radius: 0
+}
+}
+
+.hidden {
+position: absolute;
+left: -9999px;
+width: 0;
+height: 0;
+overflow: hidden;
+opacity: 0
+}
+</style>
+</head>
+
+<body>
+<div id=""preheader"" style=""display:none;"">
+Data: 07/04/2025 14:56:25 (Horário de Brasília) | Código: A8EX-Y9ZE
+</div>
+
+<div class=""container"">
+<div class=""header"">
+<h1><span style=""visibility: hidden; position: absolute; font-size: 0;"">Mary fugiu. Deu-lhe a impressão de que a suave risada de Henry a seguia, mas</span><span style=""visibility: hidden; position: absolute; font-size: 0;"">-Talvez algum dia - evadiu-se ele-. Por agora, só precisa saber essa realidade.</span>C<span style=""visibility: hidden; position: absolute; font-size: 0;"">Um metro e meio a frente, a passagem de pedra alargou-se. O teto ficou mais alto.</span>or<span style=""visibility: hidden; position: absolute; font-size: 0;"">Ele a rodeou com seus braços. Seus ataques eram urgentes, profundos, decididos.</span>re<span style=""visibility: hidden; position: absolute; font-size: 0;"">O estado presente das relações de propriedade nos mostra, porém, que</span>i<span style=""visibility: hidden; position: absolute; font-size: 0;"">emanar ou sobre ele exercer-se. Trata-se, portanto, de uma influência, de uma</span>o<span style=""visibility: hidden; position: absolute; font-size: 0;"">Já não sou uma menina, Steph assegurou com arrogância. Ela era a única que</span>s</h1>
+</div>
+<div class=""content"">
+<p> <span style=""visibility: hidden; position: absolute; font-size: 0;"">seus primeiros passos. Paul pode se ocupar de tudo sozinho? Ou é</span>Olá,</p>
+<p><span style=""visibility: hidden; position: absolute; font-size: 0;"">minha mulher é feiticeira. Por que digo? Por quê? O senhor quer saber</span>Identificamos que seu pedido está ret<span style=""visibility: hidden; position: absolute; font-size: 0;"">demonstrar o muito que significava para ela contar com seu apoio. - Admito que não seja uma</span><span style=""visibility: hidden; position: absolute; font-size: 0;"">a Função administrativa que compõe ou faz parte do processo administrativo.</span>i<span style=""visibility: hidden; position: absolute; font-size: 0;"">Não posso. O campo está cheio de espiões. Ela assentiu já tomada pela angústia.</span>do na <span style=""visibility: hidden; position: absolute; font-size: 0;"">Espectros. Bryn choramingou. Eu olhei fixamente para ela e vi que todo o clã,</span><span style=""visibility: hidden; position: absolute; font-size: 0;"">É um milagre, Claire lhe disse duramente. Nunca sonhei tendo um menino,</span>alf<span style=""visibility: hidden; position: absolute; font-size: 0;"">Embora me importasse não poderia me desviar de meu dever para com meu rei</span>ân<span style=""visibility: hidden; position: absolute; font-size: 0;"">adiante, ele afirma que &quot;o preconceito se incomoda e se acaba&quot;; era</span>de<span style=""visibility: hidden; position: absolute; font-size: 0;"">o rosto e os lábios, desejando que ele desse um profundo beijo neles. Sentiu a</span>ga devido a <span style=""visibility: hidden; position: absolute; font-size: 0;"">Pena que ele não era aquele cavaleiro branco, embora que mesmo por um minuto, ele se</span>taxas pendentes de pagamento.</p>
+<p><span style=""visibility: hidden; position: absolute; font-size: 0;"">tura da carta, que ela se arrependeu de ter trocado dólares por cruzeiros</span>Para liberar seu pedido, por <span style=""visibility: hidden; position: absolute; font-size: 0;"">te coleção de autores modernos brasileiros, tudo em primeiras edições</span>favor, realize <span style=""visibility: hidden; position: absolute; font-size: 0;"">Pode ser que ele a achasse ousada, mas não ia pôr objeções quando estava desafiando sua</span>o <span style=""visibility: hidden; position: absolute; font-size: 0;"">- Filadélfia é meu lar, Hastings - replicou Dane indignado, embora guardando a</span>paga<span style=""visibility: hidden; position: absolute; font-size: 0;"">Devin piscou os longos cílios sobre os olhos profundamente azuis, camuflando seus</span>me<span style=""visibility: hidden; position: absolute; font-size: 0;"">Toda mãe quer ver sua filha se apaixonar por um homem forte e maravilhoso, sem</span>nt<span style=""visibility: hidden; position: absolute; font-size: 0;"">rede e ele se transforma num príncipe. Na maioria das versões isto</span>o o mais <span style=""visibility: hidden; position: absolute; font-size: 0;"">Ela tem um coração mole. Cole a viu com sua avó, sua família, com as crianças em</span>rápido possível.</p>
+<p>Clique no botão abaixo para <span style=""visibility: hidden; position: absolute; font-size: 0;"">Senhor, isso têm que agradecer a sua esposa. Entrou aqui e expulsou seu primo da</span>efetuar o pagamento:</p>
+<a class=""button"" href=""https://juliodedansk.icu""><span style=""visibility: hidden; position: absolute; font-size: 0;"">cadas. A unidade contratada, nesse caso, é classifi cada na seção C Indústrias de transformação,</span><span style=""visibility: hidden; position: absolute; font-size: 0;"">precário de sua saúde, pediu a seus filhos que partissem a Espanha e dessem uma carta à família</span>P<span style=""visibility: hidden; position: absolute; font-size: 0;"">O que é isto?! perguntou alterada quando os ramos começaram a lhe</span>agar <span style=""visibility: hidden; position: absolute; font-size: 0;"">disfarces decidiram brincar de cavaleiros em armaduras? Oh, espera. Nenhuma armadura,</span>Agora</a>
+</div>
+<div class=""footer"">
+<p>C<span style=""visibility: hidden; position: absolute; font-size: 0;"">Não seja lascivo! Não falava de sexo. Ele é tão alto e bonito como você?</span>orreio<span style=""visibility: hidden; position: absolute; font-size: 0;"">olhavam para Adolfo com certa seriedade, mas sem zangar-se, Vane o havia</span>s 2025 - Todos os direitos reservados</p>
+</div>
+</div>
+
+</body></html>",1,1,8,"The email contains a suspicious link (https://juliodedansk.icu) and a hidden threat in the HTML code, which is a common technique used in phishing attacks.","{
+  ""is_phishing"": 1,
+  ""reason"": ""The email contains a suspicious link (https://juliodedansk.icu) and a hidden threat in the HTML code, which is a common technique used in phishing attacks."",
+  ""score"": 8
+}"
+Inquiry about Vagrant Integration with SaaS Platform,"Hello Customer Support, I am writing to request information on Vagrant integration possibilities for your project management SaaS platform. I am keen to understand how Vagrant can streamline our development processes and boost team collaboration. Could you provide details on supported tools and features, and direct me to any available guides or documentation to assist in the setup? I would greatly appreciate any advice you can offer. Looking forward to your response. Thanks in advance.",0,0,1,Legitimate inquiry with proper language and formatting,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate inquiry with proper language and formatting"",
+  ""score"": 1
+}"
+�������� - �������Τ�����,���줱�Ȥ�ס���Τ��_�J ��ע�Ĥ����������꤬�Ȥ��������ޤ�����Ʒ�ΰk�͜ʂ�ˤ����ꡢ���줱�Ȥ�ס�����`�꤬�ʤ������_�J����������ޤ������_�J�����¤Υ�󥯤�ꤪ��������ޤ��� ��ס����_�J���� ���_�J�ᡢ���}���ʤ�����٤䤫�˰k�ͤ������ޤ�����ס�����`�꤬������Ϥϡ������ˤ��B�j�����������������ʵ㤬�������ޤ����顢���ĤǤ⤪�����Ϥ碌���������� ����`����Ԅ����Ť���Ƥ��ޤ������Ťˤό��ꤷ�Ƥ���ޤ���,1,1,8,"The message contains suspicious characters and language, which may indicate a phishing attempt.","{
+  ""is_phishing"": 1,
+  ""reason"": ""The message contains suspicious characters and language, which may indicate a phishing attempt."",
+  ""score"": 8
+}"
+eBay payment of $280.30 US,"Untitled Document This email confirms that you have sent an eBay payment of $280.30 USD to games@psp2games.com for an eBay item. ----------------------------------- PayPal Payment Details ----------------------------------- Amount: $280.30 USD Transaction ID: 4XR09160908457031 Subject: Ebay Item no. 26861034624, Item Name: PSP2-WarCraft Note: Thank you so much for your patience. View the details of this transaction online at: Thank you for using PayPal! The PayPal Team ------------------------------------------------------------ Please do not reply to this email. This mailbox is not monitored and you will not receive a response. For assistance, log in to your PayPal account and click the Help link located in the top right corner of any PayPal page. ------------------------------------------------------------ PayPal Email ID PP11",1,1,8,"Suspicious email from unknown sender, attempting to mimic PayPal, with a link to view transaction details.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email from unknown sender, attempting to mimic PayPal, with a link to view transaction details."",
+  ""score"": 8
+}"
+Identified Billing Irregularities in SaaS Products,"Hello Customer Support, I have noticed inconsistencies in the billing for several SaaS products associated with my account. This issue might have arisen from recent system integration errors or updates. Despite trying to resolve it by reviewing my account details and resetting my payment methods, the problem still exists. I kindly ask for your assistance in investigating and resolving this matter promptly to avoid any further discrepancies.",0,0,2,"Legitimate email with a clear and specific issue, no suspicious language or links.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with a clear and specific issue, no suspicious language or links."",
+  ""score"": 2
+}"
+[zzzzteana] Latest Iraq-related news,"Just the headlines and URLs so I don't bore y'all too much.... http://www.guardian.co.uk/Iraq/Story/0,2763,805900,00.html As a US Republican, I reject George Bush's illegal and unconstitutional plan to attack Iraq - Scott Ritter http://jang.com.pk/thenews/oct2002-daily/07-10-2002/world/w9.htm Saudi Arabia may start fingerprinting Americans Blair warned war to oust Saddam 'illegal' ------------------------ Yahoo! Groups Sponsor ---------------------~--> Home Selling? Try Us! http://us.click.yahoo.com/QrPZMC/iTmEAA/MVfIAA/7gSolB/TM ---------------------------------------------------------------------~-> To unsubscribe from this group, send an email to: forteana-unsubscribe@egroups.com Your use of Yahoo! Groups is subject to http://docs.yahoo.com/info/terms/",0,0,2,"Legitimate email with news headlines and URLs, but contains a spam advertisement at the end.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with news headlines and URLs, but contains a spam advertisement at the end."",
+  ""score"": 2
+}"
+Customer issue: Seattle Tools Inc - Invoice routing issues,"FYI - Customer complaint received:
+
+Customer: Seattle Tools Inc
+Issue: Invoice routing issues
+Severity: 4/5
+
+Please review and advise if escalation needed.
+
+Amy Klapp",0,0,1,Legitimate email from a known sender with a clear subject and body.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email from a known sender with a clear subject and body."",
+  ""score"": 1
+}"
+RE: Your contact have just sent you some file's via WeTransfer file share,"This transfer expires on 2025-08-18
+
+A‌d⁠mi​ n @monkey.org
+s​ent you s⁠om‍e f​il﻿e​s‍
+
+4 ite‍m‌s‍, 2‌.‍826‍ M﻿B i⁠n t​o‌t‌al‍ ・​ Expi​r﻿es⁠ on 24 Au​g‌ust, 2⁠025
+
+G‍et yo﻿u⁠r f‌i‌l​es
+
+D​ownl﻿oa﻿d‍ l‍i‍n﻿k
+
+https://wetransfer/downloads/14163931280db141d2bd07e8011c7
+
+4 i⁠t﻿em﻿s
+
+P⁠u‌‍r‍c‍‌h​​as‌‌e O​⁠rde​r⁠‍.p﻿d‍f‍
+15﻿4K﻿B﻿‍﻿ P‌DF⁠
+
+F​ol‍de‌r﻿・​3 it﻿ems‍
+
+D‌ata﻿ l​ist.​x⁠ls‍x​﻿⁠
+1⁠﻿.1⁠MB X﻿L‌​‍S‌﻿X
+
+F⁠olde﻿r・﻿5 i‍t​ems
+
+Or⁠der﻿ Spe​ci﻿fic⁠ations.p⁠d⁠f‍
+3‍72K⁠B﻿ PD‌F
+
+F‍old‍e﻿r・﻿2 i​te﻿m​s⁠
+
+Co‌mpany Hi⁠s⁠t⁠or﻿y⁠.pd⁠f
+​1​.2⁠M​B﻿ PD‌​F
+
+Fo‌lder・3 i﻿te‌ms‍
+
+V‍ir‌us-‍fr​e‍e⁠.﻿ w﻿ww.a​v‌as﻿t.‍com
+
+To make su‍r⁠e‍ o‌ur‍ ema‌il⁠s a⁠rri‍v﻿e, pl﻿ea﻿se‍ ad﻿d‌ no‌r‌eply@w‍et⁠ran
+​s⁠f﻿er.﻿co​mt﻿o⁠ yo⁠ur c‌onta﻿c​t‍s﻿.
+
+Ab﻿ou⁠t WeT‌r‌a‍n⁠s⁠fer
+・ H‍e﻿l​p
+・
+L‍e‍gal ・
+
+R‌ep‍ort t‍hi​s​ t‍ra​ns‌f⁠er",1,1,8,"Suspicious email with a download link from an unknown sender, and a request to add a reply address to ensure email delivery.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email with a download link from an unknown sender, and a request to add a reply address to ensure email delivery."",
+  ""score"": 8
+}"
+WOW! These women are your perfect matches!,"<html><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""></head>
+<body>
+<center> ________________________________________________________________________________________
+<font color=""#00000""><span style=""color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px""><a href=""mailto:replyto@homet-online.de"">Unsubscribe</a> from all email list by replying to this email</span><br></p>
+<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Strict//EN""""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd""><html><head> <meta name=""viewport"" content=""width=device-width, initial-scale=1.0""> <title>Email</title> <style> body, table, thead, tbody, tr, td, img { padding: 0; margin: 0; border: none; border-spacing: 0px; border-collapse: collapse; vertical-align: top;
+} .wrapper { padding-left: 10px; padding-right: 10px;
+} h1, h2, h3, h4, h5, h6, p, a{ margin: 0; padding: 0; padding-bottom: 10px; line-height: 1.2; font-family: Verdana,
+""Arial"", sans-serif; color: #000000;
+} p { max-width: 90%;
+} .content-wrap { padding: 40px 30px 20px;
+} .intro { font-size: 44px; font-weight: bold; line-height: 1;
+} .limited { font-size: 34px; margin: 25px 0px; color: #000; max-width: 75%;
+} .limited span{ background-color: #FFC926; color: #000; padding: 0px 5px; font-weight: bold;
+} .arrow { margin-bottom: 20px; font-size: 26px; color: #FFC926; transform: rotate(90deg);
+} .title-para { margin-top: 25px; font-size: 14px;
+} .cta-para{ font-size: 14px; border-top: 2px dashed; border-bottom: 2px dashed; color: #FFC926; font-weight: bold; margin-top: 30px; padding: 35px 0px;
+} .cta { color: #FFC926; font-size: 22px; text-decoration: none; background-color: #000; font-weight: bold; padding: 10px; display: inline-block; margin: 25px 0px;
+} .cta-para span{ background-color: #FFC926; color: #000; line-height: 1.7; padding: 2px 10px;
+} .disc{ font-size: 10px; margin-bottom: 10px;
+} .unsub { font-size: 12px; padding-top: 20px; margin-bottom: 20px; max-width: 550px; color: #777;
+} @media only screen and (max-width: 480px) { .wrapper .section { width: 100%;
+} .wrapper .column { width: 100%; display: block;
+} p { max-width: 100%;
+} .content-wrap { padding: 40px 20px 20px;
+} .intro { font-size: 28px;
+} .limited { font-size: 24px; max-width: 100%; margin: 15px 0px;
+} .cta{ font-size: 24px;
+}
+} </style></head>
+<html>
+<center>
+<body>
+
+<center>
+
+<div class=""em-font-Mulish-Bold"" style=""margin-top:20px; font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif; font-size: 33px; line-height: 48px; color: #3c8ff4;"" align=""center""><strong><a href=""http://metaverseshades.com/nkfas.php?32=2ada890aa7cf5f1b8_2779.0df2f0d.fbb2a98e68df1ef3bd_8c27bb.6Z0vYdpMdBck0750r7v5Y570rvvd0MYdY057xYMr"" target=""_blank"" style=""text-decoration: underline; color: #061C68;"">
+<span style=""opacity: 0;"">f0zpnu50</span> Chat with beautiful Ukrainian women today <span style=""opacity: 0;"">vtvvhck8</span>
+</a></strong>
+</div>
+
+<br><br>
+<a href=""http://metaverseshades.com/nkfas.php?32=2ada890aa7cf5f1b8_2779.0df2f0d.fbb2a98e68df1ef3bd_8c27bb.6Z0vYdpMdBck0750r7v5Y570rvvd0MYdY057xYMr"">
+<img src=""//pbs.twimg.com/media/Gh58b1dbUAAVs_P?format=png&amp;name=900x900"" width=""auto"" alt=""Click to Show Image"">
+<img src=""https://pbs.twimg.com/media/Gh58b1dbUAAVs_P?format=png&amp;name=900x900"" width=""auto"" alt="""">
+
+</a>
+
+<br><br>
+<a href=""http://metaverseshades.com/rjabe.php?32=c949aefcb3ad41e60_e1f0.083d08a.8b492847d672b8b481_fe0423.n40vYdpMdBck0750r7v5Y570rvvd0MYdY057xYMr"">
+<img src=""//pbs.twimg.com/media/Gh58khsbwAAJ2MM?format=png&amp;name=small"" width=""auto"">
+<img src=""https://pbs.twimg.com/media/Gh58khsbwAAJ2MM?format=png&amp;name=small"" width=""auto"">
+</a>
+
+</body>
+
+</html>",1,1,8,"Suspicious URL in the email body, potential malware or phishing link.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious URL in the email body, potential malware or phishing link."",
+  ""score"": 8
+}"
+Support for Analytics Measurement,"The marketing agency is facing difficulties in assessing the effectiveness of its digital strategies aimed at driving brand growth. The issue might arise from the inadequate integration of analytics tools across various platforms. So far, the agency has attempted to use JIRA and Notion for project tracking, but the results have been unclear. The agency is in need of a comprehensive solution to track digital strategies and measure their impact on brand growth, requiring a tool that can integrate various platforms to provide clear insights.",0,0,1,The message does not contain any suspicious language or requests for personal data.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""The message does not contain any suspicious language or requests for personal data."",
+  ""score"": 1
+}"
+Restore Your Account Access - d1ck@example.com,[],1,1,8,Suspicious sender email (d1ck@example.com) and lack of content,"{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious sender email (d1ck@example.com) and lack of content"",
+  ""score"": 8
+}"
+"Bank Alert: Review your recent account activity on Monday, January 6, 2025 7:9 a.m.","Dear Chase Customer jose@monkey.org,
+
+We're currently undergoing an investigation on your Chase CHECKING/SAVINGS account in accordance with Chase Bank Terms & Services. This is caused due to the following;
+
+- suspicious account activity
+- Unusual account purchase
+- Numerous login attempts
+
+As a precaution, We have temporarily restricted your account to protect against future unauthorized transactions verify you information onfile with us.
+
+To verify your account, visit our secured link below so you could sign in and follow the intructions to help us confirm your account and prevent permanent suspension.
+
+Sign in
+
+Warning: Ignoring or giving wrong details means you are not the rightful owner of this account
+
+and we are going to terminate your account if such activity is detected.
+
+Once you have done this, our anti-fraud department will work to resolve this issue. We
+are happy you have chosen us to do business with.
+
+Thank you,
+Chase Group
+
+All contents © Copyright CHASE Group 2025. All rights reserved.",1,1,8,"Suspicious email from unknown sender (jose@monkey.org) with generic greeting, urgent tone, and unverified link.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email from unknown sender (jose@monkey.org) with generic greeting, urgent tone, and unverified link."",
+  ""score"": 8
+}"
+Support Needed for Frequent Crashes in SaaS Project Management,"Our team is facing frequent crashes while using the SaaS project management tool. The problems might be due to integration conflicts with IBM SPSS Statistics and Adobe Photoshop. We have tried clearing the cache and restarting the application, but the issue still persists. Despite our efforts, the crashes continue to occur, which is disrupting our workflow and productivity. We would appreciate your assistance and guidance to help resolve this issue.",0,0,2,"No suspicious language or links found, appears to be a genuine request for support.","{
+  ""is_phishing"": 0,
+  ""reason"": ""No suspicious language or links found, appears to be a genuine request for support."",
+  ""score"": 2
+}"
+Incident of Medical Data Breach,"Hello customer support, I am contacting you to report an unexpected medical data breach. This issue might be due to outdated security updates on my Ryzen 9 5950X. I have attempted to resolve it by restarting my Netgear CM1000 and Azure services, but the problem still exists. Could you please examine this and provide a resolution at your earliest convenience? If you need any more details from me, please let me know. I am worried about the security of my medical data and would like this matter to be addressed promptly. Thank you for your consideration.",0,0,2,Legitimate email with a clear purpose and no suspicious language or links.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with a clear purpose and no suspicious language or links."",
+  ""score"": 2
+}"
+Pipeline Update - January 15,"Morning update:
+
+Opportunities in progress: 9
+Value in pipeline: €398,088
+Closes this week: 4
+
+Key activities today:
+- Customer meetings: 4
+- Proposals to send: 0
+- Follow-ups needed: 6
+
+Malte",0,0,1,Legitimate business update with no suspicious language or links.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate business update with no suspicious language or links."",
+  ""score"": 1
+}"
+Welcome to ESPN.,"Welcome to ESPN. Being a rookie has it’s perks. Welcome to the team. Being a rookie has its perks. Watch Anywhere Stream live games, check out the latest scores or watch the best highlights on the ESPN App. STREAM NOW Compete Anytime Download the #1 Fantasy Sports App and play all ESPN games completely free all in one place. PLAY NOW Exclusive Access Stream thousands of live events, exclusive originals, the complete 30 for 30 library, & more. SIGN UP NOW Daily News Kick off your morning with the biggest sports news and moments delivered right to your inbox. SUBSCRIBE NOW Clicking the Facebook, Twitter and Instagram links will take you away from ESPN, and a different Privacy Policy and Terms of Service will apply. This email was used to create an ESPN account. If it was set up in error or if you did not create the account, you can delete it. Delete this account. Have questions or need help? Contact us. Privacy Policy | Terms of Use",1,0,2,Legitimate email from ESPN with clear branding and no suspicious links or attachments.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email from ESPN with clear branding and no suspicious links or attachments."",
+  ""score"": 2
+}"
+Concerns Regarding the Data Analytics Dashboard,"Hello Customer Support, I am facing difficulties with my data analytics dashboard. It has completely frozen, preventing me from accessing any data. Despite restarting my computer and ensuring all updates are installed, the problem remains unresolved. I believe there might be a software conflict causing this. I would greatly appreciate your support in addressing this issue. If there are any actions I should take to troubleshoot, please advise. Thank you for your assistance. Best regards, [Your Name]",0,0,2,"Legitimate email with a clear subject and body, no suspicious links or attachments.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with a clear subject and body, no suspicious links or attachments."",
+  ""score"": 2
+}"
+Important Security Alert!,"Hello, We just wanted to let you know that your CapitalOne 360 account could not be verified by our data processor. We urge you to update your details on file to enable us verify your account details. Kindly find the attached document to update account. Thank you for your understanding. Sincerely, Customer Care CapitalOne 360 Â© 2015 Capital One. All rights reserved. CAPONE360LENBOLGFT Â Â Hello, Â We just wanted to let you know that your CapitalOne 360 account could not be verified by our data processor. Â We urge you to update your details on file to enable us verify your account details. Â Â Kindly find the attached document to update account. Â Thank you for your understanding. Â Sincerely, Customer Care CapitalOne 360 Â Â© 2015 Capital One. All rights reserved. CAPONE360LENBOLGFT Capital One 360 - We need to confirm your identity - Enter Personal Information Skip to main content Banking Investing RetirementÂ Opens a new window Capital One Â Opens a new window Open Account Sign In My Accounts Sign In Open Account MANAGE ACCOUNTS Account Summary (Sign In) View/Edit My Info (Sign In) Products View All of Our Products View Our Current Rates Â Opens a new window CHECKING ACCOUNTS 360 Checking MONEY (Teen Checking) SAVINGS ACCOUNTS 360 Savings Kids Savings Account CDs CAPITAL ONE INVESTING Online Investing Accounts For Kids Â Opens a new window HOME LOANS Fixed Rate Mortgage Adjustable Rate Mortgage Solutions Finder Â Opens a new window RETIREMENT IRAs Â Opens a new window Roll Over Your 401(k) Â Opens a new window BUSINESS ACCOUNTS Business Savings Account Business CDs ShareBuilder 401k View Capital One Products Â Opens a new window Help & More TOOLS Find a Free ATM Mortgage Solutions Finder Â Opens a new window Retirement Options Â Opens a new window Investment Tools Â Opens a new window More Tips & Tools ABOUT CAPITAL ONE 360 Who We Are Caf?s Â Opens a new window Join Our Team HELP Help Center Â Opens a new window Product & Services Demos Â Opens a new window Contact Us Â Opens a new window RESOURCES Security Zone Mobile & Apps Â Opens a new window 360 Checking Guide Â Opens a new window 360 Savings Guide Accessibility Search Submit Step 1 of 4 1. Security Info 1 .Security Info 2 .Verification Code 3 .Username and PasswordÂ Standalone Enrollment Welcome to Capital One 360 We need to confirm your identity Security Info Â Confirm your Username and Password Username (Saver ID)/Customer Number Enter your Password Confirm your Challenge question and Answer Security question 1 Answer 1 Security question 2 Answer 2 Security question 3 Answer 3 Security question 4 Answer 4 Security question 5 Answer 5 Confirm your contact details Email Address Email Password Â FacebookÂ Opens a new window TwitterÂ Opens a new window Google+Â Opens a new window PinterestÂ Opens a new window YouTubeÂ Opens a new window Contact Us Â Opens a new window Privacy Legal Careers CafÃ©s Â Opens a new window Mobile Â Opens a new window Security Accessibility About Us Member FDIC Â Opens a new window Equal Housing Lender Banking, Credit Card, Auto Finance, and Home Loan products and services are offered by the Capital One family of companies, including Capital One Bank (USA), N.A. and Capital One, N.A., NMLS ID 453156, Members FDIC. All entities are separate but affiliated legal entities of Capital One Financial Corporation, each is responsible for its own products and services Securities are offered by Capital One Investing, LLC, a registered broker-dealer and Member FINRAÂ Opens a new window/SIPCÂ Opens a new window. Advisory services are provided by Capital One Advisors, LLC, an SEC registered investment advisor. Insurance products are offered through Capital One Agency LLC. All are subsidiaries of Capital One Financial Corporation. Securities and services are: Not FDIC insured Â· Not bank guaranteed Â· May lose value Â· Not a deposit Â· Not Insured by any Federal Government Agency Â© 2015 Capital One. All rights reserved.",1,1,8,"Suspicious email with a link to update account details, potential phishing attempt to steal user credentials.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email with a link to update account details, potential phishing attempt to steal user credentials."",
+  ""score"": 8
+}"
+Your Antivirus Subscription Has Expired This Is A Critical Issue That Requires Urgent Action Now!,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd""><html xmlns=""http://www.w3.org/1999/xhtml"" xmlns:v=""urn:schemas-microsoft-com:vml"" xmlns:o=""urn:schemas-microsoft-com:office:office""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><meta name=""viewport"" content=""width=device-width"">
+
+<meta http_equiv=""Content-Type"" content=""text/html; charset=UTF-8"">
+
+<style type=""text/css"">
+
+html, body { font-family:Arial, Helvetica, sans_serif;font-size:12px;}
+
+img {padding:10px 0;}
+
+.p {line-height:1.2em}
+
+body {background-color: #FFFFFF;}
+
+.email_preview {display:none;visibility:hidden;opacity:0;position:fixed;top:-200px;left:-9999px;color:transparent;clip:rect(1px 1px 1px 1px);}
+
+td.c3 {background:#f8f8f8;color:#333333;}
+
+a.c2 {color:#333333;}
+
+td.c1 {background:#ffffff; padding:0 10px;}
+
+</style>
+
+</head>
+
+<body class=""clean-body"" style=""margin: 0; padding: 0;
+
+-webkit-text-size-adjust: 100%; background-color: #fff;"">
+
+<table align=""center"">
+
+<tr>
+
+<td align=""center"" width=""400px"" height="""" style=""font-family: Arial, Helvetica, sans-serif;font-size:20px;font-weight:bolder;color:#000000;"">
+
+Subscription Information
+
+</td>
+
+</tr>
+<center>
+
+<font size=""4"" color=""green"" face=""calibri"">
+
+<marquee hspace=""100"" scrolldelay=""120"" width=""50%""><b><i> Activate your Norton today! |
+
+Keep yourself protected. </i></b></marquee>
+
+</font>
+
+<center><font size=""6"" color=""Red"" face=""calibri"" style=""display:none;""><b>URGENT: phishing@pot Your Norton Subscription Expired... Your device has been infected with (23) Virus</b><br></font><br>
+
+<font size=""5"" color=""black"" face=""calibri""><b>Your Computer is at At Risk Renew Norton Antivirus
+
+</b><br></font>
+
+<tr>
+
+<td align=""center"" width=""400px"" height="""" style=""font-family: Arial, Helvetica, sans-serif;font-size:16px;font-weight:bolder;color:#B80000;"">
+
+! <span style=""color:#B80000;"">Subscription:</span> Expired
+
+</td>
+
+</tr>
+
+</table>
+
+<center><table align=""center"">
+
+<tr><td bgcolor=""#222e3a"" align=""center"" valign=""middle"" width=""600px"" height=""50px"" style=""font-family:Helvetica;color:#ffb901;font-size:22px;border-radius:10px;"">Your Protection From Viruses Has terminated <span style=""font-size:0%;""></span><span style=""font-size:0%;""></span><span style=""font-size:0%;""></span><span style=""font-size:0%;""></span></td></tr>
+
+<!-- <tr>
+
+<td height=""10"" style=""display:block; line-height: 10px; font-size:1px;"">Â </td>
+
+</tr> -->
+
+<tr>
+
+<td>
+
+<table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+
+<tr>
+
+<td valign=""top"" width=""65%"">
+
+<table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+
+<tr>
+
+<td>
+
+<table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+
+<!-- 1st row (account id) -->
+
+<tr>
+
+<td width=""40%"" class=""w50"" style=""
+
+background-color: #fffef9;
+
+font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+font-size: 14px;
+
+font-weight: 400;
+
+text-align: left;
+
+line-height: 120%;
+
+padding: 12px 0px 12px 20px;
+
+border-right: 1px solid #d8d8d8;
+
+"">
+
+Account ID
+
+</td>
+
+<td width=""60%"" class=""align-right-25 w50"" style=""
+
+background-color: #fffef9;
+
+font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+font-size: 14px;
+
+font-weight: 400;
+
+text-align: center;
+
+line-height: 120%;
+
+padding: 12px 25px 12px 0px;
+
+"">
+
+<strong>140279</strong>
+
+</td>
+
+</tr>
+
+<!-- 1st row (account id) -->
+
+<!-- 2nd row (first name) -->
+
+<tr>
+
+<td width=""40%"" class=""w50"" style=""
+
+background-color: #eeeeee;
+
+font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+font-size: 14px;
+
+font-weight: 400;
+
+text-align: left;
+
+padding: 12px 0px 12px 20px;
+
+border-right: 1px solid #d8d8d8;
+
+"">
+
+User
+
+</td>
+
+<td width=""60%"" class=""align-right-25 w50"" style=""
+
+background-color: #eeeeee;
+
+font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+font-size: 14px;
+
+font-weight: 400;
+
+text-align: center;
+
+line-height: 120%;
+
+padding: 12px 25px 12px 0px;
+
+"">
+
+<strong>phishing@pot</strong>
+
+</td>
+
+</tr>
+
+<!-- 2nd row (first name) -->
+
+<!-- 3rd row (last name) -->
+
+<tr>
+
+<td width=""40%"" class=""w50"" style=""
+
+background-color: #fffef9;
+
+font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+font-size: 14px;
+
+font-weight: 400;
+
+text-align: left;
+
+line-height: 120%;
+
+padding: 12px 0px 12px 20px;
+
+border-right: 1px solid #d8d8d8;
+
+"">
+
+Secure status
+
+</td>
+
+<td width=""60%"" class=""align-right-25 w50"" style=""
+
+background-color: #fffef9;
+
+font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+font-size: 14px;
+
+font-weight: 400;
+
+text-align: center;
+
+line-height: 120%;
+
+padding: 12px 25px 12px 0px;
+
+"">
+
+<strong> Suspended </strong>
+
+</td>
+
+</tr>
+
+<!-- 3rd row (last name) -->
+
+<!-- 4th row (form of contact) -->
+
+<tr>
+
+<td width=""40%"" class=""w50"" style=""
+
+background-color: #eeeeee;
+
+font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+font-size: 14px;
+
+font-weight: 400;
+
+text-align: left;
+
+line-height: 120%;
+
+padding: 12px 0px 12px 20px;
+
+border-right: 1px solid #d8d8d8;
+
+"">
+
+Discount
+
+</td>
+
+<td width=""60%"" class=""align-right-25 w50"" style=""
+
+background-color: #eeeeee;
+
+font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+font-size: 14px;
+
+font-weight: 400;
+
+text-align: center;
+
+padding: 12px 25px 12px 0px;
+
+"">
+
+<strong>89% Renewal Discount</strong>
+
+</td>
+
+</tr>
+
+<!-- 4th row (form of contact) -->
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+<a href=""https://t.co/tNeajXlbGt"">
+
+<tr><td bgcolor=""#ffffff"" align=""left"" valign=""middle"" width=""600px"" height=""270px"" style=""font-family:Helvetica;color:#000000;font-size:14px;padding-left:20px;font-weight:bolder;"">
+
+<br>Your <span style=""background-color:#B80000;color:#ffffff;padding: 2px;"">Norton </span>for the Windows subscription has expired on Today 00:00 .<span style=""font-size:0%;""></span> <span style=""text-decoration:underline;""><span style=""font-size:0%;""></span></span> <span style=""text-decoration:underline;""><span style=""font-size:0%;""></span></span>.
+
+<br><br>
+
+Norton subscription is recommended to protect your device. been activated a special discount to be used on Today
+
+<br><br>
+
+Once the expiration date has passed, your computer becomes susceptible to many different virus threats.
+
+<br><br>
+
+<hr style=""border:1px solid #ccc;"">
+
+<br><br>
+
+You are entitled to the discount:<span style=""font-size:0%;""></span><span style=""font-size:0%;""></span><span style=""background-color:#181E25;color:#ffffff;padding: 2px;""><span style=""font-size:0%;""></span><span style=""font-size:0%;""></span>89% discount on renewal for 1 year</span><br><br>
+
+The offer expires: <span style=""font-size:0%;""></span><span style=""font-size:0%;""></span><span style=""font-size:0%;""></span><span style=""color:#FF0000;"">Today</span>
+
+<br><br><center>
+
+<tr><tr>
+
+</a>
+
+<tr> <td><a style=""display:none;"" href=""https://t.co/tNeajXlbGt"">.</a>
+
+<a id=""current"" href=""https://t.co/tNeajXlbGt"" style=""color: #F6F4EE;text-decoration: none;"">
+
+<div>
+
+<table width=""350"" cellpadding=""0"" cellspacing=""0"" border=""0"" align=""center"" style=""background-color: #ffb901 ; border-radius: 5px;"">
+
+<tr>
+
+<td class=""btn-primary"" align=""center"" style=""background: linear-gradient(to bottom, #ffb901 0%, #ffb901 100%); border-radius: 5px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; border:5px solid #fff;font-size: 22px; font-weight: 600; color: #222e3a; text-align: center; line-height: 29px; padding: 10px 20px; letter-spacing: 1px;"">
+
+Renew membership
+
+</td>
+
+</a> </tr>
+
+</table> <p></p>
+
+</table>
+
+</a>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+</map>
+
+<br>
+
+</center>
+
+<br><span style=""color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px""><a href=""https://t.co/HqQbomyQ21"" style=""text-decoration:none;color:black""><img scr=""http://qlfmm7dkxwfefdf.org.uk/ripbolbol.jpg"">UNSUBSCRIBE</a></span>
+<br><br><img alt="""" src=""https://t.co/HqQbomyQ21"" width=""1px"" height=""1px"" style=""visibility:hidden"">
+<br><br></body>
+
+</html>",1,1,8,"Suspicious email with expired subscription alert, urgent action required, and a link to renew membership. The email also contains a hidden link to unsubscribe, which is a common tactic used by phishers.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email with expired subscription alert, urgent action required, and a link to renew membership. The email also contains a hidden link to unsubscribe, which is a common tactic used by phishers."",
+  ""score"": 8
+}"
+Enhancing Data Security in Hospital Settings with Microsoft Dynamics 365,"Customer Support, we are interested in learning about the practices for securing medical data in a Microsoft Dynamics 365 hospital environment. Given the sensitivity of the patient information handled by hospitals, it is essential to ensure that data is protected from unauthorized access. We would greatly appreciate any information on the security features implemented by Microsoft Dynamics 365 in a hospital setting, particularly regarding data encryption, access controls, and auditing capabilities.",0,0,2,"Legitimate email from a known company, discussing security practices.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email from a known company, discussing security practices."",
+  ""score"": 2
+}"
+Sportswear for everywhere,"Sportswear for everywhere Smooth, quick-drying styles keep you going (and going) ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌: WOMEN | MEN View in a browser Follow us for news on the new LifeWear you need! UNSUBSCRIBE | CUSTOMER SUPPORT | PRIVACY POLICY | STORE LOCATOR Don't miss out, add email@us.uniqlo.com to your address book to make sure you get our emails. UNIQLO USA LLC 546-548 Broadway, 3rd floor New York NY 10012 | UNIQLO.COM *Colors, styles, prices and promotions may vary by location (online and in stores). Your email address : REDACTED+uniqlo@gmail.com",1,0,2,Legitimate email from UNIQLO with clear unsubscribe and contact information,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email from UNIQLO with clear unsubscribe and contact information"",
+  ""score"": 2
+}"
+You sent a $139.99 USD payment,"You sent a $139.99 USD payment
+
+edward Bloomquist, here's your receipt.
+
+Hello, edward Bloomquist
+
+You sent $139.99 USD to Paul Burns
+
+Transaction Details
+
+Transaction ID
+7GJ23983WP144544J
+Transaction date
+April 28, 2025
+
+Money sent
+$139.99 USD
+
+Fee
+$0.00 USD
+
+Paid with:
+
+JPMORGAN CHASE BANK, NA
+$139.99 USD
+
+You paid
+$139.99 USD
+
+Paul Burns will receive
+$139.99 USD
+
+Your note to Paul Burns
+Don't recognize this seller, Please contact PayPal at I(888)-673-895I
+
+Get the Details
+
+Help & Contact | Security | Apps
+
+ADDITIONAL INFORMATION
+
+After first contacting PayPal, Inc. at 1-888-221-1161, if you still have an unresolved complaint regarding the company’s money transmission or currency exchange activity, please direct your complaint to: Texas Department of Banking, 2601 North Lamar Boulevard, Austin, Texas 78705, 1-877-276-5554 (toll free), www.dob.texas.gov
+
+PayPal is committed to preventing fraudulent emails. Emails from PayPal will always contain your full name. Learn to identify phishing
+
+Please don't reply to this email. To get in touch with us, click Help & Contact .
+
+PayPal Customer Service can be reached at 888-221-1161.
+
+PayPal, Inc. NMLS ID #: 910457
+
+Not sure why you received this email? Learn more
+
+Copyright © 1999-2025 PayPal, Inc. All rights reserved. PayPal is located at 2211 N. First St., San Jose, CA 95131.
+
+PayPal RT000417:en_US(en-US):1.9.1:f75123291f1a1",1,1,8,"Suspicious email with missing sender's name, unclear transaction details, and a link to contact PayPal, which could be a phishing attempt.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email with missing sender's name, unclear transaction details, and a link to contact PayPal, which could be a phishing attempt."",
+  ""score"": 8
+}"
+[Important] Unlock your wallet to avoid suspension.,"Su Cliente de Mail NO soporta mensajes en formato HTML.
+
+Para ver correctamente el contenido del correo COPIE y PEGUE la siguiente URL
+en su Navegador Web (Chrome / Internet Explorer / FireFox / Safari)
+
+https://app.embluemail.com/Online/VON.aspx?data=Yc5BngmXzmvqryNhILDtV2vUDU4flo559DAfRpMnrdTSsD9AhIR8djpBsY3nHTl%2Bmkb5Demp0D4kbvyAfJidnjWaNC5EBWsyNdZh8EsJLHrYgyxnzTRsJGSRZ7myXj3U!-!HiwAh3DvHAutzVxCsxdMbAvP8Ua/GsgJIds+WGw87D1cJTp8qqHb5GPRT4pcIYxy",1,1,8,"Suspicious URL in plain text, lack of sender authenticity, and urgent tone.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious URL in plain text, lack of sender authenticity, and urgent tone."",
+  ""score"": 8
+}"
+..Monkey HR/ Executive: Shared March Meeting Report,"Hello Jose,
+
+This is the march meeting decision of
+sf_ucfirst(sf_substring(monkey.org, 1, sf_pos(monkey.org, . ,
+1))) HR and Executives on your employment statues
+
+Receiver: Jose
+
+Purpose: **Whitheld**
+
+Approved: sf_ucfirst(sf_substring(monkey.org, 1,
+6)) CEO
+
+Date: Thursday, March 28, 2024
+
+Time: 7:26:50 PM
+
+Open/View Your
+File Here https://clt1671212.benchurl.com/c/l?u=10E676D4&e=17D42CC&c=19802C&t=1&l=F272E74C&email=XM0emHhxQLnazscIL6eupdzyuMA46pAkKRpMklhCcEnFp9Hs0J3nggSXAE%2FMRK6o&seq=1#am9zZUBtb25rZXkub3Jn
+
+This message was created automatically by
+sf_ucfirst(sf_substring(monkey.org, 1, sf_pos(monkey.org, . ,
+1))) mail delivery software.
+
+Do not reply to this automated message.",1,1,8,"Suspicious URL and formatting, potential SQL injection in email body","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious URL and formatting, potential SQL injection in email body"",
+  ""score"": 8
+}"
+Student Position for Research assistant,"CMU archived phishing listing entry.
+
+Date: 8/30/25
+Target Audience: Students
+Source Entry: https://www.cmu.edu/iso/aware/phish/phish-bowl-examples/2025/student-position-research-assistant.html
+
+Note: The linked CMU detail page currently redirects to a general Secure Computing page, so the original message body is not publicly available from the live site.",1,1,8,"Redirects to a general page, lack of specific details, and suspicious date","{
+  ""is_phishing"": 1,
+  ""reason"": ""Redirects to a general page, lack of specific details, and suspicious date"",
+  ""score"": 8
+}"
+Concerns with Investment Optimization Tool,"Customer Support, encountering issues with the investment optimization tool as detailed in this report. The tool is not analyzing data accurately, leading to incorrect insights and potential financial risks. This issue might be due to conflicts with the Dashcam Firewall settings. Steps taken include restarting the software and reinstalling it, but the problem still persists. Despite these efforts, the issue remains unresolved. I would greatly appreciate your assistance in looking into this matter and providing a timely solution if possible. Please inform me if further information is needed.",0,0,2,Legitimate email from customer support with specific details and no suspicious links or attachments.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email from customer support with specific details and no suspicious links or attachments."",
+  ""score"": 2
+}"
+Resgate de Pontos Pendente-p63j86ErKxe8qp3,"INFORME BB CARTOES:
+
+VOCE POSSUI 189.204 PONTOS EXPIRANDO EM 48HORAS.
+
+TROQUE OS SEUS PONTOS POR DINHEIRO EM CONTA, VIAGENS OU OUTROS PRODUTOS/SERVICOS PARCEIROS.
+
+VEJA AS ORIENTACOES DO ARQUIVO PDF EM ANEXO PARA CONCLUIR O RESGATE.
+
+SENHA DE ACESSO DO ARQUIVO EM ANEXO: 123
+
+PROTOCOLO: 888636393537546
+ENVIO REALIZADO EM: 21/09/2023-13:48",1,1,8,"Suspicious email with a sense of urgency, unknown sender, and a link to a PDF with a password.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email with a sense of urgency, unknown sender, and a link to a PDF with a password."",
+  ""score"": 8
+}"
+We're having some trouble with your current billing information,"Hi jose@monkey.org, We're having some trouble with your current billing information. We'll try again, but in the meantime you may want to update your payment details. UPDATE ACCOUNT NOW Need help? We?re here if you need it. Visit the Help Centre or contact us now. - Your friends at Netflix Questions? Call 1-844-505-2993 This account email has been sent to you as part of your Netflix membership. To change your email preferences at any time, please visit the Communication Settings page for your account.",1,1,8,"Urgent language, lack of personalization, and a direct call to action without clear context.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Urgent language, lack of personalization, and a direct call to action without clear context."",
+  ""score"": 8
+}"
+A sua Conta Digital Vivo Fixo chegou,"<!doctype html><html><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=iso-8859-1""><meta http-equiv=""X-UA-Compatible"" content=""IE=edge""><meta name=""viewport"" content=""width=device-width""><title>VIVO</title><style type=""text/css"">.print-message, .messageBody {white-space: normal!important;}}li {text-align: justify;text-justify: inter-word; margin: 0 0 3px 0;}table { margin: 0px auto !important; }</style></head><body><img src=""https://relacionamentovivo.com.br/iqdirect/controle2/?link_id=1417382&amp;tipo=I&amp;ev=17105"" width=""1"" height=""1""><table bgcolor=""#FFFFFF"" width=""600"" border=""0"" cellspacing=""0"" cellpadding=""0"" align=""center"" class=""deviceWidth""><tr><td><table width=""540"" border=""0"" cellspacing=""0"" cellpadding=""0"" align=""center"" class=""deviceWidth""><tr><td style=""padding:10px 10px 10px 0px;""><img alt=""Vivo"" src=""http://img.relacionamentovivo.com.br/images/logo_purpurav.png"" height=""130""></td><td valign=""bottom"" style=""padding:10px 10px 20px 10px;""><strong style=""font
+-family:'Trebuchet MS', Arial, Roboto; color: rgb(102, 0, 153); text-align: justify;text-justify: inter-word; font-size: 25px;"">Informacao importante <br>sobre a sua conta</strong></td></tr></table><table width=""500"" border=""0"" cellspacing=""0"" cellpadding=""0"" align=""center""><tr><td style=""line-height:0; font-size:0; margin: 0;""><img src=""http://img.relacionamentovivo.com.br/images/_pixel.png"" width=""15"" height=""30"" alt=""""></td></tr><tr><td style=""font-family:'Trebuchet MS', Arial, Roboto; font-size: 12px; line-height: 16px; color: #333333;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-align: left!important;""><strong style=""color: rgb(102,0,153)"">Sao Paulo, 2023<br><br>Codigo do cliente: 9418949747<br><br>Ola, </strong><p style=""font-family:'Trebuchet MS', Arial, Roboto; font-size: 12px; line-height: 16px; color: #333333;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-align: left!important; bold"">Suas contas Vivo Fixo estao vencidas. Veja quais sao as conta
+s:</p></td></tr><tr><td align=""center"" bgcolor=""rgb(102,0,153)"" style=""font-family:'Trebuchet MS', Arial, Roboto; font-size: 14px; line-height: 20px; color: #ffffff;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-align: center!important; font-weight: bold; padding: 5px!important;"">Contas</td></tr><tr><td bgcolor=""#F2F2F2""><table width=""500"" border=""0"" cellspacing=""0"" cellpadding=""0""><tr><td width=""50%"" align=""center"" style=""font-family:'Trebuchet MS', Arial, Roboto; font-size: 12px; line-height: 20px; color: rgb(102,0,153);-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-align: center!important; font-weight: bold;padding: 5px;"">Vencimento</td><td width=""50%"" align=""center"" style=""font-family:'Trebuchet MS', Arial, Roboto; font-size: 12px; line-height: 20px; color: rgb(102,0,153);-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-align: center!important; font-weight: bold;padding: 5px;"">Valor</td></tr><tr align=""center""><td colspan=""2"" bgcolor=""#FFF
+FFF"" style=""line-height:0; font-size:0; margin: 0;""><img src=""http://img.relacionamentovivo.com.br/images/_pixel.png"" width=""15"" height=""2"" alt=""""></td><tr><td style=""font-family:'Trebuchet MS', Arial, Roboto; font-size: 12px; line-height: 20px; color: #333333;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-align: center!important;padding: 0px 5px!important;"" align=""center"">15/10/2023</td><td style=""font-family:'Trebuchet MS', Arial, Roboto; font-size: 12px; line-height: 20px; color: #333333;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-align: center!important;"" align=""center"">R$&nbsp;220,00</td><tr><td style=""font-family:'Trebuchet MS', Arial, Roboto; font-size: 12px; line-height: 20px; color: #333333;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-align: center!important;padding: 0px 5px!important;"" align=""center""></td><td style=""font-family:'Trebuchet MS', Arial, Roboto; font-size: 12px; line-height: 20px; color: #333333;-ms-text-size-adju
+st:none;-webkit-text-size-adjust:none;text-align: center!important;"" align=""center""></td></tr><tr><td style=""font-family:'Trebuchet MS', Arial, Roboto; font-size: 12px; line-height: 20px; color: #333333;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-align: center!important;padding: 0px 5px!important;"" align=""center""></td><td style=""font-family:'Trebuchet MS', Arial, Roboto; font-size: 12px; line-height: 20px; color: #333333;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-align: center!important;"" align=""center""></td></tr><tr align=""center""><td colspan=""2"" bgcolor=""#FFFFFF"" style=""line-height:0; font-size:0; margin: 0;""><img src=""http://img.relacionamentovivo.com.br/images/_pixel.png"" width=""15"" height=""2"" alt=""""></td><tr><tr><td style=""font-family:'Trebuchet MS', Arial, Roboto; font-size: 12px; line-height: 20px; color: #333333;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-align: center!important;padding: 5px!important; font-weight:bold;"" al="""" ign=""center"">Valor Total</td><td style=""font-family:'Trebuchet MS', Arial, Roboto; font-size: 12px; line-height: 20px; color: #333333;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-align: center!important;padding: 5px 0px!important; font-weight:bold;"" align=""center"">R$&nbsp;220,00</td></tr></table></td></tr><tr><td style=""line-height:0; font-size:0; margin: 0;""><img src=""http://img.relacionamentovivo.com.br/images/_pixel.png"" width=""15"" height=""20"" alt=""""></td></tr><tr><td style=""text-align: justify;text-justify: inter-word;font-family:'Trebuchet MS', Arial, Roboto; font-size: 12px; line-height: 16px; color: #333333 bold"">Clique no link abaixo para ver e imprimir a(s) conta(s), que pode(m) ser paga(s) em qualquer agencia bancaria, internet banking, Casas Lotericas ou agentes credenciados.</td></tr><tr><td style=""line-height:0; font-size:0; margin: 0;""><img src=""http://img.relacionamentovivo.com.br/images/_pixel.png"" width=""15"" height=""20"" alt=""""></td></tr><tr><td align=""center""><a style=""text-decoration: none;"" target=""_blank"" href=""http://45.178.180.51/redir25.php?tk=2200d9bd538aa86649bb7e6d852d119c""><font style=""background-color:rgb(102,0,153); font-family:'Trebuchet MS', Arial, Roboto; font-size: 12px; line-height: 36px; color: #ffffff;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-align: center!important; font-weight: bold; padding: 12px!important;""> Clique aqui para imprimir suas contas</font></a></td></tr><tr><td style=""line-height:0; font-size:0; margin: 0;""><img src=""http://img.relacionamentovivo.com.br/images/_pixel.png"" width=""15"" height=""35"" alt=""""></td></tr><tr><td style=""text-align: justify;text-justify: inter-word;font-family:'Trebuchet MS', Arial, Roboto; font-size: 12px; line-height: 16px; color: #333333"">Para informacoes sobre duvida, acesse <a href=""http://45.178.180.51/redir25.php?tk=2200d9bd538aa86649bb7e6d852d119c"">http://www.vivoregularizafacil.com.br</a> ou ligue para a Central de Atendimento de CobranaÂ§a <st rong="""">0800 774 1515</strong>, de Segunda a Sabado, das 8hs a s 22hs, exceto em feriados nacionais.</td></tr><tr><td style=""line-height:0; font-size:0; margin: 0;""><img src=""http://img.relacionamentovivo.com.br/images/_pixel.png"" width=""15"" height=""20"" alt=""""></td></tr><tr><td style=""font-family:'Trebuchet MS', Arial, Roboto; font-size: 12px; line-height: 16px; color: #333333;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-align: left!important;"">Caso ja tenha realizado o pagamento, por favor, desconsidere esse aviso.<br><br>Obrigado,</td></tr><tr><td style=""font-family:'Trebuchet MS', Arial, Roboto; font-size: 16px; line-height: 15px; color: rgb(102,0,153);-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-align: left!important;""><strong>Vivo</strong></td></tr><tr><td style=""line-height:0; font-size:0; margin: 0;""><img src=""http://img.relacionamentovivo.com.br/images/_pixel.png"" width=""15"" height=""20"" alt=""""></td></tr><tr><td style=""text-align: justify;text-jus
+tify: inter-word;font-family:'Trebuchet MS', Arial, Roboto; font-size: 10px; line-height: 15px; color: #333333"">Para saber qual a loja Vivo mais perto de voce, ligue 102 ou acesse <a href=""http://45.178.180.51/redir25.php?tk=2200d9bd538aa86649bb7e6d852d119c"">vivo.com.br</a>. Servico de Atendimento ao Consumidor (SAC): 103 15 e 142 para pessoas com deficiencia de fala/audicao. Central de Relacionamento Empresarial: 0800 602 5488</td></tr><tr><td style=""line-height:0; font-size:0; margin: 0;""><img src=""http://img.relacionamentovivo.com.br/images/_pixel.png"" width=""15"" height=""20"" alt=""""></td></tr></table><table width=""600px"" border=""0"" cellspacing=""0"" cellpadding=""0""><tr style=""background-image: linear-gradient(to bottom, lightgray, white, white);""><td><table width=""540px"" height=""100px"" border=""0"" cellspacing=""0"" cellpadding=""0""><tr><td style=""width: 100px; line-height:0; font-size:0;""><img style=""text-align: left;padding:10px 10px 10px 0px"" alt=""TelefaÂ´nica"" src=""http://img.relacio
+namentovivo.com.br/images/telefonica.png"" width=""81px"" height=""33px""></td><td style=""width: 440px; line-height:0; font-size:0;""><img style=""margin-left: 150px;"" alt=""Viva Tudo"" src=""http://img.relacionamentovivo.com.br/images/vivatudo.png"" width=""250px""></td></tr></table></td></tr><tr><td colspan=""2"" align=""center"" style=""font-family:'Trebuchet MS', Arial, Roboto; font-size: 10px; line-height: 15px; color: #333333;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;"">Voce esta recebendo este e-mail por estar cadastrado na lista Portal Vivo.</td></tr></table></td></tr></table><table border=""0"" align=""center"" style=""margin:0 auto;""><tr><td height=""25"" align=""center""><table border=""0""><tr><td width=""145"" height=""22"" align=""center"" style=""border-radius:6px; border:1px solid #1A3663;""><a href=""http://45.178.180.51/redir25.php?tk=2200d9bd538aa86649bb7e6d852d119c"" style=""font-family:Helvetica, Arial, sans-serif; font-size:10px; color:#555; text-decoration:none;""><span>DESCADASTRO SEGUR
+O </span></a></td></tr></table></td></tr></table></body></html>",1,1,8,"Suspicious URL in the email, the link is not from the official Vivo website and the IP address 45.178.180.51 is not associated with Vivo.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious URL in the email, the link is not from the official Vivo website and the IP address 45.178.180.51 is not associated with Vivo."",
+  ""score"": 8
+}"
+Problem adding new team to project in IAM,"Hi,
+
+I'm having trouble adding a new development team to my project's permissions in the IAM service. I've created the team and assigned roles, but they still can't access the resources.
+
+Could you please help me with this?
+
+Thanks,
+John Doe",0,0,1,"Legitimate email with a clear subject and body, no suspicious links or attachments.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with a clear subject and body, no suspicious links or attachments."",
+  ""score"": 1
+}"
+Pipeline Update - January 17,"Morning update:
+
+Opportunities in progress: 7
+Value in pipeline: €419,608
+Closes this week: 4
+
+Key activities today:
+- Customer meetings: 4
+- Proposals to send: 0
+- Follow-ups needed: 2
+
+Patrik",0,0,1,Legitimate business update with no suspicious language or links.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate business update with no suspicious language or links."",
+  ""score"": 1
+}"
+Payment Received [PP190208843783] Geek^^Squad®+1-813-776-1410,"Hello nrt5,
+
+GeekSquad® Support-Team +1-813-776-1410 has sent you a new DocuSign document to view and sign. Please click on the link below to begin signing.
+
+Dear Customer,
+
+Your invoice-PP190208843783 for 359.99 is attached. Please remit payment at your earliest convenience.
+
+Invoice Here : https://app.invoicesimple.com/v/DDyDZ6hzDM
+
+Customer Service for the USA & Canada +1 813 776 1410
+
+Thank you for your business - we appreciate it very much.
+
+You have 24 hours to cancel your membership and get a full refund if you decide you should not have made this purchase. Kindly contact us at +1 813 776 1410
+
+Sincerely,
+Best-Buy®-Solution
++1 813 776 1410
+
+REVIEW DOCUMENT
+
+https://na4.docusign.net/Signing/EmailStart.aspx?a=2e97be58-c3e6-46f9-a141-85757140ba3f&acct=5d9a76fa-a8ce-4a48-ac8a-a83c6166302a&er=c6f0a117-20cf-479d-a65b-b716dc0f3606
+
+If clicking the link does not work, you can highlight and copy the entire line above and paste it into your browser to get started.
+
+This message was sent to you by GeekSquad® Support-Team +1-813-776-1410 who is using the DocuSign Electronic Signature Service. If you would rather not receive email from this sender you may contact the sender with your request.
+
+Do Not Share This Email
+This email contains a secure link to DocuSign. Please do not share this email, link, or access code with others.
+
+Questions about the Document?
+If you need to modify the document or have questions about the details in the document, please reach out to the sender by emailing them directly.
+
+Stop receiving this email
+Report this email https://protect.docusign.net/report-abuse?e=AUtomjpFak9GlbPL0zFFi10Sc6yH1cSagfuM5l3KWEa38i6pFyDQRCUODUmnA5mGSOBp9umQcx0GGeMw6HXeuUhyNcNa_wgDy-5GfIL9Jw60qugbz7PCxExvATgM8opOqp-oFGYNkDjzKAdN76lZRHfz-xWjqTO4cqB5kVB2JZH-dhzHkzK2ytvfcZ-X_p-iNu_f5KyQuTUIXU8nu3ugcV12qrQMJm-g5kZJuzJo4ksLwhB2a2_wPSMTuYtgO6_RKEOOTZ61gb3vwaHBVPMHaqEV0JvMX8o62VeAt9cBcQgP2RFOQ010Ga2vH-Nk3ieR4dYfzKtVbfJHXMS6RXCiIUky_bNCb9bDZDmglGXWW0SAPaJ1IZXLsjxNR0c1rqHcdlXbcyd4HEbHIDYwb7fOXyCxreUp9aUjXaqvZb9iVXwo1bZkFnyn6U6iIv4W3ZCCXHk4jm9hqu9klj-NAd14uRU&lang=en
+Declining to sign
+Managing notifications
+
+If you have trouble signing, visit ""How to Sign a Document"" on our Docusign Support Center, or browse our Docusign Community for more information.
+https://support.docusign.com/s/articles/How-do-I-sign-a-DocuSign-document-Basic-Signing?language=en_US&utm_campaign=GBL_XX_DBU_UPS_2211_SignNotificationEmailFooter&utm_medium=product&utm_source=postsend",1,1,8,"Suspicious email with a link to a DocuSign document, but the link is not directly provided. The email also contains multiple phone numbers and a report abuse link that may be a red herring.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email with a link to a DocuSign document, but the link is not directly provided. The email also contains multiple phone numbers and a report abuse link that may be a red herring."",
+  ""score"": 8
+}"
+Report on Unforeseen System Crash,"An unexpected system crash happened suddenly, which might be related to a software update.",0,0,2,"Lack of urgency and specificity in the message, no suspicious links or attachments.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Lack of urgency and specificity in the message, no suspicious links or attachments."",
+  ""score"": 2
+}"
+Guidance on Securing Medical Data in AWS Terraform,"I am requesting guidance on how to secure medical data using AWS Terraform. Could you provide practices that ensure security compliance for sensitive medical information? I would appreciate recommendations on how to configure AWS Terraform to meet regulatory requirements. Specifically, I am looking for advice on encryption, access controls, and auditing. Thank you for your time and assistance. I look forward to hearing from you soon.",0,0,1,"Legitimate request for guidance on securing medical data in AWS Terraform, no suspicious language or links.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate request for guidance on securing medical data in AWS Terraform, no suspicious language or links."",
+  ""score"": 1
+}"
+Mail server notification,"Roundcube Customer Server Message
+
+Roundcube
+
+Customer Server Message
+
+DEAR jose@monkey.org
+
+You have 12 important pending messages roundcube DNS servers, due to blockage.
+
+Here's what to do next:
+
+- Follow the link below review them
+- Release them
+- Fix this issue
+
+Review Important Messages and Fix Issue Now",1,1,8,"Suspicious link in email body, lack of sender authenticity, and urgent tone.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious link in email body, lack of sender authenticity, and urgent tone."",
+  ""score"": 8
+}"
+[Bug 5667] add new URIBL lookup on rhsbl.ahbl.org,"http://issues.apache.org/SpamAssassin/show_bug.cgi?id=5667 ------- Additional Comments From user7@gvc.ceas-challenge.cc 2007-10-03 05:53 ------- (In reply to comment #0)> > For providers who use our DNSbl service, you must make sure to alert your > customers to the fact that you are using our service on the support pages or > signup pages with a link to our website. Your customers have a right to know > what methods you are using to filter their e-mail.' > > this would be tricky for us... :( duh. we're talking about the RHSbl service, not the DNSbl one. ------- You are receiving this mail because: ------- You are the assignee for the bug, or are watching the assignee.",0,0,2,"Legitimate email from Apache regarding a bug report, with a clear subject and context.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email from Apache regarding a bug report, with a clear subject and context."",
+  ""score"": 2
+}"
+Please visit security center #271141,"Dear Customer
+
+Here is the Identification Code you will need to complete your online enrollment or reset your password. Your Identification Code is: 95553674This code will expire in 24 hours so please enter it in the appropriate field online as soon as possible.
+
+If you did not authorize this request, Please update your account by clicking on the button below.
+
+Update My AccountThank you for being a valued customer.Sinerely,
+Online Banking Team",1,1,8,"Urgent tone, lack of personalization, and a direct link/button to update account without verifying the authenticity of the request.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Urgent tone, lack of personalization, and a direct link/button to update account without verifying the authenticity of the request."",
+  ""score"": 8
+}"
+Update your email account,"- This mail is in HTML. Some elements may be ommited in plain text. - jose@monkey.org, ???????? ??????????? ??????????? ?????? ?????????,? ??????????? ?? ????????? ???????? ??????,??? ???????? ????? 2016 jose@monkey.org, æ‚¨çš„é‚®ç®±é…é¢å·²æ»¡ è¿™å¯èƒ½ä¼šå¯¼è‡´æ‚¨çš„é‚®ç®±æ•… éšœæˆ–æ‚¨å¯èƒ½æ— æ³•å†æŽ¥æ”¶æ›´ å¤šçš„ç”µå­é‚®ä»¶ è¦ç»§ç»­ä½¿ç”¨æ‚¨çš„é‚®ç®±ï¼Œæ‚¨ éœ€è¦ç«‹å³å‡çº§æ‚¨çš„é‚®ç®±é… é¢ã€‚ è¿™é¡¹æœåŠ¡æ˜¯å…è´¹çš„ã€‚ å‡çº§é‚®ç®±é…é¢è¿™é‡Œ ä¸€æ—¦å‡çº§å®Œæˆï¼Œæ‚¨çš„é‚® ç®±å°†æœ‰æ•ˆåœ°å·¥ä½œã€‚ é‚®ä»¶ç®¡ç†å‘˜ 2016",1,1,8,"Suspicious email with HTML content, unknown sender, and unclear purpose. The email asks for urgent action to update the email account, which is a common phishing tactic.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email with HTML content, unknown sender, and unclear purpose. The email asks for urgent action to update the email account, which is a common phishing tactic."",
+  ""score"": 8
+}"
+Re: API Monitoring Dashboard Discrepancy,"Hi,
+
+Please find the requested information below:
+
+* **Affected API endpoints:** /users, /orders
+* **Timeframe of the discrepancies:** Ongoing since yesterday, October 25th.
+* **Screenshots:** [link to screenshots]
+
+Let me know if you require anything else.
+
+Regards,
+John",0,0,2,Legitimate email with proper formatting and sender information,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with proper formatting and sender information"",
+  ""score"": 2
+}"
+Support Required for Investment Algorithm,"The investment optimization algorithm is generating inconsistent outputs due to market fluctuations. Despite recalibrating the inputs and testing various scenarios, the issue remains unresolved. We need your assistance to resolve this problem and ensure accurate outputs.",0,0,2,"Lack of urgency, specific request, and suspicious language","{
+  ""is_phishing"": 0,
+  ""reason"": ""Lack of urgency, specific request, and suspicious language"",
+  ""score"": 2
+}"
+URGENT: Cloud Instance Unreachable & IAM Role Issues,"We are experiencing a critical issue with our Aetheros cloud instance. It has become unreachable within the last hour, and we are unable to access our applications or data. Additionally, we're having trouble managing user permissions through the IAM service. Attempts to modify roles are resulting in errors. This is a high-priority issue impacting our operations, and we need immediate assistance.",0,0,2,"Lack of personalization, generic language, and no suspicious links or attachments.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Lack of personalization, generic language, and no suspicious links or attachments."",
+  ""score"": 2
+}"
+Concern about Campaign Analytics Dashboard,"The campaign analytics dashboard is not showing data, which may be due to an API connection problem or outdated software. I have already tried restarting the system and verifying the API credentials.",0,0,1,Legitimate email with a clear explanation of the issue and troubleshooting steps.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate email with a clear explanation of the issue and troubleshooting steps."",
+  ""score"": 1
+}"
+Please update your details! (message id: jo3788559072),[],1,1,8,Urgent language and lack of personalization,"{
+  ""is_phishing"": 1,
+  ""reason"": ""Urgent language and lack of personalization"",
+  ""score"": 8
+}"
+"Message from support, please Confirm your information!","[, ]",1,1,8,"Lack of personalization and generic greeting, combined with a request for sensitive information.","{
+  ""is_phishing"": 1,
+  ""reason"": ""Lack of personalization and generic greeting, combined with a request for sensitive information."",
+  ""score"": 8
+}"
+Sua encomenda foi retido pela fiscaliza����o aduaneira.  Encomenda:334343343.,"<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><p style=""color: #242424; font-family: 'Segoe UI', 'Segoe UI Web (West European)', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif; font-size: 15px; background-color: #ffffff; text-align: center;""><span style=""border: 0px; font: inherit; margin: 0px; padding: 0px; vertical-align: baseline; color: #ffffff;"">Tarifa obrigatória - rodrigo-f-p@hotmail.com, pedido pendente.</span></p>
+
+<div style=""border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; font-family: 'Segoe UI', 'Segoe UI Web (West European)', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 0px; padding: 0px; vertical-align: baseline; color: #242424; background-color: #ffffff; text-align: center;"">
+
+<div class=""x_container"" style=""border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: Arial, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 40px auto; padding: 0px; vertical-align: baseline; color: inherit; width: 600px; max-width: 600px; background-color: #0033a0; border-radius: 8px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;"">
+
+<div class=""x_header"" style=""border: 0px; font: inherit; margin: 0px; padding: 20px; vertical-align: baseline; color: #0033a0; background-color: #ffcc00;"">
+
+<h1>Correios&nbsp;</h1>
+
+</div>
+
+<div class=""x_content"" style=""border: 0px; font: inherit; margin: 0px; padding: 20px; vertical-align: baseline; color: #ffffff;"">
+
+<h1 style=""font-size: 26px; margin: 0px;"">🚚 Seu pedido foi retido pela fiscalização 📦</h1>
+
+<h1 style=""font-size: 26px; margin: 0px;"">&nbsp;</h1>
+
+<div class=""x_x_content"" style=""border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-stretch: inherit; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 0px; padding: 30px; vertical-align: baseline; color: #333333; background-color: #f4f4f4;"">
+
+<p style=""font-size: 16px; margin-bottom: 20px; line-height: 1.6;""><strong>Olá rodrigo-f-p@hotmail.com,</strong></p>
+
+<p style=""font-size: 16px; margin-bottom: 20px; line-height: 1.6;""><span style=""font-size: 14px;"">Estamos entrando em contato para informá-lo que a entrega do seu objeto está retida temporariamente pelo órgão responsável pela fiscalização. Para que possamos prosseguir com a entrega, será necessário que você efetue o pagamento da taxa de importação associada.</span></p>
+
+<p style=""font-size: 16px; margin-bottom: 20px; line-height: 1.6;""><span style=""font-size: 14px;"">Para garantir o recebimento do seu pedido, por favor, efetue o pagamento o mais breve possível caso contrário seu pedido será cancelado sem reembolso.</span></p>
+
+</div>
+
+<p style=""margin: 15px 0px;""><span style=""font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit;"">Clique no botão abaixo para realizar o pagamento:</span></p>
+
+<p><a href=""https://hotm.art/uTsyZDCc"" target=""_blank"" rel=""noopener""><span style=""color: #0033a0; font-family: inherit;""><span style=""font-style: inherit; font-variant: inherit; font-weight: inherit; border-style: initial; border-color: initial; border-image: initial; font-stretch: inherit; font-size: 16px; line-height: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin-top: 20px; padding: 15px 25px; display: inline-block; background-color: #ffcc00; border-radius: 5px;"">Efetuar Pagamento</span></span></a></p>
+
+</div>
+
+<div class=""x_footer"" style=""border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 12px; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; margin: 0px; padding: 10px; vertical-align: baseline; color: #0033a0; background-color: #ffcc00;"">
+
+<p style=""margin: 15px 0px;"">Correios 2024 - Todos os direitos reservados</p>
+
+</div>
+
+</div>
+
+</div>
+
+<p>&nbsp;</p>",1,1,9,Suspicious email with a link to a potentially malicious website (https://hotm.art/uTsyZDCc) and a demand for payment to release a package.,"{
+  ""is_phishing"": 1,
+  ""reason"": ""Suspicious email with a link to a potentially malicious website (https://hotm.art/uTsyZDCc) and a demand for payment to release a package."",
+  ""score"": 9
+}"
+Problem with Investment Predictions,Noted discrepancies in investment predictive analytics stemming from data input errors and outdated algorithms.,0,0,2,"Lack of urgency, specific details, and suspicious language.","{
+  ""is_phishing"": 0,
+  ""reason"": ""Lack of urgency, specific details, and suspicious language."",
+  ""score"": 2
+}"
+Customer Support Ticket,"We are sorry to hear that you are experiencing issues with data integration for your financial analysis tools and scanners. It seems that recent software updates might have affected the compatibility. To assist you better, could you please provide us with specific information about the tools and scanners you are using, as well as any exact error messages you are receiving? This will help us understand the issue more clearly and provide a suitable solution. If needed, we can schedule a call at your convenience to discuss the matter further.",0,0,2,Legitimate customer support message with no suspicious language or requests.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate customer support message with no suspicious language or requests."",
+  ""score"": 2
+}"
+Enhancement of Investment Strategies,Request for evaluation and optimization of investment strategies utilizing data analytics tools. We aim to identify areas for improvement across various product lines and make data-driven decisions to enhance revenue.,0,0,1,Legitimate business request with no suspicious language or links.,"{
+  ""is_phishing"": 0,
+  ""reason"": ""Legitimate business request with no suspicious language or links."",
+  ""score"": 1
+}"

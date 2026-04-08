@@ -1,0 +1,15 @@
+{
+  "dataset_name": "S4-GD.csv",
+  "input_csv": "/fs04/scratch2/pk79/fche0036/ssc_LLM_phishing_survey/Detectors/output/HW-result/datasets/S4-GD.csv",
+  "output_csv": "/fs04/scratch2/pk79/fche0036/ssc_LLM_phishing_survey/Detectors/output/HW-result/academic_results/S4-GD.csv",
+  "detectors": [
+    "scamllm",
+    "pimref",
+    "t5phishing",
+    "ml_watermark_logreg",
+    "xgboost",
+    "securenet_llama"
+  ],
+  "chunk_size": 100,
+  "updated_at": "2026-04-07 23:21:58"
+}

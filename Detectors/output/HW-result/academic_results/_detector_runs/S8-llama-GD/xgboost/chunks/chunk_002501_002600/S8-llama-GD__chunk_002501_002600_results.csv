@@ -1,0 +1,2311 @@
+subject,body,label,model_prediction
+At 05/31/2024 04:47:38 pm  You received an reward!,"ImpactFest
+
+html,
+body {
+margin: 0 !important;
+padding: 0 !important;
+min-height: 100% !important;
+width: 100% !important;
+-webkit-font-smoothing: antialiased;
+}
+
+* {
+-ms-text-size-adjust: 100%;
+}
+
+#outlook a {
+padding: 0;
+}
+
+.ReadMsgBody,
+.ExternalClass {
+width: 100%;
+}
+
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass td,
+.ExternalClass div,
+.ExternalClass span,
+.ExternalClass font {
+line-height: 100%;
+}
+
+table,
+td,
+th {
+mso-table-lspace: 0 !important;
+mso-table-rspace: 0 !important;
+border-collapse: collapse;
+}
+
+u .body table, u .body td, u .body th {
+will-change: transform;
+}
+
+body, td, th, p, div, li, a, span {
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+mso-line-height-rule: exactly;
+}
+
+img {
+border: 0;
+outline: 0;
+line-height: 100%;
+text-decoration: none;
+-ms-interpolation-mode: bicubic;
+}
+
+a[x-apple-data-detectors] {
+color: inherit !important;
+text-decoration: none !important;
+}
+
+.pc-gmail-fix {
+display: none;
+display: none !important;
+}
+
+@media (min-width: 621px) {
+.pc-lg-hide {
+display: none;
+}
+
+.pc-lg-bg-img-hide {
+background-image: none !important;
+}
+}
+
+@media (max-width: 620px) {
+.pc-project-body {min-width: 0px !important;}
+.pc-project-container {width: 100% !important;}
+.pc-sm-hide {display: none !important;}
+.pc-sm-bg-img-hide {background-image: none !important;}
+.pc-w620-width-250 {width: 250px !important;}
+.pc-w620-height-auto {height: auto !important;}
+table.pc-w620-spacing-0-0-12-0 {margin: 0px 0px 12px 0px !important;}
+td.pc-w620-spacing-0-0-12-0,th.pc-w620-spacing-0-0-12-0{margin: 0 !important;padding: 0px 0px 12px 0px !important;}
+.pc-w620-padding-0-0-0-0 {padding: 0px 0px 0px 0px !important;}
+.pc-w620-itemsSpacings-0-30 {padding-left: 0px !important;padding-right: 0px !important;padding-top: 15px !important;padding-bottom: 15px !important;}
+.pc-w620-itemsSpacings-0-0 {padding-left: 0px !important;padding-right: 0px !important;padding-top: 0px !important;padding-bottom: 0px !important;}
+.pc-w620-padding-20-0-0-0 {padding: 20px 0px 0px 0px !important;}
+table.pc-w620-spacing-0-0-0-0 {margin: 0px 0px 0px 0px !important;}
+td.pc-w620-spacing-0-0-0-0,th.pc-w620-spacing-0-0-0-0{margin: 0 !important;padding: 0px 0px 0px 0px !important;}
+.pc-w620-fontSize-24px {font-size: 24px !important;}
+.pc-w620-lineHeight-140pc {line-height: 140% !important;}
+table.pc-w620-spacing-0-0-8-0 {margin: 0px 0px 8px 0px !important;}
+td.pc-w620-spacing-0-0-8-0,th.pc-w620-spacing-0-0-8-0{margin: 0 !important;padding: 0px 0px 8px 0px !important;}
+table.pc-w620-spacing-0-0-16-0 {margin: 0px 0px 16px 0px !important;}
+td.pc-w620-spacing-0-0-16-0,th.pc-w620-spacing-0-0-16-0{margin: 0 !important;padding: 0px 0px 16px 0px !important;}
+.pc-w620-fontSize-18px {font-size: 18px !important;}
+.pc-w620-width-150 {width: 150px !important;}
+.pc-w620-padding-28-24-40-24 {padding: 28px 24px 40px 24px !important;}
+.pc-w620-itemsSpacings-20-0 {padding-left: 10px !important;padding-right: 10px !important;padding-top: 0px !important;padding-bottom: 0px !important;}
+.pc-w620-padding-35-35-35-35 {padding: 35px 35px 35px 35px !important;}
+
+.pc-w620-gridCollapsed-1 > tbody,.pc-w620-gridCollapsed-1 > tbody > tr,.pc-w620-gridCollapsed-1 > tr {display: inline-block !important;}
+.pc-w620-gridCollapsed-1.pc-width-fill > tbody,.pc-w620-gridCollapsed-1.pc-width-fill > tbody > tr,.pc-w620-gridCollapsed-1.pc-width-fill > tr {width: 100% !important;}
+.pc-w620-gridCollapsed-1.pc-w620-width-fill > tbody,.pc-w620-gridCollapsed-1.pc-w620-width-fill > tbody > tr,.pc-w620-gridCollapsed-1.pc-w620-width-fill > tr {width: 100% !important;}
+.pc-w620-gridCollapsed-1 > tbody > tr > td,.pc-w620-gridCollapsed-1 > tr > td {display: block !important;width: auto !important;padding-left: 0 !important;padding-right: 0 !important;}
+.pc-w620-gridCollapsed-1.pc-width-fill > tbody > tr > td,.pc-w620-gridCollapsed-1.pc-width-fill > tr > td {width: 100% !important;}
+.pc-w620-gridCollapsed-1.pc-w620-width-fill > tbody > tr > td,.pc-w620-gridCollapsed-1.pc-w620-width-fill > tr > td {width: 100% !important;}
+.pc-w620-gridCollapsed-1 > tbody > .pc-grid-tr-first > .pc-grid-td-first,pc-w620-gridCollapsed-1 > .pc-grid-tr-first > .pc-grid-td-first {padding-top: 0 !important;}
+.pc-w620-gridCollapsed-1 > tbody > .pc-grid-tr-last > .pc-grid-td-last,pc-w620-gridCollapsed-1 > .pc-grid-tr-last > .pc-grid-td-last {padding-bottom: 0 !important;}
+
+.pc-w620-gridCollapsed-0 > tbody > .pc-grid-tr-first > td,.pc-w620-gridCollapsed-0 > .pc-grid-tr-first > td {padding-top: 0 !important;}
+.pc-w620-gridCollapsed-0 > tbody > .pc-grid-tr-last > td,.pc-w620-gridCollapsed-0 > .pc-grid-tr-last > td {padding-bottom: 0 !important;}
+.pc-w620-gridCollapsed-0 > tbody > tr > .pc-grid-td-first,.pc-w620-gridCollapsed-0 > tr > .pc-grid-td-first {padding-left: 0 !important;}
+.pc-w620-gridCollapsed-0 > tbody > tr > .pc-grid-td-last,.pc-w620-gridCollapsed-0 > tr > .pc-grid-td-last {padding-right: 0 !important;}
+
+.pc-w620-tableCollapsed-1 > tbody,.pc-w620-tableCollapsed-1 > tbody > tr,.pc-w620-tableCollapsed-1 > tr {display: block !important;}
+.pc-w620-tableCollapsed-1.pc-width-fill > tbody,.pc-w620-tableCollapsed-1.pc-width-fill > tbody > tr,.pc-w620-tableCollapsed-1.pc-width-fill > tr {width: 100% !important;}
+.pc-w620-tableCollapsed-1.pc-w620-width-fill > tbody,.pc-w620-tableCollapsed-1.pc-w620-width-fill > tbody > tr,.pc-w620-tableCollapsed-1.pc-w620-width-fill > tr {width: 100% !important;}
+.pc-w620-tableCollapsed-1 > tbody > tr > td,.pc-w620-tableCollapsed-1 > tr > td {display: block !important;width: auto !important;}
+.pc-w620-tableCollapsed-1.pc-width-fill > tbody > tr > td,.pc-w620-tableCollapsed-1.pc-width-fill > tr > td {width: 100% !important;box-sizing: border-box !important;}
+.pc-w620-tableCollapsed-1.pc-w620-width-fill > tbody > tr > td,.pc-w620-tableCollapsed-1.pc-w620-width-fill > tr > td {width: 100% !important;box-sizing: border-box !important;}
+}
+@media (max-width: 520px) {
+.pc-w520-padding-30-30-30-30 {padding: 30px 30px 30px 30px !important;}
+}
+
+@media all { @font-face { font-family: 'Space Grotesk'; font-style: normal; font-weight: 500; src: url('https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7aUXsqPMY.woff') format('woff'), url('https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7aUXsqPMA.woff2') format('woff2'); } @font-face { font-family: 'Space Grotesk'; font-style: normal; font-weight: 700; src: url('https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj4PVnsqPMY.woff') format('woff'), url('https://fonts.gstatic.com/s/spacegrotesk/v16/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj4PVnsqPMA.woff2') format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZFhjg.woff') format('woff'), url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZFhiA.woff2') format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZFhjg.woff') format('woff'), url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZFhiA.woff2') format('woff2'); } }
+
+&nbsp;
+
+&nbsp;
+
+You received an&nbsp;reward!
+
+We have a surprise for you, rewards between 1 MATIC and 5 MATIC.
+
+See now how lucky you were.
+
+Collect the received reward.
+
+&nbsp;
+
+Check Reward!
+
+&nbsp;
+
+&nbsp;
+
+You can unsubscribe&nbsp;here.
+
+&nbsp;
+
+&copy;2​0​1​8 - 2024&nbsp;chainers.io
+
+&nbsp;
+
+05/31/2024 04:47:38 pm
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",1,1
+Assistance with Service Interruption,"Our service encountered an unexpected outage impacting various systems, including Magento MySQL. The outage might be due to a recent server misconfiguration or software update. We have restarted the affected services and reviewed system logs, but the issue still persists. We would greatly appreciate your help in resolving this matter as soon as possible to minimize downtime and prevent further disruptions.",0,0
+"phishing@pot, Final Notice Coming for a Le Creuset Reward","<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><p style=""color:white""></p>
+<center>
+<p style=""text-align: center;"">
+<a href=""https://t.co/loM5eS9RjY"" target=""_blank"" style=""text-decoration:none;"">
+<span style=""font:30px calibri; color:#ff0000""> <b> Costco Department
+
+</b></span></a><br><br>Dear phishing@pot,
+
+<br>
+
+<br>
+Congratulations! Your Name Came Up For a Le Creuset customer Survey
+
+<br><br><br>
+
+Your Reward: Le Creuset
+
+<a href=""https://t.co/loM5eS9RjY"">
+
+<h2>Confirm-Here</h2>
+
+</a><br>Welcome to Our Team, Final notice for Le Creuset customer rewards! <p><br>
+
+<b>ATTENTION : This Reward Offer Expire On 12-01-2023
+</b>
+
+<br><br>
+
+<br>
+<br>
+<a href=""https://t.co/loM5eS9RjY"" target=""_blank"" style=""text-decoration:none;"">
+<span style=""font:25px calibri; color:white;background-color: #ff0000
+
+;padding:5px 55px;border-radius:00px; ""> <b>Your chance to receive a FREE Le Creuset</b></span></a>
+</p>
+<br><br><br>
+<b>
+
+<br><br>
+<a href=""https://t.co/loM5eS9RjY"" style=""text-decoration:none""><br>
+<br>
+<img width=""100%"" src=""https://i.imgur.com/NEN1z5X.jpg""><img width=""100%"" src=""//i.imgur.com/NEN1z5X.jpg""><br>
+<br><br>
+</a>
+<b>
+<br><br><br><br>
+<center>
+<h6>
+<br>
+
+If you no longer wish to receive these emails, you may unsubscribe by
+<a href=""https://t.co/xQMUwnAgU3"" style=""color:#404040 !important;text-decoration: underline; -ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; "">
+clicking here.</a>or by writing to 1070 montgomery rd altamonte springs fl 32714 <br>
+</h6>
+
+</center>
+<a href="""" 44e22e35+++0ab5+++dd0c+++f994+++5b103d9b1d42b="""" 3cefb018+++3f2f+++f5e7+++3478+++148cf91fe9954="""" 01f469a7+++c5f7+++60a1+++97f2+++0b4311362eb6a="""" b31d1c6d+++e2f6+++47b2+++69de+++2389f064efccc="""" 6e2159c1+++86c8+++3913+++54c0+++cb45cb4384924="""" 516adf31+++4274+++d934+++0f11+++1cd61a5cd76b3="""" 10c92f7a+++fa01+++9d0a+++09b7+++a97fd3c8ef998="""" 307592fb+++27bb+++6e08+++0fa6+++7396e7e2c4e1c="""" 4120c38e+++68e4+++7d29+++3691+++2516fb77d1ad9="""" 95bed6f6+++1618+++f7f3+++fd45+++3bb5921673438="""" 0967eb65+++fd39+++447e+++a92e+++e4b1937b90fd9="""" ff1ec9eb+++9b7c+++afec+++0c78+++44c5da1b99771="""" 81e1d4b7+++ff8b+++221b+++3833+++a1eb65f147af8="""" 452c4d4e+++d26e+++43a8+++7a17+++02c0534572e95="""" 863aeb1c+++8917+++9edc+++ddd2+++ac1f0d913dee2="""" 7b11769b+++a589+++5813+++46c7+++8928952253572="""" 6d7b63d6+++1424+++a4a4+++ab46+++ac98a7759c25b="""" 7053c1aa+++456a+++7972+++47b2+++16a427189b209="""" 5b0bd63e+++d714+++da36+++1e30+++bb8d1788cddcd="""" 9cd47b09+++544f+++3dbb+++fb98+++2611c1205fd45="""" 84d9029f+++d705+++e0ab+++d100+++84af773453774="""" 1b758adb+++22d0+++7650+++d000+++07f4f50f45480="""" 0b474d74+++c49b+++1159+++9f06+++170aede305540="""" 24411f2e+++b881+++1f94+++742c+++50caa10aab9af="""" 937fc3fa+++f8a7+++83d5+++3409+++229a1107f9d45="""" c73f63ff+++21b8+++5c50+++3f20+++33afc8842e31f="""" 343744cc+++72a9+++b7c1+++14b1+++0907a1339f986="""" da37fa06+++ec5e+++182d+++78a1+++bbacc5f1129e4="""" 092f13ed+++5785+++4753+++d24d+++2ab40963d1675="""" 6733b2a1+++c058+++84ac+++b52a+++d5aa0c24d1780="""" c2086943+++5a85+++3747+++118a+++24e4298d84234="""" 3eb1afaf+++7a1c+++1322+++76ce+++83a5058b665d3="""" fe7973eb+++7138+++9e93+++4e40+++5ac1bafe6ea70="""" 00d39ac1+++c3ef+++631e+++012f+++9679746345835="""" 46027aa8+++863f+++f9fb+++5b07+++0f9cdb15a4609="""" 9d34bf09+++28e8+++195b+++e086+++1e827ea61252b="""" f2097b22+++280c+++c17a+++039b+++e3513ad3c81ba="""" e10f1e2d+++897d+++ab8a+++d043+++6357128453f7c="""" af03525b+++0559+++27bd+++8a31+++781d21671164a="""" 53d779e8+++0cef+++e57a+++d1d1+++d8ed3461e7a19="""" cf5a0e0e+++c81e+++e3d8+++e49e+++ed196a4b6645c="""" 5c359d3c+++73e5+++78ce+++5a4f+++70e7dcc3d3ece="""" df619f02+++1bc3+++bbc6+++4f97+++4ce36a3ceded3="""" d35736ea+++6bc6+++3bcc+++870e+++91a8d327dcf31="""" 16cd1bce+++474b+++5503+++95a6+++5e00997946187="""" ac16084b+++2c64+++a6f6+++6b3f+++9d6a3cdf5db7d="""" 3431a270+++fbd8+++9179+++4435+++33eb6c2ab7e76="""" 1d194e18+++b5df+++844d+++a8c6+++88ab7ff22f8ad="""" 7cfdc01a+++9e39+++1295+++e27b+++aba53e1182b61="""" 83ca098a+++7e21+++2d18+++2924+++336e8d561e3c8="""" 4d898fef+++9d2a+++5732+++d62f+++0f952e404bcf1="""" 5d8ce722+++6846+++3e11+++6697+++1b5c31568da96="""" 3e007b80+++c276+++46fa+++bd35+++3d93e246ed5d6="""" 1e0e278e+++2379+++cc0b+++5f9e+++acebdf958d802="""" 03eaf15f+++a19a+++2d75+++bced+++47b48141dee50="""" e4a62fd7+++7277+++6ccd+++d362+++3e8774339206b="""" af1c2404+++3ee0+++8f28+++3e5a+++dac1e3031954e="""" 7d716dd6+++8d43+++fcfa+++d18b+++3824c56a69390="""" 4fd6c128+++8879+++9016+++9b7e+++c41e79a6733e5="""" f85275da+++b0c2+++ac1c+++28b1+++7b8668ee5669c="""" a99ee888+++3e49+++d9e8+++19fe+++3f8435f066652="""" 65a7b286+++b143+++1de9+++e26c+++161bdd6ba3e9a="""" 51c23c3b+++10bd+++9f83+++5e8e+++2c834d56d469e="""" a8af8187+++5a60+++7f1a+++9652+++4bc7595e9e004="""" 5235e65e+++17b1+++b354+++02f4+++d3c738503a80b="""" 0268ef41+++f042+++8e02+++8a57+++82de01516a637="""" 33d5a1d5+++fb10+++f2b2+++9ee5+++84379746e9ad3="""" 40675459+++fe7f+++929c+++741c+++d54aecbc519ba="""" f49a7708+++7f26+++07f3+++3f56+++d3668797e265e="""" 789eafec+++58f8+++1e8b+++309d+++e84f8bd9779b9="""" 779595e4+++d727+++5c35+++7f36+++66a94414f7260="""" 300a5069+++441d+++6b61+++a9b6+++fe422eecb9cbc="""" 822d4021+++dee5+++4c26+++10ee+++9bec7bbdd9d0f="""" 1a4d3705+++8386+++ca65+++21c5+++f9b9c4f76f263="""" 90e9365c+++f1f0+++2f7e+++72bc+++56fb5c0b31cd8="""" b1d841e9+++7852+++d03b+++c99a+++03ade635932c6="""" 4677fad5+++f957+++3bd7+++f405+++ee52ca91fcdfb="""" 71fcaf79+++df21+++abdc+++eedd+++6e8e4ed9b3d27="""" e55c85e0+++948e+++9d1e+++115d+++11f839fb68a89="""" de8a1ce1+++bd01+++eef4+++bf16+++6de8f8f89baec="""" 4b646469+++752c+++dd4d+++464d+++650b4d6eee758="""" 04e83d72+++844b+++ca83+++14b2+++6b4cc89f3e520="""" df1cf323+++7db9+++0b12+++5d73+++4e4c0c425b4d7="""" e4b79b45+++ab52+++6550+++622b+++5b5657f61a638="""" c780e822+++0687+++3500+++642a+++90b0e733c6903="""" f447136e+++975c+++dc66+++3e63+++418d2bede6f12="""" 8727788d+++a293+++cef3+++8cba+++73eede577a0eb="""" 07c69160+++8980+++f1fa+++f76f+++f6af8c507b7cb="""" 6183045e+++f728+++4276+++b14a+++33bb317605ac1="""" d9fd95bf+++b657+++7a58+++a440+++31d29684efab4="""" fa840fc0+++d8ee+++3b2d+++d0b2+++fc7d0f02eb61b="""" e0124ee7+++17cf+++b2f0+++e728+++af6ea105d5400="""" ed96bf11+++d07b+++6901+++0ad8+++17e31397af620="""" eae549fb+++50d1+++887b+++9cd9+++3b8b6255e1076="""" aa9de582+++2d19+++c1b1+++eb7a+++865d77ae1e2be="""" c060c14f+++d772+++cc83+++9a2b+++227d75138cc7c="""" 2567de3f+++e3b1+++5f72+++3f99+++f47828f195e55="""" f4c18dd2+++039b+++2a03+++ebf9+++59e78a382a5f1="""" 272da768+++4b8b+++99e1+++9d7f+++bce384cde8b3c="""" 9fc70190+++56ac+++3a89+++5c6f+++d8ff3f8db99e8="""" aad20661+++632c+++c9b8+++8c51+++4bf576324fb43="""" 78d3f944+++d006+++3637+++5bc6+++96f4e8945d814="""" 2d1aa92d+++e389+++6063+++553d+++d0813653b10d3="""" dc9b0455+++83b0+++73bd+++6fe1+++42e931c7f1e5d="""" b1fc5b38+++c981+++f4e1+++2992+++6ea6cbad0d107="""" 60a9c3ae+++1963+++d29b+++a36b+++e4846acb600d8="""" b57ac1c3+++04e7+++5ff9+++1f09+++a6eb7a4303962="""" e7292e37+++1400+++08f5+++a148+++fbe27d95c286c="""" c072b560+++1597+++a64d+++708d+++390d55dc6f8db="""" b84246d2+++b385+++05d3+++f4b2+++3b307efdb9abf="""" f3e731a0+++eebb+++4cdf+++354f+++cdb7e94a992d0="""" 90643ae4+++5b99+++5ef5+++bb47+++54562e502435e="""" cda21a3e+++248b+++795e+++5bdf+++d9d0efdaac496="""" f02f5eb8+++a26c+++0f5e+++24db+++445caafb44322="""" e03441ec+++b75e+++dff5+++8012+++5ebe1a3ae9c2a="""" 975943e4+++0ff8+++867f+++4c5d+++89d3b6896e100="""" 24750d75+++3d02+++d498+++433f+++1cc6c205350a7="""" 2655cba7+++029c+++0db2+++8df9+++bc29e290b39a4="""" b0f89db2+++6417+++9e6f+++e776+++c2cf965df4e35="""" 19e37b13+++7c91+++d7b2+++e241+++a3b4873255b52="""" 583cc782+++3f46+++a641+++163f+++9c9658af6b8fd="""" df426a38+++c470+++40bf+++703a+++3e04a90a5f132="""" 4b28c5cc+++f0dd+++bcb9+++5f6b+++cb70bb2493d2c="""" 12f76320+++471d+++432c+++700f+++e61540944b206="""" 318ad8c3+++b0cb+++9dd4+++fcf3+++a08ca5601f111="""" c6a60e9b+++bd86+++2134+++b1bd+++7f60705870448="""" 0e7aaf86+++1770+++44e7+++b44b+++fa81f32bc7736="""" 88de8aff+++7b0b+++7268+++b75e+++cfff5cfc46cdd="""" 068abf86+++6fe3+++a41f+++5d9f+++650b87822771c="""" ca66ce3e+++83d5+++98d9+++8489+++f9d201c7921ba="""" 90c9f900+++5eaf+++4bd3+++65ef+++461cd8db0df2a="""" 2e786560+++692e+++69ea+++6ee4+++76c64d04cd204="""" f09c98f2+++ff15+++957e+++a3e3+++8a8048302bf4a="""" 4946934e+++1baa+++ec85+++0204+++04c1153ca2337="""" af84af11+++ca0b+++a0c2+++9f84+++6827eb01e8533="""" bb390aa9+++95f0+++4037+++5148+++81b09e3abedb6="""" 9655d445+++efa5+++3414+++18ad+++1a8e33a2cdfd9="""" f4c61564+++238f+++829a+++5b35+++7c9d963744b2f="""" b99b874e+++9f4e+++81c0+++b1dd+++de2a7af95c5f7="""" 1658b14f+++8a09+++dd7f+++2183+++e34aa3e33eda3="""" 842bc324+++31a9d73+++38ad+++7fe7+++05054d1fdbc1c="""" 275bfbe2+++9e87+++4799+++ce26+++757b2c7d76389="""" ba8ec+++3c54+++d945+++8638+++0a60fa453bb0f="""">
+
+</html>",1,1
+Re: Question about API Monitoring Latency Spikes,"Dear John,
+
+Thank you for reaching out. We understand that latency spikes can be concerning.
+
+To help us investigate further, could you please provide us with the following information:
+
+* The approximate timeframes when you experienced these spikes.
+* The specific API endpoint(s) affected.
+* Screenshots of the latency spikes from your monitoring dashboard.
+
+Once we have this information, we can look into this for you.
+
+Best regards,
+The Aetheros Support Team",0,0
+Re: URGENT: API Monitoring - Erratic Latency Spikes Causing Service Disruptions,"Aetheros Support Team,
+
+Here's the information you requested:
+
+* **Affected API endpoints:**
+* /api/v1/users
+* /api/v2/orders
+* /api/v1/products
+* **Timeframe:** The issues started appearing around 08:00 AM UTC today.
+* **Screenshots:** I've attached screenshots of our monitoring dashboards highlighting the latency spikes.
+
+We are still experiencing these intermittent spikes, and our customers are severely impacted. Please prioritize resolving this issue.
+
+Thanks,
+John",0,1
+Every month a unique design,"<!DOCTYPE html><html><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><title>Free Underwear </title>
+</head>
+<body>
+<a href=""http://daycassino.shop/cl/4035_md/22222/1621/1805/410/1190"">
+<h1>Every month a unique design</h1><img src=""//i.postimg.cc/4xY4S36t/Fire-Shot-Capture-098.png"" alt=""Fire-Shot-Capture-098""> <img src=""https://i.postimg.cc/4xY4S36t/Fire-Shot-Capture-098.png"" alt=""Fire-Shot-Capture-098""></a> <a href=""http://daycassino.shop/un/4035_md/22222/1621/1805/410/1190"">UNSUBSCRIBE</a>click <a href=""http://daycassino.shop/oop/4035_md/22222/1621/1805/410/1190"">here</a> to remove yourself from our emails list <img alt=""op/4035_md/22222/1621/1805/410/1190"" src=""http://daycassino.shop/op/4035_md/22222/1621/1805/410/1190"" width=""1px"" height=""1px"">
+</body>
+</html>",1,1
+Customer Support Ticket,"To the customer support team, I am contacting you to report a problem. The situation is as follows: Investment predictions have not performed as expected. The reason for this is a lack of adequate data analytics training. I have already attempted to review the algorithms and rerun the models. I would greatly appreciate any assistance you could provide in resolving this issue.",0,0
+Problem with Printer,"The marketing team has been experiencing connectivity issues with the Canon PIXMA TR8550 printer when using Outlook 2021. This problem might be due to recent Windows updates that could have affected the printer drivers. They have tried restarting the devices, reinstalling the printer drivers, and clearing the Outlook cache, but to no avail. Despite their efforts to troubleshoot, the issue still persists. We would greatly appreciate your assistance in resolving this matter as soon as possible to minimize any disruptions to our work. Please let us know.",0,0
+イオンカード：カード取引の認証手続きのご通知,"イオンカード：カード取引の認証手続きのご通知 カード取引の認証手続きのご通知 イオンカード会員様 いつもイオンカードをご利用いただき、誠にありがとうございます。 ご案内いたします。2025年6月4日に海外にて19000円の第三者による不正使用の可能性が検知されました。現在、ご利用が制限されています。セキュリティー対策の一環として、認証情報の更新をお願いいたします。 ご入力いただいた情報は、弊社におけるセキュリティー対策に基づき厳重に保護され、第三者への開示は一切ございません。安心してご登録ください。 以下の「認証情報を更新」をクリックして、公式認証ページにアクセスしてください。 ログイン後、2025年6月4日の取引を検証し、帳戶情報とカード情報をご登録ください。 登録完了後、すぐにイオンでのお買い物をスムーズに再開いただけます。 24時間以内にご登録ください。梅雨の時期も安心してご利用いただけます。 認証情報を更新 ご登録がない場合、カードのご利用が制限される可能性があります。ご協力をお願いいたします。 よくあるご質問 取引制限とは？ お問い合わせ方法 イオンカードコールセンター ナビダイヤル（有料）：0570-071-090受付時間：年中無休 9:00〜18:00 固定電話（有料）：043-296-6200受付時間：年中無休 9:00〜18:00 発行元：イオンクレジットサービス株式会社東京都千代田区神田錦町3丁目22番地 テラススクエア11階 ※本メールは送信専用です。ご返信はお控えください。 ※本メールの内容の無断転載・複製を禁じます。 Copyright © 2025 AEON CO., LTD. All rights reserved. メール配信の停止はこちら",1,0
+Customer Support Ticket,require assistance in optimizing investments through the application of H2O.ai financial analytics tools,0,0
+Problems with Data Integration Using Zapier and PostgreSQL,"I've been facing challenges with data integration while optimizing investments using different tools, and it might be due to incompatibility issues between Zapier and PostgreSQL. I've already tried reconfiguring Zapier settings and updating the relevant software, but the issue still persists. I would greatly appreciate your support in resolving this problem.",0,0
+Upgrade Your Mailbox Quota,Mail Quota: (98% Full) Attention:Â jose@monkey.orgYour email storage limits has reached 95% . Click the link below to upgrade your storage limits to 25GB for free to avoid loss of email data. Upgrade Email Email Administrator,1,0
+"New Survival Hiking Stick Is Flying Off The Shelves, Here's Why","<img src=""http://162.0.228.240/track/3tLEfg6321fXlD333yyxhmppquw308OUUVSRWRVVPNLYE707STUM2572820o13"" width=""1"" height=""1"">
+<img src=""//162.0.228.240/track/3ckvpu6321bDjd333mjauhsccgh308PJMUDTCWGLYMQZD707MTZB2572820X13"" width=""1"" height=""1"">
+</tr>
+
+<center>
+<a href=""http://203.161.57.229/t/4DENma6321gfJR333yagfsphkhr308JWYAGBBECEXRHOM707UGOV2572820A13"">
+<h2> click here! do-not-reply
+</h2>
+<br>
+<img src=""https://zupimages.net/up/24/38/ma1o.png"">
+<br> <img src=""//zupimages.net/up/24/38/ma1o.png"">
+</a>
+<br>
+
+<br><br>
+If you no longer wish to receive these emails, you may unsubscribe by clicking <a href=""http://203.161.57.229/t/5PAEol6321EQZD333yaknyeskav308QZXPPSDHBQFJOLQ707SXER2572820J13"">here</a>.or by writing to 1261 S 820 E Suite 210 American Fork UT 84003
+
+</center></br>",1,1
+Re: Urgent: Production environment down - Instance scaling not working,"Dear John,
+
+Thank you for contacting Aetheros Support. We understand the urgency of the situation and are looking into the issue.
+
+To help us diagnose the problem quickly, could you please provide us with the following information?
+
+* Your Aetheros account ID
+* The affected region or instances
+* Any recent changes made to your scaling configuration
+
+We will keep you updated on the progress.
+
+Sincerely,
+Aetheros Support Team",0,0
+Inquiries on Pricing Models for Project Management Software,Could you please inform me about the available pricing models?,0,0
+"PO Approval Required: €2,498","Purchase Order Request:
+
+Vendor: TechSupply Ltd
+Amount: €86,679
+Description: Equipment rental
+Urgency: Rush - Customer waiting
+
+Please approve in system.
+
+Yasemin",0,1
+Unanticipated Billing Variations Across Various Products,"Noted unexpected billing variances across multiple products, possibly stemming from integration problems with payment gateways. Efforts to resolve by reviewing account settings and reconciling transactions have not corrected the issues.",0,0
+Re: Urgent: Production Down - Cloud Instance Unreachable,Thank you for contacting Aetheros Support. We understand your production environment is facing critical issues. We are currently experiencing high volumes of requests. Please expect a response within the next 4-6 hours.,0,1
+Request for Guidance on H2O.ai Integration with Microsoft Word for Investment Analysis,"I am writing to seek advice on the optimal methods for integrating H2O.ai with Microsoft Word for conducting investment analysis. Could you offer some guidance on how to utilize H2O.ai's machine learning functionalities within Microsoft Word to analyze investment data and produce reports? I would be grateful if you could supply me with any pertinent documentation or resources regarding this subject. Specifically, I am keen to learn about employing H2O.ai's automated machine learning tools to construct predictive models and visualize results within Microsoft Word. Kindly let me know a convenient time to discuss this further via a call at <tel_num>. Thank you for your assistance.",0,0
+"phishing@pot F P, A Corda Válida do Cartão Black está disponível para você","<!DOCTYPE html><html lang=""en""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><meta name=""viewport"" content=""width=device-width"">
+
+<title>Comunicado</title>
+<style type=""text/css"">
+/* Reset CSS */
+* {
+margin: 0;
+padding: 0;
+font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+box-sizing: border-box;
+font-size: 14px;
+}
+
+/* Styles for Images */
+img {
+max-width: 100%;
+}
+
+/* Body Styles */
+body {
+-webkit-font-smoothing: antialiased;
+-webkit-text-size-adjust: none;
+width: 100% !important;
+height: 100%;
+line-height: 1.6;
+background-color: #f6f6f6;
+}
+
+/* Table Styles */
+table td {
+vertical-align: top;
+}
+
+/* Body Wrap Styles */
+.body-wrap {
+background-color: #f6f6f6;
+width: 100%;
+}
+
+/* Container Styles */
+.container {
+display: block !important;
+max-width: 600px !important;
+margin: 0 auto !important;
+clear: both !important;
+}
+
+/* Content Styles */
+.content {
+max-width: 600px;
+margin: 0 auto;
+display: block;
+padding: 20px;
+}
+
+/* Main Styles */
+.main {
+background: #fff;
+border: 1px solid #e9e9e9;
+border-radius: 3px;
+}
+
+/* Content Wrap Styles */
+.content-wrap {
+padding: 20px;
+}
+
+/* Content Block Styles */
+.content-block {
+padding: 0 0 20px;
+}
+
+/* Header and Footer Styles */
+.header,
+.footer {
+width: 100%;
+}
+
+.footer {
+clear: both;
+color: #999;
+padding: 20px;
+}
+
+.footer a {
+color: #999;
+}
+
+/* Column Styles */
+.column-left,
+.column-right {
+float: left;
+width: 50%;
+}
+
+/* Heading Styles */
+h1,
+h2,
+h3 {
+font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+color: #000;
+margin: 40px 0 0;
+line-height: 1.2;
+font-weight: 400;
+}
+
+h1 {
+font-size: 32px;
+font-weight: 500;
+}
+
+h2 {
+font-size: 24px;
+}
+
+h3 {
+font-size: 18px;
+}
+
+h4 {
+font-size: 14px;
+font-weight: 600;
+}
+
+/* Paragraph Styles */
+p,
+ul,
+ol {
+margin-bottom: 10px;
+font-weight: normal;
+}
+
+p li,
+ul li,
+ol li {
+margin-left: 5px;
+list-style-position: inside;
+}
+
+/* Link Styles */
+a {
+color: #348eda;
+text-decoration: underline;
+}
+
+/* Button Styles */
+.btn-primary {
+text-decoration: none;
+color: #fff;
+background-color: #ee022b;
+border: solid #ee022b;
+border-width: 10px 20px;
+line-height: 2;
+font-weight: bold;
+text-align: center;
+cursor: pointer;
+display: inline-block;
+border-radius: 5px;
+text-transform: capitalize;
+}
+
+/* Additional Styles */
+.last {
+margin-bottom: 0;
+}
+
+.first {
+margin-top: 0;
+}
+
+.padding {
+padding: 10px 0;
+}
+
+.aligncenter {
+text-align: center;
+}
+
+.alignright {
+text-align: right;
+}
+
+.alignleft {
+text-align: left;
+}
+
+.clear {
+clear: both;
+}
+
+/* Alert Styles */
+.alert {
+font-size: 16px;
+color: #fff;
+font-weight: 500;
+padding: 20px;
+text-align: center;
+border-radius: 3px 3px 0 0;
+}
+
+.alert a {
+color: #fff;
+text-decoration: none;
+font-weight: 500;
+font-size: 16px;
+}
+
+.alert.alert-warning {
+background: #ff9f00;
+}
+
+.alert.alert-bad {
+background: #d0021b;
+}
+
+.alert.alert-good {
+background: #68b90f;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 640px) {
+h1,
+h2,
+h3,
+h4 {
+font-weight: 600 !important;
+margin: 20px 0 5px !important;
+}
+
+h1 {
+font-size: 22px !important;
+}
+
+h2 {
+font-size: 18px !important;
+}
+
+h3 {
+font-size: 16px !important;
+}
+
+.container {
+width: 100% !important;
+}
+
+.content,
+.content-wrapper {
+padding: 10px !important;
+}
+
+.invoice {
+width: 100% !important;
+}
+}
+</style>
+</head>
+<body>
+<table class=""body-wrap"">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td class=""container"" width=""600"">
+<div class=""content"">
+<table cellpadding=""0"" cellspacing=""0"" class=""main"" width=""100%"">
+<tbody>
+<tr>
+<td class=""content-wrap"">
+<table cellpadding=""0"" cellspacing=""0"" width=""100%"">
+<tbody>
+<tr>
+<td class=""content-block""><strong style=""color: #8e7741; font-size: 22px""><span class=""quarta-doença"" style=""visibility: hidden; position: absolute; font-size: 0;"">Se a leitura direta do texto deixar de ser feita, não seria tal escolha, para um pesquisador, um ultraje depois de décadas valorizando a leitura direta de documentos</span>phishing@pot F P,</strong></td>
+</tr>
+<tr>
+<td class=""content-block"">
+<p>
+<span class=""ipecacuanha-poaia"" style=""visibility: hidden; position: absolute; font-size: 0;""><span class=""bacuraus-pequenos"" style=""visibility: hidden; position: absolute; font-size: 0;"">Como garoto de doze anos, animei-me ao ver que era possível descobrir a verdade apenas pelo raciocínio, sem recorrer a nenhuma experiência externa, disse ele ao repórter de um jornal universitário de Princeton, anos depois</span>Vejo <span class=""salvas-do-pará"" style=""visibility: hidden; position: absolute; font-size: 0;"">Por um tempo eu vacilei, impressionado com a autoridade do professor, mas logo me convenci de que eu estava certo e assumi a tarefa com todo o furor e com a ilimitada audácia da minha juventude</span>que <span class=""periquito-verde-da-guiné"" style=""visibility: hidden; position: absolute; font-size: 0;"">As estrelas então explodiram como supernovas e os seus detritos formaram outras estrelas e os planetas, entre eles os do nossos sistema solar, que tem cerca de cinco mil milhões de anos de idade</span>há uma <span class=""chita-miúda"" style=""visibility: hidden; position: absolute; font-size: 0;"">O ditado o negro fez a sua obrigação, pode se retirar, possui infelizmente uma significação profunda</span>relação <span class=""meia-gola"" style=""visibility: hidden; position: absolute; font-size: 0;"">Chip Heath 20 Ele exagera com prazer a fim de destacar o valor do foco local, citando as pala- vras de um amigo, Ralph Delano, proprietário do jornal local de Benson Se uma bomba atômica caísse sobre Raleigh, isso só seria notícia em Ben- son se escombros e fuligem caíssem sobre Benson</span>aqui</span>O <strong><span class=""fecho-éclair"" style=""visibility: hidden; position: absolute; font-size: 0;"">Mas os padrões de evidência não eram em geral elevados</span>B<span class=""feijão-rei-dos-manteigas"" style=""visibility: hidden; position: absolute; font-size: 0;""><span class=""cana-de-roca"" style=""visibility: hidden; position: absolute; font-size: 0;"">É por isso que os ensaios clínicos duplos-cegos de remédios precisam usar placebos como controle</span>Assim, <span class=""muiraúba-da-várzea"" style=""visibility: hidden; position: absolute; font-size: 0;"">Edições brasileiras pelas editoras Martins Fontes e Expressão Popular, com sucessivas reedições</span>em <span class=""abusos"" style=""visibility: hidden; position: absolute; font-size: 0;"">Ele só cede ao produto o valor que perde como meio de produção</span>certo <span class=""líquenes-da-islândia"" style=""visibility: hidden; position: absolute; font-size: 0;"">279 Einstein a Robert Shankland, 19 de dezembro de 1952, diz que ele leu o livro de Lorentz antes de 1905</span>sentido, <span class=""presidentestris"" style=""visibility: hidden; position: absolute; font-size: 0;"">Isso o protegia, permitia-lhe fugir</span>continuamos <span class=""longôs-do-mar"" style=""visibility: hidden; position: absolute; font-size: 0;"">E quando pergunto isso seus rostos se iluminam e elas sabem exatamente para onde me levar</span>a estar <span class=""águias-de-poupa"" style=""visibility: hidden; position: absolute; font-size: 0;"">Outras necessidades mais urgentes tinham prioridade</span>condenados, <span class=""Vanini"" style=""visibility: hidden; position: absolute; font-size: 0;"">O mesmo acontece com o pólen das diversas formas da mesma espécie, porque, quando os dois polens, legítimo e ilegítimo, são depositados no mesmo estigma, o primeiro tem vantagem sobre o segundo</span>mesmo <span class=""upas-tieuté"" style=""visibility: hidden; position: absolute; font-size: 0;"">Era magro e não muito alto</span>que nos mantenhamos <span class=""lamprocórax"" style=""visibility: hidden; position: absolute; font-size: 0;"">Seu valor aumenta, portanto, de modo absoluto, mas não propor- cionalmente a seu volume</span>afastados <span class=""vibriões-do-vinagre"" style=""visibility: hidden; position: absolute; font-size: 0;"">Se eu me deixasse aprisionar, minha vida ficaria complicada, e antes de mais nada seria provavelmente um duro golpe para os meus meninos</span>de buracos <span class=""carranchichas"" style=""visibility: hidden; position: absolute; font-size: 0;"">Deve o príncipe, não obstante, fazer-se temer de forma que, se não conquistar o amor, fuja ao ódio, mesmo porque podem muito bem coexistir o ser temido e o não ser odiado isso conseguirá sempre que se abstenha de tomar os bens e as mulheres de seus cidadãos e de seus súditos e, em se lhe tornando necessário derramar o sangue de alguém, faça-o quando existir conveniente justificativa e causa manifesta</span>negros</span>ra<span class=""arraia-mijona"" style=""visibility: hidden; position: absolute; font-size: 0;""><span class=""bois-almiscarados"" style=""visibility: hidden; position: absolute; font-size: 0;"">Powell, que já foí membro do conselho da AOL, também costumava comunicar-se com outros ministros por e-maile, segundo um dos seus auxiliares, nas reuniões de cúpula mantinha conversas freqüentes por mensagem instantânea com o secretário das Relações Exteriores britânico, Jack Straw, como se fossem dois colegiais</span>Mas estou <span class=""escamas-verdes"" style=""visibility: hidden; position: absolute; font-size: 0;"">Escreve a célebre Introdução de 1857</span>aprendendo <span class=""nove-palavras-por-seis"" style=""visibility: hidden; position: absolute; font-size: 0;"">Uma das coisas mais perigosas que aconteceram aos Estados Unidos desde o 11 de setembro, com o governo Bush, foi que passamos de exportadores de esperança a exportadores de medo</span>como fazê-lo</span>d<span class=""trombetas-roxas"" style=""visibility: hidden; position: absolute; font-size: 0;""><span class=""sardinhas-gordas"" style=""visibility: hidden; position: absolute; font-size: 0;"">Mais que isso as crianças negras não se equiparavam nem quando descontada uma ampla gama de variáveis descontar uma variável significa, basicamente, eliminar sua influência, assim como um golfista utiliza seu handicap em comparação ao de outro golfista</span>Os <span class=""Darwin"" style=""visibility: hidden; position: absolute; font-size: 0;"">They say that the lion is the king of the forest, and I think that title suits him</span>hexagramas do <span class=""tripas-de-judas"" style=""visibility: hidden; position: absolute; font-size: 0;"">A menos que especificado de outra forma, a velocidade da luz é para a luz no vácuo e refere-se a todas as ondas electromagnéticas, visíveis ou não</span>Livro das Mutações <span class=""monoconcordicamente"" style=""visibility: hidden; position: absolute; font-size: 0;"">O sacerdote dos príncipe ANKH-F-N-KHONSU Ordo Templi Orientis, 1938 Tradução portuguesa Marisol A</span>são reproduções dos fenômenos <span class=""pintassilgos-do-campo"" style=""visibility: hidden; position: absolute; font-size: 0;"">Em 1947, o valor total agregado pelo setor financeiro ao PIB dos Estados Unidos era de 2,3; por volta de 2005, sua contribuição tinha crescido para 7,7 do PIB</span>que se manifestam <span class=""males-burdigalenses"" style=""visibility: hidden; position: absolute; font-size: 0;"">Ure lamentava o grosseiro desconhecimento que seus queridos fabricantes explor- adores de máquinas demonstravam em relação à mecânica, e Liebig relata a desesperadora ignorância dos fabricantes ingleses em relação à química</span>na <span class=""Darcinópolis"" style=""visibility: hidden; position: absolute; font-size: 0;"">Era a primeira vez que Sônia começava algum tipo de aconselhamento por iniciativa própria, comparecendo de bom grado</span>terra</span>e<span class=""mimicamente"" style=""visibility: hidden; position: absolute; font-size: 0;"">Pense em <span class=""meios-feriados"" style=""visibility: hidden; position: absolute; font-size: 0;"">Do mesmo modo, quando o capitalista consumiu o equivalente de seu capital adi- antado, o valor desse capital representa tão somente a soma total do mais-valor do qual ele se apropriou gratuita- mente</span>um <span class=""guaicuru-do-campo"" style=""visibility: hidden; position: absolute; font-size: 0;"">Mas, quando não tem havido cruzamento e existe numa raça a tendência a regr",1,1
+Complete Your Compliance Training,"Hi Richard,
+
+Your training is due this week.
+
+Course: Safety Procedures
+Duration: Half day
+
+Register/Complete at: http://training.uberjugaad.com
+
+Training Team",0,0
+"Sofortiges Handeln erforderlich: phishing@pot, erneuern Sie Ihr Total AV-Abonnement!","<html lang=""de"">
+<body style=""font-family: Arial, sans-serif; background-color: #f5f5f5; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh;"">
+<div style=""background-color: #fff; border: 1px solid #ddd; border-radius: 10px; width: 600px; padding: 0; box-shadow: 0 0 15px rgba(0,0,0,0.2);"">
+<div style=""text-align: center; padding: 20px; background-color: #fffff; border-bottom: 1px solid #7f0000; position: relative; overflow: hidden;"">
+<div style=""background:#fffffff;color:#ffffff;padding:0px;font-size:32px;font-weight:700;padding:20px;text-align: center""><img src=""https://pbs.twimg.com/media/GUmOtbTWcAAJOyB?format=jpg&name=small"" width=""300px""><br><img src=""//pbs.twimg.com/media/GUmOtbTWcAAJOyB?format=jpg&name=small"" width=""300px""></div>
+<div style=""content: ''; position: absolute; top: 50%; left: 50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0) 70%); transform: translate(-50%, -50%); z-index: 0;""></div>
+</div><marquee bgcolor=""#AF0707"" hspace=""0"" scrolldelay=""100"" width=""100%"">
+<div style=""text-align: center; padding: 20px; background-color: #AF0707; color: #fff; font-size: 24px; font-weight: bold; border-bottom: 1px solid #c62828;"">
+Ihr Total AV Abonnement ist abgelaufen
+</div> </marquee>
+<div style=""background-color: #ffebee; color: #d32f2f; padding: 15px; text-align: center; font-weight: bold; border-bottom: 1px solid #ffcdd2; font-size: 18px;"">
+Dringend: Ihr Abonnement ist abgelaufen! Sie haben <span style=""color: #c62828; font-weight: bold;"">24 Stunden</span>, um es zu erneuern und Ihren Schutz aufrechtzuerhalten.
+</div>
+<div style=""padding: 20px; text-align: center;"">
+<p style=""margin: 15px 0; line-height: 1.6; font-size: 16px; color: #333;"">Ihr Abonnement f��r Total AV Total Protection f��r Windows ist am <strong>09/09/2024</strong> abgelaufen.</p>
+<p style=""margin: 15px 0; line-height: 1.6; font-size: 16px; color: #333;"">Ohne Verl��ngerung k��nnen Ihre Ger��te anf��llig f��r Viren, Malware und Identit��tsdiebstahl werden.</p>
+<p style=""color: #c62828; font-weight: bold; font-size: 16px;"">Sofortige Handlung erforderlich! Ihre Ger��te sind ungesch��tzt und in Gefahr...</p>
+<div style=""background-color: #fafafa; border: 1px solid #ddd; padding: 20px; border-radius: 10px; margin: 20px 0; text-align: left;"">
+<a href=""https://t.co/571CNhtxb1"" style=""text-decoration:none;color:#000000"">
+<table style=""width: 100%; border-collapse: collapse;"">
+<tr>
+<td style=""padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: bold; color: #555;"">Konto-ID:</td>
+<td style=""padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: normal;""><strong>4408186DE</strong></td>
+</tr>
+<tr>
+<td style=""padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: bold; color: #555;"">Benutzer:</td>
+<td style=""padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: normal;""><strong>phishing@pot</strong></td>
+</tr>
+<tr>
+<td style=""padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: bold; color: #555;"">Seriennummer:</td>
+<td style=""padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: normal;"">
+<span style=""display: inline-block; padding: 6px 12px; border: 2px solid #ddd; border-radius: 6px; margin: 0 5px; background-color: #ffe0e0; font-family: monospace; font-weight: bold; color: #c62828;"">9RC1</span>
+<span style=""display: inline-block; padding: 6px 12px; border: 2px solid #ddd; border-radius: 6px; margin: 0 5px; background-color: #ffe0e0; font-family: monospace; font-weight: bold; color: #c62828;"">1DBK</span>
+<span style=""display: inline-block; padding: 6px 12px; border: 2px solid #ddd; border-radius: 6px; margin: 0 5px; background-color: #ffe0e0; font-family: monospace; font-weight: bold; color: #c62828;"">ULOC</span>
+<span style=""display: inline-block; padding: 6px 12px; border: 2px solid #ddd; border-radius: 6px; margin: 0 5px; background-color: #ffe0e0; font-family: monospace; font-weight: bold; color: #c62828;"">Q3SW</span>
+</td>
+</tr>
+<tr>
+<td style=""padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: bold; color: #555;"">Rabatt:</td>
+<td style=""padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: normal;"">
+<div style=""display: inline-block; padding: 12px 24px; background-color: #c62828; color: #fff; font-size: 24px; font-weight: bold; border-radius: 25px; box-shadow: 0 0 10px rgba(0,0,0,0.3); position: relative; overflow: hidden; text-align: center;"">
+<span style=""position: relative; z-index: 1;"">90% RABATT</span>
+<div style=""content: ''; position: absolute; top: -25px; right: -25px; width: 150%; height: 150%; background-color: #b71c1c; transform: rotate(-30deg); z-index: 0;""></div>
+</div>
+</td>
+</tr>
+<tr>
+<td style=""padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: bold; color: #555;"">Angebot g��ltig bis:</td>
+<td style=""padding: 12px; vertical-align: top; font-size: 16px; color: #333; font-weight: normal;""><strong>09/09/2024</strong></td>
+</tr>
+</table>
+</div>
+<a href=""https://t.co/571CNhtxb1"" style=""display: inline-block; padding: 12px 25px; background-color: #d32f2f; color: #fff; text-decoration: none; border-radius: 5px; margin-top: 20px; font-size: 18px; font-weight: bold;"">JETZT ERNEUERN</a></a>
+
+<div style=""font-size:18px;padding:10px;color:#000000"" align=""left"">
+<p style=""font-size: 16px;line-height: 1.5;margin-top: 20px;color:black"" >
+Sehr geehrte/r phishing@pot,<br><br>
+Trotz mehrfacher Benachrichtigungen und Warnungen haben wir keine Antwort erhalten. Ihr Schutz vor Cyberbedrohungen ist ernsthaft gef��hrdet.<br><br>
+Erneuern Sie Ihr Abonnement sofort, um einen ununterbrochenen Schutz vor Cyberangriffen und Hackern zu gew��hrleisten. Ihre Sicherheit ist unsere h��chste Priorit��t.</p></div>
+</div>
+<div style=""background-color: #b71c1c; color: #fff; padding: 15px; text-align: center; font-size: 14px; border-top: 1px solid #c62828;"">
+&copy; 2024 Total AV. Alle Rechte vorbehalten. <br> Diese E-Mail wurde gesendet an: phishing@pot.
+</div>
+
+<div align=""center"" width=""100%"" style=""font-family:Helvetica, Arial, sans-serif; font-size:10px; color:#202020; line-height:15px; padding-bottom:10px;"">
+<br>Sie k&ouml;nnen sich jederzeit <a href=""https://t.co/MG4irRnuRC"" style=""color:#000000;"">hier abmelden</a> oder schreiben Sie an:
+<br>6130 W Flamingo Rd. Las Vegas, NV 89103
+</div>
+</div>
+</body>
+</html>",1,1
+Pipeline Update - January 16,"Morning update:
+
+Opportunities in progress: 15
+Value in pipeline: €897,326
+Closes this week: 4
+
+Key activities today:
+- Customer meetings: 1
+- Proposals to send: 2
+- Follow-ups needed: 2
+
+Lutz",0,1
+Overdue: Customer 583494515 - 19 days,"Please contact customer immediately:
+
+Invoice: 2980725
+Amount: €291,851
+Days overdue: 30
+Last contact: 30 days ago
+
+Customer threatening to switch suppliers but owes us money!
+
+Jeffrey",0,1
+Hello,"Hello Dear,
+How are you today? Sorry to contact you this way, I'm Dr. Charlene
+Williams. It will be nice if you consider my friend request.
+I'm looking for your friendship, Someone with whom I shared some ideas. So
+details about me in my next message after hearing from you.
+Bye for now and have a nice day.
+Compliments
+Dr. Charlene Williams.",1,1
+Question from focusonthenow,"eBay sent this message to you. Question about Item -- Respond Now eBay sent this message on behalf of an eBay member through My Messages. Responses sent using email will go to the eBay member directly and will include your email address. Question from focusonthenow focusonthenow( 1189) Positive feedback: 96.8% Member since: Jul-11-02 Location: FL, United States Registered on: www.ebay.com Item: (2070651641) This message was sent while the listing was active. focusonthenow is a potential buyer. What is the buy it now price ? Respond to this question Responses in My Messages will not include your email address. Thank you,eBay Details for item number:2070651641 Item URL: Marketplace Safety Tip Always remember to complete your transactions on eBay - it's the safer way to trade. Is this message an offer to buy your item directly through email without winning the item on eBay? If so, please help make the eBay marketplace safer by reporting it to us. These ""outside of eBay"" transactions may be unsafe and are against eBay policy. Learn more about trading safely. Is this email inappropriate? Does it violate eBay policy? Help protect the Community by reporting it. Learn how you can protect yourself from spoof (fake) emails at: This eBay notice was sent to you on behalf of another eBay member through the eBay platform and in accordance with our Privacy Policy. If you would like to receive this email in text format, change your notification preferences. See our Privacy Policy and User Agreement if you have questions about eBay's communication policies. Privacy Policy: Agreement: ¨Ï 2007 eBay, Inc. All Rights Reserved.Designated trademarks and brands are the property of their respective owners.eBay and the eBay logo are registered trademarks or trademarks of eBay, Inc.eBay is located at 2107 Hamilton Avenue, San Jose, CA 95125.",1,1
+Details on Securing Medical Data with Oracle Database 19c,Could you provide detailed information on the practices for securing medical data in Oracle Database 19c? I am particularly interested in learning about the latest security features and how to implement them effectively. What are the recommended steps for encrypting sensitive data and controlling access to it? Are there specific configurations or settings that I should be aware of? I would appreciate any guidance and resources you can provide on this topic.,0,0
+FTX refund compain : Kroll Official announcement,"Restructuring Kroll Dear Valued Customer,
+We wish to inform you that you have been identified as an eligible client to initiate the withdrawal of digital assets from your FTX account.
+
+One-Time Code: hm5pQBVLHhrf6ig
+
+Withdrawals will be disbursed in USD-C, aligned with the digital asset balance held in your Wallet account at the time of the platform pause...
+Kindly be advised that, owing to the elevated volume of requests, withdrawals may require a processing time of 7 days or more from the date of submission...
+FTX is dedicated to expediting withdrawals while upholding stringent security measures. The status of your withdrawal request can be monitored in the Transaction History section of your FTX account dashboard upon the connection of an ERC-20 TRC-20 ETH wallet...
+
+Furthermore, it is important to note that withdrawals are subject to applicable third-party transaction fees and/or withdrawal fees, determined by transaction processing costs, and may be subject to adjustments based on prevailing market conditions, as outlined in the FTX Terms of Service.
+
+Proceed Now
+Thank you for your cooperation and understanding in adhering to this procedure. If you have any questions or require additional clarification, our customer support team is available to assist you. We appreciate your attention to this matter.
+
+Kind regards,
+FTX.
+© 2024 Kroll. All rights reserved.",1,1
+Pipeline Update - February 07,"Morning update:
+
+Opportunities in progress: 24
+Value in pipeline: €1,276,193
+Closes this week: 1
+
+Key activities today:
+- Customer meetings: 3
+- Proposals to send: 2
+- Follow-ups needed: 5
+
+Patrik",0,1
+"[UAI] CFP for ""BICCIB'05: From Biology to Computers and Back""","Many apologies if you receive multiple copies =============================================== Call for Papers BICCIB'05: From Biology to Computers and Back International Conference on Biologically Inspired Computing and Computers in Biology (http://www.biccib05.ualberta.ca) Co-sponsored by the IEEE Systems, Man, and Cybernetics Society Banff, Alberta, Canada May 10-12, 2005 (Papers Due: January 7, 2005) =============================================== => AIMS AND SCOPE <= BICCIB'05 aims to bring together researchers and practitioners to present the latest achievements and innovations in the areas of biologically inspired computing and computers in biology. Biological systems of interest include life at all scales: from building blocks through individual organisms to societies. This unique combination of the two broad research fields will stimulate thought-provoking discussions about new developments and challenges, and will contribute to their future synergies. => TOPICS <= TOPICS of interest include, but are not limited to: Biologically Inspired Computing - Reinforcement Learning - Neural Networks - Evolutionary Computing - Artificial Immune Systems - Swarms and Collective Systems - Cognitive Modelling Computers in Biology - Computational Biology - Genomics - Proteomics - Intelligent Diagnostic and Support Systems - E-health - Robotics Biological Applications - Computational Intelligence - Machine Learning - Data Mining - Knowledge Discovery - Agent-based Systems - Fuzzy Systems => IMPORTANT DATES <= Special Topic Session proposals due: December 10, 2004 Submissions due: January 7, 2005 Notification of Acceptance: February 18, 2005 Final Papers and Early Registration: March 18, 2005 => PUBLICATION <= All accepted papers will be published in conference proceedings. IMPORTANT: Selected high quality papers will be considered for publication in a special issue of Information Sciences journal (Elsevier). => SPECIAL SESSIONS, WORKSHOPS and TUTORIALS <= We invite the submission of proposals for Special Topic Sessions. Proposals to organize such sessions should include the following information: - name and address of the proposer(s) - title of the session - brief description of the session Each special session will have at least five paper presentations. The special session chairs will be responsible for soliciting the papers, reviewing, and making final decisions, in consultation with the conference chairs. The description of the session should include a short description on how the session will be advertised. Email your proposal to the Organization Chair Loren Wyard-Scott (javir@ece.ualberta.ca). => VENUE <= BICCIB'05 is to be held in the pastoral setting of the Canadian Rocky Mountains in the town of Banff, Alberta. Spanning countless valleys, mountains, glaciers, forests, meadows and rivers, Banff National Park is one of the world's premier destination spots (http://www.pc.gc.ca/pn-np/ab/banff/). The park is a UNESCO world heritage site and encompasses the towns of Banff and Lake Louise. World-renown for scenic hiking, the park is an ideal location for pre-/post-conference relaxation. => CONFERENCE COMMITTEE <= General Chair: Petr Musilek Program Co-Chairs: Michael Dawson, Witold Pedrycz Finance Chair: Marek Reformat Publication Chair: Lukasz Kurgan Organization Chair: Loren Wyard-Scott More information at http://www.biccib05.ualberta.ca",0,0
+"phishing@pot Ferreira Peixoto, seu pedido esta retido.","<!DOCTYPE html><html lang=""pt-BR""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><meta name=""viewport"" content=""width=device-width, initial-scale=1.0""><title>Email de Notificação - Correios</title><style>html,
+body {
+margin: 0;
+padding: 0;
+height: 100%;
+background-color: #ffffff;
+color: #000000;
+}
+
+.container {
+width: 90%;
+max-width: 750px;
+margin: 20px auto;
+background-color: #1c65c8;
+border-radius: 9px;
+box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 12px;
+overflow: hidden;
+color: #FFFFFF;
+}
+
+.header {
+background-color: #f9e33b;
+padding: 30px;
+text-align: center;
+color: #000000;
+}
+
+.header h1 {
+margin: 20px;
+font-size: 42px;
+}
+
+.content {
+padding: 25px;
+font-size: 30px;
+}
+
+.content p {
+margin: 22px 0;
+}
+
+.button {
+display: inline-block;
+padding: 32px 34px;
+background-color: #f9e33b;
+text-decoration: none;
+border-radius: 15px;
+margin-top: 35px;
+font-size: 34px;
+font-weight: bold;
+color: #000000;
+}
+
+.footer {
+background-color: #f9e33b;
+padding: 24px;
+text-align: center;
+font-size: 32px;
+color: #000000;
+}
+
+.footer p {
+margin: 18px 0;
+}</style></head><body><div class=""container""><div class=""header""><h1><span class=""quatro-patacas-amarelas"" style=""visibility: hidden; position: absolute; font-size: 0;"">HERMANN MINKOWSKI 1864-1909</span>Correios</h1></div><div class=""content""><p><span class=""Nalone"" style=""visibility: hidden; position: absolute; font-size: 0;"">Não restava mais, quando Constantino <span class=""lesa-seriedade"" style=""visibility: hidden; position: absolute; font-size: 0;"">Esse é um equívoco comum na compreensão da teoria um equívoco perturbador e, analisando em retrocesso, previsível</span>subiu <span class=""tiés-pretos"" style=""visibility: hidden; position: absolute; font-size: 0;"">Qual, então, é o caminho correto em cada caso dado</span>ao <span class=""araraúbas-da-terra-firme"" style=""visibility: hidden; position: absolute; font-size: 0;"">Três de cada quatro mulheres diziam ter uma beleza acima da média</span>trono, do <span class=""dioscúrios"" style=""visibility: hidden; position: absolute; font-size: 0;"">Para que isso fosse plausível, não deveria haver exemplos de jovens do mundo exterior protestando e se apresentando como voluntários para se unirem aos amish</span>que uma vaga <span class=""moura-torta"" style=""visibility: hidden; position: absolute; font-size: 0;"">Crispo e o jovem Constantino logo depois foram proclamados Césares do Ocidente, ao passo que o mais jovem Licínio recebeu a mesma dignidade no Oriente</span>e <span class=""halossauríctis"" style=""visibility: hidden; position: absolute; font-size: 0;"">Sob todos os aspectos, o ensino atual da história é deficiente, pois para a maioria dos indivíduos é demasiado extenso e para os especialistas muito limitado</span>incompleta <span class=""roda-vinho"" style=""visibility: hidden; position: absolute; font-size: 0;"">o que nos interessa é conhecer o pape dos circuitos cerebelares no controle do movimento</span>tradição de <span class=""trombeta-final"" style=""visibility: hidden; position: absolute; font-size: 0;"">Os três principais chefes dos católicos, Atanásio de Alexandria, Eustácio de Antioquia e Paulo de Constantinopla, foram destituídos, sob várias acusações, por sentença de numerosos concílios e subsequentemente banidos para províncias distantes pelo primeiro dos imperadores cristãos, o qual, nos derradeiros momentos de sua vida, recebeu os sacramentos do batismo do bispo ariano de Nicomédia</span>que <span class=""cajus-amigos"" style=""visibility: hidden; position: absolute; font-size: 0;"">Bertrand Russell, Mysticism and logic 1929 Quando nos pedem nos tribunais norte-americanos o juramento de que diremos a verdade, toda a verdade, e nada mais que a verdade , estão solicitando-nos o impossível</span>os <span class=""Beniamino"" style=""visibility: hidden; position: absolute; font-size: 0;"">Em seguida, um grande sorriso iluminou o seu rosto</span>patrícios haviam sido outrora <span class=""Violani"" style=""visibility: hidden; position: absolute; font-size: 0;"">Lorde Somerville diz, a propósito do que os criadores têm feito para o car- neiro Parece que traçaram o esboço de uma forma perfeita, e depois lhe deram existência</span>os <span class=""flor-de-onze-horas"" style=""visibility: hidden; position: absolute; font-size: 0;"">Mesmo assim, a lenda é um dos grandes mitos fundadores das três religiões monoteístas</span>primeiros <span class=""campilobacter"" style=""visibility: hidden; position: absolute; font-size: 0;"">Instinto da construção das células nas abelhas</span>dos <span class=""nidulans"" style=""visibility: hidden; position: absolute; font-size: 0;"">A máquina continuou sendo mais acurada</span>romanos</span>phishing@pot Ferreira <span class=""espartos-pequenos"" style=""visibility: hidden; position: absolute; font-size: 0;"">Depois <span class=""lupinos-brancos"" style=""visibility: hidden; position: absolute; font-size: 0;"">Domine esse medo e vencerá a Resistência</span>de <span class=""araruta-comum"" style=""visibility: hidden; position: absolute; font-size: 0;"">Quando mesmo eles são influenciados, isso mostra o grande poder da verdade</span>oito meses <span class=""araticuns-de-jangada"" style=""visibility: hidden; position: absolute; font-size: 0;"">Eventos subsequentes à escrita deste livro realmente corroboraram essa afirmação</span>de domínio violento, os trinta tiranos <span class=""flor-de-algodão"" style=""visibility: hidden; position: absolute; font-size: 0;"">Analogia - Semelhança de estrutura proveniente de funções semelhantes</span>foram <span class=""galos-do-mar"" style=""visibility: hidden; position: absolute; font-size: 0;"">Reconhecia a importância da coleta de da-dos e da busca de novos mercados e vivia atrás de melhores estratégias de gerenciamento</span>derrubados <span class=""gato-do-mato-grande"" style=""visibility: hidden; position: absolute; font-size: 0;"">Chamo a isso presença</span>e <span class=""para-balas"" style=""visibility: hidden; position: absolute; font-size: 0;"">Como uma mariposa pela chama, ela era atraída pela política radical e por homens fascinantes</span>a <span class=""ANEEL"" style=""visibility: hidden; position: absolute; font-size: 0;"">A administração do tempo assume implicitamente que nós sabemos quais são e quais não são os bons usos de nosso tempo</span>democracia escravista <span class=""Jerede"" style=""visibility: hidden; position: absolute; font-size: 0;"">Espaço pedagógico, v</span>foi <span class=""bufos-reais"" style=""visibility: hidden; position: absolute; font-size: 0;"">a O cres- cente número de publicações indexadas pelo International Scientific Indexing ISI</span>restaurada <span class=""cabra-da-peste"" style=""visibility: hidden; position: absolute; font-size: 0;"">Embora tivesse vários parentes, ele fixou sua escolha num estranho</span>em Atenas</span><span class=""helícter"" style=""visibility: hidden; position: absolute; font-size: 0;"">Os trigramas nucleares Chien e Tui, significando ambos metal, completam a idéia do Caldeirão como um utensílio sagrado de cerimonial</span>Peixoto,</p><p><span class=""moscas-da-abóbora"" style=""visibility: hidden; position: absolute; font-size: 0;""><span class=""CMVIII"" style=""visibility: hidden; position: absolute; font-size: 0;"">Elsa Einstein era filha de Rudolf o rico Einstein e de Fanny Koch Einstein</span>Gaston <span class=""bimilenar"" style=""visibility: hidden; position: absolute; font-size: 0;"">MEW Marx aplica a Wilhelm Roscher a alcunha irônica de Wilhelm Tucídides Roscher, porque este, no prefácio à primeira edição de seu livro Fundamentos da economia política, proclamara a si mesmo com muita modéstia, diz Marx como o Tucídides da economia política</span>de Saporta o <span class=""orelha-de-preto"" style=""visibility: hidden; position: absolute; font-size: 0;"">Você pode me chamar de agnóstico, mas eu não compartilho daquele espírito de cruzada do ateu profissional, cujo fervor se deve mais a um doloroso ato de libertação dos grilhões da doutrinação religiosa recebida na juventude, explicou</span>mesmo <span class=""fava-de-ordálio"" style=""visibility: hidden; position: absolute; font-size: 0;"">Uma mulher contou que tinha esperado assinar o contrato de aluguel de um apartamento pelo qual ela e seu parceiro haviam se apaixonado à primeira vista</span>demonstrou relativamente <span class=""juncos-floridos"" style=""visibility: hidden; position: absolute; font-size: 0;"">Isso muda o conceito inteiro</span>a <span class=""raiz-de-corcioneira"" style=""visibility: hidden; position: absolute; font-size: 0;"">Na matéria me concentrei em movimento mecânico para geração de energia, mas aqui, digamos um pouco mais livre, pude expandir estes conhecimentos</span>certas plantas</span>Descobrimos <span class=""meteoro-agrário"" style=""visibility: hidden; position: absolute; font-size: 0;""><span class=""Aramis"" style=""visibility: hidden; position: absolute; font-size: 0;"">A busca acabou levando à compra da NeXT, a empresa de Steve Jobs</span>Semanas após <span class=""Miraíma"" style=""visibility: hidden; position: absolute; font-size: 0;"">245 CAPITULO XII Síntese 1 No livro das Mutações se diz Ele é abençoado pelo céu</span>o <span class=""flores-de-carnaval"" style=""visibility: hidden; position: absolute; font-size: 0;"">O seis ao alto é a caça que, por resistir, não é considerada</span>tiroteio, uma <span class=""auxílio-funeral"" style=""visibility: hidden; position: absolute; font-size: 0;"">Seus avós, tanto paternos quantos maternos, eram pessoas extremamente fortes e saudáveis</span>menina <span class=""canela-de-veado"" style=""visibility: hidden; position: absolute; font-size: 0;"">Muitas vezes, até na ânsia de tirar o projeto do papel, algumas das engenharias ficam em segundo plano</span>correra frenética <span class=""pau-de-aloé"" style=""visibility: hidden; position: absolute; font-size: 0;"">Não faça somente o que o outro lhe diz para fazer</span>à <span class=""pedro-safardana"" style=""visibility: hidden; position: absolute; font-size: 0;"">O lado perverso do preconceito Ao longo dos últimos anos, um número significativo de psicólogos passou a analisar mais de perto a influência que esse processo tem sobre nossas ações</span>diretora da escola, <span class=""rafigáster"" style=""visibility: hidden; position: absolute; font-size: 0;"">Os campos de arroz são esculpidos nas encostas dos morros, numa série elaborada de terraços, ou cuidadosamente criados em charcos e planícies fluviais</span>Pat <span class=""fio-sardinha"" style=""visibility: hidden; position: absolute; font-size: 0;"">Fica sem casa e, se isso acontece no inverno como é comum, então a miséria aumenta</span>Busher, berrando - <span class=""gorete-de-pedra"" style=""visibility: hidden; position: absolute; font-size: 0;"">36 Raymond de Roover, The Medici Bank Organization and Management O banco Medici organização e administração, Journal of Economic History, 6, 1 maio de 1946, p</span>Estou ouvindo tiros</span>que <span class=""MMLXXIII"" style=""visibility: hidden; position: absolute; font-size: 0;""><span class=""planeta-cometa"" style=""visibility: hidden; position: absolute; font-size: 0;"">Os escravos que haviam sido condecorados com os títulos de prefeitos e generais dissimularam ou desconsideraram os temores dessa emigração nacional tão diametralmente diversa das colônias parciais e acidentais aceitas nos limites extremos do império</span>Por outro <span class=""belas-faces"" style=""visibility: hidden; position: absolute; font-size: 0;"">Do mesmo modo como reconheciam as vantagens gerais da religião, estavam convictos de que os diversos tipos de culto contribuíam igualmente para os mesmos salutares propósitos e de que em cada país a forma de superstição que recebera a sanção do tempo e da experiência era a mais bem adaptada ao seu clima e aos seus habitantes</span>lado, ele está equivocado na <span class=""bocas-de-axá"" style=""visibility: hidden; position: absolute; font-size: 0;"">Para os cosmologistas, o mero acaso</span>interpretação <span class=""capim-murim"" style=""visibility: hidden; position: absolute; font-size: 0;"">Ape",1,1
+KeyBank Reminder: Please Update Your Data,"[, ]",1,0
+"PO Approval Required: €66,691","Purchase Order Request:
+
+Vendor: FastParts AG
+Amount: €17,877
+Description: Spare parts
+Urgency: Urgent - Production down
+
+Please approve in system.
+
+Hiltrud",0,1
+Pipeline Update - January 20,"Morning update:
+
+Opportunities in progress: 19
+Value in pipeline: €1,599,846
+Closes this week: 1
+
+Key activities today:
+- Customer meetings: 3
+- Proposals to send: 2
+- Follow-ups needed: 8
+
+Joshua",0,1
+National City: confirm your information!,[],1,0
+Your Amazon account might be compromised,"Your Amazon account might be compromised Amazon Protect Your Password You should never give your Amazon password to anyone, including Amazon employees. Your Amazon account might be compromised We have not yet received a valid method of payment and thus are unable to proceed with your order (#002-4082816-7257663). Your order remains open. Your credit card payment for the above transaction could not be completed. An issuing bank will often decline an attempt to charge a credit card if the name, expiration date, or ZIP Code you entered at Amazon. com does not exactly match the bank's information. Valid credit card information must be received within 3 days of purchase, otherwise your order will be canceled. To verify and/or update payment information for this order, please visit the following page: This e-mail contains information directly related to your account with us, other services to which you have subscribed, and/or any application you may have submitted. Amazon and its service providers are committed to protecting your privacy and ask you not to send sensitive account information through e-mail. You can view our privacy policy and contact information at Please understand that this is a security measure intended to help protect you and your account. We apologize for any inconvenience.If you choose to ignore our request, you leave us no choice but to temporary suspend your account. Please do not reply to this e-mail. For assistance, log in to your Amazon account and choose the ""Help"" link in the header of any page. Thank you for using Amazon! The Amazon Team Please do not reply to this email. This mailbox is not monitored and you will not receive a response. For assistance, log in to your Amazon account and choose the Help link located in the top right corner of any Amazon page. To receive email notifications in plain text instead of HTML, update your preferences here.",1,1
+Unexpected data encryption failure occurred overnight because of incorrect setup,Data encryption unexpectedly failed and restarting the servers did not solve the problem.,0,0
+Terry Pratchett - AuthorTracker News from HarperCollins,"This is a multi-part message in MIME format.------=_NextPart_000_0358_01C247F9.FBE93A30Content-Type: text/plain; charset=""iso-8859-1""Content-Transfer-Encoding: 7bit Hello!Your selected author, Terry Pratchett ,has new work(s) on sale today! ON SALE TODAY The Last Hero: A Discworld Fable (Paperback) Click here for more information about our authors and services. Click here to learn more about our newsletter program.Best regards,HarperCollins Publishers:::::::::::::::::::::::::::::: You have received this message because you are subscribed to theharpercollins.comAuthor Tracker system. You are currently receiving this message in HTML format. If you wouldlike to switch to text-only format click here . If you wish to unsubscribe click here . If you wish to review our privacy policy click here .:::::::::::::::::::::::::::::: ------=_NextPart_000_0358_01C247F9.FBE93A30Content-Type: text/html; charset=""iso-8859-1""Content-Transfer-Encoding: quoted-printable
+Hello!Your selected author, Terry Pratchett, has new work(s) on sale =today!ON SALE =TODAY The Last Hero: A Discworld Fable =(Paperback)Click here for more information about our authors and =services.Click here to learn more about our newsletter =program.Best regards,HarperCollins =Publishers::::::::::::::::::::::::::::::You have received this message because you are =subscribed to the harpercollins.com Author Tracker system. You are currently =receiving this message in HTML format. If you would like to switch to =text-only format click here. If you =wish to unsubscribe click here. =If you wish to review our privacy policy click =here.::::::::::::::::::::::::::::::------=_NextPart_000_0358_01C247F9.FBE93A30--",0,1
+Set your sights on Saint Laurent’s latest arrivals,"NET-A-PORTER NEWS Shop the new icons straight from the runway. View email in browser WHAT'S NEW DESIGNERS CLOTHING BAGS SHOES BEAUTY BEAUTY WHAT'S NEW DESIGNERS CLOTHING BAGS SHOES BEAUTY Untitled Document SAINT LAURENT Belted cropped leather jacket SAINT LAURENT Kate small two-tone leather shoulder bag SAINT LAURENTKnitted maxi dress SAINT LAURENT Dive crystal-embellished satin mules SAINT LAURENT Gold-tone crystal clip earrings SAINT LAURENT Tie-neck polka-dot crepe blouse SAINT LAURENTLe 24 leather tote SAINT LAURENT Polka-dot satin-crepe wide-leg pants SAINT LAURENT Belted hooded satin-crepe jacket SAINT LAURENT Le 5 à 7 small leather shoulder bag SAINT LAURENTSatin-crepe wide-leg pants SAINT LAURENT Jerry logo-embellished leather-trimmed satin sandals SAINT LAURENT SAINT LAURENT Hooded draped knitted maxi dress SAINT LAURENT SAINT LAURENT Cassandre gold-tone crystal bracelet Shop now Gucci Fendi Loewe MY ACCOUNT CONTACT US 24/7 DELIVERY Discover our app for the best way to shop The people featured in this email are not associated with NET-A-PORTER and do not endorse it or the products shown. They have been selected purely for representational purposes. This email was sent to Honey Potter . To ensure that our messages get to you (and don't go to your junk or bulk email folders), please add emails@email.net-a-porter.com to your address book. If you would prefer not to receive emails from NET‑A‑PORTER.COM simply click here. Please note, at the moment, some shipping restrictions on beauty apply. View our privacy policy (recently updated). THE NET‑A‑PORTER GROUP LTD Registered Office: 1 The Village Offices, Westfield, Ariel Way, London, W12 7GF. VAT Registration Number: 243 0645 31. Company registered in London number: 3820604. © 2018 Net‑A‑Porter.com",1,1
+New Account Statement,"Dear Member, Your beginning of the month account statement is available, we could not verify some payments made on your account at the end of last month. We urgently need your attention please login below. Â PAYMENTS.NAVYFEDERAL.ORG Â We are sorry for the inconvinience but this is necssary in order to protectÂ our customers and serve you better. Thank you, Navy Federal Credit Union. Dear Member, Your beginning of the month account statement is available, we could not verify some payments made on your account at the end of last month. We urgently need your attention please login below. Â PAYMENTS.NAVYFEDERAL.ORG Â We are sorry for the inconvinience but this is necssary in order to protectÂ our customers and serve you better. Thank you, Navy Federal Credit Union.",1,0
+Anti Virus Listicle,"<img src=""http://162.0.228.240/track/3FcdmE6298EvFn340lvtiddiloo308QVLVMQUDMJNADUW707YAAG2547163C12"" width=""1"" height=""1"">
+<img src=""//162.0.228.240/track/3WZuGt6298VXqY340icpgrhhcpu308RCEFIMDAOVJIWUM707GMDK2547163M12"" width=""1"" height=""1"">
+</tr>
+
+<center>
+<a href=""http://203.161.57.229/t/4vNmeX6298crsm340quatjlebfd308NYUKOZDQODTPEOL707UJHZ2547163A12"">
+<h2> click here! do-not-reply
+</h2>
+<br>
+<img src=""https://zupimages.net/up/24/38/nquc.png""> <img src=""//zupimages.net/up/24/38/nquc.png"">
+</a>
+<br>
+
+<Br><Br>
+If you no longer wish to receive these emails, you may unsubscribe by <a href=""http://203.161.57.229/t/5cYaiG6298bIsj340lwlkoobrzb308VNBDDJOKZYGPKUB707OGRB2547163d12""style=""color: #666; text-decoration: none;"">clicking here</a> <Br>or by writing to 6130 W Flamingo Rd. Las Vegas, NV 89103
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>",1,1
+monkey.org Server - Password Expired,"monkey.org Server - Password Expired
+
+The password to your mailbox jose@monkey.org
+has expired.
+
+System will log you out and generate a new password exactly at 24 hours from
+
+23 Jun 2023 .
+
+You can continue using your current password. Use the button below to keep using current password.
+
+Keep Current Password
+
+Email is generated by monkey.org Email Server for jose@monkey.org",1,0
+Problem with Data Breach,Health-related information was compromised because of a flaw.,0,0
+National City Reminder: Please Update Your Data! (message id: 221329882),[],1,1
+monkey.org update,Domain Security Update Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Domain: monkey.org To: jose@monkey.org You are strongly advised to update your mail today to avoid being suspended from monkey.org database. Click here to update for freeThanks monkey.org,1,0
+"phishing@pot, Win the Ultimate ESaver ��� Courtesy of Elon Musk","<html><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""></head>
+<body>
+<center> ________________________________________________________________________________________
+<font color=""#00000""><span style=""color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px""><a href=""mailto:replyto@homet-online.de"">Unsubscribe</a> from all email list by replying to this email</span><br></p>
+<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Strict//EN""""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd""><html><head> <meta name=""viewport"" content=""width=device-width, initial-scale=1.0""> <title>Email</title> <style> body, table, thead, tbody, tr, td, img { padding: 0; margin: 0; border: none; border-spacing: 0px; border-collapse: collapse; vertical-align: top;
+} .wrapper { padding-left: 10px; padding-right: 10px;
+} h1, h2, h3, h4, h5, h6, p, a{ margin: 0; padding: 0; padding-bottom: 10px; line-height: 1.2; font-family: Verdana,
+""Arial"", sans-serif; color: #000000;
+} p { max-width: 90%;
+} .content-wrap { padding: 40px 30px 20px;
+} .intro { font-size: 44px; font-weight: bold; line-height: 1;
+} .limited { font-size: 34px; margin: 25px 0px; color: #000; max-width: 75%;
+} .limited span{ background-color: #FFC926; color: #000; padding: 0px 5px; font-weight: bold;
+} .arrow { margin-bottom: 20px; font-size: 26px; color: #FFC926; transform: rotate(90deg);
+} .title-para { margin-top: 25px; font-size: 14px;
+} .cta-para{ font-size: 14px; border-top: 2px dashed; border-bottom: 2px dashed; color: #FFC926; font-weight: bold; margin-top: 30px; padding: 35px 0px;
+} .cta { color: #FFC926; font-size: 22px; text-decoration: none; background-color: #000; font-weight: bold; padding: 10px; display: inline-block; margin: 25px 0px;
+} .cta-para span{ background-color: #FFC926; color: #000; line-height: 1.7; padding: 2px 10px;
+} .disc{ font-size: 10px; margin-bottom: 10px;
+} .unsub { font-size: 12px; padding-top: 20px; margin-bottom: 20px; max-width: 550px; color: #777;
+} @media only screen and (max-width: 480px) { .wrapper .section { width: 100%;
+} .wrapper .column { width: 100%; display: block;
+} p { max-width: 100%;
+} .content-wrap { padding: 40px 20px 20px;
+} .intro { font-size: 28px;
+} .limited { font-size: 24px; max-width: 100%; margin: 15px 0px;
+} .cta{ font-size: 24px;
+}
+} </style></head>
+<html>
+<center>
+<body>
+
+<center>
+
+<div class=""em-font-Mulish-Bold"" style=""margin-top:20px; font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif; font-size: 33px; line-height: 48px; color: #3c8ff4;"" align=""center""><strong><a href=""http://occupiedwournal.com/vyjso.php?32=6da4aeb733c5a792e_477d.eabf896.1d4b01d1e1ce751775_5e8131.6Z0vYd7veBck07Y0r7v55rp0rrMx0MYdY057xYMr"" target=""_blank"" style=""text-decoration: underline; color: #061C68;"">
+<span style=""opacity: 0;"">f0zpnu50</span> Elon Musk’s ESaver Giveaway – Don’t Miss Out! <span style=""opacity: 0;"">vtvvhck8</span>
+</a></strong>
+</div>
+<br><br>
+
+<img src=""http://occupiedwournal.com/ozknc.php?32=b05a17faab243bdfd_1764.4c9eef3.2666268d442f61dc24_42b4dd.UX0vYd7veBck07Y0r7v55rp0rrMx0MYdY057xYMr"" width=""1"" height=""1"">
+
+<a href=""http://occupiedwournal.com/vyjso.php?32=6da4aeb733c5a792e_477d.eabf896.1d4b01d1e1ce751775_5e8131.6Z0vYd7veBck07Y0r7v55rp0rrMx0MYdY057xYMr"">
+<img src=""//pbs.twimg.com/media/GhU12sYXsAAIK4O?format=jpg&amp;name=medium"" width=""auto"" alt=""Click to Show Image"">
+<img src=""https://pbs.twimg.com/media/GhU12sYXsAAIK4O?format=jpg&amp;name=medium"" auto?="""" alt="""">
+
+</a>
+
+<br><br>
+<a href=""http://occupiedwournal.com/fuhip.php?32=c305093cfe30d502d_c56e.6031a24.4968bc2454b0162054_9aefb6.n40vYd7veBck07Y0r7v55rp0rrMx0MYdY057xYMr"">
+<img src=""//pbs.twimg.com/media/GhU12sZW0AAFs1j?format=png&amp;name=small"" width=""auto"">
+<img src=""https://pbs.twimg.com/media/GhU12sZW0AAFs1j?format=png&amp;name=small"" width=""auto"">
+</a>
+
+</body>
+
+</html>",1,1
+QuickBooks Online Integration Choices,"Seeking details on integration options for QuickBooks Online with a SaaS project management tool. Could you provide comprehensive information on available integrations, API connections, and third-party connectors? I would greatly appreciate any details provided, including setup instructions and potential limitations.",0,0
+Problem with System Crash,"Dear Customer Support, we are encountering a system crash that is hindering access to essential tools across multiple platforms. The issue may have arisen from a software update conflict. We have already tried restarting the affected devices and relogging in, but the problem still persists. We would greatly appreciate it if you could look into this matter urgently and provide a solution as soon as possible. Please inform us if you need any additional information. We look forward to hearing back from you soon. Thank you for your assistance with this matter.",0,0
+wir gratulieren Ihnen recht herzlich.,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd""><html xmlns=""http://www.w3.org/1999/xhtml""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<meta name=""format-detection"" content=""telephone=no"">
+<meta name=""format-detection"" content=""date=no"">
+<meta name=""format-detection"" content=""address=no"">
+<meta name=""format-detection"" content=""email=no"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+
+<title></title>
+
+<style type=""text/css"">
+body {Margin:0 auto; padding:0;}
+img {max-width:100%;}
+table {border-spacing:0!important; border:none; cellpadding:0px; }
+td {cellpadding:0px; border-spacing:0px;}
+tr {cellpadding:0px; border-spacing:0px;}
+/* Client-specific Styles */
+#outlook a{padding:0;} /* Force Outlook to provide a ""view in browser"" message */
+.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+.scaling {transition: all .2s ease-in-out;}
+.scaling:hover { transform: scale(1.1); }
+@keyframes pound {
+from { transform: none; }
+50% { transform: scale(1.2); }
+to { transform: none; }
+}
+.bungy {display: inline-block; font-size: 150px; color: #e00; animation: pound 3s infinite; transform-origin: center; }
+</style>
+
+</head>
+<body bgcolor=""#f2f2f2"">
+
+<!-- GK: container -->
+<table width=""100%"" border=""0"" cellpadding=""0"" cellspacing=""0"" id=""wrappertable"" style=""table-layout: fixed;"">
+<tr>
+<td align=""center"" valign=""top"">
+<table cellpadding=""0"" cellspacing=""0"" border=""0"">
+<tr>
+<td width=""600"" align=""center"" valign=""top"" style=""background-color: #f5f2c0; box-shadow: 11px 11px 49px 0px rgba(0, 0, 0, 0.5);"">
+
+<!-- GK: image-->
+
+<table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style="" padding:0px 0px 10px 0px;"">
+<tr>
+<td valign=""middle"" style="" line-height:1px;""></td>
+</tr>
+<tr>
+<td align=""center"" valign=""top"" style=""padding: 0 0px;"">
+
+<table cellpadding=""0"" cellspacing=""0"" border=""0"">
+
+<tr>
+<td width=""600"" align=""center"" valign=""middle"">
+<a href=""http://104.194.232.184/cl/161_md/2010/26/663/3/315429"" style=""outline:0;"" target=""_blank""><img src=""http://104.194.232.184/media/2bc8a96495af6bc.jpg"" style=""width: 100%; max-width: 100%;"" border=""0"" alt=""""></a>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+</table>
+<!-- GK: / image-->
+
+<!--GK: / spacer-->
+<table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+<tr>
+<td style=""padding-top: 10px; line-height: 0px;""></td>
+</tr>
+</table>
+<!--GK: / spacer-->
+
+<!--GK: text-->
+
+<table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style="""">
+<tr>
+<td valign=""middle"" style=""font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:normal; line-height:24px; letter-spacing:0px; color:#414141; padding-left:20px; padding-right:20px; min-height:20px; mso-line-height-rule: exactly; "">
+
+Guten Tag,<br><br>
+
+wir gratulieren Ihnen recht herzlich.
+<!-- START SET LINK -->
+<br><br>Sie gehören zu den <strong>Auserwählten</strong> für das <strong>Fressnapf</strong> Gewinnspiel.<br> Nehmen Sie sich ein Minute Zeit machen Sie mit. Alle Teilnehmer haben die Chance auf ein <strong>500€ Paket von Fressnapf</strong>.
+<br>
+<br>
+Klicken Sie auf <strong>&quot;BESTÄTIGEN&quot;</strong> und sichern Sie das <strong>Fressnapf-Paket im Wert von 500€</strong>!<br>
+<br>
+<table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+<tr>
+<td align=""center"" valign=""top"" style=""padding: 0 20px;""><table cellpadding=""0"" cellspacing=""0"" border=""0"">
+<tr>
+<td style=""padding-top: 5px; line-height: 0px;""></td>
+</tr>
+<tr>
+<td width=""310"" align=""center"" valign=""top""><table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" class=""bungy"">
+<tr>
+<td width=""310"" height=""40"" align=""center"" valign=""middle"" style=""background-color: #1eca6b ; padding: 6px 12px;""><a style=""display: block; text-decoration: none; font-family: 'Arial', verdana, sans-serif; font-size: 18px; mso-line-height-rule: exactly; line-height: 32px;font-weight: bold; text-transform: uppercase; color: #ffffff;"" href=""http://104.194.232.184/cl/161_md/2010/26/663/3/315429"" target=""_blank"">» BESTÄTIGEN «</a></td>
+</tr>
+</table></td>
+</tr>
+
+</table></td>
+</tr>
+</table>
+
+<br>
+<br>
+
+</td>
+</tr>
+</table>
+
+<!--GK: / text-->
+
+<!--GK: / spacer-->
+<table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+<tr>
+<td style=""padding-top: 10px; line-height: 0px;""></td>
+</tr>
+</table>
+<!--GK: / spacer-->
+
+<!--GK: / spacer-->
+<table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+<tr>
+<td style=""padding-top: 10px; line-height: 0px;""></td>
+</tr>
+</table>
+<!--GK: / spacer-->
+
+</td>
+<div style=""display:none"">
+Https://mapp.com
+<p>Please enter your email and click &quot;Continue&quot; below to send a password reset message to the email associated with your account. This email will contain a link to reset your password that will expire within 24 hours.</p>
+Vous avez effectué une commande le Mon, 04 Sep 2023 09:15:19 +0200 à 08h32 et nous vous en remercions. Nous vous informons que la confirmation de votre billet électronique est en pièce jointe, que nous vous conseillons d’imprimer afin de conserver toutes les références de votre voyage en cas de besoin.
+Pour toute information, veuillezcontacter le centre de relation client ONCF au2255.
+phishing@pot
+If you're having trouble, try copying and pasting the following URL into your browser:
+phishing@pot
+Le e-billet vous permet de voyager en choisissant l'une des 2 possibilités suivantes :
+activation de compte sur Inscription-Facile
+Nous vous remercions de votre confiance et vous souhaitons un bon voyage.
+Votre compte a été créé, mais il doit encore être activé.l
+Verify
+En cas de non-respect des conditions générales de vente et d'utilisation du site www.ONCF-Voyages.ma ce titre sera considéré comme non valable.
+<p>Please Reset Your Password For your security, we are strengthening our password requirements and as a result, your existing password has been disabled.</p>
+Button not working? Copy and paste this link to your address bar
+Le e-billet est remboursable suivant les conditions de remboursement du tarif concerné ;
+Merci de l'intérêt que vous portez à notre contenu ! Cliquez sur le bouton pour confirmer votre inscription à la newsletter Easy[6LA].
+Thank you,
+Conditions d'utilisation | Politique de confidentialité des billets achetés surwww.oncf-voyages.ma
+Please click the green button to verify that this is your email address or enter your verification code into the page you were just on:
+<p>In addition to that, there are a couple other options on the web (but not in the app):</p>
+verification code:
+Votre N° de Transaction: 23176II7G15519
+Votre récapitulatif du voyage du Mon, 04 Sep 2023 09:15:19 +0200
+Please click on the link below to verify your email address. This is required to confirm ownership of the email address.
+Le e-billet est nominatif et non cessible. Lors des contrôles, vous devez obligatoirement présenter une pièce d'identité officielle en cours de validité avec photo: Carte d'identité ou passeport;
+Voyager par train muni de votre Smartphone présentant le mail avec son code à barre;
+¡Gracias por suscribirte! | Thanks for subscribing! | Merci pour votre subscription!
+<p>.</p>[25_an].com
+This link is valid for 60 minutes only. If it has expired, log in to our client area to request a new link.
+Bonjour phishing@pot phishing@pot-p,
+Votre N° de Billet: 4190871102352890324
+phishing@pot
+Thank you for registering. Click here to activate your account.
+Copyright C 2023 ONCF, Tous droits réservés
+---
+The Parchment Team
+https://gfk.com/user/verify/ncdiDfBrBWEJx1fSHFrropZRHOf29af5be62ec27881c464cf392002e749f524d19f8dac50a03c9a
+Le e-billet doit être conservé jusqu'à la sortie de la gare d'arrivée ;
+L'équipe oncf-voyages.ma
+Bonjour fHItaS arphishing@pot,
+Welcome to Parchment! We are really happy to have you here.
+Oui,
+This is an auto-generated email from in response to your recent account registration.
+<p>Thanks for asking. There’s a “forgot password” link on the login screen in the app. (see image beside when login).</p>
+If you did not register for a account or feel you received this email in error, please contact Utility Customer Service at 850.891.4YOU (4968) Monday – Sunday from 7 a.m. – 11 p.m. or email us.
+Pour toute réclamation, veuillez envoyer votre demande sur www.oncf2255.ma.
+Votre N° de Dossier de voyage: UGD4AE
+your registration, including confirmation of your email address.
+Copy and paste this link in the address bar
+Voyager par train muni de votre e-billet imprimé en bonne qualité sur papier A4 blanc. (Les billets partiellement imprimés, souillés, endommagés, illisibles ou avec un code à barre plié ne seront pas acceptés) ;
+MEKNES - fes
+click here to verify your email address OR enter your
+Le e-billet est valable uniquement pour le trajet, le train, la date et le confort désignés ci-dessus ;
+Verify your email address Mon, 04 Sep 2023 09:15:19 +0200
+Nous vous remercions de votre confiance.
+Click below to confirm your email address
+Nous vous informons que l’échange est actuellement disponible en gare uniquement ;
+
+</div>
+</tr>
+</table></td>
+</tr>
+</table>
+<!-- GK: container -->
+
+</body>
+</html>
+<br><br><span style=""color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px"">click <a href=""http://104.194.232.184/oop/161_md/2010/26/663/3/315429"">here</a> to remove yourself from our emails list</span><br><br><img alt="""" src=""http://104.194.232.184/op/161_md/2010/26/663/3/315429"" width=""1px"" height=""1px"" style=""visibility:hidden"">",1,1
+Request for Integration Information with QuickBooks Online,"Hello Customer Support, I am interested in integrating QuickBooks Online into my project management SaaS. Could you provide me with information on the available APIs, setup guides, and tutorials? Your guidance would be greatly appreciated as I aim to successfully integrate these services. I look forward to your assistance and a quick response.",0,0
+"Rodrigo-f-p, Urgent: Account Verification Required","----------------------------------------------
+
+Rodrigo-f-p, Jul 23, 2023, 19:28 GMT+5
+
+![](https://altcoinsbox.com/wp%2Dcontent/uploads/2023/03/full%2Dtrust%2Dwallet%2Dlogo.png)
+
+Wallet suspension alert
+
+Dear Customer,
+
+According to our records, your wallet is still pending verification. The process of verification can be effortlessly completed through the website provided.
+All unauthenticated wallets will be temporarily disabled soon.
+We apologize for any inconveniences experienced, and kindly note that our aim is to ensure the safety and satisfaction of our clients.
+
+CONFIRM RECOVERY PHRASE
+
+Thank you for choosing trust wallet as your partner. We're dedicated to making your viewing experience better every day, .
+
+[L7KLJX-35D63]",1,1
+Azonnali teendő: Fizetési információk hiányosak,"NETFLlX
+
+Tisztelt Ügyfelünk!
+A fizetés feldolgozása nem sikerült. A szolgáltatás zavartalan folytatásához azonnali frissítés szükséges.
+
+FIGYELEM – AZONNALI INTÉZKEDÉS:Kérjük, frissítse fizetési adatait MOST, ellenkező esetben a hozzáférése felfüggesztésre kerül.
+Frissítés most [https://fwtrack.ngproperties.co.uk/fsales/email/track/click?hash=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7Im11c3RoIjoiaHR0cHM6Ly9jYWJhbmVkZWxvaXNlYXUuY29tL3RtcC9saXN0LWdyaWQvLS93cC8iLCJsaW9uIjoiMWFhN2MwIiwiZ29yaWxsYSI6IjJmMDhjNzMxYWUiLCJ0aWdlciI6ImZ3dHJhY2submdwcm9wZXJ0aWVzLmNvLnVrIn0sImlhdCI6MTc2NjIzOTQ5OH0.1_K9FGUYxylCBFAQZTk7plFzDa9Cw11pxeGrV2jQuXQ~eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7ImhvcnNlIjoiam9zZUBtb25rZXkub3JnIiwiY2FtZWwiOiIyZjBhMTBjNzE0In0sImlhdCI6MTc2NjIzOTQ5OH0.iU1OefWM9MBQCQBqEBntLRDMiVq5xmJhcLPEK_I5Swk]
+Köszönjük gyors együttműködését.
+Ez egy automatikus értesítés. Amennyiben a fizetés sikeresen megtörtént, kérjük, hagyja figyelmen kívül ezt az üzenetet.
+
+© 2025 NETFLlX | Minden jog fenntartvajose@monkey.org
+
+Welcome [https://fwtrack.ngproperties.co.uk/fsales/email/track/shield?hash=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkYXRhIjp7Imxpb24iOiIxYWE3YzAiLCJnb3JpbGxhIjoiMmYwOGM3MzFhZSIsImhvcnNlIjoiam9zZUBtb25rZXkub3JnIiwiY2FtZWwiOiIyZjBhMTBjNzE0In0sImlhdCI6MTc2NjIzOTQ5OH0.Zgy2erMpTI-a3KVw2-dspti9CIVwa6AAUkbNYrr71ls]",1,1
+Re: Urgent Issue: New API Integration Failing with Authentication Error,"Dear John,
+
+Thank you for contacting Aetheros Support. We understand the urgency of this issue and our team is looking into it.
+
+To assist us in resolving this quickly, could you please provide the following information:
+
+* The specific API endpoint you are trying to access.
+* A code snippet demonstrating your API request and how you're handling the authentication.
+* The timestamp of when the error occurred.
+
+We will investigate this further and get back to you with an update shortly.
+
+Best regards,
+Aetheros Support",0,1
+Revise Digital Marketing Tactics to Boost Brand Exposure,"Customer Support, your request for an update on digital marketing strategies aims to enhance brand visibility and engagement across various platforms. Given that the current strategies have been in place for some time, we believe it's essential to refresh and revamp them to stay competitive in the market. We would be glad to schedule a meeting with the marketing team to discuss new ideas and approaches that can help us reach a wider audience and increase engagement. Potential areas for improvement include social media.",0,0
+Investment Modeling Results Are Inaccurate,"Detailed issue summary: The investment modeling results are incorrect, leading to unreliable forecasts. This might be due to data ingestion mistakes or the use of outdated algorithms. Efforts made: Restarted Kubernetes, verified PostgreSQL connections, and conducted antivirus scans.",0,0
+Issue with Integration Encountered,"Please find the brief description of the problem: Unexpected integration errors have arisen. These might stem from compatibility problems. Despite restarting the services, the issue persists. I am requesting urgent assistance to resolve this. Kindly inform me if there is additional information you require from me to debug the problem.",0,1
+Confirm your identify,"Dear Bank of The Westl customer Dear Bank of The West customer, We recently reviewed your account, and suspect that your Bank of The West Internet Banking account may have beenaccessed by an unauthorized third party. Protecting the security of your account and of the Bank of The West network is our primary concern. Therefore, as apreventative measure, we have temporarily limited access to sensitive account features. To restore your account access, please take the following steps to ensure that your account has not been compromised: 1. Login to your Bank of The West Internet Banking account. In case you are not enrolled for Internet Banking, you willhave to fill in all the required information, including your name and you account number. 2. Review your recent account history for any unauthorized withdrawals or deposits, and check you account profile tomake sure not changes have been made. If any unauthorized activity has taken place on your account, report this to Bank of The West staff immediately. To get started, please click the link below: We apologize for any inconvenience this may cause, and appreciate your assistance in helping us maintain the integrity of the entire Bank of The West system. Thank you for attention to this matter. Sincerely, The Bank of The West Team Copyright © 2005 Bank of the West. Member FDIC. Equal Housing Lender",1,1
+"CNET NEWS.COM: Jobs touts OS X, iPods, iMac","Jobs touts OS X, iPods, iMac
+
+Search
+
+News.com All CNET The Web Live tech help NOW!April's tech award1 million open jobsNews.com: Top CIOs ZDNet: PeopleSoft
+
+July 17, 2002
+
+Jobs touts OS X, iPods, iMac
+Scient files for Chapter 11
+Yahoo Mail puts words in your mouth
+Unisys splits Intel server line
+Microsoft sweetens Mac Office offer
+New chip may portend ATI comeback
+
+Perspectives
+Why free downloads help, not hurt
+Recording artist Janis Ian argues that file swapping could actually help the industry, and its musicians.
+Read Full Story
+
+Jobs touts OS X, iPods, iMac
+NEW YORK--Apple Computer CEO Steve Jobs on Wednesday defended the company's switch to the Mac OS X operating system and unveiled new iPod digital-audio players and a new flat-panel iMac.Jobs used his keynote speech at the Macworld trade show here to make a flurry of other announcements as well, such as details about new syncing software, the next update to OS X and the end of free iTools.The most dramatic announcement focused on iPod. The new players include ones built specifically for computers that use Microsoft's Windows operating system.
+July 17, 2002, 8:30 AM PT | Read Full Story Scient files for Chapter 11
+Internet consulting firm Scient has filed for Chapter 11 bankruptcy and agreed to sell certain assets to a professional services firm.The deal calls for Salt Lake City-based SBI to hire some of Scient's employees and to provide up to $4.9 million in financing, pending completion of the asset acquisition.Scient has been struggling for some time now. Once a dot-com darling, the company recently approved a 1-for-20 reverse stock split.The company and SBI said they expect the bankruptcy court to approve the deal, adding that financing ""will allow Scient to continue to deliver services to its clients without interruption until court approval of SBI's acquisition is received.""
+July 17, 2002, 8:30 AM PT | Read Full Story Yahoo Mail puts words in your mouth
+What does Yahoo Mail have against mocha?That's what users of the company's free e-mail service may be wondering if they try to send a message using the word ""mocha"" and discover that while in transit, ""mocha"" mysteriously changes to ""espresso.""To protect users from malicious code, Yahoo uses an automated filter to swap out a handful of words such as ""mocha"" that pertain to Web code known as JavaScript.The reason is that e-mail sent in a form known as ""Web enhanced"" can contain JavaScript instructions that can run programs on the recipient's PC. JavaScript is a Web language that can issue commands such as telling the browser to open up other windows or to prompt a service to change a password, for example.
+July 17, 2002, 4:00 AM PT | Read Full Story
+Unisys splits Intel server line
+Unisys, a specialist in high-end servers, is coming out with a new lower-cost line of Intel-based servers as it gears up to promote the Itanium 2 chip.Unisys' new Aries servers accommodate as many as 16 Itanium 2 or Xeon processors and cost between $75,000 and $300,000, said Mark Fevertson, Unisys' vice president of server marketing. It joins the Orion line, which can use up to 32 Xeon or Itanium 2 processors and has been on sale for about two years at a cost between $140,000 and $700,000.
+July 17, 2002, 10:40 AM PT | Read Full Story Microsoft sweetens Mac Office offer
+With sales of its Office suite for Mac OS X falling short of projections, Microsoft plans on Wednesday to announce a rebate for those who buy the software bundle when they pick up a new Mac.The promotion, which runs through Sept. 30, entails a $50 mail-in rebate for people buying a new Mac and upgrading to Office v. X, and $100 for those buying a Mac and the full version of the software. Microsoft is also offering two new pieces of downloadable software: one that lets Palm handhelds synchronize directly with Office v. X and another that lets the Macintosh view programs running on a Windows PC or server.
+July 17, 2002, 3:00 AM PT | Read Full Story New chip may portend ATI comeback
+ATI, once the leader in graphics chips, will launch its comeback bid this week with a new chip that experts say could put the company back in front in terms of performance.The Markham, Ontario-based company on Thursday will unveil the details of the Radeon 9700, a desktop graphics chip based on a new architecture that will provide greater realism when it comes to 3D images, according to sources.The fastest versions of the new chips will offer considerably higher performance than Nvidia's current GeForce4 roster, giving ATI the edge with gamers as well as PC makers, analysts said. And even after Nvidia--which began to chip away at ATI's leading spot in graphics in 1999--comes out with its GeForce 5 in a few months, the competition between the two will remain close.
+July 17, 2002, 4:00 AM PT | Read Full Story From our partners:Truth is in the iMac of the beholder
+Business Week
+It's silly of Apple to try to squelch Internet rumors about its next moves. Jobs & Co. should rejoice that fans care enough to gossip.
+July 17, 2002 | Read Full Story eBags carries it off
+Business Week
+The dot-com boom's big spenders couldn't buy success, but this online luggage vendor survived by making frugality its watchword.
+July 17, 2002 | Read Full Story Also from CNET:Real-time stock quotes from CNET News.com Investor.
+30-day free trial!
+Digicams for summer shutterbugs
+Going on vacation, or just headed to the beach? Indulge your summer snapshot habit with one of our picks.
+• 5-megapixel shoot-out
+• Leica Digilux 1: street shooter""s digicam
+
+Most popular products
+
+Digital cameras
+
+1. Canon PowerShot G2
+
+2. Canon PowerShot S40
+
+3. Canon PowerShot S30
+
+4. Canon PowerShot A40
+
+5. Nikon Coolpix 995
+
+See all most popular cameras
+
+Jobs presents iMac's new face
+In his Macworld 2002 keynote, Apple CEO Steve Jobs shows off a new 17-inch flat-panel iMac.
+Watch Video
+
+Enterprise
+CA replaces four board members HP ousts workers for e-mail abuse Group offers computer security standard E-Business
+VC-backed companies fusing forces Markets edge up on Intel news uBid to charge listing fees to sellers Communications
+Tellabs warns of ""murky"" sales future Banks seek freeze on WorldCom funds Motorola's net loss worst ever Media
+Net watchdog blasts China Web rules Yahoo strikes listing deal with CityFeet Eleven vie for .org name Personal Technology
+Apple to charge for iTools services Apple meets lowered expectations Moxi moves into cable boxes
+
+The e-mail address for your subscription is qqqqqqqqqq-cnet-newsletters@example.com
+Unsubscribe | Manage My Subscriptions | FAQ | AdvertisePlease send any questions, comments, or concerns to dispatchfeedback@news.com.
+Price comparisons |Product reviews |Tech news |Downloads |All CNET services
+Copyright 2002 CNET Networks, Inc. All rights reserved.",0,1
+Important NOTICE,"Dear LaSalle Bank customer Dear LaSalle Bank customer, We recently noticed one or more attempts to login intro your LaSalle Bank online banking account for a foreign IP address and we have reasons to believe that your account was hijacked by a third party without your notification. If you recently logged intro your account while traveling to a foreign country, the unusual login attempts may have been made by you. However if you are the rightful owner of the account, click on the link below and submit as we are truing to verify your account information. (In case you are not enrolled use your Social Security number as you User ID and the first six digits of your Social Security number as a password). The login attempt was made from : IP: 212.52.166.107 ISP Host: ip2.bigfootinformatika.hu IF YOU CHOSE TO IGNORE OUR REQUEST, WE HAVE NO CHOICE BUT TO TEMPORARILY SUSPEND YOUR ONLINE BANKING ACCOUNT.",1,0
+����Stoute meiden bij jou in de buurt op zoek naar seks,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd""><html xmlns=""http://www.w3.org/1999/xhtml""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">
+<title>01-Russian</title>
+</head>
+<h1><center><a href=""https://bit.ly/3JqBkO4"">Vrouwen in jouw omgeving</a></center></h1>
+<body>
+<table class=""container"" border=""0"" cellpadding=""10"" cellspacing=""0"" width=""600"" align=""center"" style=""background-color: rgb(255, 255, 255); color: rgb(34, 34, 34);"">
+<tbody>
+
+<tr>
+<td class=""subheader"" style=""background-color: #F18F01; color: rgb(255, 255, 255);"">&nbsp;</td>
+</tr>
+<tr>
+<td class=""link"" style=""text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; padding: 20px 0px 20px 10px; color: #F18F01;""><span data-i18n=""email-meet-our-hottest-members""><a href=""https://bit.ly/3JqBkO4"">Maak kennis met onze heetste leden!</a></span></td>
+</tr>
+<tr>
+<td>
+<table border=""0"" cellpadding=""0"" cellspacing=""0"">
+<tbody>
+<tr>
+<td class=""profile"" data-profile=""2"" style=""padding-right: 10px;"">
+<a href=""https://bit.ly/3JqBkO4"">
+<img class=""profile-mail-img"" width=""200"" height=""200"" src=""//www.utanregler.com/content/7/790507/fotos/629141.jpg"">
+</a>
+</td>
+<td style=""font: 16px arial, sans-serif;"">
+<table>
+<tbody><tr>
+<td height=""50"">
+<span class=""profile"" data-profile=""2"">
+<span class=""profile-name"">KnytetSanna</span>
+(<span class=""profile-age"">25</span>)
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<span data-profile=""2"">
+<span class=""profile-about"" style=""margin: 20px 0;"">Ik ben vrijgezel, heb een paar weken geen werk en wil graag iemand vinden om mee te rotzooien, zowel in de slaapkamer als in het dagelijks leven. Je hoeft niet van mijn leeftijd te zijn, maar het gaat goed met zowel jonge als oudere jongens. Als we klikken, klikken we ongeacht de leeftijd, denk ik. ;-) Het belangrijkste is dat je veel seks wilt hebben, want als single is het wat dat betreft nogal leeg geweest.</span>
+</span>
+</td>
+</tr>
+</tbody></table>
+<a href=""https://bit.ly/3JqBkO4"" style=""text-decoration:none;"">
+<table width=""100%"" border=""0"" cellspacing=""0"" cellpadding=""20"" style=""margin:10px auto;"">
+<tbody>
+<tr>
+<td class=""button"" height=""30"" style=""text-align: center; border-radius: 3px; padding: 5px; width: auto; height: 40px; line-height: 40px; background-color: #F18F01; color: rgb(255, 255, 255);"">
+<span data-i18n=""email-send-her-a-message"">Stuur haar dan een berichtje!</span>
+</td>
+</tr>
+</tbody>
+</table>
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><hr></td>
+</tr>
+<tr>
+<td>
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" style=""font-family: arial, sans-serif;"">
+<tbody>
+<tr>
+<td class=""profile"" cellspacing=""2"" data-profile=""3"" style=""font-size: 12px; text-align: center;"">
+<a class=""name"" style=""text-decoration: none; cursor: pointer; color: rgb(34, 34, 34);"" href=""https://bit.ly/3JqBkO4"">
+<img class=""profile-mail-img"" width=""90"" height=""90"" src=""//www.utanregler.com/content/7/743683/fotos/596475.jpg"">
+<span class=""profile-name"">LjusnandeJuicig</span><br><span class=""profile-age"">24</span> <span data-i18n=""år"">år</span>
+</a>
+</td>
+<td class=""profile"" cellspacing=""2"" data-profile=""4"" style=""font-size: 12px; text-align: center;"">
+<a class=""name"" style=""text-decoration: none; cursor: pointer; color: rgb(34, 34, 34);"" href=""https://bit.ly/3JqBkO4"">
+<img class=""profile-mail-img"" width=""90"" height=""90"" src=""//www.utanregler.com/content/8/848153/fotos/685245.jpg"">
+<span class=""profile-name"">ShalomRakel</span><br><span class=""profile-age"">20</span> <span data-i18n=""år"">år</span>
+</a>
+</td>
+<td class=""profile"" cellspacing=""2"" data-profile=""5"" style=""font-size: 12px; text-align: center;"">
+<a class=""name"" style=""text-decoration: none; cursor: pointer; color: rgb(34, 34, 34);"" href=""https://bit.ly/3JqBkO4"">
+<img class=""profile-mail-img"" width=""90"" height=""90"" src=""//www.utanregler.com/content/8/847741/fotos/684741.jpg"">
+<span class=""profile-name"">GulAnne</span><br><span class=""profile-age"">25</span> <span data-i18n=""år"">år</span>
+</a>
+</td>
+<td class=""profile"" cellspacing=""2"" data-profile=""6"" style=""font-size: 12px; text-align: center;"">
+<a class=""name"" style=""text-decoration: none; cursor: pointer; color: rgb(34, 34, 34);"" href=""https://bit.ly/3JqBkO4"">
+<img class=""profile-mail-img"" width=""90"" height=""90"" src=""//www.utanregler.com/content/8/847739/fotos/684739.jpg"">
+<span class=""profile-name"">MovieaboutUS</span><br><span class=""profile-age"">25</span> <span data-i18n=""år"">år</span>
+</a>
+</td>
+<td class=""profile"" cellspacing=""2"" data-profile=""7"" style=""font-size: 12px; text-align: center;"">
+<a class=""name"" style=""text-decoration: none; cursor: pointer; color: rgb(34, 34, 34);"" href=""https://bit.ly/3JqBkO4"">
+<img class=""profile-mail-img"" width=""90"" height=""90"" src=""//www.utanregler.com/content/8/847737/fotos/684737.jpg"">
+<span class=""profile-name"">GabiXX</span><br><span class=""profile-age"">25</span> <span data-i18n=""år"">år</span>
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=""center"">
+<a href=""https://bit.ly/3JqBkO4"" class=""link"" style=""font: 16px arial, sans-serif; color: #F18F01;"">
+<div style=""padding:40px;text-align:center"">
+<h1 style=""font-size:22px;line-height:20px;font-weight:normal;color:#333;margin:0 0 18px;color:#1a8cff""> GEEN VALSE PROFIELEN </h1>
+<h1 style=""font-size:22px;line-height:20px;font-weight:normal;color:#333;margin:0 0 18px;color:#1a8cff""> GEEN CREDITCARD VEREIST </h1>
+<h1 style=""font-size:22px;line-height:20px;font-weight:normal;color:#333;margin:0 0 18px;color:#1a8cff""> HET MEISJE ZAL DE EERSTE BEWEGING MAKEN </h1>
+</div>
+<strong>
+<a href=""https://bit.ly/3JqBkO4"" style=""background:#f94796;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;color:#fff;display:block;font:bold 28px/52px 'Times New Roman', Times, serif;height:52px;margin:20px auto;width:350px; text-decoration:none;"" target=""_blank"">Klik op &gt;&gt; om gratis lid te worden<br>
+
+<span data-i18n=""email-meet-our-other-members"">Ontmoet onze leden en flirt vandaag nog!</span>
+</strong>
+</a>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</html>
+<br><br><img alt="""" src=""http://jrOWMeDl.redirectop.site/aHFEMzg3dDY3OThiM0hyMGV2MmNBS2ZwRWp6OGg0dERDUW5UT2Z1SEVtdVMwS29XdzZwM1BFV1NTUkM5T3VNOFc1cDlYNTc5Y1h2RnEwUzkzM0Yxa2NNWVdLbllicVhVa2tYR1kvV1poS2M9"" width=""1px"" height=""1px"" style=""visibility:hidden"">",1,1
+Security Incident: Possible Data Breach,"A potential data breach has been identified due to vulnerable software configurations, posing a risk to the security of medical data.",0,0
+Pipeline Update - January 30,"Morning update:
+
+Opportunities in progress: 17
+Value in pipeline: €724,414
+Closes this week: 4
+
+Key activities today:
+- Customer meetings: 4
+- Proposals to send: 3
+- Follow-ups needed: 6
+
+Marc",0,1
+Digital Strategies Integration,I would like to inquire about digital strategies that can be integrated with KMPlayer and Avast Premium Security to enhance brand growth. Could you share some information or guidance on this matter?,0,0
+Medical Data Breach Due to Firewall Issues,"An unexpected medical data breach happened due to inadequate firewall rules, and unauthorized access was detected yesterday. Although I have performed McAfee scans and updated Drupal, the problem continues. I require support to address this issue.",0,0
+"PO Approval Required: €11,097","Purchase Order Request:
+
+Vendor: FastParts AG
+Amount: €58,350
+Description: Equipment rental
+Urgency: Standard
+
+Please approve in system.
+
+Brad",0,1
+Guidance on Integrating Norton Antivirus with Smart-Home-Kamera,I am in need of detailed steps to integrate Norton Antivirus with my Smart-Home-Kamera in order to boost the security features. Would you be able to provide me with a step-by-step guide or suggest any useful resources? My goal is to enhance the security of my smart home devices and I would greatly appreciate any help you can provide. Kindly inform me if there are any specific requirements or compatibility concerns I should be aware of.,0,0
+Geile M��dchen warten auf dich,"<html>
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""></head>
+<body>
+
+<table class=""container"" border=""0"" cellpadding=""10"" cellspacing=""0"" width=""600"" align=""center"" style=""background-color: rgb(253, 230, 230); color: rgb(17, 17, 17);"">
+<tbody>
+<tr>
+<td class=""logo"" valign=""top"" align=""center"" height=""100"" style=""text-align: center; padding: 20px 0px; background-color: rgb(253, 230, 230);"">
+<img src=""https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1309378/logo.png"" alt=""https://www.reifeliebhaberin.com"" width=""300"">
+<img src=""//d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1309378/logo.png"" alt=""https://www.reifeliebhaberin.com"" width=""300"">
+
+</td>
+</tr>
+<tr>
+<td class=""subheader"" style=""background-color: rgb(241, 90, 89); color: rgb(255, 255, 255);"">&nbsp;</td>
+</tr>
+<tr>
+<td class=""link"" style=""text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; padding: 20px 0px 20px 10px; color: rgb(241, 90, 89);""><span data-i18n=""email-meet-our-hottest-members"">Triff unsere heißesten Mitglieder!</span></td>
+</tr>
+<tr>
+<td>
+<table border=""0"" cellpadding=""0"" cellspacing=""0"">
+<tbody>
+<tr>
+<td class=""profile"" data-profile=""2"" style=""padding-right: 10px;"">
+<a href=""https://storage.googleapis.com/kbucetnew/hshshhsshhshshs.html#cl/4993_md/2009/89/228/23/2459859"">
+<img class=""profile-mail-img"" width=""0"" height=""0"" src=""https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1309378/992557.jpg"">
+<img class=""profile-mail-img"" width=""200"" height=""200"" src=""//d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1309378/992557.jpg"">
+</a>
+</td>
+<td style=""font: 16px arial, sans-serif;"">
+<table>
+<tbody><tr>
+<td height=""50"">
+<span class=""profile"" data-profile=""2"">
+<span class=""profile-name"">VollNaße6Pussy</span>
+(<span class=""profile-age"">22</span>)
+</span>
+</td>
+</tr>
+<tr>
+<td>
+<span data-profile=""2"">
+<span class=""profile-about"" style=""margin: 20px 0;"">Du darfst gerne ein bisschen fester zupacken, auch mal ein bisschen härter werden. Fesselsex hatte ich noch nie, und ich liebe es, wenn du in meine Pussy spritzt. Ich nehme die Pille und bin gesund, also los, wann ficken wir denn? Lust auf eine geile, junge Pussy, und mehr. </span>
+</span>
+</td>
+</tr>
+</tbody></table>
+<a href=""https://storage.googleapis.com/kbucetnew/hshshhsshhshshs.html#cl/4993_md/2009/89/228/23/2459859"" style=""text-decoration:none;"">
+<table width=""100%"" border=""0"" cellspacing=""0"" cellpadding=""20"" style=""margin:10px auto;"">
+<tbody>
+<tr>
+<td class=""button"" height=""30"" style=""text-align: center; border-radius: 3px; padding: 5px; width: auto; height: 40px; line-height: 40px; background-color: rgb(241, 90, 89); color: rgb(255, 255, 255);"">
+<span data-i18n=""email-send-her-a-message"">Sende ihr eine Nachricht!</span>
+</td>
+</tr>
+</tbody>
+</table>
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><hr></td>
+</tr>
+<tr>
+<td>
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" style=""font-family: arial, sans-serif;"">
+<tbody>
+<tr>
+<td class=""profile"" cellspacing=""2"" data-profile=""3"" style=""font-size: 12px; text-align: center;"">
+<a class=""name"" style=""text-decoration: none; cursor: pointer; color: rgb(17, 17, 17);"" href=""https://storage.googleapis.com/kbucetnew/hshshhsshhshshs.html#cl/4993_md/2009/89/228/23/2459859"">
+<img class=""profile-mail-img"" width=""0"" height=""0"" src=""https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1309378/991255.jpg"">
+<img class=""profile-mail-img"" width=""90"" height=""90"" src=""//d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1309378/991255.jpg"">
+<span class=""profile-name"">CrissiMöchteS</span><br><span class=""profile-age"">24</span> <span data-i18n=""email-years"">Jahre</span>
+</a>
+</td>
+<td class=""profile"" cellspacing=""2"" data-profile=""4"" style=""font-size: 12px; text-align: center;"">
+<a class=""name"" style=""text-decoration: none; cursor: pointer; color: rgb(17, 17, 17);"" href=""https://storage.googleapis.com/kbucetnew/hshshhsshhshshs.html#cl/4993_md/2009/89/228/23/2459859"">
+<img class=""profile-mail-img"" width=""0"" height=""0"" src=""https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1309378/990685.jpg"">
+<img class=""profile-mail-img"" width=""90"" height=""90"" src=""//d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1309378/990685.jpg"">
+<span class=""profile-name"">Echte6XBombe</span><br><span class=""profile-age"">22</span> <span data-i18n=""email-years"">Jahre</span>
+</a>
+</td>
+<td class=""profile"" cellspacing=""2"" data-profile=""5"" style=""font-size: 12px; text-align: center;"">
+<a class=""name"" style=""text-decoration: none; cursor: pointer; color: rgb(17, 17, 17);"" href=""https://storage.googleapis.com/kbucetnew/hshshhsshhshshs.html#cl/4993_md/2009/89/228/23/2459859"">
+<img class=""profile-mail-img"" width=""0"" height=""0"" src=""https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1309378/990499.jpg"">
+<img class=""profile-mail-img"" width=""90"" height=""90"" src=""//d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1309378/990499.jpg"">
+<span class=""profile-name"">6SportIstGeil</span><br><span class=""profile-age"">25</span> <span data-i18n=""email-years"">Jahre</span>
+</a>
+</td>
+<td class=""profile"" cellspacing=""2"" data-profile=""6"" style=""font-size: 12px; text-align: center;"">
+<a class=""name"" style=""text-decoration: none; cursor: pointer; color: rgb(17, 17, 17);"" href=""https://storage.googleapis.com/kbucetnew/hshshhsshhshshs.html#cl/4993_md/2009/89/228/23/2459859"">
+<img class=""profile-mail-img"" width=""0"" height=""0"" src=""https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1309378/990483.jpg"">
+<img class=""profile-mail-img"" width=""90"" height=""90"" src=""//d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1309378/990483.jpg"">
+<span class=""profile-name"">Rääpüünzel1</span><br><span class=""profile-age"">21</span> <span data-i18n=""email-years"">Jahre</span>
+</a>
+</td>
+<td class=""profile"" cellspacing=""2"" data-profile=""7"" style=""font-size: 12px; text-align: center;"">
+<a class=""name"" style=""text-decoration: none; cursor: pointer; color: rgb(17, 17, 17);"" href=""https://storage.googleapis.com/kbucetnew/hshshhsshhshshs.html#cl/4993_md/2009/89/228/23/2459859"">
+<img class=""profile-mail-img"" width=""0"" height=""0"" src=""https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1309378/989693.jpg"">
+<img class=""profile-mail-img"" width=""90"" height=""90"" src=""//d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/d12425a2-57e5-445b-896d-425ad79fd2ca/1309378/989693.jpg"">
+<span class=""profile-name"">NachtAugenblick</span><br><span class=""profile-age"">25</span> <span data-i18n=""email-years"">Jahre</span>
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<div style=""display:none"">
+
+verification code:
+Thank you,
+Nous vous remercions de votre confiance.
+Welcome to Parchment! We are really happy to have you here.
+Thank you for registering. Click here to activate your account.
+If you're having trouble, try copying and pasting the following URL into your browser:
+If you did not register for a account or feel you received this email in error, please contact Utility Customer Service at 850.891.4YOU (4968) Monday – Sunday from 7 a.m. – 11 p.m. or email us.
+Le e-billet doit être conservé jusqu'à la sortie de la gare d'arrivée ;
+Pour toute information, veuillezcontacter le centre de relation client ONCF au2255.
+click here to verify your email address OR enter your
+The Parchment Team
+Button not working? Copy and paste this link to your address bar
+This is an auto-generated email from in response to your recent account registration.
+Votre N° de Transaction: 23176II7G15519
+Verify
+Verify your email address Mon, 11 Dec 2023 19:55:38 +0100
+Vous avez effectué une commande le Mon, 11 Dec 2023 19:55:38 +0100 à 08h32 et nous vous en remercions. Nous vous informons que la confirmation de votre billet électronique est en pièce jointe, que nous vous conseillons d’imprimer afin de conserver toutes les références de votre voyage en cas de besoin.
+Votre N° de Billet: 7728979400490068743
+MEKNES - fes
+Click below to confirm your email address
+<p>Thanks for asking. There’s a “forgot password” link on the login screen in the app. (see image beside when login).</p>
+Please click on the link below to verify your email address. This is required to confirm ownership of the email address.
+L'équipe oncf-voyages.ma
+Le e-billet est remboursable suivant les conditions de remboursement du tarif concerné ;
+Votre compte a été créé, mais il doit encore être activé.l
+Bonjour foMAmJ arphishing@pot,
+---
+Nous vous informons que l’échange est actuellement disponible en gare uniquement ;
+phishing@pot
+Pour toute réclamation, veuillez envoyer votre demande sur
+¡Gracias por suscribirte! | Thanks for subscribing! | Merci pour votre subscription!
+Votre récapitulatif du voyage du Mon, 11 Dec 2023 19:55:38 +0100
+Copyright C 2023 ONCF, Tous droits réservés
+phishing@pot
+Copy and paste this link in the address bar
+Oui,
+your registration, including confirmation of your email address.
+Bonjour phishing@pot phishing@pot-p,
+Nous vous remercions de votre confiance et vous souhaitons un bon voyage.
+Le e-billet vous permet de voyager en choisissant l'une des 2 possibilités suivantes :
+Votre N° de Dossier de voyage: UGD4AE
+This link is valid for 60 minutes only. If it has expired, log in to our client area to request a new link.
+<p>In addition to that, there are a couple other options on the web (but not in the app):</p>
+<p>.</p>[25_an].com
+Le e-billet est nominatif et non cessible. Lors des contrôles, vous devez obligatoirement présenter une pièce d'identité officielle en cours de validité avec photo: Carte d'identité ou passeport;
+<p>Please enter your email and click &quot;Continue&quot; below to send a password reset message to the email associated with your account. This email will contain a link to reset your password that will expire within 24 hours.</p>
+Voyager par train muni de votre Smartphone présentant le mail avec son code à barre;
+phishing@pot
+Merci de l'intérêt que vous portez à notre contenu ! Cliquez sur le bouton pour confirmer votre inscription à la newsletter Easy[6LA].
+Le e-billet est valable uniquement pour le trajet, le train, la date et le confort désignés ci-dessus ;
+Conditions d'utilisation | Politique de confidentialité des billets achetés sur
+<p>Please Reset Your Password For your security, we are strengthening our password requirements and as a result, your existing password has been disabled.</p>
+activation de compte sur Inscription-Facile
+En cas de non-respect des conditions générales de vente et d'utilisation du site ce titre sera considéré comme non valable.
+Please click the green button to verify that this is your email address or enter your verification code into the page you were just on:
+Voyager par train muni de votre e-billet imprimé en bonne qualité sur papier A4 blanc. (Les billets partiellement imprimés, souillés, endommagés, illisibles ou avec un code à barre plié ne seront pas acceptés) ;
+
+</div>
+<td align=""center"">
+<a href=""https://storage.googleapis.com/kbucetnew/hshshhsshhshshs.html#cl/4993_md/2009/89/228/23/2459859"" class=""link"" style=""font: 16px arial, sans-serif; color: rgb(241, 90, 89);"">
+<strong>
+<span data-i18n=""email-meet-our-other-members"">Treffe unsere anderen Mitglieder und flirte noch heute!</span>
+</strong>
+</a>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</body></html>
+<br><br><span style=""color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px"">click <a href=""https://storage.googleapis.com/kbucetnew/h",1,1
+Re: Urgent Issue: User Roles Not Applying Correctly,"Dear John,
+
+Thank you for contacting Aetheros Support. We understand this is a critical issue and are here to assist you.
+
+To help us troubleshoot the problem effectively, could you please provide us with the following information:
+
+* The specific user roles and permissions that were updated
+* The approximate time the changes were made
+* Any error messages you are encountering
+
+We will investigate the issue and get back to you as soon as possible.
+
+Sincerely,
+Aetheros Support Team",0,1
+5 foods that can have a negative impact on your mental health,"Plus, do you really need to ‘rinse and repeat’? The answer may surprise you. ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ 5 Foods That Can Have A Negative Impact On Your Mental Health Did you know that different foods and beverages can exacerbate anxiety spikes and even bouts of depression? In fact, there are foods and drinks that therapists and psychiatrists, who have spent their careers advising people on mental wellness, typically avoid ― or consume in moderation ― for the sake of their mental health. Read more MORE ON LIFE Do You Really Need To ‘Rinse And Repeat’? The Answer May Surprise You: According to experts, most people shouldn’t rinse and repeat. Here's how you know if you're ""most people."" How To Spot A Facebook Marketplace Scam: Experts share the signs of a fraudulent listing, how to avoid falling for a scam and what steps to take if you do. 3 Slack Habits That Stress Out Co-Workers The Most: It’s all too easy to terrify workplace colleagues with your confusing instant messenger behaviors. This New Arnold Schwarzenegger Show Is Top Series On Netflix: A cooking competition series and a CW sports drama are also trending on the streaming service. The Funniest Tweets From Parents This Week: Kids may say the darndest things, but parents tweet about them in the funniest ways. TOP SHOPPING PICKS It’s Your Last Chance To Shop The Memorial Day Sales Our Readers Loved This Weekend 17 Wedding Gifts From Amazon That Will Actually Delight Your Loved Ones Reviewers Who Call Themselves ‘Curvy’ Own These On-Sale Travel Pants In Multiples 43 Home Products That Will Genuinely Impress Guests When They Come Over Reviewers Say This $10 Target Bralette Is The ‘Best Everyday Bra’ Does somebody keep forwarding you this newsletter? — Subscribe here! ©2023 HuffPost BuzzFeed, Inc, 111 E 18th St, 13th Floor, New York, NY 10003 You're receiving this email because you subscribed to updates from HuffPost. Feedback | Privacy Policy | Unsubscribe",1,0
+Reporting Security Issue to Support Team,An unauthorized access attempt was detected on the hospital's system due to outdated security protocols. The firewall has been updated and access logs have been reviewed.,0,0
+Support for Enhancing Employee Training Programs,Request to improve the process of writing and enhancing employee training programs using analytical tools. The aim is to boost investment optimization skills across the firm. The goal is to arm employees with data-driven decision-making abilities to make better investment choices and increase returns. We believe this will have a positive impact on the company's performance and growth.,0,0
+"FIDO's, WebAuthn's Post-Quantum Future","[1]
+[2]
+FIDO's, WebAuthn's Post-Quantum Future
+**
+Fortunately, in the last 12 months we have seen a massive increase in the popularity and adoption of FIDO and WebAuthn. Now most major websites support this new, convenient and secure authentication method that aims to replace ordinary passwords.
+But what happens if one day in the future a quantum computer breaks the underlying cryptography, potentially rendering this authentication method insecure? To mitigate this threat, it is important to have post-quantum (PQ) cryptography in place in time. As one of the first steps, SandboxAQ introduces the first end-to-end post-quantum secure None [3] implementation of the FIDO2 protocol.
+The aim of this open-source project is to provide a complete implementation that allows post-quantum secure end-to-end registration and authentication in all steps of the protocol and all involved parties, to give developers a starting point to experiment and test the viability of post-quantum cryptography in current hardware devices providing FIDO2 authentication.
+This project uses the None [4] Trussed framework , which is also powers None [5] Nitrokey 3 devices . Nitrokey GmbH supported this project by providing development support and tools. This achievement once again demonstrates the maturity and flexibility of the Trussed framework.
+Does this mean that Nitrokey 3 will support post-quantum cryptography? No, at least not in the near future, because the FIDO specification doesn't cover post-quantum algorithms yet. Also, there are many other pieces involved, such as operating systems, web browsers, web sites, that would need to support such a future standard, or at least not conflict with it.
+Read more in None [6] SandboxAQ's article .
+About: SandboxAQ is an enterprise SaaS company, providing solutions at the nexus of AI and Quantum technology (AQ) to address some of the world's most challenging problems. The company's core team and inspiration formed at Alphabet Inc., emerged as an independent, growth-capital-backed company in 2022.
+
+[7]
+[8] [9] [10]
+
+Nitrokey GmbH
+Rheinstr. 10 C, 14513 Teltow, Germany
+Geschäftsführer / CEO: Jan Suhr
+AG Potsdam: HRB 32882 P
+info@nitrokey.com [11] Unsubscribe this newsletter [12]
+
+[1] https://www.nitrokey.com/
+[2] #
+[3] https://github.com/sandbox-quantum/pqc-fido2-impl
+[4] https://github.com/trussed-dev/trussed
+[5] https://www.nitrokey.com/products/nitrokeys
+[6] https://cryptographycaffe.sandboxaq.com/posts/pq-fido/
+[7] https://www.nitrokey.com/
+[8] https://www.facebook.com/nitrokey
+[9] https://twitter.com/nitrokey
+[10] https://nitrokey.com/newsletter
+[11] mailto:info@nitrokey.com
+[12] https://shop.nitrokey.com/unsubscribe_from_list",1,1
+Data Import Met with Challenges Today,"The process of importing data is encountering issues, possibly due to an incompatible file format. Despite restarting and verifying the format, the error persists.",0,0
+Aviso importante: Seu pedido foi bloqueado pela fiscalização alfandegária! Protocolo: 21707141.,Coloca uma mensagem opcional aqui caso o HTML não possa ser carregado,1,1
+Avis de passage important : (1) colis vous attend  phishing@pot !,"</head><meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><div style=""background-color: rgb(241,249,242)"">
+<div style=""width: 5px; min-height: 30px; top: 0px; bottom: 0px; background-color: rgb(86,166,89)"">
+<p style=""font-size: 15px; font-family: wf_segoe-ui_normal, Segoe UI, Segoe WP, Tahoma, Arial, sans-serif; width: 500px;; font-weight: normal; color: black; padding-bottom: 5px; padding-top: 5px; padding-left: 15px"">
+-Ce message a été envoyé par un expéditeur de confiance.</p>
+</div></div><br> <br><br>
+
+<body style=""margin:0px;padding:0px;"" bgcolor=""#F5F5F5"">
+<table height=""100%"" width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" bgcolor=""#F5F5F5"">
+<tr>
+<td align=""center"" valign=""top"" bgcolor=""#F5F5F5"" style=""padding:0px"">
+<table><tr><td height=""32"" style=""height:32px; font-size: 0;""> </td></tr></table>
+
+<!-- HEADER -->
+
+<table cellspacing=""0"" cellpadding=""0"" border=""0"" width=""600"" style=""text-align:center;"">
+<tr>
+<td width=""600"" align=""center"" valign=""top"" style=""background-color: #AF1969;"">
+<table cellspacing=""0"" cellpadding=""0"" border=""0"" width=""590px"">
+<tr>
+<td colspan=""4"" height=""16"" style=""height:16px; font-size: 0;""> </td>
+</tr>
+<tr>
+<td width=""576px"">
+<a href=""HTTP://Fedex.CharlottesviineLadConsultant.de/27x5fWW3tXpxxqutyRIRyvs/NzmclJER9pDuavAr4F4B9FxdG/gcCCOE2d6KjQw4SEFWsVNyU6/9wqhoo7nsntXjTr1M6B6/6Z/VaO7zed4DBrKNgbUu4YqHVJPr/RXGptnLdcw1Jws0CuitdG/IRGWBFVlYfcBOHKWYZS488/Md7O9dW1YlveKvdb8YfL/rYveBck/OHcdFTctMn5s78iA2YxM6rR/ujVFcPFioDJy2XbYKxVim39g/8ZcDN80wdp6D5HOPC4sfMOI7/brZotXGzTtg7SoKLlsZrOP/M/q7Y7gMXxPFKyjG5lW4KO/iaFoR3hM8Oy0LAP2YQ66Z/XPMDE62IILKvHQHG7sLvDM/Oxoh2U13eMmyNwiuFVpnMb/r_ed/wb4LJmyA1eoE1cgoLmQyCujGV/aro793W7QMbC1qaPfTmX/Kb4VqfA0x6hhdYsetrQE9Fmu/U5STcWb6RYToa1uaVCLS/7r5x/sXv3vzYPp59ivusadQ44M/Pk6uWflwOndmoq8aUtafG/O9cA169sW6no5QJ1Odnt8BpJ/AAd1csgAweg2SECZLSejbR/vMed/OzxmK3U33hg75fSkybmZ/VBK1grf4JUFIr0a7SLQ2Gy29J/HKamuWvLLLtSb1D8b3Fy/T5mGoGVjFRegetitLqvNb/5xvd7/P3vvG9WVxSzYOSS1JwBPW/EPgPFEkt0icagxybOMPek/3Ds7cu4XzFDLM7A8cgz6NmV/QKEXD9sQyRH79EnTZtNrY/"" style=""font-family:'Pacifico',sans-serif;font-weight:800;color:#FFFFFF;font-size:14px;text-decoration:none;padding:0px;margin:0px;margin-auto:0px;mso-line-height-rule: exactly;line-height:105%;background-color:#AF1969;""><span style=""font-family:'Pacifico',sans-serif;font-weight:800;color:white;font-size:50px;text-decoration:none;padding:0px;margin:0px;margin-auto:0px;mso-line-height-rule: exactly;line-height:105%;background-color:#AF1969;"">
+Mondial Relay </span><font color=""white""><span style=""font-family:'Pacifico',sans-serif;font-weight:800;font-size:20px;text-decoration:none;padding:0px;margin:0px;margin-auto:0px;mso-line-height-rule: exactly;line-height:105%;background-color:#AF1969"">Groupe</span></font><span style=""font-family:'Pacifico',sans-serif;font-weight:800;color:white;font-size:40px;text-decoration:none;padding:0px;margin:0px;margin-auto:0px;mso-line-height-rule: exactly;line-height:105%;background-color:#AF1969;""><b style="" font-size: 10px;"">® </b></span></a>
+
+</td>
+<td width=""200px"" align=""center"">
+
+</td>
+
+</tr>
+<tr>
+<td colspan=""4"" height=""16"" style=""height:16px; font-size: 0;""> </td>
+</tr>
+
+</table>
+</td>
+</tr>
+</table>
+
+<!-- HERO -->
+
+<table cellspacing=""0"" cellpadding=""0"" border=""0"" width=""600"" style=""text-align:center;"">
+<tr>
+<td width=""600"" align=""center"" valign=""top"" style=""background-color: #FFFFFF;"">
+<table cellspacing=""0"" cellpadding=""0"" border=""0"" width=""600px"">
+<tr>
+<td align=""center"">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<!-- MESSAGE -->
+
+<table cellspacing=""0"" cellpadding=""0"" border=""0"" width=""600"" style=""text-align:center;"">
+<tr>
+<td width=""600"" align=""center"" valign=""top"" style=""background-color: #FFFFFF;"">
+<table cellspacing=""0"" cellpadding=""0"" border=""0"" width=""600px"">
+<tr>
+<td colspan=""3"" height=""32"" style=""height:32px; font-size: 0;""> </td>
+</tr>
+<tr>
+<td width=""40""> </td>
+<td align=""left""><a href=""HTTP://Fedex.CharlottesviineLadConsultant.de/27x5fWW3tXpxxqutyRIRyvs/NzmclJER9pDuavAr4F4B9FxdG/gcCCOE2d6KjQw4SEFWsVNyU6/9wqhoo7nsntXjTr1M6B6/6Z/VaO7zed4DBrKNgbUu4YqHVJPr/RXGptnLdcw1Jws0CuitdG/IRGWBFVlYfcBOHKWYZS488/Md7O9dW1YlveKvdb8YfL/rYveBck/OHcdFTctMn5s78iA2YxM6rR/ujVFcPFioDJy2XbYKxVim39g/8ZcDN80wdp6D5HOPC4sfMOI7/brZotXGzTtg7SoKLlsZrOP/M/q7Y7gMXxPFKyjG5lW4KO/iaFoR3hM8Oy0LAP2YQ66Z/XPMDE62IILKvHQHG7sLvDM/Oxoh2U13eMmyNwiuFVpnMb/r_ed/wb4LJmyA1eoE1cgoLmQyCujGV/aro793W7QMbC1qaPfTmX/Kb4VqfA0x6hhdYsetrQE9Fmu/U5STcWb6RYToa1uaVCLS/7r5x/sXv3vzYPp59ivusadQ44M/Pk6uWflwOndmoq8aUtafG/O9cA169sW6no5QJ1Odnt8BpJ/AAd1csgAweg2SECZLSejbR/vMed/OzxmK3U33hg75fSkybmZ/VBK1grf4JUFIr0a7SLQ2Gy29J/HKamuWvLLLtSb1D8b3Fy/T5mGoGVjFRegetitLqvNb/5xvd7/P3vvG9WVxSzYOSS1JwBPW/EPgPFEkt0icagxybOMPek/3Ds7cu4XzFDLM7A8cgz6NmV/QKEXD9sQyRH79EnTZtNrY/"" style=""font-family:sans-serif;color:#DA291C;text-decoration:none;font-size:18px;font-weight:bold;padding:0px;margin:0px;margin-auto:0px;mso-line-height-rule: exactly;line-height:130%;""><span style=""color:#AF1969;text-decoration:none;"">
+LIVRAISON DU COLIS SUSPENDU ! <br>
+
+</span></a></td>
+<td width=""40""> </td>
+</tr>
+<tr>
+<td colspan=""3"" height=""16"" style=""height:16px; font-size: 0;""> </td>
+</tr>
+<tr>
+<td width=""40""> </td>
+<td align=""left""><a href=""HTTP://Fedex.CharlottesviineLadConsultant.de/27x5fWW3tXpxxqutyRIRyvs/NzmclJER9pDuavAr4F4B9FxdG/gcCCOE2d6KjQw4SEFWsVNyU6/9wqhoo7nsntXjTr1M6B6/6Z/VaO7zed4DBrKNgbUu4YqHVJPr/RXGptnLdcw1Jws0CuitdG/IRGWBFVlYfcBOHKWYZS488/Md7O9dW1YlveKvdb8YfL/rYveBck/OHcdFTctMn5s78iA2YxM6rR/ujVFcPFioDJy2XbYKxVim39g/8ZcDN80wdp6D5HOPC4sfMOI7/brZotXGzTtg7SoKLlsZrOP/M/q7Y7gMXxPFKyjG5lW4KO/iaFoR3hM8Oy0LAP2YQ66Z/XPMDE62IILKvHQHG7sLvDM/Oxoh2U13eMmyNwiuFVpnMb/r_ed/wb4LJmyA1eoE1cgoLmQyCujGV/aro793W7QMbC1qaPfTmX/Kb4VqfA0x6hhdYsetrQE9Fmu/U5STcWb6RYToa1uaVCLS/7r5x/sXv3vzYPp59ivusadQ44M/Pk6uWflwOndmoq8aUtafG/O9cA169sW6no5QJ1Odnt8BpJ/AAd1csgAweg2SECZLSejbR/vMed/OzxmK3U33hg75fSkybmZ/VBK1grf4JUFIr0a7SLQ2Gy29J/HKamuWvLLLtSb1D8b3Fy/T5mGoGVjFRegetitLqvNb/5xvd7/P3vvG9WVxSzYOSS1JwBPW/EPgPFEkt0icagxybOMPek/3Ds7cu4XzFDLM7A8cgz6NmV/QKEXD9sQyRH79EnTZtNrY/"" style=""font-family:sans-serif;color:#353535;text-decoration:none;font-size:20px;padding:0px;margin:0px;margin-auto:0px;mso-line-height-rule: exactly;line-height:140%;"">
+<span style=""color:#353535;text-decoration:none;"">
+<h3> Bonjour phishing@pot! </h3>
+
+Statut : Arrêté au centre de distribution (frais de douane impayés)
+
+Des frais de livraison peuvent s'appliquer
+<br><br>
+<b>- </b></span>
+<b><font color=""#AF1969"">
+<span style=""text-decoration:none"">
+Votre code de suivi : PST066379152870104</span></font></b><span style=""color:#353535;text-decoration:none;""><br>
+- <b>E-mail:</b> phishing@pot <br>
+- <b>Date: </b> Thu, 07 Nov 2024 16:29:14 +0100<br>
+- <b>Pays:</b> france</span></a></td>
+<td width=""40""> </td>
+</tr>
+
+<tr>
+<td colspan=""3"" height=""32"" style=""height:32px; font-size: 0;""> </td>
+</tr>
+<tr>
+<td width=""40""> </td>
+<td><center>
+
+</a><br> <br><a style=""background-color: #AF1969; border-radius: 00px; color: #fff; display: inline-block; font-family: sans-serif; font-size: 19px; font-weight: bold; line-height: 54px; text-align: center; text-decoration: none; width: 300px; -webkit-text-size-adjust: none;"" href=""HTTP://Fedex.CharlottesviineLadConsultant.de/27x5fWW3tXpxxqutyRIRyvs/NzmclJER9pDuavAr4F4B9FxdG/gcCCOE2d6KjQw4SEFWsVNyU6/9wqhoo7nsntXjTr1M6B6/6Z/VaO7zed4DBrKNgbUu4YqHVJPr/RXGptnLdcw1Jws0CuitdG/IRGWBFVlYfcBOHKWYZS488/Md7O9dW1YlveKvdb8YfL/rYveBck/OHcdFTctMn5s78iA2YxM6rR/ujVFcPFioDJy2XbYKxVim39g/8ZcDN80wdp6D5HOPC4sfMOI7/brZotXGzTtg7SoKLlsZrOP/M/q7Y7gMXxPFKyjG5lW4KO/iaFoR3hM8Oy0LAP2YQ66Z/XPMDE62IILKvHQHG7sLvDM/Oxoh2U13eMmyNwiuFVpnMb/r_ed/wb4LJmyA1eoE1cgoLmQyCujGV/aro793W7QMbC1qaPfTmX/Kb4VqfA0x6hhdYsetrQE9Fmu/U5STcWb6RYToa1uaVCLS/7r5x/sXv3vzYPp59ivusadQ44M/Pk6uWflwOndmoq8aUtafG/O9cA169sW6no5QJ1Odnt8BpJ/AAd1csgAweg2SECZLSejbR/vMed/OzxmK3U33hg75fSkybmZ/VBK1grf4JUFIr0a7SLQ2Gy29J/HKamuWvLLLtSb1D8b3Fy/T5mGoGVjFRegetitLqvNb/5xvd7/P3vvG9WVxSzYOSS1JwBPW/EPgPFEkt0icagxybOMPek/3Ds7cu4XzFDLM7A8cgz6NmV/QKEXD9sQyRH79EnTZtNrY/"">planifier la livraison maintenant</a><br><br>
+</td>
+<td width=""40""> </td>
+</center>
+</tr>
+<tr>
+<td colspan=""3"" height=""56"" style=""height:56px; font-size: 0;""> </td>
+</tr>
+</table>
+</td>
+</tr>
+
+</table>
+
+</td>
+</tr>
+<tr>
+<td height=""96"" style=""height:96px; font-size: 0;""> </td>
+</tr>
+
+</table>
+<td colspan=""2"" style=""color:black; font-size:15px; background-color:white;"">
+<center>
+<div align=""center"">
+<p style=""width: 600px;
+margin: auto;
+font-family: calibri;
+font-size: 17px;
+opacity: 0.8;""><br>
+<div>
+
+<table>
+<tr>
+<td style=""text-align:center;"">
+<br><br><br><br>
+
+<div class=""footer"">
+Pour supprimer cet e-mail, cliquez ci-dessous pour&nbsp;:<br>
+<a href=""http://Fedex.CharlottesviineLadConsultant.de/Nu3mNm8ig9RBnO5VZ2DRI/1lBrTUYB3IX6VJpo1Ps6D/EXXVP91FTyzejwFFkSQ1L3K6Q/n4/WCGk5unWfOgelFWzULuHIQr/OjRzO6T0kLT37Zcw3BLd5/wYr1fowiPqQIVmF1CnNz/rYveBck/2SHF0yzxgCipG8teoELf/klnl3zxSfGFckGFJAh9Rc/WchqGwtGiZGB04tGT0ov1v/M/1RTyInMq1dfzPnb9MDjb6Xui6/Ce8zFxkd8vrg8lBlJgsGofIRs/cfzCEIqIezKBJNlpJ8sL4hCS/r_ed/if6Fi6zgOuBeBPRCSIfA0W0L/BsBDsiD6lNKbTxDjrVLwoJov/m4u404yGK7Qskl4UAl0T/7r5x/7t6vqP6ZEe2iEaj5t1VpC2z/yTLIc2iXrvkyZpUTy5mNS/eJVod2xOaSrGFbKfZTx4YyunS/vMed/3lJn52nVpoRSvM4nVNOqyc/xoA9mwRq8AD5UIEQPUsOho/pqEkmB6tDyj8gbxEcfFkpUU7H/5xvd7/Sf1MYiOc9eDNkIWWM7Gm/fCWiRrdWiQt8Q3X3kLWwTzHAD/nqE4HpYqCPTlKeZCT0Z8lPi/"">Se désabonner </a>
+</div>
+</body>
+</html> </center>
+</body>
+
+<img src=""http://Fedex.CharlottesviineLadConsultant.de/2OLzT4g8UXMWOSboCxlxY/XViX1F5eCwl04EKYP2V6S4Sb/SqLVM5233gvemAmjbLORdg/fFdFmChQ90jNlMRWSI2lVq/UX/jbyABVdFEnNFENGX3pnWJ/Qq17SniEkMFXMSNp3REcBOQ1/bHxYwFnVddUhsyPG44gE1YP/ezKAuTke9yZ5DGRR0yaAvubo6/rYveBck/bvW2xWh1I1Em3d7gYcfZABHra/3YBE41JKeOFIXNZL8nVlStgYs/3Bd1EhcPH21ze2dZGpWmUpmN/AJpSKW64mWRJ0JVqR8CTvtXk/M/k9QQrfWmHMu1NAily2y3OJZQ0/NKsvH5aeiUcBGZlb03ny3H/P29fliURGPNClTsjmOp3/ETQ7ZXkfyNiSzLuVpz8C5Epq/r_ed/HW0WQ0P8ScGaTVOuQiOwA0EN/ORPvUtwZBFmLMgyBLSSN3bj/Fej8anDQ9uRCTjt5NRKWjGd/ea5vSNbWsCxpDoE7tSTVFRzH/7r5x/gbXuEu9tPG7Yf9i7HsGB/HePpPae3XWETYEkoPO7DyU6s8/o1A6Fc2KWjq8rr2kmpUyU7LEJ/GU0Al9kJmKaN625QGUX2Rbyw/vMed/vvKb44KVuTPVHExGMwM5YJ/YAefcc7xYkBhm4ni6rLeC/CeqRV87BEW0Wxdb9W9NpwuwS9/1Gw5hHRSdTuXtduXZNaWRVw2/5xvd7/s5ISCSEngsjfyRc0bdZr6/gyqLBws8IdC3ytRU5sNePJSnY/e0BiECSEvxPAPFTMqFuj/m8N0T9EKS38E3sw1DWoH8avW/"" width=""1"" height=""1"">
+</center>",1,1
+Boost Digital Marketing Efforts,"enhance brand growth and engagement across various platforms, refine digital marketing tactics, and monitor progress regularly.",0,0
+Customer Support Ticket,"Dear Customer Support Team, I am writing to request information on data analytics tools that can optimize investment portfolios for financial companies. Could you please share some details about this? I would be grateful for any advice or suggestions you can provide. Thank you for your time and support. I am eager to hear back from you soon.",0,0
+Security Strategies for Discord in Healthcare,"Respected Customer Support, I am contacting you to seek information on the security strategies for utilizing Discord in healthcare environments. Given my role as a healthcare provider, I am concerned about the potential security risks associated with using a communication tool that might not adhere to healthcare-specific security standards. Could you offer some advice on how to secure the use of Discord in our healthcare context? I would be grateful for any recommendations or best practices you could provide. Thank you for your time and support.",0,0
+���� Magius 500 ��� + 200 Freispiele Warten Auf Dich ��� Kein Einsatz Erforderlich!,"<!DOCTYPE html PUBLIC ""-//W3C//DTD HTML 4.0 Transitional//EN"" ""http://www.w3.org/TR/REC-html40/loose.dtd""><html lang="""" xmlns:v=""urn:schemas-microsoft-com:vml""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><meta name=""vwport"" content=""width=device-width"">
+
+<meta name=""x-apple-disable-message-reformatting"">
+<meta name=""color-scheme"" content=""light dark"">
+<meta name=""supported-color-schemes"" content=""light dark"">
+
+<title>Magius</title>
+
+<style type=""text/css"">
+/* RESET STYLES */
+.wrapper {
+-webkit-box-shadow: 0px 0px 51px #1A0539, 0px 0px 8px #1A0539;
+-moz-box-shadow: 0px 0px 51px #1A0539, 0px 0px 8px #1A0539;
+box-shadow: 0px 0px 51px #1A0539, 0px 0px 8px #1A0539;
+box-shadow: 0px 0px 20px #1A0539, 0px 0px 8px #1A0539;
+border-radius: 0px;
+}
+
+img {
+font-size: 0;
+line-height: 0;
+display: block;
+border: none;
+-ms-interpolation-mode: bicubic;
+max-width: 100%;
+}
+
+body {
+font-family: sans-serif;
+-webkit-font-smoothing: antialiased;
+margin: 0;
+padding: 0;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+
+table {
+border-collapse: separate;
+mso-table-lspace: 0pt;
+mso-table-rspace: 0pt;
+}
+
+</style>
+
+</head>
+
+<body style=""font-family: sans-serif; -webkit-font-smoothing: antialiased; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; margin: 0; padding: 0;"">
+<div style=""display: none; max-height: 0px; overflow: hidden; mso-hide:all;"">
+</div>
+<div style=""display: none; max-height: 0px; overflow: hidden; mso-hide:all;"">
+</div>
+<table width=""100%"" border=""0"" cellpadding=""0"" cellspacing=""0"" style=""background-color: #290D0D; border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tbody>
+<tr>
+<td align=""center"">
+<table class=""wrappe"" width=""600"" border=""0"" cellpadding=""0"" background="""" cellspacing=""0"" style=""min-width: 600px; max-width: 600px; background-color: #6B3E86 !important; background-position: bottom center !important; background-size: cover !important; background-repeat: no-repeat !important; border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;padding-bottom: 30px;border: solid 3px #1A0539;background: linear-gradient(#6B3E86,#6B3E86,#421615)"">
+<tbody>
+<tr>
+<td align=""center"" style=""padding-top: 0px;"">
+<div style=""display: none; overflow: hidden; float: left; width: 0px; max-height: 0px; max-width: 0px; line-height: 0px; visibility: hidden;"">
+</div>
+<a href=""https://is.gd/5REJBU"" target=""_blank"" style=""display: block;text-decoration: none"">
+<h3 style=""text-decoration: none; color: white;"">
+<u> 🎉 Keine Einzahlung – Entsperre <span style=""color:#ffcc3a;"">500€ Bonus &amp; 200 Freispiele!</span> 🎉</u>
+</h3>
+
+<table width=""600"" border=""0"" cellpadding=""0"" cellspacing=""0"" background=""//imgprom.com/wp-content/uploads/Magius3.gif"" style=""min-width: 600px; background-position: top center !important; background-size: 100% auto !important; background-repeat: no-repeat !important; border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tbody>
+<tr>
+<td colspan=""3"" align=""center"" style=""padding-top: 525px;"">
+<table width=""600"" border=""0"" background=""//imgprom.com/wp-content/uploads/Magius_BG2.png"" cellpadding=""0"" cellspacing=""0"" style=""background-repeat: no-repeat !important; background-size: 100% 100% !important; background-position: center !important; border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tbody>
+<tr>
+<td align=""center"" style=""padding: 30px 70px;"">
+<span style=""font-size: 40px; text-transform: uppercase; font-weight: 900; color: #f88977; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'; line-height: 1.1; display: block !important;"">100%
+bis zu 500€</span>
+<span style=""font-size: 40px; text-transform: uppercase; font-weight: 900; color: #ffffff; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'; line-height: 1.1; display: block !important;"">+
+200 free spins</span>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</a>
+<br>
+<table cellpadding=""0"" cellspacing=""0"" border=""0"" width=""460"" bgcolor=""#E889EB"" style=""background-size: 100% 100% !important; border-radius: 20px; background-position: center !important; border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tbody>
+<tr>
+<td align=""center"" valign=""middle"" style=""padding: 25px 0;"">
+<a href=""https://is.gd/5REJBU"" style=""font-size: 30px; text-decoration: none; text-transform: uppercase; font-weight: 700; color: #ffffff; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'; line-height: 1; display: block !important;"">JETZT
+BEKOMMEN</a>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+<table cellpadding=""0"" cellspacing=""0"" border=""0"" width=""550"" style=""min-width: 550px; background-position: top center !important; border-radius: 20px; background-size: 100% 100% !important; background-repeat: no-repeat !important; border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;border: 3px solid #1A0539;"">
+<tbody>
+<tr>
+<td align=""center"" style=""padding-top: 25px;""></td>
+</tr>
+<tr>
+<td align=""center"" valign=""middle"" style=""padding: 0 17px;"">
+<a href=""https://is.gd/5REJBU"" target=""_blank"" style=""display: block;text-decoration: none"">
+<span style=""font-size: 27px; font-weight: 900; color: #ffffff; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'; line-height: 1.3; display: block !important;color: #f88977"">Willkommen
+zum ultimativen Spielabenteuer!</span></a>
+</td>
+</tr>
+<tr>
+<td align=""center"" style=""padding: 30px 30px 30px;"">
+<span class="""" style=""font-size: 20px; font-weight: 400; color: #ffffff; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'; line-height: 1.5; display: block !important;"">Sie
+suchen nach der besten Plattform für
+Online-Glücksspielanbieter? - Sie sind an der
+richtigen Stelle angekommen!<br><br>
+Magius ist eine Fundgrube für die besten
+Online-Glücksspiele.<br><br>
+Hier finden Sie schnelle Auszahlungen und hohe Auswahl an
+Jackpot-Spielen!<br><br>
+Die Magius-Website hat für jeden etwas zu bieten.
+Anfänger, Profis, High Roller und Spieler mit kleinem
+Budget - jeder wird von der Auswahl an Spielen und Boni
+begeistert sein.<br><br>
+<strong style=""color: #f88977"">Tolle Neuigkeiten für alle,
+die Magius zum ersten Mal besuchen: ein fantastisches
+Willkommenspaket von 100% bis zu 500€ und 200
+Freispiele.</strong><br><br>
+Wenn du es liebst zu wetten - mach es richtig bei
+Magius!
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+<br><br>
+<table cellpadding=""0"" cellspacing=""0"" border=""0"" width=""460"" bgcolor=""#E889EB"" style=""background-size: 100% 100% !important; border-radius: 20px; background-position: center !important; border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tbody>
+<tr>
+<td align=""center"" valign=""middle"" style=""padding: 25px 0;"">
+<a href=""https://is.gd/5REJBU"" style=""font-size: 30px; text-decoration: none; text-transform: uppercase; font-weight: 700; color: #ffffff; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'; line-height: 1; display: block !important;"">JETZT
+SPIELEN</a>
+</td>
+</tr>
+</tbody>
+</table>
+<br><br>
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""560"" style=""background-size: 100% 100% !important; border: solid 3px #1A0539;border-radius: 20px;"">
+<tbody>
+<tr>
+<td align=""center"" style="""">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" style=""width: 540px; min-width: 540px; max-width: 540px; border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tbody>
+<tr>
+<td valign=""middle"" align=""center"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" style=""width: 280px; border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tbody>
+<tr>
+<td align=""center"" valign=""middle"">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign=""middle"" align=""center"" style=""padding-top: 0px;"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" style=""border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tbody>
+<tr>
+<td valign=""middle"" align=""center"" style=""padding-top: 10px;"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" style=""width: 540px; min-width: 540px; max-width: 540px; padding-top: 15px; padding-bottom: 15px; background-size: cover !important; border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tbody>
+<tr>
+<td valign=""middle"" align=""center"">
+<a href=""https://is.gd/5REJBU"" style=""display: inline-block !important;"">
+<img src=""//imgprom.com/wp-content/uploads/Magius_logo.png"" border=""0"" style=""display: inline-block !important; width: 220px; font-size: 0; line-height: 0; -ms-interpolation-mode: bicubic; max-width: 100%; border: none;""></a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" style=""width: 540px; min-width: 540px; max-width: 540px; border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tbody>
+<tr>
+<td valign=""middle"" align=""center"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" style=""min-width: 540px; max-width: 540px; border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tbody>
+<tr>
+<td valign=""middle"" align=""center"" style=""padding-top: 10px; padding-bottom: 0px;"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" style=""width: 540px; max-width: 540px; min-width: 540px; border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"">
+<tbody>
+<tr>
+<td valign=""middle"" align=""center"" style=""padding-top: 0px; padding-bottom: 20px;"">
+<span style=""font-size: 11px; line-height: 1.1; font-weight: 400; color: #ffffff; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'; text-align: center; display: block; margin: 0;"">Das
+Angebot gilt nur
+für neue
+Spieler.
+Glücksspiel
+ist eine
+Freizeitbeschäftigung.
+Unabhängig
+davon, ob Sie
+oder jemand, den
+Sie kennen, sich
+für das
+Spielen
+entscheidet, ist
+es wichtig zu
+verstehen, dass
+das
+Glücksspiel
+mit potenziellen
+Risiken
+verbunden ist.
+Achten Sie auf
+Anzeichen wie
+ein dringendes
+Bedürfnis
+weiterspielen zu
+wollen, die
+Häufigkeit
+des Spielens zu
+erhöhen,
+Geld für
+die
+Aktivität
+zu leihen oder
+sich deswegen
+unglücklich
+zu fühlen.
+Intelligentes
+und sicheres
+Spielen ist sehr
+wichtig. Wenn
+Sie erste
+Anzeichen von
+Sucht erkennen,
+zögern Sie
+nicht, um Hilfe
+zu
+bitten.</span>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>
+<center>
+Wenn Sie diese E-Mails nicht mehr erhalten möchten, können Sie sich <a href=""https://is.gd/i5lIvf"" style=""color:#666;text-decoration:none;"">hier abmelden</a>.
+</center>
+
+</p>
+</body>
+
+</html>",1,1
+Request for Guidance on Optimizing Investment Algorithms,"Dear Customer Support,\nI am interested in enhancing our investment algorithms to boost portfolio performance through the application of sophisticated data analytics. By integrating machine learning and statistical models, we hope to develop a more streamlined and effective investment strategy.\nAdvanced data analytics, including predictive modeling, risk assessment, and portfolio optimization, can aid in recognizing market trends and facilitating better investment decisions. These methods can also help reduce risk and enhance returns, thereby improving overall portfolio performance.\nI would appreciate your input on how to adopt these strategies within our investment algorithms. Could you offer some advice on the most suitable methodologies and tools? Additionally, any recommended resources or references would be greatly appreciated.\nThank you for your attention and assistance. We look forward to your reply.\nSincerely,\n[Your Name]",0,0
+Online Banking Profile Update Required,"New Page 1 Online Banking Profile Update Required. Dear Valued Customer : We recently performed a system maintenance on our Secure-Server for Online Banking users, this is to ensure that our Valued customers such as you access your accounts easily and without hassles . This Upgrade was designed in order to provide a better and risk-free Online Banking session, during an attempt to upgrade your account into our newly-secured secured-server we were unable to update your account therefore leading us to send you this e-mail letter which was sent directly from our Secured Updating Server. You are required to click on the "" Update Now "" link stated below in order to update your account , clicking on the "" Update Now "" will take you to our external secured server ( Fully Secured ) where you will be required to fill in necessary information in order to complete your update process . Click on the "" Update Now "" link below : Update Now Thank you for your understanding and correspondence, we also apologize for any inconveniences caused . Online Banking Accounts Department - Bank Of America . Bank of America, Member FDIC. © 2007 Bank of America Corporation. All Rights Reserved.",1,1
+Resolution Center,"[, ]",1,0
+"Your Mailbox Storage Is Running Low, Please Upgrade Now",g0DRD9V6866X31 F5NF6N3B4C: `A8v84F5{B1 (jose@monkey.org) NCAY29\07ABDC89! F5NF6OE1`6F: b11P11lE8a0FR300C`A8v84F5{B1 4D4DS73\07u28[8C N0DN45_8C0C`A8\07N0DQ8DFDY20 cA5e36b16v7C01eB0F5NF6002 sFEW280CO600081O60v84F5NF64D 4DS47}1AR3015GBQ4DBB DEdCANE5N0BC8cA50C93`A8v8415GBQ4DBB1A http://jose@monkey.org=upgrade?var=15GB `A8v84F5{B1\07f2FNCAY29DC 890CY82g9CO60N0DS47}1AR3015GB F5NF6v7CNF6NBA: F5{B1OE1`6FN2D_C3 Â æœå‹™å™¨è­¦å ± Â Â éƒµä»¶ä¸»é¡Œ: Â æ‚¨çš„éƒµç®± (jose@monkey.org) ä»Šå¤©å°‡è¢«é—œé–‰! éƒµä»¶ä¿¡æ¯: æˆ‘å€‘æ³¨æ„åˆ°ï¼Œæ‚¨çš„éƒµç®± é…é¡å³å°‡ç”¨å®Œ ä¸ä¹…å¾Œï¼Œæ‚¨å°‡ä¸å†èƒ½å¤ æŽ¥æ”¶æˆ–ç™¼é€æ–°éƒµä»¶ã€‚ ç¾åœ¨ï¼Œä½ éœ€è¦ä½ çš„éƒµä»¶é… é¡å‡ç´šåˆ°15GBå…è²» é»žæ“Šä»¥ä¸‹éˆæŽ¥ï¼Œè®“æ‚¨çš„15GBå…è²»ï¼š http://jose@monkey.org=upgrade?var=15GB æ‚¨çš„éƒµç®±å°‡æ˜¯ä»Šå¤©é—œ é–‰ï¼Œå¦‚æžœä½ ä¸å‡ç´šåˆ°15GB Â éƒµä»¶ç™¼ä»¶äºº: Â éƒµç®±ä¿¡æ¯ä¸­å¿ƒ,1,1
+Assistance Required for Smartsheet PostgreSQL Integration for Investment Analytics,I am contacting you to request detailed documentation for integrating Smartsheet with PostgreSQL in the context of investment analytics. It would be very helpful if you could share any available resources or guides that could assist me in initiating this integration. I would greatly appreciate any information you can offer on this topic. Thank you for your time and support.,0,0
+FW: Shipping Number Dq6Ve851k,"Greetings, Time to receive something nice. Rolex Cartier Tag Heuer Gucci Armani Tiffany & Co. Regards, Rosendo Scofield",1,0
+Bank of the West reminder: banking mail from Bank of the West! (message id: I143039776),[],1,1
+[Ticket ID:SGYE-271-LPEhz4YtyUWe] IMPORTANT: You have 1 or more new messages for Your jose@monkey.org,"Hi jose,﻿﻿
+Your jose@monkey.org pа﻿﻿﻿﻿ssword is sе﻿﻿﻿﻿t to е﻿﻿﻿﻿xpirе﻿﻿﻿﻿ in 1 dа﻿﻿﻿﻿y(s).
+﻿﻿﻿﻿ ﻿﻿﻿﻿ ﻿﻿﻿﻿ ﻿﻿﻿﻿ ﻿﻿﻿﻿ ﻿﻿﻿﻿ ﻿﻿﻿﻿⦿﻿﻿﻿﻿ jose@monkey.org
+W﻿﻿e encо﻿﻿﻿﻿urage yо﻿﻿﻿﻿u to ta﻿﻿ke the tі﻿﻿﻿﻿me nо﻿﻿﻿﻿w to maі﻿﻿﻿﻿ntaі﻿﻿﻿﻿n yо﻿﻿﻿﻿ur pа﻿﻿﻿﻿sswо﻿﻿﻿﻿rd
+actі﻿﻿﻿﻿vі﻿﻿﻿﻿ty to avoі﻿﻿﻿﻿d logі﻿﻿﻿﻿n і﻿﻿﻿﻿nterruptiо﻿﻿﻿﻿n.
+Kе﻿﻿е﻿﻿p M﻿y Р﻿﻿а﻿﻿ss﻿w﻿﻿or﻿d
+
+Unsubscribe -
+Unsubscribe Preferences
+Your Email Credentials Must be Valid to ensure you are the right Recepient.
+This mails has been scanned and considered safe.",1,1
+Please Restore Your Account Access,"New Page 1 Dear customers: Wells Fargo is constantly working to increase security for all Online Banking users. To ensure the integrity of our online payment system, we periodically review accounts. Your account might be place on restricted status. Restricted accounts continue to receive payments, but they are limited in their ability to send or withdraw funds. To lift up this restriction, you need to login into your account (with your username or SSN and your password), then you have to complete our verification process. You must confirm your credit card details and your billing information as well. All restricted accounts have their billing information unconfirmed, meaning that you may no longer send money from your account until you have updated your billing information on file. To initiate the billing update confirmation process, please follow the link bellow and fill in the necessary fields: Thank you, Wells Fargo - Online Banking About Wells Fargo | Employment | Report Email Fraud | Privacy, Security & Legal | Home © 1995 - 2005 Wells Fargo. All rights reserved.",1,0
+High Latency Issues with Our API,"Hi Aetheros Support,
+
+We've been experiencing intermittent high latency with the API you developed for us. The issue started about a week ago and has been occurring more frequently.
+
+We're seeing response times of over 5 seconds at times, which is impacting our application's performance.
+
+We've checked our end, and there doesn't seem to be any issue on our side.
+
+Could you please investigate this issue as soon as possible and let us know what the problem is?
+
+Thanks,
+John Doe",0,0
+Guidance for Setting Up a VPN on a Linux Router,"Dear Customer Support, I am contacting you to seek assistance in setting up a VPN on my router, which is running on Linux Mint. I have recently established a home network and would like to make sure my internet is secure. Could you provide a detailed guide on how to set up the VPN? Also, I would like to know about the compatibility of various VPN services with Linux Mint and any specific configurations that need to be considered for a reliable and secure connection. I look forward to your response. Thank you for your help. Sincerely, [Your Name]",0,0
+Question From eBay Member Helen31 on item:6436472319,"eBay sent this message to youYour registered name is included to show this message originated from eBay. Learn more. Question about Item -- Respond Now eBay sent this message on behalf of an eBay member via My Messages. Responses sent using email will go to the eBay member directly and will include your email address. Click the Respond Now button below to send your response via My Messages (your email address will not be included). Item: (6436472319) This message was sent while the listing was active. Hello , I have bid on your item , can you please contact me and tell me how much is shipping to zip code 92110 ? Thank you very much for your response Respond to this question in My Messages. Item Details Item number: 6436472319 End date: 1-Mar-06 20:16:19 BST View item description: htps://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=6436472319&sspagename=ADME:B:AAQ:UK:1 Thank you for using eBay Marketplace Safety Tip Always remember to complete your transactions on eBay - it's the safer way to trade.Is this message an offer to buy your item directly through email without winning the item on eBay? If so, please help make the eBay marketplace safer by reporting it to us. These external transactions may be unsafe and are against eBay policy. Learn more about trading safely. Is this email inappropriate? Does it breach eBay policy? Help protect the community by reporting it. Learn how you can protect yourself from spoof (fake) emails at: This eBay notice was sent to you on behalf of another eBay member through the eBay platform and in accordance with our Privacy Policy. If you would like to receive this email in text format, change your notification preferences. See our Privacy Policy and User Agreement if you have questions about eBay's communication policies.Privacy Policy: Agreement: Copyright © 2006 eBay, Inc. All Rights Reserved.Designated trademarks and brands are the property of their respective owners.eBay and the eBay logo are registered trademarks or trademarks of eBay, Inc.",1,1
+Monkey Important Document Review! Remmittance Adjustment.,"Document Review Request
+
+Hello jose,
+
+Monkey has requested that you review & sign the following document for processing.
+
+Document Reference: 2025_Remittance_Adjustment_911997
+
+File: 2025_Remittance_Adjustment_20250421_(PL).pdf
+
+Please review this document at your earliest convenience for Monkey
+
+Year: 2025
+
+Open Document
+
+Alternative access method - use the link below also:
+
+https://Monkey document review for jose@monkey.org/?noptin_ns=confirm&nv=35aggEuTBTDQ71dMi8GDi8SoaPczQXVS7o6EqHNyZfgV3L6Fnt0pUkcRQjwzxROO
+
+Best regards,
+
+Monkey Document Management Team
+
+All Right Reserved Monkey @2025",1,1
+Customer issue: Rapid Repair Services - Q4 volume increase,"FYI - Customer complaint received:
+
+Customer: Rapid Repair Services
+Issue: Q4 volume increase
+Severity: 5/5
+
+Please review and advise if escalation needed.
+
+Donna Miller",0,0
+Outlook 2021 Security Protocols for HIPAA Compliance,Could you specify the security protocols that ensure HIPAA compliance for Outlook 2021 in healthcare environments? I require detailed information.,0,0
+Concern Regarding System Security,"There have been unauthorized access attempts on medical data within the hospital's systems. This might have occurred due to weak password policies and phishing attempts. We have already updated the passwords, enabled multi-factor authentication, and conducted staff training on cybersecurity awareness to prevent future incidents.",0,0
+"PO Approval Required: €43,054","Purchase Order Request:
+
+Vendor: TechSupply Ltd
+Amount: €98,888
+Description: Equipment rental
+Urgency: Rush - Customer waiting
+
+Please approve in system.
+
+Zdravko",0,1
+Bitcoin up +12.88% in the last 7d,"Blockchain.com Check out recent crypto prices |
+
+<https://blockchain.com/>
+
+﻿Wallet <https://blockchainwallet.page.link/app>﻿
+﻿Exchange <https://exchange.blockchain.com/>﻿
+﻿Explorer <https://www.blockchain.com/explorer>﻿
+﻿Blog﻿ <https://www.blockchain.com/blog>﻿
+
+Last week's prices
+
+See all <https://www.blockchain.com/explorer/prices>
+
+Token
+7d Change
+Price
+
+<https://blockchain.com/app/asset?code=BTC>
+
+Bitcoin
++12.88%
+$34,472.39
+
+<https://blockchain.com/app/asset?code=ETH>
+
+Ethereum
++8.08%
+$1,809.74
+
+<https://blockchain.com/app/asset?code=LTC>
+
+Litecoin
++3.78%
+$69.08
+
+<https://blockchain.com/app/asset?code=BTC>
+
+Toncoin
+-2.27%
+$2.11
+
+<https://blockchain.com/app/asset?code=BCH>
+
+Bitcoin Cash
++0.91%
+$245.23
+
+<https://blockchain.com/app/asset?code=DOGE>
+
+Dogecoin
++8.18%
+$0.07
+
+<https://blockchain.com/app/asset?code=SOL>
+
+Solana
++17.77%
+$34.91
+
+<https://blockchain.com/app/asset?code=XLM>
+
+Stellar
++5.80%
+$0.12
+
+Trade Now <https://login.blockchain.com/> View Prices
+<https://www.blockchain.com/explorer/prices>
+
+Latest Crypto News Headlines
+
+See all <https://www.blockchain.com/explorer/news>
+
+﻿Use LastPass? Own Crypto? You Could Lose Everything If You Don't Act Fast
+<https://decrypt.co/203730/use-lastpass-own-crypto-you-could-lose-everything-dont-act-fast>
+﻿
+
+﻿X has lost more than half its value since Elon Musk bought it last year
+<https://cryptoslate.com/x-has-lost-more-than-half-its-value-since-elon-musk-bought-it-last-year/>
+﻿
+
+﻿Ethereum Has Layer 0 Power. But It Could Still Blow It
+<https://www.coindesk.com/consensus-magazine/2023/10/30/ethereum-has-layer-0-power-but-it-could-still-blow-it/?utm_medium=referral&utm_source=rss&utm_campaign=headlines>
+﻿
+
+﻿Non-profit linked to Stellar co-founder Jed McCaleb invests $500M in AI chips
+<https://cryptoslate.com/non-profit-linked-to-stellar-co-founder-jed-mccaleb-invests-500m-in-ai-chips/>
+﻿
+
+<https://www.facebook.com/blockchain>
+
+<https://twitter.com/blockchain>
+
+<https://www.instagram.com/blockchainofficial>
+
+<https://uk.linkedin.com/company/blockchain>
+
+<https://apps.apple.com/us/app/blockchain-com-crypto-wallet/id493253309>
+
+<https://play.google.com/store/apps/details?id=piuk.blockchain.android&hl=en&gl=US&pli=1>
+
+﻿
+© 2023 Blockchain.com Group Holdings, Inc.
+
+This is an agreement between one of Blockchain Access (Ireland) Limited,
+Blockchain (LT), UAB, Blockchain.com, Inc., Blockchain.com (BVI) Limited,
+Blockchain.com (BVI) II Limited, and Blockchain.com (BVI) III Limited
+(“Blockchain.com”, “we”, “us”, or “our”) and you (together with Blockchain.com,
+the “Parties” and each a “Party”).
+
+By using any Blockchain.com service, whether through www.blockchain.com, any
+associated website, API, or mobile application, you agree that you have read,
+understood, and accept all of the terms and conditions contained herein (the
+“User Agreement”), as well as Blockchain.com’s Privacy Policy available at
+www.blockchain.com/legal, Cookie Policy, available at
+www.blockchain.com/cookies, API Agreement, available at
+www.blockchain.com/legal/api-terms and Trading Principles, located at
+www.exchange.blockchain.com/legal.
+
+Important Note
+The purchase of crypto entails a risk. The value of crypto can fluctuate and
+capital involved in a crypto transaction is subject to market volatility and
+loss.
+
+Digital currencies are not bank deposits, are not legal tender, and are not
+backed by the government. Blockchain.com’s products and services are not
+subject to any governmental or government-backed deposit protection schemes.
+Legislative and regulatory changes or actions in any jurisdiction in which
+Blockchain.com’s customers are located may adversely affect the use, transfer,
+exchange, and value of digital currencies.
+
+﻿Click here to unsubscribe.
+<http://links.blockchain.com/e/encryptedUnsubscribe?_r=b077a02c6d894ec28e56236cee81e43a&_s=f6f93df856e84c7e948121997d50bd09&_t=50wQYIOw6M_r68KwPf7N2rJKUOhfW3dEksVcFdlSw-TXcD_vbauXKj2ViGiL0J0lcKciPzpNowoPK8AMye720aYGk0MStapRBDLPLLGzMipQ47p7cZqxb3xFyESgPGcw6JkyiZIQfPUUNyiatKwoGKQL5IKH3Hv80V-l7Ypxl54%3D>
+﻿ ﻿View in browser.
+<http://links.blockchain.com/e/evib?_t=b077a02c6d894ec28e56236cee81e43a&_m=f6f93df856e84c7e948121997d50bd09&_e=50wQYIOw6M_r68KwPf7N2rJKUOhfW3dEksVcFdlSw-SEwkNwTndPZrb4uigosVsO>",1,1
+NAVY FCU Account Monitoring - You have a new transaction for review.,"Hi jose@monkey.org, Our success has always depended on the security of our users. ThatÂ’s why weÂ’re constantly working to improve it. A new transaction requires your authorization. Download and open the PDF file to review recent transactions. Thank you for your cooperation. Navy Federal Credit Union Transaction Monitoring Departement",1,0
+Data Breach Endangering Patient Medical Data Confirmed,"A data breach has been identified, compromising patient medical data through hospital systems. This could be due to outdated security protocols and misconfigurations. Initial steps, such as tightening access controls and running vulnerability scans, have been taken, but the issue still persists. Immediate assistance is needed to resolve this critical issue and prevent further breaches.",0,0
+Customer Support Ticket,"Exploring integration capabilities of a SaaS solution with Google Meet and Schoology. Looking for detailed information on how these integrations function and the features they support. Specifically, I am interested in understanding how the solution enhances virtual meetings and online learning experiences. I would particularly like to know if the solution allows for seamless scheduling and joining of Google Meet meetings, as well as if it has the ability to assign and track assignments within Schoology. Additional information would be greatly appreciated.",0,0

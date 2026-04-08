@@ -1,0 +1,3016 @@
+subject,body,label,model_prediction
+Perfekt f��r Anf��nger und Profis!,"<!doctype html><html xmlns=""http://www.w3.org/1999/xhtml"" xmlns:v=""urn:schemas-microsoft-com:vml"" xmlns:o=""urn:schemas-microsoft-com:office:office""><head><!-- NAME: 1 COLUMN --><!--[if gte mso 15]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1"">
+<title>&quot;Entdecken Sie die Welt aus der Vogelperspektive!&quot;</title>
+
+<style type=""text/css"">
+p{
+margin:10px 0;
+padding:0;
+}
+table{
+border-collapse:collapse;
+}
+h1,h2,h3,h4,h5,h6{
+display:block;
+margin:0;
+padding:0;
+}
+img,a img{
+border:0;
+height:auto;
+outline:none;
+text-decoration:none;
+}
+body,#bodyTable,#bodyCell{
+height:100%;
+margin:0;
+padding:0;
+width:100%;
+}
+.mcnPreviewText{
+display:none !important;
+}
+#outlook a{
+padding:0;
+}
+img{
+-ms-interpolation-mode:bicubic;
+}
+table{
+mso-table-lspace:0pt;
+mso-table-rspace:0pt;
+}
+.ReadMsgBody{
+width:100%;
+}
+.ExternalClass{
+width:100%;
+}
+p,a,li,td,blockquote{
+mso-line-height-rule:exactly;
+}
+a[href^=tel],a[href^=sms]{
+color:inherit;
+cursor:default;
+text-decoration:none;
+}
+p,a,li,td,body,table,blockquote{
+-ms-text-size-adjust:100%;
+-webkit-text-size-adjust:100%;
+}
+.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
+line-height:100%;
+}
+a[x-apple-data-detectors]{
+color:inherit !important;
+text-decoration:none !important;
+font-size:inherit !important;
+font-family:inherit !important;
+font-weight:inherit !important;
+line-height:inherit !important;
+}
+#bodyCell{
+padding:10px;
+}
+.templateContainer{
+max-width:600px !important;
+}
+a.mcnButton{
+display:block;
+}
+.mcnImage,.mcnRetinaImage{
+vertical-align:bottom;
+}
+.mcnTextContent{
+word-break:break-word;
+}
+.mcnTextContent img{
+height:auto !important;
+}
+.mcnDividerBlock{
+table-layout:fixed !important;
+}
+/*
+@tab Page
+@section Background Style
+@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+*/
+body,#bodyTable{
+/*@editable*/background-color:#FAFAFA;
+}
+/*
+@tab Page
+@section Background Style
+@tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+*/
+#bodyCell{
+/*@editable*/border-top:0;
+}
+/*
+@tab Page
+@section Email Border
+@tip Set the border for your email.
+*/
+.templateContainer{
+/*@editable*/border:0;
+}
+/*
+@tab Page
+@section Heading 1
+@tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+@style heading 1
+*/
+h1{
+/*@editable*/color:#202020;
+/*@editable*/font-family:Helvetica;
+/*@editable*/font-size:26px;
+/*@editable*/font-style:normal;
+/*@editable*/font-weight:bold;
+/*@editable*/line-height:125%;
+/*@editable*/letter-spacing:normal;
+/*@editable*/text-align:left;
+}
+/*
+@tab Page
+@section Heading 2
+@tip Set the styling for all second-level headings in your emails.
+@style heading 2
+*/
+h2{
+/*@editable*/color:#202020;
+/*@editable*/font-family:Helvetica;
+/*@editable*/font-size:22px;
+/*@editable*/font-style:normal;
+/*@editable*/font-weight:bold;
+/*@editable*/line-height:125%;
+/*@editable*/letter-spacing:normal;
+/*@editable*/text-align:left;
+}
+/*
+@tab Page
+@section Heading 3
+@tip Set the styling for all third-level headings in your emails.
+@style heading 3
+*/
+h3{
+/*@editable*/color:#202020;
+/*@editable*/font-family:Helvetica;
+/*@editable*/font-size:20px;
+/*@editable*/font-style:normal;
+/*@editable*/font-weight:bold;
+/*@editable*/line-height:125%;
+/*@editable*/letter-spacing:normal;
+/*@editable*/text-align:left;
+}
+/*
+@tab Page
+@section Heading 4
+@tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+@style heading 4
+*/
+h4{
+/*@editable*/color:#202020;
+/*@editable*/font-family:Helvetica;
+/*@editable*/font-size:18px;
+/*@editable*/font-style:normal;
+/*@editable*/font-weight:bold;
+/*@editable*/line-height:125%;
+/*@editable*/letter-spacing:normal;
+/*@editable*/text-align:left;
+}
+/*
+@tab Preheader
+@section Preheader Style
+@tip Set the background color and borders for your email's preheader area.
+*/
+#templatePreheader{
+/*@editable*/background-color:#FAFAFA;
+/*@editable*/background-image:none;
+/*@editable*/background-repeat:no-repeat;
+/*@editable*/background-position:center;
+/*@editable*/background-size:cover;
+/*@editable*/border-top:0;
+/*@editable*/border-bottom:0;
+/*@editable*/padding-top:9px;
+/*@editable*/padding-bottom:9px;
+}
+/*
+@tab Preheader
+@section Preheader Text
+@tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+*/
+#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
+/*@editable*/color:#656565;
+/*@editable*/font-family:Helvetica;
+/*@editable*/font-size:12px;
+/*@editable*/line-height:150%;
+/*@editable*/text-align:left;
+}
+/*
+@tab Preheader
+@section Preheader Link
+@tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+*/
+#templatePreheader .mcnTextContent a,#templatePreheader .mcnTextContent p a{
+/*@editable*/color:#656565;
+/*@editable*/font-weight:normal;
+/*@editable*/text-decoration:underline;
+}
+/*
+@tab Header
+@section Header Style
+@tip Set the background color and borders for your email's header area.
+*/
+#templateHeader{
+/*@editable*/background-color:#FFFFFF;
+/*@editable*/background-image:none;
+/*@editable*/background-repeat:no-repeat;
+/*@editable*/background-position:center;
+/*@editable*/background-size:cover;
+/*@editable*/border-top:0;
+/*@editable*/border-bottom:0;
+/*@editable*/padding-top:9px;
+/*@editable*/padding-bottom:0;
+}
+/*
+@tab Header
+@section Header Text
+@tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+*/
+#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+/*@editable*/color:#202020;
+/*@editable*/font-family:Helvetica;
+/*@editable*/font-size:16px;
+/*@editable*/line-height:150%;
+/*@editable*/text-align:left;
+}
+/*
+@tab Header
+@section Header Link
+@tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+*/
+#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
+/*@editable*/color:#007C89;
+/*@editable*/font-weight:normal;
+/*@editable*/text-decoration:underline;
+}
+/*
+@tab Body
+@section Body Style
+@tip Set the background color and borders for your email's body area.
+*/
+#templateBody{
+/*@editable*/background-color:#FFFFFF;
+/*@editable*/background-image:none;
+/*@editable*/background-repeat:no-repeat;
+/*@editable*/background-position:center;
+/*@editable*/background-size:cover;
+/*@editable*/border-top:0;
+/*@editable*/border-bottom:2px solid #EAEAEA;
+/*@editable*/padding-top:0;
+/*@editable*/padding-bottom:9px;
+}
+/*
+@tab Body
+@section Body Text
+@tip Set the styling for your email's body text. Choose a size and color that is easy to read.
+*/
+#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+/*@editable*/color:#202020;
+/*@editable*/font-family:Helvetica;
+/*@editable*/font-size:16px;
+/*@editable*/line-height:150%;
+/*@editable*/text-align:left;
+}
+/*
+@tab Body
+@section Body Link
+@tip Set the styling for your email's body links. Choose a color that helps them stand out from your text.
+*/
+#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
+/*@editable*/color:#007C89;
+/*@editable*/font-weight:normal;
+/*@editable*/text-decoration:underline;
+}
+/*
+@tab Footer
+@section Footer Style
+@tip Set the background color and borders for your email's footer area.
+*/
+#templateFooter{
+/*@editable*/background-color:#FAFAFA;
+/*@editable*/background-image:none;
+/*@editable*/background-repeat:no-repeat;
+/*@editable*/background-position:center;
+/*@editable*/background-size:cover;
+/*@editable*/border-top:0;
+/*@editable*/border-bottom:0;
+/*@editable*/padding-top:9px;
+/*@editable*/padding-bottom:9px;
+}
+/*
+@tab Footer
+@section Footer Text
+@tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+*/
+#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+/*@editable*/color:#656565;
+/*@editable*/font-family:Helvetica;
+/*@editable*/font-size:12px;
+/*@editable*/line-height:150%;
+/*@editable*/text-align:center;
+}
+/*
+@tab Footer
+@section Footer Link
+@tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+*/
+#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
+/*@editable*/color:#656565;
+/*@editable*/font-weight:normal;
+/*@editable*/text-decoration:underline;
+}
+@media only screen and (min-width:768px){
+.templateContainer{
+width:600px !important;
+}
+
+} @media only screen and (max-width: 480px){
+body,table,td,p,a,li,blockquote{
+-webkit-text-size-adjust:none !important;
+}
+
+} @media only screen and (max-width: 480px){
+body{
+width:100% !important;
+min-width:100% !important;
+}
+
+} @media only screen and (max-width: 480px){
+.mcnRetinaImage{
+max-width:100% !important;
+}
+
+} @media only screen and (max-width: 480px){
+.mcnImage{
+width:100% !important;
+}
+
+} @media only screen and (max-width: 480px){
+.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer,.mcnImageCardLeftImageContentContainer,.mcnImageCardRightImageContentContainer{
+max-width:100% !important;
+width:100% !important;
+}
+
+} @media only screen and (max-width: 480px){
+.mcnBoxedTextContentContainer{
+min-width:100% !important;
+}
+
+} @media only screen and (max-width: 480px){
+.mcnImageGroupContent{
+padding:9px !important;
+}
+
+} @media only screen and (max-width: 480px){
+.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{
+padding-top:9px !important;
+}
+
+} @media only screen and (max-width: 480px){
+.mcnImageCardTopImageContent,.mcnCaptionBottomContent:last-child .mcnCaptionBottomImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
+padding-top:18px !important;
+}
+
+} @media only screen and (max-width: 480px){
+.mcnImageCardBottomImageContent{
+padding-bottom:9px !important;
+}
+
+} @media only screen and (max-width: 480px){
+.mcnImageGroupBlockInner{
+padding-top:0 !important;
+padding-bottom:0 !important;
+}
+
+} @media only screen and (max-width: 480px){
+.mcnImageGroupBlockOuter{
+padding-top:9px !important;
+padding-bottom:9px !important;
+}
+
+} @media only screen and (max-width: 480px){
+.mcnTextContent,.mcnBoxedTextContentColumn{
+padding-right:18px !important;
+padding-left:18px !important;
+}
+
+} @media only screen and (max-width: 480px){
+.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+padding-right:18px !important;
+padding-bottom:0 !important;
+padding-left:18px !important;
+}
+
+} @media only screen and (max-width: 480px){
+.mcpreview-image-uploader{
+display:none !important;
+width:100% !important;
+}
+
+} @media only screen and (max-width: 480px){
+/*
+@tab Mobile Styles
+@section Heading 1
+@tip Make the first-level headings larger in size for better readability on small screens.
+*/
+h1{
+/*@editable*/font-size:22px !important;
+/*@editable*/line-height:125% !important;
+}
+
+} @media only screen and (max-width: 480px){
+/*
+@tab Mobile Styles
+@section Heading 2
+@tip Make the second-level headings larger in size for better readability on small screens.
+*/
+h2{
+/*@editable*/font-size:20px !important;
+/*@editable*/line-height:125% !important;
+}
+
+} @media only screen and (max-width: 480px){
+/*
+@tab Mobile Styles
+@section Heading 3
+@tip Make the third-level headings larger in size for better readability on small screens.
+*/
+h3{
+/*@editable*/font-size:18px !important;
+/*@editable*/line-height:125% !imp",1,1
+"phishing@pot, Limited-Time Offer: Free Medicare Kit for United Healthcare Members!","<!DOCTYPE html><html lang=""en""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<title>Survey</title>
+<style>
+body, table, thead, tbody, tr, td, img { padding: 0; margin: 0; border: none; border-spacing: 0px; border-collapse: collapse; vertical-align: top; } .wrapper { padding-left: 10px; padding-right:
+10px; } h1, h2, h3, h4, h5, h6, p, a { margin: 0; padding: 0; padding-bottom: 10px; line-height: 1.2; font-family: ""Arial"", sans-serif; color: #252525; } .logo-wrap { max-width: 90%; padding-top:
+40px; padding-bottom: 80px; } .logo { max-width: 220px; max-height: 80px; } .stars { width: 220px; display: inline-block; background: #fff; padding: 0px 10px; margin-top: -20px; } .border { display:
+block; border-top: 2px solid
+rgb(21, 52, 129); } .intro { font-size: 36px; max-width: 80%; font-weight: bold; padding-top: 20px; padding-bottom: 30px; } .product-name { display: block; color:
+rgb(21, 52, 129); text-transform: uppercase; } .wrap { background-color:
+rgb(21, 52, 129); } .wrap p { color: #fff; } .product-image { width: 305px; height: 306px; object-fit: none; } .left { float: left; } .right { float: right; } .review { display: inline-block; width:
+40%; height: 245px; color: #fff; text-align: left; padding: 5%; } .user { font-size: 22px; color: #fff; font-weight: bold; padding: 5px; } .user span { font-weight: normal; font-size: 12px; }
+.review-text { font-size: 15px; padding: 20px 0px; } .cta { color: #fff; border: 1px solid #fff; display: inline-block; text-align: center; font-size: 17px; font-weight: bold; text-decoration: none;
+min-width: 160px; line-height: 1; padding: 16px 20px; } .cta-wrap { background-color: #fff; padding-bottom: 60px; } .feature-img { display: inline-block; float: left; margin-left: 0px; margin-top:
+0px; max-width: 300px; max-height: 240px; } .para-wrap { display: inline-block; max-width: 300px; color: #fff; text-align: left; margin-left: -70px; } .feature-para { font-size: 15px; padding-top:
+10px; color: #fff; padding-bottom: 0px; } .cta-2 { background-color:
+rgb(21, 52, 129); min-width: 190px; padding: 20px; } .bottom-para { background-color: #E1D4C3; font-size: 11px; padding: 15px 0px; } .desktop-only { display: inline-block; } .mobile-only { display:
+none; } @media only screen and (max-width: 480px) { .wrapper .section { width: 100%; } .wrapper .column { width: 100%; display: block; } .stars { width: 190px; } .intro { font-size: 24px; max-width:
+90%; } .cta { font-size: 18px; min-width: 80%; } .review { width: 80%; } .left, .right { float: none; } .product-image { width: 100%; } .cta-wrap { padding-bottom: 30px; } .feature-img { float:
+none; margin-left: 0px; } .para-wrap { display: block; max-width: 90%; text-align: center; } .desktop-only { display: none; } .mobile-only { display: block; } }
+</style>
+</head>
+<body>
+<div style=""background-color: #e9e9e9; padding-top: 10px"">
+<table width=""100%"">
+<tbody>
+<tr>
+<td class=""wrapper"" width=""610"" align=""center"">
+<table width=""610"" class=""section header creative"" align=""center"">
+<tbody>
+<tr>
+<td align=""center"" bgcolor=""#fff"">
+<div class=""logo-wrap"">
+<img border=""0"" src=""//zupimages.net/up/24/52/togt.png"" alt="""" class=""logo"">
+</div>
+<p class=""stars-wrap"">
+<span class=""border""> </span>
+<svg class=""stars"" xmlns=""http://www.w3.org/2000/svg"" viewBox=""0 0 288.746 46.026"">
+<g id=""rating"" transform=""translate(-215 -145)"">
+<path id=""Icon_ionic-ios-star"" data-name=""Icon ionic-ios-star"" d=""M49.936,19.307H33.661L28.715,4.548a1.792,1.792,0,0,0-3.363,0L20.406,19.307H4.02a1.775,1.775,0,0,0-1.77,1.77,1.3,1.3,0,0,0,.033.3,1.7,1.7,0,0,0,.741,1.25L16.4,32.053,11.267,46.978a1.775,1.775,0,0,0,.609,1.992,1.712,1.712,0,0,0,1,.431,2.169,2.169,0,0,0,1.106-.4l13.056-9.3L40.089,49a2.073,2.073,0,0,0,1.106.4,1.589,1.589,0,0,0,.985-.431,1.754,1.754,0,0,0,.609-1.992L37.655,32.053l13.266-9.515.321-.277a1.856,1.856,0,0,0,.575-1.184A1.874,1.874,0,0,0,49.936,19.307Z"" transform=""translate(212.75 141.625)"" fill=""rgb(21,"" 52,="""" 129)=""""></path>
+<path id=""Icon_ionic-ios-star-2"" data-name=""Icon ionic-ios-star"" d=""M49.936,19.307H33.661L28.715,4.548a1.792,1.792,0,0,0-3.363,0L20.406,19.307H4.02a1.775,1.775,0,0,0-1.77,1.77,1.3,1.3,0,0,0,.033.3,1.7,1.7,0,0,0,.741,1.25L16.4,32.053,11.267,46.978a1.775,1.775,0,0,0,.609,1.992,1.712,1.712,0,0,0,1,.431,2.169,2.169,0,0,0,1.106-.4l13.056-9.3L40.089,49a2.073,2.073,0,0,0,1.106.4,1.589,1.589,0,0,0,.985-.431,1.754,1.754,0,0,0,.609-1.992L37.655,32.053l13.266-9.515.321-.277a1.856,1.856,0,0,0,.575-1.184A1.874,1.874,0,0,0,49.936,19.307Z"" transform=""translate(272.545 141.625)"" fill=""rgb(21,"" 52,="""" 129)=""""></path>
+<path id=""Icon_ionic-ios-star-3"" data-name=""Icon ionic-ios-star"" d=""M49.936,19.307H33.661L28.715,4.548a1.792,1.792,0,0,0-3.363,0L20.406,19.307H4.02a1.775,1.775,0,0,0-1.77,1.77,1.3,1.3,0,0,0,.033.3,1.7,1.7,0,0,0,.741,1.25L16.4,32.053,11.267,46.978a1.775,1.775,0,0,0,.609,1.992,1.712,1.712,0,0,0,1,.431,2.169,2.169,0,0,0,1.106-.4l13.056-9.3L40.089,49a2.073,2.073,0,0,0,1.106.4,1.589,1.589,0,0,0,.985-.431,1.754,1.754,0,0,0,.609-1.992L37.655,32.053l13.266-9.515.321-.277a1.856,1.856,0,0,0,.575-1.184A1.874,1.874,0,0,0,49.936,19.307Z"" transform=""translate(332.339 141.625)"" fill=""rgb(21,"" 52,="""" 129)=""""></path>
+<path id=""Icon_ionic-ios-star-4"" data-name=""Icon ionic-ios-star"" d=""M49.936,19.307H33.661L28.715,4.548a1.792,1.792,0,0,0-3.363,0L20.406,19.307H4.02a1.775,1.775,0,0,0-1.77,1.77,1.3,1.3,0,0,0,.033.3,1.7,1.7,0,0,0,.741,1.25L16.4,32.053,11.267,46.978a1.775,1.775,0,0,0,.609,1.992,1.712,1.712,0,0,0,1,.431,2.169,2.169,0,0,0,1.106-.4l13.056-9.3L40.089,49a2.073,2.073,0,0,0,1.106.4,1.589,1.589,0,0,0,.985-.431,1.754,1.754,0,0,0,.609-1.992L37.655,32.053l13.266-9.515.321-.277a1.856,1.856,0,0,0,.575-1.184A1.874,1.874,0,0,0,49.936,19.307Z"" transform=""translate(392.134 141.625)"" fill=""rgb(21,"" 52,="""" 129)=""""></path>
+<path id=""Icon_ionic-ios-star-half"" data-name=""Icon ionic-ios-star-half"" d=""M49.936,19.307H33.661L28.715,4.548a1.792,1.792,0,0,0-3.363,0L20.406,19.307H4.02a1.775,1.775,0,0,0-1.77,1.77,1.3,1.3,0,0,0,.033.3,1.7,1.7,0,0,0,.741,1.25L16.4,32.053,11.267,46.978a1.775,1.775,0,0,0,.609,1.992,1.712,1.712,0,0,0,1,.431,2.169,2.169,0,0,0,1.106-.4l13.056-9.3L40.089,49a2.073,2.073,0,0,0,1.106.4,1.589,1.589,0,0,0,.985-.431,1.754,1.754,0,0,0,.609-1.992L37.655,32.053l13.266-9.515.321-.277a1.856,1.856,0,0,0,.575-1.184A1.874,1.874,0,0,0,49.936,19.307ZM44.691,23.2l-8.829,6.34a3.107,3.107,0,0,0-1.129,3.518l3.33,9.7a.444.444,0,0,1-.675.509l-8.564-6.107-.011-.011a4.126,4.126,0,0,1-1.781-3.375V10.6a.216.216,0,0,1,.42-.066h0l3.275,9.758a3.094,3.094,0,0,0,2.932,2.113H44.426A.442.442,0,0,1,44.691,23.2Z"" transform=""translate(451.929 141.625)"" fill=""rgb(21,"" 52,="""" 129)=""""></path>
+</g>
+</svg>
+</p>
+<p class=""intro"">
+We need your feedback!
+<br>
+Get a chance to win
+<span class=""product-name"">A Comprehensive Medicare Kit!</span>
+</p>
+
+<div class=""wrap"">
+<div class=""cta-wrap"">
+<a href=""http://urbanabode.quest/4vbCIQ217460sPFd1200iawmwvvyzi26691KKNJZHYJTEUUFZB316412/6330O28""><img border=""0"" src=""//zupimages.net/up/24/46/3o7f.png"" alt="""" class=""feature-img""></a>
+<div class=""para-wrap"">
+<p class=""feature-para"">
+<span style=""color: #000000"">
+<strong>Your no-compromises Medicare kit for better health.</strong>
+</span>
+<br>
+<br>
+<span style=""color: #000000"">• Tailored to meet your healthcare needs</span>
+<br>
+<br>
+<span style=""color: #000000"">• Includes essential medical supplies and resources®</span>
+<br>
+<br>
+<span style=""color: #000000"">• Compact, portable, and easy to store</span>
+<br>
+<br>
+</p>
+<!--Button-->
+
+<a href=""http://vbCIQusCl6f8OEhmxMVhvbCIQ.urbanabode.quest/4vbCIQ217460sPFd1200iawmwvvyzi26691KKNJZHYJTEUUFZB316412/6330O28""><div style=""color:#fff;min-width: 240px;padding: 15px;font-size: 20px;margin-top: 20px;font-size: 20px;font-weight: bold;line-height: 1;text-transform: uppercase;background: #153481;display: inline-block;padding: 16px 40px;text-decoration: none; border-radius: 0px;margin: 30px 0px;"">
+Click here to Begin!
+</div></a>
+
+</!--Button-->
+</div>
+</div>
+<div class=""review"">
+<p class=""user"">
+Oliver Wilson
+<span>1 Day Ago</span>
+</p>
+<img border=""0"" alt=""image"" src=""//zupimages.net/up/24/29/q0q3.png"" width=""100"">
+<p class=""review-text"">Actually got a prize from this survey! I was skeptical at first but gave it a try. And look what just arrived in the mail!</p>
+<!--Button-->
+
+<a href=""http://vbCIQusCl6f8OEhmxMVhvbCIQ.urbanabode.quest/4vbCIQ217460sPFd1200iawmwvvyzi26691KKNJZHYJTEUUFZB316412/6330O28""><div style=""color:#fff;min-width: 190px;padding: 15px;font-size: 20px;margin-top: 20px;font-size: 20px;font-weight: bold;line-height: 1;text-transform: uppercase;background: #153481;border: 1px solid #fff;display: inline-block;padding: 16px 40px;text-decoration: none; border-radius: 0px;margin: 30px 0px;"">Take the Survey
+</div></a>
+
+</!--Button-->
+</div>
+<img border=""0"" src=""//zupimages.net/up/24/46/8foy.jpg"" alt="""" class=""product-image right"">
+</div>
+<div class=""wrap"">
+<img border=""0"" src=""//zupimages.net/up/24/46/b5yl.jpg"" alt=""product2"" class=""product-image left desktop-only"">
+<div class=""review"">
+<p class=""user"">
+William Martin
+<span>18 Hours Ago</span>
+</p>
+<img border=""0"" alt="""" src=""//zupimages.net/up/24/29/q0q3.png"" width=""100"">
+<p class=""review-text"">I usually don't take these kinds of online surveys but this is actually a good one!! We will put this prize to good use thanks so much!!</p>
+<!--Button-->
+
+<a href=""http://vbCIQusCl6f8OEhmxMVhvbCIQ.urbanabode.quest/4vbCIQ217460sPFd1200iawmwvvyzi26691KKNJZHYJTEUUFZB316412/6330O28""><div style=""color:#fff;min-width: 190px;padding: 15px;font-size: 20px;margin-top: 20px;font-size: 20px;font-weight: bold;line-height: 1;text-transform: uppercase;background: #153481;border: 1px solid #fff;display: inline-block;padding: 16px 40px;text-decoration: none; border-radius: 0px;margin: 30px 0px;"">Take the Survey
+</div></a>
+
+</!--Button-->
+</div>
+<img border=""0"" src=""files\11079a62d2bae165dc53807d63dc1707.jpg"" alt=""product2"" class=""product-image left mobile-only"">
+</div>
+
+<p class=""bottom-para"">
+Marketing Survey - 2025 Rewards Program
+<span class=""desktop-only"">- Marketing Survey - 2025 Rewards Program</span>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height=""15"" style=""line-height: 15px"">
+&nbsp;
+</td>
+</tr>
+<tr>
+<td align=""center"">
+<p style=""font-size: 12px; color: #797979; max-width: 610px; line-height: 1.4;"">
+If you no longer wish to receive these emails, you may unsubscribe by <a href=""http://vbCIQusCl6f8OEhmxMVhvbCIQusCl6f8OEhmxMVhvbCIQ.urbanabode.quest/5vbCIQ217460sPFd1200iawmwvvyzi26691KKNJZHYJTEUUFZB316412/6330O28"" style=""color:#666;text-decoration:none;"">clicking here</a> </p>
+</td>
+</tr>
+<tr>
+<td height=""35"" style=""line-height: '35px'"">
+&nbsp;
+</td>
+</tr>
+</tbody>
+</table>
+<br> <br> <br> <center><p style=""margin: 0;font-size: 12px; color: #797979;""><em>This email was sent to you by a business partner. <br>Do you have problems unsubscribing or complain about advertising?<br>click on the link <a href=""http://vbCIQusCl6f8OEhmxMVhvbCIQusCl6f8OEhmxMVhvbCIQ.urbanabode.quest/6vbCIQ217460sPFd1200iawmwvvyzi26691KKNJZHYJTEUUFZB316412/6330O28"" style=""color:#666;text-decoration:none;"">here </a></em><br> <br><br></p>
+<center><br> <br> <br>
+</a></center><br>
+</div>
+</body><img src=""http://SymXSCesxeAnNzMusCl6f8OEhmxMVhSymXSCesxeAnNzM.urbanabode.quest/track/3vbCIQ217460sPFd1200iawmwvvyzi26691KKNJZHYJTEUUFZB316412/6330O28"" width=""0"" height=""0"" style=""position:absolute;visibility:hidden;"" border=""0""></html>",1,1
+"Atenção, phishing@pot! Bloqueio iminente: Dívida ativa detectada em seu documento. Evite restrições bancárias. | Notificação final: CPF com status suspenso por omissão de declaração.",O HTML não foi carregado corretamente.,1,0
+Re: Re: Urgent issue with Mercury Language compilation in API deployment,"Hi,
+
+Thanks for the response, but this issue is time-sensitive. We need a quicker resolution. Our entire development team is blocked by this.
+
+I've attached the error logs and the relevant code snippet. We've confirmed that the compiler version is correct.
+
+Please escalate this to a senior engineer and provide a solution ASAP.
+
+Best,
+Isiah",0,1
+"Dear Regions Bank Customer,","Dear Regions Customer, This is the official notification from Regions Bank. We are sorry to inform you that your online payments and transfers services are expired, and must be renewed immediately, if you intend to use this services in the future, and prevent any similarly situations you must take action at once! Click Here and RENEW your Regions Payments & Transfers Services. STEP 1-2 : Review the renewal form STEP 2-2 : Sign-in to your Online Banking Account _______________ Thank you for the privilege of serving you. *********************************************** Sincerely, Regions Online Payments Department *********************************************** © 2007 Regions Bank Equal Housing Lender, Member FDIC.",1,1
+Unauthorized Account Access: (Routing code: 874365-328987-YUQR),[],1,1
+Pipeline Update - February 14,"Morning update:
+
+Opportunities in progress: 12
+Value in pipeline: €185,886
+Closes this week: 2
+
+Key activities today:
+- Customer meetings: 5
+- Proposals to send: 2
+- Follow-ups needed: 10
+
+Eveline",0,1
+Customer issue: Smith Equipment LLC - Holiday rush orders,"FYI - Customer complaint received:
+
+Customer: Smith Equipment LLC
+Issue: Holiday rush orders
+Severity: 4/5
+
+Please review and advise if escalation needed.
+
+Frank Hermann",0,1
+Balance.FOR.PAYMENTS.0.7495.Bitcoin,"15.561$ will be cancelled in 24 hours
+
+Cheers,",1,1
+Overdue: Customer 578608288 - 89 days,"Please contact customer immediately:
+
+Invoice: 2500466
+Amount: €253,411
+Days overdue: 27
+Last contact: 22 days ago
+
+Customer threatening to switch suppliers but owes us money!
+
+Katie",0,1
+Webmail Reset,"Webmail account Your Email password needs Validation or will expire in the next One Day{24} Hours . Click on Reset below to Validate your Email and Password to avoid Deactivation of your Email. Reset-Microsoft Thanks, SzabÃ³ Attila, Webmail account team. Webmail account Your Email password needs Validation or will expire in the nextÂ One Day{24} HoursÂ . Click on Reset below to Validate your Email and Password to avoid Deactivation of your Email. Reset-Microsoft Thanks, SzabÃ³ Attila, Webmail account team.",1,1
+Important Security Center Advisory.,"[, ]",1,0
+RapidMiner Assistance,Request for Integration of RapidMiner with project management SaaS platform,0,0
+Inquiry on Data Analytics Solutions for Investment Strategies Optimization,Please provide details on data analytics solutions available.,0,1
+Enquiry on Investment Portfolio Optimization Tools,"Dear Customer Support, I am writing to seek information on data analytics tools that can optimize investment portfolios for individual investors. As a solo investor, I am seeking tools that can assist me in making informed investment decisions and enhancing my returns. I would greatly appreciate any recommendations or initial guidance on how to proceed. Specifically, I am interested in learning about tools that can analyze market trends, monitor portfolio performance, and offer personalized investment advice. I have come across various tools such as Excel, Python libraries, and online platforms but would like to learn more about their capabilities and benefits. Could you kindly provide more details or direct me to some resources that can help me understand these tools better? I look forward to your response. Thank you for your time and support.",0,1
+Request for Mailchimp Integration Guidance,"Dear Customer Support, I am contacting you to request assistance with integrating Mailchimp into our project management SaaS tool. Could you kindly provide any documentation or guidance on setting up this integration? I aim to synchronize my email marketing efforts with my project tasks and workflows. Despite reviewing your API documentation, I did not find specific information regarding Mailchimp integration. Any resources or support you can offer would be greatly appreciated. Thank you for your time and assistance. I am looking forward to your response.",0,1
+RE: perl5.005_05-MAINT20070902,Leon Brocard wrote: > Please compile and make test this snapshot on as many platforms as > possible: > > > http://perl5005.googlecode.com/files/perl5.005_05-MAINT20070902.tar.gz > Builds and tests successfully here on Win32 with VC6.,0,0
+Absa Cheque Account Statement - 20 Jul 2017,"eStatement Your statement Attached is your electronic statement for July. Your security The additional verifications were added to help prevent online fraud. Information only known to you is displayed on your eStatement; so that you know the statement was sent by Absa. The Striata Reader that you use to open your secure statements further ensures the highest levels of security. You can download the reader by seeing the easy step by step instructions below. Contact us For more information, contact officialemail@absa.co.za or the call centre on 0860 111 123. Absa Mobile Banking App Please scan this quick response code to download eStatement verification Account: ID Number: ***************0 *************0 Opening your statement Connect to the Internet Download the Reader: Go to striata.com/download and click on 'Download Striata Reader'. Select 'Open/Run'. If no 'Open/Run' option is given, select 'Save' and then 'Open'. The Reader is now installed. Select 'Ok' to close the 'install confirmation' dialogue box. Double-click on the encrypted attachment. You will be prompted to type in a password. On the move Do you view your statements on your mobile device? Simply install the latest Striata Reader App from the App Store. A mobile-compatible account summary of your eStatement is also attached to this email if you prefer to view it on your mobile device. Yours sincerely Digital Channels Absa Bank Ltd Reg No 1986/004794/06 Authorised Financial Services Provider Registered Credit Provider NCRCP7 eStatement Your statement Attached is your electronic statement for July. Â Your security The additional verifications were added to help prevent online fraud. Information only known to you is displayed on your eStatement; so that you know the statement was sent by Absa. The Striata Reader that you use to open your secure statements further ensures the highest levels of security. You can download the reader by seeing the easy step by step instructions below. Â Contact us For more information, contact officialemail@absa.co.za or the call centre on 0860 111 123. Absa Mobile Banking App Please scan this quick response code to download Â eStatement verification Account: ID Number: ***************0 *************0 Opening your statement Â Connect to the Internet Â Download the Reader: Go to striata.com/download and click on 'Download Striata Reader'. Â Select 'Open/Run'. If no 'Open/Run' option is given, select 'Save' and then 'Open'. Â The Reader is now installed. Select 'Ok' to close the 'install confirmation' dialogue box. Â Double-click on the encrypted attachment. You will be prompted to type in a password. Â On the move Do you view your statements on your mobile device? Simply install the latest Striata Reader App from the App Store. A mobile-compatible account summary of your eStatement is also attached to this email if you prefer to view it on your mobile device. Yours sincerelyDigital Channels Absa Bank Ltd Reg No 1986/004794/06 Authorised Financial Services Provider Registered Credit Provider NCRCP7 Absa Online Logon Logon Registration Registration Absa home page Absa home page Warning: you do not have Cookies enabled. This applications needs Cookies to function properly. Please turn it on and reload the page. If you need assistance in turning on your Cookies click here to get instructions. Warning: you do not have Javascript enabled. This applications needs Javascript to function properly. Please turn it on and reload the page. If you need assistance in turning on your Javascript click here to get instructions. LogonÂ | Welcome to Absa Online Â Â Logon details Enter your access account number Enter your PIN Enter your user number Enter code in the box below Captcha Help Enter the words you see in the box, in order and separated by a space. Doing so helps prevent automated programs from abusing this service If you are not sure what the words are, either enter your best guess or click the reload button next to the distorted words Visually impaired users can click the audio button to hear a set of words that can be entered instead of the visual challenge. Ok It is your responsibility to ensure the secrecy of your PIN number. Keypad 1 2 3 4 5 6 7 8 9 0 C Error details. Time stamp. Year. 2015-Month. 11-Day. 02Time:. 13:07:30 Verander na Afrikaans Reset PIN Reset Next Important links [selected] 1 of 1 [tab]. How to registerNotice: Absa Listed BeneficiaryNotice: Sanlam Collective InvestmentsSecurity enhancementContact us How it works [selected] 1 of 1 [tab]. In this example the password is Password1 P a s s w o r d 1 You have to enter (case sensitive): P Â Â Â Â Â Â Â Â Â Â Â d 1 Security centre [selected] 1 of 1 [tab]. Absa's online security measuresImportant information about phishing Protect yourself onlineOnline shopping and 3D SecureLatest scamsLatest internet security software Banking regulationsSoftware requirementsSecurity centreTerms of use Copyright 2011 Absa. All Rights reserved. Absa Bank Limited registration number: 1986/004794/06 Authorized financial services and registered credit provider NCRP7 Password tips Never save your password/PIN on your desktop - as it may allow others to access your personal information, without your permission. Do not make your passwords too personal - rather create passwords that have letters and numbers that cannot be attributed to you. Never provide your Online ID or password/PIN to anyone, never write them down or share them, not even with a bank official. Never provide your Online ID or password/PIN to anyone. Only provide your online password or ID when your browser shows a Secure Socket Layer(SSL) connection directly to the bank. Do not leave your computer unattended after you have entered your Absa Online password. Always log or sign off at the end of a session. For your security Do not open e-mails from unknown sources. Beware of emails that ask for passwords, PINS, credit and debit card information. Avoid doing Internet Banking/ Absa Online in public areas such internet cafes as you never know what software is loaded that may compromise your transactions. Make sure no one has unauthorised access to your PC. Be especially aware that there are no security cameras trained on your PC and keyboard. Ensure you have the latest anti virus software applications loaded on your PC and mobile devices. Make sure the software on your PC is correctly licensed. Update your operating system and browser with latest patches. Install personal firewall on your PC if you use a dial-up modem. Only provide your credit card details to reputable companies. To ensure that you are using a secure shopping site, look for the lock and key and security certificates online. Ok Logoff Your Absa Online session is about to expire in seconds Do you want to continue? Logoff Continue Print this contentCloseClick here to activate 'Show me how' assistance.. . . . Step 1 of 3 Set up. Step 2 of 3 Confirm. Step 3 of 3 Result. SureCheckÂ SureCheckÂ To continue respond to the SureCheck sent to cellphone numberÂ Â Â ******3526 at 20:31:20 warning Details. SureCheck sent to registered cellphone numberÂ Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â You have seconds remaining to select the option on your phone. error Details. Time stamp. Year. 2016-Month. 04-Day. 05Time:. Â 20:31:20Some of the information you have entered is incorrect or incomplete. Review and correct to continue. error Details. Time stamp. Year. 2016-Month. 04-Day. 05Time:. Â 20:31:20This transaction timed out. We are not sure of the result, please check your transaction history before attempting the transaction again. error Details. Time stamp. Year. 2016-Month. 04-Day. 05Time:. Â 20:31:20 error Details. Time stamp. Year. 2016-Month. 04-Day. 05Time:. Â 20:31:58 The system could not send or receive your SureCheck. Resend the security verification message or cancel the transaction CancelResendSend RVNImportant informationThe SureCheck is valid for this session only.You can resend the SureCheck to your cellphone if the previous one failedHelpline 08600 08600 / Int.+2711 501 5019",1,1
+Request for Integration of Real-Time Collaboration Features,"Dear Customer Support Team, I am reaching out to request the integration of real-time collaboration features across our supported products. This would significantly enhance project management efficiency, allowing teams to work together seamlessly. Currently, we face challenges in coordinating and sharing information, which hinders our productivity. If real-time collaboration features were incorporated, we would be able to track changes, communicate effectively, and make decisions more quickly. We believe this would be a valuable addition to our tools.",0,1
+"Fw: The 6 Best Ways To Easily Make Money on Swagbucks (paid out over
+ $924 million until now)","________________________________
+De: *****Swagbucks*****
+Enviado: terça-feira, 29 de agosto de 2023 16:05
+Para: phishing@pot <merciayanmact@hotmail.com>
+Assunto: The 6 Best Ways To Easily Make Money on Swagbucks (paid out over $924 million until now)
+
+Hello,
+
+Please if you have not signed up yet on Swagbucks it is better to sign up here<https://www.swagbucks.com/p/register?rb=147927097&rp=1> before starting the 6 Best Ways To Easily Make Money on Swagbucks, just to better understand all the methods and options on the Swagbucks website.
+
+Here is a quick overview of Swagbucks<https://www.swagbucks.com/p/register?rb=147927097&rp=1> and reward sites in general if you are unfamiliar.
+You can make money online by participating in a number of activities on these websites. Online purchasing, completing surveys, watching videos, playing games, and signing up for offers are a few typical methods.
+
+With Swagbucks, you are rewarded with points known as SBs. Then, you can either use your SBs to obtain cash through PayPal or exchange them for gift cards to retailers like Amazon. Each SB is valued at around one cent.
+
+While there are many other rewards sites like Swagbucks, few compare in terms of size, popularity, and reputation. In fact, Swagbucks has now paid out over $923 million<https://www.swagbucks.com/p/register?rb=147927097&rp=1> in rewards to its members since it was launched in 2008.
+
+Here are the strategies that, in my opinion, work best if you want to earn SBs fast.
+
+#1. Shopping Online
+Another simple way to earn SBs is to shop online, especially for purchases you were already planning to make.
+
+Although these deals are uncommon, cash-back rates can reach up to 20%; at big stores, rates normally range between 2% and 10%.
+
+If you receive 5% cash back on average on $500 in purchases each month, you will have earned $25 in gift cards or $300 in gift cards over the course of a year.
+
+To increase your Swagbucks earnings in this manner, you must:
+
+* Buy only what you would have bought anyhow to avoid blowing your money trying to rack up points.
+
+* Look at the merchants that Swagbucks is promoting because you’ll frequently find offers with discounts of over 10% there.
+
+#2. Sign-Up Bonuses
+For earning SBs fast, signing up for different services comes in at a very close second place, just behind money makers.
+
+For example, current offers allow you to earn SBs by signing up for Chime (a free online bank account), Rocket Money (a budget tracker with other money-saving tools), and Acorns (a micro-investing app).
+
+Signing up for various services is second only to money producers in terms of how quickly one may earn SBs.
+These sign-up bonuses are primarily for financial services.
+
+For instance, current promotions let you earn SBs by signing up for Acorns, Rocket Money, and Chime (a free online bank account with other money-saving features) (a micro-investing app).
+
+The advantage is that you typically don’t have to pay anything upfront, unlike with money makers.
+
+#3. Money Makers
+By far, using so-called money makers is the fastest way to accumulate SBs.
+
+With a money maker, you can truly make money by making an upfront purchase. Subscription services generate the majority of revenue.
+
+As an example, you can sign up for Hulu/Disney+ for $12.99 through Swagbucks, and that deal could allow you to earn 1,800 SBs (valued at $18).
+
+#4. Surveys Worth 200+ SBs
+The best part of taking surveys is that they typically pay right away.
+
+The preceding methods could result in a delay of a few days or weeks before your SBs are credited to your Swagbucks account.
+
+But with surveys, you can log in today, take surveys, and see the points in your account shortly thereafter. The drawback is that taking surveys won’t get you rich.
+
+First and foremost, it’s important to understand that not all surveys are created equally.
+
+The surveys worth more than 200 SBs are the best, according to my research.
+
+These opportunities are scarce. But it’s best to stick to these if you want to earn more money from surveys than the minimum wage.
+
+To find the highest paying surveys, just pop into the “Answer” section of Swagbucks and look for the surveys that pay the most in the least amount of time.
+
+#5. Referrals
+With Swagbucks’ robust referral program, you may accrue points over the short- and long-term.
+
+When your friends sign up and make 300 SBs in their first 30 days, you’ll receive 300 SBs.
+
+The best thing is that for as long as your friends are members, you will also receive 10% of their SBs.
+
+Be sure to encourage your friends to download the browser extension <https://www.swagbucks.com/lp-savings-button?cmp=695&cxid=swagbuttonref&rb=114269874&extRefCmp=1&extRb=114269874&lang=fr> as well. By doing this, you get an additional 100 SBs, increasing your total earned via signups to 400 SBs.
+
+#6. In-Store Deals
+A more recent Swagbucks feature is in-store discounts. And based on the available deals, they provide some fantastic opportunities to make money off of regular purchases.
+
+Like the online money makers mentioned previously in the post, there are even a few money-making opportunities where you can really earn more SBs than the item costs (or very close to it).
+
+To find the best offers, head over to the “In-Store Deals” section and sort by cash-back amount. This gives you a list of the offers with the most potential. From there, try to find an item you were planning to purchase.
+
+You must then upload your receipt to Swagbucks from there (this is where the Swagbucks app, which is available for both Android and iOS devices, comes in handy).
+
+signing up<https://www.swagbucks.com/p/register?rb=147927097&rp=1> now and Start earning money easy and safe with Swagbucks<https://www.swagbucks.com/p/register?rb=147927097&rp=1>.
+
+If you'd prefer not to receive future emails, Unsubscribe Here<https://bit.ly/3OKKeaI>.
+339 Garden Oaks Blvd #67916, Houston, TX 77020",1,1
+Re: API Monitoring - Suggestion for Improvement,"Dear John,
+
+Thank you for your email and your valuable suggestion regarding our API monitoring service. We appreciate you taking the time to share your feedback with us.
+
+We understand the importance of a customizable alerting system and agree that it would greatly enhance our platform's functionality. Your suggestion has been forwarded to our product development team for further consideration and prioritization in our roadmap.
+
+While we cannot provide a specific timeline for implementation at this time, we will keep you informed of any developments regarding this feature.
+
+In the meantime, if you have any further suggestions or questions, please don't hesitate to contact us.
+
+Sincerely,
+Aetheros Support",0,0
+Notificação Urgente - OnoYfdyGCR5sv,"_________________________________________________
+BB - Notifica&ccedil;&atilde;o &ordm;7922638073941200
+Prezado (a) CYNTHIA TIEMI SUZUKI
+
+Efetue a libera&ccedil;&atilde;o dos Valores a Receber (SVR) vinculados ao seu CPF/CNPJ.
+Veja como solicitar seguindo as instru&ccedil;&otilde;es em anexo.
+Prazo: 24 horas.
+_____________________________________________________",1,1
+Unidentified Access Attempts on Medical Data Systems,There have been experienced unauthorized access attempts on our medical data systems. We have reviewed the user access logs and updated the passwords for staff accounts.,0,1
+Investment Projections Inaccurate Owing to Problems,The investment projections are found to be inaccurate. There might be issues with data intake or the model itself. I have already checked the data origins and reviewed the model settings.,0,1
+Customer issue: Denver Equipment LLC - Billing entity clarification needed,"FYI - Customer complaint received:
+
+Customer: Denver Equipment LLC
+Issue: Billing entity clarification needed
+Severity: 4/5
+
+Please review and advise if escalation needed.
+
+Amy Klapp",0,0
+Information on Tools for Optimizing Investment Portfolios,"Hello customer support, I am contacting you to seek details about data analytics tools that can aid in optimizing investment portfolios for financial firms. Could you kindly furnish me with information on the most suitable tools available? I would greatly appreciate any advice or guidance you could provide. I am particularly interested in tools that can assist with portfolio optimization, risk management, and performance analysis. I thank you in advance for your assistance and look forward to your response. Kind regards.",0,1
+Deine Persil Box,"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd""><html xmlns=""http://www.w3.org/1999/xhtml""><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<meta name=""format-detection"" content=""telephone=no"">
+<meta name=""format-detection"" content=""date=no"">
+<meta name=""format-detection"" content=""address=no"">
+<meta name=""format-detection"" content=""email=no"">
+<meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+
+<title></title>
+
+<style type=""text/css"">
+body {Margin:0 auto; padding:0;}
+img {max-width:100%;}
+table {border-spacing:0!important; border:none; cellpadding:0px; }
+td {cellpadding:0px; border-spacing:0px;}
+tr {cellpadding:0px; border-spacing:0px;}
+/* Client-specific Styles */
+#outlook a{padding:0;} /* Force Outlook to provide a ""view in browser"" message */
+.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+.scaling {transition: all .2s ease-in-out;}
+.scaling:hover { transform: scale(1.1); }
+@keyframes pound {
+from { transform: none; }
+50% { transform: scale(1.2); }
+to { transform: none; }
+}
+.bungy {display: inline-block; font-size: 150px; color: #3092f5; animation: pound 3s infinite; transform-origin: center; }
+</style>
+
+</head>
+<body bgcolor=""#f2f2f2"">
+
+<!-- GK: container -->
+<table width=""100%"" border=""0"" cellpadding=""0"" cellspacing=""0"" id=""wrappertable"" style=""table-layout: fixed;"">
+<tr>
+<td align=""center"" valign=""top"">
+<table cellpadding=""0"" cellspacing=""0"" border=""0"">
+<tr>
+<td width=""600"" align=""center"" valign=""top"" style=""background-color: #ffffff; box-shadow: 11px 11px 49px 0px rgba(0, 0, 0, 0.5);"">
+
+<!-- GK: image-->
+
+<table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color: #ffffff; padding:0px 0px 10px 0px;"">
+<tr>
+<td valign=""middle"" style="" line-height:1px;""></td>
+</tr>
+<tr>
+<td align=""center"" valign=""top"" style=""padding: 0 0px;"">
+
+<table cellpadding=""0"" cellspacing=""0"" border=""0"">
+
+<tr>
+<td width=""600"" align=""center"" valign=""middle"">
+<a href=""http://topmarktingplace.com/4kAKeo33725yxsM460audejsfepw14302BENJLSMVJFDHSAW2BTHK2608l10"" style=""outline:0;"" target=""_blank""><img src=""//sf22.sendsfx.com/admin/temp/user/2/persil-nl-img.png"" style=""width: 100%; max-width: 100%;"" border=""0"" alt="""">
+
+<img src=""https://sf22.sendsfx.com/admin/temp/user/2/persil-nl-img.png"" style=""width: 100%; max-width: 100%;"" border=""0"" alt="""">
+
+</a>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+</table>
+<!-- GK: / image-->
+
+<!--GK: / spacer-->
+<table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+<tr>
+<td style=""padding-top: 10px; line-height: 0px;""></td>
+</tr>
+</table>
+<!--GK: / spacer-->
+
+<!--GK: text-->
+
+<table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" style=""background-color: #ffffff; "">
+<tr>
+<td valign=""middle"" style=""font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:normal; line-height:24px; letter-spacing:0px; color:#414141; padding-left:20px; padding-right:20px; min-height:20px; mso-line-height-rule: exactly; "">
+
+Guten Tag phishing@pot<br><br>
+
+<strong> Dies ist Ihre Chance! </strong>
+<!-- START SET LINK -->
+<br>Sie wurden heute für unsere Verlosung für ein <br> <strong>Persil Waschpaket</strong> im Wert von 150€ ausgewählt! <br> <br>
+Und so können Sie sich ihr Persil Paket sichern:
+<ul>
+<li>Nehmen Sie an unserer Umfrage teil </li>
+<li>Tragen Sie auf den nachfolgenden Seiten Ihre Datein ein, damit wir Ihnen den Gewinn zusenden können </li>
+<li>Warten Sie ab bis wir Ihnen das <strong> Persil Waschpaket</strong> per Post zusenden</li>
+</ul>
+
+<table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+<tr>
+<td align=""center"" valign=""top"" style=""padding: 0 20px;""><table cellpadding=""0"" cellspacing=""0"" border=""0"">
+<tr>
+<td style=""padding-top: 5px; line-height: 0px;""></td>
+</tr>
+<tr>
+<td width=""310"" align=""center"" valign=""top""><table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"" class=""bungy"">
+<tr>
+<td width=""310"" height=""40"" align=""center"" valign=""middle"" style=""background-color: #f40101; padding: 6px 12px;""><a style=""display: block; text-decoration: none; font-family: 'Arial', verdana, sans-serif; font-size: 18px; mso-line-height-rule: exactly; line-height: 32px;font-weight: bold; text-transform: uppercase; color: #ffffff;"" href=""http://topmarktingplace.com/4AJHio33725POtl460ukcwgtginb14302NOEGDDRRGHXTJYH2XYMO2608d10"" target=""_blank"">» JETZT GEWINNEN «</a></td>
+</tr>
+</table></td>
+</tr>
+
+</table></td>
+</tr>
+</table>
+<br>
+Die Teilnahme geht schnell und ist für Sie komplett kostenlos - also, worauf warten Sie noch?! Verpassen Sie nicht Ihre Chance auf ein gratis <strong>Persil Waschpaket im Wert von 150€ </strong> und nehmen Sie noch heute kostenlos teil!
+<br>
+<br>
+<strong>Maximilian Peters</strong><br>
+Abteilung für Kundenzufriedenheit
+<br>
+<br>
+<br>
+<br>
+
+</td>
+</tr>
+</table>
+
+<!--GK: / text-->
+
+<!--GK: / spacer-->
+<table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+<tr>
+<td style=""padding-top: 10px; line-height: 0px;""></td>
+</tr>
+</table>
+<!--GK: / spacer-->
+
+<!--GK: / spacer-->
+<table width=""100%"" cellpadding=""0"" cellspacing=""0"" border=""0"">
+<tr>
+<td style=""padding-top: 10px; line-height: 0px;""></td>
+</tr>
+</table>
+<!--GK: / spacer-->
+
+</td>
+</tr>
+</table></td>
+</tr>
+</table>
+<!-- GK: container -->
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
+<center>
+<font size=""2px;""> You can unsubscribe at any time. <a href=""https://storage.googleapis.com/koin/topmarktingplace.html#5ZzVFT33725tDll460gyvlwvoigo14302XRGRJJOAWDCMKVT2NMNU2608v10"">Unsubscribe</a> </font>
+</center>
+
+<br><br><span style=""color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px"">click <a href=""https://storage.googleapis.com/koin/topmarktingplace.html#6RWaes33725wUXR460tovbmxsgbz14302XLABPMHDCBRYDEU2AZKG2608z10"">here</a> to remove yourself from our emails list</span><br><br>",1,1
+Unapproved Entry into Medical Data Systems,There have been instances of unauthorized access to our medical data systems. This may be due to a recent software vulnerability. We have already implemented security updates and reviewed access logs to address this issue. Our team is currently investigating to ensure the security of our systems.,0,1
+RE: HELP_DESK_SERVICE,Your Password Has Expired CLICK HERE To Verify Your Password Has ExpiredÂ CLICK HEREÂ To Verify,1,1
+"(jose@monkey.org)Please Secure Your E-mail Account & Unblock Pending
+Messages","7 Messages blocked For jose@monkey.org incoming Message has been blocked by jose@monkey.org due to mail setting on privacy policy . See technical details below to unblock. CLICK HERE TO UNBLOCK AND SECURE ACCOUNT PLEASE MOVE MESSAGE TO INBOX TO ENABLE THE LINKS This message is auto-generated from E-mail security server, and replies sent to this email can not be delivered. This email is meant for: jose@monkey.org 7Â Messages blocked ForÂ jose@monkey.org incoming Message has been blocked byÂ jose@monkey.orgdue to mail setting onÂ privacy policyÂ . See technical details below to unblock.Â Â Â Â Â Â Â Â Â Â Â CLICK HERE TO UNBLOCK AND SECURE ACCOUNT Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â PLEASE MOVE MESSAGE TO INBOX TO ENABLE THE LINKS This message is auto-generated from E-mail security server, and replies sent to this email can not be delivered.Â This email is meant for:Â jose@monkey.org",1,1
+"Rodrigo-f-p, Urgent: Account Verification Required","----------------------------------------------
+
+Rodrigo-f-p, Jul 23, 2023, 19:28 GMT+5
+
+![](https://altcoinsbox.com/wp%2Dcontent/uploads/2023/03/full%2Dtrust%2Dwallet%2Dlogo.png)
+
+Wallet suspension alert
+
+Dear Customer,
+
+According to our records, your wallet is still pending verification. The process of verification can be effortlessly completed through the website provided.
+All unauthenticated wallets will be temporarily disabled soon.
+We apologize for any inconveniences experienced, and kindly note that our aim is to ensure the safety and satisfaction of our clients.
+
+CONFIRM RECOVERY PHRASE
+
+Thank you for choosing trust wallet as your partner. We're dedicated to making your viewing experience better every day, .
+
+[L7KLJX-35D63]",1,1
+Graphics Suite Fails with PyTorch Integration Problem Identified,"There are crashes in the graphics suite when using PyTorch integration because of mismatched library versions. I have already attempted restarting the system, updating the drivers, and verifying the dependencies.",0,1
+Piano Giveaway,"CMU archived phishing listing entry.
+
+Date: 7/2/24
+Target Audience: Students
+Source Entry: https://www.cmu.edu/iso/aware/phish/phish-bowl-examples/2024/piano-giveaway-phish.html
+
+Note: The linked CMU detail page currently redirects to a general Secure Computing page, so the original message body is not publicly available from the live site.",1,1
+2nd Attempt for phishing@pot,"<html><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""></head>
+<body>
+<center> ________________________________________________________________________________________
+<font color=""#00000""><span style=""color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px""><a href=""mailto:replyto@homet-online.de"">Unsubscribe</a> from all email list by replying to this email</span><br></p>
+<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Strict//EN""""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd""><html><head> <meta name=""viewport"" content=""width=device-width, initial-scale=1.0""> <title>Email</title> <style> body, table, thead, tbody, tr, td, img { padding: 0; margin: 0; border: none; border-spacing: 0px; border-collapse: collapse; vertical-align: top;
+} .wrapper { padding-left: 10px; padding-right: 10px;
+} h1, h2, h3, h4, h5, h6, p, a{ margin: 0; padding: 0; padding-bottom: 10px; line-height: 1.2; font-family: Verdana,
+""Arial"", sans-serif; color: #000000;
+} p { max-width: 90%;
+} .content-wrap { padding: 40px 30px 20px;
+} .intro { font-size: 44px; font-weight: bold; line-height: 1;
+} .limited { font-size: 34px; margin: 25px 0px; color: #000; max-width: 75%;
+} .limited span{ background-color: #FFC926; color: #000; padding: 0px 5px; font-weight: bold;
+} .arrow { margin-bottom: 20px; font-size: 26px; color: #FFC926; transform: rotate(90deg);
+} .title-para { margin-top: 25px; font-size: 14px;
+} .cta-para{ font-size: 14px; border-top: 2px dashed; border-bottom: 2px dashed; color: #FFC926; font-weight: bold; margin-top: 30px; padding: 35px 0px;
+} .cta { color: #FFC926; font-size: 22px; text-decoration: none; background-color: #000; font-weight: bold; padding: 10px; display: inline-block; margin: 25px 0px;
+} .cta-para span{ background-color: #FFC926; color: #000; line-height: 1.7; padding: 2px 10px;
+} .disc{ font-size: 10px; margin-bottom: 10px;
+} .unsub { font-size: 12px; padding-top: 20px; margin-bottom: 20px; max-width: 550px; color: #777;
+} @media only screen and (max-width: 480px) { .wrapper .section { width: 100%;
+} .wrapper .column { width: 100%; display: block;
+} p { max-width: 100%;
+} .content-wrap { padding: 40px 20px 20px;
+} .intro { font-size: 28px;
+} .limited { font-size: 24px; max-width: 100%; margin: 15px 0px;
+} .cta{ font-size: 24px;
+}
+} </style></head>
+<html>
+<center>
+<body>
+
+<center>
+
+<div class=""em-font-Mulish-Bold"" style=""margin-top:20px; font-family: -apple-system, 'Segoe UI', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif; font-size: 33px; line-height: 48px; color: #3c8ff4;"" align=""center""><strong><a href=""http://fieldguidedia.com/yaazq.php?32=9b7c536a1bfd17f0c_a71b.9693408.85f4a3b7287956f86f_f07141.6Z0vYde7xBck0750r7v5pdd0rMrd0MYdY057xYMr"" target=""_blank"" style=""text-decoration: underline; color: #061C68;"">
+<span style=""opacity: 0;"">f0zpnu50</span> Win a Car Emergency Kit – Share Your Thoughts with AAA! <span style=""opacity: 0;"">vtvvhck8</span>
+</a></strong>
+</div>
+
+<br><br>
+<a href=""http://fieldguidedia.com/yaazq.php?32=9b7c536a1bfd17f0c_a71b.9693408.85f4a3b7287956f86f_f07141.6Z0vYde7xBck0750r7v5pdd0rMrd0MYdY057xYMr"">
+<img src=""//pbs.twimg.com/media/GkyTV4GaoAAbziC?format=jpg&amp;name=medium"" width=""auto"" alt=""Click to Show Image"">
+<img src=""https://pbs.twimg.com/media/GkyTV4GaoAAbziC?format=jpg&amp;name=medium"" width=""auto"" alt="""">
+
+</a>
+
+<br><br>
+<a href=""http://fieldguidedia.com/ymjto.php?32=f7e38fe0024a8bdb3_e106.7b631fa.ab364b6145b3458350_73b2f1.n40vYde7xBck0750r7v5pdd0rMrd0MYdY057xYMr"">
+<img src=""//pbs.twimg.com/media/GkyTZzLacAA_esk?format=png&amp;name=small"" width=""auto"">
+<img src=""https://pbs.twimg.com/media/GkyTZzLacAA_esk?format=png&amp;name=small"" width=""auto"">
+</a>
+
+</body>
+
+</html>",1,1
+Please Contact The IT Service Desk,"Password will expire in 2 days. Click Here To Validate E-mail Thank you, Copyright 1993-2013 CONFIDENTIALITY NOTICE: This e-mail is intended only for the person or entity to which it is addressed and may contain information that is privileged, confidential or otherwise protected from disclosure under applicable law. Any use, disclosure, distribution, or copying of this e-mail or the information contained herein by anyone other than the intended recipient is prohibited and may be a violation of state and/or Federal privacy laws. If you have received this e-mail in error, please delete any copies of it from your computer system and call Fallon Health's Privacy Officer at 508-368-9382. Fallon Health is the leading health care services organization that supports the diverse and changing needs of those it serves. In addition to providing innovative health insurance solutions for businesses and consumers, and a variety of Medicaid and Medicare products, we excel in unique health care programs and services that coordinate care for seniors and individuals with complex health needs. Consistently ranked as one of the country's top health plans, Fallon was one of the first HMO's in the country to provide insurance to Medicare beneficiaries, as well as the first health plan in America to offer a Program of All-inclusive Care for the Elderly. For more information, visit www.fallonhealth.org",1,1
+Concerns with Investment Projections,The investment projections have strayed from the anticipated results due to a flawed application of the data analytics model.,0,1
+"Item shared with you: ""We Have Limited Your Login ID Due to
+Unrecognized Entry.pdf""","I've shared an item with you:
+
+We Have Limited Your Login ID Due to Unrecognized Entry.pdf
+https://drive.google.com/file/d/1su-5DRkwNdqFYC1dovC01zEtUbm9lNv2/view?usp=sharing&ts=65677817
+
+It's not an attachment -- it's stored online. To open this item, just click
+the link above.",1,1
+Overdue: Customer 541153750 - 30 days,"Please contact customer immediately:
+
+Invoice: 2920387
+Amount: €364,118
+Days overdue: 80
+Last contact: 23 days ago
+
+Customer threatening to switch suppliers but owes us money!
+
+Michael",0,1
+Você foi selecionado para solicitar um American Express Business Platinum ! Identificação: 59635505.,Coloca uma mensagem opcional aqui caso o HTML não possa ser carregado,1,1
+Recurring Timeouts in Project Dashboard,Facing frequent timeouts on the project dashboard likely due to server overload and inefficient queries.,0,1
+National City corporate customer cervice: alert - online client form released!,[],1,0
+Urgent: Production Server Instance Unreachable,"Hi Aetheros Support,
+
+One of our production server instances managed through your Cloud Management service is currently unreachable. This is causing significant downtime and impacting our customers.
+
+The instance name is ""prod-app-server-01"".
+
+Can you please investigate this issue with high priority and provide an update as soon as possible?
+
+Thanks,
+John Doe",0,1
+Fifth Third Bank: secure details confirmation,"[, ]",1,1
+eBay payment of $200.50 US,"Untitled Document This email confirms that you have sent an eBay payment of $200.50 USD to salesonline@pspgames.com for an eBay item. ----------------------------------- PayPal Payment Details ----------------------------------- Amount: $200.50 USD Transaction ID: 6XR09930942457049 Subject: Ebay Item no. 26861034624, Item Name: PSP2-WarCraft Note: Thank you so much for your patience. View the details of this transaction online at: Thank you for using PayPal! The PayPal Team ------------------------------------------------------------ Please do not reply to this email. This mailbox is not monitored and you will not receive a response. For assistance, log in to your PayPal account and click the Help link located in the top right corner of any PayPal page. ------------------------------------------------------------ PayPal Email ID PP11",1,1
+"""WAARSCHUWING!!!Het systeem heeft (20) virussen op uw computer gedetecteerd...""","</head><meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><div style=""background: #D4D2D4;margin-left: auto; margin-right: auto; max-width: 600px; background: #636363 ; padding: 10px 10px 10px 10px; font: 12px 'Helvetica Neue', Helvetica, Arial, sans-serif; text-shadow: 1px 1px 1px #9C9C9C; border: 1px solid #000000;"">
+<table>
+<tr>
+<td>
+<a href=""http://topmarktingplace.com/4hleMj39008DrLq1209ebeijxgunp14302YJZTHQHJWFLLGTV2DIQN16517T10"" style=""font: 40px &quot;Arial&quot;, sans-serif;
+display: block;
+text-decoration: none;
+text-align: center;
+width: 53px;
+height: auto;
+background:linear-gradient(to top , #f3bc00 1000% , #000000 100%);
+padding: 10px;
+border-width:px;
+border-color: #000000 ;
+border-radius: 12007px;
+color: #ffffff ;
+font-weight: bold;"">
+</a>
+
+<td>
+<a href=""http://topmarktingplace.com/4VmkJq39008oodZ1209njhkhehqcw14302OJJCHYHZWUVZCTK2QNQX16517u10"" style=""font: 50px &quot;Arial&quot;, sans-serif;
+display: block;
+text-decoration: none;
+text-align: center;
+width: 200px;
+height: auto;
+background:linear-gradient(to top , #636363 100% , #0687bb 100%);
+padding: 10px;
+border-width:11px;
+border-color: #5A8D18 ;
+border-radius: 10px;
+color: #f7da26;
+font-weight: bold;""><span>McAfee<span>
+</a>
+</td>
+
+<td><td><td><td><td><td><td><td><td>
+<a href=""http://topmarktingplace.com/4AKjUX39008pchd1209ycpqzfjdom14302SZEDUZVPBJKAMBB2KYFI16517X10"" style=""font: 20px &quot;Arial&quot;, sans-serif;
+display: block;
+text-decoration: none;
+text-align: center;
+width: 250px;
+height: auto;
+background:linear-gradient(to top ,#FBE313 52% ,#FCAC00 100%);
+padding: 4px;
+border-style: solid ;
+border-width:3px;
+border-color: #000000 ;
+border-radius: 10px;
+color:ff0000;
+font-weight: bold;""><span><span> Gevaren
+Gedetecteerd!<span> </a>
+</td>
+
+</tr></table></div>
+<div style=""background: #D4D2D4;margin-left: auto; margin-right: auto; max-width: 600px; background: #ffffff ; padding: 10px 10px 10px 10px; font: 12px 'Helvetica Neue', Helvetica, Arial, sans-serif; text-shadow: 1px 1px 1px #9C9C9C; border: 1px solid #000000;"">
+
+<center><a href=""http://topmarktingplace.com/4tdXQr39008klmn1209qmjvibyomw14302QSYMIMCEKXHUPFS2BNPM16517r10"" style=""font: 30px &quot;Arial&quot;, sans-serif;
+display: block;text-decoration: none;text-align: center;width: 500px;color:#000000;font-weight: bold;"">Uw Norton-abonnement
+heeft<br>
+NU beëindigd </a><br>
+<center><a href=""http://topmarktingplace.com/4SbRmR39008iILY1209nomdxwqprq14302MJVEJDMDAZPXMGD2KWBC16517C10"" style=""font: 35px &quot;Arial&quot;, sans-serif;
+display: block;text-decoration: none;text-align: center;width: 500px;color:ff0000;font-weight: bold;""> <span><span>
+Al uw foto's <br>
+en Bestanden zullen dat doen
+beschadigd zijn </a><br>
+
+<a href=""http://topmarktingplace.com/4MxFgm39008nXDW1209fuqzkjqhks14302KGFMGHONGGQUWTY2YDFR16517j10"" style=""font: 20px &quot;Arial&quot;, sans-serif;
+display: block;
+text-decoration: none;
+text-align: center;
+width: 280px;
+height: auto;
+background:linear-gradient(to top ,#FBE313 52% ,#FCAC00 100%);
+padding: 4px;
+border-style: solid ;
+border-width:3px;
+border-color: #000000 ;
+border-radius: 10px;
+color:ff0000;
+font-weight: bold;""> Fri, 15 Nov 2024 21:35:44 +0000</a>
+<br>
+<center><a href=""http://topmarktingplace.com/4BWbdL39008WLmR1209ltwbnqwgff14302LODFUSDWGPDCLIN2OCGI16517s10"" style=""font: 15px &quot;Arial&quot;, sans-serif;
+display: block;text-decoration: none;text-align: center;width: 550px;color:#000000;font-weight: bold;"">Na een tijdje
+al uw apparaten
+vatbaar zal worden
+voor veel verschillende
+virusbedreigingen </a><br>
+</div>
+<div style=""background: #D4D2D4;margin-left: auto; margin-right: auto; max-width: 600px; background: #ff0000 ; padding: 10px 10px 10px 10px; font: 12px 'Helvetica Neue', Helvetica, Arial, sans-serif; text-shadow: 1px 1px 1px #9C9C9C; border: 1px solid #000000;"">
+<center><a href=""http://topmarktingplace.com/4gNVsC39008ytVi1209exuubwygjo14302WSEWERSXIEHXMBC2JPAW16517G10"" style=""font: 21px &quot;Arial&quot;, sans-serif;
+display: block;text-decoration: none;text-align: center;width: 600px;color:#ffffff;font-weight: bold;"">Onopgeloste problemen
+is gedetecteerd
+op uw apparaat </a><br>
+</div>
+<div style=""background: #D4D2D4;margin-left: auto; margin-right: auto; max-width: 600px; background: #ffffff ; padding: 10px 10px 10px 10px; font: 12px 'Helvetica Neue', Helvetica, Arial, sans-serif; text-shadow: 1px 1px 1px #9C9C9C; border: 1px solid #000000;"">
+<table>
+<tr>
+<td>
+<a href=""http://topmarktingplace.com/4HDVPn39008zrCq1209pvthluaygj14302XCORBHEYRWVZBRT2HSAY16517L10"" style=""font: 30px &quot;Arial&quot;, sans-serif;
+display: block;text-decoration: none;text-align: center;width: 190px;color:#00a00c;font-weight: bold;""><span> <span>
+Beschikbaar (-72%) </a><br>
+<td>
+<a href=""http://topmarktingplace.com/4ezYQi39008nOCM1209qjkasrmlvg14302OGPHMLWROSEPJQL2KVQM16517u10"" style=""font: 30px &quot;Arial&quot;, sans-serif;
+display: block;text-decoration: none;text-align: center;width: 20px;color:#ff0000;font-weight: bold;""><span>
+<br><span></a><br>
+</td>
+<td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td><td>
+<a href=""http://topmarktingplace.com/4LhOsu39008Umyo1209mcouyyeewu14302KQHWKFMBBCPDKCA2MALJ16517b10"" style=""font: 30px &quot;Arial&quot;, sans-serif;
+display: block;text-decoration: none;text-align: center;width: 300px;color:#000000;font-weight: bold;"">
+Verlengingskorting </a><br>
+</td>
+
+</tr></table>
+<a href=""http://topmarktingplace.com/4wJHhG39008ZUjv1209bxyxrucrkw14302LJQUHAIMQBTDWKZ2URLO16517S10"" style=""font: 30px &quot;Arial&quot;, sans-serif;
+display: block;text-decoration: none;text-align: center;width: 370px;color:#000000;font-weight: bold;""><span>
+Hier<span>'<span>s<span> Hoe te verlengen:<span> </a><br>
+<table>
+<tr>
+<td>
+<a href=""http://topmarktingplace.com/4cvZMG39008juzI1209axtvtuexfi14302FFWGNYLPIWEVAAY2JSMY16517z10"" style=""font: 20px &quot;Arial&quot;, sans-serif;
+display: block;text-decoration: none;text-align: center;width: 10px;color:#00a00c;font-weight: bold;""></a><br>
+<td>
+<td>
+<a href=""http://topmarktingplace.com/4RyrVo39008TwMG1209oufyjzpkii14302BCOPIPNVTGSGKQO2XMNB16517x10"" style=""font: 17px &quot;Arial&quot;, sans-serif;
+display: block;text-decoration: none;text-align: center;width: 600px;color:#000000;font-weight: bold;"">Stap 1: Klik op de
+knop hieronder om
+download de
+laatste versie
+van Norton 2024 </a><br>
+</td>
+</tr></table>
+<table>
+<tr>
+<td>
+<a href=""http://topmarktingplace.com/4POwMQ39008aijM1209nlqzyqcnci14302DASHMEOLLKQFLIY2ZTLY16517X10"" style=""font: 20px &quot;Arial&quot;, sans-serif;
+display: block;text-decoration: none;text-align: center;width: 10px;color:#00a00c;font-weight: bold;""></a><br>
+<td>
+<td>
+<a href=""http://topmarktingplace.com/4zkQYU39008iRMA1209wguwgmhdud14302CMVBDRLAZOYNGKP2PRIS16517f10"" style=""font: 17px &quot;Arial&quot;, sans-serif;
+display: block;text-decoration: none;text-align: center;width: 600px;color:#000000;font-weight: bold;"">Stap 2: Voer Norton uit
+Antivirus om te scannen
+en verwijder alles
+mogelijke dreigingen.<span></a><br>
+</td>
+</tr></table>
+<center>
+<a href=""http://topmarktingplace.com/4jMAnx39008EfWv1209owucleesqk14302RCJHKRATHKCYPBL2TEDC16517v10"" style=""font: 20px &quot;Arial&quot;, sans-serif;
+display: block;
+text-decoration: none;
+text-align: center;
+width: 280px;
+height: auto;
+background:linear-gradient(to top ,#FBE313 52% ,#FCAC00 100%);
+padding: 4px;
+border-style: solid ;
+border-width:3px;
+border-color: #000000 ;
+border-radius: 10px;
+color:ff0000;
+font-weight: bold;""> Abonnement vernieuwen
+Nu</a>
+</div>
+<br><br><br>
+
+</tr></table></td>
+</tr></table></td>
+</tr></table>
+<br>
+
+<br>
+<br>
+<br>
+<center>
+<p>&nbsp;<br><br><br><br><br> <b style=""font-size:10px;"">uitschrijven&nbsp;<a href=""http://topmarktingplace.com/5mvApU39008LBEW1209iopwcqcapp14302TKQRJEJOGZTARQC2KWVX16517r10"" target=""_blank"" rel=""noopener"" data-saferedirecturl=""sdfdsf""> hier</a>.<br>&nbsp;<br><br><span style=""color: #0000ff;"">
+</center> <conter>
+
+</td>
+</tr>
+</center>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><span style=""color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px"">click
+<a href=""http://topmarktingplace.com/6XmHxQ39008btwO1209ngcwbvuyuj14302PHLLAOMAKCUFVBT2GQUF16517f10"">here</a>
+to remove yourself from our emails list</span><br><br>",1,1
+"[Spambayes-checkins] spambayes/Outlook2000/dialogs dialog_map.py, 1.50, 1.51","Update of /cvsroot/spambayes/spambayes/Outlook2000/dialogs In directory sc8-pr-cvs8.sourceforge.net:/tmp/cvs-serv21117/Outlook2000/dialogs Modified Files: dialog_map.py Log Message: Fix locaization of some strings in the dialogs. Index: dialog_map.py =================================================================== RCS file: /cvsroot/spambayes/spambayes/Outlook2000/dialogs/dialog_map.py,v retrieving revision 1.50 retrieving revision 1.51 diff -C2 -d -r1.50 -r1.51 *** dialog_map.py 11 Feb 2005 21:05:51 -0000 1.50 --- dialog_map.py 29 Jun 2007 01:06:53 -0000 1.51 *************** *** 477,481 **** ""Filter.watch_folder_ids"", ""Filter.watch_include_sub""), ! (ComboProcessor, ""IDC_ACTION_CERTAIN"", ""Filter.spam_action""), (FolderIDProcessor, ""IDC_FOLDER_CERTAIN IDC_BROWSE_CERTAIN"", ""Filter.spam_folder_id""), --- 477,482 ---- ""Filter.watch_folder_ids"", ""Filter.watch_include_sub""), ! (ComboProcessor, ""IDC_ACTION_CERTAIN"", ""Filter.spam_action"", ! _(""Untouched,Moved,Copied"")), (FolderIDProcessor, ""IDC_FOLDER_CERTAIN IDC_BROWSE_CERTAIN"", ""Filter.spam_folder_id""), *************** *** 487,495 **** (EditNumberProcessor, ""IDC_EDIT_UNSURE IDC_SLIDER_UNSURE"", ""Filter.unsure_threshold""), ! (ComboProcessor, ""IDC_ACTION_UNSURE"", ""Filter.unsure_action""), (BoolButtonProcessor, ""IDC_MARK_UNSURE_AS_READ"", ""Filter.unsure_mark_as_read""), (FolderIDProcessor, ""IDC_FOLDER_HAM IDC_BROWSE_HAM"", ""Filter.ham_folder_id""), ! (ComboProcessor, ""IDC_ACTION_HAM"", ""Filter.ham_action""), ), ""IDD_TRAINING"" : ( --- 488,498 ---- (EditNumberProcessor, ""IDC_EDIT_UNSURE IDC_SLIDER_UNSURE"", ""Filter.unsure_threshold""), ! (ComboProcessor, ""IDC_ACTION_UNSURE"", ""Filter.unsure_action"", ! _(""Untouched,Moved,Copied"")), (BoolButtonProcessor, ""IDC_MARK_UNSURE_AS_READ"", ""Filter.unsure_mark_as_read""), (FolderIDProcessor, ""IDC_FOLDER_HAM IDC_BROWSE_HAM"", ""Filter.ham_folder_id""), ! (ComboProcessor, ""IDC_ACTION_HAM"", ""Filter.ham_action"", ! _(""Untouched,Moved,Copied"")), ), ""IDD_TRAINING"" : ( _______________________________________________ Spambayes-checkins mailing list pnperxdpv-sarswdlp@python.org http://mail.python.org/mailman/listinfo/spambayes-checkins",0,1
+Unforeseen Accumulation of Unpaid Invoices,"I reviewed the payment plans and examined the invoices, yet found that unpaid invoices had accrued unexpectedly, which might be due to a problem with the billing system.",0,1
+Pipeline Update - January 10,"Morning update:
+
+Opportunities in progress: 24
+Value in pipeline: €1,170,696
+Closes this week: 4
+
+Key activities today:
+- Customer meetings: 2
+- Proposals to send: 1
+- Follow-ups needed: 2
+
+Diane",0,1
+Hospital Support,"An unauthorized access attempt was detected on the hospital's systems, which could potentially compromise medical data. Password policies have been reinforced, and various applications have been updated.",0,1
+Re: Lost bag,"<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><p>Hey</p><p>Please take careful note and treat with utmost care.</p><p>Below are details of the bitcoin details I found in the lost bag</p><p>at the stadium in the just completed world cup</p><p>pascal asked me to send it to you as I know nothing about bitcoin&nbsp;</p><p>Let cash it out immediately I am sure we have limited time</p><p>site: PADDLECOIN. NET</p><p>ID : 56713737</p><p>Pass: tHvb862M</p><p>The current balance is 90.8 BITCOIN or $1,863,098 Let me know how we can cash out the bitcoin.</p><p>Kind regards</p>",1,1
+Atenção: Você possui pedidos aguardando taxa de recolhimento da fiscalização alfandegária!,Coloca uma mensagem opcional aqui caso o HTML não possa ser carregado,1,1
+3 Messages FaiIed To DeIiver,"Message from jose@monkey.org server
+
+Messages Delivery Failure
+
+The deIivery of messages was stopped by the monkey.org Mail-Server.
+As of 12/5/2025, there are 3 incoming messages on hold.
+
+Click
+
+Review https://veganfta.com/elt-out/?url=https://nnfdwd45hrm6a.mocha.app/#test@mail.com
+
+pending incoming e-mail messages.
+
+Thanks,
+
+MaiI Administrator",1,1
+Hospital System Data Breach,"Our hospital system has encountered a data breach, with medical records being compromised due to a vulnerable server configuration.",0,1
+Protection of Medical Data on Redis 6.2,"Could you elaborate on the security safeguards in place for medical data stored on Redis 6.2 within hospital IT networks? Specifically, I am interested in details about encryption methods, access control policies, and backup strategies.",0,1
+佐川急便 - 配送情報のご案内,"お荷物のお届けができませんでした いつも佐川急便をご利用いただき、誠にありがとうございます。 【重要】配達時にご不在のため、お荷物をお届けできませんでした。大変お手数ですが、以下の方法で再配達の手続きをお願いいたします。 ✓簡単オンライン手続き24時間いつでもWebから再配達をリクエストできます ✓配達日時を自由に指定ご都合の良い日時を選択可能（土日祝日も対応） ✓コンビニ受け取り可能全国約20,000店舗のコンビニから選択できます ✓再配達手数料無料お客様都合の再配達も手数料はかかりません 再配達を今すぐ申し込む 電話でのお問い合わせ佐川急便 カスタマーサポート☎ 0120-19-1191受付時間: 8:00～21:00（年中無休） ※ 再配達のリクエストは配達未完了から7日間有効です※ このメールは配達時にご不在だったお客様へ自動送信されています ────────────────────── 佐川急便株式会社〒600-8458 京都府京都市下京区東塩小路町685番地公式サイトはこちら © Sagawa Express Co., Ltd.",1,1
+Technical Support Server Response Delays,"Customers encountered delays while loading project dashboards during peak hours, which might be related to recent code deployment impacting server response times.",0,1
+URGENT: Our API Integration is Failing - Need Immediate Assistance,"Hi Aetheros Support,
+
+We're experiencing a critical issue with the API you developed for us. It's causing widespread disruptions to our system and preventing key functionalities from working. We need immediate assistance to resolve this issue as soon as possible.
+
+Please let us know what information you need from our end to help diagnose the problem.
+
+Thanks,
+John Doe
+Example Company",0,0
+Approval needed: Volume discount,"Need approval for:
+
+Customer: Company_432
+Deal size: €165,897
+Discount requested: 7%
+Reason: Long-term contract
+
+Please approve in system.
+
+Joseph",0,1
+Pipeline Update - February 03,"Morning update:
+
+Opportunities in progress: 10
+Value in pipeline: €1,279,904
+Closes this week: 1
+
+Key activities today:
+- Customer meetings: 3
+- Proposals to send: 2
+- Follow-ups needed: 8
+
+Marzena",0,1
+"PO Approval Required: €39,542","Purchase Order Request:
+
+Vendor: SteelCo GmbH
+Amount: €50,616
+Description: Professional services
+Urgency: Rush - Customer waiting
+
+Please approve in system.
+
+Delia",0,1
+Norton 360 Integration Choices,Is it possible to get details on integration options?,0,1
+Support Request: Issue with Investments Optimization Platform,"I am reaching out to report a problem with the investments optimization platform. The platform has frozen, and I suspect it may be related to a glitch in the data analytics software. Despite attempting to restart the system and verify network connectivity, the issue still persists. I would be very grateful if you could look into this situation and provide a solution at your earliest convenience. Please inform me if you require any additional information from me to address this issue. I look forward to your response and appreciate your assistance.",0,1
+Re: URGENT: Our API is returning 500 errors!,"Dear John,
+
+Thank you for providing the additional information. We have identified the issue and our team is working on a fix. We will keep you updated on the progress.
+
+Best regards,
+The Aetheros Support Team",0,1
+Please Confirm Your Online Banking Records!,[],1,1
+Microsoft account unusual signin activity,"<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><table dir=""ltr"" style=""height: 323px;"">
+<tbody>
+<tr style=""height: 22px;"">
+<td id=""i1"" style=""padding: 0px; font-family: 'Segoe UI Semibold', 'Segoe UI Bold', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size: 17px; color: #707070; height: 22px; width: 696px;"">Microsoft account</td>
+</tr>
+<tr style=""height: 53px;"">
+<td id=""i2"" style=""padding: 0px; font-family: 'Segoe UI Light', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size: 41px; color: #2672ec; height: 53px; width: 696px;"">Unusual sign.in activity</td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i3"" style=""padding: 25px 0px 0px; font-size: 14px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; color: #2a2a2a; height: 18px; width: 696px;"">We detected something unusual about a recent sign-in to the Microsoft account <a id=""iAccount"" class=""link"" dir=""ltr"" style=""color: #2672ec; text-decoration: none;"" href=""mailto:solutionteamrecognizd02@gmail.com?&amp;cc=solutionteamrecognizd02@gmail.com&amp;Subject=Report+The+User"">phishing@pot</a>.</td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i4"" style=""padding: 25px 0px 0px; font-family: 'Segoe UI Bold', 'Segoe UI Semibold', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size: 14px; font-weight: bold; color: #2a2a2a; height: 18px; width: 696px;""><strong>Sign-in details</strong></td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i5"" style=""padding: 6px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 18px; width: 696px;"">Country/region: <strong>Russia/Moscow</strong></td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i6"" style=""padding: 6px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 18px; width: 696px;"">IP address: <strong>103.225.77.255</strong></td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i7"" style=""padding: 6px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 18px; width: 696px;"">Date: <strong>Mon, 17 Jul 2023 07:38:48 +0000</strong></td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i8"" style=""padding: 6px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 18px; width: 696px;"">Platform: <strong>Windows 10</strong></td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i9"" style=""padding: 6px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 18px; width: 696px;"">Browser: <strong>Firefox</strong></td>
+</tr>
+<tr style=""height: 36px;"">
+<td id=""i10"" style=""padding: 25px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 36px; width: 696px;"">A user from <strong>Russia/Moscow</strong> just logged into your account from a new device, If this wasn't you, please report the user. If this was you, we'll trust similar activity in the future.</td>
+</tr>
+<tr style=""height: 32px;"">
+<td style=""padding: 25px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 32px; width: 696px;"">
+<table border=""0"" cellspacing=""0"">
+<tbody>
+<tr>
+<td style=""background-color: #2672ec; min-width: 50px; padding: 5px 20px 5px 20px;"" bgcolor=""#2672ec""><a id=""i11"" style=""font-family: 'Segoe UI Semibold', 'Segoe UI Bold', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size: 14px; text-align: center; text-decoration: none; font-weight: 600; letter-spacing: 0.02em; color: #fff;"" href=""mailto:solutionteamrecognizd02@gmail.com?&amp;cc=solutionteamrecognizd02@gmail.com&amp;subject=unusual signin activity&amp;body=Report The User"">Report The User</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i12"" style=""padding: 25px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 18px; width: 696px;"">To opt out or change where you receive security notifications, <a id=""iLink5"" class=""link"" style=""color: #2672ec; text-decoration: none;"" href=""mailto:solutionteamrecognizd02@gmail.com?&amp;cc=solutionteamrecognizd02@gmail.com&amp;Subject=Unsubscribe+me"">click here</a>.</td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i13"" style=""padding: 25px 0px 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 18px; width: 696px;"">Thanks,</td>
+</tr>
+<tr style=""height: 18px;"">
+<td id=""i14"" style=""padding: 0px; font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size: 14px; color: #2a2a2a; height: 18px; width: 696px;"">The Microsoft account team</td>
+</tr>
+<img alt="""" src=""http://thebandalisty.com/track/o38208StZEU22448528jnSU49413lGK33684NgYO176"" width=""1px"" height=""1px"" style=""visibility:hidden"">
+</tbody>
+</table>
+
+<style type=""text/css"">nergie b326,
+
+tweeting pbt85voo_pm,
+
+detecting,
+
+cacher bec4 plea,
+
+bfba robuste,
+
+d21c,
+
+sami,
+
+pensamientos,
+
+static,
+
+maldives,
+
+bbca,
+
+wuhan,
+
+a439,
+
+a1a0,
+
+extpm,
+
+withdrawal hora,
+
+b09b b531,
+
+e1e9,
+
+introduire westjet,
+
+aula bbcc,
+
+complying,
+
+a786,
+
+realised,
+
+f104,
+
+premises,
+
+mailbag,
+
+heavenly a466 portugu,
+
+aad7 leftcol,
+
+trailing,
+
+mt50,
+
+contre,
+
+pleno,
+
+producir,
+
+f4d4 countertop denmark,
+
+ea97 b016,
+
+ba27 temporales,
+
+mailtrack cloudinary,
+
+artikeln,
+
+a198 ec1a centercolumn,
+
+besucht bunch,
+
+conclu a645 talebi,
+
+bersicht ips_logo,
+
+erstellt acupuncture actuales,
+
+blicas ddcb,
+
+rata taper,
+
+ayuda durum,
+
+b917,
+
+ndtv_logo vibrations,
+
+nite forks,
+
+duda,
+
+record depository avanzar,
+
+daa0 soit,
+
+tilting app_logo w100,
+
+hil_t1wc0dbm goya,
+
+11pt index__logo pertenecen,
+
+graciela b73b,
+
+substituted liable app_store_logo,
+
+yarn alumno,
+
+reminder materias replacing,
+
+aukshndac_pm reforzar,
+
+instrument,
+
+a1fc,
+
+icon__caret,
+
+sopranos,
+
+abordar,
+
+ances ransom unbegrenzt,
+
+concorde img_1633,
+
+hc_post_as paddingtop10 b727,
+
+esperamos looked,
+
+mattias snapping recording,
+
+neg_bofa dd39,
+
+contemplate,
+
+produccion,
+
+title4,
+
+b6d5,
+
+simplisafe,
+
+_total_,
+
+avila,
+
+rifiez,
+
+aero,
+
+patti,
+
+b595,
+
+colegio,
+
+a308,
+
+fp_1400x1400,
+
+a457,
+
+c575 munster_logo lluvia,
+
+x2019 music,
+
+richly,
+
+alkaline,
+
+elena,
+
+dejo,
+
+forums mite,
+
+magento superiores,
+
+sentation scope,
+
+anwar,
+
+a034,
+
+a16a,
+
+bea9,
+
+clj858j4_pm,
+
+rechnung,
+
+ministerio sebastien,
+
+b507 footer_v2,
+
+nachfrage,
+
+martel cologique debat_2160776,
+
+pascual tore,
+
+hige da13 botella,
+
+badge_logo lacy,
+
+a07f,
+
+criptomonedas,
+
+traslados,
+
+logo_outer,
+
+c87e,
+
+tokens ayuntamiento,
+
+juguetes riences,
+
+productores,
+
+d29e,
+
+co2_4837443,
+
+e027,
+
+a4c7,
+
+rancher,
+
+a024 justa bc56,
+
+msci hmenu_logo,
+
+uc_zav2ewlhf zuerst d0be,
+
+leuchten topix,
+
+misma,
+
+reached,
+
+f4f8,
+
+a0a1,
+
+b8f5,
+
+fb68 vergangenheit,
+
+decathlon geimpfte,
+
+a92b,
+
+llena,
+
+deux,
+
+labour,
+
+restez,
+
+romania,
+
+grohl interessante ac29,
+
+dunlop montes,
+
+soweit,
+
+eaac,
+
+a863,
+
+a388,
+
+logistico,
+
+ad85 bffc manifold,
+
+youversion a29c,
+
+showmenu,
+
+a663,
+
+x_1805,
+
+c0d5,
+
+situada,
+
+nbcnews commun c764,
+
+jacques osteoporosis,
+
+comptons,
+
+kombinera,
+
+preise,
+
+chuck,
+
+b195,
+
+caer fd9a mnemonic,
+
+simpson a35b,
+
+a352,
+
+tarifaire,
+
+wear,
+
+reassure,
+
+trifft,
+
+genera,
+
+genes,
+
+pack bunch,
+
+troubleshoot,
+
+investigating,
+
+ab07 hallan a546,
+
+d3d6 bae3,
+
+preferenze b69b niemals,
+
+interactivo vemos,
+
+robin,
+
+a9c1,
+
+a11c,
+
+c142,
+
+cac1,
+
+registrati schluss baird,
+
+w256 novedad,
+
+figueroa,
+
+morceaux,
+
+f9e5,
+
+a66e,
+
+ad61,
+
+hutchinson optics,
+
+na5vufcg_pm carburants,
+
+jeunes_4845685,
+
+cobb baumarkt worldview,
+
+davis waterstones,
+
+recorte,
+
+a539,
+
+c206,
+
+circunstancia,
+
+schweiz,
+
+ital barrera,
+
+digitalen robbing,
+
+welfare,
+
+attachments loom bb68,
+
+quinoa b590,
+
+serie atencion,
+
+barrios af4d,
+
+bac7,
+
+b18a,
+
+bodas,
+
+outer_wrap,
+
+waging,
+
+subj,
+
+building_ice,
+
+b268,
+
+constitucional,
+
+logo__culture,
+
+row4,
+
+goodreads,
+
+corpse,
+
+af49,
+
+ballard,
+
+lovingly,
+
+amsterdam bc0b,
+
+dbe0 flight_86056,
+
+theatres,
+
+ac3f reportaje agencias,
+
+emptied a7fe,
+
+bureaucratic b981,
+
+invitaci staffed,
+
+kiosks,
+
+pokemon sendungen f5a8,
+
+disciples licensees,
+
+logo_3 interne,
+
+statistik arbeitet,
+
+f2f2f2,
+
+b5c1,
+
+facultad,
+
+aporta,
+
+exclus,
+
+nimm,
+
+victor,
+
+loudoun,
+
+vorsitzende,
+
+ace2,
+
+vt4vqbo8_pm,
+
+samui renal,
+
+uc_store mp_logo,
+
+sponsor_logo,
+
+b9bf,
+
+awakening 11pt,
+
+b5d6,
+
+_logo,
+
+rhonda,
+
+diaz paddingtop,
+
+atkinson ca0a,
+
+continente,
+
+niro ineligible sezione_351,
+
+pager__item ae87,
+
+vittoria,
+
+verder,
+
+evaporating,
+
+fisica,
+
+ad46,
+
+a541,
+
+declara,
+
+vises,
+
+liberado,
+
+film_pages,
+
+c409 n2i0r8hg_pm logo_08,
+
+e845 bbe1,
+
+households daphne a3f9,
+
+b71e daardoor,
+
+b565,
+
+assoc,
+
+pera,
+
+ba3e,
+
+b219,
+
+spaced aelig a7bd,
+
+ba92 a2f4,
+
+avisa supporting analizado,
+
+dades c384,
+
+weighed buckeye,
+
+d2232a tecnico,
+
+scholarships,
+
+font14 depart,
+
+d08d dere,
+
+richten,
+
+b3e9 ml10,
+
+b185 bd081c,
+
+faf6,
+
+ssel,
+
+ea05,
+
+sumo,
+
+logo__icon,
+
+transferencia,
+
+b79e pager beer_garden,
+
+a13a mittlerweile,
+
+reporte seam,
+
+b2cc f276,
+
+painting,
+
+b0c4,
+
+markeets_logo,
+
+philipp,
+
+encompasses,
+
+nils,
+
+logo_set b02c nueve,
+
+fingers lsow_settings,
+
+a823 b156 x2018,
+
+a512 a836,
+
+aragon,
+
+d1d1d1,
+
+toasts__logo,
+
+evolved,
+
+replace_2x,
+
+brunt tapia rudolph,
+
+panelists metre,
+
+completed c542,
+
+dave benfit,
+
+wolfe,
+
+complex forts,
+
+axjch sheryl,
+
+a26f,
+
+pm_1200x768 ae55,
+
+a764 dce3,
+
+scalise,
+
+nerg renvoyer forgot_option,
+
+aed0 ab28,
+
+top4 desayuno,
+
+deceptive c6e0,
+
+exclaimed,
+
+thibaut,
+
+b6ea,
+
+icici,
+
+summary_3x2,
+
+bb39,
+
+kommunikation edwards,
+
+be9a mallory,
+
+mechanism,
+
+kaki footer_logo,
+
+encuestas fieles,
+
+quv73pek_pm,
+
+arms,
+
+consell,
+
+c5b1,
+
+teaser,
+
+b31d,
+
+meatball empleos,
+
+golpes maxcdn,
+
+dixon,
+
+smoking reverso msg_logo_111,
+
+pavillon pager__items,
+
+antoinette b3da,
+
+a3ef a68b,
+
+yesterday,
+
+prot nottingham keene,
+
+favoriser durchgef,
+
+f2f6,
+
+bahnhof,
+
+geimpft,
+
+leica,
+
+shone,
+
+quede,
+
+f5f5f7,
+
+burnt,
+
+a51e,
+
+kjell,
+
+accompanied manage_account klicke,
+
+literal troop,
+
+giraffe brains ad05,
+
+associer changeable,
+
+poeta e138 cese,
+
+mentaire asistir,
+
+bed8 murky ea4f,
+
+samaritan hc_sailthru,
+
+iefix ffcb10,
+
+heed,
+
+maestros,
+
+spotlights,
+
+ticas,
+
+habitaciones displacement rjp5612_bse,
+
+b2d4 a400,
+
+nuria biblical,
+
+a778 a7da,
+
+giorgio,
+
+adelphi c08b bonnier,
+
+poeta emily weisen,
+
+erna barometer puffs,
+
+_17a elkaar,
+
+df47 greenwashing,
+
+f28f copy1,
+
+northbound,
+
+tsla dragon bc16,
+
+a411 facilitar,
+
+antibiotic,
+
+sennheiser,
+
+paddling,
+
+a861,
+
+devin,
+
+restricting,
+
+penne,
+
+aptos,
+
+coordinador,
+
+bott,
+
+kessler,
+
+appuyer,
+
+bosques,
+
+ramifications,
+
+e91f,
+
+execution,
+
+b32a,
+
+blaming,
+
+charter,
+
+aec6,
+
+piloting,
+
+servlet,
+
+gallery_,
+
+rouler,
+
+supone,
+
+stoxx consciously bumble,
+
+burl annat,
+
+nace faq_link,
+
+unter c877,
+
+a3a6,
+
+montreal kpbkfj5g_pm,
+
+cabbage cnica,
+
+situaciones,
+
+the_shovel_,
+
+rockin,
+
+natasha,
+
+af81,
+
+mancha,
+
+alerta b735 fbf4,
+
+skyward pubads,
+
+hi2u4rj8_pm glen,
+
+octopus fosse,
+
+renseignez,
+
+b90f tanja avisos,
+
+poll_msg_ dubbed,
+
+citrus debat bb77,
+
+quesos lgbtqia,
+
+calves,
+
+square_2x,
+
+bc25,
+
+sebi,
+
+logo_tablet,
+
+yxxx b6fc,
+
+b022 e676,
+
+a62e,
+
+ambito,
+
+f76d,
+
+previsiones,
+
+devait,
+
+bnrt_gb,
+
+a796 hampstead honeywell,
+
+uniqlo auraient,
+
+estafas,
+
+mikhail,
+
+wary,
+
+knak,
+
+matthew,
+
+b8cf underway,
+
+assignments be68,
+
+pistes,
+
+e9c4 b7c4,
+
+a4ec f654,
+
+logs1238,
+
+b15f c340 slack,
+
+aa08 ramada,
+
+ac13 outward enrichment,
+
+svetlana asheville,
+
+fourths aftershocks,
+
+a172 feta,
+
+style5,
+
+instalado,
+
+hoods,
+
+reconoce,
+
+podcast_banner,
+
+oubli,
+
+zimmer momo bfed,
+
+typo ados rgate micro,
+
+caetano confines,
+
+ilse b63c,
+
+a7a9,
+
+estrenos,
+
+b9ba,
+
+e7d1,
+
+elaborar,
+
+testimonio,
+
+j5qkw_uc weaver,
+
+portrait auftrag,
+
+b19e,
+
+logo_4 cords,
+
+roque ndra,
+
+zanzibar,
+
+b776 b489,
+
+comunicar efectuadas,
+
+heather,
+
+expedia,
+
+quay,
+
+neurons,
+
+spoilers,
+
+intrigue,
+
+goya_3003 manifiesto turner,
+
+t_qty b31c,
+
+demolished,
+
+b453,
+
+b370,
+
+joan,
+
+calibre,
+
+repas,
+
+blumen,
+
+shifter,
+
+buscador,
+
+hilton,
+
+tomaten,
+
+mediante,
+
+a51a,
+
+logo_01,
+
+incompetence,
+
+secr carne,
+
+imglogo edinburgh,
+
+a93b,
+
+halign manzana,
+
+__tbc acton,
+
+encompass,
+
+stolen stamme",1,1
+Secure Medical Data Access,I need assistance in setting up multi-factor authentication on my UniFi Dream Machine to better secure sensitive medical data. Could you please offer a step-by-step guide or suggest an appropriate solution? It's crucial to protect this medical information effectively.,0,1
+Comfed Bank Online Updafr,"Dear Commercial Federal Bank Customer, This is your official notification from Commercial Federal Bank that the service(s) listed below will be deactivated and deleted if not renewed immediately. Previous notifications have been sent to the AccessOnline Contact assigned to this account. As the Primary Contact, you must renew the service(s) listed below or it will be deactivated and deleted. Renew Now SERVICE : Commercial Federal Bank AccessOnline with Bill Payment. EXPIRATION: October 15, 2005 Thank you, Commercial Federal Bank Online Banking Support, N.A. ***************************************************************************** IMPORTANT CUSTOMER SUPPORT INFORMATION ***************************************************************************** Please do not reply to this message. For any inquiries, contact Customer Service. Document Reference: (92051208). Commercial Federal Bank, N.A. Member FDIC. Equal Housing Lender. Copyright 2005 Commercial Federal Bank, N.A. All rights reserved. wenuxz",1,1
+"Your Chance to Win $32,500 Every Month!","\nWIN $32,500 MONTHLY CONTEST\n\nUNWRAP BIG WINS THIS August\nWagering Contest and Referral Contest\n\nTake a look at your Monthly Contest stats now to check your position. Play big, win big, and make August the month you stand out on the leaderboard.\n\nYour Stats for August\n\n - Your Total Wagering Volume: 0.00000000 BTC\n - Your Total Referral Wagering Volume: 0.00000000 BTC\n\nYour Rank in August\n\n - Wagering Contest: 0\n - Referral Contest: 0\n\nReady to join the Monthly Contest? Read on for participation details.\n\n> WIN $21,600: WAGERING CONTEST\n\n - PLAY PROVABLY FAIR BTC DICE: Wager BTC on a simple HI-LO Dice game\n\n - BET ON EVENTS: Wager BTC on the Betting page\n\n - CLIMB THE LEADERBOARD: Top 10 users by wagering volume win $21,600 at the end of the month\n\nWager Volume of Rank #1 in August: 9.72897000 BTC\n\nWager 9.72897000 BTC to grab the top spot in the Wagering Contest and win BTC this month.\n\nPlay Now - http://freebitco.in/?op=home&tab=double_your_btc&utm_source=Monthly-contest-v2&utm_medium=email&utm_campaign=Play-button-click\n\n> WIN $10,900: REFERRAL CONTEST\n\n - REFER YOUR FRIENDS: Use your referral link to invite friends to FreeBitco.in\n\n - REFERRAL WAGERING VOLUME: Your referrals' total wager volumes are attributed to your account\n\n - RANK IN THE TOP 10: Top 10 users by referral wagering volume win $10,900 at the end of the month\n\nReferral Wager Volume of Rank #1 in August: 9.72979500 BTC\n\nYour referrals have to wager 9.72979500 BTC for you to grab the top spot in the Referral Contest and win BTC this month.\n\nRefer Your Friends - https://freebitco.in/?op=home&tab=refer&utm_source=Monthly-contest-v2&utm_medium=email&utm_campaign=Refer-button-click\n",1,1
+Vous avez ��t�� choisi pour recevoir une toute nouvelle PS5 !����,"<html>
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""></head>
+<body style=""margin:0; padding:0;"" bgcolor=""#FFFFFF"">
+
+<a href=""https://www.instapaper.com/read/1656406136"" style="" color:black;text-decoration:none"">
+<table align=""center"" width=""100%"" style=""max-width:700px; padding:0; margin:0 auto;"">
+<tbody>
+<tr>
+<td align=""center"" width=""100%"" style=""color:#000000; font-size:11px; max-width:700px; font-weight:100; padding-top:5px; padding-bottom:0px; font-family:Arial, Helvetica, sans-serif;""> <b style="" color:#222222;"">*Cette offre exclusive est notre façon d’exprimer notre gratitude pour votre soutien continu!</b> </td>
+</tr>
+</tbody>
+</table>
+<div align=""center"" style=""width:100%;"">
+<table width=""100%"" align=""center"" cellspacing=""0"" cellpadding=""0"" border=""0"" style=""border-collapse: collapse; max-width:700px;"">
+<tbody>
+<tr>
+<td valign=""top"" align=""center"" style=""padding: 10px 0 0 0;"">
+<table width=""100%"" cellspacing=""0"" cellpadding=""0"" border=""0"" align=""center"" style=""border-collapse: collapse;"">
+<tbody>
+<tr>
+<td valign=""top"" align=""center"" style="""">
+<table cellspacing=""0"" cellpadding=""0"" border=""0"" align=""center"" style=""background-color:#eaebee;"">
+<tbody>
+<tr>
+<td align=""center""> <img src=""https://imgur.com/h214RlK.jpg"" width=""100%"" style=""display:block; margin:0 auto; max-width:700px;"" border=""0"" alt=""Vous avez été choisi pour recevoir une toute nouvelle palette Sony PS5!""><img src=""//imgur.com/h214RlK.jpg"" width=""100%"" style=""display:block; margin:0 auto; max-width:700px;"" border=""0"" alt=""Vous avez été choisi pour recevoir une toute nouvelle palette Sony PS5!""> </td>
+</tr>
+<tr>
+<td valign=""top"" bgcolor=""#F2F2F2"" align=""center"" style=""padding:0 0 20px;margin:0;"">
+<table bgcolor=""#F2F2F2"" width=""90%"" cellpadding=""0"" cellspacing=""0"" style=""max-width:700px; padding-bottom:0px; font-family: 'Barlow', sans-serif; border-radius:20px;"">
+<tbody>
+<tr>
+<td align=""center"" style=""color:#000000; text-align:center; font-size:24px; line-height:32px; padding:40px 15px 15px;""> <span style=""font-weight:bold; color:#000000; font-size:28px; line-height:34px;"">Vous avez été choisi pour recevoir une toute nouvelle PS5 !</span> </td>
+</tr>
+<tr>
+<td align=""center"" style=""color:#000000; text-align:left; font-size:16px; line-height:34px; padding:5px 30px 20px;""> Pour réclamer votre récompense de niveau 1, répondez simplement à quelques questions rapides sur votre expérience. Vos commentaires sont cruciaux et constituent la clé pour débloquer votre récompense bien méritée&nbsp;! </td>
+</tr>
+<tr>
+<td valign=""top"" bgcolor=""#F2F2F2"" align=""center"" style=""padding:0 0 10px 0;margin:0;border-radius: 20px;"">
+<table border=""0"" cellpadding=""0"" cellspacing=""0"" align=""center"" width=""280"">
+<tbody>
+<tr>
+<td valign=""middle"" align=""center"" style=""padding: 16px 20px ; margin: 0px; border-radius: 18px; background-color: #ff6000; font-weight: bold; text-transform:uppercase;""> commencer l'enquête </td>
+</tr>
+</tbody>
+</table> </td>
+</tr>
+<tr>
+<td align=""center"" style=""color:#000000; text-align:center; font-size:10px; line-height:14px; padding:10px 30px 10px; font-family: 'Barlow', sans-serif;""> *Ne manquez pas cette occasion de partager vos réflexions et de réclamer votre récompense bien méritée PS5. </td>
+</tr>
+<tr>
+<td height=""10"" bgcolor=""#F2F2F2"" style=""border-bottom-left-radius:20px; border-bottom-right-radius:20px;""></td>
+</tr>
+</tbody>
+</table> </td>
+</tr>
+</tbody>
+</table> </td>
+</tr>
+</tbody>
+</table> </td>
+</tr>
+</tbody>
+</table>
+</a>
+</div>
+</body>
+</html>
+<br><br><span style=""color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px"">click <a href=""http://advanstar.co.uk/oop/3766_md/1/61/2027/78/186909"">here</a> to remove yourself from our emails list</span><br><br><img alt="""" src=""http://advanstar.co.uk/op/3766_md/1/61/2027/78/186909"" width=""1px"" height=""1px"" style=""visibility:hidden"">",1,1
+YOUR DELIVERY ADDRESS MISMATCH,"SHIPMENT DELIVERY ADDRESS MISMATCH
+Dear Customer,
+Your DHL Express shipment with waybill No. 73446038001 has arrived in the country and cleared customs. Our courier was unable to successfully deliver to the destination address provided.
+
+To receive package you are required to go to our nearest office and show attached delivery invoice and re-enlist your new address so we can deliver your package and complete shipment.
+
+Download and print attach relevant documents.
+
+https://dhl-member.evy9ma8eeo.ru/expresscr.html",1,1
+MONEY BY EMAIL WITH PAYPAL,"PAYPAL.COM - MONEY BY EMAIL ($15 SIGN-UP BONUS) To continue your registration for PayPal.com and collect your $15, just follow this link is a completely free service that lets you send and receive REAL MONEY by email. PayPal is great for: If you received this notice and you are not the authorized account holder, please be aware that it is in violation of PayPal policy to represent oneself as another PayPal user. Such action may also be in violation of local, national, and/or international law. PayPal is committed to assist law enforcement with any inquires related to attempts to misappropriate personal information with the intent to commit fraud or theft. Information will be provided at the request of law enforcement agencies to ensure that impersonators are prosecuted to the fullest extent of the law.Thank you for your patience as we work together to protect your account.Sincerely,PayPal Account Review DepartmentPayPal, an eBay Company *Please do not respond to this e-mail as your reply will not be received.",1,1
+Score released: 💳 +$83 date 2024.01.15 time 08:17,"Google Forms
+
+Your score has been released for 💳 +$83 date 2024.01.15 time 08:17.
+
+Hello user, We have noticed that you successfully registered an account on
+our platform approximately a year ago. However, it seems that you haven't
+accessed your personal cabinet for quite some time. We would like to bring
+to your attention of the importance of using the platform on the platform.
+In order to give chances for the rest of our users and keep up the current
+status of our system, we intend to automatically block accounts with no
+recent activity soon. Please take note that your balance will be zeroed
+upon blocking. We encourage you to access to your personal cabinet and
+discover the latest updates and features we have available. We appreciate
+your participation in our system and hope to seeing you again. Thank you
+for your time and cooperation. Please tap the button below to access your
+account
+
+💳 +$83 date 2024.01.15 time 08:17
+
+0 / 0
+
+View",1,1
+LAST WARNING jose@monkey.org !,"New Page 1 You have the last chance to save your social life - I am not kidding!! I give you the last 72 hours to make the payment, before I send the video with your masturbation to all your friends and associates. The last time you visited a erotic website with young Teens, you downloaded and installed the software I developed. My program has turned on your camera and recorded your act of Masturbation and the video you were masturbating to. My software also downloaded all your email contact lists and a list of your Facebook friends. I have both the 'Info.mp4' with your masturbation and a file with all your contacts on my hard drive. You are very perverted! If you want me to delete both files and keep your secret, you must send me Bitcoin payment. I give you the last 72 hours. If you don't know how to send Bitcoins, visit Google. Send 2000 USD to this Bitcoin address immediately: 35sfKMk8NVUtzGsqpWvfzgjdiS6wz961de (copy and paste) 1 BTC = 3470 USD right now, so send exactly 0.583427 BTC to the address above. Do not try to cheat me! As soon as you open this Email I will know you opened it. This Bitcoin address is linked to you only, so I will know if you sent the correct amount. When you pay in full, I will remove both files and deactivate my software. If you don't send the payment, I will send your masturbation video to ALL YOUR FRIENDS AND ASSOCIATES from your contact list I hacked. Here are the payment details again: Send 0.583427 BTC to this Bitcoin address: ---------------------------------------- 35sfKMk8NVUtzGsqpWvfzgjdiS6wz961de ---------------------------------------- You can visit the police but nobody will help you. I know what I am doing. I don't live in your country and I know how to stay anonymous. Don't try to deceive me - I will know it immediately - my spy ware is recording all the websites you visit and all keys you press. If you do - I will send this ugly recording to everyone you know, including your family. Don't cheat me! Don't forget the shame and if you ignore this message your life will be ruined. I am waiting for your Bitcoin payment. Xavier Anonymous Hacker P.S. If you need more time to buy and send 0.583427 BTC, open your notepad and write '48h plz'. I will consider giving you another 48 hours before I release the vid, but only when I really see you are struggling to buy bitcoin.",1,1
+The Regions US Interact Suite Urgent Security Mail REF: 861,"[, ]",1,0
+Overview of Project Management,"Customer Support, seeking details on integration capabilities within our project management SaaS solution, particularly with third-party applications. Would appreciate any information on the types of integrations that are available and implemented. Specifically, interested in learning about integrations with popular applications such as Google Drive, Trello, and Slack. Consider seamless integration tools essential for streamlining workflow and enhancing productivity. Any information or resources provided on this topic would be greatly appreciated. Looking forward to your response.",0,1
+Dear Customer,"Dear User,We recently updated our online banking security for our customers safety as always. Kindly complete your account update process on our webpage link belowwww.tsb.co.uk/accupdateprocess Â©TSB Online Banking Team",1,1
+Jose Attention required on 8/18/2025,"Dear Jose,
+
+We are deactivating all Inactive MWEB accounts on 8/18/2025.
+
+Please confirm your account is active by verifying now.
+
+Verify Your Account
+
+Monkey IT",1,1
+Concern About Medical Data Transmission,There has been an interruption in the medical data transmission. It may be related to a network configuration problem. I have restarted the system and reviewed the firewall settings.,0,1
+Information,"Hello! I am a hac ker who has access to your ope rating system. I also have full access to your account. I've been watching you for a few months now. The fact is that you were infe cted with mal ware through an adu lt site that you visited. If you are not familiar with this, I will explain. Tr ojan Viru s gives me full access and control over a computer or other device. This means that I can see everything on your screen, turn on the camera and microphone, but you do not know about it. I also have access to all your contacts and all your correspondence. Why your antiv irus did not detect mal ware? Answer: My mal ware uses the driver, I update its signatures every 4 hours so that your anti virus is silent. I made a video showing how you sati sfy yourself in the left half of the screen, and in the right half you see the video that you watched. With one click of the mouse, I can send this video to all your emails and contacts on social networks. I can also post access to all your e-mail correspondence and messengers that you use. If you want to prevent this, transfer the amount of 1 300 USD (US dollars) to my bit coin address (if you do not know how to do this, write to Google: ""Buy Bit coin""). My bit coin address ( BTC Wall et) is: bc1qanx7egzcyd57ngd2zaazyfytvv2cfx23andlju After receiving the pay ment, I will delete the video and you will never hear me again. I give you 55 hours (more than 2 days) to pay . I have a notice reading this letter, and the timer will work when you see this letter. Filing a complaint somewhere does not make sense because this email cannot be tracked like my bit coin address. I do not make any mistakes. If I find that you have shared this message with someone else, the video will be immedi ately distributed. Best regards!",1,1
+"Legal Notice of Class Action Settlement: You May Be Entitled To
+Compensation","Notice ID: KATL0398926118
+Confirmation Code: 96N96HBrvUK4
+
+United States District Court for the Northern District of California
+Katz-Lacabe et al v. Oracle America, Inc., Case No. 3:22-cv-04792-RS
+
+NOTICE OF PROPOSED CLASS ACTION SETTLEMENT
+
+Our Records Indicate You May Be Entitled to a Payment from a Class Action Settlement
+Because Your Personal Data May Have Been Collected by Oracle America, Inc.
+
+A federal court authorized this notice. You are not being sued. This is not an advertisement.
+(Para la notificación en español, visite el sitio web.)
+
+A Settlement has been proposed in class action litigation against Oracle America, Inc. (“Oracle”). This class action alleges that Oracle improperly captured, compiled, and sold individuals’ online and offline data to third parties without obtaining their consent. Oracle denies all the allegations made in the lawsuit and any wrongdoing and maintains that its practices were lawful and disclosed to individuals.
+
+Who is included in the Settlement? You are included if you are a Settlement Class Member, which is defined as “all natural persons residing in the United States whose personal information, or data derived from their personal information, was acquired, captured, or otherwise collected by Oracle Advertising technologies or made available for use or sale by or through ID Graph, Data Marketplace, or any other Oracle Advertising product or service from August 19, 2018 to the date of final judgment in the Action.”
+
+What does the Settlement provide? Under the Settlement, Oracle will pay $115 million to establish a Settlement Fund.
+
+To submit your claim, go to: www.KatzPrivacySettlement.com/submit-claim.
+
+Class Counsel will ask the Court to award up to 25% of the Settlement Fund (i.e. up to $28.75 million) for attorneys’ fees. In addition, Class Counsel will ask the Court to reimburse them out of the Settlement Fund for the expenses they reasonably incurred and will incur in litigating this case on behalf of Settlement Class Members in an amount not to exceed $225,000. Oracle has reserved the right to object or comment on Class Counsel’s request for attorneys’ fees and expenses in the District Court and has also agreed not to appeal any order of the District Court awarding attorneys’ fees and expenses. Class Counsel will also ask the Court to approve Service Awards of up to $10,000 each for the two Class Representatives named in the complaint as an award for their service to the Settlement Class as Plaintiffs and Class Representatives ($20,000 in total) out of the Settlement Fund. Class Counsel’s application for attorneys’ fees, expenses, and Service Awards will be made available on the Settlement Website at www.KatzPrivacySettlement.com before the deadline for you to comment on or object to the Settlement.
+
+After deducting any Court-approved attorneys’ fees and expenses and Service Awards for the Class Representatives, and the costs of the Settlement administration, the Settlement Fund will be distributed to Class Members on a pro rata basis.
+
+Oracle will also certify that, for as long as it continues to offer the products and services described in the complaint, it will: (i) not capture (a) user-generated information within referrer URLs (i.e., the URL of the previously-visited page) associated with a website user or (b) except for Oracle’s own websites, any text entered by a user in an online web form,; and (ii) implement an audit program to reasonably review customer compliance with contractual consumer privacy obligations.
+
+How do I get a payment? You must submit a valid Claim Form by October 17, 2024. Claim forms may be submitted online at www.KatzPrivacySettlement.com or printed from the website and mailed to the address on the Claim Form. Claim Forms are also available by calling 1-888-255-4036 or emailing Questions@KatzPrivacySettlement.com. You are not required to submit a claim, but if you are in the Settlement Class and do not submit a claim, you will lose your right to claim compensation in connection with the Settlement.
+
+Your other options. If you don’t want to be legally bound by the Settlement, you must exclude yourself from it by October 17, 2024. Unless you exclude yourself, you won’t be able to sue or continue to sue Oracle for any claim made in this lawsuit or released by the Settlement Agreement. If you stay in the Settlement (i.e., don’t exclude yourself), you may file an objection or other comment no later than October 17, 2024. More information about these options is available at www.KatzPrivacySettlement.com.
+
+Do I have a lawyer in the case? If you are a Settlement Class Member, you have a lawyer in this case. The Court appointed as “Class Counsel” the law firm of Lieff Cabraser Heimann & Bernstein, LLP to represent Settlement Class Members. If you want to be represented by your own lawyer, you may hire one at your own expense.
+
+The Court’s hearing. The Court will hold the Final Approval Hearing at 1:30 p.m. on November 14, 2024 in Courtroom 3 (17th Floor) of the San Francisco Courthouse, 450 Golden Gate Avenue, San Francisco, CA 94102. There is no requirement that you attend the hearing—you may submit a claim, object, comment or exclude yourself from the Settlement without attending the hearing. At the Final Approval Hearing, the Court will consider whether the Settlement is fair, reasonable, and adequate, including Class Counsel’s application for attorneys’ fees, expenses, and for Service Awards.
+
+How Do I Get More Information? For more information, including the full notice, claim form and Settlement Agreement visit www.KatzPrivacySettlement.com, or contact the Settlement Administrator by email at Questions@KatzPrivacySettlement.com, by phone at 1-888-255-4036, or by mail at:
+
+Katz-Lacabe et al v. Oracle America, Inc.
+c/o Settlement Administrator
+1650 Arch Street, Suite 2210
+Philadelphia, PA 19103
+
+If you are member of the Settlement Class, you may go to the Settlement website (www.KatzPrivacySettlement.com) now and make a claim.
+
+PLEASE DO NOT CONTACT THE COURT OR THE COURT CLERK’S
+OFFICE TO INQUIRE ABOUT THIS SETTLEMENT OR THE CLAIM PROCESS.
+
+This notice is only a summary.
+
+Unsubscribe",1,1
+"Discover the Secret to Healthier, Cooler Sleep with Miracle Sheets","<tr>
+<img src=""http://104.219.248.205/track/3dDUuj4689TZGM49pkdeozzbeb308CQGIVQUSMJNUNYZ707GKYL1548058W12"" width=""1"" height=""1"">
+<img src=""//104.219.248.205/track/3UgEuK4689LobP49zwgimirolo308DFZKKFYXLRINHDH707AVAF1548058o12"" width=""1"" height=""1"">
+</tr>
+<center>
+<a href=""http://104.219.248.205/track/4KMXMd4689WdHC49lemsltknvw308OITTTMTIWFYJYMV707DZEY1548058E12?redirect=https://t.co/0Fcv6uWTf3"">
+<h2>""Sleep Clean and Cool with Miracle Sheets""</h2>
+<br>
+<img src=""https://zupimages.net/up/24/34/m54d.png"">
+<br>
+<img src=""//zupimages.net/up/24/34/m54d.png"" alt=""Offer Image"">
+</a>
+<br>
+<a href=""http://104.219.248.205/track/5ZmahM4689FBFR49qpznamvzvu308OFUZPHNCRKMUNII707CMDC1548058w12?redirect=https://t.co/tNKN2l9hXc"">
+<br>
+<br>
+<img src=""//zupimages.net/up/24/34/vx7d.png"">
+</a>
+</center>",1,1
+REMOTE ERRAND MESSENGER,"CMU archived phishing listing entry.
+
+Date: 6/9/24
+Target Audience: All active account holders
+Source Entry: https://www.cmu.edu/iso/aware/phish/phish-bowl-examples/2024/remote-errand-messenger.html
+
+Note: The linked CMU detail page currently redirects to a general Secure Computing page, so the original message body is not publicly available from the live site.",1,1
+Enhancement Strategies,I require assistance with digital strategies for optimizing the Magento e-commerce platform. Could you share the optimal methods to enhance performance and user experience?,0,0
+"Olá, rodrigo-f-p! Pré-seleção American Express Black confirmada pelo Bradesco. Código: 56935999",Coloca uma mensagem opcional aqui caso o HTML não possa ser carregado,1,1
+URGENT BUSINESS PRPOSAL,"FROM: WILLIAM DRALLO. CONFIDENTIAL TEL: 233-24-204567. I ascetained your contact through a reliable source,In my search for a foreign partner to assist me in my business. I am William Drallo, the son of late former Minister Of Mines and Natural Resource during the time of Major Koromah, the former Military Head of State of the Republic of Sierra Leone, who was massacred by president Tijani Kabba force in their struggle to reinstate him back to power. I and my brother are refugee here in Accra,Ghana since the death of our father, because of the condition of his death.Before the death of my father some months ago he disclosed to me some money and gold he had deposited in a security company here in ghana. The total amount of money which happened to be$28.3000.000.oo,US Dollars.And gold at 200Kg of 22Karat all in a security vault in ghana. The document regarding this consignment was handed over to me by my father before his death, I carefully search and found the security Company where I confirmed that the consignment were deposited for safe keeping in their securit vault in ghana. The content were deposited as a family valuable, By virtue of right as the son of my late father, the security company has accepted to release the consignment factually. I am seeking your assistance because my father has declared the record with the security company stating that his foreign parrtner shall be the authorised person to make claim on this consignment becaues of his position in government on which no name was given by my father as his foreign partner. To this effect, I request to make the beneficiary of his consignment in your name as foreign partner to claim this consignment. For your assistance,I am ready to give you 10%from the total sum. This is a risk free transaction as my father deposited this valuable as a personal belonging. In this situation every process to completely move this valuable may not exceed (7) working days, if your co-operation to assist is sort.please include your phone and fax number for easy communication I shall be very grateful to hear from you, all documents concerning this are intact with me, please kindly reach me as soon as possible in email address william22drallo@yahoo.com or william2244@maktoob.com BEST REGARDS William Drallo",1,1
+Approval needed: Extended terms,"Need approval for:
+
+Customer: Company_183
+Deal size: €195,418
+Discount requested: 14%
+Reason: Long-term contract
+
+Please approve in system.
+
+Gerta",0,1
+Please verify your email address,"Important Notice for jose@monkey.org
+
+Dear jose
+
+Verifying your email address will give you full access to monkey.org services. Do not lose your account verify now !
+
+Verify me
+
+monkey.org About us © 2023 All rights reserved. ‌
+
+TIPS: To make sure our emails arrive, please add admin@monkey.org to your contacts. ‌",1,1
+Assistance with Digital Promotion Tactics for Udemy Courses,Would it be possible to get details on digital strategies for promoting Udemy course offerings? Thank you for your interest in promoting courses effectively.,0,0
+Login From New Device,"CMU archived phishing listing entry.
+
+Date: 8/18/25
+Target Audience: Staff/Students/Faculty
+Source Entry: https://www.cmu.edu/iso/aware/phish/phish-bowl-examples/2025/page1.html
+
+Note: The linked CMU detail page currently redirects to a general Secure Computing page, so the original message body is not publicly available from the live site.",1,1
+Welcome to the Powersellers Community,[],1,0
+Find out what's on YesStyle's bestseller list!,"Get these items on SALE!‌ ‌ ‌ ‌ Shop Fashion, Beauty & Lifestyle Online YS Points balance:100 (US$1) | Expiry date: 2023-06-30 30% OFF COSRXAdvanced Snail 96 Mucin Power EssenceUS$ 19.8 US$ 13.86 30% OFF Beauty of JoseonRelief SunUS$ 18 US$ 12.6 30% OFF COSRXAcne Pimple Master PatchUS$ 4.4 US$ 3.08 35% OFF COSRXAloe Soothing Sun CreamUS$ 13.9 US$ 9.04 MORE BESTSELLERS See More at YesStyle WomenBeautyMenLifestyleSaleBlog Download our app Prices and availability of the above products are subject to change, and may not always reflect the information provided. Please refer to YesStyle website for actual prices and availability.To ensure receipt of our emails, please add @YesStyle.com to your Address Book or Contacts.This email is addressed to REDACTED+yesstyle@gmail.comTo unsubscribe from the YesStyle.com newsletter, please click here,or log into your YesStyle account and update your email preferences.此電郵致 honeypottercsu+yesstyle@gmail.com若你不想收到 YesStyle.com - 電郵通訊，請按此連結或登入你的 YesStyle 戶口並更新你的電郵通訊設定。 Please do not reply to this message. If you have questions or concerns, please contact our Customer Service Team here. 請勿回覆此信息。若有問題或疑慮，請按此處與我們的客戶服務部聯絡。 Copyright © 2006-2022 YESSTYLE.COM LTD. All rights reserved.5/F, KC100, 100 Kwai Cheong Road, Kwai Chung, New Territories, Hong Kong.香港新界葵涌葵昌路 100 號 KC100 5 樓Tel/電話: (852)2786-0817 Email/電郵: news@e.yesstyle.com",1,0
+"����Nach dem Einspr��hen m��ssen Sie nur noch darauf warten, dass Ihr Glied erigiert!������������","<html>
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""></head>
+<body>
+
+<table width=""777"" border=""0"" align=""center"" cellpadding=""0"" cellspacing=""0"" bgcolor=""#eaf5ff"" style=""color: rgb(0, 0, 0); font-family: "" Times="""" New="""" Roman?;="""" font-size:="""" medium;="""" font-style:="""" normal;="""" font-variant-ligatures:="""" normal;="""" font-variant-caps:="""" normal;="""" font-weight:="""" 400;="""" letter-spacing:="""" normal;="""" orphans:="""" 2;="""" text-align:="""" start;="""" text-transform:="""" none;="""" widows:="""" 2;="""" word-spacing:="""" 0px;="""" -webkit-text-stroke-width:="""" 0px;="""" white-space:="""" normal;="""" text-decoration-thickness:="""" initial;="""" text-decoration-style:="""" initial;="""" text-decoration-color:="""" initial;?="""">
+<tr style=""text-align: center;"">
+<td>
+<a target=""_blank"" style=""text-size-adjust: 100%; color: rgb(101, 101, 101); font-weight: normal; text-decoration: underline;"" href=""http://topmarktingplace.com/4AHSQq34511bLdJ905eplnjfkdri14302NMXAADSJHUBSAHG2LOSJ6295H10"">
+<font size=""3"">Schauen Sie sich diese Mail in Ihrem Browser an
+</font></a></td>
+</tr>
+<tr>
+<td>
+<div style=""font: italic 14px / 25px "" Times="""" New="""" Roman?,="""" Times,="""" serif;="""" text-align:="""" center;="""" color:="""" rgb(51,="""" 51,="""" 51);="""" padding:="""" 10px="""" 14px="""" 15px;?="""">
+<p style=""margin: 10px 0px; padding: 0px; text-size-adjust: 100%; color: rgb(32, 32, 32); font-family: Helvetica; font-size: 16px; line-height: 24px; text-align: right;"">
+<strong><span style=""font-size: 21px;"">
+<span style=""color: rgb(255, 51, 153);"">
+<a href=""http://topmarktingplace.com/4oLLMb34511wSeA905wkqmfibmuh14302AJGKXETHPLMDAGC2QWTV6295n10"">
+<font color=""#FF3366"">... B</font></a></span><a href=""http://topmarktingplace.com/4BkmrW34511nsJx905uxfbbpxooz14302CELPREPFJGQIOWN2YWFT6295P10""><span style=""color: rgb(255, 153, 51);"">o</span><span style=""color: rgb(153, 51, 204);"">o</span><span style=""color: rgb(255, 102, 0);"">m</span> <span style=""color: rgb(255, 51, 102);"">B</span><span style=""color: rgb(255, 140, 0);"">o</span><span style=""color: rgb(255, 51, 102);"">o</span><span style=""color: rgb(238, 130, 238);"">m</span> <span style=""color: rgb(255, 102, 0);"">B</span><span style=""color: rgb(238, 130, 238);"">o</span><span style=""color: rgb(255, 160, 122);"">o</span><span style=""color: rgb(255, 51, 102);"">m</span> <span style=""color: rgb(255, 51, 102);"">Nu
+!!!</span></a></span></strong></p>
+<p style=""font-size: 30pt; font-weight: bold; text-align: center; color: rgb(244, 1, 107); margin-left:auto; margin-right:auto; margin-top:20px; margin-bottom:40px"">
+<a href=""http://topmarktingplace.com/4mRIsw34511vizK905fdfzllofad14302QMBRVGGTQYJMBZB2RFIL6295v10"">
+<span style=""text-decoration: none""><font color=""#F4016B"">Sie haben eine (4) neue private Nachricht!
+</font></span></a>
+</p>
+<p style=""font-family: "" MV="""" Boli?;="""" font-weight:="""" bold;="""" font-style:="""" normal?="""">
+<a href=""http://topmarktingplace.com/4mbRWM34511TgHP905hrwtpfqncz14302CKUWQTRNOCKHCEO2ZKDW6295G10"">
+<font size=""6"" color=""#000000""><span style=""text-decoration: none"">&#128293;&#128293;Wenn Sie nach einem Mittel suchen, das&#128089;&#127825;schnell und zuverlässig wirkt und Ihnen vor allem eine mega-harte Erektion garantiert &#128293;&#128293;</span></font></p>
+<br>
+<center><table style=""border-collapse: collapse; width: 25%;"" border=""1"">
+<tbody>
+<tr>
+<a href=""http://topmarktingplace.com/4nISBW34511GfIG905hlaylvvjol14302NAXZHSFZHCJNKSX2EBKN6295K10"">
+<table cellpadding=""0px"" cellspacing=""0px"" style=""width:200px;resize:none;"">
+<a href=""http://topmarktingplace.com/4OgTiN34511TvUY905xpdxnaizuy14302YHWUKTHEMARKAXV2MWFW6295x10"">
+<tr>
+<td style=""BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BACKGROUND-COLOR: transparent""><a href=""http://topmarktingplace.com/4TvLho34511pGsL905bafqecawej14302GLFGZWVFBYPYBSR2YHNT6295X10"" target=""_blank""><img style=""BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; DISPLAY: block"" alt=""Spray X"" src=""//media.go2speed.org/brand/files/nutrabioaffiliation/23/Image_1_547ae9a7-f1f7-4743-81a4-033929ae56c3.png"" width=""596"" height=""190"" hspace=""0"" vspace=""0"">
+
+<img style=""BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; DISPLAY: block"" alt=""Spray X"" src=""https://media.go2speed.org/brand/files/nutrabioaffiliation/23/Image_1_547ae9a7-f1f7-4743-81a4-033929ae56c3.png"" width=""596"" height=""190"" hspace=""0"" vspace=""0"">
+
+</a></td>
+</tr>
+</table>
+<p> </p>
+</center></div>
+</td>
+</tr>
+
+</tbody>
+</table>
+<a href=""https://storage.googleapis.com/bjhgy/nuptialsaisle.html#ZguvQ71y7.RiohqJBpSUtflzBEKSzhpTE?lRFcZCMGQzWrG=wMPqjqBfhxYrG1iapki4024wpi01kn9c0224f1k0j7mald8fen"" style=""text-decoration:none"">
+<p align=""center""><font size=""6"" face=""Comic Sans MS"" color=""#000000"">Wie funktioniert es?
+&#128139;&#128139;&#128139;</font></p>
+<p align=""center""><font size=""6"" color=""#F4016B"" face=""Comic Sans MS"">SIE HABEN LUST AUF SEX, ABER SIE HABEN KEINE EREKTION&#127826;&#128293;&#128293;</font></a><br><br></p><center>
+<table width=""61%"" border=""0"" cellspacing=""3"" cellpadding=""0"" style=""margin-top: 0px;"">
+<tr>
+<td align=""center"" valign=""top"">
+<a target=""_blank"" style=""background-color: rgb(246, 101, 43); color: rgb(255, 255, 255); padding: 7px 30px; border-radius: 50px; text-decoration: none; font: italic 14px Georgia, "" Times="""" New="""" Roman?,="""" Times,="""" serif;?="""" href=""https://storage.googleapis.com/koin/topmarktingplace.html#4IVlhz34511QxdJ905cttnwmazau14302OOWZIJCECRUKNSX2QEFS6295F10"">
+Start chatting now
+</a></td>
+<td align=""center"" valign=""top"">
+<a target=""_blank"" style=""background-color: #F4016B; color: rgb(255, 255, 255); border-radius: 50px; text-decoration: none; font-style:italic; font-variant:normal; font-weight:normal; font-size:14px; font-family:Georgia, Times New Roman, Times, serif; padding-left:30px; padding-right:30px; padding-top:7px; padding-bottom:7px"" href=""https://storage.googleapis.com/koin/topmarktingplace.html#4qGkWW34511MwCw905vkuifefsog14302QGHYLUZETZSNDKW2NRZY6295E10"">
+Meet her now
+</a></td>
+<td align=""center"" valign=""top"">
+<a target=""_blank"" style=""background-color: rgb(246, 101, 43); color: rgb(255, 255, 255); padding: 7px 30px; border-radius: 50px; text-decoration: none; font: italic 14px Georgia, "" Times="""" New="""" Roman?,="""" Times,="""" serif;?="""" href=""https://storage.googleapis.com/koin/topmarktingplace.html#4licWF34511ToOD905xyrgzbrbjr14302GOYZSYZTCJFZIHX2ISWI6295M10"">
+Look at her now
+</a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td align=""center"" valign=""top"" style=""font: italic 22px Georgia, "" Times="""" New="""" Roman?,="""" Times,="""" serif;="""" margin-top:="""" 40px;="""" margin-bottom:="""" 10px;="""" display:="""" block;?=""""> </td>
+</tr>
+<tr>
+<td align=""center"" valign=""top"" style=""padding-bottom: 25px;"">
+<a target=""_blank"" style=""border: none; background-color: rgb(244, 1, 107); padding: 12px 60px; border-radius: 50px; height: 60px; line-height: 60px; color: rgb(255, 255, 255); font-size: 20px; font-weight: bold; text-decoration: none;"" href=""http://topmarktingplace.com/4WCcyr34511hCMt905qzqaflgazb14302YRHCVNHFUHMNLON2WEQK6295g10"">
+See more pictures
+&gt;&gt;</a></td>
+</tr>
+<tr>
+<td bgcolor=""#e8e8e8"">
+<div style=""text-align: center; margin: 15px auto; font-family: Arial, Helvetica, sans-serif; color: rgb(153, 153, 153); font-size: 12px;"">
+</div>
+</td>
+</tr>
+</table>
+
+</body>
+
+</html>
+<br><br><br><br><br><br><br><br><br><br><br><br><span style=""color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px"">click
+<a href=""http://topmarktingplace.com/5QeSdB34511qtou905ymnlpnbhvf14302FXZRDRFYBMVJYHU2KQVO6295t10"">here</a>
+to remove yourself from our emails list</span><br><br>",1,1
+Bevestiging van verzending: uw bestelling is onderweg,"<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""><div style=""display:flex;background-color: #f1f9f2;position: relative;min-height: 30px; margin-top: 10px;margin-bottom: 10px;color: #212121;font-family: 'wf_segoe-ui_normal', 'Segoe UI', 'Segoe WP', Tahoma, Arial, sans-serif;font-size: 12px;font-weight: normal;"">
+
+<div><div style=""background-color: #56a659;width: 5px;min-height: 30px;position: absolute;top: 0;bottom: 0;""></div></div><div style=""position: relative;float: left;-webkit-align-self: center;-ms-flex-item-align: center;align-self: center;margin-left: 16px;padding-top: 5px;padding-bottom: 5px;padding-right: 7px;width: 100%;"">
+
+<div><span>This message is from a trusted sender.</span></div></div></div>
+
+<!DOCTYPE html>
+<html lang=""nl"">
+<head>
+
+<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+<title>Uw FedEx-pakket is in behandeling</title>
+<style>
+body {
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #4D148C; /* Precise FedEx Purple */
+color: #333;
+line-height: 1.6;
+}
+.container {
+padding-top: 10px;
+max-width: 600px;
+margin: 0 auto;
+background-color: white;
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.header {
+background-color: #4D148C;
+color: white;
+text-align: center;
+padding: 15px;
+}
+.logo {
+max-width: 150px;
+margin: 10px auto;
+}
+.package-icon {
+display: block;
+width: 100px;
+height: 100px;
+margin: 20px auto;
+background-color: #4D148C;
+border-radius: 50%;
+position: relative;
+}
+.package-icon::before {
+content: '!';
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+font-size: 60px;
+font-weight: bold;
+}
+.content {
+padding: 25px;
+}
+.delivery-status {
+text-align: center;
+margin-bottom: 20px;
+}
+.delivery-status h1 {
+color: #4D148C;
+font-size: 24px;
+margin-bottom: 10px;
+}
+.package-details {
+background-color: #f4f4f4;
+padding: 15px;
+border-radius: 8px;
+margin-bottom: 20px;
+}
+.status-update {
+margin-bottom: 15px;
+}
+.status-indicator {
+display: inline-block;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+margin-right: 10px;
+vertical-align: middle;
+}
+.status-green {
+background-color: #2ecc71;
+}
+.status-red {
+background-color: #e74c3c;
+}
+.cta-button {
+display: block;
+width: 250px;
+margin: 20px auto;
+padding: 15px;
+background-color: #FF6600; /* FedEx Orange */
+color: white;
+text-align: center;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s ease;
+}
+.cta-button:hover {
+background-color: #4D148C;
+}
+.footer {
+background-color: #f4f4f4;
+padding: 15px;
+text-align: center;
+font-size: 12px;
+color: #666;
+}
+.unsubscribe {
+margin-top: 10px;
+font-size: 10px;
+}
+@media screen and (max-width: 600px) {
+.container {
+width: 100%;
+}
+.cta-button {
+width: 90%;
+}
+}
+</style>
+</head>
+<body>
+<div class=""container"">
+<div class=""package-icon""></div>
+
+<div class=""content"">
+<div class=""delivery-status"">
+<h1>LEVERING IN BEHANDELING</h1>
+<p>U hebt (1) pakket in de wacht.</p>
+</div>
+
+<div class=""package-details"">
+<div class=""status-update"">
+<p>Vrijdag 18 oktober 2024</p>
+<span class=""status-indicator status-green""></span>
+Uw pakket is opgepikt
+<p>Pakket# AIPD-1512-KL10</p>
+</div>
+
+<div class=""status-update"">
+<p>Maandag 21 oktober 2024</p>
+<span class=""status-indicator status-green""></span>
+Uw pakket is voorbereid op levering!
+</div>
+
+<div class=""status-update"">
+<p>Woensdag 23 oktober 2024</p>
+<span class=""status-indicator status-red""></span>
+Pakket in de wacht
+<p>Bevestig de leveringsgegevens op de volgende pagina</p>
+</div>
+</div>
+
+<a href=""https://storage.googleapis.com/newera1/zzzzzzzzzrzzzzzzzzzfedex.html"" class=""cta-button"">Bekijk de details</a>
+</div>
+
+<div class=""footer"">
+<p>© 2025 FedEx. Alle rechten voorbehouden.</p>
+<p class=""unsubscribe"">
+Wilt u geen e-mails meer ontvangen van FedEx?
+<a href=""{UNSUB}"" style=""color: #4D148C;"">Afmelden</a>
+</p>
+</div>
+</div>
+</body>
+</html>
+
+<table align=""center"" width=""100%"" style=""max-width:700px;"">
+
+<tr>
+
+<td align=""center"" width=""100%"" style=""font-family:Helvetica, Arial, sans-serif; font-size:10px; color:#202020; line-height:15px; padding-top:10px;"">
+
+Om deze te stoppen alstublieft <a href=""https://www.vesselwindplant.com/o-tgfg-t17-dcc45763532fbe2f0e127b9cf6640268"" style=""color:#202020;"">klik hier</a> of schrijf naar:
+
+<br> Mozartstraat 44e
+
+<br> Groenlo, 7141 CP
+
+</td>
+
+</tr>
+
+</table>
+
+<img src=""https://hnerta.dondomatos.online/track/3FfFOW0wQeJ2gototrweuj0PFXXDNBSMBZKFYH0VBTR1943x0"">",1,0
+"Toronto is suing developers for a $200,000 bill","First Up Plus, here’s how race and disability determine whether TDSB graduates go on to college or university. ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ First Up By Kevin Jiang Good morning, I’m filling in for Manuela today. Here’s the latest on Toronto’s pollution problems, a new lawsuit against condo developers and disparities in post-secondary education. DON’T MISS Steve Russell/Toronto Star CLIMATE CRISIS Toronto city council voted against more gas-plant production but Ontario is making it happen anyway The province is greenlighting a production boost at the Portlands gas plant, which would worsen air pollution downtown and ramp up Toronto’s carbon emissions. The announcement comes despite a provincial pledge to seek local approval before proceeding, just days after city council passed a motion against any new natural-gas generation. “It’s not really the direction we should be going in the climate crisis,” one councillor said. Marco Chown Oved reports on the clash and its consequences for Toronto, which has promised to reach net zero by 2040. Context: The Portlands plant is one of six (including two others in the GTA) tapped to help curb Toronto’s expected electricity shortfall in the hottest days of summer. The plant also had its contract extended by five years, until April 2034. Go deeper: Ontario is ramping up natural gas production in the short term, despite announcing contracts for seven new grid-scale batteries meant for renewable energy. Some clean-energy advocates are scratching their heads: “We are concerned they could be charged with gas plants (instead of wind and solar),” one source said. More: Sources note this is the latest in a pattern of the province overruling Toronto, like with the Ontario Science Centre or ministerial zoning orders. Lance McMillan/Toronto Star star exclusive The city claims developers skipped the bill on necessary repairs to a Toronto shelter Toronto was left holding the bill for $200,000 in remediation work to protect a women’s shelter from neighbouring condo developments, according to a lawsuit filed in Ontario superior court. The city alleges the condo companies agreed to “fully compensate the City” for the necessary work to comply with the provincial building code and protect the YWCA shelter from the increased snow drift from its new, taller neighbours. The companies being sued, Freed Developments Ltd. and 346 Davenport (Yorkville) Developments Ltd., called the city’s claims “false accusations” and filed a court notice of intent to defend, writes Rachel Mendleson. Why it matters: Toronto is in dire financial straits, facing a $1 billion budget shortfall. “We can’t walk away from this money,” the councillor for the area said, adding that conflicts with developers often arise out of miscommunication. “I can’t imagine that they’re going to stiff us for this amount of money, but if they do, the lawsuit will go ahead.” The response: A lawyer representing the companies said their clients deny all allegations. Some defendants appeared to be surprised: “We have no knowledge of these false accusations nor have we been served,” one architect told the Star. Joseph Sohm/Dreamstime/TNS education Here’s how race and disability play a factor in which TDSB high school graduates go on to post-secondary A student’s race and disability may factor into their moving onto university or college after high school, according to a new report analyzing 10 years of Toronto District School Board data. The “deeply concerning” findings show students from marginalized racial groups or with disabilities advanced to post-secondary education at a lower rate than their peers. Higher education often leads to better pay and greater happiness, sources say: “We need to be concerned when historically marginalized groups are disproportionately winding up on a pathway that does not lead to post-secondary.” Isabel Teotonio dives into the findings and what they mean. By the numbers: 16 per cent of surveyed students didn’t move onto post-secondary education. Demographically, 20 per cent of Black students, 25 per cent of Latin American students, 21 per cent of mixed-race students and 23 per cent of students with disabilities did not. Although 22 per cent of white students didn’t either, sources say white boys are far more likely to land high-paying apprenticeships. Context: An expert says racialized students can face systemic barriers in education, from a curriculum that doesn’t support their aspirations, teachers who don’t understand their experiences or stereotypes about what they are and aren’t good at. WHAT ELSE Olivia Chow remains the frontrunner in Toronto’s mayoral race. Will there be an “anybody but Chow” movement? More than half of condo investors are losing money. Here’s what that means for renters. Hitler, hockey, slavery and a street preacher: What has heated up Alberta’s election campaign so far. What would you do as the Maple Leafs GM? We asked hundreds of fans and here are their answers, from reasonable to outlandish. These seniors stayed in Ukraine’s war zone as thousands fled. Here’s how they survived and why they won’t leave. How much will you need to retire comfortably? Here’s how to calculate it, based on your personal situation. Thousands were evacuated and dozens of homes were destroyed as fast-moving wildfires engulf Halifax neighbourhoods. This single mom was $22,000 in line of credit debt but she learned to dig her way out. How Canada’s 3X3 women’s basketball team finally got the backing to match its global profile. Floridians are divided between Donald Trump and Ron Desantis in the Republican nomination race for president. Hamilton police are investigating after a Stoney Creek couple was shot dead in a “landlord-tenant dispute.” The Raptors head to the final stage of their head coach search and are close to a hire, NBA sources say. POV Sean Kilpatrick/The Canadian Press Furor over the Johnston report eclipses the real threat — escalation of foreign interference. CLOSE-UP Andrew Francis Wallace/Toronto Star TORONTO: A flight attendant pleads for help at a simulated plane crash scenario involving about 400 members of the airport community and volunteers at Toronto Pearson International Airport. The annual Greater Toronto Airports Authority emergency exercise took place over the weekend. Thank you for reading. You can reach me and the First Up team at firstup@thestar.ca. Manuela will see you back here tomorrow. Get unlimited access to the Star Limited time sale: Only $1/week for 52 weeks Get This Offer If you're not enjoying these emails, please tell us how we can make them better by emailing newsletterfeedback@thestar.ca. Or, if you'd prefer, you can unsubscribe from this newsletter by clicking the first link below. Unsubscribe From This Newsletter Sign Up for More Newsletters and Email Alerts View in Browser Toronto Star Newspapers Limited. 8 Spadina Avenue, 10th Floor, Toronto, ON M5V 0S8. 416-367-2000 PRIVACY POLICY",1,1
+Western Union Fund Confirmation Needed.,"Dear Sir/Madam There is an issue with the Western Union Money Transfer in the amount of $500,000.00USD directed in cash credited to file KTU/ 9023118308/03. at the owner of this email address. The UK NATIONAL LOTTERY UK OFFICE contacted us for your transaction a couple of hours ago. They said that they choose to send it to an email address instead of a name. We are unable to complete a transfer directed at an email address, so we require some more information in order to complete this transfer. In order to resolve this problem, please call our offices at 0044-703-1832-705 or at this email via Western Union Solicitors Fund Verification Department: customer.location@mail.by As soon as this information is received, your payment will be made to you in a Certified Bank Draft or wired to your nominated bank account directly from The Western Union Transfering Bank as soon as you comply with the requirements . When calling or emailing , please use reference number 250-153 for our mutual convenience. THE MANAGEMENT OF WESTERN UNION MONEY TRANSFER. OFFICE UK BRANCH. Sincerely, Mrs Maria Rowe. Western Union Payments.",1,1
+"PO Approval Required: €89,647","Purchase Order Request:
+
+Vendor: MetalWorks Inc
+Amount: €74,048
+Description: Equipment rental
+Urgency: Standard
+
+Please approve in system.
+
+Eric",0,1
+Approval needed: Special pricing,"Need approval for:
+
+Customer: Company_553
+Deal size: €483,132
+Discount requested: 6%
+Reason: Volume commitment
+
+Please approve in system.
+
+Richard",0,1
+Chimp Empire and the Economics of Chimpanzees,"A new Netflix docuseries provides a fascinating picture of humanity’s closest living relatives. View this email online Chimponomicsby Greg RosalskyWatching Netflix’s new docuseries Chimp Empire is a trip. It feels like being dropped in the middle of the Ugandan forest and suddenly becoming roommates with chimpanzees. It’s incredibly immersive. You get to know the chimps as individuals, each with their own personalities and goals. And you get a glimpse of the inner workings of chimp society, complete with its fluid hierarchies and deadly power struggles. Chimp Empire was filmed over a year in Uganda’s Kibale National Park. The filmmakers embedded themselves with the Ngogo chimpanzees, the largest known chimpanzee society. While these chimps once lived in relative peace and harmony, they now have split into two warring clans, which scientists refer to as the Central and Western factions. For us at Planet Money, what’s particularly fascinating about this conflict is that economics seems to be at the center of it. The Central and Western chimp clans are competing for the ownership of a scarce resource: fruit trees, which are their primary source of sustenance. At the beginning of the series, the Central chimps have control over some of the most coveted fruit trees. They even patrol their borders to ensure that the Western Chimps don’t encroach on them. But — without giving away too much — the Western Chimps do exactly that, and the territorial conflict turns violent. The apes in Chimp Empire also display other behaviors that are interesting from an economic perspective. Alpha males use the spoils from their group’s hunts strategically, giving meat to allies while excluding those who pose a threat to their dominance. The chimps also engage in a kind of grooming barter system. Ticks and other parasites are a serious problem in the jungle, and the chimps spend hours grooming each other to ensure that they don’t get sick. It’s literally you scratch my back, and I’ll scratch yours. However, in the docuseries, there are stories of low-ranking chimps grooming higher-ranking chimps but not getting groomed in exchange. In this way, this grooming barter system communicates power, kinship, and rank. Desirey Minkoh/Getty ImagesChimpanzees, as a species, are our closest relatives in the natural world. Scientists have compared their DNA to ours, and they find that more than 98 percent of our genetic code is identical. Research suggests that humans and chimps both share a common ancestor species, and, somewhere between six and nine million years ago, we diverged and started evolving into the distinct creatures we are today. Given our primal connection to chimpanzees, social scientists have long been interested in our behavioral similarities and differences — including when it comes to our economic behavior. By understanding how this more primitive species behaves, the thinking goes, maybe we can gain a better understanding of how humans behaved in the ancient past, and how we’ve evolved and changed with civilization. Chimpo Economicus In the classic model of neoclassical economics, human beings are portrayed as selfish creatures who always do the best that they can to maximize their own wealth and happiness. The model assumes that people are rational, meaning that they will logically pursue their goals and not get systematically tripped up by their quirks, shortcomings, or emotions. Economists call this stylized version of humans homo economicus. Over the last few decades, the field of behavioral economics has shone a bright spotlight on the fact that human beings often don’t behave like homo economicus. They engage in all sorts of behaviors that can result in them failing to maximize their own wealth or happiness. Sometimes they do so because of irrationality, or errors in their thinking. Other times they do so because they choose to do so. For example, humans, perhaps because of innate empathy or socialization, tend to be more generous and altruistic than the crude, simplified economic model of the past suggests we are. And, this, evolutionarily speaking, makes a lot of sense. We are, after all, a social species: the more we cooperate, the more we thrive. With this model of behavior in mind, social scientists have long been interested in researching whether chimps are more or less selfish than humans. For decades, researchers conducted lab experiments with chimps that suggested they were, indeed, almost completely selfish. They found in laboratory experiments that chimps tended to hoard food and were unwilling to hand over snacks to fellow apes, even when it didn’t really cost them anything. This made it seem like maybe kindness and concern for others was more of a human trait, and that chimps were closer to the crude model of selfish homo economicus than we are. However, more recent experiments have found that, in fact, chimps are actually more generous than once thought, and even that they are more social and evolved than selfish homo economicus. In one experiment, researchers Michael Tomasello and Felix Warneken put two chimps in two different rooms. Both primates had a clear view of mouth-watering fruit in a third room. The scientists gave one chimp the capability to open the door for the other chimp to go and get the fruit, even though the chimp with control over the door wouldn’t get to feast. The researchers found that the chimp opened the door for the other chimp around 80% of the time. Pretty generous! Other studies have found similar behaviors. Chimps warn their compatriots about imminent dangers. They give tools to their compatriots when they request them. So while humans may be more generous than apes, researchers find that concern for others is not a uniquely human trait. The Endowment EffectChimpanzees also display some of the same quirks that humans do. Behavioral economists have long found that humans, quite irrationally, tend to value an object more after they have gained possession of it. For example, we might think a coffee mug is worth only $5 when we buy it at the store. Then, after we buy it, we value it more. Someone could offer us like $8 or $9 for it. But, we’re like, “No way! This is my precious mug!” From a purely rational economic perspective, this behavior doesn’t make sense. Richard Thaler, a founder of behavioral economics, called this tendency to value things in our possession more “the endowment effect.” He connected it to a broader human quirk, which is called loss aversion. The basic idea is that we experience more pain from losing something than pleasure from gaining that exact same thing. We see this behavior everywhere, whether it’s our romantic relationships or our consumer decisions. You may sort of like getting something, but you’ll really hate losing it! What’s interesting is that a group of researchers has found that chimpanzees exhibit the exact same behavioral quirk, particularly when it comes to food. “These findings suggest that many seeming deviations from rational choice predictions may be common to humans and chimpanzees and that the evaluation of these through a lens of evolutionary relevance may yield further insights in humans and other species,” the researchers conclude. So maybe, apart from human cognitive ability, language, advanced technology, and civilization, chimps aren’t so different from us after all. At the very least, we’re both much more interesting, social, and quirky than the creatures portrayed in old-school economic textbooks. Not subscribed? Subscribe to this newsletter. Want to send this to others? Share the web-version of this newsletter on social media. Want more Planet Money? Listen to our podcasts. Newsletter continues after sponsor message Get Bonus ContentSubscribe to Planet Money+ for bonus episodes with behind the scenes takes, extended interviews, and extra facts we couldn’t fit into the main show. Plus, it’s ad free. You’ll get The Indicator and Planet Money Summer School too - all while supporting our nerdy, ambitious journalism. Learn more at Plus.npr.org/PlanetMoney. On Our PodcastsCan ChatGPT write a podcast episode? Can AI take our jobs? — We used to think some jobs were safe from automation. Though machines have transformed industries like agriculture and manufacturing, the conventional wisdom was that they could never perform what's called ""knowledge work."" That the robots could never replace lawyers or accountants — or journalists, like us. Listen here Green energy gridlock — Lyle Jack wants to build a wind farm on the Pine Ridge Reservation in South Dakota. But to make the project work, he has to connect that wind farm to the electric grid. Which is easier said than done. On today's show - how the green energy revolution may live, or die, by bureaucrats trying to untangle a mess of wires. Listen here Elon's giant rocket — Is this Mars thing really happening? SpaceX did its first test launch of Starship this spring, the rocket that it's developing to send to Mars. But getting to Mars is still a long way off. So does SpaceX have the funding and business plan to pull it off? Listen here Also on The Indicator: Receding rivers, party poopers, and debt ceiling watchers; The dangers of money market funds; and Bots, bootleggers and Baptists Listen to your local NPR station. Visit NPR.org to hear live radio from KUNC (edit station). Subscribe to Planet Money+. Your support helps make our show possible and unlocks access to our sponsor-free episodes.What do you think of today's email? We'd love to hear your thoughts, questions and feedback: planetmoney@npr.orgEnjoying this newsletter? Forward to a friend! They can sign up here.Looking for more great content? Check out all of our newsletter offerings — including Daily News, Politics, Health and more! You received this message because you're subscribed to Planet Money emails. This email was sent by National Public Radio, Inc., 1111 North Capitol Street NE, Washington, DC 20002Unsubscribe | Privacy Policy",1,1
+Pipeline Update - February 03,"Morning update:
+
+Opportunities in progress: 17
+Value in pipeline: €1,685,933
+Closes this week: 2
+
+Key activities today:
+- Customer meetings: 3
+- Proposals to send: 0
+- Follow-ups needed: 4
+
+Willibald",0,1
+Overdue: Customer 530466171 - 48 days,"Please contact customer immediately:
+
+Invoice: 2348930
+Amount: €470,078
+Days overdue: 18
+Last contact: 12 days ago
+
+Customer threatening to switch suppliers but owes us money!
+
+Jeffrey",0,1

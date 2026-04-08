@@ -30,6 +30,10 @@ STAGE_SOURCES = {
         "benign": PROJECT_DIR / "Datasets" / "sublist" / "S4-Scenarios-driven Adaptation" / "LLM-B.csv",
         "phishing": PROJECT_DIR / "Datasets" / "sublist" / "S4-Scenarios-driven Adaptation" / "LLM-P.csv",
     },
+    "S5": {
+        "benign": PROJECT_DIR / "Datasets" / "sublist" / "S5-Personalization for Credibility" / "LLM-B.csv",
+        "phishing": PROJECT_DIR / "Datasets" / "sublist" / "S5-Personalization for Credibility" / "LLM-P.csv",
+    },
 }
 
 
