@@ -28,7 +28,15 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parents[3]
 ACADEMIC_DIR = REPO_ROOT / "Detectors" / "Academic"
 EMAIL_DETECTORS_DIR = ACADEMIC_DIR / "email_detectors"
-DEFAULT_INPUT_DIR = SCRIPT_DIR.parent / "datasets"
+DEFAULT_INPUT_DIR = (
+    REPO_ROOT
+    / "Detectors"
+    / "Industry"
+    / "email_detectors"
+    / "output"
+    / "HW-result"
+    / "datasets"
+)
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR
 DEFAULT_LOG_DIR = DEFAULT_OUTPUT_DIR / "_logs"
 DEFAULT_CACHE_DIR = DEFAULT_OUTPUT_DIR / "_detector_runs"

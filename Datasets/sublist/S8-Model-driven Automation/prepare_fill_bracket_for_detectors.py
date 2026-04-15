@@ -12,7 +12,14 @@ from typing import Any
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 DEFAULT_INPUT_DIR = SCRIPT_DIR / "Models-Output" / "fill-bracket-llama3_8b-full"
-DEFAULT_OUTPUT_DIR = SCRIPT_DIR.parent.parent.parent / "Detectors" / "output" / "LLM-result"
+DEFAULT_OUTPUT_DIR = (
+    SCRIPT_DIR.parent.parent.parent
+    / "Detectors"
+    / "Industry"
+    / "email_detectors"
+    / "output"
+    / "LLM-Ind"
+)
 
 DEFAULT_INPUTS = [
     "deepseek-r1-distill-qwen-7b-generated_output.fill_bracket.csv",

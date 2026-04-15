@@ -23,15 +23,17 @@ csv.field_size_limit(10**9)
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-DETECTORS_DIR = SCRIPT_DIR.parent
-EMAIL_DETECTORS_DIR = DETECTORS_DIR / "Industry" / "email_detectors"
+EMAIL_DETECTORS_DIR = SCRIPT_DIR.parent
+INDUSTRY_DIR = EMAIL_DETECTORS_DIR.parent
+DETECTORS_DIR = INDUSTRY_DIR.parent
+REPO_ROOT = DETECTORS_DIR.parent
 OPEN_SOURCE_DIR = EMAIL_DETECTORS_DIR / "open-source-git"
 OUTPUT_ROOT = SCRIPT_DIR
 LOGS_ROOT = OUTPUT_ROOT / "logs"
 TMP_SUITES_ROOT = LOGS_ROOT / "tmp"
 
 DEFAULT_INPUT_CSV = (
-    DETECTORS_DIR.parent
+    REPO_ROOT
     / "Datasets"
     / "sublist"
     / "S5-Personalization for Credibility"
@@ -42,10 +44,7 @@ DEFAULT_DETECTORS = [
     "phishing_email_agent",
     "email_phishing_detection_v3",
 ]
-RESULT_GROUPS = [
-    "LLM-result",
-    "HW-result",
-]
+RESULT_GROUPS = ["LLM-Ind", "HW-Ind", "LLM-result", "HW-result"]
 ALL_DETECTORS = [
     "llm_guard",
     "phishing_email_agent",
@@ -90,8 +89,24 @@ def infer_dataset_name(input_csv: Path) -> str:
 def infer_result_group(input_csv: Path) -> str:
     haystack = f"{input_csv.parent.name} {input_csv.stem} {input_csv}".lower()
     if "hw" in haystack:
-        return "HW-result"
-    return "LLM-result"
+        return "HW-Ind"
+    return "LLM-Ind"
+
+
+def normalize_result_group(result_group: str) -> str:
+    lowered = str(result_group).strip().lower()
+    if lowered in {"llm-ind", "llm-result"}:
+        return "LLM-Ind"
+    if lowered in {"hw-ind", "hw-result"}:
+        return "HW-Ind"
+    raise ValueError(f"Unsupported result group: {result_group}")
+
+
+def resolve_result_group_dir(result_group: str) -> Path:
+    normalized = normalize_result_group(result_group)
+    if normalized == "HW-Ind":
+        return Path("HW-result") / "HW-Ind"
+    return Path("LLM-Ind")
 
 
 def infer_stage_name(input_csv: Path) -> str:
@@ -164,7 +179,7 @@ def parse_args() -> argparse.Namespace:
         "--result-group",
         choices=RESULT_GROUPS,
         default=None,
-        help="Top-level output bucket. Defaults to LLM-result/HW-result inferred from the dataset path.",
+        help="Output bucket. Defaults to LLM-Ind/HW-Ind inferred from the dataset path.",
     )
     parser.add_argument(
         "--stage-name",
@@ -175,7 +190,10 @@ def parse_args() -> argparse.Namespace:
         "--output-csv",
         type=Path,
         default=None,
-        help="Override the final combined results CSV path. Default: Detectors/output/<group>/<stage>_results.csv",
+        help=(
+            "Override the final combined results CSV path. "
+            "Default: Detectors/Industry/email_detectors/output/<group>/<stage>_results.csv"
+        ),
     )
     parser.add_argument("--python-bin", default=detect_default_python())
     parser.add_argument("--from-address", default="sender@example.com")
@@ -210,14 +228,14 @@ def build_content(subject: str, body: str) -> str:
 def make_run_dir(args: argparse.Namespace) -> Path:
     if args.output_csv:
         return args.output_csv.resolve().parent
-    result_group = args.result_group or infer_result_group(args.input_csv)
+    result_group = resolve_result_group_dir(args.result_group or infer_result_group(args.input_csv))
     return (OUTPUT_ROOT / result_group).resolve()
 
 
 def make_output_csv_path(args: argparse.Namespace) -> Path:
     if args.output_csv:
         return args.output_csv.resolve()
-    result_group = args.result_group or infer_result_group(args.input_csv)
+    result_group = resolve_result_group_dir(args.result_group or infer_result_group(args.input_csv))
     stage_name = (args.stage_name or infer_stage_name(args.input_csv)).upper()
     return (OUTPUT_ROOT / result_group / f"{stage_name}_results.csv").resolve()
 
@@ -994,7 +1012,7 @@ def main() -> int:
 
     print(json.dumps({
         "timestamp": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "result_group": args.result_group or infer_result_group(args.input_csv),
+        "result_group": normalize_result_group(args.result_group or infer_result_group(args.input_csv)),
         "stage_name": stage_name,
         "output_csv": str(final_output_csv),
         "temp_root_parent": str(temp_parent),

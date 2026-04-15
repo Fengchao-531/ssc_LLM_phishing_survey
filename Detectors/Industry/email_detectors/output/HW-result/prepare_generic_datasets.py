@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Generic-Data detector inputs that mirror LLM-result stage label counts."""
+"""Build Generic-Data detector inputs that mirror LLM-Ind stage label counts."""
 
 from __future__ import annotations
 
@@ -15,8 +15,8 @@ from typing import Dict, Iterable, List, Sequence
 csv.field_size_limit(sys.maxsize)
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-REPO_ROOT = SCRIPT_DIR.parents[2]
-LLM_RESULT_DIR = REPO_ROOT / "Detectors" / "output" / "LLM-result"
+REPO_ROOT = SCRIPT_DIR.parents[4]
+LLM_RESULT_DIR = REPO_ROOT / "Detectors" / "Industry" / "email_detectors" / "output" / "LLM-Ind"
 GENERIC_DATA_DIR = REPO_ROOT / "Datasets" / "Generic-Data"
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR / "datasets"
 DEFAULT_COUNTS_SUMMARY = SCRIPT_DIR / "llm_stage_label_counts.csv"
@@ -53,7 +53,7 @@ class StageCount:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Sample Generic-Data combined pools to match each LLM-result stage's label counts."
+        description="Sample Generic-Data combined pools to match each LLM-Ind stage's label counts."
     )
     parser.add_argument(
         "--stage",
@@ -75,7 +75,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--counts-summary",
         default=str(DEFAULT_COUNTS_SUMMARY),
-        help="Where to write the LLM-result label-count summary CSV.",
+        help="Where to write the LLM-Ind label-count summary CSV.",
     )
     parser.add_argument(
         "--sampling-summary",

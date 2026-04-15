@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build mixed LLM benchmark CSVs under Detectors/output/LLM-result."""
+"""Build mixed LLM benchmark CSVs under Detectors/Industry/email_detectors/output/LLM-Ind."""
 
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = SCRIPT_DIR.parent
-OUTPUT_DIR = SCRIPT_DIR / "output" / "LLM-result"
+OUTPUT_DIR = SCRIPT_DIR / "Industry" / "email_detectors" / "output" / "LLM-Ind"
 SEED = 42
 
 csv.field_size_limit(10**9)
@@ -58,7 +58,7 @@ def parse_args() -> argparse.Namespace:
         "--output-dir",
         type=Path,
         default=OUTPUT_DIR,
-        help="Directory to write mixed CSVs into. Default: Detectors/output/LLM-result",
+        help="Directory to write mixed CSVs into. Default: Detectors/Industry/email_detectors/output/LLM-Ind",
     )
     parser.add_argument(
         "--seed",

@@ -18,8 +18,8 @@ csv.field_size_limit(10**9)
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 EMAIL_DETECTORS_DIR = SCRIPT_DIR / "email_detectors"
-DEFAULT_INPUT_DIR = SCRIPT_DIR.parent / "output" / "LLM-result"
-DEFAULT_OUTPUT_DIR = SCRIPT_DIR / "llm-results"
+DEFAULT_INPUT_DIR = SCRIPT_DIR.parent / "Industry" / "email_detectors" / "output" / "LLM-Ind"
+DEFAULT_OUTPUT_DIR = SCRIPT_DIR / "email_detectors" / "LLM-Acad"
 DEFAULT_LOG_DIR = DEFAULT_OUTPUT_DIR / "_logs"
 DEFAULT_CACHE_DIR = DEFAULT_OUTPUT_DIR / "_detector_runs"
 DEFAULT_DETECTORS = [
@@ -61,7 +61,7 @@ def detect_default_python() -> str:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
-            "Run the six Academic phishing detectors over the staged LLM-result CSV datasets, "
+            "Run the six Academic phishing detectors over the staged LLM-Ind CSV datasets, "
             "merge their predictions into one CSV per dataset, and resume automatically."
         )
     )

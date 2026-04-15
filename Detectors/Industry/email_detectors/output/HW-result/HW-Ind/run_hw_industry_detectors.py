@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """Run the five Industry text detectors on HW Generic-Data stage datasets.
 
-This wrapper delegates detector execution to ``Detectors/output/run_text_detectors.py``
+This wrapper delegates detector execution to
+``Detectors/Industry/email_detectors/output/run_text_detectors.py``
 so we keep the same normalized merge logic as the existing Industry benchmark.
 
 Extra behavior added here:
-- iterate over every ``*-GD.csv`` dataset under ``HW-result/datasets``
+- iterate over every ``*-GD.csv`` dataset under
+  ``Detectors/Industry/email_detectors/output/HW-result/datasets``
 - truncate subject/body in a temporary detector-only copy to reduce CSV/input-length issues
 - preserve the original full Subject/Body columns in the final saved outputs
 - keep chunk/progress behavior via the delegated runner
@@ -30,8 +32,8 @@ csv.field_size_limit(sys.maxsize)
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-REPO_ROOT = SCRIPT_DIR.parents[3]
-OUTPUT_DIR = REPO_ROOT / "Detectors" / "output"
+REPO_ROOT = SCRIPT_DIR.parents[5]
+OUTPUT_DIR = REPO_ROOT / "Detectors" / "Industry" / "email_detectors" / "output"
 HW_RESULT_DIR = OUTPUT_DIR / "HW-result"
 DEFAULT_INPUT_DIR = HW_RESULT_DIR / "datasets"
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR
@@ -63,7 +65,8 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
             "Run the five Industry text detectors over the HW Generic-Data stage datasets "
-            "and save merged outputs under output/HW-result/industry_results."
+            "and save merged outputs under "
+            "Detectors/Industry/email_detectors/output/HW-result/HW-Ind."
         )
     )
     parser.add_argument("--input-dir", type=Path, default=DEFAULT_INPUT_DIR)
@@ -280,7 +283,7 @@ def process_dataset(args: argparse.Namespace, dataset_name: str) -> None:
             "--progress-every",
             str(args.progress_interval),
             "--result-group",
-            "HW-result",
+            "HW-Ind",
             "--stage-name",
             dataset_stem.upper(),
             "--output-csv",
@@ -323,7 +326,7 @@ def process_dataset(args: argparse.Namespace, dataset_name: str) -> None:
             body_column=args.body_column,
             label_column=args.label_column,
             data_source_column=args.data_source_column,
-            dataset_name=f"HW-result_{dataset_stem}",
+            dataset_name=f"HW-Ind_{dataset_stem}",
             source_path=input_csv,
         )
 

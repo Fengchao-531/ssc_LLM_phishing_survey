@@ -11,7 +11,7 @@ from typing import Any
 
 
 THIS_DIR = Path(__file__).resolve().parent
-ROOT = THIS_DIR.parent.parent.parent
+ROOT = THIS_DIR.parents[4]
 SOURCE_DIR = (
     ROOT
     / "Datasets"
@@ -45,7 +45,7 @@ MARKDOWN_TITLE_RE = re.compile(r"^\s*(?:#{1,6}\s*)?\*\*(.+?)\*\*\s*$")
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Prepare S8 fill-bracket CSVs under Detectors/output/LLM-result."
+        description="Prepare S8 fill-bracket CSVs under Detectors/Industry/email_detectors/output/LLM-Ind."
     )
     parser.add_argument(
         "--source-dir",

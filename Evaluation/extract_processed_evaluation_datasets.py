@@ -13,7 +13,7 @@ import pandas as pd
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent
-DEFAULT_INPUT_DIR = REPO_ROOT / "Detectors" / "output" / "LLM-result"
+DEFAULT_INPUT_DIR = REPO_ROOT / "Detectors" / "Industry" / "email_detectors" / "output" / "LLM-Ind"
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR / "processed-evaluation-datasets"
 
 STAGE_RESULTS_RE = re.compile(r"^(S\d+(?:-[A-Za-z0-9]+)*)_results\.csv$")
