@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-04-15T04:30:20.625381Z",
+  "input_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/output/HW-result/datasets/S1-GD.csv",
+  "prepared_input_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/output/logs/tmp/prepared_inputs/S1-GD/S1-GD_eggucxah/S1-GD.csv",
+  "output_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/output/HW-result/HW-Ind/S1-GD__spamassassin_results.csv",
+  "dataset_name": "S1-GD.csv",
+  "row_count": 2673,
+  "detectors": [
+    "spamassassin"
+  ],
+  "python_bin": "python",
+  "chunk_size": 100,
+  "progress_interval": 500,
+  "max_subject_chars": 1000,
+  "max_body_chars": 12000,
+  "resume_existing": true,
+  "delegated_runner": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/output/run_text_detectors.py"
+}

@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-04-09T19:14:58.302728Z",
+  "python_bin": "/scratch3/che489/Ha/.conda/envs/FC-W2-gpu-p39/bin/python",
+  "input_mode": "csv",
+  "input_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/output/logs/tmp/s6-uta-gd_detector_suite_d2ad4qbx/llm_guard_000801_000900/chunk_input.csv",
+  "dataset_name": "llm_guard_000801_000900_chunk_input",
+  "model_name": "llm-guard",
+  "sample_size": 100,
+  "output_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/output/logs/tmp/s6-uta-gd_detector_suite_d2ad4qbx/llm_guard_000801_000900/summary/llm_guard_summary.csv",
+  "output_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/output/logs/tmp/s6-uta-gd_detector_suite_d2ad4qbx/llm_guard_000801_000900",
+  "summary_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/output/logs/tmp/s6-uta-gd_detector_suite_d2ad4qbx/llm_guard_000801_000900/summary",
+  "scanner_config": {
+    "malicious_urls_threshold": 0.7,
+    "ban_substrings": [
+      "verify your account",
+      "click the link",
+      "confirm your identity"
+    ],
+    "sensitive_entity_types": [
+      "PERSON",
+      "EMAIL"
+    ]
+  },
+  "saved_artifacts": [
+    "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/output/logs/tmp/s6-uta-gd_detector_suite_d2ad4qbx/llm_guard_000801_000900/run_manifest.json",
+    "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/output/logs/tmp/s6-uta-gd_detector_suite_d2ad4qbx/llm_guard_000801_000900/summary/llm_guard_summary.csv"
+  ]
+}

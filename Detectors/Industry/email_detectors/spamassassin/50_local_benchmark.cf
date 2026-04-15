@@ -1,0 +1,9 @@
+# Benchmark-oriented local SpamAssassin configuration.
+# Keep the message structure simple so the wrapper can parse headers reliably.
+
+required_score 5.0
+report_safe 0
+use_bayes 1
+bayes_auto_learn 0
+use_razor2 0
+use_pyzor 0

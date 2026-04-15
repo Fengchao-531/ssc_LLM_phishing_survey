@@ -1,0 +1,3 @@
+# Local user prefs used by the benchmark wrapper.
+# Keep this file checked in so the detector wrapper can point to a stable prefs path.
+

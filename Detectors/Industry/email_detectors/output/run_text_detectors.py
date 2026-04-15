@@ -43,12 +43,14 @@ DEFAULT_DETECTORS = [
     "llm_guard",
     "phishing_email_agent",
     "email_phishing_detection_v3",
+    "spamassassin",
 ]
 RESULT_GROUPS = ["LLM-Ind", "HW-Ind", "LLM-result", "HW-result"]
 ALL_DETECTORS = [
     "llm_guard",
     "phishing_email_agent",
     "email_phishing_detection_v3",
+    "spamassassin",
     "pyrit_original",
     "pyrit_blocklist",
     "oopspam",
@@ -139,8 +141,8 @@ def parse_args() -> argparse.Namespace:
         choices=ALL_DETECTORS,
         default=list(DEFAULT_DETECTORS),
         help=(
-            "Detectors to run. Defaults to the currently benchmark-verified text detectors: "
-            "llm_guard phishing_email_agent email_phishing_detection_v3"
+            "Detectors to run. Defaults to the current core text detector set, "
+            "including SpamAssassin."
         ),
     )
     parser.add_argument(
@@ -205,6 +207,40 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--oopspam-sender-ip", default=os.environ.get("OOPSPAM_SENDER_IP", "127.0.0.1"))
     parser.add_argument("--oopspam-email", default=os.environ.get("OOPSPAM_EMAIL", "testing@example.com"))
     parser.add_argument("--oopspam-source", default=os.environ.get("OOPSPAM_SOURCE", "benchmark.local"))
+    parser.add_argument("--spamassassin-bin", default=os.environ.get("SPAMASSASSIN_BIN", "spamassassin"))
+    parser.add_argument(
+        "--spamassassin-siteconfigpath",
+        type=Path,
+        default=Path(
+            os.environ.get(
+                "SPAMASSASSIN_SITE_CONFIG_DIR",
+                str(EMAIL_DETECTORS_DIR / "spamassassin"),
+            )
+        ),
+    )
+    parser.add_argument(
+        "--spamassassin-prefs-file",
+        type=Path,
+        default=Path(
+            os.environ.get(
+                "SPAMASSASSIN_PREFS_FILE",
+                str(EMAIL_DETECTORS_DIR / "spamassassin" / "user_prefs"),
+            )
+        ),
+    )
+    parser.add_argument("--spamassassin-timeout-seconds", type=int, default=120)
+    parser.add_argument(
+        "--spamassassin-local-only",
+        action="store_true",
+        default=True,
+        help="Use SpamAssassin local tests only (-L). Enabled by default.",
+    )
+    parser.add_argument(
+        "--spamassassin-allow-network-tests",
+        dest="spamassassin_local_only",
+        action="store_false",
+        help="Allow SpamAssassin network-enabled tests.",
+    )
     parser.add_argument(
         "--fail-fast",
         action="store_true",
@@ -509,6 +545,23 @@ def parse_oopspam(summary_csv: Path) -> dict[int, dict[str, Any]]:
     return parsed
 
 
+def parse_spamassassin(summary_csv: Path) -> dict[int, dict[str, Any]]:
+    parsed: dict[int, dict[str, Any]] = {}
+    with summary_csv.open("r", encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle):
+            row_id = int(row["row_number"])
+            parsed[row_id] = {
+                "spamassassin_status": "ok" if not row.get("spamassassin_error", "") else "row_error",
+                "spamassassin_prediction": normalize_binary_prediction(row.get("spamassassin_prediction")),
+                "spamassassin_score": row.get("spamassassin_score", ""),
+                "spamassassin_required_score": row.get("spamassassin_required_score", ""),
+                "spamassassin_tests": row.get("spamassassin_tests", ""),
+                "spamassassin_flag": row.get("spamassassin_flag_header", ""),
+                "spamassassin_error": row.get("spamassassin_error", ""),
+            }
+    return parsed
+
+
 def detector_fieldnames(detector_name: str) -> list[str]:
     mapping = {
         "llm_guard": [
@@ -536,6 +589,15 @@ def detector_fieldnames(detector_name: str) -> list[str]:
             "email_phishing_detection_v3_score_0_to_10",
             "email_phishing_detection_v3_brands",
             "email_phishing_detection_v3_error",
+        ],
+        "spamassassin": [
+            "spamassassin_status",
+            "spamassassin_prediction",
+            "spamassassin_score",
+            "spamassassin_required_score",
+            "spamassassin_tests",
+            "spamassassin_flag",
+            "spamassassin_error",
         ],
         "pyrit_original": [
             "pyrit_original_status",
@@ -704,6 +766,40 @@ def build_detector_command(
             env_overrides["OPENROUTER_API_KEY"] = args.openrouter_api_key
         return command, OPEN_SOURCE_DIR, summary_dir / "email-phishing-detection_V3_ai_summary.csv", env_overrides
 
+    if detector_name == "spamassassin":
+        output_csv = summary_dir / "spamassassin_summary.csv"
+        command = [
+            args.python_bin,
+            str(EMAIL_DETECTORS_DIR / "spamassassin.py"),
+            "--input-csv",
+            str(chunk_input_csv),
+            "--subject-column",
+            args.subject_column,
+            "--body-column",
+            args.body_column,
+            "--sample-size",
+            str(chunk_size),
+            "--output-dir",
+            str(detector_dir),
+            "--spamassassin-bin",
+            args.spamassassin_bin,
+            "--siteconfigpath",
+            str(args.spamassassin_siteconfigpath),
+            "--prefs-file",
+            str(args.spamassassin_prefs_file),
+            "--timeout-seconds",
+            str(args.spamassassin_timeout_seconds),
+            "--from-address",
+            args.from_address,
+            "--to-address",
+            args.to_address,
+        ]
+        if args.spamassassin_local_only:
+            command.append("--local-only")
+        else:
+            command.append("--allow-network-tests")
+        return command, EMAIL_DETECTORS_DIR, output_csv, {}
+
     if detector_name == "pyrit_original":
         output_csv = summary_dir / "pyrit_original_summary.csv"
         command = [
@@ -771,6 +867,8 @@ def parse_detector_output(detector_name: str, summary_csv: Path) -> dict[int, di
         return parse_phishing_email_agent(summary_csv)
     if detector_name == "email_phishing_detection_v3":
         return parse_email_phishing_detection_v3(summary_csv)
+    if detector_name == "spamassassin":
+        return parse_spamassassin(summary_csv)
     if detector_name == "pyrit_original":
         return parse_pyrit_original(summary_csv)
     if detector_name == "pyrit_blocklist":

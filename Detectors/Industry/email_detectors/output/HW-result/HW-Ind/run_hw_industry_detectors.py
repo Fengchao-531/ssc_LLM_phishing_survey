@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the five Industry text detectors on HW Generic-Data stage datasets.
+"""Run the six Industry text detectors on HW Generic-Data stage datasets.
 
 This wrapper delegates detector execution to
 ``Detectors/Industry/email_detectors/output/run_text_detectors.py``
@@ -41,6 +41,7 @@ DEFAULT_DETECTORS = [
     "llm_guard",
     "phishing_email_agent",
     "email_phishing_detection_v3",
+    "spamassassin",
     "pyrit_original",
     "pyrit_blocklist",
 ]
@@ -64,7 +65,7 @@ def detect_default_python() -> str:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
-            "Run the five Industry text detectors over the HW Generic-Data stage datasets "
+            "Run the six Industry text detectors over the HW Generic-Data stage datasets "
             "and save merged outputs under "
             "Detectors/Industry/email_detectors/output/HW-result/HW-Ind."
         )
@@ -97,6 +98,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--sample-size", type=int, default=0)
     parser.add_argument("--chunk-size", type=int, default=100)
     parser.add_argument("--progress-interval", type=int, default=500)
+    parser.add_argument(
+        "--output-suffix",
+        default="_results",
+        help="Suffix inserted before .csv/.json output filenames. Default: _results",
+    )
     parser.add_argument("--max-subject-chars", type=int, default=1000)
     parser.add_argument("--max-body-chars", type=int, default=12000)
     parser.add_argument("--from-address", default="sender@example.com")
@@ -225,6 +231,18 @@ def write_manifest(path: Path, payload: dict[str, Any]) -> None:
         json.dump(payload, handle, indent=2, ensure_ascii=False)
 
 
+def build_output_paths(output_dir: Path, dataset_stem: str, output_suffix: str) -> tuple[Path, Path]:
+    output_stem = f"{dataset_stem}{output_suffix}"
+    if output_suffix.endswith("_results"):
+        manifest_stem = f"{dataset_stem}{output_suffix[:-8]}_run_manifest"
+    else:
+        manifest_stem = f"{dataset_stem}{output_suffix}_run_manifest"
+    return (
+        (output_dir / f"{output_stem}.csv").resolve(),
+        (output_dir / f"{manifest_stem}.json").resolve(),
+    )
+
+
 def process_dataset(args: argparse.Namespace, dataset_name: str) -> None:
     input_csv = (args.input_dir / dataset_name).resolve()
     if not input_csv.exists():
@@ -234,8 +252,7 @@ def process_dataset(args: argparse.Namespace, dataset_name: str) -> None:
     if args.sample_size > 0:
         original_rows = original_rows[: args.sample_size]
     dataset_stem = input_csv.stem
-    output_csv = (args.output_dir / f"{dataset_stem}_results.csv").resolve()
-    manifest_path = (args.output_dir / f"{dataset_stem}_run_manifest.json").resolve()
+    output_csv, manifest_path = build_output_paths(args.output_dir, dataset_stem, args.output_suffix)
 
     print(
         f"[{timestamp()}] prepare dataset={dataset_name} rows={len(original_rows)} "

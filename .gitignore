@@ -24,3 +24,6 @@ env/
 *.sh
 !Detectors/Industry/email_detectors/run_email-phishing-detection_V3.sh
 !Detectors/Industry/email_detectors/run_llm_guard.sh
+!Detectors/Industry/email_detectors/output/run_spamassassin_industry.sh
+!Detectors/Industry/email_detectors/spamassassin/install_spamassassin.sh
+!Detectors/Industry/email_detectors/spamassassin/update_rules.sh

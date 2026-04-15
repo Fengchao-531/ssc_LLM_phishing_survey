@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-04-04T14:15:00.165848Z",
+  "repo_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/open-source-git/email-phishing-detection_V3",
+  "python_bin": "/scratch3/che489/Ha/.conda/envs/FC-W2-gpu-p39/bin/python",
+  "input_mode": "csv",
+  "input_eml_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S5-Personalization for Credibility/5-HW-P_EML",
+  "input_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/output/logs/tmp/s6-fuzzer_detector_suite_5xe1zt0h/email_phishing_detection_v3_002401_002420/chunk_input.csv",
+  "sample_size": 20,
+  "dataset_name": "email_phishing_detection_v3_002401_002420_chunk_input",
+  "model_name": "email-phishing-detection_V3",
+  "output_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/output/logs/tmp/s6-fuzzer_detector_suite_5xe1zt0h/email_phishing_detection_v3_002401_002420/summary/email-phishing-detection_V3_ai_summary.csv",
+  "output_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/output/logs/tmp/s6-fuzzer_detector_suite_5xe1zt0h/email_phishing_detection_v3_002401_002420",
+  "summary_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/output/logs/tmp/s6-fuzzer_detector_suite_5xe1zt0h/email_phishing_detection_v3_002401_002420/summary",
+  "saved_artifacts": [
+    "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/output/logs/tmp/s6-fuzzer_detector_suite_5xe1zt0h/email_phishing_detection_v3_002401_002420/run_manifest.json",
+    "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/output/logs/tmp/s6-fuzzer_detector_suite_5xe1zt0h/email_phishing_detection_v3_002401_002420/summary/email-phishing-detection_V3_ai_summary.csv"
+  ],
+  "intermediate_artifacts_saved": false
+}
