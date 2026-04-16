@@ -1,0 +1,11 @@
+stage,email_phishing_detection_v3,llm_guard,oopspam,phishing_email_agent,pyrit_blocklist,pyrit_original,spamassassin
+S1,done,done,missing,done,done,pending,done
+S2,pending,done,missing,done,done,pending,done
+S4,pending,done,missing,done,done,pending,done
+S5,pending,done,missing,done,pending,pending,pending
+S6-MPG,done,done,missing,done,done,pending,missing
+S6-UTA,pending,done,missing,done,done,pending,missing
+S6-fuzzer,done,done,missing,done,done,pending,missing
+S8-deepseek,pending,done,missing,done,done,pending,missing
+S8-llama,pending,done,missing,done,done,pending,missing
+S8-ministral,pending,done,missing,done,done,pending,missing

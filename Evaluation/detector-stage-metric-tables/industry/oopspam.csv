@@ -1,0 +1,11 @@
+stage,hw_precision,hw_recall,hw_accuracy,hw_fpr,hw_fnr,hw_f0_5,hw_f1,hw_f2,hw_mcc,llm_precision,llm_recall,llm_accuracy,llm_fpr,llm_fnr,llm_f0_5,llm_f1,llm_f2,llm_mcc
+S1,,,,,,,,,,,,,,,,,,
+S2,,,,,,,,,,,,,,,,,,
+S4,,,,,,,,,,,,,,,,,,
+S5,,,,,,,,,,,,,,,,,,
+S6-MPG,,,,,,,,,,,,,,,,,,
+S6-UTA,,,,,,,,,,,,,,,,,,
+S6-fuzzer,,,,,,,,,,,,,,,,,,
+S8-deepseek,,,,,,,,,,,,,,,,,,
+S8-llama,,,,,,,,,,,,,,,,,,
+S8-ministral,,,,,,,,,,,,,,,,,,
