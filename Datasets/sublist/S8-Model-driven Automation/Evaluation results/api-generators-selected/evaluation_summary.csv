@@ -1,0 +1,4 @@
+input_file,output_file,sample_count,unique_join_key_count,mean_bleu,mean_rouge1_precision,mean_rouge1_recall,mean_rouge1_f1,mean_generated_perplexity,mean_reference_perplexity,topic_coherence_generated,topic_coherence_reference,topic_coherence_gap
+claude-sonnet-4-generated_output.fill_bracket.csv,claude-sonnet-4-generated_output.subject_body_scores.csv,999,999,2.007724,14.227030,38.603221,15.989190,,,-0.557734,-0.711143,0.153409
+gemini-2.5-flash-lite-generated_output.fill_bracket.csv,gemini-2.5-flash-lite-generated_output.subject_body_scores.csv,1000,1000,2.180013,14.818405,39.678692,16.661858,,,-0.418997,-0.558318,0.139321
+gpt-5.4-generated_output.fill_bracket.csv,gpt-5.4-generated_output.subject_body_scores.csv,1000,1000,3.296174,21.214293,33.914930,20.204945,,,-0.554117,-0.558318,0.004201

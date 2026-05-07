@@ -46,6 +46,9 @@ DEFAULT_MODELS_OUTPUT_DIR = str((SCRIPT_DIR / "Models-Output").resolve())
 DEFAULT_TIMEOUT = 180
 DEFAULT_OUTPUT_TOKENS = 756
 DEFAULT_CHUNK_SIZE = 100
+DEFAULT_HTTP_RETRIES = 0
+DEFAULT_RETRY_BASE_SECONDS = 10.0
+DEFAULT_RETRY_MAX_SECONDS = 180.0
 DEFAULT_MAX_PROMPT_CHARS = 12000
 DEFAULT_MAX_REFERENCE_CHARS = 20000
 DEFAULT_PERPLEXITY_MODEL = "gpt2"
@@ -53,7 +56,7 @@ DEFAULT_TOPIC_COUNT = 5
 DEFAULT_TOPIC_TOP_WORDS = 10
 DEFAULT_HF_MODEL_ROOT = os.environ.get("HF_MODEL_ROOT", "").strip()
 DEFAULT_TOP_MODELS = [
-    "gpt-5.4",
+    "gpt-5.4-mini",
     "claude-sonnet-4",
     "gemini-2.5-pro",
     "deepseek-r1-distill-qwen-7b",
@@ -168,6 +171,28 @@ MODEL_CATALOG: List[ModelSpec] = [
         api_key_env="GEMINI_API_KEY",
         enabled_by_default=True,
         notes="Google's state-of-the-art Gemini API model.",
+    ),
+    ModelSpec(
+        alias="gemini-2.5-flash",
+        company="Google",
+        family="Gemini",
+        access_type="black_box",
+        provider="gemini_generate_content",
+        model_name="gemini-2.5-flash",
+        api_base_url="https://generativelanguage.googleapis.com/v1beta/models",
+        api_key_env="GEMINI_API_KEY",
+        notes="Google Gemini low-latency, high-volume model.",
+    ),
+    ModelSpec(
+        alias="gemini-2.5-flash-lite",
+        company="Google",
+        family="Gemini",
+        access_type="black_box",
+        provider="gemini_generate_content",
+        model_name="gemini-2.5-flash-lite",
+        api_base_url="https://generativelanguage.googleapis.com/v1beta/models",
+        api_key_env="GEMINI_API_KEY",
+        notes="Google Gemini fastest and most budget-friendly 2.5 model.",
     ),
     ModelSpec(
         alias="deepseek-r1-distill-qwen-7b",
@@ -396,6 +421,24 @@ def parse_args() -> argparse.Namespace:
         help="Delay between model calls.",
     )
     parser.add_argument(
+        "--http-retries",
+        type=int,
+        default=DEFAULT_HTTP_RETRIES,
+        help="Number of retries for transient HTTP errors such as 429, 500, 502, 503, and 504.",
+    )
+    parser.add_argument(
+        "--retry-base-seconds",
+        type=float,
+        default=DEFAULT_RETRY_BASE_SECONDS,
+        help="Initial backoff delay before retrying a transient HTTP error.",
+    )
+    parser.add_argument(
+        "--retry-max-seconds",
+        type=float,
+        default=DEFAULT_RETRY_MAX_SECONDS,
+        help="Maximum backoff delay between transient HTTP retries.",
+    )
+    parser.add_argument(
         "--save-every",
         type=int,
         default=25,
@@ -459,6 +502,14 @@ def validate_args(args: argparse.Namespace) -> None:
         raise ValueError("--local-batch-size must be greater than 0.")
     if args.timeout <= 0:
         raise ValueError("--timeout must be greater than 0.")
+    if args.http_retries < 0:
+        raise ValueError("--http-retries must be greater than or equal to 0.")
+    if args.retry_base_seconds < 0:
+        raise ValueError("--retry-base-seconds must be greater than or equal to 0.")
+    if args.retry_max_seconds < 0:
+        raise ValueError("--retry-max-seconds must be greater than or equal to 0.")
+    if args.retry_max_seconds and args.retry_base_seconds > args.retry_max_seconds:
+        raise ValueError("--retry-base-seconds must be less than or equal to --retry-max-seconds.")
 
 
 def now_utc_iso() -> str:
@@ -925,18 +976,83 @@ def align_samples(args: argparse.Namespace) -> List[Sample]:
     return aligned
 
 
-def http_post_json(url: str, headers: Dict[str, str], payload: Dict[str, Any], timeout: int) -> Dict[str, Any]:
-    body = json.dumps(payload).encode("utf-8")
-    req = request.Request(url, data=body, headers=headers, method="POST")
+def redact_url_secrets(url: str) -> str:
+    parts = parse.urlsplit(url)
+    query = parse.parse_qsl(parts.query, keep_blank_values=True)
+    redacted_query = [
+        (key, "[REDACTED]" if key.lower() in {"key", "api_key"} else value)
+        for key, value in query
+    ]
+    return parse.urlunsplit(
+        (
+            parts.scheme,
+            parts.netloc,
+            parts.path,
+            parse.urlencode(redacted_query),
+            parts.fragment,
+        )
+    )
+
+
+RETRYABLE_HTTP_CODES = {429, 500, 502, 503, 504}
+
+
+def retry_after_seconds(headers: Any) -> Optional[float]:
+    value = headers.get("Retry-After") if headers else None
+    if not value:
+        return None
     try:
-        with request.urlopen(req, timeout=timeout) as response:
-            raw = response.read().decode("utf-8")
-            return json.loads(raw)
-    except error.HTTPError as exc:
-        error_body = exc.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"HTTP {exc.code} for {url}: {error_body}") from exc
-    except error.URLError as exc:
-        raise RuntimeError(f"Network error for {url}: {exc}") from exc
+        return max(0.0, float(value))
+    except ValueError:
+        return None
+
+
+def retry_delay_seconds(args: argparse.Namespace, attempt_index: int, headers: Any = None) -> float:
+    retry_after = retry_after_seconds(headers)
+    if retry_after is not None:
+        return min(retry_after, args.retry_max_seconds) if args.retry_max_seconds else retry_after
+    delay = args.retry_base_seconds * (2 ** attempt_index)
+    if args.retry_max_seconds:
+        delay = min(delay, args.retry_max_seconds)
+    return max(0.0, delay)
+
+
+def http_post_json(url: str, headers: Dict[str, str], payload: Dict[str, Any], args: argparse.Namespace) -> Dict[str, Any]:
+    body = json.dumps(payload).encode("utf-8")
+    redacted_url = redact_url_secrets(url)
+    for attempt in range(args.http_retries + 1):
+        req = request.Request(url, data=body, headers=headers, method="POST")
+        try:
+            with request.urlopen(req, timeout=args.timeout) as response:
+                raw = response.read().decode("utf-8")
+                return json.loads(raw)
+        except error.HTTPError as exc:
+            error_body = exc.read().decode("utf-8", errors="replace")
+            if exc.code in RETRYABLE_HTTP_CODES and attempt < args.http_retries:
+                delay = retry_delay_seconds(args, attempt, exc.headers)
+                print(
+                    f"[retry] HTTP {exc.code} for {redacted_url}; "
+                    f"attempt {attempt + 1}/{args.http_retries}; sleeping {delay:.1f}s",
+                    file=sys.stderr,
+                )
+                if delay > 0:
+                    time.sleep(delay)
+                continue
+            raise RuntimeError(f"HTTP {exc.code} for {redacted_url}: {error_body}") from exc
+        except error.URLError as exc:
+            if attempt < args.http_retries:
+                delay = retry_delay_seconds(args, attempt)
+                print(
+                    f"[retry] Network error for {redacted_url}: {exc}; "
+                    f"attempt {attempt + 1}/{args.http_retries}; sleeping {delay:.1f}s",
+                    file=sys.stderr,
+                )
+                if delay > 0:
+                    time.sleep(delay)
+                continue
+            raise RuntimeError(f"Network error for {redacted_url}: {exc}") from exc
+
+    raise RuntimeError(f"HTTP retry loop exhausted for {redacted_url}")
 
 
 def extract_openai_chat_text(payload: Dict[str, Any]) -> str:
@@ -1019,13 +1135,16 @@ def generate_with_openai_chat(
             {"role": "user", "content": prompt_text},
         ],
         "temperature": args.temperature,
-        "max_tokens": args.max_output_tokens,
     }
+    if spec.api_base_url.rstrip("/") == "https://api.openai.com/v1" and spec.model_name.startswith("gpt-5"):
+        payload["max_completion_tokens"] = args.max_output_tokens
+    else:
+        payload["max_tokens"] = args.max_output_tokens
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
     }
-    response_payload = http_post_json(url, headers, payload, args.timeout)
+    response_payload = http_post_json(url, headers, payload, args)
     return extract_openai_chat_text(response_payload), response_payload
 
 
@@ -1047,8 +1166,15 @@ def generate_with_anthropic(
         "anthropic-version": "2023-06-01",
         "content-type": "application/json",
     }
-    response_payload = http_post_json(spec.api_base_url, headers, payload, args.timeout)
-    return extract_anthropic_text(response_payload), response_payload
+    response_payload = http_post_json(spec.api_base_url, headers, payload, args)
+    try:
+        generated_text = extract_anthropic_text(response_payload)
+    except ValueError as exc:
+        raise ValueError(
+            f"{exc}; stop_reason={response_payload.get('stop_reason', '')}; "
+            f"usage={response_payload.get('usage', {})}"
+        ) from exc
+    return generated_text, response_payload
 
 
 def generate_with_gemini(
@@ -1067,9 +1193,23 @@ def generate_with_gemini(
             "maxOutputTokens": args.max_output_tokens,
         },
     }
+    if spec.model_name.startswith("gemini-2.5"):
+        default_thinking_budget = "128" if spec.model_name == "gemini-2.5-pro" else "0"
+        payload["generationConfig"]["thinkingConfig"] = {
+            "thinkingBudget": int(os.environ.get("GEMINI_THINKING_BUDGET", default_thinking_budget))
+        }
     headers = {"Content-Type": "application/json"}
-    response_payload = http_post_json(url, headers, payload, args.timeout)
-    return extract_gemini_text(response_payload), response_payload
+    response_payload = http_post_json(url, headers, payload, args)
+    try:
+        generated_text = extract_gemini_text(response_payload)
+    except ValueError as exc:
+        first_candidate = (response_payload.get("candidates") or [{}])[0]
+        finish_reason = first_candidate.get("finishReason", "")
+        usage_metadata = response_payload.get("usageMetadata", {})
+        raise ValueError(
+            f"{exc}; finishReason={finish_reason}; usageMetadata={usage_metadata}"
+        ) from exc
+    return generated_text, response_payload
 
 
 def resolve_torch_dtype(dtype_name: str) -> Any:

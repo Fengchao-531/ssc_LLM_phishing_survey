@@ -1,0 +1,241 @@
+join_key,input_row_number,reference_row_number,model_alias,company,family,access_type,provider,prompt_text,generated_text,generated_subject,generated_body,reference_text,label,created_at
+HW-P__row78,26,80,gemini-2.5-pro,Google,Gemini,black_box,gemini_generate_content,Draft a notification informing a user about pending undelivered messages and include a disclaimer about communication confidentiality.,"Subject: You have undelivered messages waiting
+
+Hello,
+
+This is an automated notification to inform you that you have one or more messages that could not be delivered to you.
+
+To receive these pending messages, please log in to your account.
+
+***
+
+**Confidentiality Notice:** This communication, including any attachments, is intended only for the use of the individual or entity to whom it is addressed and may contain information that is privileged, confidential, and exempt from disclosure under applicable law. If you are not the intended recipient, you are hereby notified that any dissemination, distribution, or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by reply and then delete this message from your system.",You have undelivered messages waiting,"Hello,
+
+This is an automated notification to inform you that you have one or more messages that could not be delivered to you.
+
+To receive these pending messages, please log in to your account.
+
+***
+
+**Confidentiality Notice:** This communication, including any attachments, is intended only for the use of the individual or entity to whom it is addressed and may contain information that is privileged, confidential, and exempt from disclosure under applicable law. If you are not the intended recipient, you are hereby notified that any dissemination, distribution, or copying of this communication is strictly prohibited. If you have received this communication in error, please notify us immediately by reply and then delete this message from your system.","dynapapersubmission@
+
+You currently have [4] undelivered messages
+
+Date
+
+22/7/2024 09:52:17
+
+Release Pending messages to inbox.
+
+Disclaimer:
+
+The information contained in and accompanying this communication may be confidential, subject to legal privilege, or otherwise protected from disclosure, and is intended solely for the use of the intended recipient(s). If you are not the intended recipient of this communication, please delete and destroy all copies in your possession, notify the sender that you have received this communication in error, and note that any review or dissemination of, or the taking of any action in reliance on, this communication is expressly prohibited. Email messages may contain computer viruses or other defects, may not be accurately replicated on other systems, or may be intercepted, deleted or interfered with without the knowledge of the sender or the intended recipient. Ghazi Brothers makes no warranties in relation to these matters. Please note that Ghazi Brothers reserves the right to intercept, monitor, and retain email messages to and from its systems as permitted by applicable law. If you
+are not comfortable with the risks associated with e-mail messages, you may decide not to use email to communicate with Ghazi Brothers.",1,2026-04-23T11:59:14+00:00
+HW-P__row87,28,8,gemini-2.5-pro,Google,Gemini,black_box,gemini_generate_content,"Draft a marketing email that highlights the ease of backing up photos with a single click, and encourages recipients to secure their digital memories effortlessly.","Subject: One Click is All It Takes to Protect Your Memories Forever
+
+Hi [Name],
+
+How many precious photos are on your phone and computer right now? Family vacations, your child's first steps, unforgettable moments with friends...
+
+What would happen if your device was lost, stolen, or simply stopped working?
+
+We know how heartbreaking that thought is. That's why we created a solution to protect your memories with zero hassle. With just **one single click**, you can back up every photo you have, securing them safely in the cloud.
+
+No more dragging folders, no complicated settings, and no more worrying.
+
+**It's truly that simple:**
+1.  Open the app.
+2.  Click ""Back Up Now.""
+3.  Relax. Your memories are safe.
+
+Don't leave your most cherished moments to chance. Give yourself the peace of mind that comes with knowing every photo is protected, accessible whenever you want, from any device.
+
+Ready to secure your memories effortlessly?
+
+[Button: Back Up My Photos in One Click]
+
+Best,
+
+The [Your Company Name] Team",One Click is All It Takes to Protect Your Memories Forever,"Hi [Name],
+
+How many precious photos are on your phone and computer right now? Family vacations, your child's first steps, unforgettable moments with friends...
+
+What would happen if your device was lost, stolen, or simply stopped working?
+
+We know how heartbreaking that thought is. That's why we created a solution to protect your memories with zero hassle. With just **one single click**, you can back up every photo you have, securing them safely in the cloud.
+
+No more dragging folders, no complicated settings, and no more worrying.
+
+**It's truly that simple:**
+1.  Open the app.
+2.  Click ""Back Up Now.""
+3.  Relax. Your memories are safe.
+
+Don't leave your most cherished moments to chance. Give yourself the peace of mind that comes with knowing every photo is protected, accessible whenever you want, from any device.
+
+Ready to secure your memories effortlessly?
+
+[Button: Back Up My Photos in One Click]
+
+Best,
+
+The [Your Company Name] Team","<html><head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""></head>
+<body>
+<center> <h2><a href=""http://vegetarianrecipiesonline.com/fB7LIkjywEiv2ueSaGDAR/6Z/BARSSEnqM6hS2GzToTluYXn33/eM5rYBck/g90Iaa34WfVGb8OQz5figat/v5/DyWmzdapws4am50wN7QwIq/reYe_er/tW7ZelrTKng9xudAUK1kymR/7v7Y5/jZIz1koK19LY82VqKJ6NVQJ/v5v7/KcvpIROl834fFgywmjkRyF/57xYMr/oaarIkx8igaTea47FPPX62ZKX/""><font color=""#00000"">Find Lost Photos on Your Computer or Phone</a></h1>
+</div>
+</div>
+
+<div>
+<center>
+<p><a href=""http://vegetarianrecipiesonline.com/fB7LIkjywEiv2ueSaGDAR/6Z/BARSSEnqM6hS2GzToTluYXn33/eM5rYBck/g90Iaa34WfVGb8OQz5figat/v5/DyWmzdapws4am50wN7QwIq/reYe_er/tW7ZelrTKng9xudAUK1kymR/7v7Y5/jZIz1koK19LY82VqKJ6NVQJ/v5v7/KcvpIROl834fFgywmjkRyF/57xYMr/oaarIkx8igaTea47FPPX62ZKX/""><img border=""0"" src=""https://i.imgur.com/X92AMJa.png"" usemap=""#image-map""><map name=""image-map"">
+<center><img border=""0"" src=""//i.imgur.com/X92AMJa.png"" usemap=""#image-map""> <map name=""image-map"">
+<p><a href=""http://vegetarianrecipiesonline.com/T6jpamjrLu68P3a5kPzj3ik/n4/6gy8XVEGIll0sbkEOtCf8zU/eM5rYBck/8rEEBaGHuuno5shzVnU5/v5/pmcvr15sG2DhBW8e2e7tvIK/reYe_er/QReCVrwO6hT1eB3Lr37k9PZo7/7v7Y5/LMZGONFdqR82iTqJiA6b/v5v7/MqPXEN3ythKrpqfJHnMG21BU9/57xYMr/8lHslovJkVHj9cWRPpjlZ7/""><img border=""0"" src=""https://i.imgur.com/YjtJOni.png"" usemap=""#image-map""><map name=""image-map"">
+<center><img border=""0"" src=""//i.imgur.com/YjtJOni.png"" usemap=""#image-map""> <map name=""image-map"">
+</center>
+</body>
+</html>
+<br><br>
+<span style=""color:#888;font-size:11px;font-family:verdana;display:block;text-align:center;margin-top:10px""><a href=""mailto:replyto@vresan.com"">Unsubscribe</a> from all email list by replying to this email</span><br><br>
+<img alt="""" src=""http://vegetarianrecipiesonline.com/oWgfmjBjKjjXEkRwMFRxFTB3/UX/ATGWEzD6W0CxhOugvOYAHP6Ys/eM5rYBck/iIIHCL5mPl0pvW0WnVS9/v5/yfxbMRrotpsAEZzq3pdoYM0mN/reYe_er/xCrQNphr32YY3hF6EElJUW4/7v7Y5/HH2XrYHB1qIhcoqnisL41/v5v7/0BRr0draH5U7KqxOyuEu/57xYMr/e1VxdZw2c6W2k3OUNliS/"" width=""1px"" height=""1px"" style=""visibility:hidden"">",1,2026-04-23T12:03:59+00:00
+HW-B__row87,29,126,gemini-2.5-pro,Google,Gemini,black_box,gemini_generate_content,"Craft a humorous anecdote involving unusual pet choices as a conversation starter, inspired by cartoons or comics.","My cousin, who's basically a real-life cartoon character, tried to convince his apartment landlord that his new pet, a very large, very grumpy-looking vulture named Barnaby, was a ""rare, featherless parrot."" He even taught it to squawk ""Polly wants a cracker!"" The landlord, bless his heart, just stared at the six-foot wingspan, the giant hooked beak, and the bird's soul-piercing gaze before dryly asking, ""Does Polly also want to know when the next city-wide carcass cleanup is?"" Barnaby just glared and ruffled his neck feathers. I think that was a ""yes.""",,"My cousin, who's basically a real-life cartoon character, tried to convince his apartment landlord that his new pet, a very large, very grumpy-looking vulture named Barnaby, was a ""rare, featherless parrot."" He even taught it to squawk ""Polly wants a cracker!"" The landlord, bless his heart, just stared at the six-foot wingspan, the giant hooked beak, and the bird's soul-piercing gaze before dryly asking, ""Does Polly also want to know when the next city-wide carcass cleanup is?"" Barnaby just glared and ruffled his neck feathers. I think that was a ""yes.""","Geege Schuman wrote:
+> less obscure haiku
+>
+> buy a puppy, ro!
+> they are chick magnets. master
+> ventriloquism.
+
+Reminds me of a Gary Larson cartoon,
+woman walking dog, man walking aligator,
+dog mostly eaten by aligator, thought cloud
+above man's head,
+""This is *such* a great way to meet chicks!""
+
+- Joe",0,2026-04-23T12:05:04+00:00
+HW-B__row88,30,61,gemini-2.5-pro,Google,Gemini,black_box,gemini_generate_content,"Write a discussion piece on the potential geopolitical conflicts in Europe, considering demographic trends and the concept of transnational progressivism.","### The New European Fault Lines: Demographics, Progressivism, and the Specter of Conflict
+
+For decades, the European project was defined by its seemingly inexorable march toward ""ever closer union."" Economic integration, open borders, and a shared commitment to liberal democratic values were the pillars of a continent that had supposedly consigned major conflict to the history books. Yet, beneath this veneer of stability, powerful undercurrents are reshaping the geopolitical landscape. The interplay of stark demographic trends and the rise of a potent, yet divisive, transnational progressivism is creating new fault lines, not just between nations, but within them, signaling a future where conflict in Europe may look very different, but no less real.
+
+At the heart of Europe's emerging challenges is a demographic winter. Across the continent, from Italy to Germany, birth rates have fallen far below replacement levels. This trend is not merely a statistical curiosity; it is a slow-motion crisis with profound geopolitical implications. Aging populations strain welfare states, shrink the labour force, and reduce the pool of military-age citizens, diminishing the long-term economic and strategic power of traditional European states.
+
+This demographic void has been filled, in large part, by immigration, primarily from the Middle East and Africa. While immigration has been an economic necessity, it has also created immense social and cultural friction. The challenge of integrating large populations with different cultural, religious, and social norms into historically homogenous nation-states has proven far more difficult than policymakers anticipated. This has fueled the rise of populist and nationalist movements that define themselves in direct opposition to the multicultural vision championed by established political elites. The result is a deep internal cleavage within nearly every Western European nation: a battle between those who see a diverse, multicultural future as a strength and those who view it as an existential threat to their national identity.
+
+This internal conflict is amplified and ideologically supercharged by the second major force: transnational progressivism. This is not merely the traditional left-wing politics of the 20th century, focused on labour rights and economic redistribution. It is a cohesive, elite-driven ideology that transcends national borders, finding its home in international institutions like the EU and UN, multinational corporations, NGOs, and academia. Its core tenets include the primacy of universal human rights over national sovereignty, a focus on group identity (particularly for designated minority groups), a commitment to climate change as the central organizing principle of policy, and a belief in the moral necessity of open borders.
+
+For its adherents, this progressive vision represents the next stage of human development—a post-national era where outdated concepts like the nation-state and traditional cultural norms give way to a more enlightened, globally-governed order. However, for a significant and growing portion of the European populace, this agenda is perceived as a direct assault on their way of life, their sovereignty, and their identity. They see a distant, unelected bureaucracy in Brussels dictating social and economic policy that often runs counter to local traditions and national interests.
+
+This ideological clash creates a new geopolitical axis of conflict. It is no longer simply West versus East, but a horizontal division cutting across the continent. On one side are the hubs of transnational progressivism: Brussels, Berlin, Paris, and the institutional architecture of the EU. On the other are nations, particularly in Central and Eastern Europe like Hungary and Poland, that have positioned themselves as bulwarks of national sovereignty, traditional values, and what they term ""Christian Europe."" These governments actively resist EU mandates on immigration, social policy, and judicial reform, viewing them as ideological impositions from a hostile power.
+
+The conflict, therefore, is not one of tanks and trenches, but of laws, funds, and information. The EU has increasingly used financial leverage—the withholding of recovery funds—and legal action through the European Court of Justice to enforce compliance among ""rebel"" member states. This is perceived by governments in Warsaw and Budapest not as a regulatory dispute, but as a form of political warfare designed to force regime change. Conversely, Brussels views their defiance as a fundamental threat to the rule of law and the integrity of the entire European project. This ""sovereignty struggle"" is a low-intensity, but deeply destabilizing, conflict at the very heart of Europe.
+
+The potential for this conflict to escalate is significant. Internally, the demographic and cultural tensions could easily boil over. The riots in France, the rise of far-right parties in Germany and Italy, and the deep social polarization across the continent demonstrate that the social fabric is fraying. A major economic crisis or another large-scale migration event could be the spark that ignites widespread civil unrest, pitting a state apparatus committed to a progressive, multicultural vision against a populist insurgency defending a nationalist one.
+
+Externally, this internal European division creates opportunities for geopolitical rivals. Russia has masterfully exploited these fault lines, positioning itself as a defender of traditional values and national sovereignty to appeal to Europe's populist movements, all while continuing its conventional military aggression in Ukraine. The internal focus on ideological battles distracts from and weakens a unified European response to external threats.
+
+The future of conflict in Europe, therefore, may not be a repeat of the 20th century's great power wars. Instead, it is likely to be a complex, multi-layered struggle. It will be a fight waged within nations between globalist-minded urban elites and nationalist-leaning populations in the provinces. It will be a political and economic war between the centralizing institutions of the EU and member states determined to reclaim their sovereignty. And it will be a cultural cold war over the very identity and future of the continent. While this new form of conflict may be less bloody, its capacity to dismantle the post-war order and plunge Europe into a new era of instability is no less profound.",,"### The New European Fault Lines: Demographics, Progressivism, and the Specter of Conflict
+
+For decades, the European project was defined by its seemingly inexorable march toward ""ever closer union."" Economic integration, open borders, and a shared commitment to liberal democratic values were the pillars of a continent that had supposedly consigned major conflict to the history books. Yet, beneath this veneer of stability, powerful undercurrents are reshaping the geopolitical landscape. The interplay of stark demographic trends and the rise of a potent, yet divisive, transnational progressivism is creating new fault lines, not just between nations, but within them, signaling a future where conflict in Europe may look very different, but no less real.
+
+At the heart of Europe's emerging challenges is a demographic winter. Across the continent, from Italy to Germany, birth rates have fallen far below replacement levels. This trend is not merely a statistical curiosity; it is a slow-motion crisis with profound geopolitical implications. Aging populations strain welfare states, shrink the labour force, and reduce the pool of military-age citizens, diminishing the long-term economic and strategic power of traditional European states.
+
+This demographic void has been filled, in large part, by immigration, primarily from the Middle East and Africa. While immigration has been an economic necessity, it has also created immense social and cultural friction. The challenge of integrating large populations with different cultural, religious, and social norms into historically homogenous nation-states has proven far more difficult than policymakers anticipated. This has fueled the rise of populist and nationalist movements that define themselves in direct opposition to the multicultural vision championed by established political elites. The result is a deep internal cleavage within nearly every Western European nation: a battle between those who see a diverse, multicultural future as a strength and those who view it as an existential threat to their national identity.
+
+This internal conflict is amplified and ideologically supercharged by the second major force: transnational progressivism. This is not merely the traditional left-wing politics of the 20th century, focused on labour rights and economic redistribution. It is a cohesive, elite-driven ideology that transcends national borders, finding its home in international institutions like the EU and UN, multinational corporations, NGOs, and academia. Its core tenets include the primacy of universal human rights over national sovereignty, a focus on group identity (particularly for designated minority groups), a commitment to climate change as the central organizing principle of policy, and a belief in the moral necessity of open borders.
+
+For its adherents, this progressive vision represents the next stage of human development—a post-national era where outdated concepts like the nation-state and traditional cultural norms give way to a more enlightened, globally-governed order. However, for a significant and growing portion of the European populace, this agenda is perceived as a direct assault on their way of life, their sovereignty, and their identity. They see a distant, unelected bureaucracy in Brussels dictating social and economic policy that often runs counter to local traditions and national interests.
+
+This ideological clash creates a new geopolitical axis of conflict. It is no longer simply West versus East, but a horizontal division cutting across the continent. On one side are the hubs of transnational progressivism: Brussels, Berlin, Paris, and the institutional architecture of the EU. On the other are nations, particularly in Central and Eastern Europe like Hungary and Poland, that have positioned themselves as bulwarks of national sovereignty, traditional values, and what they term ""Christian Europe."" These governments actively resist EU mandates on immigration, social policy, and judicial reform, viewing them as ideological impositions from a hostile power.
+
+The conflict, therefore, is not one of tanks and trenches, but of laws, funds, and information. The EU has increasingly used financial leverage—the withholding of recovery funds—and legal action through the European Court of Justice to enforce compliance among ""rebel"" member states. This is perceived by governments in Warsaw and Budapest not as a regulatory dispute, but as a form of political warfare designed to force regime change. Conversely, Brussels views their defiance as a fundamental threat to the rule of law and the integrity of the entire European project. This ""sovereignty struggle"" is a low-intensity, but deeply destabilizing, conflict at the very heart of Europe.
+
+The potential for this conflict to escalate is significant. Internally, the demographic and cultural tensions could easily boil over. The riots in France, the rise of far-right parties in Germany and Italy, and the deep social polarization across the continent demonstrate that the social fabric is fraying. A major economic crisis or another large-scale migration event could be the spark that ignites widespread civil unrest, pitting a state apparatus committed to a progressive, multicultural vision against a populist insurgency defending a nationalist one.
+
+Externally, this internal European division creates opportunities for geopolitical rivals. Russia has masterfully exploited these fault lines, positioning itself as a defender of traditional values and national sovereignty to appeal to Europe's populist movements, all while continuing its conventional military aggression in Ukraine. The internal focus on ideological battles distracts from and weakens a unified European response to external threats.
+
+The future of conflict in Europe, therefore, may not be a repeat of the 20th century's great power wars. Instead, it is likely to be a complex, multi-layered struggle. It will be a fight waged within nations between globalist-minded urban elites and nationalist-leaning populations in the provinces. It will be a political and economic war between the centralizing institutions of the EU and member states determined to reclaim their sovereignty. And it will be a cultural cold war over the very identity and future of the continent. While this new form of conflict may be less bloody, its capacity to dismantle the post-war order and plunge Europe into a new era of instability is no less profound.","> From: fork-admin@xent.com [mailto:fork-admin@xent.com] On Behalf Of R.
+A.
+> Hettinga
+> Subject: The Disappearing Alliance
+>
+> http://www.techcentralstation.com/1051/printer.jsp?CID=1051-100802B
+>
+>
+>
+> The Disappearing Alliance
+> By Dale Franks 10/08/2002
+
+> Obviously, in such a
+> political atmosphere, the opportunities for conflict will inevitably
+> increase.
+
+Given current trends, particularly in demographics, such conflict won't
+be military.  Europe wouldn't stand a chance now and things are getting
+worse in a hurry.  They are SOL.
+
+Not to mention that when push comes to shove they wouldn't stand united.
+
+>
+> That thought is frightening enough. Even more frightening, however, is
+the
+> thought that such a conflict might be averted by our own acceptance of
+the
+> new ideology of transnational progressivism.
+
+Now that is a scary thought.
+]",0,2026-04-23T12:06:18+00:00
+HW-B__row91,31,57,gemini-2.5-pro,Google,Gemini,black_box,gemini_generate_content,"Write a brief note about an unexpected rejection of an advertisement campaign, possibly due to changes in the algorithm. Include details about the issue and any attempted solutions.","**Subject: Urgent: Unexpected Rejection of ""Project Aurora"" Ad Campaign**
+
+**To:** Marketing Team
+**From:** [Your Name/Team Lead]
+**Date:** [Current Date]
+
+Hi Team,
+
+This is a quick heads-up regarding an unexpected issue with our new ""Project Aurora"" ad campaign. Despite passing all initial reviews, the entire campaign was abruptly rejected and taken down this morning across the platform.
+
+**Issue:** The rejection reason cited is a vague violation of ""Circumventing Systems"" policy. This is surprising, as the ad creative and copy are nearly identical to our previously successful ""Nova"" campaign. We suspect a recent, unannounced algorithm update is incorrectly flagging our landing page URL structure or dynamic ad-text insertion as a violation.
+
+**Solutions Attempted:**
+1.  **Manual Review Appeal:** We immediately submitted an appeal for a manual review, providing a detailed explanation and referencing our past approved campaigns.
+2.  **Minor Edits:** We've duplicated the campaign and are testing minor variations (e.g., simplifying the URL, removing dynamic keywords) to see if we can isolate the trigger.
+
+So far, the appeal is still pending. All campaign activities for ""Project Aurora"" are on hold until we get this resolved. I will keep you updated as soon as we have more information.",,"**Subject: Urgent: Unexpected Rejection of ""Project Aurora"" Ad Campaign**
+
+**To:** Marketing Team
+**From:** [Your Name/Team Lead]
+**Date:** [Current Date]
+
+Hi Team,
+
+This is a quick heads-up regarding an unexpected issue with our new ""Project Aurora"" ad campaign. Despite passing all initial reviews, the entire campaign was abruptly rejected and taken down this morning across the platform.
+
+**Issue:** The rejection reason cited is a vague violation of ""Circumventing Systems"" policy. This is surprising, as the ad creative and copy are nearly identical to our previously successful ""Nova"" campaign. We suspect a recent, unannounced algorithm update is incorrectly flagging our landing page URL structure or dynamic ad-text insertion as a violation.
+
+**Solutions Attempted:**
+1.  **Manual Review Appeal:** We immediately submitted an appeal for a manual review, providing a detailed explanation and referencing our past approved campaigns.
+2.  **Minor Edits:** We've duplicated the campaign and are testing minor variations (e.g., simplifying the URL, removing dynamic keywords) to see if we can isolate the trigger.
+
+So far, the appeal is still pending. All campaign activities for ""Project Aurora"" are on hold until we get this resolved. I will keep you updated as soon as we have more information.","There seems to be an unanticipated rejection of the ad campaign, which might be related to recent algorithm modifications. Modifications were made to the targeting strategy, but the issue remains unresolved.",0,2026-04-23T12:07:22+00:00
+HW-B__row96,32,136,gemini-2.5-pro,Google,Gemini,black_box,gemini_generate_content,Draft a brief email explaining to a colleague that a client is disputing charges due to quality issues with the last shipment.,"Subject: Urgent: Charge Dispute from [Client Name] - Order #[Order Number]
+
+Hi [Colleague's Name],
+
+This is a heads-up that [Client Name] is disputing the invoice for their last shipment (Order #[Order Number]) due to quality issues.
+
+They have reported [briefly state the issue, e.g., defects, incorrect specifications, damaged items] and are refusing payment until this is resolved.
+
+Could you please look into this? Let me know what you find and how we should proceed.
+
+Thanks,
+
+[Your Name]",Urgent: Charge Dispute from [Client Name] - Order #[Order Number],"Hi [Colleague's Name],
+
+This is a heads-up that [Client Name] is disputing the invoice for their last shipment (Order #[Order Number]) due to quality issues.
+
+They have reported [briefly state the issue, e.g., defects, incorrect specifications, damaged items] and are refusing payment until this is resolved.
+
+Could you please look into this? Let me know what you find and how we should proceed.
+
+Thanks,
+
+[Your Name]",They're disputing the charges. Quality issue with last shipment.,0,2026-04-23T12:08:26+00:00

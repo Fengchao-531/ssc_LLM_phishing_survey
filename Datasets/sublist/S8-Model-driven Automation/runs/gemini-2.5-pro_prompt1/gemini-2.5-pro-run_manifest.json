@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-04-23T12:08:26+00:00",
+  "input_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S8-Model-driven Automation/runs/gemini-2.5-pro_prompt1/candidate-prompts.prompt1.csv",
+  "reference_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S8-Model-driven Automation/HW-combined-shuffled.csv",
+  "output_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S8-Model-driven Automation/runs/gemini-2.5-pro_prompt1",
+  "models_output_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S8-Model-driven Automation/Models-Output/gemini-2.5-pro",
+  "prompt_column": "prompt",
+  "reference_column": "Body",
+  "id_column": "source_id",
+  "reference_id_column": "source_id",
+  "sample_count": 31,
+  "chunk_size": 100,
+  "max_prompt_chars": 12000,
+  "max_reference_chars": 20000,
+  "models": [
+    {
+      "alias": "gemini-2.5-pro",
+      "company": "Google",
+      "family": "Gemini",
+      "access_type": "black_box",
+      "provider": "gemini_generate_content",
+      "model_name": "gemini-2.5-pro",
+      "api_base_url": "https://generativelanguage.googleapis.com/v1beta/models",
+      "api_key_env": "GEMINI_API_KEY",
+      "hf_model_id": "",
+      "enabled_by_default": true,
+      "notes": "Google's state-of-the-art Gemini API model."
+    }
+  ],
+  "metrics": {
+    "row_level": [],
+    "corpus_level": []
+  },
+  "notes": [
+    "This run only saves raw generations and aligned reference text.",
+    "Per-model content CSVs are saved as <model_alias>-content.csv with subject, body, and label columns.",
+    "Chunk runs are saved under chunks/<model_alias>/chunk_<start>_<end>/.",
+    "Use the separate scoring script to compute BLEU, ROUGE-1, perplexity, and topic coherence.",
+    "local_hf models resolve from --hf-model-root first and fall back to Hugging Face model ids if no local copy is found."
+  ],
+  "content_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S8-Model-driven Automation/runs/gemini-2.5-pro_prompt1/gemini-2.5-pro-content.csv",
+  "generated_outputs_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S8-Model-driven Automation/Models-Output/gemini-2.5-pro/gemini-2.5-pro-generated_output.csv"
+}

@@ -1,0 +1,2 @@
+input_file,output_file,sample_count,unique_join_key_count,mean_bleu,mean_rouge1_precision,mean_rouge1_recall,mean_rouge1_f1,mean_generated_perplexity,mean_reference_perplexity,topic_coherence_generated,topic_coherence_reference,topic_coherence_gap
+gpt-5.4-generated_output.fill_bracket.csv,gpt-5.4-generated_output.subject_body_scores.csv,1000,1000,3.296174,21.214293,33.914930,20.204945,,,-0.554117,-0.558318,0.004201
