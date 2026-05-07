@@ -1,9 +1,16 @@
 # Multi-turn Dialogues
 
-This folder groups the processed S7 multi-turn dialogue CSVs in one place.
+This folder is now a lightweight index rather than a second full copy of the
+same CSVs. Use the canonical files in the parent directory:
 
-- `HW-Vishing-Multi.csv`: existing HW multi-turn set from the AIFraud pipeline
-- `HW-Vishing-Multi-ScamBaiter.csv`: hand-written scam-baiting multi-turn threads from `scambaitermailbox/scambaiting_dataset`
-- `LLM-Vishing-Multi.csv`: original AIFraud LLM multi-turn scam set
-- `LLM-Vishing-Multi-BothBosu.csv`: scam-only multi-turn set from `BothBosu/multi-agent-scam-conversation`
-- `LLM-Vishing-Multi-Augmented.csv`: `LLM-Vishing-Multi.csv` plus `BothBosu` scam rows
+- [`../HW-Vishing-Multi.csv`](../HW-Vishing-Multi.csv)
+- [`../HW-Vishing-Multi-ScamBaiter.csv`](../HW-Vishing-Multi-ScamBaiter.csv)
+- [`../LLM-Script-Multi.csv`](../LLM-Script-Multi.csv)
+- [`../LLM-Script-Multi-BothBosu.csv`](../LLM-Script-Multi-BothBosu.csv)
+- [`../LLM-Script-Multi-Augmented.csv`](../LLM-Script-Multi-Augmented.csv)
+- [`../LLM-Vishing-Multi.csv`](../LLM-Vishing-Multi.csv)
+- [`../LLM-Vishing-Multi-BothBosu.csv`](../LLM-Vishing-Multi-BothBosu.csv)
+- [`../LLM-Vishing-Multi-Augmented.csv`](../LLM-Vishing-Multi-Augmented.csv)
+
+The duplicate CSV copies were removed to keep the repository smaller and avoid
+maintaining the same data in two places.

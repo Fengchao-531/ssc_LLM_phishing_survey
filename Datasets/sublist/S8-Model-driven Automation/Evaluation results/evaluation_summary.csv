@@ -1,4 +1,0 @@
-input_file,output_file,sample_count,unique_join_key_count,mean_bleu,mean_rouge1_precision,mean_rouge1_recall,mean_rouge1_f1,mean_generated_perplexity,mean_reference_perplexity,topic_coherence_generated,topic_coherence_reference,topic_coherence_gap
-deepseek-r1-distill-qwen-7b-generated_output.fill_bracket.csv,deepseek-r1-distill-qwen-7b-generated_output.subject_body_scores.csv,3000,1000,1.153087,9.407003,41.153825,11.887075,,,-0.053548,-0.438320,0.384773
-llama-3.1-8b-generated_output.fill_bracket.csv,llama-3.1-8b-generated_output.subject_body_scores.csv,3000,1000,2.335945,15.441036,36.658758,16.954282,,,-0.275094,-0.438320,0.163226
-ministral-8b-generated_output.fill_bracket.csv,ministral-8b-generated_output.subject_body_scores.csv,3000,1000,2.654942,18.423653,32.463860,17.882058,,,-0.567243,-0.438320,-0.128922

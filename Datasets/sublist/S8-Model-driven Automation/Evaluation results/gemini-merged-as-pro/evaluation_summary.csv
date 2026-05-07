@@ -1,2 +1,0 @@
-input_file,output_file,sample_count,unique_join_key_count,mean_bleu,mean_rouge1_precision,mean_rouge1_recall,mean_rouge1_f1,mean_generated_perplexity,mean_reference_perplexity,topic_coherence_generated,topic_coherence_reference,topic_coherence_gap
-gemini-2.5-pro-generated_output.fill_bracket.csv,gemini-2.5-pro-generated_output.subject_body_scores.csv,1031,1000,2.177694,14.765128,39.665197,16.625614,,,-0.612897,-0.623770,0.010873
