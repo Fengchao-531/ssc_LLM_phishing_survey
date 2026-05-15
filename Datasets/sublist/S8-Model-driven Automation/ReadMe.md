@@ -1,40 +1,12 @@
 ## S8 Model-driven Automation
 
-This stage mixes small reference inputs with large project-generated artifacts.
-To keep the repository lightweight enough for normal GitHub browsing and cloning,
-the largest generated outputs are stored as zip archives under [`archives/`](archives).
+The S8 dataset is not publicly released.
 
-### Kept directly in Git
+This stage studies model-driven automation in the LLM-enabled phishing
+lifecycle. The underlying data may include reconstructed prompts, phishing
+examples, model-generated outputs, intermediate run artifacts, and evaluation
+results that could increase misuse risk if distributed publicly.
 
-- `HW-B.csv`, `HW-P.csv`, `HW-combined-shuffled.csv`
-- `candidate-prompts.csv`
-- generation, evaluation, and post-processing scripts
-
-### Archived in zip form
-
-- `archives/S8-runs.zip`
-  Contains the full benchmark run logs, chunk manifests, and intermediate outputs.
-- `archives/S8-models-output.zip`
-  Contains model-generated phishing outputs and fill-bracket post-processing outputs.
-- `archives/S8-evaluation-results.zip`
-  Contains subject/body scoring outputs and evaluation summaries.
-
-### Restore commands
-
-Run these from `Datasets/sublist/S8-Model-driven Automation/` after cloning:
-
-```bash
-unzip archives/S8-runs.zip
-unzip archives/S8-models-output.zip
-unzip archives/S8-evaluation-results.zip
-```
-
-After extraction, the restored directories are:
-
-- `runs/`
-- `Models-Output/`
-- `Evaluation results/`
-
-These archived artifacts are project-generated outputs rather than upstream public
-benchmarks. The benchmark entry point is
-`benchmark_llm_generation_against_reference.py`.
+For ethical and safety reasons, the S8 data files are withheld from the public
+repository. This directory intentionally keeps only this notice so that the
+stage remains documented without exposing sensitive artifacts.
