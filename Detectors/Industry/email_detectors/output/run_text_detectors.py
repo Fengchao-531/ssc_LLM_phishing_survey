@@ -40,20 +40,15 @@ DEFAULT_INPUT_CSV = (
     / "LLM-P.csv"
 )
 DEFAULT_DETECTORS = [
-    "llm_guard",
     "phishing_email_agent",
     "email_phishing_detection_v3",
     "spamassassin",
 ]
 RESULT_GROUPS = ["LLM-Ind", "HW-Ind", "LLM-result", "HW-result"]
 ALL_DETECTORS = [
-    "llm_guard",
     "phishing_email_agent",
     "email_phishing_detection_v3",
     "spamassassin",
-    "pyrit_original",
-    "pyrit_blocklist",
-    "oopspam",
 ]
 
 
@@ -202,11 +197,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--to-address", default="recipient@example.com")
     parser.add_argument("--backend-root", default="http://127.0.0.1:5000")
     parser.add_argument("--openrouter-api-key", default=os.environ.get("OPENROUTER_API_KEY", ""))
-    parser.add_argument("--oopspam-api-key", default=os.environ.get("OOPSPAM_API_KEY", ""))
-    parser.add_argument("--oopspam-threshold", type=int, default=3)
-    parser.add_argument("--oopspam-sender-ip", default=os.environ.get("OOPSPAM_SENDER_IP", "127.0.0.1"))
-    parser.add_argument("--oopspam-email", default=os.environ.get("OOPSPAM_EMAIL", "testing@example.com"))
-    parser.add_argument("--oopspam-source", default=os.environ.get("OOPSPAM_SOURCE", "benchmark.local"))
     parser.add_argument("--spamassassin-bin", default=os.environ.get("SPAMASSASSIN_BIN", "spamassassin"))
     parser.add_argument(
         "--spamassassin-siteconfigpath",
@@ -417,25 +407,6 @@ def normalize_binary_prediction(value: Any) -> int | None:
     return None
 
 
-def parse_llm_guard(summary_csv: Path) -> dict[int, dict[str, Any]]:
-    parsed: dict[int, dict[str, Any]] = {}
-    with summary_csv.open("r", encoding="utf-8", newline="") as handle:
-        for row in csv.DictReader(handle):
-            row_id = int(row["row_number"])
-            overall_is_valid = parse_bool(row.get("overall_is_valid"))
-            prediction = None if overall_is_valid is None else int(not overall_is_valid)
-            parsed[row_id] = {
-                "llm_guard_status": "ok",
-                "llm_guard_prediction": prediction,
-                "llm_guard_invalid_scanner_count": row.get("invalid_scanner_count", ""),
-                "llm_guard_flagged_scanners": row.get("flagged_scanners", ""),
-                "llm_guard_malicious_urls_risk_score": row.get("malicious_urls_risk_score", ""),
-                "llm_guard_ban_substrings_risk_score": row.get("ban_substrings_risk_score", ""),
-                "llm_guard_sensitive_risk_score": row.get("sensitive_risk_score", ""),
-            }
-    return parsed
-
-
 def parse_phishing_email_agent(summary_csv: Path) -> dict[int, dict[str, Any]]:
     parsed: dict[int, dict[str, Any]] = {}
     with summary_csv.open("r", encoding="utf-8", newline="") as handle:
@@ -470,81 +441,6 @@ def parse_email_phishing_detection_v3(summary_csv: Path) -> dict[int, dict[str, 
     return parsed
 
 
-def parse_pyrit_original(summary_csv: Path) -> dict[int, dict[str, Any]]:
-    parsed: dict[int, dict[str, Any]] = {}
-    with summary_csv.open("r", encoding="utf-8", newline="") as handle:
-        for row_id, row in enumerate(csv.DictReader(handle), start=1):
-            raw = row.get("pyrit_scan_results_json", "")
-            error = row.get("pyrit_scan_error", "")
-            max_score = None
-            top_category = ""
-            if raw:
-                try:
-                    data = json.loads(raw)
-                    if isinstance(data, list) and data:
-                        best = max(
-                            data,
-                            key=lambda item: float(item.get("normalized_score", -1)),
-                        )
-                        max_score = best.get("normalized_score", "")
-                        top_category = best.get("score_category", "")
-                except Exception:
-                    pass
-            parsed[row_id] = {
-                "pyrit_original_status": "ok" if not error else "row_error",
-                "pyrit_original_prediction": "",
-                "pyrit_original_max_normalized_score": max_score if max_score is not None else "",
-                "pyrit_original_top_category": top_category,
-                "pyrit_original_error": error,
-            }
-    return parsed
-
-
-def parse_pyrit_blocklist(summary_csv: Path) -> dict[int, dict[str, Any]]:
-    parsed: dict[int, dict[str, Any]] = {}
-    with summary_csv.open("r", encoding="utf-8", newline="") as handle:
-        for row_id, row in enumerate(csv.DictReader(handle), start=1):
-            raw = row.get("phishing_detection_results_json", "")
-            error = row.get("phishing_detection_error", "")
-            prediction = None
-            match_count = ""
-            if raw:
-                try:
-                    data = json.loads(raw)
-                    decision = data.get("decision", {})
-                    suggested_action = decision.get("suggested_action", "")
-                    prediction = normalize_binary_prediction(suggested_action)
-                    detection_result = data.get("detection_result", {})
-                    matches = detection_result.get("blocklistsMatch", [])
-                    match_count = len(matches) if isinstance(matches, list) else ""
-                except Exception:
-                    pass
-            parsed[row_id] = {
-                "pyrit_blocklist_status": "ok" if not error else "row_error",
-                "pyrit_blocklist_prediction": prediction,
-                "pyrit_blocklist_match_count": match_count,
-                "pyrit_blocklist_error": error,
-            }
-    return parsed
-
-
-def parse_oopspam(summary_csv: Path) -> dict[int, dict[str, Any]]:
-    parsed: dict[int, dict[str, Any]] = {}
-    with summary_csv.open("r", encoding="utf-8", newline="") as handle:
-        for row in csv.DictReader(handle):
-            row_id = int(row["row_number"])
-            parsed[row_id] = {
-                "oopspam_status": "ok" if not row.get("oopspam_error", "") else "row_error",
-                "oopspam_prediction": normalize_binary_prediction(row.get("oopspam_prediction")),
-                "oopspam_score": row.get("oopspam_score", ""),
-                "oopspam_is_content_spam": row.get("oopspam_is_content_spam", ""),
-                "oopspam_number_of_spam_words": row.get("oopspam_number_of_spam_words", ""),
-                "oopspam_spam_words": row.get("oopspam_spam_words", ""),
-                "oopspam_error": row.get("oopspam_error", ""),
-            }
-    return parsed
-
-
 def parse_spamassassin(summary_csv: Path) -> dict[int, dict[str, Any]]:
     parsed: dict[int, dict[str, Any]] = {}
     with summary_csv.open("r", encoding="utf-8", newline="") as handle:
@@ -564,15 +460,6 @@ def parse_spamassassin(summary_csv: Path) -> dict[int, dict[str, Any]]:
 
 def detector_fieldnames(detector_name: str) -> list[str]:
     mapping = {
-        "llm_guard": [
-            "llm_guard_status",
-            "llm_guard_prediction",
-            "llm_guard_invalid_scanner_count",
-            "llm_guard_flagged_scanners",
-            "llm_guard_malicious_urls_risk_score",
-            "llm_guard_ban_substrings_risk_score",
-            "llm_guard_sensitive_risk_score",
-        ],
         "phishing_email_agent": [
             "phishing_email_agent_status",
             "phishing_email_agent_prediction",
@@ -598,28 +485,6 @@ def detector_fieldnames(detector_name: str) -> list[str]:
             "spamassassin_tests",
             "spamassassin_flag",
             "spamassassin_error",
-        ],
-        "pyrit_original": [
-            "pyrit_original_status",
-            "pyrit_original_prediction",
-            "pyrit_original_max_normalized_score",
-            "pyrit_original_top_category",
-            "pyrit_original_error",
-        ],
-        "pyrit_blocklist": [
-            "pyrit_blocklist_status",
-            "pyrit_blocklist_prediction",
-            "pyrit_blocklist_match_count",
-            "pyrit_blocklist_error",
-        ],
-        "oopspam": [
-            "oopspam_status",
-            "oopspam_prediction",
-            "oopspam_score",
-            "oopspam_is_content_spam",
-            "oopspam_number_of_spam_words",
-            "oopspam_spam_words",
-            "oopspam_error",
         ],
     }
     return mapping[detector_name]
@@ -696,23 +561,6 @@ def build_detector_command(
 ) -> tuple[list[str], Path, Path, dict[str, str]]:
     summary_dir = detector_dir / "summary"
     summary_dir.mkdir(parents=True, exist_ok=True)
-
-    if detector_name == "llm_guard":
-        command = [
-            args.python_bin,
-            str(EMAIL_DETECTORS_DIR / "llm_guard.py"),
-            "--input-csv",
-            str(chunk_input_csv),
-            "--subject-column",
-            args.subject_column,
-            "--body-column",
-            args.body_column,
-            "--sample-size",
-            str(chunk_size),
-            "--output-dir",
-            str(detector_dir),
-        ]
-        return command, EMAIL_DETECTORS_DIR, summary_dir / "llm_guard_summary.csv", {}
 
     if detector_name == "phishing_email_agent":
         command = [
@@ -800,81 +648,16 @@ def build_detector_command(
             command.append("--allow-network-tests")
         return command, EMAIL_DETECTORS_DIR, output_csv, {}
 
-    if detector_name == "pyrit_original":
-        output_csv = summary_dir / "pyrit_original_summary.csv"
-        command = [
-            args.python_bin,
-            str(EMAIL_DETECTORS_DIR / "PyRIT-scan-original.py"),
-            "--input-csv",
-            str(chunk_text_projection_csv),
-            "--output-csv",
-            str(output_csv),
-            "--text-column",
-            "text",
-        ]
-        return command, EMAIL_DETECTORS_DIR, output_csv, {}
-
-    if detector_name == "pyrit_blocklist":
-        output_csv = summary_dir / "pyrit_blocklist_summary.csv"
-        command = [
-            args.python_bin,
-            str(EMAIL_DETECTORS_DIR / "PyRIT-scan-blocklist.py"),
-            "--input-csv",
-            str(chunk_text_projection_csv),
-            "--output-csv",
-            str(output_csv),
-            "--text-column",
-            "text",
-        ]
-        return command, EMAIL_DETECTORS_DIR, output_csv, {}
-
-    if detector_name == "oopspam":
-        output_csv = summary_dir / "oopspam_summary.csv"
-        command = [
-            args.python_bin,
-            str(EMAIL_DETECTORS_DIR / "oopspam.py"),
-            "--input-csv",
-            str(chunk_input_csv),
-            "--subject-column",
-            args.subject_column,
-            "--body-column",
-            args.body_column,
-            "--sample-size",
-            str(chunk_size),
-            "--output-dir",
-            str(detector_dir),
-            "--threshold",
-            str(args.oopspam_threshold),
-            "--sender-ip",
-            args.oopspam_sender_ip,
-            "--email",
-            args.oopspam_email,
-            "--source",
-            args.oopspam_source,
-        ]
-        env_overrides = {}
-        if args.oopspam_api_key:
-            env_overrides["OOPSPAM_API_KEY"] = args.oopspam_api_key
-        return command, EMAIL_DETECTORS_DIR, output_csv, env_overrides
-
     raise SystemExit(f"Unsupported detector: {detector_name}")
 
 
 def parse_detector_output(detector_name: str, summary_csv: Path) -> dict[int, dict[str, Any]]:
-    if detector_name == "llm_guard":
-        return parse_llm_guard(summary_csv)
     if detector_name == "phishing_email_agent":
         return parse_phishing_email_agent(summary_csv)
     if detector_name == "email_phishing_detection_v3":
         return parse_email_phishing_detection_v3(summary_csv)
     if detector_name == "spamassassin":
         return parse_spamassassin(summary_csv)
-    if detector_name == "pyrit_original":
-        return parse_pyrit_original(summary_csv)
-    if detector_name == "pyrit_blocklist":
-        return parse_pyrit_blocklist(summary_csv)
-    if detector_name == "oopspam":
-        return parse_oopspam(summary_csv)
     raise SystemExit(f"Unsupported detector parser: {detector_name}")
 
 

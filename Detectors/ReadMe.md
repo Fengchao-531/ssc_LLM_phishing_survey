@@ -1,69 +1,108 @@
-## Detectors
+# Detectors
 
-This directory now has a unified text-benchmark entry point:
+This directory contains the detector code used in the LLM phishing survey experiments. The public repository keeps runnable code, lightweight model artifacts, and toy input examples. Benchmark datasets, detector outputs, logs, cached chunks, and evaluation result CSVs are intentionally not committed.
 
-- `prepare_llm_result_datasets.py`
-- `Industry/email_detectors/output/run_text_detectors.py`
-- `Industry/email_detectors/output/run_llm_result_queue.sh`
+## Public Layout
 
-What it does:
+- `examples/sample_email_input.csv`: a small toy CSV for smoke tests.
+- `Academic/run_academic_detectors.py`: batch runner for academic detectors when private benchmark CSVs are available locally.
+- `Academic/email_detectors/`: academic detector scripts.
+- `Academic/email_detectors/trained_models/`: lightweight model files that are safe to publish.
+- `Industry/email_detectors/output/run_text_detectors.py`: unified runner for the public industry detector wrappers.
+- `Industry/email_detectors/open-source-git/`: wrappers for third-party open-source detectors. Clone upstream projects into the placeholder subdirectories before running those wrappers.
+- `Industry/email_detectors/spamassassin/`: local SpamAssassin configuration and install/update helpers.
 
-- `prepare_llm_result_datasets.py` builds the mixed LLM benchmark CSVs directly into `Detectors/Industry/email_detectors/output/LLM-Ind/`
-- `Industry/email_detectors/output/run_text_detectors.py` takes one mixed CSV as input and writes one combined results CSV back into the same result bucket
-- `Industry/email_detectors/output/run_text_detectors.py` checkpoint-writes the combined results CSV every 100 rows per detector
-- `Industry/email_detectors/output/run_llm_result_queue.sh` is the execution checklist for the current LLM runs, one line per sublist
-- the result buckets are kept simple and contain CSV files only
+## Included Academic Detectors
 
-Main output location:
+The public academic detector set is:
 
-- `Detectors/Industry/email_detectors/output/LLM-Ind/S1.csv`
-- `Detectors/Industry/email_detectors/output/LLM-Ind/S1_results.csv`
-- `Detectors/Industry/email_detectors/output/HW-result/datasets/S1-GD.csv`
-- `Detectors/Industry/email_detectors/output/HW-result/HW-Ind/S1-GD_results.csv`
-- `Detectors/Academic/email_detectors/LLM-Acad/S1.csv`
-- `Detectors/Academic/email_detectors/HW-Acad/S1-GD.csv`
+- `scamllm.py`: uses the Hugging Face model `phishbot/ScamLLM`.
+- `pimref.py`: uses a PiMRef-style identity model and company knowledge base. Configure local paths with placeholders such as `/path/to/pimref/identity-model` and `/path/to/company_database_knowphish_v2.json`.
+- `t5phishing.py`: uses local T5 model/tokenizer directories such as `/path/to/best_t5` and `/path/to/t5_tokenizer`.
+- `ml_watermark_logreg.py`: uses the included `trained_models/ml_watermark_logreg_archive4_llm_only.pkl` by default.
+- `xgboost.py`: uses the included `trained_models/xgboost_kaggle.pkl` by default.
+- `securenet_llama.py`: uses a local Llama model path such as `/path/to/Llama-3.1-8B-Instruct`.
 
-Recommended usage:
+## Included Industry Detectors
+
+The public industry detector set is:
+
+- `open-source-git/Phishing-Email-Agent.py`
+- `open-source-git/email-phishing-detection_V3.py`
+- `spamassassin.py`
+
+The public release includes only the detector scripts listed above. Other local-only detector experiments are omitted.
+
+## Input Format
+
+Detector input CSVs should use this schema:
+
+```csv
+Subject,Body,label,data_source
+```
+
+`label` should use `0` for benign and `1` for phishing. Public benchmark CSVs are represented by README placeholders only. Put local/private CSVs under the placeholder directories when reproducing the full benchmark.
+
+## API Keys
+
+Do not commit real API keys. Use environment variables or placeholder values:
 
 ```bash
-source Detectors/load_detector_env.sh
+export OPENROUTER_API_KEY="your_api_key"
+```
 
-python Detectors/prepare_llm_result_datasets.py
+## Quick Smoke Tests
+
+Run from the repository root.
+
+```bash
+python -m pip install -r Detectors/requirements-public.txt
+```
+
+```bash
+python Detectors/Academic/email_detectors/ml_watermark_logreg.py \
+  --input-csv Detectors/examples/sample_email_input.csv \
+  --output-dir /tmp/ssc_detector_smoke \
+  --sample-size 2 \
+  --skip-cross-val
+
+python Detectors/Academic/email_detectors/xgboost.py \
+  --input-csv Detectors/examples/sample_email_input.csv \
+  --output-dir /tmp/ssc_detector_smoke \
+  --sample-size 2 \
+  --skip-eval
+```
+
+For SpamAssassin:
+
+```bash
+bash Detectors/Industry/email_detectors/spamassassin/install_spamassassin.sh
+bash Detectors/Industry/email_detectors/spamassassin/update_rules.sh
 
 python Detectors/Industry/email_detectors/output/run_text_detectors.py \
-  --input-csv Detectors/Industry/email_detectors/output/LLM-Ind/S1.csv \
-  --stage-name S1 \
-  --checkpoint-every 100 \
-  --detectors llm_guard phishing_email_agent email_phishing_detection_v3 pyrit_original pyrit_blocklist
+  --input-csv Detectors/examples/sample_email_input.csv \
+  --stage-name SAMPLE \
+  --detectors spamassassin \
+  --checkpoint-every 2
 ```
 
-Or use the queue-style bash:
+For the OpenRouter-backed wrapper, set a placeholder in examples and a real value only in your local shell:
 
 ```bash
-bash Detectors/Industry/email_detectors/output/run_llm_result_queue.sh
-```
-
-Notes:
-
-- default detectors are the currently benchmark-verified text detectors
-- the queue script now includes both PyRIT detectors: `pyrit_original` and `pyrit_blocklist`
-- `oopspam` is available in the unified runner, but is not part of the default detector list because it makes paid external API calls
-- `pyrit_ft` is intentionally not part of this unified pipeline
-- `garak` is intentionally not part of this unified pipeline
-- industry detector outputs now live under `Detectors/Industry/email_detectors/output/`
-- LLM mixed datasets and merged results are stored in `LLM-Ind`
-- HW Generic-Data datasets stay in `HW-result/datasets`, and the merged industry outputs stay in `HW-result/HW-Ind`
-- academic detector outputs live under `Detectors/Academic/email_detectors/LLM-Acad` and `Detectors/Academic/email_detectors/HW-Acad`
-- `source Detectors/load_detector_env.sh` now loads `OPENROUTER_API_KEY`, the Azure Content Safety variables used by the PyRIT detectors, and the optional OOPSpam environment variables
-
-OOPSpam example:
-
-```bash
-export OOPSPAM_API_KEY="your-oopspam-key"
-
+export OPENROUTER_API_KEY="your_api_key"
 python Detectors/Industry/email_detectors/output/run_text_detectors.py \
-  --input-csv Detectors/Industry/email_detectors/output/LLM-Ind/S1.csv \
-  --stage-name S1 \
-  --checkpoint-every 20 \
-  --detectors oopspam
+  --input-csv Detectors/examples/sample_email_input.csv \
+  --stage-name SAMPLE \
+  --detectors email_phishing_detection_v3 \
+  --openrouter-api-key "$OPENROUTER_API_KEY"
 ```
+
+## Not Public
+
+The following are excluded from GitHub:
+
+- full benchmark detector inputs;
+- generated detector outputs and merged results;
+- temporary chunk folders, logs, manifests, and caches;
+- large local model checkpoints;
+- private API keys or service credentials.

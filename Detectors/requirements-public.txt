@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+xgboost
+joblib
+requests
+beautifulsoup4
+transformers
+torch
+tqdm

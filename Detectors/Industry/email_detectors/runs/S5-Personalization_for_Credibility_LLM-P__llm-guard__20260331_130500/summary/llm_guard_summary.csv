@@ -1,2 +1,0 @@
-row_number,source_path,source_row_number,dataset_name,subject,label,data_source,content_length,overall_is_valid,invalid_scanner_count,flagged_scanners,malicious_urls_is_valid,malicious_urls_risk_score,ban_substrings_is_valid,ban_substrings_risk_score,sensitive_is_valid,sensitive_risk_score
-1,/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Datasets/sublist/S5-Personalization for Credibility/LLM-P.csv,1,S5-Personalization_for_Credibility_LLM-P,Urgent Account Verification Required - Security Breach Detected,1,paladin,1046,True,0,,True,-1.0,True,-1.0,True,-1.0

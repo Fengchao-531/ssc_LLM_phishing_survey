@@ -5,7 +5,24 @@ Datasets/LLM-Benign
 Datasets/LLM-Phishing
 Detectors/Industry/email_detectors/open-source-git/email-phishing-detection_V3
 Detectors/Industry/email_detectors/open-source-git/Phishing-Email-Agent
-Detectors/output/logs
+Detectors/**/__pycache__/
+Detectors/**/*.pyc
+Detectors/**/results/
+Detectors/**/runs/
+Detectors/**/logs/
+Detectors/**/_logs/
+Detectors/**/_detector_runs/
+Detectors/**/_debug*/
+Detectors/**/*.before_*.csv
+Detectors/**/*.backup.csv
+Detectors/Academic/email_detectors/HW-Acad/*.csv
+Detectors/Academic/email_detectors/LLM-Acad/*.csv
+Detectors/Industry/email_detectors/output/LLM-Ind/*.csv
+Detectors/Industry/email_detectors/output/HW-result/**/*.csv
+Detectors/Industry/email_detectors/output/**/*.json
+!Detectors/examples/*.csv
+!Detectors/**/README.md
+!Detectors/**/ReadMe.md
 
 diagrams
 
@@ -23,7 +40,5 @@ env/
 *.tar.gz
 *.sh
 !Detectors/Industry/email_detectors/run_email-phishing-detection_V3.sh
-!Detectors/Industry/email_detectors/run_llm_guard.sh
-!Detectors/Industry/email_detectors/output/run_spamassassin_industry.sh
 !Detectors/Industry/email_detectors/spamassassin/install_spamassassin.sh
 !Detectors/Industry/email_detectors/spamassassin/update_rules.sh
