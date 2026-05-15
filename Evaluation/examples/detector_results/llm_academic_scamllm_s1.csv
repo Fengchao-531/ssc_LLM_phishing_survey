@@ -1,0 +1,5 @@
+Subject,Body,label,model_prediction
+Portal,Please use the normal portal for updates.,0,0
+Security,The text asks for private account confirmation.,1,1
+Team,The team agenda is attached in the workspace.,0,0
+Access,The message pressures a sensitive account action.,1,0

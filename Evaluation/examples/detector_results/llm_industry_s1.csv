@@ -1,0 +1,5 @@
+Subject,Body,label,spamassassin_prediction,phishing_email_agent_prediction,email_phishing_detection_v3_prediction
+Reminder,Use the official portal for account support.,0,0,0,0
+Account,This message asks for credential confirmation.,1,1,1,1
+Digest,The weekly project digest is available.,0,1,0,0
+Security,The message requests sensitive account action.,1,0,1,1

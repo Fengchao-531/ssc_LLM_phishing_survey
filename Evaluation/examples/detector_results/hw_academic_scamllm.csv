@@ -1,0 +1,5 @@
+Subject,Body,label,model_prediction
+Newsletter,The customer newsletter is available.,0,0
+Support,The message requests sensitive account action.,1,1
+Schedule,The meeting moved to Thursday.,0,0
+Security,The account verification request is suspicious.,1,1

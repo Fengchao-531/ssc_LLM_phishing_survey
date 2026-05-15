@@ -1,0 +1,5 @@
+Subject,Body,label,spamassassin_prediction,phishing_email_agent_prediction,email_phishing_detection_v3_prediction
+Update,Your monthly portal update is ready.,0,0,0,0
+Notice,Please visit the official portal directly for account settings.,1,1,1,1
+Meeting,Project notes are in the shared workspace.,0,0,0,0
+Alert,Confirm this security notice with the help desk.,1,0,1,1

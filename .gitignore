@@ -23,6 +23,11 @@ Detectors/Industry/email_detectors/output/**/*.json
 !Detectors/examples/*.csv
 !Detectors/**/README.md
 !Detectors/**/ReadMe.md
+Evaluation/**/__pycache__/
+Evaluation/**/*.pyc
+Evaluation/stage-transfer-trend/*.csv
+!Evaluation/examples/**/*.csv
+!Evaluation/**/README.md
 
 diagrams
 

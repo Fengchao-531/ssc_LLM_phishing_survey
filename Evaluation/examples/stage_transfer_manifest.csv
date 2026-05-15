@@ -1,0 +1,7 @@
+dataset_family,detector_family,stage,path,detector,prediction_column,label_column
+hw,industry,HW,detector_results/hw_industry.csv,,spamassassin_prediction,label
+hw,industry,HW,detector_results/hw_industry.csv,,phishing_email_agent_prediction,label
+hw,industry,HW,detector_results/hw_industry.csv,,email_phishing_detection_v3_prediction,label
+llm,industry,S1,detector_results/llm_industry_s1.csv,,,,label
+hw,academic,HW,detector_results/hw_academic_scamllm.csv,scamllm,model_prediction,label
+llm,academic,S1,detector_results/llm_academic_scamllm_s1.csv,scamllm,model_prediction,label
