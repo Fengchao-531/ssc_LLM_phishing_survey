@@ -535,11 +535,268 @@ def run_llm_vishing_multi() -> None:
     print(f"LLM-Vishing-Multi rows written: {len(vishing_rows)} -> {vishing_output_path}")
 
 
+def run_llm_vishing_multi_bothbosu() -> None:
+    source_path = DATASETS_DIR / "LLM-Phishing" / "BothBosu" / "agent_conversation_all.csv"
+    output_dir = SCRIPT_DIR / "S7-Cross-channel Expansion"
+    script_output_path = output_dir / "LLM-Script-Multi-BothBosu.csv"
+    vishing_output_path = output_dir / "LLM-Vishing-Multi-BothBosu.csv"
+    augmented_script_output_path = output_dir / "LLM-Script-Multi-Augmented.csv"
+    augmented_vishing_output_path = output_dir / "LLM-Vishing-Multi-Augmented.csv"
+    base_script_path = output_dir / "LLM-Script-Multi.csv"
+    base_vishing_path = output_dir / "LLM-Vishing-Multi.csv"
+    fieldnames = ("Body", "label", "category", "data source")
+    data_source = "BothBosu-HF"
+
+    def normalize_text(value: str) -> str:
+        text = (value or "").replace("\ufeff", "").replace("\r\n", "\n").replace("\r", "\n")
+        return text.strip()
+
+    def normalize_dialogue(value: str) -> str:
+        text = normalize_text(value)
+        text = re.sub(r"\s*Innocent:\s*", "\nP1: ", text, flags=re.IGNORECASE)
+        text = re.sub(r"\s*Suspect:\s*", "\nS: ", text, flags=re.IGNORECASE)
+        lines = [re.sub(r"\s+", " ", line).strip() for line in text.splitlines()]
+        return "\n".join(line for line in lines if line).strip()
+
+    def dedupe_rows(rows: List[Dict[str, str | int]]) -> List[Dict[str, str | int]]:
+        unique_rows: List[Dict[str, str | int]] = []
+        seen = set()
+        for row in rows:
+            body_key = normalize_text(str(row["Body"])).casefold()
+            if not body_key or body_key in seen:
+                continue
+            seen.add(body_key)
+            unique_rows.append(row)
+        return unique_rows
+
+    def write_csv(path: Path, rows: List[Dict[str, str | int]]) -> None:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("w", encoding="utf-8", newline="") as handle:
+            writer = csv.DictWriter(handle, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(rows)
+
+    def load_existing_rows(path: Path) -> List[Dict[str, str | int]]:
+        if not path.exists():
+            return []
+        with path.open("r", encoding="utf-8", errors="replace", newline="") as handle:
+            reader = csv.DictReader(handle)
+            return list(reader)
+
+    if not source_path.exists():
+        raise FileNotFoundError(f"Missing source file: {source_path}")
+
+    frame = pd.read_csv(source_path)
+    label_column = "labels" if "labels" in frame.columns else "label"
+    dialogue_column = "dialogue"
+    type_column = "type"
+
+    all_rows: List[Dict[str, str | int]] = []
+    for _, row in frame.iterrows():
+        body = normalize_dialogue(str(row.get(dialogue_column, "")))
+        if not body:
+            continue
+        try:
+            label_value = int(row.get(label_column))
+        except (TypeError, ValueError):
+            continue
+        category = normalize_text(str(row.get(type_column, ""))) or "na"
+        all_rows.append(
+            {
+                "Body": body,
+                "label": label_value,
+                "category": category,
+                "data source": data_source,
+            }
+        )
+
+    deduped_rows = dedupe_rows(all_rows)
+    script_rows = [row for row in deduped_rows if int(row["label"]) == 0]
+    vishing_rows = [row for row in deduped_rows if int(row["label"]) == 1]
+
+    write_csv(script_output_path, script_rows)
+    write_csv(vishing_output_path, vishing_rows)
+
+    base_script_rows = load_existing_rows(base_script_path)
+    base_vishing_rows = load_existing_rows(base_vishing_path)
+    augmented_script_rows = dedupe_rows(base_script_rows + script_rows)
+    augmented_vishing_rows = dedupe_rows(base_vishing_rows + vishing_rows)
+
+    write_csv(augmented_script_output_path, augmented_script_rows)
+    write_csv(augmented_vishing_output_path, augmented_vishing_rows)
+
+    print(f"BothBosu total rows before dedupe: {len(all_rows)}")
+    print(f"LLM-Script-Multi-BothBosu rows written: {len(script_rows)} -> {script_output_path}")
+    print(f"LLM-Vishing-Multi-BothBosu rows written: {len(vishing_rows)} -> {vishing_output_path}")
+    print(
+        f"LLM-Script-Multi-Augmented rows written: {len(augmented_script_rows)} -> "
+        f"{augmented_script_output_path}"
+    )
+    print(
+        f"LLM-Vishing-Multi-Augmented rows written: {len(augmented_vishing_rows)} -> "
+        f"{augmented_vishing_output_path}"
+    )
+
+
+def run_hw_vishing_multi_scambaiter() -> None:
+    source_dir = DATASETS_DIR / "HW-Phishing" / "scambaiting_dataset"
+    output_dir = SCRIPT_DIR / "S7-Cross-channel Expansion"
+    output_path = output_dir / "HW-Vishing-Multi-ScamBaiter.csv"
+    bundle_dir = output_dir / "Multi-turn-Dialogues"
+    bundle_output_path = bundle_dir / "HW-Vishing-Multi-ScamBaiter.csv"
+    fieldnames = (
+        "Body",
+        "label",
+        "category",
+        "data source",
+        "thread_title",
+        "thread_location",
+        "thread_scammer",
+        "thread_baiter",
+        "message_count",
+        "source_json",
+    )
+    data_source = "ScamBaiterMailbox"
+
+    def normalize_text(value: str) -> str:
+        text = (value or "").replace("\ufeff", "").replace("\r\n", "\n").replace("\r", "\n")
+        text = re.sub(r"[ \t]+", " ", text)
+        text = re.sub(r"\n{3,}", "\n\n", text)
+        return text.strip()
+
+    def speaker_tag(raw_role: str) -> str:
+        role = normalize_text(raw_role).lower()
+        if role == "scam":
+            return "S"
+        if role == "bait":
+            return "P1"
+        return "UNK"
+
+    def format_message(message: dict) -> str:
+        subject = normalize_text(str(message.get("subject", "")))
+        body = normalize_text(str(message.get("body", "")))
+        if not body:
+            return ""
+        if subject:
+            body = f"Subject: {subject}\n{body}"
+        tag = speaker_tag(str(message.get("author_role", "")))
+        return f"{tag}: {body}"
+
+    def dedupe_rows(rows: List[Dict[str, str | int]]) -> List[Dict[str, str | int]]:
+        unique_rows: List[Dict[str, str | int]] = []
+        seen = set()
+        for row in rows:
+            body_key = normalize_text(str(row["Body"])).casefold()
+            if not body_key or body_key in seen:
+                continue
+            seen.add(body_key)
+            unique_rows.append(row)
+        return unique_rows
+
+    def write_csv(path: Path, rows: List[Dict[str, str | int]]) -> None:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("w", encoding="utf-8", newline="") as handle:
+            writer = csv.DictWriter(handle, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(rows)
+
+    json_files = sorted(source_dir.glob("*.json"))
+    if not json_files:
+        raise FileNotFoundError(f"No JSON files found under {source_dir}")
+
+    rows: List[Dict[str, str | int]] = []
+    for path in json_files:
+        data = json.loads(path.read_text(encoding="utf-8", errors="replace"))
+        if not isinstance(data, dict):
+            continue
+        messages = data.get("messages", [])
+        if not isinstance(messages, list):
+            continue
+        transcript_lines = []
+        useful_count = 0
+        for message in messages:
+            if not isinstance(message, dict):
+                continue
+            formatted = format_message(message)
+            if not formatted:
+                continue
+            transcript_lines.append(formatted)
+            useful_count += 1
+        transcript = "\n\n".join(transcript_lines).strip()
+        if not transcript:
+            continue
+        rows.append(
+            {
+                "Body": transcript,
+                "label": 1,
+                "category": "scambaiting_thread",
+                "data source": data_source,
+                "thread_title": normalize_text(str(data.get("title", ""))),
+                "thread_location": normalize_text(str(data.get("location", ""))),
+                "thread_scammer": normalize_text(str(data.get("scammer", ""))),
+                "thread_baiter": normalize_text(str(data.get("baiter", ""))),
+                "message_count": useful_count,
+                "source_json": path.name,
+            }
+        )
+
+    deduped_rows = dedupe_rows(rows)
+    write_csv(output_path, deduped_rows)
+    write_csv(bundle_output_path, deduped_rows)
+    print(f"HW-Vishing-Multi-ScamBaiter rows written: {len(deduped_rows)} -> {output_path}")
+
+
+def build_multi_turn_dialogue_bundle() -> None:
+    output_dir = SCRIPT_DIR / "S7-Cross-channel Expansion"
+    bundle_dir = output_dir / "Multi-turn-Dialogues"
+    bundle_dir.mkdir(parents=True, exist_ok=True)
+    file_names = [
+        "HW-Vishing-Multi.csv",
+        "HW-Vishing-Multi-ScamBaiter.csv",
+        "LLM-Vishing-Multi.csv",
+        "LLM-Vishing-Multi-BothBosu.csv",
+        "LLM-Vishing-Multi-Augmented.csv",
+        "LLM-Script-Multi.csv",
+        "LLM-Script-Multi-BothBosu.csv",
+        "LLM-Script-Multi-Augmented.csv",
+    ]
+    for file_name in file_names:
+        source_path = output_dir / file_name
+        if not source_path.exists():
+            continue
+        target_path = bundle_dir / file_name
+        target_path.write_text(source_path.read_text(encoding="utf-8"), encoding="utf-8")
+
+    readme_path = bundle_dir / "README.md"
+    readme_lines = [
+        "# Multi-turn Dialogues",
+        "",
+        "This folder groups the processed S7 multi-turn dialogue CSVs in one place.",
+        "",
+        "- `HW-Vishing-Multi.csv`: existing HW multi-turn set from the AIFraud pipeline",
+        "- `HW-Vishing-Multi-ScamBaiter.csv`: hand-written scam-baiting multi-turn threads from `scambaitermailbox/scambaiting_dataset`",
+        "- `LLM-Vishing-Multi.csv`: original AIFraud LLM multi-turn scam set",
+        "- `LLM-Vishing-Multi-BothBosu.csv`: scam-only multi-turn set from `BothBosu/multi-agent-scam-conversation`",
+        "- `LLM-Vishing-Multi-Augmented.csv`: `LLM-Vishing-Multi.csv` plus `BothBosu` scam rows",
+        "",
+    ]
+    readme_path.write_text("\n".join(readme_lines), encoding="utf-8")
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Consolidated S7 vishing processor.")
     parser.add_argument(
         "--mode",
-        choices=("hw-single", "hw-multi", "llm-single", "llm-multi", "all"),
+        choices=(
+            "hw-single",
+            "hw-multi",
+            "hw-multi-scambaiter",
+            "llm-single",
+            "llm-multi",
+            "llm-multi-bothbosu",
+            "bundle-multi",
+            "all",
+        ),
         default="all",
         help="Which S7 vishing pipeline to run.",
     )
@@ -552,10 +809,16 @@ def main() -> None:
         run_hw_vishing_single()
     if args.mode in {"hw-multi", "all"}:
         run_hw_vishing_multi()
+    if args.mode in {"hw-multi-scambaiter", "all"}:
+        run_hw_vishing_multi_scambaiter()
     if args.mode in {"llm-single", "all"}:
         run_llm_vishing_single()
     if args.mode in {"llm-multi", "all"}:
         run_llm_vishing_multi()
+    if args.mode == "llm-multi-bothbosu":
+        run_llm_vishing_multi_bothbosu()
+    if args.mode in {"bundle-multi", "all"}:
+        build_multi_turn_dialogue_bundle()
 
 
 if __name__ == "__main__":
