@@ -2,6 +2,12 @@
 
 This directory contains the public visualisation assets used to inspect detector behavior across the LLM-enabled phishing lifecycle.
 
+The interactive viewer is deployed through GitHub Pages:
+
+```text
+https://fengchao-531.github.io/ssc_LLM_phishing_survey/
+```
+
 ## Directory layout
 
 - `index.html`: a static interaction page for selecting detector, stage, and metric mode.
@@ -18,7 +24,7 @@ The `output/` directory is organized by detector name. Each detector folder cont
 - `S6/`: combined visualisations for `S6-MPG`, `S6-UTA`, and `S6-fuzzer`.
 - `S8/`: two combined rows covering the six S8 model-output groups.
 
-The exported CSV and JSON files contain numeric plotting values and aggregate summaries only. Raw email text and row-level detector outputs are not included.
+The `output/` directory contains README files and PNG figures only. Raw email text, row-level detector outputs, CSV files, and JSON files are not included in `output/`.
 
 ## WVAE source
 

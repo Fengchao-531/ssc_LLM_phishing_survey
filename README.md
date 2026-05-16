@@ -14,7 +14,11 @@ Countering these dynamically changing attack campaigns requires a comprehensive 
 
 ## Interactive Visualisation
 
-The detector visualisation interface is in [`Visualisation/index.html`](Visualisation/index.html). It is a static page backed by the exported assets in [`Visualisation/output/`](Visualisation/output/) and the aggregate metrics in [`Visualisation/data/detector_metrics.json`](Visualisation/data/detector_metrics.json).
+GitHub README files cannot execute JavaScript, so the interactive detector viewer is served through GitHub Pages:
+
+**https://fengchao-531.github.io/ssc_LLM_phishing_survey/**
+
+The viewer is backed by the exported assets in [`Visualisation/output/`](Visualisation/output/) and the aggregate metrics in [`Visualisation/data/detector_metrics.json`](Visualisation/data/detector_metrics.json).
 
 The default view is:
 
@@ -24,12 +28,6 @@ The default view is:
 - metrics shown: `MCC`, `Recall`, and `TNR`
 
 The interface lets users select a detector, switch between `overview` and lifecycle stages (`S1`, `S2`, `S4`, `S5`, `S6`, `S8`), and choose either the compact metrics view or a recall-focused view. The figures update to show the corresponding surrogate response maps, heatmaps, and false-negative persuasion boxplots.
-
-For GitHub Pages, serve the repository root and open:
-
-```text
-Visualisation/index.html
-```
 
 For local use, start a simple static server from the repository root:
 
@@ -41,4 +39,4 @@ Then open `http://localhost:8000/Visualisation/index.html`.
 
 ## Safety Note
 
-The public release avoids uploading raw phishing emails, full detector row outputs, API keys, or restricted S8 model-output data. Visualisation CSV and JSON files contain numeric plotting values and aggregate summaries only.
+The public release avoids uploading raw phishing emails, full detector row outputs, API keys, or restricted S8 model-output data. The `Visualisation/output/` directory contains README files and PNG figures only; aggregate metrics for the viewer are stored separately in `Visualisation/data/`.
