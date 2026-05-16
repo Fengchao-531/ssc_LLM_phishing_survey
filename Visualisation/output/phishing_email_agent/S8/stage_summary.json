@@ -1,0 +1,38 @@
+{
+  "combined_boxplot_outputs": [
+    {
+      "output_png": "fn_selected_group_boxplots_row1.png",
+      "stages": [
+        "S8-claude",
+        "S8-deepseek",
+        "S8-gemini"
+      ]
+    },
+    {
+      "output_png": "fn_selected_group_boxplots_row2.png",
+      "stages": [
+        "S8-gpt",
+        "S8-llama",
+        "S8-ministral"
+      ]
+    }
+  ],
+  "detector": "phishing_email_agent",
+  "family": "industry",
+  "hw_fn_rows": 3606,
+  "hw_value_count": 36060,
+  "llm_fn_rows": 3978,
+  "llm_value_count": 39780,
+  "n_projected_rows": 10513,
+  "predicted_negative": 7584,
+  "predicted_positive": 2929,
+  "stage_group": "S8",
+  "stages_included": [
+    "S8-claude",
+    "S8-deepseek",
+    "S8-gemini",
+    "S8-gpt",
+    "S8-llama",
+    "S8-ministral"
+  ]
+}

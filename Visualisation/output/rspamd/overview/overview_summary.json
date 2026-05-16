@@ -1,0 +1,20 @@
+{
+  "by_source": {
+    "HW": {
+      "n": 14142,
+      "predicted_negative": 12108,
+      "predicted_positive": 2034
+    },
+    "LLM": {
+      "n": 15605,
+      "predicted_negative": 11325,
+      "predicted_positive": 4280
+    }
+  },
+  "detector": "rspamd",
+  "family": "industry",
+  "n_projected_rows": 29747,
+  "predicted_negative": 23433,
+  "predicted_positive": 6314,
+  "prediction_column": "rspamd_prediction"
+}

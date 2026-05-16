@@ -1,0 +1,20 @@
+{
+  "by_source": {
+    "HW": {
+      "n": 29041,
+      "predicted_negative": 10276,
+      "predicted_positive": 18765
+    },
+    "LLM": {
+      "n": 26054,
+      "predicted_negative": 8898,
+      "predicted_positive": 17156
+    }
+  },
+  "detector": "xgboost",
+  "family": "academic",
+  "n_projected_rows": 55095,
+  "predicted_negative": 19174,
+  "predicted_positive": 35921,
+  "prediction_column": "xgboost"
+}

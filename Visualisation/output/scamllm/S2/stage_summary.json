@@ -1,0 +1,15 @@
+{
+  "detector": "scamllm",
+  "family": "academic",
+  "hw_fn_rows": 134,
+  "hw_value_count": 1340,
+  "llm_fn_rows": 125,
+  "llm_value_count": 1250,
+  "n_projected_rows": 1994,
+  "predicted_negative": 259,
+  "predicted_positive": 1735,
+  "stage_group": "S2",
+  "stages_included": [
+    "S2"
+  ]
+}

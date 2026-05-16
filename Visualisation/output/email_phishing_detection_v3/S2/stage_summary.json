@@ -1,0 +1,15 @@
+{
+  "detector": "email_phishing_detection_v3",
+  "family": "industry",
+  "hw_fn_rows": 226,
+  "hw_value_count": 2260,
+  "llm_fn_rows": 246,
+  "llm_value_count": 2460,
+  "n_projected_rows": 1902,
+  "predicted_negative": 472,
+  "predicted_positive": 1430,
+  "stage_group": "S2",
+  "stages_included": [
+    "S2"
+  ]
+}

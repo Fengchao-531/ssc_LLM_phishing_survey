@@ -1,0 +1,15 @@
+{
+  "detector": "t5phishing",
+  "family": "academic",
+  "hw_fn_rows": 215,
+  "hw_value_count": 2150,
+  "llm_fn_rows": 256,
+  "llm_value_count": 2560,
+  "n_projected_rows": 1346,
+  "predicted_negative": 471,
+  "predicted_positive": 875,
+  "stage_group": "S1",
+  "stages_included": [
+    "S1"
+  ]
+}

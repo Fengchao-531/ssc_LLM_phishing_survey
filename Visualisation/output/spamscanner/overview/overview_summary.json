@@ -1,0 +1,20 @@
+{
+  "by_source": {
+    "HW": {
+      "n": 14078,
+      "predicted_negative": 13442,
+      "predicted_positive": 636
+    },
+    "LLM": {
+      "n": 15602,
+      "predicted_negative": 15160,
+      "predicted_positive": 442
+    }
+  },
+  "detector": "spamscanner",
+  "family": "industry",
+  "n_projected_rows": 29680,
+  "predicted_negative": 28602,
+  "predicted_positive": 1078,
+  "prediction_column": "spamscanner_prediction"
+}

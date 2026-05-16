@@ -1,0 +1,20 @@
+{
+  "by_source": {
+    "HW": {
+      "n": 29041,
+      "predicted_negative": 10641,
+      "predicted_positive": 18400
+    },
+    "LLM": {
+      "n": 26054,
+      "predicted_negative": 11190,
+      "predicted_positive": 14864
+    }
+  },
+  "detector": "t5phishing",
+  "family": "academic",
+  "n_projected_rows": 55095,
+  "predicted_negative": 21831,
+  "predicted_positive": 33264,
+  "prediction_column": "t5phishing"
+}

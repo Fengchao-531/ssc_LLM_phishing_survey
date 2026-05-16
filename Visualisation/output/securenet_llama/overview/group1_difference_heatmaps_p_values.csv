@@ -1,0 +1,43 @@
+comparison,feature_a,feature_b,p_value,significant_at_0_05
+LLM-P FN - HW-P FN,Authority,Authority,3.424535465620575e-91,True
+LLM-P FN - HW-P FN,Liking,Authority,0.0,True
+LLM-P FN - HW-P FN,Liking,Liking,0.0,True
+LLM-P FN - HW-P FN,Reciprocity,Authority,2.340925443049443e-155,True
+LLM-P FN - HW-P FN,Reciprocity,Liking,1.0233634401754353e-263,True
+LLM-P FN - HW-P FN,Reciprocity,Reciprocity,8.69972739118359e-133,True
+LLM-P FN - HW-P FN,Social Proof,Authority,4.2687487028884613e-97,True
+LLM-P FN - HW-P FN,Social Proof,Liking,7.908123591881341e-191,True
+LLM-P FN - HW-P FN,Social Proof,Reciprocity,9.654934002860146e-114,True
+LLM-P FN - HW-P FN,Social Proof,Social Proof,8.611695862095769e-81,True
+LLM-P FN - HW-P FN,Scarcity,Authority,3.599664971069531e-58,True
+LLM-P FN - HW-P FN,Scarcity,Liking,1.926497476622538e-146,True
+LLM-P FN - HW-P FN,Scarcity,Reciprocity,1.4030388665826086e-78,True
+LLM-P FN - HW-P FN,Scarcity,Social Proof,2.5209596535322084e-55,True
+LLM-P FN - HW-P FN,Scarcity,Scarcity,2.8286277710325337e-22,True
+LLM-P FN - HW-P FN,Commitment,Authority,1.0471752016677285e-77,True
+LLM-P FN - HW-P FN,Commitment,Liking,1.316522768323342e-177,True
+LLM-P FN - HW-P FN,Commitment,Reciprocity,1.5261292048036772e-90,True
+LLM-P FN - HW-P FN,Commitment,Social Proof,8.729775201318034e-66,True
+LLM-P FN - HW-P FN,Commitment,Scarcity,5.136396436461228e-25,True
+LLM-P FN - HW-P FN,Commitment,Commitment,1.2128517589310528e-26,True
+LLM-P FN - LLM-P TP,Authority,Authority,1.0367228432336023e-57,True
+LLM-P FN - LLM-P TP,Liking,Authority,3.96079018115251e-114,True
+LLM-P FN - LLM-P TP,Liking,Liking,1.3493325110424905e-60,True
+LLM-P FN - LLM-P TP,Reciprocity,Authority,5.327609450663566e-149,True
+LLM-P FN - LLM-P TP,Reciprocity,Liking,2.085255518927231e-136,True
+LLM-P FN - LLM-P TP,Reciprocity,Reciprocity,2.436729193406846e-152,True
+LLM-P FN - LLM-P TP,Social Proof,Authority,2.3638802057270294e-41,True
+LLM-P FN - LLM-P TP,Social Proof,Liking,7.296824524931601e-51,True
+LLM-P FN - LLM-P TP,Social Proof,Reciprocity,7.722830918747947e-96,True
+LLM-P FN - LLM-P TP,Social Proof,Social Proof,1.6651079179433233e-41,True
+LLM-P FN - LLM-P TP,Scarcity,Authority,1.3083357779454983e-37,True
+LLM-P FN - LLM-P TP,Scarcity,Liking,2.1151574726274175e-40,True
+LLM-P FN - LLM-P TP,Scarcity,Reciprocity,1.2125373974403894e-82,True
+LLM-P FN - LLM-P TP,Scarcity,Social Proof,2.852076063626037e-41,True
+LLM-P FN - LLM-P TP,Scarcity,Scarcity,1.0181438900333123e-40,True
+LLM-P FN - LLM-P TP,Commitment,Authority,1.5824191450908163e-58,True
+LLM-P FN - LLM-P TP,Commitment,Liking,7.060992922815491e-56,True
+LLM-P FN - LLM-P TP,Commitment,Reciprocity,3.4139487406886705e-101,True
+LLM-P FN - LLM-P TP,Commitment,Social Proof,3.16125978375192e-57,True
+LLM-P FN - LLM-P TP,Commitment,Scarcity,1.8128829836843867e-52,True
+LLM-P FN - LLM-P TP,Commitment,Commitment,1.5224019656216365e-61,True
