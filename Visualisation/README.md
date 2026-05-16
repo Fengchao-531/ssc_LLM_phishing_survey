@@ -4,6 +4,8 @@ This directory contains the public visualisation assets used to inspect detector
 
 ## Directory layout
 
+- `index.html`: a static interaction page for selecting detector, stage, and metric mode.
+- `data/`: aggregate metric JSON used by the interaction page.
 - `output/`: detector interaction assets. Each detector has an `overview/` folder and stage folders for `S1`, `S2`, `S4`, `S5`, `S6`, and `S8`.
 - `wvae/`: the adapted WVAE persuasion-scoring code used to produce the six persuasion-principle scores that support the heatmaps, surrogate maps, and FN boxplots.
 

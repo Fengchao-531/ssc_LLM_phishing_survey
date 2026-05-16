@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LLM Phishing Detector Visualisation</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="intro">
+        <p class="eyebrow">SoK Visualisation</p>
+        <h1>Detector responses to LLM-generated phishing</h1>
+        <p>
+          Select a detector and lifecycle stage to inspect aggregate detection metrics,
+          surrogate response maps, heatmaps, and false-negative persuasion boxplots.
+        </p>
+      </section>
+
+      <section class="controls" aria-label="visualisation controls">
+        <label>
+          Detector
+          <select id="detectorSelect"></select>
+        </label>
+        <label>
+          Stage
+          <select id="stageSelect">
+            <option value="overview">Overview</option>
+            <option value="S1">S1</option>
+            <option value="S2">S2</option>
+            <option value="S4">S4</option>
+            <option value="S5">S5</option>
+            <option value="S6">S6 combined</option>
+            <option value="S8">S8 combined</option>
+          </select>
+        </label>
+        <label>
+          Output
+          <select id="modeSelect">
+            <option value="metrics">Metrics</option>
+            <option value="recall">Recall</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="metrics" id="metricCards" aria-live="polite"></section>
+      <section class="table-wrap">
+        <table id="metricTable"></table>
+      </section>
+
+      <section class="figures" id="figures"></section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
