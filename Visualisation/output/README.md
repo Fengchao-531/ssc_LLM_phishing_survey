@@ -9,7 +9,7 @@ Each detector folder contains:
 - `S6/`: combined S6-MPG, S6-UTA, and S6-fuzzer assets.
 - `S8/`: combined S8 model-output assets.
 
-Raw email text and row-level detector outputs are intentionally excluded. The CSV files here contain only numeric visualization values.
+Raw email text, row-level detector outputs, CSV files, and JSON files are intentionally excluded from `output/`.
 
 | Detector | Family | Projected rows |
 | --- | --- | ---: |
