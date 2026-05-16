@@ -5,14 +5,6 @@ This export is split into two parts:
 - A top-level `MCC` total table that shows each detector's `LLM-P MCC`, `HW overall MCC`, each `LLM stage MCC`, and the `LLM-P +Head MCC` difference.
 - A stage-level transfer table below using `Precision`, `Recall`, and `Specificity`.
 
-MCC overview CSV exports:
-
-- `All detectors`: `mcc_stage_detector_overview_all.csv`
-- `Academic`: `mcc_stage_detector_overview_academic.csv`
-- `Industrial`: `mcc_stage_detector_overview_industry.csv`
-- `LLM-P vs LLM-P +Head Recall`: `recall_llm_p_vs_head_comparison.csv`
-- `Detector family comparison`: `detector_family_average_comparison.csv`
-
 In all MCC tables:
 
 - `LLM-P MCC` is the detector's aggregate score on the LLM phishing evaluation set.
