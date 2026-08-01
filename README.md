@@ -14,31 +14,6 @@ Countering these dynamically changing attack campaigns requires a comprehensive 
 - `Visualisation/`: detector response visualisations, the interaction page, and WVAE persuasion-scoring code.
 - `Work/`: additional project notes.
 
-## Interactive Visualisation
-
-GitHub README files cannot execute JavaScript, so the interactive detector viewer is served through GitHub Pages:
-
-**https://fengchao-531.github.io/ssc_LLM_phishing_survey/**
-
-The viewer is backed by the exported assets in [`Visualisation/output/`](Visualisation/output/) and the aggregate metrics in [`Visualisation/data/detector_metrics.json`](Visualisation/data/detector_metrics.json).
-
-The default view is:
-
-- detector: `scamllm`
-- stage: `overview`
-- output: `metrics`
-- metrics shown: `MCC`, `Recall`, and `TNR`
-
-The interface lets users select a detector, switch between `overview` and lifecycle stages (`S1`, `S2`, `S4`, `S5`, `S6`, `S8`), and choose either the compact metrics view or a recall-focused view. The figures update to show the corresponding surrogate response maps, heatmaps, and false-negative persuasion boxplots.
-
-For local use, start a simple static server from the repository root:
-
-```bash
-python -m http.server 8000
-```
-
-Then open `http://localhost:8000/Visualisation/index.html`.
-
 ## Safety Note
 
 The public release avoids uploading raw phishing emails, full detector row outputs, API keys, or restricted S8 model-output data. The `Visualisation/output/` directory contains README files and PNG figures only; aggregate metrics for the viewer are stored separately in `Visualisation/data/`.
