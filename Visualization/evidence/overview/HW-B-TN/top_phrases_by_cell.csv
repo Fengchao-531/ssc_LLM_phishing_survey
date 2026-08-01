@@ -1,0 +1,316 @@
+group_label,feature_a,feature_b,cell_slug,rank,phrase,phrase_len,log_ratio_score,weighted_group_count,weighted_background_count
+HW-B-TN,Authority,Authority,authority__authority,1,read full,2,9.728677503780382,150.0,0.0
+HW-B-TN,Authority,Authority,authority__authority,2,full story,2,9.5700839311076,128.0,0.0
+HW-B-TN,Authority,Authority,authority__authority,3,read full story,3,9.5700839311076,128.0,0.0
+HW-B-TN,Authority,Authority,authority__authority,4,news com,2,9.20672363906743,88.999944,0.0
+HW-B-TN,Authority,Authority,authority__authority,5,canon powershot,2,9.206723054862872,88.99989200000002,0.0
+HW-B-TN,Authority,Authority,authority__authority,6,canon powershot number,3,9.148910527575143,83.99992800000001,0.0
+HW-B-TN,Authority,Authority,authority__authority,7,powershot number,2,9.148910527575143,83.99992800000001,0.0
+HW-B-TN,Authority,Authority,authority__authority,8,tech update,2,9.136936627706525,83.0,0.0
+HW-B-TN,Authority,Authority,authority__authority,9,number read full,3,9.074812568839803,78.0,0.0
+HW-B-TN,Authority,Authority,authority__authority,10,lowest price,2,8.861266132500052,62.99982000000001,0.0
+HW-B-TN,Authority,Authority,authority__authority,11,lowest price money,3,8.861266132500052,62.99982000000001,0.0
+HW-B-TN,Authority,Authority,authority__authority,12,cnet news,2,8.743505434382167,55.99998,0.0
+HW-B-TN,Authority,Authority,authority__authority,13,cnet news com,3,8.688455742951922,52.99998,0.0
+HW-B-TN,Authority,Authority,authority__authority,14,read review,2,8.669411168483055,51.99998,0.0
+HW-B-TN,Authority,Authority,authority__authority,15,motley fool,2,8.649997237174418,51.0,0.0
+HW-B-TN,Authority,Liking,authority__liking,1,support contacting,2,10.126234318783837,107.94503587969201,0.0
+HW-B-TN,Authority,Liking,authority__liking,2,customer support contacting,3,10.126234318783837,107.94503587969201,0.0
+HW-B-TN,Authority,Liking,authority__liking,3,contacting report,2,9.99805826854265,94.95788252401609,0.0
+HW-B-TN,Authority,Liking,authority__liking,4,remains unresolved,2,9.88686217637197,84.96377364893799,0.0
+HW-B-TN,Authority,Liking,authority__liking,5,support contacting report,3,9.720874555939508,71.96760602031499,0.0
+HW-B-TN,Authority,Liking,authority__liking,6,data encryption,2,9.504764714624036,57.978528228854,0.0
+HW-B-TN,Authority,Liking,authority__liking,7,problem still,2,9.469521682879744,55.970430263613004,0.0
+HW-B-TN,Authority,Liking,authority__liking,8,but issue,2,9.451646317382448,54.978650235576005,0.0
+HW-B-TN,Authority,Liking,authority__liking,9,still exists,2,9.433235676609684,53.975536268729975,0.0
+HW-B-TN,Authority,Liking,authority__liking,10,issue remains,2,9.336131646645377,48.979801012662016,0.0
+HW-B-TN,Authority,Liking,authority__liking,11,attempted restart,2,9.33608586291746,48.97755812828599,0.0
+HW-B-TN,Authority,Liking,authority__liking,12,issue remains unresolved,3,9.294475436620017,46.98099200259901,0.0
+HW-B-TN,Authority,Liking,authority__liking,13,already attempted,2,9.157839436783506,40.97966345172,0.0
+HW-B-TN,Authority,Liking,authority__liking,14,still persists,2,9.15781786285651,40.978779153252,0.0
+HW-B-TN,Authority,Liking,authority__liking,15,problem remains,2,9.133170135124377,39.98084777569101,0.0
+HW-B-TN,Authority,Reciprocity,authority__reciprocity,1,read full,2,10.52833553492373,139.35809099999997,0.0
+HW-B-TN,Authority,Reciprocity,authority__reciprocity,2,full story,2,10.380798497887804,120.24103699999995,0.0
+HW-B-TN,Authority,Reciprocity,authority__reciprocity,3,read full story,3,10.380798497887804,120.24103699999995,0.0
+HW-B-TN,Authority,Reciprocity,authority__reciprocity,4,networks inc,2,9.933245757872648,76.85332099999998,0.0
+HW-B-TN,Authority,Reciprocity,authority__reciprocity,5,tech update,2,9.909881759547703,75.07830299999996,0.0
+HW-B-TN,Authority,Reciprocity,authority__reciprocity,6,cnet networks inc,3,9.907472492786038,74.89761299999999,0.0
+HW-B-TN,Authority,Reciprocity,authority__reciprocity,7,cnet networks,2,9.907472492786038,74.89761299999999,0.0
+HW-B-TN,Authority,Reciprocity,authority__reciprocity,8,number read,2,9.89387699071608,73.886098,0.0
+HW-B-TN,Authority,Reciprocity,authority__reciprocity,9,number number read,3,9.89387699071608,73.886098,0.0
+HW-B-TN,Authority,Reciprocity,authority__reciprocity,10,number read full,3,9.89387699071608,73.886098,0.0
+HW-B-TN,Authority,Reciprocity,authority__reciprocity,11,back top,2,9.500697481277971,49.863037000000006,0.0
+HW-B-TN,Authority,Reciprocity,authority__reciprocity,12,networks inc all,3,9.410720192069173,45.57155899999999,0.0
+HW-B-TN,Authority,Reciprocity,authority__reciprocity,13,copyright number cnet,3,9.410720192069173,45.57155899999999,0.0
+HW-B-TN,Authority,Reciprocity,authority__reciprocity,14,number cnet networks,3,9.410720192069173,45.57155899999999,0.0
+HW-B-TN,Authority,Reciprocity,authority__reciprocity,15,lowest price money,3,9.390884514018952,44.676326,0.0
+HW-B-TN,Authority,Social Proof,authority__social_proof,1,networks inc,2,10.349422282440088,74.31754900000001,0.0
+HW-B-TN,Authority,Social Proof,authority__social_proof,2,tech update,2,10.339183145083934,73.560382,0.0
+HW-B-TN,Authority,Social Proof,authority__social_proof,3,news com,2,10.334689834501503,73.23054900000004,0.0
+HW-B-TN,Authority,Social Proof,authority__social_proof,4,cnet networks inc,3,10.324415270970105,72.48188700000001,0.0
+HW-B-TN,Authority,Social Proof,authority__social_proof,5,cnet networks,2,10.324415270970105,72.48188700000001,0.0
+HW-B-TN,Authority,Social Proof,authority__social_proof,6,canon powershot,2,10.323846397275457,72.44066,0.0
+HW-B-TN,Authority,Social Proof,authority__social_proof,7,canon powershot number,3,10.306232981754224,71.175729,0.0
+HW-B-TN,Authority,Social Proof,authority__social_proof,8,powershot number,2,10.306232981754224,71.175729,0.0
+HW-B-TN,Authority,Social Proof,authority__social_proof,9,number number read,3,10.305910519640886,71.152778,0.0
+HW-B-TN,Authority,Social Proof,authority__social_proof,10,number read full,3,10.305910519640886,71.152778,0.0
+HW-B-TN,Authority,Social Proof,authority__social_proof,11,address subscription,2,10.154367042112161,61.14590499999997,0.0
+HW-B-TN,Authority,Social Proof,authority__social_proof,12,number cnet,2,9.961210187681269,50.404032999999984,0.0
+HW-B-TN,Authority,Social Proof,authority__social_proof,13,subscriptions faq,2,9.907326451173413,47.75942699999999,0.0
+HW-B-TN,Authority,Social Proof,authority__social_proof,14,subscription example,2,9.895547243019234,47.20004199999998,0.0
+HW-B-TN,Authority,Social Proof,authority__social_proof,15,address subscription example,3,9.895547243019234,47.20004199999998,0.0
+HW-B-TN,Authority,Scarcity,authority__scarcity,1,read full story,3,10.036536642973655,38.764117,0.0
+HW-B-TN,Authority,Scarcity,authority__scarcity,2,canon powershot,2,9.625320307110417,25.691172168624004,0.0
+HW-B-TN,Authority,Scarcity,authority__scarcity,3,canon powershot number,3,9.600850240210647,25.069895112415995,0.0
+HW-B-TN,Authority,Scarcity,authority__scarcity,4,powershot number,2,9.600850240210647,25.069895112415995,0.0
+HW-B-TN,Authority,Scarcity,authority__scarcity,5,news com,2,9.59798188173133,24.998060056207997,0.0
+HW-B-TN,Authority,Scarcity,authority__scarcity,6,tech update,2,9.586185718280213,24.704793999999996,0.0
+HW-B-TN,Authority,Scarcity,authority__scarcity,7,networks inc,2,9.577782120444322,24.497971056208,0.0
+HW-B-TN,Authority,Scarcity,authority__scarcity,8,cnet networks inc,3,9.543276544920019,23.666733056208006,0.0
+HW-B-TN,Authority,Scarcity,authority__scarcity,9,cnet networks,2,9.543276544920019,23.666733056208006,0.0
+HW-B-TN,Authority,Scarcity,authority__scarcity,10,number number read,3,9.524274829974106,23.221081999999996,0.0
+HW-B-TN,Authority,Scarcity,authority__scarcity,11,number read full,3,9.524274829974106,23.221081999999996,0.0
+HW-B-TN,Authority,Scarcity,authority__scarcity,12,motley fool,2,9.420606551293325,20.933385,0.0
+HW-B-TN,Authority,Scarcity,authority__scarcity,13,address subscription,2,9.418549758044863,20.890353056207985,0.0
+HW-B-TN,Authority,Scarcity,authority__scarcity,14,motley fool stock,3,9.251471294991408,17.674483,0.0
+HW-B-TN,Authority,Scarcity,authority__scarcity,15,stock advisor,2,9.251471294991408,17.674483,0.0
+HW-B-TN,Authority,Commitment,authority__commitment,1,read full story,3,8.731622170193017,10.769330999999996,0.0
+HW-B-TN,Authority,Commitment,authority__commitment,2,full story,2,8.731622170193017,10.769330999999996,0.0
+HW-B-TN,Authority,Commitment,authority__commitment,3,asp net,2,8.31181034055459,7.073858,0.0
+HW-B-TN,Authority,Commitment,authority__commitment,4,canon powershot,2,8.293520389743387,6.945472249132,0.0
+HW-B-TN,Authority,Commitment,authority__commitment,5,canon powershot number,3,8.265747595915528,6.754957166088,0.0
+HW-B-TN,Authority,Commitment,authority__commitment,6,powershot number,2,8.265747595915528,6.754957166088,0.0
+HW-B-TN,Authority,Commitment,authority__commitment,7,networks inc,2,8.252421405246784,6.665404083044001,0.0
+HW-B-TN,Authority,Commitment,authority__commitment,8,news com,2,8.248007450300463,6.636004083044001,0.0
+HW-B-TN,Authority,Commitment,authority__commitment,9,number number read,3,8.242872098822955,6.601961999999999,0.0
+HW-B-TN,Authority,Commitment,authority__commitment,10,number read full,3,8.242872098822955,6.601961999999999,0.0
+HW-B-TN,Authority,Commitment,authority__commitment,11,number read,2,8.242872098822955,6.601961999999999,0.0
+HW-B-TN,Authority,Commitment,authority__commitment,12,tech update,2,8.21232368009325,6.403031,0.0
+HW-B-TN,Authority,Commitment,authority__commitment,13,cnet networks inc,3,8.207051306549058,6.369308083044001,0.0
+HW-B-TN,Authority,Commitment,authority__commitment,14,cnet networks,2,8.207051306549058,6.369308083044001,0.0
+HW-B-TN,Authority,Commitment,authority__commitment,15,asian brown,2,8.143673979439985,5.977550000000001,0.0
+HW-B-TN,Liking,Liking,liking__liking,1,data analytics,2,10.398271373128658,113.99916699999997,0.0
+HW-B-TN,Liking,Liking,liking__liking,2,support contacting,2,10.116445050588128,85.999051,0.0
+HW-B-TN,Liking,Liking,liking__liking,3,customer support contacting,3,10.116445050588128,85.999051,0.0
+HW-B-TN,Liking,Liking,liking__liking,4,support hope message,3,10.080948767398347,82.99959899999999,0.0
+HW-B-TN,Liking,Liking,liking__liking,5,support hope,2,10.080948767398347,82.99959899999999,0.0
+HW-B-TN,Liking,Liking,liking__liking,6,customer support hope,3,10.080948767398347,82.99959899999999,0.0
+HW-B-TN,Liking,Liking,liking__liking,7,medical data,2,10.056553639398668,80.99906999999999,0.0
+HW-B-TN,Liking,Liking,liking__liking,8,remains unresolved,2,9.966184398149725,73.99938300000005,0.0
+HW-B-TN,Liking,Liking,liking__liking,9,any advice,2,9.594004856469843,50.99952300000004,0.0
+HW-B-TN,Liking,Liking,liking__liking,10,data analytics tools,3,9.554010610560443,48.999693,0.0
+HW-B-TN,Liking,Liking,liking__liking,11,looking forward response,3,9.512342543715334,46.99951500000004,0.0
+HW-B-TN,Liking,Liking,liking__liking,12,issue remains,2,9.468868249385238,44.99959700000004,0.0
+HW-B-TN,Liking,Liking,liking__liking,13,looking forward prompt,3,9.446401852740841,43.99966800000003,0.0
+HW-B-TN,Liking,Liking,liking__liking,14,issue remains unresolved,3,9.446400398513862,43.99960400000003,0.0
+HW-B-TN,Liking,Liking,liking__liking,15,but issue,2,9.446399057896492,43.99954500000001,0.0
+HW-B-TN,Liking,Reciprocity,liking__reciprocity,1,read full,2,10.53483171011047,129.00668637403297,0.0
+HW-B-TN,Liking,Reciprocity,liking__reciprocity,2,full story,2,10.37857878879759,110.34349745715197,0.0
+HW-B-TN,Liking,Reciprocity,liking__reciprocity,3,read full story,3,10.37857878879759,110.34349745715197,0.0
+HW-B-TN,Liking,Reciprocity,liking__reciprocity,4,networks inc,2,9.95978064097681,72.58461014149297,0.0
+HW-B-TN,Liking,Reciprocity,liking__reciprocity,5,tech update,2,9.959538476038878,72.56703240067606,0.0
+HW-B-TN,Liking,Reciprocity,liking__reciprocity,6,cnet networks inc,3,9.932472555054146,70.62901361684897,0.0
+HW-B-TN,Liking,Reciprocity,liking__reciprocity,7,cnet networks,2,9.932472555054146,70.62901361684897,0.0
+HW-B-TN,Liking,Reciprocity,liking__reciprocity,8,news com,2,9.91710594082127,69.55182868394601,0.0
+HW-B-TN,Liking,Reciprocity,liking__reciprocity,9,canon powershot,2,9.896709609170106,68.147393902584,0.0
+HW-B-TN,Liking,Reciprocity,liking__reciprocity,10,canon powershot number,3,9.883465475624766,67.250659617704,0.0
+HW-B-TN,Liking,Reciprocity,liking__reciprocity,11,powershot number,2,9.883465475624766,67.250659617704,0.0
+HW-B-TN,Liking,Reciprocity,liking__reciprocity,12,number read,2,9.864143381202515,65.963517982998,0.0
+HW-B-TN,Liking,Reciprocity,liking__reciprocity,13,number number read,3,9.864143381202515,65.963517982998,0.0
+HW-B-TN,Liking,Reciprocity,liking__reciprocity,14,number read full,3,9.864143381202515,65.963517982998,0.0
+HW-B-TN,Liking,Reciprocity,liking__reciprocity,15,address subscription,2,9.758658994998418,59.35881168206998,0.0
+HW-B-TN,Liking,Social Proof,liking__social_proof,1,tech update,2,10.339011723549508,71.02367670581101,0.0
+HW-B-TN,Liking,Social Proof,liking__social_proof,2,networks inc,2,10.330041562827628,70.38934250237699,0.0
+HW-B-TN,Liking,Social Proof,liking__social_proof,3,cnet networks inc,3,10.303622121016225,68.553785135111,0.0
+HW-B-TN,Liking,Social Proof,liking__social_proof,4,cnet networks,2,10.303622121016225,68.553785135111,0.0
+HW-B-TN,Liking,Social Proof,liking__social_proof,5,news com,2,10.292516291807349,67.79654014740302,0.0
+HW-B-TN,Liking,Social Proof,liking__social_proof,6,canon powershot,2,10.25716523448087,65.44138120349199,0.0
+HW-B-TN,Liking,Social Proof,liking__social_proof,7,canon powershot number,3,10.244287240283807,64.60390279133998,0.0
+HW-B-TN,Liking,Social Proof,liking__social_proof,8,powershot number,2,10.244287240283807,64.60390279133998,0.0
+HW-B-TN,Liking,Social Proof,liking__social_proof,9,number number read,3,10.2274590112545,63.525663114182,0.0
+HW-B-TN,Liking,Social Proof,liking__social_proof,10,number read full,3,10.2274590112545,63.525663114182,0.0
+HW-B-TN,Liking,Social Proof,liking__social_proof,11,address subscription,2,10.120624243083025,57.08785806266101,0.0
+HW-B-TN,Liking,Social Proof,liking__social_proof,12,number cnet,2,9.934842602893571,47.40719675918702,0.0
+HW-B-TN,Liking,Social Proof,liking__social_proof,13,manage subscriptions,2,9.893197197434725,45.473042231215025,0.0
+HW-B-TN,Liking,Social Proof,liking__social_proof,14,subscriptions faq,2,9.866813779445991,44.28873583925001,0.0
+HW-B-TN,Liking,Social Proof,liking__social_proof,15,subscription example,2,9.852370419173015,43.653511666516,0.0
+HW-B-TN,Liking,Scarcity,liking__scarcity,1,read full story,3,9.988533472574039,35.650870224744004,0.0
+HW-B-TN,Liking,Scarcity,liking__scarcity,2,tech update,2,9.589867873119655,23.926115234806016,0.0
+HW-B-TN,Liking,Scarcity,liking__scarcity,3,networks inc,2,9.551382394109917,23.022423418403996,0.0
+HW-B-TN,Liking,Scarcity,liking__scarcity,4,canon powershot,2,9.542704820689174,22.823422544215003,0.0
+HW-B-TN,Liking,Scarcity,liking__scarcity,5,news com,2,9.536978907882586,22.693053953432006,0.0
+HW-B-TN,Liking,Scarcity,liking__scarcity,6,canon powershot number,3,9.53027281085706,22.541314429495003,0.0
+HW-B-TN,Liking,Scarcity,liking__scarcity,7,powershot number,2,9.53027281085706,22.541314429495003,0.0
+HW-B-TN,Liking,Scarcity,liking__scarcity,8,cnet networks inc,3,9.514627275872376,22.191232798969992,0.0
+HW-B-TN,Liking,Scarcity,liking__scarcity,9,cnet networks,2,9.514627275872376,22.191232798969992,0.0
+HW-B-TN,Liking,Scarcity,liking__scarcity,10,motley fool,2,9.447440387791943,20.748606478698,0.0
+HW-B-TN,Liking,Scarcity,liking__scarcity,11,number number read,3,9.44705928164157,20.740696753414003,0.0
+HW-B-TN,Liking,Scarcity,liking__scarcity,12,number read full,3,9.44705928164157,20.740696753414003,0.0
+HW-B-TN,Liking,Scarcity,liking__scarcity,13,address subscription,2,9.373697046863574,19.272878731046006,0.0
+HW-B-TN,Liking,Scarcity,liking__scarcity,14,motley fool stock,3,9.278286665729825,17.518133325237997,0.0
+HW-B-TN,Liking,Scarcity,liking__scarcity,15,stock advisor,2,9.278286665729825,17.518133325237997,0.0
+HW-B-TN,Liking,Commitment,liking__commitment,1,read full story,3,8.679827929957046,9.889427386284002,0.0
+HW-B-TN,Liking,Commitment,liking__commitment,2,full story,2,8.679827929957046,9.889427386284002,0.0
+HW-B-TN,Liking,Commitment,liking__commitment,3,asp net,2,8.34516968880604,7.073858,0.0
+HW-B-TN,Liking,Commitment,liking__commitment,4,networks inc,2,8.227936179038947,6.290223851689003,0.0
+HW-B-TN,Liking,Commitment,liking__commitment,5,tech update,2,8.210757018237393,6.182915664441997,0.0
+HW-B-TN,Liking,Commitment,liking__commitment,6,canon powershot,2,8.199010399292616,6.110595434644003,0.0
+HW-B-TN,Liking,Commitment,liking__commitment,7,news com,2,8.191212663923185,6.063054248827997,0.0
+HW-B-TN,Liking,Commitment,liking__commitment,8,canon powershot number,3,8.184626014506744,6.023184617388003,0.0
+HW-B-TN,Liking,Commitment,liking__commitment,9,powershot number,2,8.184626014506744,6.023184617388003,0.0
+HW-B-TN,Liking,Commitment,liking__commitment,10,cnet networks inc,3,8.179801033195792,5.994144729161003,0.0
+HW-B-TN,Liking,Commitment,liking__commitment,11,cnet networks,2,8.179801033195792,5.994144729161003,0.0
+HW-B-TN,Liking,Commitment,liking__commitment,12,asian brown,2,8.176949464466116,5.977047885800001,0.0
+HW-B-TN,Liking,Commitment,liking__commitment,13,brown cloud,2,8.176949464466116,5.977047885800001,0.0
+HW-B-TN,Liking,Commitment,liking__commitment,14,asian brown cloud,3,8.176949464466116,5.977047885800001,0.0
+HW-B-TN,Liking,Commitment,liking__commitment,15,number number read,3,8.163417995548775,5.896579985678,0.0
+HW-B-TN,Reciprocity,Reciprocity,reciprocity__reciprocity,1,read full,2,10.53392404846409,139.35809099999997,0.0
+HW-B-TN,Reciprocity,Reciprocity,reciprocity__reciprocity,2,full story,2,10.386387011428162,120.24103699999995,0.0
+HW-B-TN,Reciprocity,Reciprocity,reciprocity__reciprocity,3,read full story,3,10.386387011428162,120.24103699999995,0.0
+HW-B-TN,Reciprocity,Reciprocity,reciprocity__reciprocity,4,networks inc,2,9.938834271413006,76.85332099999998,0.0
+HW-B-TN,Reciprocity,Reciprocity,reciprocity__reciprocity,5,tech update,2,9.915470273088062,75.07830299999996,0.0
+HW-B-TN,Reciprocity,Reciprocity,reciprocity__reciprocity,6,cnet networks inc,3,9.913061006326394,74.89761299999999,0.0
+HW-B-TN,Reciprocity,Reciprocity,reciprocity__reciprocity,7,cnet networks,2,9.913061006326394,74.89761299999999,0.0
+HW-B-TN,Reciprocity,Reciprocity,reciprocity__reciprocity,8,number read,2,9.899465504256437,73.886098,0.0
+HW-B-TN,Reciprocity,Reciprocity,reciprocity__reciprocity,9,number number read,3,9.899465504256437,73.886098,0.0
+HW-B-TN,Reciprocity,Reciprocity,reciprocity__reciprocity,10,number read full,3,9.899465504256437,73.886098,0.0
+HW-B-TN,Reciprocity,Reciprocity,reciprocity__reciprocity,11,back top,2,9.506285994818327,49.863037000000006,0.0
+HW-B-TN,Reciprocity,Reciprocity,reciprocity__reciprocity,12,networks inc all,3,9.416308705609529,45.57155899999999,0.0
+HW-B-TN,Reciprocity,Reciprocity,reciprocity__reciprocity,13,copyright number cnet,3,9.416308705609529,45.57155899999999,0.0
+HW-B-TN,Reciprocity,Reciprocity,reciprocity__reciprocity,14,number cnet networks,3,9.416308705609529,45.57155899999999,0.0
+HW-B-TN,Reciprocity,Reciprocity,reciprocity__reciprocity,15,any discounts,2,9.407741911119874,45.18273899999999,0.0
+HW-B-TN,Reciprocity,Social Proof,reciprocity__social_proof,1,canon powershot,2,10.409733588192843,71.46936888007701,0.0
+HW-B-TN,Reciprocity,Social Proof,reciprocity__social_proof,2,canon powershot number,3,10.384450200542695,69.68478353452701,0.0
+HW-B-TN,Reciprocity,Social Proof,reciprocity__social_proof,3,powershot number,2,10.384450200542695,69.68478353452701,0.0
+HW-B-TN,Reciprocity,Social Proof,reciprocity__social_proof,4,news com,2,10.375862909473124,69.08885650376499,0.0
+HW-B-TN,Reciprocity,Social Proof,reciprocity__social_proof,5,number number read,3,10.35155313816044,67.42933215877399,0.0
+HW-B-TN,Reciprocity,Social Proof,reciprocity__social_proof,6,number read full,3,10.35155313816044,67.42933215877399,0.0
+HW-B-TN,Reciprocity,Social Proof,reciprocity__social_proof,7,tech update,2,10.34865417571287,67.23411117322902,0.0
+HW-B-TN,Reciprocity,Social Proof,reciprocity__social_proof,8,networks inc,2,10.347647745948903,67.16646874268001,0.0
+HW-B-TN,Reciprocity,Social Proof,reciprocity__social_proof,9,cnet networks inc,3,10.320563448794717,65.371459313332,0.0
+HW-B-TN,Reciprocity,Social Proof,reciprocity__social_proof,10,cnet networks,2,10.320563448794717,65.371459313332,0.0
+HW-B-TN,Reciprocity,Social Proof,reciprocity__social_proof,11,address subscription,2,10.178704640572445,56.724353739102014,0.0
+HW-B-TN,Reciprocity,Social Proof,reciprocity__social_proof,12,number cnet,2,9.980673883311413,46.53172192691203,0.0
+HW-B-TN,Reciprocity,Social Proof,reciprocity__social_proof,13,manage subscriptions,2,9.976642607869763,46.344477097615986,0.0
+HW-B-TN,Reciprocity,Social Proof,reciprocity__social_proof,14,subscription example,2,9.946604450480509,44.97277880121001,0.0
+HW-B-TN,Reciprocity,Social Proof,reciprocity__social_proof,15,address subscription example,3,9.946604450480509,44.97277880121001,0.0
+HW-B-TN,Reciprocity,Scarcity,reciprocity__scarcity,1,full story,2,10.066855071018537,36.47210912481801,0.0
+HW-B-TN,Reciprocity,Scarcity,reciprocity__scarcity,2,read full story,3,10.066855071018537,36.47210912481801,0.0
+HW-B-TN,Reciprocity,Scarcity,reciprocity__scarcity,3,canon powershot,2,9.664570821718623,24.388892212866995,0.0
+HW-B-TN,Reciprocity,Scarcity,reciprocity__scarcity,4,canon powershot number,3,9.645437175396577,23.926490263186995,0.0
+HW-B-TN,Reciprocity,Scarcity,reciprocity__scarcity,5,powershot number,2,9.645437175396577,23.926490263186995,0.0
+HW-B-TN,Reciprocity,Scarcity,reciprocity__scarcity,6,news com,2,9.62012041328457,23.328102415269008,0.0
+HW-B-TN,Reciprocity,Scarcity,reciprocity__scarcity,7,tech update,2,9.591648297250885,22.672987761265997,0.0
+HW-B-TN,Reciprocity,Scarcity,reciprocity__scarcity,8,number number read,3,9.562720671407948,22.026222569910004,0.0
+HW-B-TN,Reciprocity,Scarcity,reciprocity__scarcity,9,number read full,3,9.562720671407948,22.026222569910004,0.0
+HW-B-TN,Reciprocity,Scarcity,reciprocity__scarcity,10,networks inc,2,9.561503391552211,21.999414639765998,0.0
+HW-B-TN,Reciprocity,Scarcity,reciprocity__scarcity,11,cnet networks inc,3,9.523873186516994,21.186585236514006,0.0
+HW-B-TN,Reciprocity,Scarcity,reciprocity__scarcity,12,cnet networks,2,9.523873186516994,21.186585236514006,0.0
+HW-B-TN,Reciprocity,Scarcity,reciprocity__scarcity,13,motley fool,2,9.507757571746378,20.847727022403,0.0
+HW-B-TN,Reciprocity,Scarcity,reciprocity__scarcity,14,address subscription,2,9.422225047134027,19.137879062410995,0.0
+HW-B-TN,Reciprocity,Scarcity,reciprocity__scarcity,15,stock advisor,2,9.3386287223306,17.602266698333,0.0
+HW-B-TN,Reciprocity,Commitment,reciprocity__commitment,1,read full story,3,8.7792122140829,10.137295963024997,0.0
+HW-B-TN,Reciprocity,Commitment,reciprocity__commitment,2,full story,2,8.7792122140829,10.137295963024997,0.0
+HW-B-TN,Reciprocity,Commitment,reciprocity__commitment,3,asp net,2,8.419312218242338,7.070236184704001,0.0
+HW-B-TN,Reciprocity,Commitment,reciprocity__commitment,4,canon powershot,2,8.347457370667211,6.579334908035,0.0
+HW-B-TN,Reciprocity,Commitment,reciprocity__commitment,5,canon powershot number,3,8.325696656806112,6.437495140915,0.0
+HW-B-TN,Reciprocity,Commitment,reciprocity__commitment,6,powershot number,2,8.325696656806112,6.437495140915,0.0
+HW-B-TN,Reciprocity,Commitment,reciprocity__commitment,7,number number read,3,8.298248995441005,6.262933096645998,0.0
+HW-B-TN,Reciprocity,Commitment,reciprocity__commitment,8,number read full,3,8.298248995441005,6.262933096645998,0.0
+HW-B-TN,Reciprocity,Commitment,reciprocity__commitment,9,number read,2,8.298248995441005,6.262933096645998,0.0
+HW-B-TN,Reciprocity,Commitment,reciprocity__commitment,10,news com,2,8.294014106470273,6.2364240924239995,0.0
+HW-B-TN,Reciprocity,Commitment,reciprocity__commitment,11,networks inc,2,8.265541877400482,6.061082502903998,0.0
+HW-B-TN,Reciprocity,Commitment,reciprocity__commitment,12,tech update,2,8.236620164692631,5.888011221709998,0.0
+HW-B-TN,Reciprocity,Commitment,reciprocity__commitment,13,asian brown,2,8.234258161847622,5.87409654215,0.0
+HW-B-TN,Reciprocity,Commitment,reciprocity__commitment,14,brown cloud,2,8.234258161847622,5.87409654215,0.0
+HW-B-TN,Reciprocity,Commitment,reciprocity__commitment,15,asian brown cloud,3,8.234258161847622,5.87409654215,0.0
+HW-B-TN,Social Proof,Social Proof,social_proof__social_proof,1,networks inc,2,10.350469471329026,74.31754900000001,0.0
+HW-B-TN,Social Proof,Social Proof,social_proof__social_proof,2,tech update,2,10.340230333972873,73.560382,0.0
+HW-B-TN,Social Proof,Social Proof,social_proof__social_proof,3,news com,2,10.335737023390443,73.23054900000004,0.0
+HW-B-TN,Social Proof,Social Proof,social_proof__social_proof,4,cnet networks inc,3,10.325462459859043,72.48188700000001,0.0
+HW-B-TN,Social Proof,Social Proof,social_proof__social_proof,5,cnet networks,2,10.325462459859043,72.48188700000001,0.0
+HW-B-TN,Social Proof,Social Proof,social_proof__social_proof,6,canon powershot,2,10.324893586164395,72.44066,0.0
+HW-B-TN,Social Proof,Social Proof,social_proof__social_proof,7,canon powershot number,3,10.30728017064316,71.175729,0.0
+HW-B-TN,Social Proof,Social Proof,social_proof__social_proof,8,powershot number,2,10.30728017064316,71.175729,0.0
+HW-B-TN,Social Proof,Social Proof,social_proof__social_proof,9,number number read,3,10.306957708529824,71.152778,0.0
+HW-B-TN,Social Proof,Social Proof,social_proof__social_proof,10,number read full,3,10.306957708529824,71.152778,0.0
+HW-B-TN,Social Proof,Social Proof,social_proof__social_proof,11,address subscription,2,10.1554142310011,61.14590499999997,0.0
+HW-B-TN,Social Proof,Social Proof,social_proof__social_proof,12,number cnet,2,9.962257376570207,50.404032999999984,0.0
+HW-B-TN,Social Proof,Social Proof,social_proof__social_proof,13,subscriptions faq,2,9.90837364006235,47.75942699999999,0.0
+HW-B-TN,Social Proof,Social Proof,social_proof__social_proof,14,subscription example,2,9.896594431908172,47.20004199999998,0.0
+HW-B-TN,Social Proof,Social Proof,social_proof__social_proof,15,address subscription example,3,9.896594431908172,47.20004199999998,0.0
+HW-B-TN,Social Proof,Scarcity,social_proof__scarcity,1,read full story,3,10.066446964247634,35.302612973852995,0.0
+HW-B-TN,Social Proof,Scarcity,social_proof__scarcity,2,canon powershot,2,9.648061722681742,23.22953600900299,0.0
+HW-B-TN,Social Proof,Scarcity,social_proof__scarcity,3,canon powershot number,3,9.631586438367204,22.849794807595003,0.0
+HW-B-TN,Social Proof,Scarcity,social_proof__scarcity,4,powershot number,2,9.631586438367204,22.849794807595003,0.0
+HW-B-TN,Social Proof,Scarcity,social_proof__scarcity,5,news com,2,9.610228998795877,22.366744838049996,0.0
+HW-B-TN,Social Proof,Scarcity,social_proof__scarcity,6,tech update,2,9.5979797230422,22.094317843096,0.0
+HW-B-TN,Social Proof,Scarcity,social_proof__scarcity,7,number number read,3,9.55739476866983,21.215175751918,0.0
+HW-B-TN,Social Proof,Scarcity,social_proof__scarcity,8,number read full,3,9.55739476866983,21.215175751918,0.0
+HW-B-TN,Social Proof,Scarcity,social_proof__scarcity,9,networks inc,2,9.549444510145506,21.047099129063014,0.0
+HW-B-TN,Social Proof,Scarcity,social_proof__scarcity,10,cnet networks inc,3,9.512540069965969,20.284163124285012,0.0
+HW-B-TN,Social Proof,Scarcity,social_proof__scarcity,11,cnet networks,2,9.512540069965969,20.284163124285012,0.0
+HW-B-TN,Social Proof,Scarcity,social_proof__scarcity,12,motley fool,2,9.508640553125225,20.205179791917,0.0
+HW-B-TN,Social Proof,Scarcity,social_proof__scarcity,13,address subscription,2,9.406533598783739,18.242952407491998,0.0
+HW-B-TN,Social Proof,Scarcity,social_proof__scarcity,14,motley fool stock,3,9.339759156888245,17.063924229403,0.0
+HW-B-TN,Social Proof,Scarcity,social_proof__scarcity,15,stock advisor,2,9.339759156888245,17.063924229403,0.0
+HW-B-TN,Social Proof,Commitment,social_proof__commitment,1,read full story,3,8.778219891000456,9.808774614414004,0.0
+HW-B-TN,Social Proof,Commitment,social_proof__commitment,2,full story,2,8.778219891000456,9.808774614414004,0.0
+HW-B-TN,Social Proof,Commitment,social_proof__commitment,3,asp net,2,8.448934260918753,7.0539946067359995,0.0
+HW-B-TN,Social Proof,Commitment,social_proof__commitment,4,canon powershot,2,8.32983623944966,6.2608548078730015,0.0
+HW-B-TN,Social Proof,Commitment,social_proof__commitment,5,canon powershot number,3,8.311032422667946,6.144040522161003,0.0
+HW-B-TN,Social Proof,Commitment,social_proof__commitment,6,powershot number,2,8.311032422667946,6.144040522161003,0.0
+HW-B-TN,Social Proof,Commitment,social_proof__commitment,7,number number read,3,8.292774996068166,6.032703039686002,0.0
+HW-B-TN,Social Proof,Commitment,social_proof__commitment,8,number read full,3,8.292774996068166,6.032703039686002,0.0
+HW-B-TN,Social Proof,Commitment,social_proof__commitment,9,number read,2,8.292774996068166,6.032703039686002,0.0
+HW-B-TN,Social Proof,Commitment,social_proof__commitment,10,news com,2,8.288783004710814,6.008628705613997,0.0
+HW-B-TN,Social Proof,Commitment,social_proof__commitment,11,asian brown,2,8.275246961523369,5.9277091881000015,0.0
+HW-B-TN,Social Proof,Commitment,social_proof__commitment,12,brown cloud,2,8.275246961523369,5.9277091881000015,0.0
+HW-B-TN,Social Proof,Commitment,social_proof__commitment,13,asian brown cloud,3,8.275246961523369,5.9277091881000015,0.0
+HW-B-TN,Social Proof,Commitment,social_proof__commitment,14,networks inc,2,8.256697971520598,5.818585872153998,0.0
+HW-B-TN,Social Proof,Commitment,social_proof__commitment,15,tech update,2,8.241842735634602,5.732640801797997,0.0
+HW-B-TN,Scarcity,Scarcity,scarcity__scarcity,1,read full story,3,10.036797745244979,38.764117,0.0
+HW-B-TN,Scarcity,Scarcity,scarcity__scarcity,2,canon powershot,2,9.625581752999317,25.691180999999997,0.0
+HW-B-TN,Scarcity,Scarcity,scarcity__scarcity,3,canon powershot number,3,9.60111157723508,25.069901000000005,0.0
+HW-B-TN,Scarcity,Scarcity,scarcity__scarcity,4,powershot number,2,9.60111157723508,25.069901000000005,0.0
+HW-B-TN,Scarcity,Scarcity,scarcity__scarcity,5,news com,2,9.598243101716378,24.998063000000002,0.0
+HW-B-TN,Scarcity,Scarcity,scarcity__scarcity,6,tech update,2,9.586446820551538,24.704793999999996,0.0
+HW-B-TN,Scarcity,Scarcity,scarcity__scarcity,7,networks inc,2,9.578043342831336,24.497974000000006,0.0
+HW-B-TN,Scarcity,Scarcity,scarcity__scarcity,8,cnet networks inc,3,9.543537771524031,23.66673600000001,0.0
+HW-B-TN,Scarcity,Scarcity,scarcity__scarcity,9,cnet networks,2,9.543537771524031,23.66673600000001,0.0
+HW-B-TN,Scarcity,Scarcity,scarcity__scarcity,10,number number read,3,9.52453593224543,23.221081999999996,0.0
+HW-B-TN,Scarcity,Scarcity,scarcity__scarcity,11,number read full,3,9.52453593224543,23.221081999999996,0.0
+HW-B-TN,Scarcity,Scarcity,scarcity__scarcity,12,motley fool,2,9.420867653564649,20.933385,0.0
+HW-B-TN,Scarcity,Scarcity,scarcity__scarcity,13,address subscription,2,9.418811001165091,20.89035599999999,0.0
+HW-B-TN,Scarcity,Scarcity,scarcity__scarcity,14,motley fool stock,3,9.251732397262732,17.674483,0.0
+HW-B-TN,Scarcity,Scarcity,scarcity__scarcity,15,stock advisor,2,9.251732397262732,17.674483,0.0
+HW-B-TN,Scarcity,Commitment,scarcity__commitment,1,asp net,2,8.250101210426429,5.186107032546001,0.0
+HW-B-TN,Scarcity,Commitment,scarcity__commitment,2,asian brown,2,7.976066093479547,3.9406281069,0.0
+HW-B-TN,Scarcity,Commitment,scarcity__commitment,3,brown cloud,2,7.976066093479547,3.9406281069,0.0
+HW-B-TN,Scarcity,Commitment,scarcity__commitment,4,asian brown cloud,3,7.976066093479547,3.9406281069,0.0
+HW-B-TN,Scarcity,Commitment,scarcity__commitment,5,read full story,3,7.793403527459779,3.2810676132879992,0.0
+HW-B-TN,Scarcity,Commitment,scarcity__commitment,6,full story,2,7.793403527459779,3.2810676132879992,0.0
+HW-B-TN,Scarcity,Commitment,scarcity__commitment,7,mash note,2,7.753555152791412,3.1525024855200003,0.0
+HW-B-TN,Scarcity,Commitment,scarcity__commitment,8,system web,2,7.558876698063459,2.5930535162730006,0.0
+HW-B-TN,Scarcity,Commitment,scarcity__commitment,9,section number,2,7.5550804001610175,2.5831902834000005,0.0
+HW-B-TN,Scarcity,Commitment,scarcity__commitment,10,visual basic,2,7.524660529671705,2.5054935249090002,0.0
+HW-B-TN,Scarcity,Commitment,scarcity__commitment,11,contact addresses,2,7.466926542870008,2.36437686414,0.0
+HW-B-TN,Scarcity,Commitment,scarcity__commitment,12,basic net,2,7.4639506086978535,2.3573213784300004,0.0
+HW-B-TN,Scarcity,Commitment,scarcity__commitment,13,motley fool,2,7.424585183176307,2.2659411755129995,0.0
+HW-B-TN,Scarcity,Commitment,scarcity__commitment,14,canon powershot,2,7.379362169754565,2.1653088554210003,0.0
+HW-B-TN,Scarcity,Commitment,scarcity__commitment,15,canon powershot number,3,7.3638454053576226,2.1318156257089993,0.0
+HW-B-TN,Commitment,Commitment,commitment__commitment,1,read full story,3,8.733296986178392,10.769330999999996,0.0
+HW-B-TN,Commitment,Commitment,commitment__commitment,2,full story,2,8.733296986178392,10.769330999999996,0.0
+HW-B-TN,Commitment,Commitment,commitment__commitment,3,asp net,2,8.313485156539967,7.073858,0.0
+HW-B-TN,Commitment,Commitment,commitment__commitment,4,canon powershot,2,8.261682182414322,6.716236000000001,0.0
+HW-B-TN,Commitment,Commitment,commitment__commitment,5,canon powershot number,3,8.24457277669151,6.602133000000001,0.0
+HW-B-TN,Commitment,Commitment,commitment__commitment,6,powershot number,2,8.24457277669151,6.602133000000001,0.0
+HW-B-TN,Commitment,Commitment,commitment__commitment,7,number number read,3,8.244546914808332,6.601961999999999,0.0
+HW-B-TN,Commitment,Commitment,commitment__commitment,8,number read full,3,8.244546914808332,6.601961999999999,0.0
+HW-B-TN,Commitment,Commitment,commitment__commitment,9,number read,2,8.244546914808332,6.601961999999999,0.0
+HW-B-TN,Commitment,Commitment,commitment__commitment,10,networks inc,2,8.24258339208816,6.588992000000001,0.0
+HW-B-TN,Commitment,Commitment,commitment__commitment,11,news com,2,8.23811821210409,6.559592000000001,0.0
+HW-B-TN,Commitment,Commitment,commitment__commitment,12,tech update,2,8.213998496078625,6.403031,0.0
+HW-B-TN,Commitment,Commitment,commitment__commitment,13,cnet networks inc,3,8.196675692308023,6.292896000000002,0.0
+HW-B-TN,Commitment,Commitment,commitment__commitment,14,cnet networks,2,8.196675692308023,6.292896000000002,0.0
+HW-B-TN,Commitment,Commitment,commitment__commitment,15,asian brown,2,8.145348795425361,5.977550000000001,0.0

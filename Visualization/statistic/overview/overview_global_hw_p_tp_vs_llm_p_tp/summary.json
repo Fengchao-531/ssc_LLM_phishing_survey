@@ -1,0 +1,18 @@
+{
+  "title": "Overview Global Heatmap Difference: HW-P TP vs LLM-P TP",
+  "group_a_name": "HW-P TP",
+  "group_b_name": "LLM-P TP",
+  "contrast_label": "HW-P TP - LLM-P TP",
+  "n_group_a": 25397,
+  "n_group_b": 16875,
+  "permutations": 200,
+  "bootstraps": 200,
+  "overall_difference_statistic_l2": 0.6272337610026661,
+  "overall_permutation_p": 0.004975124378109453,
+  "num_significant_features_fdr_0_05": 20,
+  "num_total_features": 21,
+  "files": {
+    "feature_stats_csv": "feature_stats.csv",
+    "difference_heatmap": "difference_heatmap.png"
+  }
+}

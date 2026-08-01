@@ -1,0 +1,18 @@
+{
+  "title": "Overview Global Heatmap Difference: LLM-P FN vs LLM-P TP",
+  "group_a_name": "LLM-P FN",
+  "group_b_name": "LLM-P TP",
+  "contrast_label": "LLM-P FN - LLM-P TP",
+  "n_group_a": 9179,
+  "n_group_b": 16875,
+  "permutations": 200,
+  "bootstraps": 200,
+  "overall_difference_statistic_l2": 0.19178791265662598,
+  "overall_permutation_p": 0.004975124378109453,
+  "num_significant_features_fdr_0_05": 15,
+  "num_total_features": 21,
+  "files": {
+    "feature_stats_csv": "feature_stats.csv",
+    "difference_heatmap": "difference_heatmap.png"
+  }
+}

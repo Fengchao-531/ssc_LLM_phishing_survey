@@ -1,0 +1,22 @@
+feature_a,feature_b,cell_slug,contribution_type,group_size,background_size,mean_group_contribution,mean_background_contribution,max_group_contribution,top_doc_count_used
+Authority,Authority,authority__authority,diagonal,9179,88997,0.9398526508334242,0.895901397395418,1.0,400
+Authority,Liking,authority__liking,cooccurrence,9179,88997,0.8294052585951509,0.6433038393724079,1.0,400
+Authority,Reciprocity,authority__reciprocity,cooccurrence,9179,88997,0.4160221395861084,0.36666123137399476,1.0,400
+Authority,Social Proof,authority__social_proof,cooccurrence,9179,88997,0.34250644361057736,0.2788689072207942,0.99999,400
+Authority,Scarcity,authority__scarcity,cooccurrence,9179,88997,0.07002710368349221,0.056526650806888255,0.755944,400
+Authority,Commitment,authority__commitment,cooccurrence,9179,88997,0.02367456557125613,0.01925511727969436,0.327928,400
+Liking,Liking,liking__liking,diagonal,9179,88997,0.8771067862512255,0.6747672461318921,1.0,400
+Liking,Reciprocity,liking__reciprocity,cooccurrence,9179,88997,0.3921174861861514,0.31648604850943807,1.0,400
+Liking,Social Proof,liking__social_proof,cooccurrence,9179,88997,0.3164099416584902,0.23973844190005802,0.99999,400
+Liking,Scarcity,liking__scarcity,cooccurrence,9179,88997,0.06491589333834012,0.04950881588229118,0.755938708392,400
+Liking,Commitment,liking__commitment,cooccurrence,9179,88997,0.02226723417642728,0.01701955490127538,0.327080634048,400
+Reciprocity,Reciprocity,reciprocity__reciprocity,diagonal,9179,88997,0.4281933870792025,0.3863753416294931,1.0,400
+Reciprocity,Social Proof,reciprocity__social_proof,cooccurrence,9179,88997,0.20984705734661724,0.1619929230984732,0.99999,400
+Reciprocity,Scarcity,reciprocity__scarcity,cooccurrence,9179,88997,0.04785547843778756,0.035457860319172196,0.753103,400
+Reciprocity,Commitment,reciprocity__commitment,cooccurrence,9179,88997,0.016168870698551586,0.01217548598803281,0.324639865944,400
+Social Proof,Social Proof,social_proof__social_proof,diagonal,9179,88997,0.3508596452772633,0.29018234235985485,0.99999,400
+Social Proof,Scarcity,social_proof__scarcity,cooccurrence,9179,88997,0.04327077896905654,0.029897198154196482,0.75430738124,400
+Social Proof,Commitment,social_proof__commitment,cooccurrence,9179,88997,0.014221368856362243,0.01015548467155229,0.321584888696,400
+Scarcity,Scarcity,scarcity__scarcity,diagonal,9179,88997,0.07111767621745288,0.05819077283503939,0.755944,400
+Scarcity,Commitment,scarcity__commitment,cooccurrence,9179,88997,0.0038341476389653563,0.002934962063635359,0.227090113264,400
+Commitment,Commitment,commitment__commitment,diagonal,9179,88997,0.024152344808802705,0.019905098767374178,0.327928,400

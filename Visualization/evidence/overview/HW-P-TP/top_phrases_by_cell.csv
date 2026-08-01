@@ -1,0 +1,316 @@
+group_label,feature_a,feature_b,cell_slug,rank,phrase,phrase_len,log_ratio_score,weighted_group_count,weighted_background_count,group_doc_count,background_doc_count
+HW-P-TP,Authority,Authority,authority__authority,1,nous vous,2,9.176328517417286,106.0,0.0,42,0
+HW-P-TP,Authority,Authority,authority__authority,2,ebay member,2,9.118065269120702,100.0,0.0,37,0
+HW-P-TP,Authority,Authority,authority__authority,3,address enter,2,9.097864602413367,98.0,0.0,44,0
+HW-P-TP,Authority,Authority,authority__authority,4,copy paste,2,8.990245532518,88.0,0.0,46,0
+HW-P-TP,Authority,Authority,authority__authority,5,link address,2,8.943730927509034,84.0,0.0,42,0
+HW-P-TP,Authority,Authority,authority__authority,6,paste link,2,8.943730927509034,84.0,0.0,42,0
+HW-P-TP,Authority,Authority,authority__authority,7,vous remercions,2,8.803391506200274,73.0,0.0,41,0
+HW-P-TP,Authority,Authority,authority__authority,8,user agreement,2,8.656088532086244,63.0,0.0,49,0
+HW-P-TP,Authority,Authority,authority__authority,9,privacy promise,2,8.57341049761025,58.0,0.0,18,0
+HW-P-TP,Authority,Authority,authority__authority,10,jose monkey,2,8.556021779175769,57.0,0.0,22,0
+HW-P-TP,Authority,Authority,authority__authority,11,opens window,2,8.53832533435402,56.0,0.0,2,0
+HW-P-TP,Authority,Authority,authority__authority,12,ebay sent message,3,8.444816780067114,51.0,0.0,30,0
+HW-P-TP,Authority,Authority,authority__authority,13,standard bank,2,8.444816780067114,51.0,0.0,3,0
+HW-P-TP,Authority,Authority,authority__authority,14,ebay policy,2,8.425018073563091,50.0,0.0,31,0
+HW-P-TP,Authority,Authority,authority__authority,15,american express,2,8.425018073563091,50.0,0.0,6,0
+HW-P-TP,Authority,Liking,authority__liking,1,specific aspect excited,3,10.093912318714965,328.0,0.0,4,0
+HW-P-TP,Authority,Liking,authority__liking,2,about prospect joining,3,10.093912318714965,328.0,0.0,4,0
+HW-P-TP,Authority,Liking,authority__liking,3,aspect excited about,3,10.093912318714965,328.0,0.0,4,0
+HW-P-TP,Authority,Liking,authority__liking,4,impressed specific,2,10.093912318714965,328.0,0.0,4,0
+HW-P-TP,Authority,Liking,authority__liking,5,excited about prospect,3,10.093912318714965,328.0,0.0,4,0
+HW-P-TP,Authority,Liking,authority__liking,6,link example,2,10.081642602504257,324.0,0.0,4,0
+HW-P-TP,Authority,Liking,authority__liking,7,permission close,2,10.081642602504257,324.0,0.0,4,0
+HW-P-TP,Authority,Liking,authority__liking,8,close file,2,10.081642602504257,324.0,0.0,4,0
+HW-P-TP,Authority,Liking,authority__liking,9,check here link,3,10.081642602504257,324.0,0.0,4,0
+HW-P-TP,Authority,Liking,authority__liking,10,train muni votre,3,9.939258478879836,281.0,0.0,217,0
+HW-P-TP,Authority,Liking,authority__liking,11,voyager train muni,3,9.939258478879836,281.0,0.0,217,0
+HW-P-TP,Authority,Liking,authority__liking,12,votre dossier voyage,3,9.685409156287342,218.0,0.0,218,0
+HW-P-TP,Authority,Liking,authority__liking,13,disponible gare uniquement,3,9.648023371622024,210.0,0.0,210,0
+HW-P-TP,Authority,Liking,authority__liking,14,envoyer votre,2,9.648023371622024,210.0,0.0,210,0
+HW-P-TP,Authority,Liking,authority__liking,15,actuellement disponible,2,9.648023371622024,210.0,0.0,210,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,1,specific aspect excited,3,10.490687257377754,327.569664,0.0,4,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,2,about prospect joining,3,10.490687257377754,327.569664,0.0,4,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,3,impressed specific,2,10.490687257377754,327.569664,0.0,4,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,4,excited about prospect,3,10.490687257377754,327.569664,0.0,4,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,5,aspect excited about,3,10.490687257377754,327.569664,0.0,4,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,6,permission close,2,10.479726362656717,323.998704,0.0,4,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,7,close file,2,10.479726362656717,323.998704,0.0,4,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,8,here link,2,10.479726362656717,323.998704,0.0,4,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,9,link example,2,10.479726362656717,323.998704,0.0,4,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,10,check here,2,10.479726362656717,323.998704,0.0,4,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,11,alone excited,2,9.404689490515363,110.569366,0.0,3,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,12,last summer,2,9.404689490515363,110.569366,0.0,3,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,13,summer went,2,9.404689490515363,110.569366,0.0,3,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,14,time traveling alone,3,9.404689490515363,110.569366,0.0,3,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,15,went solo trip,3,9.404689490515363,110.569366,0.0,3,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,1,standard bank,2,11.261431585703086,499.47028799999987,0.0,33,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,2,patience understanding,2,10.836511300261591,326.561152,0.0,9,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,3,permission close,2,10.827685407340216,323.691552,0.0,4,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,4,close file,2,10.827685407340216,323.691552,0.0,4,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,5,here link,2,10.827685407340216,323.691552,0.0,4,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,6,link example,2,10.827685407340216,323.691552,0.0,4,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,7,check here,2,10.827685407340216,323.691552,0.0,4,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,8,specific aspect excited,3,10.802496341510462,315.63964799999997,0.0,4,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,9,about prospect joining,3,10.802496341510462,315.63964799999997,0.0,4,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,10,impressed specific,2,10.802496341510462,315.63964799999997,0.0,4,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,11,excited about prospect,3,10.802496341510462,315.63964799999997,0.0,4,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,12,aspect excited about,3,10.802496341510462,315.63964799999997,0.0,4,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,13,wells fargo,2,10.356567123514191,202.07808599999998,0.0,11,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,14,website register,2,10.0604236787471,150.27901799999998,0.0,3,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,15,rainier national,2,9.868544228089096,124.03951199999999,0.0,9,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,1,permission close,2,10.77064836633733,239.847804,0.0,4,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,2,close file,2,10.77064836633733,239.847804,0.0,4,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,3,here link,2,10.77064836633733,239.847804,0.0,4,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,4,link example,2,10.77064836633733,239.847804,0.0,4,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,5,check here,2,10.77064836633733,239.847804,0.0,4,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,6,standard bank,2,10.333266374628256,154.872114,0.0,27,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,7,patience understanding,2,10.02665597845726,113.97352,0.0,12,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,8,specific aspect excited,3,9.968524856198863,107.53644,0.0,4,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,9,about prospect joining,3,9.968524856198863,107.53644,0.0,4,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,10,impressed specific,2,9.968524856198863,107.53644,0.0,4,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,11,excited about prospect,3,9.968524856198863,107.53644,0.0,4,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,12,aspect excited about,3,9.968524856198863,107.53644,0.0,4,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,13,alone excited,2,9.73330686285756,84.99454800000001,0.0,3,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,14,summer went,2,9.73330686285756,84.99454800000001,0.0,3,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,15,time traveling alone,3,9.73330686285756,84.99454800000001,0.0,3,0
+HW-P-TP,Authority,Commitment,authority__commitment,1,permission close,2,10.312347749100208,145.133208,0.0,4,0
+HW-P-TP,Authority,Commitment,authority__commitment,2,close file,2,10.312347749100208,145.133208,0.0,4,0
+HW-P-TP,Authority,Commitment,authority__commitment,3,here link,2,10.312347749100208,145.133208,0.0,4,0
+HW-P-TP,Authority,Commitment,authority__commitment,4,link example,2,10.312347749100208,145.133208,0.0,4,0
+HW-P-TP,Authority,Commitment,authority__commitment,5,check here,2,10.312347749100208,145.133208,0.0,4,0
+HW-P-TP,Authority,Commitment,authority__commitment,6,standard bank,2,9.44165687976868,60.75597600000004,0.0,27,0
+HW-P-TP,Authority,Commitment,authority__commitment,7,patience understanding,2,9.296387173605307,52.53974899999999,0.0,9,0
+HW-P-TP,Authority,Commitment,authority__commitment,8,specific aspect excited,3,9.266456877568723,50.990224000000005,0.0,4,0
+HW-P-TP,Authority,Commitment,authority__commitment,9,about prospect joining,3,9.266456877568723,50.990224000000005,0.0,4,0
+HW-P-TP,Authority,Commitment,authority__commitment,10,impressed specific,2,9.266456877568723,50.990224000000005,0.0,4,0
+HW-P-TP,Authority,Commitment,authority__commitment,11,excited about prospect,3,9.266456877568723,50.990224000000005,0.0,4,0
+HW-P-TP,Authority,Commitment,authority__commitment,12,aspect excited about,3,9.266456877568723,50.990224000000005,0.0,4,0
+HW-P-TP,Authority,Commitment,authority__commitment,13,might interest,2,8.702968790494442,29.020352999999993,0.0,6,0
+HW-P-TP,Authority,Commitment,authority__commitment,14,alone excited,2,8.695740855883967,28.81128,0.0,3,0
+HW-P-TP,Authority,Commitment,authority__commitment,15,last summer,2,8.695740855883967,28.81128,0.0,3,0
+HW-P-TP,Liking,Liking,liking__liking,1,verify address,2,10.965189068264674,883.0,0.0,221,0
+HW-P-TP,Liking,Liking,liking__liking,2,nous vous,2,10.527506447230882,570.0,0.0,221,0
+HW-P-TP,Liking,Liking,liking__liking,3,paste link,2,10.273185048952687,442.0,0.0,221,0
+HW-P-TP,Liking,Liking,liking__liking,4,link address,2,10.273185048952687,442.0,0.0,221,0
+HW-P-TP,Liking,Liking,liking__liking,5,reset password,2,10.273185048952687,442.0,0.0,221,0
+HW-P-TP,Liking,Liking,liking__liking,6,vous remercions,2,10.155687599534685,393.0,0.0,221,0
+HW-P-TP,Liking,Liking,liking__liking,7,specific aspect excited,3,9.687224728209191,246.0,0.0,3,0
+HW-P-TP,Liking,Liking,liking__liking,8,about prospect joining,3,9.687224728209191,246.0,0.0,3,0
+HW-P-TP,Liking,Liking,liking__liking,9,aspect excited about,3,9.687224728209191,246.0,0.0,3,0
+HW-P-TP,Liking,Liking,liking__liking,10,impressed specific,2,9.687224728209191,246.0,0.0,3,0
+HW-P-TP,Liking,Liking,liking__liking,11,excited about prospect,3,9.687224728209191,246.0,0.0,3,0
+HW-P-TP,Liking,Liking,liking__liking,12,link example,2,9.674955137453722,243.0,0.0,3,0
+HW-P-TP,Liking,Liking,liking__liking,13,permission close,2,9.674955137453722,243.0,0.0,3,0
+HW-P-TP,Liking,Liking,liking__liking,14,close file,2,9.674955137453722,243.0,0.0,3,0
+HW-P-TP,Liking,Liking,liking__liking,15,check here link,3,9.674955137453722,243.0,0.0,3,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,1,specific aspect excited,3,10.530776125687359,327.569664,0.0,4,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,2,about prospect joining,3,10.530776125687359,327.569664,0.0,4,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,3,impressed specific,2,10.530776125687359,327.569664,0.0,4,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,4,excited about prospect,3,10.530776125687359,327.569664,0.0,4,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,5,aspect excited about,3,10.530776125687359,327.569664,0.0,4,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,6,permission close,2,10.51981523096632,323.998704,0.0,4,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,7,close file,2,10.51981523096632,323.998704,0.0,4,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,8,here link,2,10.51981523096632,323.998704,0.0,4,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,9,link example,2,10.51981523096632,323.998704,0.0,4,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,10,check here,2,10.51981523096632,323.998704,0.0,4,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,11,alone excited,2,9.444778358824967,110.569366,0.0,3,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,12,last summer,2,9.444778358824967,110.569366,0.0,3,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,13,summer went,2,9.444778358824967,110.569366,0.0,3,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,14,time traveling alone,3,9.444778358824967,110.569366,0.0,3,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,15,went solo trip,3,9.444778358824967,110.569366,0.0,3,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,1,standard bank,2,11.261552999014686,499.313175457374,0.0,33,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,2,patience understanding,2,10.83694731509325,326.561152,0.0,9,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,3,permission close,2,10.828121422171876,323.691552,0.0,4,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,4,close file,2,10.828121422171876,323.691552,0.0,4,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,5,here link,2,10.828121422171876,323.691552,0.0,4,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,6,link example,2,10.828121422171876,323.691552,0.0,4,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,7,check here,2,10.828121422171876,323.691552,0.0,4,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,8,specific aspect excited,3,10.80293235634212,315.63964799999997,0.0,4,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,9,about prospect joining,3,10.80293235634212,315.63964799999997,0.0,4,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,10,impressed specific,2,10.80293235634212,315.63964799999997,0.0,4,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,11,excited about prospect,3,10.80293235634212,315.63964799999997,0.0,4,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,12,aspect excited about,3,10.80293235634212,315.63964799999997,0.0,4,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,13,wells fargo,2,10.353562118858832,201.38389201047605,0.0,11,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,14,website register,2,10.06084669435927,150.27706437276598,0.0,3,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,15,rainier national,2,9.868980242920752,124.03951199999999,0.0,9,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,1,permission close,2,10.783652627548637,239.847804,0.0,4,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,2,close file,2,10.783652627548637,239.847804,0.0,4,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,3,here link,2,10.783652627548637,239.847804,0.0,4,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,4,link example,2,10.783652627548637,239.847804,0.0,4,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,5,check here,2,10.783652627548637,239.847804,0.0,4,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,6,standard bank,2,10.34624495761167,154.86813695284192,0.0,27,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,7,patience understanding,2,10.039657976084147,113.97326198897198,0.0,12,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,8,specific aspect excited,3,9.98152911741017,107.53644,0.0,4,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,9,about prospect joining,3,9.98152911741017,107.53644,0.0,4,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,10,impressed specific,2,9.98152911741017,107.53644,0.0,4,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,11,excited about prospect,3,9.98152911741017,107.53644,0.0,4,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,12,aspect excited about,3,9.98152911741017,107.53644,0.0,4,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,13,alone excited,2,9.74631112406887,84.99454800000001,0.0,3,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,14,summer went,2,9.74631112406887,84.99454800000001,0.0,3,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,15,time traveling alone,3,9.74631112406887,84.99454800000001,0.0,3,0
+HW-P-TP,Liking,Commitment,liking__commitment,1,permission close,2,10.303144440541557,145.133208,0.0,4,0
+HW-P-TP,Liking,Commitment,liking__commitment,2,close file,2,10.303144440541557,145.133208,0.0,4,0
+HW-P-TP,Liking,Commitment,liking__commitment,3,here link,2,10.303144440541557,145.133208,0.0,4,0
+HW-P-TP,Liking,Commitment,liking__commitment,4,link example,2,10.303144440541557,145.133208,0.0,4,0
+HW-P-TP,Liking,Commitment,liking__commitment,5,check here,2,10.303144440541557,145.133208,0.0,4,0
+HW-P-TP,Liking,Commitment,liking__commitment,6,standard bank,2,9.432427880992098,60.754414928886,0.0,27,0
+HW-P-TP,Liking,Commitment,liking__commitment,7,patience understanding,2,9.287183865046657,52.53974899999999,0.0,9,0
+HW-P-TP,Liking,Commitment,liking__commitment,8,specific aspect excited,3,9.257253569010071,50.990224000000005,0.0,4,0
+HW-P-TP,Liking,Commitment,liking__commitment,9,about prospect joining,3,9.257253569010071,50.990224000000005,0.0,4,0
+HW-P-TP,Liking,Commitment,liking__commitment,10,impressed specific,2,9.257253569010071,50.990224000000005,0.0,4,0
+HW-P-TP,Liking,Commitment,liking__commitment,11,excited about prospect,3,9.257253569010071,50.990224000000005,0.0,4,0
+HW-P-TP,Liking,Commitment,liking__commitment,12,aspect excited about,3,9.257253569010071,50.990224000000005,0.0,4,0
+HW-P-TP,Liking,Commitment,liking__commitment,13,might interest,2,8.693765481935792,29.020352999999993,0.0,6,0
+HW-P-TP,Liking,Commitment,liking__commitment,14,alone excited,2,8.686537547325315,28.81128,0.0,3,0
+HW-P-TP,Liking,Commitment,liking__commitment,15,last summer,2,8.686537547325315,28.81128,0.0,3,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,1,specific aspect excited,3,10.492381060297728,327.569664,0.0,4,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,2,about prospect joining,3,10.492381060297728,327.569664,0.0,4,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,3,impressed specific,2,10.492381060297728,327.569664,0.0,4,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,4,excited about prospect,3,10.492381060297728,327.569664,0.0,4,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,5,aspect excited about,3,10.492381060297728,327.569664,0.0,4,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,6,permission close,2,10.481420165576688,323.998704,0.0,4,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,7,close file,2,10.481420165576688,323.998704,0.0,4,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,8,here link,2,10.481420165576688,323.998704,0.0,4,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,9,link example,2,10.481420165576688,323.998704,0.0,4,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,10,check here,2,10.481420165576688,323.998704,0.0,4,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,11,alone excited,2,9.406383293435336,110.569366,0.0,3,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,12,last summer,2,9.406383293435336,110.569366,0.0,3,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,13,summer went,2,9.406383293435336,110.569366,0.0,3,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,14,time traveling alone,3,9.406383293435336,110.569366,0.0,3,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,15,went solo trip,3,9.406383293435336,110.569366,0.0,3,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,1,patience understanding,2,10.822453478853653,326.141367131974,0.0,9,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,2,permission close,2,10.814909844491822,323.690257233792,0.0,4,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,3,close file,2,10.814909844491822,323.690257233792,0.0,4,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,4,here link,2,10.814909844491822,323.690257233792,0.0,4,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,5,link example,2,10.814909844491822,323.690257233792,0.0,4,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,6,check here,2,10.814909844491822,323.690257233792,0.0,4,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,7,specific aspect excited,3,10.788411958740632,315.225528781824,0.0,4,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,8,about prospect joining,3,10.788411958740632,315.225528781824,0.0,4,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,9,impressed specific,2,10.788411958740632,315.225528781824,0.0,4,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,10,excited about prospect,3,10.788411958740632,315.225528781824,0.0,4,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,11,aspect excited about,3,10.788411958740632,315.225528781824,0.0,4,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,12,website register,2,9.992740235342655,142.24885867317,0.0,3,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,13,rainier national,2,9.833526838894603,121.31039637511202,0.0,9,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,14,spotted wildlife such,3,9.833526838894603,121.31039637511202,0.0,9,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,15,mount rainier,2,9.833526838894603,121.31039637511202,0.0,9,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,1,permission close,2,10.782719888118548,239.846844608784,0.0,4,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,2,close file,2,10.782719888118548,239.846844608784,0.0,4,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,3,here link,2,10.782719888118548,239.846844608784,0.0,4,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,4,link example,2,10.782719888118548,239.846844608784,0.0,4,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,5,check here,2,10.782719888118548,239.846844608784,0.0,4,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,6,standard bank,2,10.4282628767027,168.26259490757394,0.0,33,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,7,patience understanding,2,10.03723408975419,113.802967625524,0.0,12,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,8,specific aspect excited,3,9.979287638549842,107.39535219072,0.0,4,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,9,about prospect joining,3,9.979287638549842,107.39535219072,0.0,4,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,10,impressed specific,2,9.979287638549842,107.39535219072,0.0,4,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,11,excited about prospect,3,9.979287638549842,107.39535219072,0.0,4,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,12,aspect excited about,3,9.979287638549842,107.39535219072,0.0,4,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,13,alone excited,2,9.732340871134758,83.893157562324,0.0,3,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,14,summer went,2,9.732340871134758,83.893157562324,0.0,3,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,15,time traveling alone,3,9.732340871134758,83.893157562324,0.0,3,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,1,permission close,2,10.309659535105315,145.132627467168,0.0,4,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,2,close file,2,10.309659535105315,145.132627467168,0.0,4,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,3,here link,2,10.309659535105315,145.132627467168,0.0,4,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,4,link example,2,10.309659535105315,145.132627467168,0.0,4,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,5,check here,2,10.309659535105315,145.132627467168,0.0,4,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,6,standard bank,2,9.518957163973441,65.81597554402202,0.0,33,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,7,patience understanding,2,9.292412709706642,52.471990427608006,0.0,9,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,8,specific aspect excited,3,9.262460059472396,50.923324826112,0.0,4,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,9,about prospect joining,3,9.262460059472396,50.923324826112,0.0,4,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,10,impressed specific,2,9.262460059472396,50.923324826112,0.0,4,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,11,excited about prospect,3,9.262460059472396,50.923324826112,0.0,4,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,12,aspect excited about,3,9.262460059472396,50.923324826112,0.0,4,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,13,might interest,2,8.685884814491768,28.605318206177998,0.0,6,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,14,alone excited,2,8.679951712307513,28.436043258569995,0.0,3,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,15,last summer,2,8.679951712307513,28.436043258569995,0.0,3,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,1,standard bank,2,11.261431585703086,499.47028799999987,0.0,33,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,2,patience understanding,2,10.836511300261591,326.561152,0.0,9,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,3,permission close,2,10.827685407340216,323.691552,0.0,4,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,4,close file,2,10.827685407340216,323.691552,0.0,4,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,5,here link,2,10.827685407340216,323.691552,0.0,4,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,6,link example,2,10.827685407340216,323.691552,0.0,4,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,7,check here,2,10.827685407340216,323.691552,0.0,4,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,8,specific aspect excited,3,10.802496341510462,315.63964799999997,0.0,4,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,9,about prospect joining,3,10.802496341510462,315.63964799999997,0.0,4,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,10,impressed specific,2,10.802496341510462,315.63964799999997,0.0,4,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,11,excited about prospect,3,10.802496341510462,315.63964799999997,0.0,4,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,12,aspect excited about,3,10.802496341510462,315.63964799999997,0.0,4,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,13,wells fargo,2,10.356567123514191,202.07808599999998,0.0,11,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,14,website register,2,10.0604236787471,150.27901799999998,0.0,3,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,15,rainier national,2,9.868544228089096,124.03951199999999,0.0,9,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,1,permission close,2,10.785581561015597,239.619468890592,0.0,4,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,2,close file,2,10.785581561015597,239.619468890592,0.0,4,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,3,here link,2,10.785581561015597,239.619468890592,0.0,4,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,4,link example,2,10.785581561015597,239.619468890592,0.0,4,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,5,check here,2,10.785581561015597,239.619468890592,0.0,4,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,6,standard bank,2,10.373942771648643,158.7597534705301,0.0,33,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,7,patience understanding,2,10.004164539311084,109.68204283967599,0.0,12,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,8,specific aspect excited,3,9.946001705845077,103.48403679504,0.0,4,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,9,about prospect joining,3,9.946001705845077,103.48403679504,0.0,4,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,10,impressed specific,2,9.946001705845077,103.48403679504,0.0,4,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,11,excited about prospect,3,9.946001705845077,103.48403679504,0.0,4,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,12,aspect excited about,3,9.946001705845077,103.48403679504,0.0,4,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,13,alone excited,2,9.749022497377757,84.98010067588801,0.0,3,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,14,summer went,2,9.749022497377757,84.98010067588801,0.0,3,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,15,time traveling alone,3,9.749022497377757,84.98010067588801,0.0,3,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,1,permission close,2,10.304852664210356,144.995041185984,0.0,4,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,2,close file,2,10.304852664210356,144.995041185984,0.0,4,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,3,here link,2,10.304852664210356,144.995041185984,0.0,4,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,4,link example,2,10.304852664210356,144.995041185984,0.0,4,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,5,check here,2,10.304852664210356,144.995041185984,0.0,4,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,6,standard bank,2,9.457174506727704,62.111388574746,0.0,33,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,7,patience understanding,2,9.252395079532231,50.608186258214,0.0,9,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,8,specific aspect excited,3,9.221509458847482,49.068708398784004,0.0,4,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,9,about prospect joining,3,9.221509458847482,49.068708398784004,0.0,4,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,10,impressed specific,2,9.221509458847482,49.068708398784004,0.0,4,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,11,excited about prospect,3,9.221509458847482,49.068708398784004,0.0,4,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,12,aspect excited about,3,9.221509458847482,49.068708398784004,0.0,4,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,13,might interest,2,8.69512606994218,28.982637381263995,0.0,6,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,14,alone excited,2,8.689053405597322,28.8071083299,0.0,3,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,15,last summer,2,8.689053405597322,28.8071083299,0.0,3,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,1,permission close,2,10.770646074046,239.847804,0.0,4,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,2,close file,2,10.770646074046,239.847804,0.0,4,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,3,here link,2,10.770646074046,239.847804,0.0,4,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,4,link example,2,10.770646074046,239.847804,0.0,4,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,5,check here,2,10.770646074046,239.847804,0.0,4,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,6,standard bank,2,10.333264082336928,154.872114,0.0,27,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,7,patience understanding,2,10.026653686165933,113.97352,0.0,12,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,8,specific aspect excited,3,9.968522563907534,107.53644,0.0,4,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,9,about prospect joining,3,9.968522563907534,107.53644,0.0,4,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,10,impressed specific,2,9.968522563907534,107.53644,0.0,4,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,11,excited about prospect,3,9.968522563907534,107.53644,0.0,4,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,12,aspect excited about,3,9.968522563907534,107.53644,0.0,4,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,13,alone excited,2,9.733304570566233,84.99454800000001,0.0,3,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,14,summer went,2,9.733304570566233,84.99454800000001,0.0,3,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,15,time traveling alone,3,9.733304570566233,84.99454800000001,0.0,3,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,1,permission close,2,10.137931616055031,107.437905019368,0.0,4,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,2,close file,2,10.137931616055031,107.437905019368,0.0,4,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,3,here link,2,10.137931616055031,107.437905019368,0.0,4,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,4,link example,2,10.137931616055031,107.437905019368,0.0,4,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,5,check here,2,10.137931616055031,107.437905019368,0.0,4,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,6,alone excited,2,8.552867954054538,22.00980913902,0.0,3,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,7,last summer,2,8.552867954054538,22.00980913902,0.0,3,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,8,summer went,2,8.552867954054538,22.00980913902,0.0,3,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,9,time traveling alone,3,8.552867954054538,22.00980913902,0.0,3,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,10,went solo trip,3,8.552867954054538,22.00980913902,0.0,3,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,11,solo trip europe,3,8.552867954054538,22.00980913902,0.0,3,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,12,excited also,2,8.552867954054538,22.00980913902,0.0,3,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,13,first time traveling,3,8.552867954054538,22.00980913902,0.0,3,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,14,planned itinerary carefully,3,8.534261995728643,21.60389738628,0.0,3,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,15,determined make,2,8.534261995728643,21.60389738628,0.0,3,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,1,permission close,2,10.312208677238118,145.133208,0.0,4,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,2,close file,2,10.312208677238118,145.133208,0.0,4,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,3,here link,2,10.312208677238118,145.133208,0.0,4,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,4,link example,2,10.312208677238118,145.133208,0.0,4,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,5,check here,2,10.312208677238118,145.133208,0.0,4,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,6,standard bank,2,9.441517807906589,60.75597600000004,0.0,27,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,7,patience understanding,2,9.296248101743219,52.53974899999999,0.0,9,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,8,specific aspect excited,3,9.266317805706635,50.990224000000005,0.0,4,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,9,about prospect joining,3,9.266317805706635,50.990224000000005,0.0,4,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,10,impressed specific,2,9.266317805706635,50.990224000000005,0.0,4,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,11,excited about prospect,3,9.266317805706635,50.990224000000005,0.0,4,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,12,aspect excited about,3,9.266317805706635,50.990224000000005,0.0,4,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,13,might interest,2,8.702829718632353,29.020352999999993,0.0,6,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,14,alone excited,2,8.695601784021878,28.81128,0.0,3,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,15,last summer,2,8.695601784021878,28.81128,0.0,3,0

@@ -1,0 +1,211 @@
+group_label,feature_a,feature_b,cell_slug,rank,sentence,sentence_score,token_count
+LLM-P-FN,Authority,Authority,authority__authority,1,best name position contact information,59.848327008417876,5
+LLM-P-FN,Authority,Authority,authority__authority,2,warm name position contact information,42.994338872014644,5
+LLM-P-FN,Authority,Authority,authority__authority,3,sincerely name position contact information,42.994338872014644,5
+LLM-P-FN,Authority,Authority,authority__authority,4,best name position contact details,42.61715571879958,5
+LLM-P-FN,Authority,Authority,authority__authority,5,convincing bec business email compromise scam letter use target secretary trick accounting department into transferring funds external account name hope email finds well,33.099800392509486,23
+LLM-P-FN,Authority,Authority,authority__authority,6,best name position,25.51193249400759,3
+LLM-P-FN,Authority,Authority,authority__authority,7,best name position company name phone number,25.51193249400759,7
+LLM-P-FN,Authority,Authority,authority__authority,8,contact information any questions concerns regarding reimbursement procedures internal controls hesitate contact compliance officer reimbursement financialservices com mailto compliance organization com number number number number,17.14158590863349,25
+LLM-P-FN,Authority,Authority,authority__authority,9,subject alert recognizing social engineering attacks team hope email finds well,17.06106902545193,11
+LLM-P-FN,Authority,Authority,authority__authority,10,subject important reminder dangers reusing passwords team hope email finds well,17.06106902545193,11
+LLM-P-FN,Authority,Liking,authority__liking,1,best senior data analyst emily chen techcorp com number number number website data security specialist emily brooks company com number number number website healthcare solutions inc emily chen healthcarefacility com number number number website,59.762426117986955,34
+LLM-P-FN,Authority,Liking,authority__liking,2,best emily chen senior data analyst emily chen techcorp com number number number website techcorp team support techcorp com number number number website website note customize placeholders brand new car website august number number etc,59.45996987800088,35
+LLM-P-FN,Authority,Liking,authority__liking,3,best emily chen senior data analyst emily chen techcorp com number number number website senior data analyst emily chen techcorp com number number number website techcorp inc support techcorp com number number number website,59.45996987800088,34
+LLM-P-FN,Authority,Liking,authority__liking,4,best emily chen cloud security specialist emily chen techcorp com number number number website bank security update support banksecurityupdate com number number number number website,59.0502186377392,25
+LLM-P-FN,Authority,Liking,authority__liking,5,best lily tran emily chen company com number number number website bank security update support techcorp com number number number website,58.7894765213083,21
+LLM-P-FN,Authority,Liking,authority__liking,6,best emily chen customer support techcorp inc inquiries emily chen techcorp com number number number website phone number number number,51.49389243688015,20
+LLM-P-FN,Authority,Liking,authority__liking,7,best senior data analyst data security specialist emily chen techcorp com number number number website techcorp support banksecurityupdate com number number number website,50.966413615072575,23
+LLM-P-FN,Authority,Liking,authority__liking,8,best emily chen senior data analyst emily chen greentech com number number number website senior data analyst emily chen techcorp com number number number website techcorp,43.487009641119386,26
+LLM-P-FN,Authority,Liking,authority__liking,9,reach out emily chen techcorp com number number number website number number number further guidance,43.487009641119386,15
+LLM-P-FN,Authority,Liking,authority__liking,10,best emily chen senior data analyst emily chen techcorp com number number number website emily chen techcorp com number number number website,43.487009641119386,22
+LLM-P-FN,Authority,Reciprocity,authority__reciprocity,1,should avoid any technical jargon might confuse seller,44.698647198510606,8
+LLM-P-FN,Authority,Reciprocity,authority__reciprocity,2,avoid any technical jargon might confuse customer,35.66172076732334,7
+LLM-P-FN,Authority,Reciprocity,authority__reciprocity,3,keep language simple direct avoiding any technical jargon might confuse them,35.632934846007245,11
+LLM-P-FN,Authority,Reciprocity,authority__reciprocity,4,should make sure tone supportive professional avoiding any technical jargon might confuse users,35.489469528480285,13
+LLM-P-FN,Authority,Reciprocity,authority__reciprocity,5,need make sure language clear straightforward avoiding any technical jargon might confuse user,35.47232654804391,13
+LLM-P-FN,Authority,Reciprocity,authority__reciprocity,6,need make sure tone empathetic professional avoiding any technical jargon might confuse user,35.46296933788905,13
+LLM-P-FN,Authority,Reciprocity,authority__reciprocity,7,should avoid any technical jargon might confuse client,35.43200482947584,8
+LLM-P-FN,Authority,Reciprocity,authority__reciprocity,8,should avoid any technical jargon might confuse customers keeping language simple direct,35.42739765348356,12
+LLM-P-FN,Authority,Reciprocity,authority__reciprocity,9,should also make sure language clear straightforward avoiding any technical jargon might confuse client,35.32950409228331,14
+LLM-P-FN,Authority,Reciprocity,authority__reciprocity,10,need make sure language clear concise avoiding any technical jargon might confuse client,35.322289754683,13
+LLM-P-FN,Authority,Social Proof,authority__social_proof,1,subject temporary payment disruption notice evelyn brooks hope message finds well,45.937958771363974,11
+LLM-P-FN,Authority,Social Proof,authority__social_proof,2,subject detailed questions about vehicle listing evelyn brooks hope message finds well,44.5746333977437,12
+LLM-P-FN,Authority,Social Proof,authority__social_proof,3,then polite opening line like hope message finds well,44.40679347326363,9
+LLM-P-FN,Authority,Social Proof,authority__social_proof,4,subject recommendations enhancing financial management greentech inc hope message finds well,44.27056931083256,11
+LLM-P-FN,Authority,Social Proof,authority__social_proof,5,emily chen number main street new york number info techcorp com number number number number number number securityshield chief information security officer company inc number main street new york number securityshield hope message finds well,44.13902017022679,35
+LLM-P-FN,Authority,Social Proof,authority__social_proof,6,subject important notice discrepancy payment information evelyn brooks hope message finds well,44.11036923817931,12
+LLM-P-FN,Authority,Social Proof,authority__social_proof,7,subject important update account evelyn brooks hope message finds well,44.10107911638291,10
+LLM-P-FN,Authority,Social Proof,authority__social_proof,8,subject alert unusual activity account evelyn tran hope message finds well,43.784537570591326,11
+LLM-P-FN,Authority,Social Proof,authority__social_proof,9,subject important notice digital security coverage expiring soon evelyn tran hope message finds well,43.67315288113669,14
+LLM-P-FN,Authority,Social Proof,authority__social_proof,10,subject service update corporate clients evelyn brooks hope message finds well,43.63023445387941,11
+LLM-P-FN,Authority,Scarcity,authority__scarcity,1,should make sure tone professional yet approachable avoiding any jargon,14.327024399905355,10
+LLM-P-FN,Authority,Scarcity,authority__scarcity,2,title silent invader understanding harmful fungal growth bullet points what fungi why they harmful,13.254331015325356,14
+LLM-P-FN,Authority,Scarcity,authority__scarcity,3,slide number invisible impact beyond obvious title domino effect unseen consequences fungi bullet points digestive issues bloating gas ibs symptoms,13.254331015325356,20
+LLM-P-FN,Authority,Scarcity,authority__scarcity,4,technical discussion challenges strategies addressing botnet traffic network management botnets vast networks compromised computers bots controlled remotely attacker pose significant evolving threat network security stability,12.33419539913691,25
+LLM-P-FN,Authority,Scarcity,authority__scarcity,5,however effectively addressing botnet traffic presents multifaceted challenge due dynamic nature botnets their sophisticated evasion techniques sheer volume data involved,12.33419539913691,20
+LLM-P-FN,Authority,Scarcity,authority__scarcity,6,challenges addressing botnet traffic number,12.33419539913691,5
+LLM-P-FN,Authority,Scarcity,authority__scarcity,7,stealth evasion techniques mimicking legitimate traffic botnet traffic designed closely resemble normal user activity making difficult distinguish using simple volumetric analysis,12.33419539913691,21
+LLM-P-FN,Authority,Scarcity,authority__scarcity,8,strategies filtering monitoring botnet traffic effective botnet mitigation requires layered approach combining proactive monitoring reactive filtering mechanisms,12.33419539913691,17
+LLM-P-FN,Authority,Scarcity,authority__scarcity,9,machine learning supervised learning training models labeled datasets benign botnet traffic classify new traffic,12.33419539913691,14
+LLM-P-FN,Authority,Scarcity,authority__scarcity,10,conclusion addressing botnet traffic ongoing battle demands continuous adaptation innovation network management,12.33419539913691,12
+LLM-P-FN,Authority,Commitment,authority__commitment,1,technical discussion challenges strategies addressing botnet traffic network management botnets vast networks compromised computers bots controlled remotely attacker pose significant evolving threat network security stability,5.567079023963256,25
+LLM-P-FN,Authority,Commitment,authority__commitment,2,however effectively addressing botnet traffic presents multifaceted challenge due dynamic nature botnets their sophisticated evasion techniques sheer volume data involved,5.567079023963256,20
+LLM-P-FN,Authority,Commitment,authority__commitment,3,challenges addressing botnet traffic number,5.567079023963256,5
+LLM-P-FN,Authority,Commitment,authority__commitment,4,stealth evasion techniques mimicking legitimate traffic botnet traffic designed closely resemble normal user activity making difficult distinguish using simple volumetric analysis,5.567079023963256,21
+LLM-P-FN,Authority,Commitment,authority__commitment,5,strategies filtering monitoring botnet traffic effective botnet mitigation requires layered approach combining proactive monitoring reactive filtering mechanisms,5.567079023963256,17
+LLM-P-FN,Authority,Commitment,authority__commitment,6,machine learning supervised learning training models labeled datasets benign botnet traffic classify new traffic,5.567079023963256,14
+LLM-P-FN,Authority,Commitment,authority__commitment,7,conclusion addressing botnet traffic ongoing battle demands continuous adaptation innovation network management,5.567079023963256,12
+LLM-P-FN,Authority,Commitment,authority__commitment,8,title silent invader understanding harmful fungal growth bullet points what fungi why they harmful,4.646209614577061,14
+LLM-P-FN,Authority,Commitment,authority__commitment,9,slide number invisible impact beyond obvious title domino effect unseen consequences fungi bullet points digestive issues bloating gas ibs symptoms,4.646209614577061,20
+LLM-P-FN,Authority,Commitment,authority__commitment,10,now putting all together start strong subject line polite greeting explain incident specify data affected emphasize urgency reassure them provide contact info,4.366191424685527,22
+LLM-P-FN,Liking,Liking,liking__liking,1,best evelyn brooks cloud security specialist evelyn brooks securityshield com number number number website cloud security specialist evelyn brooks securityshield com number number number website healthcare solutions inc support securityupdate com number number number website note ensure email uses secure method https clearly states participation optional,94.17648272689583,46
+LLM-P-FN,Liking,Liking,liking__liking,2,best evelyn brooks cloud security specialist evelyn brooks securityshield com number number number website customer support team,94.17648272689583,17
+LLM-P-FN,Liking,Liking,liking__liking,3,best evelyn brooks cloud security specialist evelyn brooks securityshield com number number number website cloud security specialist evelyn brooks securityshield com number number number website securityshield evelyn brooks securityshield com number number number website,94.17648272689583,34
+LLM-P-FN,Liking,Liking,liking__liking,4,best evelyn brooks cloud security specialist evelyn brooks securityshield com number number number website customer support team evelyn brooks securityshield com number number number website,94.17648272689583,25
+LLM-P-FN,Liking,Liking,liking__liking,5,best evelyn brooks cloud security specialist evelyn brooks securityshield com number number number website cloud security specialist evelyn brooks securityshield com number number number website evelyn brooks securityshield com number number number website let know would like adjust tone wording,94.17648272689583,40
+LLM-P-FN,Liking,Liking,liking__liking,6,best evelyn brooks cloud security specialist evelyn brooks securityshield com number number number website customer service team,94.17648272689583,17
+LLM-P-FN,Liking,Liking,liking__liking,7,best evelyn brooks cloud security specialist evelyn brooks securityshield com number number number website techcorp credit union evelyn brooks securityshield com number number number website,94.17648272689583,25
+LLM-P-FN,Liking,Liking,liking__liking,8,best evelyn brooks cloud security specialist evelyn brooks securityshield com number number number website cloud security specialist evelyn brooks securityshield com number number number website securityshield support shippingcompany com number number number website,94.17648272689583,33
+LLM-P-FN,Liking,Liking,liking__liking,9,warm evelyn brooks cloud security specialist evelyn brooks securityshield com number number number website cloud security specialist healthcare facility,94.17648272689583,19
+LLM-P-FN,Liking,Liking,liking__liking,10,warm evelyn brooks cloud security specialist evelyn brooks techcorp com number number number website cloud security specialist evelyn brooks techcorp com number number number website techcorp inc support techcorp com number number number website,48.94178862745289,34
+LLM-P-FN,Liking,Reciprocity,liking__reciprocity,1,okay putting all together subject line greeting clear statement expiration explanation need renew benefits renewal offer link contact info,27.01907998467664,19
+LLM-P-FN,Liking,Reciprocity,liking__reciprocity,2,they specifically mentioned showcasing savings bonuses including clear call action unsubscribe option,26.47694193060292,12
+LLM-P-FN,Liking,Reciprocity,liking__reciprocity,3,subject line greeting explanation issue steps secure reassurance contact info closing,25.891659631535006,11
+LLM-P-FN,Liking,Reciprocity,liking__reciprocity,4,needs entice customer renew without making sound like sales pitch,18.798131304366933,10
+LLM-P-FN,Liking,Reciprocity,liking__reciprocity,5,should mention new features included like updated threat protection maybe firewall entice them renew,18.57107252076157,14
+LLM-P-FN,Liking,Reciprocity,liking__reciprocity,6,antivirus subscription has expired time renew ensure continued protection devices peace mind,18.251589366824746,12
+LLM-P-FN,Liking,Reciprocity,liking__reciprocity,7,remember seeing bonuses money mentioning could entice players,17.90092558687204,8
+LLM-P-FN,Liking,Reciprocity,liking__reciprocity,8,okay need generate response guideline online seller been contacted buyer about pricing payment methods,17.80854401739386,14
+LLM-P-FN,Liking,Reciprocity,liking__reciprocity,9,seller receives message buyer they need respond professionally,17.80854401739386,8
+LLM-P-FN,Liking,Reciprocity,liking__reciprocity,10,seller should reassure buyer they reach them through platform they more questions,17.80854401739386,12
+LLM-P-FN,Liking,Social Proof,liking__social_proof,1,email should concise but cover all necessary points without being too lengthy,46.80983460715967,12
+LLM-P-FN,Liking,Social Proof,liking__social_proof,2,email should concise but informative covering all necessary points without overwhelming reader,46.738292652527065,12
+LLM-P-FN,Liking,Social Proof,liking__social_proof,3,make sure clear concise covers all necessary points without being too lengthy,45.03122712959503,12
+LLM-P-FN,Liking,Social Proof,liking__social_proof,4,contact information website link need make sure concise but covers all necessary points,38.897015587075295,13
+LLM-P-FN,Liking,Social Proof,liking__social_proof,5,email should concise but cover all necessary points offer benefits clear call action,38.41322476776287,13
+LLM-P-FN,Liking,Social Proof,liking__social_proof,6,putting all together message should concise but cover all necessary points without being too lengthy,38.39279221101462,15
+LLM-P-FN,Liking,Social Proof,liking__social_proof,7,also email should concise but cover all necessary points without overwhelming them,38.27344833794041,12
+LLM-P-FN,Liking,Social Proof,liking__social_proof,8,email should clear direct providing all necessary information without being overwhelming,37.862654440558984,11
+LLM-P-FN,Liking,Social Proof,liking__social_proof,9,email should concise but cover all necessary points,37.596930702496266,8
+LLM-P-FN,Liking,Social Proof,liking__social_proof,10,now draft email accordingly making sure each section flows smoothly into next language engaging persuasive without being pushy,37.45170259779362,18
+LLM-P-FN,Liking,Scarcity,liking__scarcity,1,should make sure tone professional yet approachable avoiding any jargon,14.352697267608049,10
+LLM-P-FN,Liking,Scarcity,liking__scarcity,2,should make sure tone friendly encouraging avoiding any jargon,13.563056846547937,9
+LLM-P-FN,Liking,Scarcity,liking__scarcity,3,should make sure tone encouraging positive throughout,13.28889823743435,7
+LLM-P-FN,Liking,Scarcity,liking__scarcity,4,title silent invader understanding harmful fungal growth bullet points what fungi why they harmful,13.244720808714323,14
+LLM-P-FN,Liking,Scarcity,liking__scarcity,5,slide number invisible impact beyond obvious title domino effect unseen consequences fungi bullet points digestive issues bloating gas ibs symptoms,13.244720808714323,20
+LLM-P-FN,Liking,Scarcity,liking__scarcity,6,should make sure tone encouraging positive focusing empowerment,12.264263914024871,8
+LLM-P-FN,Liking,Scarcity,liking__scarcity,7,should make sure tone friendly encouraging using emojis add bit vibrancy,11.856674796560192,11
+LLM-P-FN,Liking,Scarcity,liking__scarcity,8,should make sure tone professional yet approachable avoiding any technical jargon might confuse user,11.66535202356891,14
+LLM-P-FN,Liking,Scarcity,liking__scarcity,9,make sure tone professional yet approachable avoiding any technical jargon might confuse customers,11.54698184952582,13
+LLM-P-FN,Liking,Scarcity,liking__scarcity,10,should make sure tone professional yet approachable,11.460568076342868,7
+LLM-P-FN,Liking,Commitment,liking__commitment,1,technical discussion challenges strategies addressing botnet traffic network management botnets vast networks compromised computers bots controlled remotely attacker pose significant evolving threat network security stability,5.543601452239169,25
+LLM-P-FN,Liking,Commitment,liking__commitment,2,however effectively addressing botnet traffic presents multifaceted challenge due dynamic nature botnets their sophisticated evasion techniques sheer volume data involved,5.543601452239169,20
+LLM-P-FN,Liking,Commitment,liking__commitment,3,challenges addressing botnet traffic number,5.543601452239169,5
+LLM-P-FN,Liking,Commitment,liking__commitment,4,stealth evasion techniques mimicking legitimate traffic botnet traffic designed closely resemble normal user activity making difficult distinguish using simple volumetric analysis,5.543601452239169,21
+LLM-P-FN,Liking,Commitment,liking__commitment,5,strategies filtering monitoring botnet traffic effective botnet mitigation requires layered approach combining proactive monitoring reactive filtering mechanisms,5.543601452239169,17
+LLM-P-FN,Liking,Commitment,liking__commitment,6,machine learning supervised learning training models labeled datasets benign botnet traffic classify new traffic,5.543601452239169,14
+LLM-P-FN,Liking,Commitment,liking__commitment,7,conclusion addressing botnet traffic ongoing battle demands continuous adaptation innovation network management,5.543601452239169,12
+LLM-P-FN,Liking,Commitment,liking__commitment,8,title silent invader understanding harmful fungal growth bullet points what fungi why they harmful,4.647547361578034,14
+LLM-P-FN,Liking,Commitment,liking__commitment,9,slide number invisible impact beyond obvious title domino effect unseen consequences fungi bullet points digestive issues bloating gas ibs symptoms,4.647547361578034,20
+LLM-P-FN,Liking,Commitment,liking__commitment,10,need make sure tone professional yet approachable avoiding any jargon might confuse beneficiaries,4.4517478796967325,13
+LLM-P-FN,Reciprocity,Reciprocity,reciprocity__reciprocity,1,should avoid any technical jargon might confuse seller,44.64487635053761,8
+LLM-P-FN,Reciprocity,Reciprocity,reciprocity__reciprocity,2,avoid any technical jargon might confuse customer,35.61829666553389,7
+LLM-P-FN,Reciprocity,Reciprocity,reciprocity__reciprocity,3,keep language simple direct avoiding any technical jargon might confuse them,35.58954579588526,11
+LLM-P-FN,Reciprocity,Reciprocity,reciprocity__reciprocity,4,should make sure tone supportive professional avoiding any technical jargon might confuse users,35.44625517134612,13
+LLM-P-FN,Reciprocity,Reciprocity,reciprocity__reciprocity,5,need make sure language clear straightforward avoiding any technical jargon might confuse user,35.4291330653519,13
+LLM-P-FN,Reciprocity,Reciprocity,reciprocity__reciprocity,6,need make sure tone empathetic professional avoiding any technical jargon might confuse user,35.41978724916338,13
+LLM-P-FN,Reciprocity,Reciprocity,reciprocity__reciprocity,7,should avoid any technical jargon might confuse client,35.38886044521132,8
+LLM-P-FN,Reciprocity,Reciprocity,reciprocity__reciprocity,8,should avoid any technical jargon might confuse customers keeping language simple direct,35.38425887922537,12
+LLM-P-FN,Reciprocity,Reciprocity,reciprocity__reciprocity,9,should also make sure language clear straightforward avoiding any technical jargon might confuse client,35.286484519787535,14
+LLM-P-FN,Reciprocity,Reciprocity,reciprocity__reciprocity,10,need make sure language clear concise avoiding any technical jargon might confuse client,35.2792789668483,13
+LLM-P-FN,Reciprocity,Social Proof,reciprocity__social_proof,1,best evelyn brooks cloud security specialist evelyn brooks shippingcompany com number number number website customer support team number main suite number anytown usa number phone number number number email support shippingcompany com note email promotional template should adapted match brand messaging,54.43274865745116,41
+LLM-P-FN,Reciprocity,Social Proof,reciprocity__social_proof,2,any questions concerns regarding purchase hesitate contact customer support team support shippingcompany com number number number website here help ensure positive experience,53.81203803309559,22
+LLM-P-FN,Reciprocity,Social Proof,reciprocity__social_proof,3,best emily chen senior data analyst emily chen shippingcompany com number number number website customer support team number main suite number anytown usa number phone number number number email support shippingcompany com website,53.330878686484795,33
+LLM-P-FN,Reciprocity,Social Proof,reciprocity__social_proof,4,warm emily chen senior data analyst emily chen healthcarefacility com number number number number website customer support team support shippingcompany com number number number website,51.98598969380049,25
+LLM-P-FN,Reciprocity,Social Proof,reciprocity__social_proof,5,contact support team reach out customer support team support shippingcompany com number number number website via chat,51.492579053566686,17
+LLM-P-FN,Reciprocity,Social Proof,reciprocity__social_proof,6,any questions concerns reach out customer support team support shippingcompany com number number number website attention matter,51.23501723276691,17
+LLM-P-FN,Reciprocity,Social Proof,reciprocity__social_proof,7,best bank security update team customer support team support shippingcompany com number number number website,51.23501723276691,15
+LLM-P-FN,Reciprocity,Social Proof,reciprocity__social_proof,8,any assistance questions regarding confirmation process contact customer support team support shippingcompany com number number number website cooperation understanding,50.20447536626253,19
+LLM-P-FN,Reciprocity,Social Proof,reciprocity__social_proof,9,report any anomalies encounter any issues notice any unauthorized access account contact customer support team support shippingcompany com number number number website report incident fraud unauthorized access through platform,49.968175998942755,29
+LLM-P-FN,Reciprocity,Social Proof,reciprocity__social_proof,10,any further questions concerns feel free reach out customer support team support shippingcompany com number number number website committed ensuring secure seamless experience all customers,49.968175998942755,25
+LLM-P-FN,Reciprocity,Scarcity,reciprocity__scarcity,1,should make sure tone professional yet approachable avoiding any jargon,14.48746331400015,10
+LLM-P-FN,Reciprocity,Scarcity,reciprocity__scarcity,2,should make sure tone professional yet approachable avoiding any technical jargon might confuse user,11.518221884387591,14
+LLM-P-FN,Reciprocity,Scarcity,reciprocity__scarcity,3,make sure tone professional yet approachable avoiding any technical jargon might confuse customers,11.490806416440465,13
+LLM-P-FN,Reciprocity,Scarcity,reciprocity__scarcity,4,should make sure tone professional yet approachable,11.400644846205314,7
+LLM-P-FN,Reciprocity,Scarcity,reciprocity__scarcity,5,maybe something like pillow turns sleep into spa experience,11.394467682603866,9
+LLM-P-FN,Reciprocity,Scarcity,reciprocity__scarcity,6,first should start friendly greeting maybe something like maya jensen make personal,11.326387304669845,12
+LLM-P-FN,Reciprocity,Scarcity,reciprocity__scarcity,7,should make sure tone professional but approachable,11.121721660604573,7
+LLM-P-FN,Reciprocity,Scarcity,reciprocity__scarcity,8,should grab attention maybe something like big savings favorite medications,11.063066286697113,10
+LLM-P-FN,Reciprocity,Scarcity,reciprocity__scarcity,9,maybe something like energy providers face pressure resolve overcharges grab attention,10.577424048424454,11
+LLM-P-FN,Reciprocity,Scarcity,reciprocity__scarcity,10,need make sure tone professional yet approachable avoiding any jargon might confuse beneficiaries,10.57598719540163,13
+LLM-P-FN,Reciprocity,Commitment,reciprocity__commitment,1,technical discussion challenges strategies addressing botnet traffic network management botnets vast networks compromised computers bots controlled remotely attacker pose significant evolving threat network security stability,5.526439676496307,25
+LLM-P-FN,Reciprocity,Commitment,reciprocity__commitment,2,however effectively addressing botnet traffic presents multifaceted challenge due dynamic nature botnets their sophisticated evasion techniques sheer volume data involved,5.526439676496307,20
+LLM-P-FN,Reciprocity,Commitment,reciprocity__commitment,3,challenges addressing botnet traffic number,5.526439676496307,5
+LLM-P-FN,Reciprocity,Commitment,reciprocity__commitment,4,stealth evasion techniques mimicking legitimate traffic botnet traffic designed closely resemble normal user activity making difficult distinguish using simple volumetric analysis,5.526439676496307,21
+LLM-P-FN,Reciprocity,Commitment,reciprocity__commitment,5,strategies filtering monitoring botnet traffic effective botnet mitigation requires layered approach combining proactive monitoring reactive filtering mechanisms,5.526439676496307,17
+LLM-P-FN,Reciprocity,Commitment,reciprocity__commitment,6,machine learning supervised learning training models labeled datasets benign botnet traffic classify new traffic,5.526439676496307,14
+LLM-P-FN,Reciprocity,Commitment,reciprocity__commitment,7,conclusion addressing botnet traffic ongoing battle demands continuous adaptation innovation network management,5.526439676496307,12
+LLM-P-FN,Reciprocity,Commitment,reciprocity__commitment,8,now putting all together start strong subject line polite greeting explain incident specify data affected emphasize urgency reassure them provide contact info,5.074151699939164,22
+LLM-P-FN,Reciprocity,Commitment,reciprocity__commitment,9,putting all together email should clear persuasive easy follow,4.669922242250142,9
+LLM-P-FN,Reciprocity,Commitment,reciprocity__commitment,10,putting all together email should clear empathetic specific reassuring all while preventing issue escalating further,4.338952757406112,15
+LLM-P-FN,Social Proof,Social Proof,social_proof__social_proof,1,subject temporary payment disruption notice evelyn brooks hope message finds well,45.937958771363974,11
+LLM-P-FN,Social Proof,Social Proof,social_proof__social_proof,2,subject detailed questions about vehicle listing evelyn brooks hope message finds well,44.5746333977437,12
+LLM-P-FN,Social Proof,Social Proof,social_proof__social_proof,3,then polite opening line like hope message finds well,44.40679347326363,9
+LLM-P-FN,Social Proof,Social Proof,social_proof__social_proof,4,subject recommendations enhancing financial management greentech inc hope message finds well,44.27056931083256,11
+LLM-P-FN,Social Proof,Social Proof,social_proof__social_proof,5,emily chen number main street new york number info techcorp com number number number number number number securityshield chief information security officer company inc number main street new york number securityshield hope message finds well,44.13902017022679,35
+LLM-P-FN,Social Proof,Social Proof,social_proof__social_proof,6,subject important notice discrepancy payment information evelyn brooks hope message finds well,44.11036923817931,12
+LLM-P-FN,Social Proof,Social Proof,social_proof__social_proof,7,subject important update account evelyn brooks hope message finds well,44.10107911638291,10
+LLM-P-FN,Social Proof,Social Proof,social_proof__social_proof,8,subject alert unusual activity account evelyn tran hope message finds well,43.784537570591326,11
+LLM-P-FN,Social Proof,Social Proof,social_proof__social_proof,9,subject important notice digital security coverage expiring soon evelyn tran hope message finds well,43.67315288113669,14
+LLM-P-FN,Social Proof,Social Proof,social_proof__social_proof,10,subject service update corporate clients evelyn brooks hope message finds well,43.63023445387941,11
+LLM-P-FN,Social Proof,Scarcity,social_proof__scarcity,1,should make sure tone professional yet approachable avoiding any jargon,13.739162760578859,10
+LLM-P-FN,Social Proof,Scarcity,social_proof__scarcity,2,title silent invader understanding harmful fungal growth bullet points what fungi why they harmful,13.275512778636578,14
+LLM-P-FN,Social Proof,Scarcity,social_proof__scarcity,3,slide number invisible impact beyond obvious title domino effect unseen consequences fungi bullet points digestive issues bloating gas ibs symptoms,13.275512778636578,20
+LLM-P-FN,Social Proof,Scarcity,social_proof__scarcity,4,should make sure tone professional yet approachable,10.880893853182087,7
+LLM-P-FN,Social Proof,Scarcity,social_proof__scarcity,5,make sure tone professional yet approachable avoiding any technical jargon might confuse customers,10.880712122748147,13
+LLM-P-FN,Social Proof,Scarcity,social_proof__scarcity,6,should make sure tone professional but approachable,10.77919933693366,7
+LLM-P-FN,Social Proof,Scarcity,social_proof__scarcity,7,first should start friendly greeting maybe something like maya jensen make personal,10.74194679330556,12
+LLM-P-FN,Social Proof,Scarcity,social_proof__scarcity,8,should make sure tone professional yet approachable avoiding any technical jargon might confuse user,10.63425521697266,14
+LLM-P-FN,Social Proof,Scarcity,social_proof__scarcity,9,should grab attention maybe something like big savings favorite medications,10.602036111766497,10
+LLM-P-FN,Social Proof,Scarcity,social_proof__scarcity,10,should make sure each tip clear actionable,10.567391617899485,7
+LLM-P-FN,Social Proof,Commitment,social_proof__commitment,1,technical discussion challenges strategies addressing botnet traffic network management botnets vast networks compromised computers bots controlled remotely attacker pose significant evolving threat network security stability,5.447284077987252,25
+LLM-P-FN,Social Proof,Commitment,social_proof__commitment,2,however effectively addressing botnet traffic presents multifaceted challenge due dynamic nature botnets their sophisticated evasion techniques sheer volume data involved,5.447284077987252,20
+LLM-P-FN,Social Proof,Commitment,social_proof__commitment,3,challenges addressing botnet traffic number,5.447284077987252,5
+LLM-P-FN,Social Proof,Commitment,social_proof__commitment,4,stealth evasion techniques mimicking legitimate traffic botnet traffic designed closely resemble normal user activity making difficult distinguish using simple volumetric analysis,5.447284077987252,21
+LLM-P-FN,Social Proof,Commitment,social_proof__commitment,5,strategies filtering monitoring botnet traffic effective botnet mitigation requires layered approach combining proactive monitoring reactive filtering mechanisms,5.447284077987252,17
+LLM-P-FN,Social Proof,Commitment,social_proof__commitment,6,machine learning supervised learning training models labeled datasets benign botnet traffic classify new traffic,5.447284077987252,14
+LLM-P-FN,Social Proof,Commitment,social_proof__commitment,7,conclusion addressing botnet traffic ongoing battle demands continuous adaptation innovation network management,5.447284077987252,12
+LLM-P-FN,Social Proof,Commitment,social_proof__commitment,8,title silent invader understanding harmful fungal growth bullet points what fungi why they harmful,4.679044068521229,14
+LLM-P-FN,Social Proof,Commitment,social_proof__commitment,9,slide number invisible impact beyond obvious title domino effect unseen consequences fungi bullet points digestive issues bloating gas ibs symptoms,4.679044068521229,20
+LLM-P-FN,Social Proof,Commitment,social_proof__commitment,10,slide number natural solution introducing oregano oil title powerhouse remarkable remedy oregano oil bullet points introducing wild oregano oil specifically origanum vulgare,4.6347354359244495,22
+LLM-P-FN,Scarcity,Scarcity,scarcity__scarcity,1,should make sure tone professional yet approachable avoiding any jargon,14.327024363012926,10
+LLM-P-FN,Scarcity,Scarcity,scarcity__scarcity,2,title silent invader understanding harmful fungal growth bullet points what fungi why they harmful,13.254330980310804,14
+LLM-P-FN,Scarcity,Scarcity,scarcity__scarcity,3,slide number invisible impact beyond obvious title domino effect unseen consequences fungi bullet points digestive issues bloating gas ibs symptoms,13.254330980310804,20
+LLM-P-FN,Scarcity,Scarcity,scarcity__scarcity,4,technical discussion challenges strategies addressing botnet traffic network management botnets vast networks compromised computers bots controlled remotely attacker pose significant evolving threat network security stability,12.334195368296392,25
+LLM-P-FN,Scarcity,Scarcity,scarcity__scarcity,5,however effectively addressing botnet traffic presents multifaceted challenge due dynamic nature botnets their sophisticated evasion techniques sheer volume data involved,12.334195368296392,20
+LLM-P-FN,Scarcity,Scarcity,scarcity__scarcity,6,challenges addressing botnet traffic number,12.334195368296392,5
+LLM-P-FN,Scarcity,Scarcity,scarcity__scarcity,7,stealth evasion techniques mimicking legitimate traffic botnet traffic designed closely resemble normal user activity making difficult distinguish using simple volumetric analysis,12.334195368296392,21
+LLM-P-FN,Scarcity,Scarcity,scarcity__scarcity,8,strategies filtering monitoring botnet traffic effective botnet mitigation requires layered approach combining proactive monitoring reactive filtering mechanisms,12.334195368296392,17
+LLM-P-FN,Scarcity,Scarcity,scarcity__scarcity,9,machine learning supervised learning training models labeled datasets benign botnet traffic classify new traffic,12.334195368296392,14
+LLM-P-FN,Scarcity,Scarcity,scarcity__scarcity,10,conclusion addressing botnet traffic ongoing battle demands continuous adaptation innovation network management,12.334195368296392,12
+LLM-P-FN,Scarcity,Commitment,scarcity__commitment,1,slide number natural solution introducing oregano oil title powerhouse remarkable remedy oregano oil bullet points introducing wild oregano oil specifically origanum vulgare,6.719615399030632,22
+LLM-P-FN,Scarcity,Commitment,scarcity__commitment,2,slide number how use oregano oil safely effectively title harnessing power safe effective ways use oregano oil bullet points internal use dilution key,6.719615399030632,23
+LLM-P-FN,Scarcity,Commitment,scarcity__commitment,3,slide number invisible impact beyond obvious title domino effect unseen consequences fungi bullet points digestive issues bloating gas ibs symptoms,5.058736488313707,20
+LLM-P-FN,Scarcity,Commitment,scarcity__commitment,4,presenter while oregano oil fantastic tool important remember works best part holistic approach,4.990424477603591,13
+LLM-P-FN,Scarcity,Commitment,scarcity__commitment,5,title silent invader understanding harmful fungal growth bullet points what fungi why they harmful,4.448957736744032,14
+LLM-P-FN,Scarcity,Commitment,scarcity__commitment,6,supporting gut health probiotics fiber also vital healthy gut microbiome plays crucial role keeping fungal overgrowth check,4.37674562447673,17
+LLM-P-FN,Scarcity,Commitment,scarcity__commitment,7,slide number identifying culprit sugar connection title sweet trap how sugar fuels fungal growth bullet points introducing refined sugar primary culprit,4.363297327697748,21
+LLM-P-FN,Scarcity,Commitment,scarcity__commitment,8,slide number lifestyle changes life title beyond oil holistic strategies fungal balance bullet points reducing refined sugar intake,4.363297327697748,18
+LLM-P-FN,Scarcity,Commitment,scarcity__commitment,9,slide number conclusion call action title take control health embrace natural approach bullet points recap refined sugar fuels fungal growth,4.363297327697748,20
+LLM-P-FN,Scarcity,Commitment,scarcity__commitment,10,technical discussion challenges strategies addressing botnet traffic network management botnets vast networks compromised computers bots controlled remotely attacker pose significant evolving threat network security stability,3.5522888810684847,25
+LLM-P-FN,Commitment,Commitment,commitment__commitment,1,technical discussion challenges strategies addressing botnet traffic network management botnets vast networks compromised computers bots controlled remotely attacker pose significant evolving threat network security stability,5.5670790340826075,25
+LLM-P-FN,Commitment,Commitment,commitment__commitment,2,however effectively addressing botnet traffic presents multifaceted challenge due dynamic nature botnets their sophisticated evasion techniques sheer volume data involved,5.5670790340826075,20
+LLM-P-FN,Commitment,Commitment,commitment__commitment,3,challenges addressing botnet traffic number,5.5670790340826075,5
+LLM-P-FN,Commitment,Commitment,commitment__commitment,4,stealth evasion techniques mimicking legitimate traffic botnet traffic designed closely resemble normal user activity making difficult distinguish using simple volumetric analysis,5.5670790340826075,21
+LLM-P-FN,Commitment,Commitment,commitment__commitment,5,strategies filtering monitoring botnet traffic effective botnet mitigation requires layered approach combining proactive monitoring reactive filtering mechanisms,5.5670790340826075,17
+LLM-P-FN,Commitment,Commitment,commitment__commitment,6,machine learning supervised learning training models labeled datasets benign botnet traffic classify new traffic,5.5670790340826075,14
+LLM-P-FN,Commitment,Commitment,commitment__commitment,7,conclusion addressing botnet traffic ongoing battle demands continuous adaptation innovation network management,5.5670790340826075,12
+LLM-P-FN,Commitment,Commitment,commitment__commitment,8,title silent invader understanding harmful fungal growth bullet points what fungi why they harmful,4.646209623847127,14
+LLM-P-FN,Commitment,Commitment,commitment__commitment,9,slide number invisible impact beyond obvious title domino effect unseen consequences fungi bullet points digestive issues bloating gas ibs symptoms,4.646209623847127,20
+LLM-P-FN,Commitment,Commitment,commitment__commitment,10,now putting all together start strong subject line polite greeting explain incident specify data affected emphasize urgency reassure them provide contact info,4.366191433088673,22

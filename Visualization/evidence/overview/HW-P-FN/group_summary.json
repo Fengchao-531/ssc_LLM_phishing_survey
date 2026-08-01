@@ -1,0 +1,11 @@
+{
+  "group_label": "HW-P-FN",
+  "group_title": "HW Phishing FN",
+  "row_count": 3644,
+  "files": {
+    "cell_summary": "cell_summary.csv",
+    "top_words_by_cell": "top_words_by_cell.csv",
+    "top_phrases_by_cell": "top_phrases_by_cell.csv",
+    "top_sentences_by_cell": "top_sentences_by_cell.csv"
+  }
+}

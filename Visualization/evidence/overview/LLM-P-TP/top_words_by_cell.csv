@@ -1,0 +1,316 @@
+group_label,feature_a,feature_b,cell_slug,rank,word,log_ratio_score,weighted_group_count,weighted_background_count
+LLM-P-TP,Authority,Authority,authority__authority,1,bec,10.13238365066005,160.0,0.0
+LLM-P-TP,Authority,Authority,authority__authority,2,convincing,9.775735490402914,112.0,0.0
+LLM-P-TP,Authority,Authority,authority__authority,3,credentials,9.347743755447262,73.0,0.0
+LLM-P-TP,Authority,Authority,authority__authority,4,nobodyject,9.347743755447262,73.0,0.0
+LLM-P-TP,Authority,Authority,authority__authority,5,essence,9.305785426368374,70.0,0.0
+LLM-P-TP,Authority,Authority,authority__authority,6,discretion,9.117762746857238,58.0,0.0
+LLM-P-TP,Authority,Authority,authority__authority,7,gent,9.027627912378982,53.0,0.0
+LLM-P-TP,Authority,Authority,authority__authority,8,ceo's,9.008583345164247,52.0,0.0
+LLM-P-TP,Authority,Authority,authority__authority,9,target's,8.770963276783235,41.0,0.0
+LLM-P-TP,Authority,Authority,authority__authority,10,regent,8.74627676024841,40.0,0.0
+LLM-P-TP,Authority,Authority,authority__authority,11,business's,8.66833548377733,37.0,0.0
+LLM-P-TP,Authority,Authority,authority__authority,12,lily,8.58380193639837,34.0,0.0
+LLM-P-TP,Authority,Authority,authority__authority,13,jensen,8.353354505183791,27.0,0.0
+LLM-P-TP,Authority,Authority,authority__authority,14,completion,8.353354505183791,27.0,0.0
+LLM-P-TP,Authority,Authority,authority__authority,15,maya,8.148644232917636,22.0,0.0
+LLM-P-TP,Authority,Liking,authority__liking,1,nobodyject,9.899686785112014,120.0,0.0
+LLM-P-TP,Authority,Liking,authority__liking,2,gent,9.612032487737658,90.0,0.0
+LLM-P-TP,Authority,Liking,authority__liking,3,youro's,9.316953574453741,67.0,0.0
+LLM-P-TP,Authority,Liking,authority__liking,4,business's,9.223149497632424,61.0,0.0
+LLM-P-TP,Authority,Liking,authority__liking,5,sharinging,8.983521035011512,48.0,0.0
+LLM-P-TP,Authority,Liking,authority__liking,6,regent,8.94097047663604,46.0,0.0
+LLM-P-TP,Authority,Liking,authority__liking,7,dis,8.850019397649953,42.0,0.0
+LLM-P-TP,Authority,Liking,authority__liking,8,secretaryo,8.775929735987228,39.0,0.0
+LLM-P-TP,Authority,Liking,authority__liking,9,facil,8.74996099546982,38.0,0.0
+LLM-P-TP,Authority,Liking,authority__liking,10,swing,8.638766311487766,34.0,0.0
+LLM-P-TP,Authority,Liking,authority__liking,11,requiresands,8.638766311487766,34.0,0.0
+LLM-P-TP,Authority,Liking,authority__liking,12,sarm,8.638766311487766,34.0,0.0
+LLM-P-TP,Authority,Liking,authority__liking,13,amize,8.513642371920938,30.0,0.0
+LLM-P-TP,Authority,Liking,authority__liking,14,accountank,8.513642371920938,30.0,0.0
+LLM-P-TP,Authority,Liking,authority__liking,15,quired,8.479752310601976,29.0,0.0
+LLM-P-TP,Authority,Reciprocity,authority__reciprocity,1,convincing,10.793959970120788,209.177952572524,0.0
+LLM-P-TP,Authority,Reciprocity,authority__reciprocity,2,usaa,10.634956692286229,178.42597700000002,0.0
+LLM-P-TP,Authority,Reciprocity,authority__reciprocity,3,bec,10.100685766662522,104.570691300014,0.0
+LLM-P-TP,Authority,Reciprocity,authority__reciprocity,4,nobodyject,10.033526399332818,97.77777523776801,0.0
+LLM-P-TP,Authority,Reciprocity,authority__reciprocity,5,essence,9.819837674717089,78.96338105714698,0.0
+LLM-P-TP,Authority,Reciprocity,authority__reciprocity,6,business's,9.700989368665807,70.113820307512,0.0
+LLM-P-TP,Authority,Reciprocity,authority__reciprocity,7,aimed,9.596162430658865,63.135122115412976,0.0
+LLM-P-TP,Authority,Reciprocity,authority__reciprocity,8,youro's,9.371105349684285,50.40952606687199,0.0
+LLM-P-TP,Authority,Reciprocity,authority__reciprocity,9,sir,9.3693911709121,50.323172019867,0.0
+LLM-P-TP,Authority,Reciprocity,authority__reciprocity,10,regent,9.309285048267338,47.38696611280601,0.0
+LLM-P-TP,Authority,Reciprocity,authority__reciprocity,11,secretary's,9.221682163347666,43.41152716139299,0.0
+LLM-P-TP,Authority,Reciprocity,authority__reciprocity,12,sharinging,9.176221828183362,41.48176610776801,0.0
+LLM-P-TP,Authority,Reciprocity,authority__reciprocity,13,tim,9.175444656133749,41.44953239405301,0.0
+LLM-P-TP,Authority,Reciprocity,authority__reciprocity,14,asly,8.96483861674885,33.576083145682,0.0
+LLM-P-TP,Authority,Reciprocity,authority__reciprocity,15,secretaryo,8.934892019338626,32.585204999999995,0.0
+LLM-P-TP,Authority,Social Proof,authority__social_proof,1,techcorp,10.991050306637721,195.36638999999994,0.0
+LLM-P-TP,Authority,Social Proof,authority__social_proof,2,evelyn,10.302144439491865,98.093401139116,0.0
+LLM-P-TP,Authority,Social Proof,authority__social_proof,3,shippingcompany,10.122899295342265,81.994727,0.0
+LLM-P-TP,Authority,Social Proof,authority__social_proof,4,paypal,10.120083814740887,81.764169,0.0
+LLM-P-TP,Authority,Social Proof,authority__social_proof,5,sofia,10.005808888358498,72.93359600000001,0.0
+LLM-P-TP,Authority,Social Proof,authority__social_proof,6,bank's,9.93314940181094,67.82152100000003,0.0
+LLM-P-TP,Authority,Social Proof,authority__social_proof,7,convincing,9.803741869434901,59.587848000000015,0.0
+LLM-P-TP,Authority,Social Proof,authority__social_proof,8,placeholders,9.718069436593936,54.69455800000001,0.0
+LLM-P-TP,Authority,Social Proof,authority__social_proof,9,wells,9.693664049489648,53.375632,0.0
+LLM-P-TP,Authority,Social Proof,authority__social_proof,10,banksecurityupdate,9.606625977865583,48.92552299999999,0.0
+LLM-P-TP,Authority,Social Proof,authority__social_proof,11,tokens,9.581304776084831,47.701972999999995,0.0
+LLM-P-TP,Authority,Social Proof,authority__social_proof,12,diy,9.574004210375216,47.354917,0.0
+LLM-P-TP,Authority,Social Proof,authority__social_proof,13,two-factor,9.546534383652078,46.071519,0.0
+LLM-P-TP,Authority,Social Proof,authority__social_proof,14,ceo's,9.515182803703649,44.649202999999986,0.0
+LLM-P-TP,Authority,Social Proof,authority__social_proof,15,maximum,9.484400249966722,43.29542199999999,0.0
+LLM-P-TP,Authority,Scarcity,authority__scarcity,1,greeting,10.21075466134309,46.34159500000003,0.0
+LLM-P-TP,Authority,Scarcity,authority__scarcity,2,usaa,9.572271915267375,24.467955999999997,0.0
+LLM-P-TP,Authority,Scarcity,authority__scarcity,3,bec,9.548922132100314,23.90302224257,0.0
+LLM-P-TP,Authority,Scarcity,authority__scarcity,4,convincing,9.516243101573266,23.13419848514,0.0
+LLM-P-TP,Authority,Scarcity,authority__scarcity,5,polite,9.403424150383483,20.664999000000005,0.0
+LLM-P-TP,Authority,Scarcity,authority__scarcity,6,jargon,9.279818549247207,18.261082000000005,0.0
+LLM-P-TP,Authority,Scarcity,authority__scarcity,7,diy,9.249025225304251,17.707029,0.0
+LLM-P-TP,Authority,Scarcity,authority__scarcity,8,evelyn,9.184405562364848,16.598367,0.0
+LLM-P-TP,Authority,Scarcity,authority__scarcity,9,wells,9.099034132043382,15.239324,0.0
+LLM-P-TP,Authority,Scarcity,authority__scarcity,10,fargo,9.099034132043382,15.239324,0.0
+LLM-P-TP,Authority,Scarcity,authority__scarcity,11,two-factor,8.994811409118109,13.730016,0.0
+LLM-P-TP,Authority,Scarcity,authority__scarcity,12,sign-off,8.987939826821421,13.635924000000001,0.0
+LLM-P-TP,Authority,Scarcity,authority__scarcity,13,crochet,8.985125139887735,13.597569,0.0
+LLM-P-TP,Authority,Scarcity,authority__scarcity,14,reassure,8.972245408570885,13.423431,0.0
+LLM-P-TP,Authority,Scarcity,authority__scarcity,15,retirement,8.929725664682426,12.864218000000001,0.0
+LLM-P-TP,Authority,Commitment,authority__commitment,1,greeting,9.0368229492903,14.248937999999999,0.0
+LLM-P-TP,Authority,Commitment,authority__commitment,2,bec,8.902023098023449,12.450754769085004,0.0
+LLM-P-TP,Authority,Commitment,authority__commitment,3,convincing,8.858288871481964,11.917538191237009,0.0
+LLM-P-TP,Authority,Commitment,authority__commitment,4,techcorp,8.853737509582484,11.863375000000001,0.0
+LLM-P-TP,Authority,Commitment,authority__commitment,5,ceo's,8.334076522319615,7.051358896129001,0.0
+LLM-P-TP,Authority,Commitment,authority__commitment,6,jensen,8.324345370843808,6.982976999999997,0.0
+LLM-P-TP,Authority,Commitment,authority__commitment,7,secretary's,8.302343616647644,6.8307994640729985,0.0
+LLM-P-TP,Authority,Commitment,authority__commitment,8,professionalism,8.253227027610322,6.5029207823110005,0.0
+LLM-P-TP,Authority,Commitment,authority__commitment,9,unwavering,8.137651158372439,5.792054896129003,0.0
+LLM-P-TP,Authority,Commitment,authority__commitment,10,polite,8.09314179922835,5.539472,0.0
+LLM-P-TP,Authority,Commitment,authority__commitment,11,usaa,8.077364427209956,5.452603,0.0
+LLM-P-TP,Authority,Commitment,authority__commitment,12,evelyn,8.058674964149507,5.351458,0.0
+LLM-P-TP,Authority,Commitment,authority__commitment,13,two-factor,8.053775504873004,5.325254000000001,0.0
+LLM-P-TP,Authority,Commitment,authority__commitment,14,dedication,8.049358852848275,5.301742000000002,0.0
+LLM-P-TP,Authority,Commitment,authority__commitment,15,bank's,7.9920093269365235,5.005686572368002,0.0
+LLM-P-TP,Liking,Liking,liking__liking,1,nobodyject,9.471953925402492,88.0,0.0
+LLM-P-TP,Liking,Liking,liking__liking,2,gent,9.089014696018193,60.0,0.0
+LLM-P-TP,Liking,Liking,liking__liking,3,youro's,8.945939488801752,52.0,0.0
+LLM-P-TP,Liking,Liking,liking__liking,4,regent,8.658321504535337,39.0,0.0
+LLM-P-TP,Liking,Liking,liking__liking,5,tim,8.658321504535337,39.0,0.0
+LLM-P-TP,Liking,Liking,liking__liking,6,usaa,8.658321504535337,39.0,0.0
+LLM-P-TP,Liking,Liking,liking__liking,7,sharinging,8.550137215983346,35.0,0.0
+LLM-P-TP,Liking,Liking,liking__liking,8,secretaryo,8.521158080035875,34.0,0.0
+LLM-P-TP,Liking,Liking,liking__liking,9,capitalone,8.491314026881874,33.0,0.0
+LLM-P-TP,Liking,Liking,liking__liking,10,accountank,8.428813214129129,31.0,0.0
+LLM-P-TP,Liking,Liking,liking__liking,11,requiresands,8.396034140469048,30.0,0.0
+LLM-P-TP,Liking,Liking,liking__liking,12,swing,8.362144079150085,29.0,0.0
+LLM-P-TP,Liking,Liking,liking__liking,13,sarm,8.32706507028879,28.0,0.0
+LLM-P-TP,Liking,Liking,liking__liking,14,architect,8.252984560477332,26.0,0.0
+LLM-P-TP,Liking,Liking,liking__liking,15,facil,8.213779225906299,25.0,0.0
+LLM-P-TP,Liking,Reciprocity,liking__reciprocity,1,convincing,10.925084043957375,224.81394987828406,0.0
+LLM-P-TP,Liking,Reciprocity,liking__reciprocity,2,usaa,10.69346586800267,178.331361504071,0.0
+LLM-P-TP,Liking,Reciprocity,liking__reciprocity,3,bec,10.205379531482489,109.45590582826301,0.0
+LLM-P-TP,Liking,Reciprocity,liking__reciprocity,4,nobodyject,10.160172127208249,104.617427892141,0.0
+LLM-P-TP,Liking,Reciprocity,liking__reciprocity,5,youro's,9.504850268902693,54.32039744338999,0.0
+LLM-P-TP,Liking,Reciprocity,liking__reciprocity,6,regent,9.428285233112224,50.31584891835601,0.0
+LLM-P-TP,Liking,Reciprocity,liking__reciprocity,7,sir,9.408536030944186,49.331703583437,0.0
+LLM-P-TP,Liking,Reciprocity,liking__reciprocity,8,sharinging,9.303555001293734,44.41438846053501,0.0
+LLM-P-TP,Liking,Reciprocity,liking__reciprocity,9,asly,9.080421975185454,35.529884831066,0.0
+LLM-P-TP,Liking,Reciprocity,liking__reciprocity,10,facil,9.05184578169786,34.528663879486004,0.0
+LLM-P-TP,Liking,Reciprocity,liking__reciprocity,11,secretaryo,9.023490723454149,33.563072448663,0.0
+LLM-P-TP,Liking,Reciprocity,liking__reciprocity,12,initi,8.932620804973785,30.646797378360006,0.0
+LLM-P-TP,Liking,Reciprocity,liking__reciprocity,13,numbery,8.790180876145223,26.576790192636,0.0
+LLM-P-TP,Liking,Reciprocity,liking__reciprocity,14,requiresands,8.71879093086644,24.744926949213,0.0
+LLM-P-TP,Liking,Reciprocity,liking__reciprocity,15,opportunityment,8.715687955250893,24.668232067236996,0.0
+LLM-P-TP,Liking,Social Proof,liking__social_proof,1,techcorp,11.005532868673964,200.27803045474397,0.0
+LLM-P-TP,Liking,Social Proof,liking__social_proof,2,evelyn,10.340160774042154,102.95451230824801,0.0
+LLM-P-TP,Liking,Social Proof,liking__social_proof,3,shippingcompany,10.141942124606697,84.440514764514,0.0
+LLM-P-TP,Liking,Social Proof,liking__social_proof,4,paypal,10.099041924721146,80.894183833866,0.0
+LLM-P-TP,Liking,Social Proof,liking__social_proof,5,sofia,10.01765110413838,74.57017477923898,0.0
+LLM-P-TP,Liking,Social Proof,liking__social_proof,6,bank's,9.934750235331254,68.636754115288,0.0
+LLM-P-TP,Liking,Social Proof,liking__social_proof,7,convincing,9.778726210573346,58.71995038268502,0.0
+LLM-P-TP,Liking,Social Proof,liking__social_proof,8,placeholders,9.737153591811357,56.32844748740401,0.0
+LLM-P-TP,Liking,Social Proof,liking__social_proof,9,wells,9.680412458938697,53.2207412796,0.0
+LLM-P-TP,Liking,Social Proof,liking__social_proof,10,two-factor,9.604898719460275,49.34910925679701,0.0
+LLM-P-TP,Liking,Social Proof,liking__social_proof,11,banksecurityupdate,9.595827050223841,48.90336462462998,0.0
+LLM-P-TP,Liking,Social Proof,liking__social_proof,12,tokens,9.570033839529941,47.657863689947995,0.0
+LLM-P-TP,Liking,Social Proof,liking__social_proof,13,diy,9.56365412303504,47.354724233750005,0.0
+LLM-P-TP,Liking,Social Proof,liking__social_proof,14,ceo's,9.54053877121503,46.272428977564,0.0
+LLM-P-TP,Liking,Social Proof,liking__social_proof,15,maximum,9.473538868177474,43.27310968286399,0.0
+LLM-P-TP,Liking,Scarcity,liking__scarcity,1,greeting,10.217859683508792,46.677108704376,0.0
+LLM-P-TP,Liking,Scarcity,liking__scarcity,2,usaa,9.572059125225845,24.465375326849998,0.0
+LLM-P-TP,Liking,Scarcity,liking__scarcity,3,bec,9.542944289775111,23.763052420556,0.0
+LLM-P-TP,Liking,Scarcity,liking__scarcity,4,convincing,9.48679184323076,22.464924957393993,0.0
+LLM-P-TP,Liking,Scarcity,liking__scarcity,5,polite,9.411430246638623,20.83342695996301,0.0
+LLM-P-TP,Liking,Scarcity,liking__scarcity,6,jargon,9.279176762762592,18.251319986055,0.0
+LLM-P-TP,Liking,Scarcity,liking__scarcity,7,diy,9.248801339444128,17.704964557832998,0.0
+LLM-P-TP,Liking,Scarcity,liking__scarcity,8,evelyn,9.227803334705456,17.336863863198,0.0
+LLM-P-TP,Liking,Scarcity,liking__scarcity,9,wells,9.096355303647677,15.200161159336002,0.0
+LLM-P-TP,Liking,Scarcity,liking__scarcity,10,fargo,9.096355303647677,15.200161159336002,0.0
+LLM-P-TP,Liking,Scarcity,liking__scarcity,11,two-factor,9.008164733544223,13.916216344992002,0.0
+LLM-P-TP,Liking,Scarcity,liking__scarcity,12,sign-off,8.986425298673746,13.616735340210003,0.0
+LLM-P-TP,Liking,Scarcity,liking__scarcity,13,crochet,8.98271707281974,13.566297902418,0.0
+LLM-P-TP,Liking,Scarcity,liking__scarcity,14,discretion,8.981267933142917,13.546638198732001,0.0
+LLM-P-TP,Liking,Scarcity,liking__scarcity,15,reassure,8.971943801636712,13.420821797253996,0.0
+LLM-P-TP,Liking,Commitment,liking__commitment,1,greeting,9.069216055605274,14.792553825201999,0.0
+LLM-P-TP,Liking,Commitment,liking__commitment,2,bec,8.898814186833228,12.473376170885999,0.0
+LLM-P-TP,Liking,Commitment,liking__commitment,3,techcorp,8.84863665673519,11.862446827106002,0.0
+LLM-P-TP,Liking,Commitment,liking__commitment,4,convincing,8.84480615243352,11.817056358157007,0.0
+LLM-P-TP,Liking,Commitment,liking__commitment,5,jensen,8.422981459075945,7.7467631327839985,0.0
+LLM-P-TP,Liking,Commitment,liking__commitment,6,ceo's,8.327967551495107,7.0436923515559995,0.0
+LLM-P-TP,Liking,Commitment,liking__commitment,7,secretary's,8.306927032459555,6.896829457143997,0.0
+LLM-P-TP,Liking,Commitment,liking__commitment,8,professionalism,8.279661836683665,6.711057462991002,0.0
+LLM-P-TP,Liking,Commitment,liking__commitment,9,polite,8.182906322943033,6.091227552075,0.0
+LLM-P-TP,Liking,Commitment,liking__commitment,10,evelyn,8.139877500774695,5.834266918651,0.0
+LLM-P-TP,Liking,Commitment,liking__commitment,11,unwavering,8.132408609779553,5.790779330278001,0.0
+LLM-P-TP,Liking,Commitment,liking__commitment,12,usaa,8.072213004754815,5.451899760869999,0.0
+LLM-P-TP,Liking,Commitment,liking__commitment,13,dedication,8.07018802444342,5.440850712220002,0.0
+LLM-P-TP,Liking,Commitment,liking__commitment,14,two-factor,8.061420645816417,5.39326992436,0.0
+LLM-P-TP,Liking,Commitment,liking__commitment,15,bank's,8.000340956951508,5.073116831669999,0.0
+LLM-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,1,convincing,10.777484179887868,205.26458400000004,0.0
+LLM-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,2,usaa,10.648334226995045,180.39396100000002,0.0
+LLM-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,3,bec,10.084220572877356,102.61534299999998,0.0
+LLM-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,4,nobodyject,10.025880245340673,96.799447,0.0
+LLM-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,5,essence,9.809780859304922,77.98503699999999,0.0
+LLM-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,6,business's,9.703398570224287,70.11384600000001,0.0
+LLM-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,7,aimed,9.56709368414512,61.178423999999985,0.0
+LLM-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,8,sir,9.371800045423708,50.323174,0.0
+LLM-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,9,youro's,9.353919383475457,49.43118199999999,0.0
+LLM-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,10,regent,9.290836571657774,46.40863100000001,0.0
+LLM-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,11,secretary's,9.201301950217331,42.43318199999999,0.0
+LLM-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,12,tim,9.177853940078421,41.44955100000001,0.0
+LLM-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,13,sharinging,9.154769236293163,40.50343200000001,0.0
+LLM-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,14,asly,8.967247983518496,33.576101,0.0
+LLM-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,15,secretaryo,8.906826058942542,31.606855999999997,0.0
+LLM-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,1,convincing,10.137952211469244,82.004150642083,0.0
+LLM-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,2,bank's,9.932741803909586,66.788551329426,0.0
+LLM-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,3,discretion,9.695603483148592,52.68618557049299,0.0
+LLM-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,4,ceo's,9.693091570568345,52.55398346860201,0.0
+LLM-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,5,two-factor,9.660214390653996,50.853927579795,0.0
+LLM-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,6,bec,9.616755470914647,48.69078069349299,0.0
+LLM-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,7,tokens,9.571343179704103,46.528632281289,0.0
+LLM-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,8,banksecurityupdate,9.52589806571342,44.46101619128601,0.0
+LLM-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,9,maximum,9.523178868797423,44.340255002343,0.0
+LLM-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,10,dreamsleep,9.428490362026773,40.333486301704994,0.0
+LLM-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,11,secretary's,9.335929068304559,36.766853195196006,0.0
+LLM-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,12,whatsoever,9.271798245360728,34.48235947692,0.0
+LLM-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,13,empathetic,9.116725191224619,29.527622238958003,0.0
+LLM-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,14,shipment,9.093109497659473,28.838242927467,0.0
+LLM-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,15,dedication,9.012769084305985,26.611220849188996,0.0
+LLM-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,1,greeting,10.242131413676223,46.092750881000036,0.0
+LLM-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,2,convincing,9.664297017087883,25.85881589188,0.0
+LLM-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,3,bec,9.551498763412477,23.09941175887501,0.0
+LLM-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,4,alright,9.450365290921178,20.876572690462,0.0
+LLM-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,5,polite,9.438988449770864,20.640296060117997,0.0
+LLM-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,6,usaa,9.388104139343412,19.615806255914997,0.0
+LLM-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,7,jargon,9.327112987188814,18.454577995915002,0.0
+LLM-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,8,evelyn,9.247413620017415,17.040078820166997,0.0
+LLM-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,9,bank's,9.246089009960759,17.017509065657,0.0
+LLM-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,10,rodriguez,9.190253821313792,16.092829918807002,0.0
+LLM-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,11,discretion,9.163601530475221,15.669321417808996,0.0
+LLM-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,12,wells,9.065355291612342,14.202139563074999,0.0
+LLM-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,13,reassure,9.02656898574206,13.661456501140998,0.0
+LLM-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,14,two-factor,9.010613833310966,13.445057260797,0.0
+LLM-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,15,sign-off,9.009280614785602,13.427130681875997,0.0
+LLM-P-TP,Reciprocity,Commitment,reciprocity__commitment,1,greeting,9.138756798850471,14.951330439865002,0.0
+LLM-P-TP,Reciprocity,Commitment,reciprocity__commitment,2,convincing,8.938029569283048,12.230396522280994,0.0
+LLM-P-TP,Reciprocity,Commitment,reciprocity__commitment,3,bec,8.914743777079423,11.948662126911003,0.0
+LLM-P-TP,Reciprocity,Commitment,reciprocity__commitment,4,jensen,8.46130264197745,7.588985449277,0.0
+LLM-P-TP,Reciprocity,Commitment,reciprocity__commitment,5,secretary's,8.444903521088447,7.4653850075419985,0.0
+LLM-P-TP,Reciprocity,Commitment,reciprocity__commitment,6,ceo's,8.407719946206381,7.192527809752,0.0
+LLM-P-TP,Reciprocity,Commitment,reciprocity__commitment,7,professionalism,8.378286383615524,6.983621270201,0.0
+LLM-P-TP,Reciprocity,Commitment,reciprocity__commitment,8,polite,8.303426129356517,6.4791933530509995,0.0
+LLM-P-TP,Reciprocity,Commitment,reciprocity__commitment,9,evelyn,8.17562514767846,5.700675115496001,0.0
+LLM-P-TP,Reciprocity,Commitment,reciprocity__commitment,10,dedication,8.124026889919609,5.413487142572999,0.0
+LLM-P-TP,Reciprocity,Commitment,reciprocity__commitment,11,usaa,8.114576366204867,5.362473779888999,0.0
+LLM-P-TP,Reciprocity,Commitment,reciprocity__commitment,12,two-factor,8.11011457446241,5.338556317787002,0.0
+LLM-P-TP,Reciprocity,Commitment,reciprocity__commitment,13,reassure,8.079768066779671,5.178684359003001,0.0
+LLM-P-TP,Reciprocity,Commitment,reciprocity__commitment,14,bank's,8.057270490987083,5.063254850028001,0.0
+LLM-P-TP,Reciprocity,Commitment,reciprocity__commitment,15,unwavering,8.032383847853511,4.938556662562001,0.0
+LLM-P-TP,Social Proof,Social Proof,social_proof__social_proof,1,techcorp,10.991050286363548,195.36638999999994,0.0
+LLM-P-TP,Social Proof,Social Proof,social_proof__social_proof,2,evelyn,10.302144427992964,98.093402,0.0
+LLM-P-TP,Social Proof,Social Proof,social_proof__social_proof,3,shippingcompany,10.122899275068093,81.994727,0.0
+LLM-P-TP,Social Proof,Social Proof,social_proof__social_proof,4,paypal,10.120083794466716,81.764169,0.0
+LLM-P-TP,Social Proof,Social Proof,social_proof__social_proof,5,sofia,10.005808868084326,72.93359600000001,0.0
+LLM-P-TP,Social Proof,Social Proof,social_proof__social_proof,6,bank's,9.933149381536769,67.82152100000003,0.0
+LLM-P-TP,Social Proof,Social Proof,social_proof__social_proof,7,convincing,9.80374184916073,59.587848000000015,0.0
+LLM-P-TP,Social Proof,Social Proof,social_proof__social_proof,8,placeholders,9.718069416319764,54.69455800000001,0.0
+LLM-P-TP,Social Proof,Social Proof,social_proof__social_proof,9,wells,9.693664029215476,53.375632,0.0
+LLM-P-TP,Social Proof,Social Proof,social_proof__social_proof,10,banksecurityupdate,9.606625957591412,48.92552299999999,0.0
+LLM-P-TP,Social Proof,Social Proof,social_proof__social_proof,11,tokens,9.581304755810658,47.701972999999995,0.0
+LLM-P-TP,Social Proof,Social Proof,social_proof__social_proof,12,diy,9.574004190101045,47.354917,0.0
+LLM-P-TP,Social Proof,Social Proof,social_proof__social_proof,13,two-factor,9.546534363377907,46.071519,0.0
+LLM-P-TP,Social Proof,Social Proof,social_proof__social_proof,14,ceo's,9.515182783429477,44.649202999999986,0.0
+LLM-P-TP,Social Proof,Social Proof,social_proof__social_proof,15,maximum,9.48440022969255,43.29542199999999,0.0
+LLM-P-TP,Social Proof,Scarcity,social_proof__scarcity,1,greeting,10.277487213724704,45.02504658123698,0.0
+LLM-P-TP,Social Proof,Scarcity,social_proof__scarcity,2,usaa,9.60796846838074,23.045912732471,0.0
+LLM-P-TP,Social Proof,Scarcity,social_proof__scarcity,3,polite,9.5208278329596,21.121855024456003,0.0
+LLM-P-TP,Social Proof,Scarcity,social_proof__scarcity,4,evelyn,9.36734818715682,18.115177123089996,0.0
+LLM-P-TP,Social Proof,Scarcity,social_proof__scarcity,5,jargon,9.367317286709756,18.114617055666994,0.0
+LLM-P-TP,Social Proof,Scarcity,social_proof__scarcity,6,convincing,9.36298922111056,18.036342035988003,0.0
+LLM-P-TP,Social Proof,Scarcity,social_proof__scarcity,7,bec,9.273943978628807,16.498869211724003,0.0
+LLM-P-TP,Social Proof,Scarcity,social_proof__scarcity,8,diy,9.2095992042346,15.470063807415999,0.0
+LLM-P-TP,Social Proof,Scarcity,social_proof__scarcity,9,bank's,9.094196825090545,13.782853710035006,0.0
+LLM-P-TP,Social Proof,Scarcity,social_proof__scarcity,10,wells,9.088919586241225,13.710257249504,0.0
+LLM-P-TP,Social Proof,Scarcity,social_proof__scarcity,11,sign-off,9.054261455513128,13.242884692233998,0.0
+LLM-P-TP,Social Proof,Scarcity,social_proof__scarcity,12,shippingcompany,9.02530947110298,12.864688562638001,0.0
+LLM-P-TP,Social Proof,Scarcity,social_proof__scarcity,13,sofia,9.014222292175306,12.722732984514,0.0
+LLM-P-TP,Social Proof,Scarcity,social_proof__scarcity,14,reassure,9.007873501492021,12.642151595821002,0.0
+LLM-P-TP,Social Proof,Scarcity,social_proof__scarcity,15,two-factor,8.94833221524199,11.910814634071999,0.0
+LLM-P-TP,Social Proof,Commitment,social_proof__commitment,1,greeting,9.231651548541517,15.260741812468,0.0
+LLM-P-TP,Social Proof,Commitment,social_proof__commitment,2,convincing,8.716739877073039,9.115083282822003,0.0
+LLM-P-TP,Social Proof,Commitment,social_proof__commitment,3,bec,8.5908951469097,8.036058113414999,0.0
+LLM-P-TP,Social Proof,Commitment,social_proof__commitment,4,polite,8.4738920052493,7.147631674143001,0.0
+LLM-P-TP,Social Proof,Commitment,social_proof__commitment,5,jargon,8.364692817356822,6.407187686050002,0.0
+LLM-P-TP,Social Proof,Commitment,social_proof__commitment,6,evelyn,8.272733605709618,5.843388679257002,0.0
+LLM-P-TP,Social Proof,Commitment,social_proof__commitment,7,usaa,8.190946473925177,5.383710880967,0.0
+LLM-P-TP,Social Proof,Commitment,social_proof__commitment,8,professionalism,8.170559014334916,5.274860183216999,0.0
+LLM-P-TP,Social Proof,Commitment,social_proof__commitment,9,ceo's,8.16883943061011,5.2657802327629994,0.0
+LLM-P-TP,Social Proof,Commitment,social_proof__commitment,10,bank's,8.160136264605068,5.220063470445,0.0
+LLM-P-TP,Social Proof,Commitment,social_proof__commitment,11,reassure,8.109431764532015,4.961486618393,0.0
+LLM-P-TP,Social Proof,Commitment,social_proof__commitment,12,sign-off,8.08665280930854,4.849521413850001,0.0
+LLM-P-TP,Social Proof,Commitment,social_proof__commitment,13,secretary's,8.078332942745401,4.809258567131997,0.0
+LLM-P-TP,Social Proof,Commitment,social_proof__commitment,14,two-factor,8.026576333192011,4.566174936287,0.0
+LLM-P-TP,Social Proof,Commitment,social_proof__commitment,15,whatsoever,7.968661394874275,4.3086745761900005,0.0
+LLM-P-TP,Scarcity,Scarcity,scarcity__scarcity,1,greeting,10.210753309221431,46.34159500000003,0.0
+LLM-P-TP,Scarcity,Scarcity,scarcity__scarcity,2,usaa,9.572270563145718,24.467955999999997,0.0
+LLM-P-TP,Scarcity,Scarcity,scarcity__scarcity,3,bec,9.548920853471245,23.903024000000002,0.0
+LLM-P-TP,Scarcity,Scarcity,scarcity__scarcity,4,convincing,9.51624190131946,23.134202000000002,0.0
+LLM-P-TP,Scarcity,Scarcity,scarcity__scarcity,5,polite,9.403422798261825,20.664999000000005,0.0
+LLM-P-TP,Scarcity,Scarcity,scarcity__scarcity,6,jargon,9.27981719712555,18.261082000000005,0.0
+LLM-P-TP,Scarcity,Scarcity,scarcity__scarcity,7,diy,9.249023873182594,17.707029,0.0
+LLM-P-TP,Scarcity,Scarcity,scarcity__scarcity,8,evelyn,9.18440421024319,16.598367,0.0
+LLM-P-TP,Scarcity,Scarcity,scarcity__scarcity,9,wells,9.099032779921725,15.239324,0.0
+LLM-P-TP,Scarcity,Scarcity,scarcity__scarcity,10,fargo,9.099032779921725,15.239324,0.0
+LLM-P-TP,Scarcity,Scarcity,scarcity__scarcity,11,two-factor,8.99481005699645,13.730016,0.0
+LLM-P-TP,Scarcity,Scarcity,scarcity__scarcity,12,sign-off,8.987938474699762,13.635924000000001,0.0
+LLM-P-TP,Scarcity,Scarcity,scarcity__scarcity,13,crochet,8.985123787766078,13.597569,0.0
+LLM-P-TP,Scarcity,Scarcity,scarcity__scarcity,14,reassure,8.972244056449227,13.423431,0.0
+LLM-P-TP,Scarcity,Scarcity,scarcity__scarcity,15,retirement,8.929724312560769,12.864218000000001,0.0
+LLM-P-TP,Scarcity,Commitment,scarcity__commitment,1,greeting,8.406835095146947,3.6480858731240007,0.0
+LLM-P-TP,Scarcity,Commitment,scarcity__commitment,2,usaa,8.107407858466829,2.7015292874609997,0.0
+LLM-P-TP,Scarcity,Commitment,scarcity__commitment,3,bec,7.888172311017279,2.167717349841998,0.0
+LLM-P-TP,Scarcity,Commitment,scarcity__commitment,4,convincing,7.850670933712014,2.0875623057559998,0.0
+LLM-P-TP,Scarcity,Commitment,scarcity__commitment,5,urgent,4.980317334069505,4.632283362419002,0.38047704272399996
+LLM-P-TP,Scarcity,Commitment,scarcity__commitment,6,confidential,4.181638530813627,2.80699828732,0.5166380566800001
+LLM-P-TP,Scarcity,Commitment,scarcity__commitment,7,techcorp,4.150271634205804,2.975845007227001,0.56599058789
+LLM-P-TP,Scarcity,Commitment,scarcity__commitment,8,tone,4.093662404908141,4.1636047010490005,0.842009653541
+LLM-P-TP,Scarcity,Commitment,scarcity__commitment,9,jensen,4.085508104603317,2.029308162409,0.40971783861
+LLM-P-TP,Scarcity,Commitment,scarcity__commitment,10,utmost,4.0776283998123155,2.8487717719929977,0.5830293224680001
+LLM-P-TP,Scarcity,Commitment,scarcity__commitment,11,emily,4.040417673498054,4.068004899208002,0.8680208697909999
+LLM-P-TP,Scarcity,Commitment,scarcity__commitment,12,concise,3.8593948375979323,3.169705852871002,0.8104672695180002
+LLM-P-TP,Scarcity,Commitment,scarcity__commitment,13,confidentiality,3.73459297633375,2.5406537295389993,0.735635501957
+LLM-P-TP,Scarcity,Commitment,scarcity__commitment,14,friendly,3.7329578491022275,2.595451217116001,0.75290093453
+LLM-P-TP,Scarcity,Commitment,scarcity__commitment,15,inform,3.5442907988990315,4.116859066869,1.4492909780249998
+LLM-P-TP,Commitment,Commitment,commitment__commitment,1,greeting,9.03300704458792,14.179034999999999,0.0
+LLM-P-TP,Commitment,Commitment,commitment__commitment,2,bec,8.903121747042238,12.450756,0.0
+LLM-P-TP,Commitment,Commitment,commitment__commitment,3,convincing,8.859387573363367,11.917540000000008,0.0
+LLM-P-TP,Commitment,Commitment,commitment__commitment,4,techcorp,8.831004842467111,11.583763000000001,0.0
+LLM-P-TP,Commitment,Commitment,commitment__commitment,5,ceo's,8.335175512112151,7.051361999999998,0.0
+LLM-P-TP,Commitment,Commitment,commitment__commitment,6,jensen,8.325443921079263,6.982976999999997,0.0
+LLM-P-TP,Commitment,Commitment,commitment__commitment,7,secretary's,8.303442537589262,6.830801999999997,0.0
+LLM-P-TP,Commitment,Commitment,commitment__commitment,8,professionalism,8.254325611269952,6.502920999999999,0.0
+LLM-P-TP,Commitment,Commitment,commitment__commitment,9,unwavering,8.138750243568392,5.792058000000001,0.0
+LLM-P-TP,Commitment,Commitment,commitment__commitment,10,polite,8.094240349463805,5.539472,0.0
+LLM-P-TP,Commitment,Commitment,commitment__commitment,11,usaa,8.078462977445412,5.452603,0.0
+LLM-P-TP,Commitment,Commitment,commitment__commitment,12,evelyn,8.059773514384961,5.351458,0.0
+LLM-P-TP,Commitment,Commitment,commitment__commitment,13,two-factor,8.05487405510846,5.325254000000001,0.0
+LLM-P-TP,Commitment,Commitment,commitment__commitment,14,dedication,8.05045740308373,5.301742000000002,0.0
+LLM-P-TP,Commitment,Commitment,commitment__commitment,15,bank's,7.993107962430891,5.005687000000002,0.0

@@ -1,0 +1,18 @@
+{
+  "title": "Overview HW Heatmap Difference: HW-P FN vs HW-P TP",
+  "group_a_name": "HW-P FN",
+  "group_b_name": "HW-P TP",
+  "contrast_label": "HW-P FN - HW-P TP",
+  "n_group_a": 3644,
+  "n_group_b": 25397,
+  "permutations": 200,
+  "bootstraps": 200,
+  "overall_difference_statistic_l2": 0.18656405709793739,
+  "overall_permutation_p": 0.004975124378109453,
+  "num_significant_features_fdr_0_05": 20,
+  "num_total_features": 21,
+  "files": {
+    "feature_stats_csv": "feature_stats.csv",
+    "difference_heatmap": "difference_heatmap.png"
+  }
+}

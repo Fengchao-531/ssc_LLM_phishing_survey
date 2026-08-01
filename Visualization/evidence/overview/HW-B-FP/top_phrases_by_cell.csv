@@ -1,0 +1,316 @@
+group_label,feature_a,feature_b,cell_slug,rank,phrase,phrase_len,log_ratio_score,weighted_group_count,weighted_background_count
+HW-B-FP,Authority,Authority,authority__authority,1,number sender,2,10.918921745947994,1068.0,0.0
+HW-B-FP,Authority,Authority,authority__authority,2,submission notes,2,10.911402984199686,1060.0,0.0
+HW-B-FP,Authority,Authority,authority__authority,3,added number,2,10.834970854777815,982.0,0.0
+HW-B-FP,Authority,Authority,authority__authority,4,added number sender,3,10.833952016369135,981.0,0.0
+HW-B-FP,Authority,Authority,authority__authority,5,submission notes same,3,10.705795641677618,863.0,0.0
+HW-B-FP,Authority,Authority,authority__authority,6,notes same,2,10.705795641677618,863.0,0.0
+HW-B-FP,Authority,Authority,authority__authority,7,notes same number,3,10.705795641677618,863.0,0.0
+HW-B-FP,Authority,Authority,authority__authority,8,same number added,3,10.705795641677618,863.0,0.0
+HW-B-FP,Authority,Authority,authority__authority,9,same number,2,10.705795641677618,863.0,0.0
+HW-B-FP,Authority,Authority,authority__authority,10,number added number,3,10.702313380262737,860.0,0.0
+HW-B-FP,Authority,Authority,authority__authority,11,number sender virus,3,10.557423838778789,744.0,0.0
+HW-B-FP,Authority,Authority,authority__authority,12,virus total,2,10.557423838778789,744.0,0.0
+HW-B-FP,Authority,Authority,authority__authority,13,sender virus,2,10.557423838778789,744.0,0.0
+HW-B-FP,Authority,Authority,authority__authority,14,sender virus total,3,10.557423838778789,744.0,0.0
+HW-B-FP,Authority,Authority,authority__authority,15,virus total submission,3,10.55338348365749,741.0,0.0
+HW-B-FP,Authority,Liking,authority__liking,1,number sender,2,10.637649624801575,497.68814699999996,0.0
+HW-B-FP,Authority,Liking,authority__liking,2,submission notes,2,10.635655641571145,496.696734,0.0
+HW-B-FP,Authority,Liking,authority__liking,3,added number,2,10.54322890795536,452.8454799999999,0.0
+HW-B-FP,Authority,Liking,authority__liking,4,added number sender,3,10.538819545718187,450.85307199999994,0.0
+HW-B-FP,Authority,Liking,authority__liking,5,submission notes same,3,10.354314289572846,374.88966400000004,0.0
+HW-B-FP,Authority,Liking,authority__liking,6,notes same,2,10.354314289572846,374.88966400000004,0.0
+HW-B-FP,Authority,Liking,authority__liking,7,notes same number,3,10.354314289572846,374.88966400000004,0.0
+HW-B-FP,Authority,Liking,authority__liking,8,number added,2,10.354314289572846,374.88966400000004,0.0
+HW-B-FP,Authority,Liking,authority__liking,9,same number added,3,10.354314289572846,374.88966400000004,0.0
+HW-B-FP,Authority,Liking,authority__liking,10,same number,2,10.354314289572846,374.88966400000004,0.0
+HW-B-FP,Authority,Liking,authority__liking,11,number added number,3,10.351643521934973,373.88973,0.0
+HW-B-FP,Authority,Liking,authority__liking,12,number sender virus,3,9.976152627441468,256.841158,0.0
+HW-B-FP,Authority,Liking,authority__liking,13,virus total,2,9.976152627441468,256.841158,0.0
+HW-B-FP,Authority,Liking,authority__liking,14,sender virus,2,9.976152627441468,256.841158,0.0
+HW-B-FP,Authority,Liking,authority__liking,15,sender virus total,3,9.976152627441468,256.841158,0.0
+HW-B-FP,Authority,Reciprocity,authority__reciprocity,1,number sender,2,11.88711863339358,1242.1192739999997,0.0
+HW-B-FP,Authority,Reciprocity,authority__reciprocity,2,submission notes,2,11.880549918447045,1233.98682,0.0
+HW-B-FP,Authority,Reciprocity,authority__reciprocity,3,added number,2,11.812885312038993,1153.251185,0.0
+HW-B-FP,Authority,Reciprocity,authority__reciprocity,4,added number sender,3,11.8111946670499,1151.303077,0.0
+HW-B-FP,Authority,Reciprocity,authority__reciprocity,5,submission notes same,3,11.629468313973199,959.988789,0.0
+HW-B-FP,Authority,Reciprocity,authority__reciprocity,6,notes same,2,11.629468313973199,959.988789,0.0
+HW-B-FP,Authority,Reciprocity,authority__reciprocity,7,notes same number,3,11.629468313973199,959.988789,0.0
+HW-B-FP,Authority,Reciprocity,authority__reciprocity,8,number added,2,11.629468313973199,959.988789,0.0
+HW-B-FP,Authority,Reciprocity,authority__reciprocity,9,same number added,3,11.629468313973199,959.988789,0.0
+HW-B-FP,Authority,Reciprocity,authority__reciprocity,10,same number,2,11.629468313973199,959.988789,0.0
+HW-B-FP,Authority,Reciprocity,authority__reciprocity,11,number added number,3,11.624608086898153,955.334297,0.0
+HW-B-FP,Authority,Reciprocity,authority__reciprocity,12,number sender virus,3,11.482629626242968,828.8848729999999,0.0
+HW-B-FP,Authority,Reciprocity,authority__reciprocity,13,virus total,2,11.482629626242968,828.8848729999999,0.0
+HW-B-FP,Authority,Reciprocity,authority__reciprocity,14,sender virus,2,11.482629626242968,828.8848729999999,0.0
+HW-B-FP,Authority,Reciprocity,authority__reciprocity,15,sender virus total,3,11.482629626242968,828.8848729999999,0.0
+HW-B-FP,Authority,Social Proof,authority__social_proof,1,virus total,2,11.842108209134091,746.142317,0.0
+HW-B-FP,Authority,Social Proof,authority__social_proof,2,number sender virus,3,11.842108209134091,746.142317,0.0
+HW-B-FP,Authority,Social Proof,authority__social_proof,3,sender virus,2,11.842108209134091,746.142317,0.0
+HW-B-FP,Authority,Social Proof,authority__social_proof,4,sender virus total,3,11.842108209134091,746.142317,0.0
+HW-B-FP,Authority,Social Proof,authority__social_proof,5,virus total submission,3,11.839108181739567,743.9071940000001,0.0
+HW-B-FP,Authority,Social Proof,authority__social_proof,6,total submission notes,3,11.839108181739567,743.9071940000001,0.0
+HW-B-FP,Authority,Social Proof,authority__social_proof,7,total submission,2,11.839108181739567,743.9071940000001,0.0
+HW-B-FP,Authority,Social Proof,authority__social_proof,8,trojan added,2,10.48444952752968,191.94694,0.0
+HW-B-FP,Authority,Social Proof,authority__social_proof,9,detected trojan,2,10.47067382088268,189.320728,0.0
+HW-B-FP,Authority,Social Proof,authority__social_proof,10,detected trojan added,3,10.47067382088268,189.320728,0.0
+HW-B-FP,Authority,Social Proof,authority__social_proof,11,already detected trojan,3,10.47067382088268,189.320728,0.0
+HW-B-FP,Authority,Social Proof,authority__social_proof,12,money website,2,10.431068357020518,181.96874699999998,0.0
+HW-B-FP,Authority,Social Proof,authority__social_proof,13,money now money,3,10.115308578192238,132.6952,0.0
+HW-B-FP,Authority,Social Proof,authority__social_proof,14,now money,2,10.115308578192238,132.6952,0.0
+HW-B-FP,Authority,Social Proof,authority__social_proof,15,was money now,3,10.115308578192238,132.6952,0.0
+HW-B-FP,Authority,Scarcity,authority__scarcity,1,number postfix,2,9.25051388937314,46.93123200000001,0.0
+HW-B-FP,Authority,Scarcity,authority__scarcity,2,number number postfix,3,9.25051388937314,46.93123200000001,0.0
+HW-B-FP,Authority,Scarcity,authority__scarcity,3,global crossing,2,9.23770497125461,46.3338,0.0
+HW-B-FP,Authority,Scarcity,authority__scarcity,4,money website,2,9.11272619555093,40.889128,0.0
+HW-B-FP,Authority,Scarcity,authority__scarcity,5,luxembourg luxembourg,2,9.064116714508906,38.948589000000005,0.0
+HW-B-FP,Authority,Scarcity,authority__scarcity,6,university luxembourg,2,8.812875621483899,30.293347000000004,0.0
+HW-B-FP,Authority,Scarcity,authority__scarcity,7,international conference,2,8.770490384029001,29.035772013628,0.0
+HW-B-FP,Authority,Scarcity,authority__scarcity,8,number lockergnome,2,8.695046830758944,26.925075999999997,0.0
+HW-B-FP,Authority,Scarcity,authority__scarcity,9,yes number,2,8.677689422130314,26.461587,0.0
+HW-B-FP,Authority,Scarcity,authority__scarcity,10,university luxembourg luxembourg,3,8.65877993956943,25.965726000000004,0.0
+HW-B-FP,Authority,Scarcity,authority__scarcity,11,logged yes number,3,8.648607503253078,25.702829,0.0
+HW-B-FP,Authority,Scarcity,authority__scarcity,12,message logged yes,3,8.648607503253078,25.702829,0.0
+HW-B-FP,Authority,Scarcity,authority__scarcity,13,logged yes,2,8.648607503253078,25.702829,0.0
+HW-B-FP,Authority,Scarcity,authority__scarcity,14,message logged,2,8.648607503253078,25.702829,0.0
+HW-B-FP,Authority,Scarcity,authority__scarcity,15,number message logged,3,8.648607503253078,25.702829,0.0
+HW-B-FP,Authority,Commitment,authority__commitment,1,global crossing,2,8.100556018704296,16.090139999999998,0.0
+HW-B-FP,Authority,Commitment,authority__commitment,2,number postfix,2,8.086962484226897,15.872762999999999,0.0
+HW-B-FP,Authority,Commitment,authority__commitment,3,number number postfix,3,8.074213869714688,15.671564999999998,0.0
+HW-B-FP,Authority,Commitment,authority__commitment,4,luxembourg luxembourg,2,8.02822270963914,14.966684999999995,0.0
+HW-B-FP,Authority,Commitment,authority__commitment,5,university luxembourg,2,7.777099035878299,11.640755,0.0
+HW-B-FP,Authority,Commitment,authority__commitment,6,international conference,2,7.693405193067379,10.705348382912,0.0
+HW-B-FP,Authority,Commitment,authority__commitment,7,university luxembourg luxembourg,3,7.623091398065728,9.977789999999999,0.0
+HW-B-FP,Authority,Commitment,authority__commitment,8,broadcast flag,2,7.559586871998546,9.363240000000001,0.0
+HW-B-FP,Authority,Commitment,authority__commitment,9,lindows com,2,7.519425627665067,8.994258,0.0
+HW-B-FP,Authority,Commitment,authority__commitment,10,number lockergnome,2,7.513904575093887,8.944681999999998,0.0
+HW-B-FP,Authority,Commitment,authority__commitment,11,yes number,2,7.472388834064786,8.580533,0.0
+HW-B-FP,Authority,Commitment,authority__commitment,12,logged yes number,3,7.445223200009906,8.350307,0.0
+HW-B-FP,Authority,Commitment,authority__commitment,13,message logged yes,3,7.445223200009906,8.350307,0.0
+HW-B-FP,Authority,Commitment,authority__commitment,14,logged yes,2,7.445223200009906,8.350307,0.0
+HW-B-FP,Authority,Commitment,authority__commitment,15,message logged,2,7.445223200009906,8.350307,0.0
+HW-B-FP,Liking,Liking,liking__liking,1,submission notes,2,10.210393131147502,347.984784,0.0
+HW-B-FP,Liking,Liking,liking__liking,2,number sender,2,10.210393131147502,347.984784,0.0
+HW-B-FP,Liking,Liking,liking__liking,3,added number,2,10.132722911656243,321.9789639999999,0.0
+HW-B-FP,Liking,Liking,liking__liking,4,added number sender,3,10.12651587322696,319.98655599999995,0.0
+HW-B-FP,Liking,Liking,liking__liking,5,submission notes same,3,9.871629547434702,247.98880000000003,0.0
+HW-B-FP,Liking,Liking,liking__liking,6,notes same,2,9.871629547434702,247.98880000000003,0.0
+HW-B-FP,Liking,Liking,liking__liking,7,notes same number,3,9.871629547434702,247.98880000000003,0.0
+HW-B-FP,Liking,Liking,liking__liking,8,same number added,3,9.871629547434702,247.98880000000003,0.0
+HW-B-FP,Liking,Liking,liking__liking,9,same number,2,9.871629547434702,247.98880000000003,0.0
+HW-B-FP,Liking,Liking,liking__liking,10,number added number,3,9.867589385515425,246.988866,0.0
+HW-B-FP,Liking,Liking,liking__liking,11,aetheros support,2,9.694150975987782,207.65897299999986,0.0
+HW-B-FP,Liking,Liking,liking__liking,12,sender phishery,2,9.646495175482908,197.99445599999999,0.0
+HW-B-FP,Liking,Liking,liking__liking,13,internetdefence net,2,9.646495175482908,197.99445599999999,0.0
+HW-B-FP,Liking,Liking,liking__liking,14,net submission notes,3,9.646495175482908,197.99445599999999,0.0
+HW-B-FP,Liking,Liking,liking__liking,15,sender phishery internetdefence,3,9.646495175482908,197.99445599999999,0.0
+HW-B-FP,Liking,Reciprocity,liking__reciprocity,1,number sender,2,11.893383738087087,1186.5250288717111,0.0
+HW-B-FP,Liking,Reciprocity,liking__reciprocity,2,submission notes,2,11.886927232549587,1178.8888369721399,0.0
+HW-B-FP,Liking,Reciprocity,liking__reciprocity,3,added number,2,11.818617450293168,1101.047444832539,0.0
+HW-B-FP,Liking,Reciprocity,liking__reciprocity,4,added number sender,3,11.816853304976014,1099.106731850507,0.0
+HW-B-FP,Liking,Reciprocity,liking__reciprocity,5,submission notes same,3,11.629547613245421,911.366845837319,0.0
+HW-B-FP,Liking,Reciprocity,liking__reciprocity,6,notes same,2,11.629547613245421,911.366845837319,0.0
+HW-B-FP,Liking,Reciprocity,liking__reciprocity,7,notes same number,3,11.629547613245421,911.366845837319,0.0
+HW-B-FP,Liking,Reciprocity,liking__reciprocity,8,number added,2,11.629547613245421,911.366845837319,0.0
+HW-B-FP,Liking,Reciprocity,liking__reciprocity,9,same number added,3,11.629547613245421,911.366845837319,0.0
+HW-B-FP,Liking,Reciprocity,liking__reciprocity,10,same number,2,11.629547613245421,911.366845837319,0.0
+HW-B-FP,Liking,Reciprocity,liking__reciprocity,11,number added number,3,11.6245517736895,906.8251076843038,0.0
+HW-B-FP,Liking,Reciprocity,liking__reciprocity,12,number sender virus,3,11.47546116772342,781.2203337509179,0.0
+HW-B-FP,Liking,Reciprocity,liking__reciprocity,13,virus total,2,11.47546116772342,781.2203337509179,0.0
+HW-B-FP,Liking,Reciprocity,liking__reciprocity,14,sender virus,2,11.47546116772342,781.2203337509179,0.0
+HW-B-FP,Liking,Reciprocity,liking__reciprocity,15,sender virus total,3,11.47546116772342,781.2203337509179,0.0
+HW-B-FP,Liking,Social Proof,liking__social_proof,1,virus total,2,11.79087728722292,704.6213041776858,0.0
+HW-B-FP,Liking,Social Proof,liking__social_proof,2,number sender virus,3,11.79087728722292,704.6213041776858,0.0
+HW-B-FP,Liking,Social Proof,liking__social_proof,3,sender virus,2,11.79087728722292,704.6213041776858,0.0
+HW-B-FP,Liking,Social Proof,liking__social_proof,4,sender virus total,3,11.79087728722292,704.6213041776858,0.0
+HW-B-FP,Liking,Social Proof,liking__social_proof,5,virus total submission,3,11.78777367722125,702.4377935499649,0.0
+HW-B-FP,Liking,Social Proof,liking__social_proof,6,total submission notes,3,11.78777367722125,702.4377935499649,0.0
+HW-B-FP,Liking,Social Proof,liking__social_proof,7,total submission,2,11.78777367722125,702.4377935499649,0.0
+HW-B-FP,Liking,Social Proof,liking__social_proof,8,trojan added,2,10.459401519925736,186.07413793472202,0.0
+HW-B-FP,Liking,Social Proof,liking__social_proof,9,detected trojan,2,10.445621644084472,183.52750803695804,0.0
+HW-B-FP,Liking,Social Proof,liking__social_proof,10,detected trojan added,3,10.445621644084472,183.52750803695804,0.0
+HW-B-FP,Liking,Social Proof,liking__social_proof,11,already detected trojan,3,10.445621644084472,183.52750803695804,0.0
+HW-B-FP,Liking,Social Proof,liking__social_proof,12,money website,2,10.342962569136148,165.620594640238,0.0
+HW-B-FP,Liking,Social Proof,liking__social_proof,13,money now money,3,10.020540892122913,119.97158805279999,0.0
+HW-B-FP,Liking,Social Proof,liking__social_proof,14,now money,2,10.020540892122913,119.97158805279999,0.0
+HW-B-FP,Liking,Social Proof,liking__social_proof,15,was money now,3,10.020540892122913,119.97158805279999,0.0
+HW-B-FP,Liking,Scarcity,liking__scarcity,1,global crossing,2,9.260433641932385,46.3327806564,0.0
+HW-B-FP,Liking,Scarcity,liking__scarcity,2,number postfix,2,9.231717744362467,45.020931718776026,0.0
+HW-B-FP,Liking,Scarcity,liking__scarcity,3,number number postfix,3,9.21750187418258,44.38530652646401,0.0
+HW-B-FP,Liking,Scarcity,liking__scarcity,4,money website,2,9.054439414145675,37.70550544641601,0.0
+HW-B-FP,Liking,Scarcity,liking__scarcity,5,luxembourg luxembourg,2,9.037335164589155,37.065895645302,0.0
+HW-B-FP,Liking,Scarcity,liking__scarcity,6,university luxembourg,2,8.786097795344167,28.829029946346004,0.0
+HW-B-FP,Liking,Scarcity,liking__scarcity,7,international conference,2,8.752654485895807,27.880506628153004,0.0
+HW-B-FP,Liking,Scarcity,liking__scarcity,8,number lockergnome,2,8.717705011560977,26.922585014707995,0.0
+HW-B-FP,Liking,Scarcity,liking__scarcity,9,yes number,2,8.665347044307167,25.548729587171003,0.0
+HW-B-FP,Liking,Scarcity,liking__scarcity,10,lindows com,2,8.657286108173405,25.343530459968,0.0
+HW-B-FP,Liking,Scarcity,liking__scarcity,11,logged yes number,3,8.63592355577982,24.807658512427004,0.0
+HW-B-FP,Liking,Scarcity,liking__scarcity,12,message logged yes,3,8.63592355577982,24.807658512427004,0.0
+HW-B-FP,Liking,Scarcity,liking__scarcity,13,logged yes,2,8.63592355577982,24.807658512427004,0.0
+HW-B-FP,Liking,Scarcity,liking__scarcity,14,message logged,2,8.63592355577982,24.807658512427004,0.0
+HW-B-FP,Liking,Scarcity,liking__scarcity,15,number message logged,3,8.63592355577982,24.807658512427004,0.0
+HW-B-FP,Liking,Commitment,liking__commitment,1,global crossing,2,8.128003030049646,16.08978601692,0.0
+HW-B-FP,Liking,Commitment,liking__commitment,2,number postfix,2,8.063122092671563,15.078381999174002,0.0
+HW-B-FP,Liking,Commitment,liking__commitment,3,number number postfix,3,8.045944543977006,14.82141394188,0.0
+HW-B-FP,Liking,Commitment,liking__commitment,4,luxembourg luxembourg,2,8.006183261440885,14.243267980952998,0.0
+HW-B-FP,Liking,Commitment,liking__commitment,5,university luxembourg,2,7.755069268353827,11.078097318519003,0.0
+HW-B-FP,Liking,Commitment,liking__commitment,6,international conference,2,7.680457314640632,10.280902634886997,0.0
+HW-B-FP,Liking,Commitment,liking__commitment,7,university luxembourg luxembourg,3,7.6010688885619935,9.495511987301999,0.0
+HW-B-FP,Liking,Commitment,liking__commitment,8,broadcast flag,2,7.5870558699211195,9.363240000000001,0.0
+HW-B-FP,Liking,Commitment,liking__commitment,9,lindows com,2,7.546777748696329,8.993205671814,0.0
+HW-B-FP,Liking,Commitment,liking__commitment,10,number lockergnome,2,7.541281097135121,8.943853946178,0.0
+HW-B-FP,Liking,Commitment,liking__commitment,11,yes number,2,7.485134340956931,8.454976944331998,0.0
+HW-B-FP,Liking,Commitment,liking__commitment,12,logged yes number,3,7.458191825279423,8.229954122575998,0.0
+HW-B-FP,Liking,Commitment,liking__commitment,13,message logged yes,3,7.458191825279423,8.229954122575998,0.0
+HW-B-FP,Liking,Commitment,liking__commitment,14,logged yes,2,7.458191825279423,8.229954122575998,0.0
+HW-B-FP,Liking,Commitment,liking__commitment,15,message logged,2,7.458191825279423,8.229954122575998,0.0
+HW-B-FP,Reciprocity,Reciprocity,reciprocity__reciprocity,1,number sender,2,11.89319639887458,1242.1192739999997,0.0
+HW-B-FP,Reciprocity,Reciprocity,reciprocity__reciprocity,2,submission notes,2,11.886627683928044,1233.98682,0.0
+HW-B-FP,Reciprocity,Reciprocity,reciprocity__reciprocity,3,added number,2,11.818963077519992,1153.251185,0.0
+HW-B-FP,Reciprocity,Reciprocity,reciprocity__reciprocity,4,added number sender,3,11.8172724325309,1151.303077,0.0
+HW-B-FP,Reciprocity,Reciprocity,reciprocity__reciprocity,5,submission notes same,3,11.635546079454198,959.988789,0.0
+HW-B-FP,Reciprocity,Reciprocity,reciprocity__reciprocity,6,notes same,2,11.635546079454198,959.988789,0.0
+HW-B-FP,Reciprocity,Reciprocity,reciprocity__reciprocity,7,notes same number,3,11.635546079454198,959.988789,0.0
+HW-B-FP,Reciprocity,Reciprocity,reciprocity__reciprocity,8,number added,2,11.635546079454198,959.988789,0.0
+HW-B-FP,Reciprocity,Reciprocity,reciprocity__reciprocity,9,same number added,3,11.635546079454198,959.988789,0.0
+HW-B-FP,Reciprocity,Reciprocity,reciprocity__reciprocity,10,same number,2,11.635546079454198,959.988789,0.0
+HW-B-FP,Reciprocity,Reciprocity,reciprocity__reciprocity,11,number added number,3,11.630685852379152,955.334297,0.0
+HW-B-FP,Reciprocity,Reciprocity,reciprocity__reciprocity,12,number sender virus,3,11.488707391723969,828.8848729999999,0.0
+HW-B-FP,Reciprocity,Reciprocity,reciprocity__reciprocity,13,virus total,2,11.488707391723969,828.8848729999999,0.0
+HW-B-FP,Reciprocity,Reciprocity,reciprocity__reciprocity,14,sender virus,2,11.488707391723969,828.8848729999999,0.0
+HW-B-FP,Reciprocity,Reciprocity,reciprocity__reciprocity,15,sender virus total,3,11.488707391723969,828.8848729999999,0.0
+HW-B-FP,Reciprocity,Social Proof,reciprocity__social_proof,1,virus total,2,11.738016136684799,619.3872781312091,0.0
+HW-B-FP,Reciprocity,Social Proof,reciprocity__social_proof,2,number sender virus,3,11.738016136684799,619.3872781312091,0.0
+HW-B-FP,Reciprocity,Social Proof,reciprocity__social_proof,3,sender virus,2,11.738016136684799,619.3872781312091,0.0
+HW-B-FP,Reciprocity,Social Proof,reciprocity__social_proof,4,sender virus total,3,11.738016136684799,619.3872781312091,0.0
+HW-B-FP,Reciprocity,Social Proof,reciprocity__social_proof,5,virus total submission,3,11.734988833661301,617.5150102693331,0.0
+HW-B-FP,Reciprocity,Social Proof,reciprocity__social_proof,6,total submission notes,3,11.734988833661301,617.5150102693331,0.0
+HW-B-FP,Reciprocity,Social Proof,reciprocity__social_proof,7,total submission,2,11.734988833661301,617.5150102693331,0.0
+HW-B-FP,Reciprocity,Social Proof,reciprocity__social_proof,8,trojan added,2,10.489946294565609,177.79314850439002,0.0
+HW-B-FP,Reciprocity,Social Proof,reciprocity__social_proof,9,detected trojan,2,10.475667635684722,175.27239729967403,0.0
+HW-B-FP,Reciprocity,Social Proof,reciprocity__social_proof,10,detected trojan added,3,10.475667635684722,175.27239729967403,0.0
+HW-B-FP,Reciprocity,Social Proof,reciprocity__social_proof,11,already detected trojan,3,10.475667635684722,175.27239729967403,0.0
+HW-B-FP,Reciprocity,Social Proof,reciprocity__social_proof,12,money website,2,10.353835905702931,155.16703744317198,0.0
+HW-B-FP,Reciprocity,Social Proof,reciprocity__social_proof,13,sender virscan,2,10.051710000280837,114.70384657398199,0.0
+HW-B-FP,Reciprocity,Social Proof,reciprocity__social_proof,14,number sender virscan,3,10.051710000280837,114.70384657398199,0.0
+HW-B-FP,Reciprocity,Social Proof,reciprocity__social_proof,15,org submission notes,3,10.051710000280837,114.70384657398199,0.0
+HW-B-FP,Reciprocity,Scarcity,reciprocity__scarcity,1,number postfix,2,9.311513676331264,46.096700832576005,0.0
+HW-B-FP,Reciprocity,Scarcity,reciprocity__scarcity,2,number number postfix,3,9.311513676331264,46.096700832576005,0.0
+HW-B-FP,Reciprocity,Scarcity,reciprocity__scarcity,3,money website,2,9.062912140026588,35.94818578528,0.0
+HW-B-FP,Reciprocity,Scarcity,reciprocity__scarcity,4,luxembourg luxembourg,2,8.882350642107168,30.007941698115005,0.0
+HW-B-FP,Reciprocity,Scarcity,reciprocity__scarcity,5,number lockergnome,2,8.742098099277266,26.07975521232,0.0
+HW-B-FP,Reciprocity,Scarcity,reciprocity__scarcity,6,lindows com,2,8.711685269693824,25.298236271616002,0.0
+HW-B-FP,Reciprocity,Scarcity,reciprocity__scarcity,7,yes number,2,8.69056677397859,24.769368494004997,0.0
+HW-B-FP,Reciprocity,Scarcity,reciprocity__scarcity,8,logged yes number,3,8.668570515930384,24.230265965733,0.0
+HW-B-FP,Reciprocity,Scarcity,reciprocity__scarcity,9,message logged yes,3,8.668570515930384,24.230265965733,0.0
+HW-B-FP,Reciprocity,Scarcity,reciprocity__scarcity,10,logged yes,2,8.668570515930384,24.230265965733,0.0
+HW-B-FP,Reciprocity,Scarcity,reciprocity__scarcity,11,message logged,2,8.668570515930384,24.230265965733,0.0
+HW-B-FP,Reciprocity,Scarcity,reciprocity__scarcity,12,number message logged,3,8.668570515930384,24.230265965733,0.0
+HW-B-FP,Reciprocity,Scarcity,reciprocity__scarcity,13,international conference,2,8.65096552060598,23.807250713092998,0.0
+HW-B-FP,Reciprocity,Scarcity,reciprocity__scarcity,14,digital media,2,8.636451524626343,23.464063763513995,0.0
+HW-B-FP,Reciprocity,Scarcity,reciprocity__scarcity,15,university luxembourg,2,8.631131390468331,23.339510209645002,0.0
+HW-B-FP,Reciprocity,Commitment,reciprocity__commitment,1,global crossing,2,8.1809433134967,16.09010781972,0.0
+HW-B-FP,Reciprocity,Commitment,reciprocity__commitment,2,number postfix,2,8.136672708579404,15.39289323117,0.0
+HW-B-FP,Reciprocity,Commitment,reciprocity__commitment,3,number number postfix,3,8.136672708579404,15.39289323117,0.0
+HW-B-FP,Reciprocity,Commitment,reciprocity__commitment,4,luxembourg luxembourg,2,7.84802438280893,11.531012991929998,0.0
+HW-B-FP,Reciprocity,Commitment,reciprocity__commitment,5,money website,2,7.7033880493838165,9.976864751679999,0.0
+HW-B-FP,Reciprocity,Commitment,reciprocity__commitment,6,broadcast flag,2,7.639852290169985,9.36207895824,0.0
+HW-B-FP,Reciprocity,Commitment,reciprocity__commitment,7,lindows com,2,7.597911224891835,8.977132932768,0.0
+HW-B-FP,Reciprocity,Commitment,reciprocity__commitment,8,university luxembourg,2,7.596957488193761,8.96856566039,0.0
+HW-B-FP,Reciprocity,Commitment,reciprocity__commitment,9,international conference,2,7.572652688245702,8.752973987251,0.0
+HW-B-FP,Reciprocity,Commitment,reciprocity__commitment,10,number lockergnome,2,7.564185565841868,8.679090047468003,0.0
+HW-B-FP,Reciprocity,Commitment,reciprocity__commitment,11,digital media,2,7.4855344201716925,8.021867574058998,0.0
+HW-B-FP,Reciprocity,Commitment,reciprocity__commitment,12,yes number,2,7.478955216628904,7.969197735244,0.0
+HW-B-FP,Reciprocity,Commitment,reciprocity__commitment,13,logged yes number,3,7.458110064888924,7.804591726648001,0.0
+HW-B-FP,Reciprocity,Commitment,reciprocity__commitment,14,message logged yes,3,7.458110064888924,7.804591726648001,0.0
+HW-B-FP,Reciprocity,Commitment,reciprocity__commitment,15,logged yes,2,7.458110064888924,7.804591726648001,0.0
+HW-B-FP,Social Proof,Social Proof,social_proof__social_proof,1,virus total,2,11.842107795249373,746.142317,0.0
+HW-B-FP,Social Proof,Social Proof,social_proof__social_proof,2,number sender virus,3,11.842107795249373,746.142317,0.0
+HW-B-FP,Social Proof,Social Proof,social_proof__social_proof,3,sender virus,2,11.842107795249373,746.142317,0.0
+HW-B-FP,Social Proof,Social Proof,social_proof__social_proof,4,sender virus total,3,11.842107795249373,746.142317,0.0
+HW-B-FP,Social Proof,Social Proof,social_proof__social_proof,5,virus total submission,3,11.839107767854848,743.9071940000001,0.0
+HW-B-FP,Social Proof,Social Proof,social_proof__social_proof,6,total submission notes,3,11.839107767854848,743.9071940000001,0.0
+HW-B-FP,Social Proof,Social Proof,social_proof__social_proof,7,total submission,2,11.839107767854848,743.9071940000001,0.0
+HW-B-FP,Social Proof,Social Proof,social_proof__social_proof,8,trojan added,2,10.484449113644963,191.94694,0.0
+HW-B-FP,Social Proof,Social Proof,social_proof__social_proof,9,detected trojan,2,10.470673406997964,189.320728,0.0
+HW-B-FP,Social Proof,Social Proof,social_proof__social_proof,10,detected trojan added,3,10.470673406997964,189.320728,0.0
+HW-B-FP,Social Proof,Social Proof,social_proof__social_proof,11,already detected trojan,3,10.470673406997964,189.320728,0.0
+HW-B-FP,Social Proof,Social Proof,social_proof__social_proof,12,money website,2,10.431067943135801,181.96874699999998,0.0
+HW-B-FP,Social Proof,Social Proof,social_proof__social_proof,13,money now money,3,10.115308164307521,132.6952,0.0
+HW-B-FP,Social Proof,Social Proof,social_proof__social_proof,14,now money,2,10.115308164307521,132.6952,0.0
+HW-B-FP,Social Proof,Social Proof,social_proof__social_proof,15,was money now,3,10.115308164307521,132.6952,0.0
+HW-B-FP,Social Proof,Scarcity,social_proof__scarcity,1,number postfix,2,9.205164407227372,40.317495061632,0.0
+HW-B-FP,Social Proof,Scarcity,social_proof__scarcity,2,number number postfix,3,9.205164407227372,40.317495061632,0.0
+HW-B-FP,Social Proof,Scarcity,social_proof__scarcity,3,money website,2,8.929582546234398,30.603822875583997,0.0
+HW-B-FP,Social Proof,Scarcity,social_proof__scarcity,4,luxembourg luxembourg,2,8.898120073586481,29.65563076059901,0.0
+HW-B-FP,Social Proof,Scarcity,social_proof__scarcity,5,number lockergnome,2,8.768247984173222,26.042587014833998,0.0
+HW-B-FP,Social Proof,Scarcity,social_proof__scarcity,6,lindows com,2,8.73662937240345,25.231727066112,0.0
+HW-B-FP,Social Proof,Scarcity,social_proof__scarcity,7,digital media,2,8.667374339530715,23.542769825483003,0.0
+HW-B-FP,Social Proof,Scarcity,social_proof__scarcity,8,university luxembourg,2,8.646901952217135,23.065490591577003,0.0
+HW-B-FP,Social Proof,Scarcity,social_proof__scarcity,9,international conference,2,8.617939758708177,22.406758969279,0.0
+HW-B-FP,Social Proof,Scarcity,social_proof__scarcity,10,yes number,2,8.609334029590517,22.214674114466998,0.0
+HW-B-FP,Social Proof,Scarcity,social_proof__scarcity,11,tips windows,2,8.59264915165018,21.846934515826,0.0
+HW-B-FP,Social Proof,Scarcity,social_proof__scarcity,12,logged yes number,3,8.588801008531059,21.762987527268997,0.0
+HW-B-FP,Social Proof,Scarcity,social_proof__scarcity,13,message logged yes,3,8.588801008531059,21.762987527268997,0.0
+HW-B-FP,Social Proof,Scarcity,social_proof__scarcity,14,logged yes,2,8.588801008531059,21.762987527268997,0.0
+HW-B-FP,Social Proof,Scarcity,social_proof__scarcity,15,message logged,2,8.588801008531059,21.762987527268997,0.0
+HW-B-FP,Social Proof,Commitment,social_proof__commitment,1,global crossing,2,8.213373814441223,16.089995188739998,0.0
+HW-B-FP,Social Proof,Commitment,social_proof__commitment,2,number postfix,2,8.035247376267325,13.463065373939997,0.0
+HW-B-FP,Social Proof,Commitment,social_proof__commitment,3,number number postfix,3,8.035247376267325,13.463065373939997,0.0
+HW-B-FP,Social Proof,Commitment,social_proof__commitment,4,luxembourg luxembourg,2,7.868675882665968,11.395789089552002,0.0
+HW-B-FP,Social Proof,Commitment,social_proof__commitment,5,broadcast flag,2,7.671913071411595,9.35854901676,0.0
+HW-B-FP,Social Proof,Commitment,social_proof__commitment,6,lindows com,2,7.627719187002295,8.953531999776,0.0
+HW-B-FP,Social Proof,Commitment,social_proof__commitment,7,university luxembourg,2,7.6176119223744525,8.863391514095998,0.0
+HW-B-FP,Social Proof,Commitment,social_proof__commitment,8,number lockergnome,2,7.595177043144092,8.666534535217998,0.0
+HW-B-FP,Social Proof,Commitment,social_proof__commitment,9,money website,2,7.591699364469571,8.636412743410999,0.0
+HW-B-FP,Social Proof,Commitment,social_proof__commitment,10,international conference,2,7.547437404927784,8.262051666038,0.0
+HW-B-FP,Social Proof,Commitment,social_proof__commitment,11,university luxembourg luxembourg,3,7.4636490523785,7.597192726367999,0.0
+HW-B-FP,Social Proof,Commitment,social_proof__commitment,12,tips windows,2,7.425873551636023,7.3151871960340005,0.0
+HW-B-FP,Social Proof,Commitment,social_proof__commitment,13,yes number,2,7.3964375428950095,7.102705569552998,0.0
+HW-B-FP,Social Proof,Commitment,social_proof__commitment,14,logged yes number,3,7.376838347007547,6.964659474954998,0.0
+HW-B-FP,Social Proof,Commitment,social_proof__commitment,15,message logged yes,3,7.376838347007547,6.964659474954998,0.0
+HW-B-FP,Scarcity,Scarcity,scarcity__scarcity,1,number postfix,2,9.250508669627347,46.93123200000001,0.0
+HW-B-FP,Scarcity,Scarcity,scarcity__scarcity,2,number number postfix,3,9.250508669627347,46.93123200000001,0.0
+HW-B-FP,Scarcity,Scarcity,scarcity__scarcity,3,global crossing,2,9.237699751508817,46.3338,0.0
+HW-B-FP,Scarcity,Scarcity,scarcity__scarcity,4,money website,2,9.112720975805138,40.889128,0.0
+HW-B-FP,Scarcity,Scarcity,scarcity__scarcity,5,luxembourg luxembourg,2,9.064111494763113,38.948589000000005,0.0
+HW-B-FP,Scarcity,Scarcity,scarcity__scarcity,6,university luxembourg,2,8.812870401738106,30.293347000000004,0.0
+HW-B-FP,Scarcity,Scarcity,scarcity__scarcity,7,international conference,2,8.770485955667334,29.035795000000004,0.0
+HW-B-FP,Scarcity,Scarcity,scarcity__scarcity,8,number lockergnome,2,8.695041611013151,26.925075999999997,0.0
+HW-B-FP,Scarcity,Scarcity,scarcity__scarcity,9,yes number,2,8.67768420238452,26.461587,0.0
+HW-B-FP,Scarcity,Scarcity,scarcity__scarcity,10,university luxembourg luxembourg,3,8.658774719823636,25.965726000000004,0.0
+HW-B-FP,Scarcity,Scarcity,scarcity__scarcity,11,logged yes number,3,8.648602283507286,25.702829,0.0
+HW-B-FP,Scarcity,Scarcity,scarcity__scarcity,12,message logged yes,3,8.648602283507286,25.702829,0.0
+HW-B-FP,Scarcity,Scarcity,scarcity__scarcity,13,logged yes,2,8.648602283507286,25.702829,0.0
+HW-B-FP,Scarcity,Scarcity,scarcity__scarcity,14,message logged,2,8.648602283507286,25.702829,0.0
+HW-B-FP,Scarcity,Scarcity,scarcity__scarcity,15,number message logged,3,8.648602283507286,25.702829,0.0
+HW-B-FP,Scarcity,Commitment,scarcity__commitment,1,global crossing,2,8.030687448061707,12.4252888122,0.0
+HW-B-FP,Scarcity,Commitment,scarcity__commitment,2,broadcast flag,2,7.507253392830405,7.35769017144,0.0
+HW-B-FP,Scarcity,Commitment,scarcity__commitment,3,number postfix,2,7.2563715854150175,5.722905326951998,0.0
+HW-B-FP,Scarcity,Commitment,scarcity__commitment,4,number number postfix,3,7.252620452320322,5.70144071952,0.0
+HW-B-FP,Scarcity,Commitment,scarcity__commitment,5,lindows com,2,7.203547025447971,5.4279267719040005,0.0
+HW-B-FP,Scarcity,Commitment,scarcity__commitment,6,luxembourg luxembourg,2,7.044126694157322,4.626582426450001,0.0
+HW-B-FP,Scarcity,Commitment,scarcity__commitment,7,spare jet,2,6.933682193557775,4.141762937399999,0.0
+HW-B-FP,Scarcity,Commitment,scarcity__commitment,8,number lockergnome,2,6.926068345611958,4.110272081112001,0.0
+HW-B-FP,Scarcity,Commitment,scarcity__commitment,9,visit sign,2,6.8818163563496775,3.931917227908001,0.0
+HW-B-FP,Scarcity,Commitment,scarcity__commitment,10,soon visit sign,3,6.8818163563496775,3.931917227908001,0.0
+HW-B-FP,Scarcity,Commitment,scarcity__commitment,11,visit sign via,3,6.8818163563496775,3.931917227908001,0.0
+HW-B-FP,Scarcity,Commitment,scarcity__commitment,12,digital media,2,6.876392554244257,3.910594925194,0.0
+HW-B-FP,Scarcity,Commitment,scarcity__commitment,13,heard about,2,6.8572705570937345,3.8363375574680005,0.0
+HW-B-FP,Scarcity,Commitment,scarcity__commitment,14,university luxembourg,2,6.793428293511711,3.598452998350001,0.0
+HW-B-FP,Scarcity,Commitment,scarcity__commitment,15,com media unspun,3,6.778992381502331,3.5467358784040006,0.0
+HW-B-FP,Commitment,Commitment,commitment__commitment,1,global crossing,2,8.10054978214702,16.090139999999998,0.0
+HW-B-FP,Commitment,Commitment,commitment__commitment,2,number postfix,2,8.08695624766962,15.872762999999999,0.0
+HW-B-FP,Commitment,Commitment,commitment__commitment,3,number number postfix,3,8.074207633157412,15.671564999999998,0.0
+HW-B-FP,Commitment,Commitment,commitment__commitment,4,luxembourg luxembourg,2,8.028216473081864,14.966684999999995,0.0
+HW-B-FP,Commitment,Commitment,commitment__commitment,5,university luxembourg,2,7.777092799321023,11.640755,0.0
+HW-B-FP,Commitment,Commitment,commitment__commitment,6,international conference,2,7.69339966736756,10.705356000000002,0.0
+HW-B-FP,Commitment,Commitment,commitment__commitment,7,university luxembourg luxembourg,3,7.6230851615084525,9.977789999999999,0.0
+HW-B-FP,Commitment,Commitment,commitment__commitment,8,broadcast flag,2,7.55958063544127,9.363240000000001,0.0
+HW-B-FP,Commitment,Commitment,commitment__commitment,9,lindows com,2,7.519419391107791,8.994258,0.0
+HW-B-FP,Commitment,Commitment,commitment__commitment,10,number lockergnome,2,7.513898338536611,8.944681999999998,0.0
+HW-B-FP,Commitment,Commitment,commitment__commitment,11,yes number,2,7.47238259750751,8.580533,0.0
+HW-B-FP,Commitment,Commitment,commitment__commitment,12,logged yes number,3,7.44521696345263,8.350307,0.0
+HW-B-FP,Commitment,Commitment,commitment__commitment,13,message logged yes,3,7.44521696345263,8.350307,0.0
+HW-B-FP,Commitment,Commitment,commitment__commitment,14,logged yes,2,7.44521696345263,8.350307,0.0
+HW-B-FP,Commitment,Commitment,commitment__commitment,15,message logged,2,7.44521696345263,8.350307,0.0

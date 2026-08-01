@@ -1,0 +1,316 @@
+group_label,feature_a,feature_b,cell_slug,rank,word,log_ratio_score,weighted_group_count,weighted_background_count,group_doc_count,background_doc_count
+HW-P-TP,Authority,Authority,authority__authority,1,votre,10.356194375306565,346.0,0.0,42,0
+HW-P-TP,Authority,Authority,authority__authority,2,vous,10.039195468196159,252.0,0.0,43,0
+HW-P-TP,Authority,Authority,authority__authority,3,pour,9.361835084800402,128.0,0.0,44,0
+HW-P-TP,Authority,Authority,authority__authority,4,trademarks,9.254745780036874,115.0,0.0,49,0
+HW-P-TP,Authority,Authority,authority__authority,5,nous,9.17326012821739,106.0,0.0,42,0
+HW-P-TP,Authority,Authority,authority__authority,6,jose,9.11499687992081,100.0,0.0,57,0
+HW-P-TP,Authority,Authority,authority__authority,7,voyage,8.998475421903224,89.0,0.0,42,0
+HW-P-TP,Authority,Authority,authority__authority,8,ledger,8.987177143318103,88.0,0.0,11,0
+HW-P-TP,Authority,Authority,authority__authority,9,parchment,8.940662538309141,84.0,0.0,42,0
+HW-P-TP,Authority,Authority,authority__authority,10,remercions,8.800323117000378,73.0,0.0,41,0
+HW-P-TP,Authority,Authority,authority__authority,11,uniquement,8.800323117000378,73.0,0.0,42,0
+HW-P-TP,Authority,Authority,authority__authority,12,quilt,8.72938145211993,68.0,0.0,4,0
+HW-P-TP,Authority,Authority,authority__authority,13,compte,8.714568560917463,67.0,0.0,42,0
+HW-P-TP,Authority,Authority,authority__authority,14,avec,8.714568560917463,67.0,0.0,42,0
+HW-P-TP,Authority,Authority,authority__authority,15,bonjour,8.699532944633063,66.0,0.0,42,0
+HW-P-TP,Authority,Liking,authority__liking,1,rjmetrics,10.13063649684905,328.0,0.0,6,0
+HW-P-TP,Authority,Liking,authority__liking,2,permission,10.121448352211916,325.0,0.0,5,0
+HW-P-TP,Authority,Liking,authority__liking,3,gare,10.061210182281744,306.0,0.0,220,0
+HW-P-TP,Authority,Liking,authority__liking,4,muni,9.97598265701392,281.0,0.0,217,0
+HW-P-TP,Authority,Liking,authority__liking,5,dossier,9.722133334421427,218.0,0.0,218,0
+HW-P-TP,Authority,Liking,authority__liking,6,veuillez,9.684747549756109,210.0,0.0,210,0
+HW-P-TP,Authority,Liking,authority__liking,7,actuellement,9.684747549756109,210.0,0.0,210,0
+HW-P-TP,Authority,Liking,authority__liking,8,informons,9.684747549756109,210.0,0.0,210,0
+HW-P-TP,Authority,Liking,authority__liking,9,envoyer,9.684747549756109,210.0,0.0,210,0
+HW-P-TP,Authority,Liking,authority__liking,10,demande,9.684747549756109,210.0,0.0,210,0
+HW-P-TP,Authority,Liking,authority__liking,11,disponible,9.684747549756109,210.0,0.0,210,0
+HW-P-TP,Authority,Liking,authority__liking,12,papier,9.650847640037016,203.0,0.0,203,0
+HW-P-TP,Authority,Liking,authority__liking,13,blanc,9.650847640037016,203.0,0.0,203,0
+HW-P-TP,Authority,Liking,authority__liking,14,bonne,9.650847640037016,203.0,0.0,203,0
+HW-P-TP,Authority,Liking,authority__liking,15,nachricht,9.157954608639454,124.0,0.0,73,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,1,swagbucks,10.739273190384832,419.61881999999986,0.0,21,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,2,rjmetrics,10.492938898423997,327.997432,0.0,6,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,3,impressed,10.49163390611003,327.569664,0.0,4,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,4,abroad,9.613429019980327,136.10857599999994,0.0,16,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,5,solo,9.571372451558608,130.502606,0.0,8,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,6,lemon,9.413014591091974,111.38828799999999,0.0,7,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,7,itinerary,9.387630833227107,108.596168,0.0,3,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,8,nervous,9.387630833227107,108.596168,0.0,3,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,9,ripple,9.295030360651399,98.99078000000002,0.0,10,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,10,meadows,9.280240778938303,97.537374,0.0,3,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,11,scholastic,9.280240778938303,97.537374,0.0,3,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,12,wildlife,9.280240778938303,97.537374,0.0,3,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,13,spotted,9.280240778938303,97.537374,0.0,3,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,14,needle,9.280240778938303,97.537374,0.0,3,0
+HW-P-TP,Authority,Reciprocity,authority__reciprocity,15,rainier,9.280240778938303,97.537374,0.0,3,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,1,swagbucks,11.00421251715157,395.6310000000001,0.0,21,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,2,rjmetrics,10.815471454855192,327.581096,0.0,6,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,3,impressed,10.778338172386643,315.63964799999997,0.0,4,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,4,wells,10.332408954390374,202.07808599999998,0.0,11,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,5,hauptstadt,10.215280958016766,179.74156,0.0,5,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,6,para,10.169419087881792,171.68399700000003,0.0,46,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,7,whatsoever,10.07303796717543,155.90838300000001,0.0,30,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,8,meadows,9.844386058965277,124.03951199999999,0.0,9,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,9,needle,9.844386058965277,124.03951199999999,0.0,9,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,10,rainier,9.844386058965277,124.03951199999999,0.0,9,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,11,pike,9.844386058965277,124.03951199999999,0.0,9,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,12,itinerary,9.724031200235082,109.973012,0.0,3,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,13,nervous,9.724031200235082,109.973012,0.0,3,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,14,lemon,9.720515795572101,109.58705599999999,0.0,7,0
+HW-P-TP,Authority,Social Proof,authority__social_proof,15,addressee,9.666071036497012,103.77959800000001,0.0,28,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,1,rjmetrics,10.758354323795782,241.43879600000002,0.0,6,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,2,swagbucks,10.327833780247266,156.9729,0.0,21,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,3,impressed,9.9496196523109,107.53644,0.0,4,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,4,hauptstadt,9.940229836083352,106.53132500000001,0.0,5,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,5,itinerary,9.696082106080269,83.45148,0.0,3,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,6,hiked,9.490911383749214,67.97006400000001,0.0,7,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,7,meadows,9.467557856740655,66.40088399999999,0.0,3,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,8,scholastic,9.467557856740655,66.40088399999999,0.0,3,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,9,needle,9.467557856740655,66.40088399999999,0.0,3,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,10,rainier,9.467557856740655,66.40088399999999,0.0,3,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,11,pike,9.467557856740655,66.40088399999999,0.0,3,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,12,lemon,9.36275660434717,59.793232,0.0,7,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,13,whatsoever,9.258913902811958,53.894664,0.0,30,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,14,bearbeiten,9.219782751181622,51.82605000000001,0.0,5,0
+HW-P-TP,Authority,Scarcity,authority__scarcity,15,citrus,9.15515582691123,48.582001,0.0,7,0
+HW-P-TP,Authority,Commitment,authority__commitment,1,rjmetrics,10.296862909182213,145.609832,0.0,6,0
+HW-P-TP,Authority,Commitment,authority__commitment,2,hauptstadt,9.259579316705937,51.600015,0.0,5,0
+HW-P-TP,Authority,Commitment,authority__commitment,3,impressed,9.247693598775538,50.990224000000005,0.0,4,0
+HW-P-TP,Authority,Commitment,authority__commitment,4,votre,9.065659865958605,42.50242100000002,0.0,46,0
+HW-P-TP,Authority,Commitment,authority__commitment,5,vous,8.70786839986219,29.71548699999999,0.0,46,0
+HW-P-TP,Authority,Commitment,authority__commitment,6,abroad,8.658554692609078,28.285169999999997,0.0,3,0
+HW-P-TP,Authority,Commitment,authority__commitment,7,itinerary,8.658554692609078,28.285169999999997,0.0,3,0
+HW-P-TP,Authority,Commitment,authority__commitment,8,meadows,8.651314700967593,28.081052999999997,0.0,3,0
+HW-P-TP,Authority,Commitment,authority__commitment,9,scholastic,8.651314700967593,28.081052999999997,0.0,3,0
+HW-P-TP,Authority,Commitment,authority__commitment,10,needle,8.651314700967593,28.081052999999997,0.0,3,0
+HW-P-TP,Authority,Commitment,authority__commitment,11,rainier,8.651314700967593,28.081052999999997,0.0,3,0
+HW-P-TP,Authority,Commitment,authority__commitment,12,hiked,8.651314700967593,28.081052999999997,0.0,3,0
+HW-P-TP,Authority,Commitment,authority__commitment,13,pike,8.651314700967593,28.081052999999997,0.0,3,0
+HW-P-TP,Authority,Commitment,authority__commitment,14,bearbeiten,8.539237666379421,25.10271,0.0,5,0
+HW-P-TP,Authority,Commitment,authority__commitment,15,lemon,8.451676347783824,22.997328000000003,0.0,7,0
+HW-P-TP,Liking,Liking,liking__liking,1,votre,11.7304731951256,1849.0,0.0,224,0
+HW-P-TP,Liking,Liking,liking__liking,2,vous,11.378963720302318,1301.0,0.0,221,0
+HW-P-TP,Liking,Liking,liking__liking,3,reset,10.707869633561048,665.0,0.0,222,0
+HW-P-TP,Liking,Liking,liking__liking,4,pour,10.706364765028265,664.0,0.0,221,0
+HW-P-TP,Liking,Liking,liking__liking,5,nous,10.558970723993708,573.0,0.0,224,0
+HW-P-TP,Liking,Liking,liking__liking,6,voyage,10.347973659142431,464.0,0.0,217,0
+HW-P-TP,Liking,Liking,liking__liking,7,parchment,10.29940006168043,442.0,0.0,221,0
+HW-P-TP,Liking,Liking,liking__liking,8,remercions,10.181902612262428,393.0,0.0,221,0
+HW-P-TP,Liking,Liking,liking__liking,9,uniquement,10.17423993524488,390.0,0.0,217,0
+HW-P-TP,Liking,Liking,liking__liking,10,compte,10.045827156684178,343.0,0.0,224,0
+HW-P-TP,Liking,Liking,liking__liking,11,avec,10.034097160894724,339.0,0.0,217,0
+HW-P-TP,Liking,Liking,liking__liking,12,bonjour,9.991923506511416,325.0,0.0,219,0
+HW-P-TP,Liking,Liking,liking__liking,13,billets,9.985750837920008,323.0,0.0,217,0
+HW-P-TP,Liking,Liking,liking__liking,14,doit,9.944672110447701,310.0,0.0,221,0
+HW-P-TP,Liking,Liking,liking__liking,15,oncf,9.821232157496732,274.0,0.0,221,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,1,swagbucks,10.750164562679448,408.70309582199985,0.0,21,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,2,rjmetrics,10.530187396658754,327.997432,0.0,6,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,3,celsius,9.727070838076408,146.914626162003,0.0,18,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,4,solo,9.607735332463566,130.38707294096,0.0,8,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,5,abroad,9.494114911851486,116.38199737462398,0.0,11,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,6,lemon,9.450263089326732,111.38828799999999,0.0,7,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,7,itinerary,9.424879331461863,108.596168,0.0,3,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,8,nervous,9.424879331461863,108.596168,0.0,3,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,9,toyota,9.42208271641968,108.292862668704,0.0,4,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,10,wells,9.383738695663446,104.218704420552,0.0,4,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,11,fargo,9.383738695663446,104.218704420552,0.0,4,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,12,hiked,9.35640650676715,101.40848544616,0.0,7,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,13,coolwallet,9.322954303868544,98.07193236039001,0.0,6,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,14,meadows,9.317489277173063,97.537374,0.0,3,0
+HW-P-TP,Liking,Reciprocity,liking__reciprocity,15,scholastic,9.317489277173063,97.537374,0.0,3,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,1,swagbucks,10.978033494084585,385.3392821085601,0.0,21,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,2,rjmetrics,10.815649516944177,327.581096,0.0,6,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,3,wells,10.329145996992338,201.38389201047605,0.0,11,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,4,hauptstadt,10.206973590554759,178.222743818,0.0,5,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,5,para,10.166052436847032,171.07646842894798,0.0,46,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,6,whatsoever,10.072102167601997,155.73480817782604,0.0,30,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,7,meadows,9.84456412105426,124.03951199999999,0.0,9,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,8,needle,9.84456412105426,124.03951199999999,0.0,9,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,9,rainier,9.84456412105426,124.03951199999999,0.0,9,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,10,pike,9.84456412105426,124.03951199999999,0.0,9,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,11,itinerary,9.724209262324067,109.973012,0.0,3,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,12,nervous,9.724209262324067,109.973012,0.0,3,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,13,lemon,9.720693857661086,109.58705599999999,0.0,7,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,14,addressee,9.666219914117548,103.77656899995203,0.0,28,0
+HW-P-TP,Liking,Social Proof,liking__social_proof,15,scholastic,9.618191876027197,98.909712,0.0,3,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,1,rjmetrics,10.769949788220403,241.43879600000002,0.0,6,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,2,swagbucks,10.313073169765229,152.88949457112,0.0,21,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,3,impressed,9.961215116735524,107.53644,0.0,4,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,4,hauptstadt,9.943340196735807,105.63113530375003,0.0,5,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,5,itinerary,9.70767757050489,83.45148,0.0,3,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,6,hiked,9.50246206626008,67.96701979079998,0.0,7,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,7,meadows,9.479153321165276,66.40088399999999,0.0,3,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,8,scholastic,9.479153321165276,66.40088399999999,0.0,3,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,9,needle,9.479153321165276,66.40088399999999,0.0,3,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,10,rainier,9.479153321165276,66.40088399999999,0.0,3,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,11,pike,9.479153321165276,66.40088399999999,0.0,3,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,12,lemon,9.374352068771792,59.793232,0.0,7,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,13,whatsoever,9.269339332428489,53.831630549657994,0.0,30,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,14,bearbeiten,9.222893955986304,51.38811987750002,0.0,5,0
+HW-P-TP,Liking,Scarcity,liking__scarcity,15,citrus,9.166751291335853,48.582001,0.0,7,0
+HW-P-TP,Liking,Commitment,liking__commitment,1,rjmetrics,10.286957899354604,145.609832,0.0,6,0
+HW-P-TP,Liking,Commitment,liking__commitment,2,hauptstadt,9.241190054458698,51.163994873250005,0.0,5,0
+HW-P-TP,Liking,Commitment,liking__commitment,3,impressed,9.237788588947929,50.990224000000005,0.0,4,0
+HW-P-TP,Liking,Commitment,liking__commitment,4,votre,9.055754856130996,42.50242100000002,0.0,46,0
+HW-P-TP,Liking,Commitment,liking__commitment,5,vous,8.697943915778815,29.71490812389999,0.0,46,0
+HW-P-TP,Liking,Commitment,liking__commitment,6,hiked,8.654768673217166,28.4588386712,0.0,7,0
+HW-P-TP,Liking,Commitment,liking__commitment,7,abroad,8.648649682781468,28.285169999999997,0.0,3,0
+HW-P-TP,Liking,Commitment,liking__commitment,8,itinerary,8.648649682781468,28.285169999999997,0.0,3,0
+HW-P-TP,Liking,Commitment,liking__commitment,9,meadows,8.641409691139984,28.081052999999997,0.0,3,0
+HW-P-TP,Liking,Commitment,liking__commitment,10,scholastic,8.641409691139984,28.081052999999997,0.0,3,0
+HW-P-TP,Liking,Commitment,liking__commitment,11,needle,8.641409691139984,28.081052999999997,0.0,3,0
+HW-P-TP,Liking,Commitment,liking__commitment,12,rainier,8.641409691139984,28.081052999999997,0.0,3,0
+HW-P-TP,Liking,Commitment,liking__commitment,13,pike,8.641409691139984,28.081052999999997,0.0,3,0
+HW-P-TP,Liking,Commitment,liking__commitment,14,bearbeiten,8.520850146400875,24.890592100499997,0.0,5,0
+HW-P-TP,Liking,Commitment,liking__commitment,15,lemon,8.441771337956215,22.997328000000003,0.0,7,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,1,swagbucks,10.740554019538328,419.61881999999986,0.0,21,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,2,rjmetrics,10.494219727577493,327.997432,0.0,6,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,3,impressed,10.492914735263525,327.569664,0.0,4,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,4,abroad,9.614709849133822,136.10857599999994,0.0,16,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,5,solo,9.572653280712103,130.502606,0.0,8,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,6,lemon,9.41429542024547,111.38828799999999,0.0,7,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,7,itinerary,9.3889116623806,108.596168,0.0,3,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,8,nervous,9.3889116623806,108.596168,0.0,3,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,9,ripple,9.296311189804896,98.99078000000002,0.0,10,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,10,meadows,9.2815216080918,97.537374,0.0,3,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,11,scholastic,9.2815216080918,97.537374,0.0,3,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,12,wildlife,9.2815216080918,97.537374,0.0,3,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,13,spotted,9.2815216080918,97.537374,0.0,3,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,14,needle,9.2815216080918,97.537374,0.0,3,0
+HW-P-TP,Reciprocity,Reciprocity,reciprocity__reciprocity,15,rainier,9.2815216080918,97.537374,0.0,3,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,1,swagbucks,10.992956660298491,395.27193643811984,0.0,21,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,2,rjmetrics,10.805115830910617,327.57856435880007,0.0,6,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,3,hauptstadt,10.14214169226624,168.80176969215998,0.0,5,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,4,para,9.952973283128989,139.70657359340396,0.0,37,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,5,solo,9.900804348295054,132.60457137555602,0.0,11,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,6,meadows,9.81179233687257,121.31039637511202,0.0,9,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,7,needle,9.81179233687257,121.31039637511202,0.0,9,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,8,rainier,9.81179233687257,121.31039637511202,0.0,9,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,9,pike,9.81179233687257,121.31039637511202,0.0,9,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,10,lemon,9.704692142059358,108.98856916198399,0.0,7,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,11,itinerary,9.700837482846406,108.569225555744,0.0,3,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,12,nervous,9.700837482846406,108.569225555744,0.0,3,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,13,wells,9.60747782028733,98.891107170732,0.0,4,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,14,scholastic,9.592783211502335,97.448419914912,0.0,3,0
+HW-P-TP,Reciprocity,Social Proof,reciprocity__social_proof,15,toyota,9.54527836830925,92.92691981328,0.0,4,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,1,rjmetrics,10.767132282128202,241.437330673328,0.0,6,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,2,swagbucks,10.33570988055896,156.83043568074,0.0,21,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,3,hauptstadt,9.886224970922314,100.04740243520001,0.0,5,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,4,itinerary,9.691832939515944,82.370768216592,0.0,3,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,5,hiked,9.580541002823917,73.69422153584405,0.0,13,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,6,meadows,9.559680665653806,72.17265202622404,0.0,9,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,7,needle,9.559680665653806,72.17265202622404,0.0,9,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,8,rainier,9.559680665653806,72.17265202622404,0.0,9,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,9,pike,9.559680665653806,72.17265202622404,0.0,9,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,10,scholastic,9.461459919472542,65.41987733978401,0.0,3,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,11,lemon,9.36606814525351,59.46685349548799,0.0,7,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,12,whatsoever,9.264323584627352,53.71307758345797,0.0,30,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,13,bearbeiten,9.165784305608906,48.6717092928,0.0,5,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,14,citrus,9.158467579561034,48.316818465084,0.0,7,0
+HW-P-TP,Reciprocity,Scarcity,reciprocity__scarcity,15,consignment,9.0726952716917,44.34450785951999,0.0,5,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,1,rjmetrics,10.291771546107915,145.609099900736,0.0,6,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,2,impressed,9.241294659349533,50.923324826112,0.0,4,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,3,hauptstadt,9.191710563054784,48.459431687039995,0.0,5,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,4,swagbucks,8.965959702613986,38.664577201140006,0.0,21,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,5,votre,8.730080688978969,30.538129329539,0.0,38,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,6,hiked,8.644524088742081,28.033218847658,0.0,7,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,7,itinerary,8.64037061597,27.916983658679996,0.0,3,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,8,meadows,8.631349481050059,27.666183522977995,0.0,3,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,9,scholastic,8.631349481050059,27.666183522977995,0.0,3,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,10,needle,8.631349481050059,27.666183522977995,0.0,3,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,11,rainier,8.631349481050059,27.666183522977995,0.0,3,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,12,pike,8.631349481050059,27.666183522977995,0.0,3,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,13,bearbeiten,8.471382162177017,23.574858658559997,0.0,5,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,14,lemon,8.441120442719614,22.871831340351996,0.0,7,0
+HW-P-TP,Reciprocity,Commitment,reciprocity__commitment,15,whatsoever,8.359327780618969,21.074760794321993,0.0,30,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,1,swagbucks,11.00421251715157,395.6310000000001,0.0,21,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,2,rjmetrics,10.815471454855192,327.581096,0.0,6,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,3,impressed,10.778338172386643,315.63964799999997,0.0,4,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,4,wells,10.332408954390374,202.07808599999998,0.0,11,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,5,hauptstadt,10.215280958016766,179.74156,0.0,5,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,6,para,10.169419087881792,171.68399700000003,0.0,46,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,7,whatsoever,10.07303796717543,155.90838300000001,0.0,30,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,8,meadows,9.844386058965277,124.03951199999999,0.0,9,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,9,needle,9.844386058965277,124.03951199999999,0.0,9,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,10,rainier,9.844386058965277,124.03951199999999,0.0,9,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,11,pike,9.844386058965277,124.03951199999999,0.0,9,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,12,itinerary,9.724031200235082,109.973012,0.0,3,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,13,nervous,9.724031200235082,109.973012,0.0,3,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,14,lemon,9.720515795572101,109.58705599999999,0.0,7,0
+HW-P-TP,Social Proof,Social Proof,social_proof__social_proof,15,addressee,9.666071036497012,103.77959800000001,0.0,28,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,1,rjmetrics,10.773526939768683,241.16652723750403,0.0,6,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,2,swagbucks,10.284365863229032,147.86511012036007,0.0,21,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,3,hauptstadt,9.92769769654955,103.5032786182,0.0,5,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,4,impressed,9.927511791784042,103.48403679504,0.0,4,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,5,itinerary,9.71220988761296,83.437032675888,0.0,3,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,6,hiked,9.506035886393008,67.89013957423202,0.0,7,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,7,meadows,9.48294647628486,66.340326393792,0.0,3,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,8,scholastic,9.48294647628486,66.340326393792,0.0,3,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,9,needle,9.48294647628486,66.340326393792,0.0,3,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,10,rainier,9.48294647628486,66.340326393792,0.0,3,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,11,pike,9.48294647628486,66.340326393792,0.0,3,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,12,lemon,9.357288703478421,58.505454991376,0.0,7,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,13,whatsoever,9.21873293680886,50.93441521269598,0.0,30,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,14,bearbeiten,9.207253509563913,50.352946354800004,0.0,5,0
+HW-P-TP,Social Proof,Scarcity,social_proof__scarcity,15,citrus,9.14968877523544,47.535682180493,0.0,7,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,1,rjmetrics,10.2914508332416,145.45850369084803,0.0,6,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,2,hauptstadt,9.226376867227035,50.13333617363999,0.0,5,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,3,impressed,9.204916542794898,49.068708398784004,0.0,4,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,4,swagbucks,8.90782462865911,36.454288672560004,0.0,21,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,5,hiked,8.65926292805602,28.429291385823998,0.0,7,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,6,itinerary,8.65403491337706,28.280998329899997,0.0,3,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,7,meadows,8.646030275435072,28.055443079664,0.0,3,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,8,scholastic,8.646030275435072,28.055443079664,0.0,3,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,9,needle,8.646030275435072,28.055443079664,0.0,3,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,10,rainier,8.646030275435072,28.055443079664,0.0,3,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,11,pike,8.646030275435072,28.055443079664,0.0,3,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,12,bearbeiten,8.506041197969257,24.389190570959997,0.0,5,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,13,lemon,8.425544249192082,22.502101513104,0.0,7,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,14,whatsoever,8.306973883625705,19.985008033698,0.0,30,0
+HW-P-TP,Social Proof,Commitment,social_proof__commitment,15,citrus,8.218007388128779,18.282957479397,0.0,7,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,1,rjmetrics,10.758352130528898,241.43879600000002,0.0,6,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,2,swagbucks,10.327831586980384,156.9729,0.0,21,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,3,impressed,9.94961745904402,107.53644,0.0,4,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,4,hauptstadt,9.94022764281647,106.53132500000001,0.0,5,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,5,itinerary,9.696079912813385,83.45148,0.0,3,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,6,hiked,9.490909190482332,67.97006400000001,0.0,7,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,7,meadows,9.467555663473771,66.40088399999999,0.0,3,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,8,scholastic,9.467555663473771,66.40088399999999,0.0,3,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,9,needle,9.467555663473771,66.40088399999999,0.0,3,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,10,rainier,9.467555663473771,66.40088399999999,0.0,3,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,11,pike,9.467555663473771,66.40088399999999,0.0,3,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,12,lemon,9.362754411080289,59.793232,0.0,7,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,13,whatsoever,9.258911709545076,53.894664,0.0,30,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,14,bearbeiten,9.21978055791474,51.82605000000001,0.0,5,0
+HW-P-TP,Scarcity,Scarcity,scarcity__scarcity,15,citrus,9.15515363364435,48.582001,0.0,7,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,1,rjmetrics,10.143014816811254,107.62748126212,0.0,6,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,2,hauptstadt,8.856187591824273,29.713610637675,0.0,5,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,3,itinerary,8.537582396183822,21.60389738628,0.0,3,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,4,hiked,8.408311276437432,18.982903047347992,0.0,7,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,5,meadows,8.400462290993254,18.834411543947997,0.0,3,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,6,scholastic,8.400462290993254,18.834411543947997,0.0,3,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,7,needle,8.400462290993254,18.834411543947997,0.0,3,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,8,rainier,8.400462290993254,18.834411543947997,0.0,3,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,9,pike,8.400462290993254,18.834411543947997,0.0,3,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,10,impressed,8.28129397774477,16.717399889520003,0.0,4,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,11,swagbucks,8.136587496607236,14.463821526420002,0.0,21,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,12,bearbeiten,8.135996497632766,14.45527003995,0.0,5,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,13,lemon,7.972910880508781,12.278513811727997,0.0,7,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,14,citrus,7.765459290728097,9.976292472029002,0.0,7,0
+HW-P-TP,Scarcity,Commitment,scarcity__commitment,15,consignment,7.667848471664707,9.047585476079998,0.0,5,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,1,rjmetrics,10.296724504860114,145.609832,0.0,6,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,2,hauptstadt,9.259440912383837,51.600015,0.0,5,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,3,impressed,9.247555194453437,50.990224000000005,0.0,4,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,4,votre,9.065521461636504,42.50242100000002,0.0,46,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,5,vous,8.707729995540092,29.71548699999999,0.0,46,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,6,abroad,8.658416288286977,28.285169999999997,0.0,3,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,7,itinerary,8.658416288286977,28.285169999999997,0.0,3,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,8,meadows,8.651176296645492,28.081052999999997,0.0,3,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,9,scholastic,8.651176296645492,28.081052999999997,0.0,3,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,10,needle,8.651176296645492,28.081052999999997,0.0,3,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,11,rainier,8.651176296645492,28.081052999999997,0.0,3,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,12,hiked,8.651176296645492,28.081052999999997,0.0,3,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,13,pike,8.651176296645492,28.081052999999997,0.0,3,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,14,bearbeiten,8.53909926205732,25.10271,0.0,5,0
+HW-P-TP,Commitment,Commitment,commitment__commitment,15,lemon,8.451537943461723,22.997328000000003,0.0,7,0
