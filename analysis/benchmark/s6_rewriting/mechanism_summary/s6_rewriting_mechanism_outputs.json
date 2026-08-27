@@ -1,0 +1,15 @@
+{
+  "outputs": {
+    "detector_performance": "s6_detector_performance_mcc.csv",
+    "pair_means": "s6_persuasion_pair_means.csv",
+    "method_shift_summary": "s6_method_shift_summary.csv",
+    "top_changed_pairs": "s6_top_changed_pairs_by_method.csv",
+    "mannwhitney_tests": "s6_pair_mannwhitney_tests.csv",
+    "candidate_pairs": "s6_candidate_pairs_for_final_figure.csv",
+    "markdown_summary": "s6_rewriting_mechanism_summary.md",
+    "detector_mcc_figure": "fig_s6_detector_mcc.png",
+    "method_pair_shift_figure": "fig_s6_method_pair_shift.png",
+    "top_changed_pairs_figure": "fig_s6_top_changed_pairs.png",
+    "candidate_pairs_figure": "fig_s6_candidate_pairs_fn_vs_tp.png"
+  }
+}

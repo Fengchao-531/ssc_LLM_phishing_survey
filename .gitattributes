@@ -1,0 +1,4 @@
+Visualisation/**/*.csv filter=lfs diff=lfs merge=lfs -text
+Visualisation/**/*.pkl filter=lfs diff=lfs merge=lfs -text
+Visualisation/**/*.pt filter=lfs diff=lfs merge=lfs -text
+Visualisation/**/*.zip filter=lfs diff=lfs merge=lfs -text

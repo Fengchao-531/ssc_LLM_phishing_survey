@@ -1,9 +1,0 @@
-group_label,group_title,row_count
-HW-P-FN,HW Phishing FN,3644
-HW-P-TP,HW Phishing TP,25397
-HW-B-TN,HW Benign TN,17240
-HW-B-FP,HW Benign FP,5792
-LLM-P-FN,LLM Phishing FN,9179
-LLM-P-TP,LLM Phishing TP,16875
-LLM-B-TN,LLM Benign TN,14965
-LLM-B-FP,LLM Benign FP,5084
