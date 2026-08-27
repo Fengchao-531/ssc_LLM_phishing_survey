@@ -1,19 +1,140 @@
-# SoK: Exposing the Generation and Detection Gaps in LLM-Generated Phishing
+# SoK: Systematizing Generation, Characteristics, and Defenses in LLM-Generated Phishing
 
-Phishing campaigns involve adversaries masquerading as trusted vendors trying to trigger user behavior that enables them to exfiltrate private data. While URLs are an important part of phishing campaigns, communicative elements like text and images are central in triggering the required user behavior. Further, due to advances in phishing detection, attackers react by scaling campaigns to larger numbers and diversifying and personalizing content. In addition to established mechanisms, such as template-based generation, large language models (LLMs) can be used for phishing content generation, enabling attacks to scale in minutes, challenging existing phishing detection paradigms through personalized content, stealthy explicit phishing keywords, and dynamic adaptation to diverse attack scenarios.
+This repository contains the research artifact accompanying our SoK on **LLM-generated phishing content**. It organizes the paper's systematization, benchmark-ready public data, detector implementations, WVAE/persuasion analysis, released detector outputs, statistical analyses, and paper-facing figures.
 
-Countering these dynamically changing attack campaigns requires a comprehensive understanding of the complex LLM-related threat landscape. Existing studies are fragmented and focus on specific areas. In this work, we provide the first holistic examination of LLM-generated phishing content. First, to trace the exploitation pathways of LLMs for phishing content generation, we adopt a modular taxonomy documenting nine stages by which adversaries breach LLM safety guardrails. We then characterize how LLM-generated phishing manifests as threats, revealing that it evades detectors while emphasizing human cognitive manipulation. Third, by taxonomizing defense techniques aligned with generation methods, we expose a critical asymmetry that offensive mechanisms adapt dynamically to attack scenarios, whereas defensive strategies remain static and reactive. Finally, based on a thorough analysis of the existing literature, we highlight insights and gaps and suggest a roadmap for understanding and countering LLM-driven phishing at scale.
+<p align="center">
+  <img src="results/figures/overview/overview.jpg" alt="Overview of LLM-generated phishing generation, characterization, and defense" width="100%">
+</p>
 
-![Overview](./Visualisation/GED.jpg)
+The artifact is organized around three parts of the paper: **LLM manipulation and phishing generation**, **characterization and user effects**, and **detection and defense**. The public reproduction path focuses on the evaluation and analysis layers rather than the upstream dataset-cleaning pipeline.
+
+## Key Results at a Glance
+
+### Communication settings and persuasion
+
+The released persuasion analysis compares how persuasion relationships change across phishing communication settings.
+
+<p align="center">
+  <img src="results/figures/persuasion/rq2_vishing_multi_minus_email_difference_heatmaps.png" alt="Persuasion differences across communication settings" width="78%">
+</p>
+
+### S6: phishing rewriting
+
+Controlled S6 analyses compare rewriting procedures and their effects on detector performance and detector-relevant phishing characteristics.
+
+<p align="center">
+  <img src="results/figures/benchmark/s6_rewriting/fig_s6_rewriting_two_panel_main_a.png" alt="S6 rewriting analysis" width="78%">
+</p>
+
+### S8: diverse generators
+
+The S8 comparison holds the generation workflow fixed and varies the generator, showing that detector performance is sensitive to generator choice.
+
+<p align="center">
+  <img src="results/figures/benchmark/s8_generators/Fig_S8_A_detector_generator_detection_rate_heatmap.png" alt="Detection rates across LLM generators" width="78%">
+</p>
+
+More paper and supplementary figures are available under [`results/figures/`](results/figures/).
+
+## Quick Start
+
+Clone the repository with Git LFS enabled, then run the artifact smoke check:
+
+```bash
+git clone https://github.com/Fengchao-531/ssc_LLM_phishing_survey.git
+cd ssc_LLM_phishing_survey
+git lfs pull
+bash scripts/quickstart.sh check
+```
+
+To quickly open the overview and representative released figures:
+
+```bash
+bash scripts/quickstart.sh preview
+```
+
+`preview` displays existing released figures; it does **not** regenerate them. Reproduction of statistics and figures is organized under [`analysis/`](analysis/), while detector setup is documented under [`detectors/`](detectors/).
+
+For detector dependencies:
+
+```bash
+pip install -r detectors/requirements.txt
+```
+
+Some detectors additionally require external services, API access, or local model checkpoints.
 
 ## Repository Structure
 
-- `Datasets/`: public dataset references and safe release notes for restricted data.
-- `Detectors/`: detector wrappers, public setup notes, and runnable examples.
-- `Evaluation/`: aggregate evaluation tables and stage-transfer trend summaries.
-- `Visualisation/`: detector response visualisations, the interaction page, and WVAE persuasion-scoring code.
-- `Work/`: additional project notes.
+```text
+ssc_LLM_phishing_survey/
+├── systematization/    # study/systematization materials
+├── data/               # public sources and redistributable benchmark-ready inputs
+├── detectors/          # academic and industrial detector implementations
+├── analysis/           # reproducible persuasion and benchmark analyses
+├── results/            # predictions, scores, statistics, tables, and figures
+└── scripts/            # artifact-level quick-start utilities
+```
 
-## Safety Note
+- [`systematization/`](systematization/): documentation for the generation, characterization, and defense systematization and the current manipulation-stage organization.
+- [`data/`](data/): public dataset references and benchmark-ready inputs that can be redistributed. Upstream resources are catalogued in [`data/dataset_sources.csv`](data/dataset_sources.csv).
+- [`detectors/`](detectors/): academic and industrial detector implementations/configurations, dependency notes, and small runnable examples.
+- [`analysis/`](analysis/): persuasion characterization and benchmark analyses, including overall analysis, academic--industrial disagreement, S6 rewriting, and S8 generator comparisons.
+- [`results/`](results/): released detector predictions, persuasion scores, statistical outputs, tables, and figures used to inspect the reported results.
 
-The public release avoids uploading raw phishing emails, full detector row outputs, API keys, or restricted S8 model-output data. The `Visualisation/output/` directory contains README files and PNG figures only; aggregate metrics for the viewer are stored separately in `Visualisation/data/`.
+## Reproducing the Analyses
+
+The benchmark analysis mirrors the paper's evaluation logic:
+
+```text
+analysis/benchmark/
+├── overall/
+├── detector_disagreement/
+├── s6_rewriting/
+└── s8_generators/
+```
+
+Persuasion characterization and WVAE-related code are under:
+
+```text
+analysis/persuasion/
+└── wvae/
+```
+
+The artifact supports the following reproduction paths:
+
+1. **Detector evaluation:** run supported detectors on released benchmark-ready inputs when the required model/service is available.
+2. **Detector metrics:** recompute evaluation metrics from released predictions.
+3. **Statistical analysis:** recompute persuasion, action/linguistic, rewriting, and generator comparisons from released derived outputs.
+4. **Visualization:** regenerate paper-facing comparison figures from the released analysis inputs where the corresponding analysis input is public.
+5. **WVAE:** rerun the adapted scoring procedure when the required external model artifact is available, or start from the released persuasion scores under `results/persuasion_scores/`.
+
+The upstream dataset selection, cleaning, filtering, merging, and benchmark-construction scripts are intentionally outside the public reproduction pipeline.
+
+## Git LFS
+
+Several released CSV/model artifacts are stored through **Git LFS**. If a CSV opens as a short text file beginning with:
+
+```text
+version https://git-lfs.github.com/spec/v1
+```
+
+run:
+
+```bash
+git lfs install
+git lfs pull
+```
+
+The quick-start check also reports unresolved LFS pointer files.
+
+## Data and Safety
+
+Public upstream resources used or referenced by the artifact are listed in [`data/dataset_sources.csv`](data/dataset_sources.csv). Public availability does not necessarily imply unrestricted redistribution, so local benchmark copies are retained only where appropriate and otherwise the repository points to the upstream source.
+
+Security-sensitive reproduced/generated phishing text from the controlled S6 and S8 experiments is not publicly released. For these experiments, the artifact provides derived detector outputs, persuasion/feature measurements, statistical results, and figures needed to inspect and reproduce the reported comparisons without redistributing generated attack content.
+
+API keys, private paths, and local credentials are not committed.
+
+## Citation
+
+Please cite the accompanying paper when using this artifact. Formal bibliographic metadata will be added once the paper's publication metadata is finalized.

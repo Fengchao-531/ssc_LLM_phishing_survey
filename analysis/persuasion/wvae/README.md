@@ -1,6 +1,6 @@
 # WVAE Persuasion Scoring
 
-This folder contains the adapted WVAE scoring code used by the visualisation pipeline. It starts from the public WVAE codebase released with Chen and Yang's AAAI 2021 paper, then maps sentence-level persuasive strategy probabilities into six Cialdini-style principle scores:
+This folder contains the adapted WVAE scoring code used for the paper's persuasion analyses. It starts from the public WVAE codebase released with Chen and Yang's AAAI 2021 paper and maps sentence-level persuasive-strategy probabilities into six Cialdini-style principle scores:
 
 - authority
 - reciprocity
@@ -9,7 +9,7 @@ This folder contains the adapted WVAE scoring code used by the visualisation pip
 - social proof
 - liking
 
-These six scores are aggregated at email level and used by the detector visualisations in `../output/`, including heatmaps and false-negative boxplots.
+The resulting email-level scores are used by the persuasion characterization and detector analyses. Released score outputs used by downstream statistics are stored under `../../../results/persuasion_scores/`.
 
 ## Citation
 
@@ -28,7 +28,7 @@ These six scores are aggregated at email level and used by the detector visualis
 
 ## Adaptation
 
-The original WVAE model predicts request-oriented persuasive strategies such as credibility, reciprocity, evidence, commitment, scarcity, social identity, emotion, impact, and politeness. For this survey, we preserve the sentence-level probabilities and aggregate them into six stable email-level principles:
+The original WVAE model predicts request-oriented persuasive strategies including credibility, reciprocity, evidence, commitment, scarcity, social identity, emotion, impact, and politeness. The artifact aggregates them into six email-level principles:
 
 ```text
 authority     <- credibility + evidence
@@ -41,14 +41,16 @@ liking        <- emotion + politeness
 
 ## Usage
 
-Score a CSV of emails:
+Score a CSV of emails from the repository root:
 
 ```bash
-cd Visualisation/wvae/code
+cd analysis/persuasion/wvae/code
 python score_email_csv.py \
   --input-csv /path/to/input.csv \
   --output-csv /path/to/output.csv \
   --model-path /path/to/cialdini_wvae_model.pkl
 ```
 
-Expected input columns are `subject` and `body`. The output adds six `principle_*` probability columns. Model weights and raw scoring inputs are not included in this public release.
+Expected input columns are `subject` and `body`; the output adds six `principle_*` probability columns.
+
+Model weights and raw scoring inputs are not included in this public release. Therefore, the fully public reproduction path for the paper's downstream persuasion statistics starts from the released scores under `results/persuasion_scores/`. The inference code is provided so the scoring step can also be rerun when the required model artifact is available.
