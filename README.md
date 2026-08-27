@@ -3,7 +3,7 @@
 This repository contains the research artifact accompanying our SoK on **LLM-generated phishing content**. It organizes the paper's systematization, benchmark-ready public data, detector implementations, WVAE/persuasion analysis, released detector outputs, statistical analyses, and paper-facing figures.
 
 <p align="center">
-  <img src="results/figures/overview/overview.jpg" alt="Overview of LLM-generated phishing generation, characterization, and defense" width="100%">
+  <img src="assets/overview.jpg" alt="Overview of LLM-generated phishing generation, characterization, and defense" width="100%">
 </p>
 
 The artifact is organized around three parts of the paper: **LLM manipulation and phishing generation**, **characterization and user effects**, and **detection and defense**. The public reproduction path focuses on the evaluation and analysis layers rather than the upstream dataset-cleaning pipeline.
@@ -67,6 +67,7 @@ Some detectors additionally require external services, API access, or local mode
 
 ```text
 ssc_LLM_phishing_survey/
+├── assets/             # README-facing overview material
 ├── systematization/    # study/systematization materials
 ├── data/               # public sources and redistributable benchmark-ready inputs
 ├── detectors/          # academic and industrial detector implementations
