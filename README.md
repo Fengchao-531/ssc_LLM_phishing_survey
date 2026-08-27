@@ -1,44 +1,58 @@
-# SoK: Exposing the Generation and Detection Gaps in LLM-Generated Phishing
+# SoK: Systematizing Generation, Characteristics, and Defenses in LLM-Generated Phishing
 
-Phishing campaigns involve adversaries masquerading as trusted vendors trying to trigger user behavior that enables them to exfiltrate private data. While URLs are an important part of phishing campaigns, communicative elements like text and images are central in triggering the required user behavior. Further, due to advances in phishing detection, attackers react by scaling campaigns to larger numbers and diversifying and personalizing content. In addition to established mechanisms, such as template-based generation, large language models (LLMs) can be used for phishing content generation, enabling attacks to scale in minutes, challenging existing phishing detection paradigms through personalized content, stealthy explicit phishing keywords, and dynamic adaptation to diverse attack scenarios.
+This repository contains the research artifact accompanying our SoK on **LLM-generated phishing content**. The public artifact is organized around the paper's empirical evidence: benchmark-ready data that can be redistributed, detector implementations and configurations, persuasion/WVAE analysis code, released detector predictions and persuasion scores, statistical analyses, and paper-facing tables and figures.
 
-Countering these dynamically changing attack campaigns requires a comprehensive understanding of the complex LLM-related threat landscape. Existing studies are fragmented and focus on specific areas. In this work, we provide the first holistic examination of LLM-generated phishing content. First, to trace the exploitation pathways of LLMs for phishing content generation, we adopt a modular taxonomy documenting nine stages by which adversaries breach LLM safety guardrails. We then characterize how LLM-generated phishing manifests as threats, revealing that it evades detectors while emphasizing human cognitive manipulation. Third, by taxonomizing defense techniques aligned with generation methods, we expose a critical asymmetry that offensive mechanisms adapt dynamically to attack scenarios, whereas defensive strategies remain static and reactive. Finally, based on a thorough analysis of the existing literature, we highlight insights and gaps and suggest a roadmap for understanding and countering LLM-driven phishing at scale.
-
-![Overview](./Visualisation/GED.jpg)
+The repository intentionally does **not** reproduce the upstream dataset cleaning, filtering, merging, or benchmark-construction pipeline. Reproducibility starts from the benchmark-ready inputs and released derived artifacts used in the paper analyses.
 
 ## Repository Structure
 
-- `Datasets/`: public dataset references and safe release notes for restricted data.
-- `Detectors/`: detector wrappers, public setup notes, and runnable examples.
-- `Evaluation/`: aggregate evaluation tables and stage-transfer trend summaries.
-- `Visualisation/`: detector response visualisations, the interaction page, and WVAE persuasion-scoring code.
-- `Work/`: additional project notes.
+- [`systematization/`](systematization/): documentation for the paper's generation/characterization/defense systematization and the current manipulation-stage organization used by the artifact.
+- [`data/`](data/): public dataset references and benchmark-ready inputs that can be redistributed. See [`data/dataset_sources.csv`](data/dataset_sources.csv) for upstream resources.
+- [`detectors/`](detectors/): academic and industrial detector implementations/configurations, dependency notes, and small runnable examples.
+- [`analysis/`](analysis/): reproducible analysis code for persuasion characterization and the detector benchmark, including overall analysis, academic--industrial disagreement, S6 rewriting, and S8 generator comparisons.
+- [`results/`](results/): released detector predictions, persuasion scores, statistical outputs, tables, and figures used to validate the reported analyses.
 
-## Interactive Visualisation
+## Reproducibility Scope
 
-GitHub README files cannot execute JavaScript, so the interactive detector viewer is served through GitHub Pages:
+The artifact supports reproduction of the paper's **evaluation and analysis layers**:
 
-**https://fengchao-531.github.io/ssc_LLM_phishing_survey/**
+1. Run supported detectors on released benchmark-ready inputs where the required model/service is available.
+2. Recompute detector metrics from released predictions.
+3. Recompute persuasion-based and action/linguistic statistical analyses from released derived scores and predictions.
+4. Regenerate the corresponding comparison figures and result tables from the released analysis inputs.
+5. Re-run the adapted WVAE scoring procedure when the required external model artifact is available; otherwise, downstream analyses can start from the released persuasion scores in `results/persuasion_scores/`.
 
-The viewer is backed by the exported assets in [`Visualisation/output/`](Visualisation/output/) and the aggregate metrics in [`Visualisation/data/detector_metrics.json`](Visualisation/data/detector_metrics.json).
+The upstream data-selection and preprocessing scripts used to construct benchmark subsets are not part of this public reproduction pipeline.
 
-The default view is:
+## Data and Safety
 
-- detector: `scamllm`
-- stage: `overview`
-- output: `metrics`
-- metrics shown: `MCC`, `Recall`, and `TNR`
+All public upstream resources used or referenced by the artifact are catalogued in [`data/dataset_sources.csv`](data/dataset_sources.csv). A dataset being publicly accessible does not necessarily imply unrestricted redistribution, so the repository retains local benchmark copies only where appropriate and otherwise points to the upstream source.
 
-The interface lets users select a detector, switch between `overview` and lifecycle stages (`S1`, `S2`, `S4`, `S5`, `S6`, `S8`), and choose either the compact metrics view or a recall-focused view. The figures update to show the corresponding surrogate response maps, heatmaps, and false-negative persuasion boxplots.
+Security-sensitive reproduced/generated phishing text from the controlled S6 and S8 experiments is not publicly released. For these experiments, the artifact instead provides the derived detector outputs, persuasion/feature measurements, statistical results, and figures needed to inspect and reproduce the reported comparisons without redistributing the generated attack content.
 
-For local use, start a simple static server from the repository root:
+API keys, private paths, and local credentials are not committed. Some detector wrappers require external services or locally obtained model checkpoints; see [`detectors/README.md`](detectors/README.md) for setup notes.
 
-```bash
-python -m http.server 8000
+## Analysis Organization
+
+The benchmark analysis mirrors the paper's evaluation logic:
+
+```text
+analysis/benchmark/
+├── overall/
+├── detector_disagreement/
+├── s6_rewriting/
+└── s8_generators/
 ```
 
-Then open `http://localhost:8000/Visualisation/index.html`.
+Persuasion characterization and WVAE-related code are under:
 
-## Safety Note
+```text
+analysis/persuasion/
+└── wvae/
+```
 
-The public release avoids uploading raw phishing emails, full detector row outputs, API keys, or restricted S8 model-output data. The `Visualisation/output/` directory contains README files and PNG figures only; aggregate metrics for the viewer are stored separately in `Visualisation/data/`.
+Final and intermediate released outputs are separated from the analysis code under `results/`.
+
+## Citation
+
+Please cite the accompanying paper when using this artifact. Formal bibliographic metadata will be added once the paper's publication metadata is finalized.
