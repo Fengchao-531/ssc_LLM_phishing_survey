@@ -36,11 +36,11 @@ The S8 comparison holds the generation workflow fixed and varies only the genera
 
 <table>
   <tr>
-    <td align="center" width="50%">
+    <td align="center" width="40%">
       <img src="results/figures/benchmark/s8_generators/Fig_S8_A_detector_generator_detection_rate_heatmap.png" alt="Detection rates across LLM generators" width="100%"><br>
       <em>Generator-dependent detector performance.</em>
     </td>
-    <td align="center" width="50%">
+    <td align="center" width="60%">
       <img src="results/figures/persuasion/Fig_S8_C_detector_specific_tp_fn_feature_differences.png" alt="Linguistic and action-related feature differences across generators" width="100%"><br>
       <em>Linguistic and action-related feature differences associated with detector outcomes.</em>
     </td>
