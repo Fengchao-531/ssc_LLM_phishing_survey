@@ -27,7 +27,7 @@ Controlled S6 analyses compare rewriting procedures and their effects on detecto
 </p>
 
 <p align="center">
-  <img src="analysis/benchmark/s6_rewriting/mechanism_summary/fig_s6_candidate_pairs_fn_vs_tp.png" alt="S6 FN-TP rank-biserial effect heatmap" width="90%">
+  <img src="results/figures/persuasion/fig_s6_rewriting_two_panel_main_b.png" alt="S6 FN-TP rank-biserial effect heatmap" width="90%">
 </p>
 
 ### S8 and detector comparison
@@ -41,7 +41,7 @@ The S8 comparison holds the generation workflow fixed and varies only the genera
       <em>Generator-dependent detector performance.</em>
     </td>
     <td align="center" width="50%">
-      <img src="analysis/benchmark/s8_generators/selected_llm_tp_detector_merged.png" alt="Linguistic and action-related feature differences across generators" width="100%"><br>
+      <img src="results/figures/persuasion/Fig_S8_C_detector_specific_tp_fn_feature_differences.png" alt="Linguistic and action-related feature differences across generators" width="100%"><br>
       <em>Linguistic and action-related feature differences associated with detector outcomes.</em>
     </td>
   </tr>
