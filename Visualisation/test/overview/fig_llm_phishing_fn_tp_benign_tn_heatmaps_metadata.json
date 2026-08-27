@@ -1,9 +1,0 @@
-{
-  "mixed_input": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Visualization/test/overview/projected_points_mixed_overview.csv",
-  "output_file": "fig_llm_phishing_fn_tp_benign_tn_heatmaps_pca.png",
-  "counts": {
-    "llm_p_fn": 9179,
-    "llm_p_tp": 16875,
-    "llm_b_tn": 14965
-  }
-}

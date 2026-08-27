@@ -1,7 +1,0 @@
-{
-  "mixed_input": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Visualization/test/overview/projected_points_mixed_overview.csv",
-  "output_file": "fig_hw_phishing_tp_heatmap_pca.png",
-  "counts": {
-    "hw_p_tp": 25397
-  }
-}

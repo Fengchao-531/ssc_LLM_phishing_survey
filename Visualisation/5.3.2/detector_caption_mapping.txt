@@ -1,1 +1,0 @@
-Detector order in Fig. 5.3.2(c): scamllm, pimref, t5phishing, xgboost, securenet_llama, Phishingv3, email agent, rspamd, spamscanner, spamassassin. Significance markers use detector-wise FDR q-values: * q < 0.05, ** q < 0.01, *** q < 0.001.
