@@ -1,38 +1,87 @@
 # SoK: Systematizing Generation, Characteristics, and Defenses in LLM-Generated Phishing
 
-This repository contains the research artifact accompanying our SoK on **LLM-generated phishing content**. The public artifact is organized around the paper's empirical evidence: benchmark-ready data that can be redistributed, detector implementations and configurations, persuasion/WVAE analysis code, released detector predictions and persuasion scores, statistical analyses, and paper-facing tables and figures.
+This repository contains the research artifact accompanying our SoK on **LLM-generated phishing content**. It organizes the paper's systematization, benchmark-ready public data, detector implementations, WVAE/persuasion analysis, released detector outputs, statistical analyses, and paper-facing figures.
 
-The repository intentionally does **not** reproduce the upstream dataset cleaning, filtering, merging, or benchmark-construction pipeline. Reproducibility starts from the benchmark-ready inputs and released derived artifacts used in the paper analyses.
+<p align="center">
+  <img src="results/figures/overview/overview.jpg" alt="Overview of LLM-generated phishing generation, characterization, and defense" width="100%">
+</p>
+
+The artifact is organized around three parts of the paper: **LLM manipulation and phishing generation**, **characterization and user effects**, and **detection and defense**. The public reproduction path focuses on the evaluation and analysis layers rather than the upstream dataset-cleaning pipeline.
+
+## Key Results at a Glance
+
+### Communication settings and persuasion
+
+The released persuasion analysis compares how persuasion relationships change across phishing communication settings.
+
+<p align="center">
+  <img src="results/figures/persuasion/rq2_vishing_multi_minus_email_difference_heatmaps.png" alt="Persuasion differences across communication settings" width="78%">
+</p>
+
+### S6: phishing rewriting
+
+Controlled S6 analyses compare rewriting procedures and their effects on detector performance and detector-relevant phishing characteristics.
+
+<p align="center">
+  <img src="results/figures/benchmark/s6_rewriting/fig_s6_rewriting_two_panel_main_a.png" alt="S6 rewriting analysis" width="78%">
+</p>
+
+### S8: diverse generators
+
+The S8 comparison holds the generation workflow fixed and varies the generator, showing that detector performance is sensitive to generator choice.
+
+<p align="center">
+  <img src="results/figures/benchmark/s8_generators/Fig_S8_A_detector_generator_detection_rate_heatmap.png" alt="Detection rates across LLM generators" width="78%">
+</p>
+
+More paper and supplementary figures are available under [`results/figures/`](results/figures/).
+
+## Quick Start
+
+Clone the repository with Git LFS enabled, then run the artifact smoke check:
+
+```bash
+git clone https://github.com/Fengchao-531/ssc_LLM_phishing_survey.git
+cd ssc_LLM_phishing_survey
+git lfs pull
+bash scripts/quickstart.sh check
+```
+
+To quickly open the overview and representative released figures:
+
+```bash
+bash scripts/quickstart.sh preview
+```
+
+`preview` displays existing released figures; it does **not** regenerate them. Reproduction of statistics and figures is organized under [`analysis/`](analysis/), while detector setup is documented under [`detectors/`](detectors/).
+
+For detector dependencies:
+
+```bash
+pip install -r detectors/requirements.txt
+```
+
+Some detectors additionally require external services, API access, or local model checkpoints.
 
 ## Repository Structure
 
-- [`systematization/`](systematization/): documentation for the paper's generation/characterization/defense systematization and the current manipulation-stage organization used by the artifact.
-- [`data/`](data/): public dataset references and benchmark-ready inputs that can be redistributed. See [`data/dataset_sources.csv`](data/dataset_sources.csv) for upstream resources.
+```text
+ssc_LLM_phishing_survey/
+├── systematization/    # study/systematization materials
+├── data/               # public sources and redistributable benchmark-ready inputs
+├── detectors/          # academic and industrial detector implementations
+├── analysis/           # reproducible persuasion and benchmark analyses
+├── results/            # predictions, scores, statistics, tables, and figures
+└── scripts/            # artifact-level quick-start utilities
+```
+
+- [`systematization/`](systematization/): documentation for the generation, characterization, and defense systematization and the current manipulation-stage organization.
+- [`data/`](data/): public dataset references and benchmark-ready inputs that can be redistributed. Upstream resources are catalogued in [`data/dataset_sources.csv`](data/dataset_sources.csv).
 - [`detectors/`](detectors/): academic and industrial detector implementations/configurations, dependency notes, and small runnable examples.
-- [`analysis/`](analysis/): reproducible analysis code for persuasion characterization and the detector benchmark, including overall analysis, academic--industrial disagreement, S6 rewriting, and S8 generator comparisons.
-- [`results/`](results/): released detector predictions, persuasion scores, statistical outputs, tables, and figures used to validate the reported analyses.
+- [`analysis/`](analysis/): persuasion characterization and benchmark analyses, including overall analysis, academic--industrial disagreement, S6 rewriting, and S8 generator comparisons.
+- [`results/`](results/): released detector predictions, persuasion scores, statistical outputs, tables, and figures used to inspect the reported results.
 
-## Reproducibility Scope
-
-The artifact supports reproduction of the paper's **evaluation and analysis layers**:
-
-1. Run supported detectors on released benchmark-ready inputs where the required model/service is available.
-2. Recompute detector metrics from released predictions.
-3. Recompute persuasion-based and action/linguistic statistical analyses from released derived scores and predictions.
-4. Regenerate the corresponding comparison figures and result tables from the released analysis inputs.
-5. Re-run the adapted WVAE scoring procedure when the required external model artifact is available; otherwise, downstream analyses can start from the released persuasion scores in `results/persuasion_scores/`.
-
-The upstream data-selection and preprocessing scripts used to construct benchmark subsets are not part of this public reproduction pipeline.
-
-## Data and Safety
-
-All public upstream resources used or referenced by the artifact are catalogued in [`data/dataset_sources.csv`](data/dataset_sources.csv). A dataset being publicly accessible does not necessarily imply unrestricted redistribution, so the repository retains local benchmark copies only where appropriate and otherwise points to the upstream source.
-
-Security-sensitive reproduced/generated phishing text from the controlled S6 and S8 experiments is not publicly released. For these experiments, the artifact instead provides the derived detector outputs, persuasion/feature measurements, statistical results, and figures needed to inspect and reproduce the reported comparisons without redistributing the generated attack content.
-
-API keys, private paths, and local credentials are not committed. Some detector wrappers require external services or locally obtained model checkpoints; see [`detectors/README.md`](detectors/README.md) for setup notes.
-
-## Analysis Organization
+## Reproducing the Analyses
 
 The benchmark analysis mirrors the paper's evaluation logic:
 
@@ -51,7 +100,40 @@ analysis/persuasion/
 └── wvae/
 ```
 
-Final and intermediate released outputs are separated from the analysis code under `results/`.
+The artifact supports the following reproduction paths:
+
+1. **Detector evaluation:** run supported detectors on released benchmark-ready inputs when the required model/service is available.
+2. **Detector metrics:** recompute evaluation metrics from released predictions.
+3. **Statistical analysis:** recompute persuasion, action/linguistic, rewriting, and generator comparisons from released derived outputs.
+4. **Visualization:** regenerate paper-facing comparison figures from the released analysis inputs where the corresponding analysis input is public.
+5. **WVAE:** rerun the adapted scoring procedure when the required external model artifact is available, or start from the released persuasion scores under `results/persuasion_scores/`.
+
+The upstream dataset selection, cleaning, filtering, merging, and benchmark-construction scripts are intentionally outside the public reproduction pipeline.
+
+## Git LFS
+
+Several released CSV/model artifacts are stored through **Git LFS**. If a CSV opens as a short text file beginning with:
+
+```text
+version https://git-lfs.github.com/spec/v1
+```
+
+run:
+
+```bash
+git lfs install
+git lfs pull
+```
+
+The quick-start check also reports unresolved LFS pointer files.
+
+## Data and Safety
+
+Public upstream resources used or referenced by the artifact are listed in [`data/dataset_sources.csv`](data/dataset_sources.csv). Public availability does not necessarily imply unrestricted redistribution, so local benchmark copies are retained only where appropriate and otherwise the repository points to the upstream source.
+
+Security-sensitive reproduced/generated phishing text from the controlled S6 and S8 experiments is not publicly released. For these experiments, the artifact provides derived detector outputs, persuasion/feature measurements, statistical results, and figures needed to inspect and reproduce the reported comparisons without redistributing generated attack content.
+
+API keys, private paths, and local credentials are not committed.
 
 ## Citation
 
