@@ -1,0 +1,20 @@
+{
+  "by_source": {
+    "HW": {
+      "n": 29041,
+      "predicted_negative": 3644,
+      "predicted_positive": 25397
+    },
+    "LLM": {
+      "n": 26054,
+      "predicted_negative": 9179,
+      "predicted_positive": 16875
+    }
+  },
+  "detector": "scamllm",
+  "family": "academic",
+  "n_projected_rows": 55095,
+  "predicted_negative": 12823,
+  "predicted_positive": 42272,
+  "prediction_column": "scamllm"
+}

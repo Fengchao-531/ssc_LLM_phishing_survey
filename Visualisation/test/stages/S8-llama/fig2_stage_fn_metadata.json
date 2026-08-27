@@ -1,0 +1,21 @@
+{
+  "stage": "S8-llama",
+  "projection_used": "pca",
+  "row_count": 3000,
+  "files": {
+    "contour_figure": "fig2_stage_phishing_contours_pca.png",
+    "heatmap_figure": "fig2_stage_fn_heatmaps_pca.png",
+    "llm_tp_heatmap_figure": "fig2_stage_llm_tp_heatmap_pca.png",
+    "hw_tp_heatmap_figure": "fig2_stage_hw_tp_heatmap_pca.png"
+  },
+  "counts": {
+    "hw_tp": 1317,
+    "hw_fn": 183,
+    "llm_tp": 1148,
+    "llm_fn": 352,
+    "hw_fn_heatmap_rows": 183,
+    "llm_fn_heatmap_rows": 352,
+    "llm_tp_heatmap_rows": 1148,
+    "hw_tp_heatmap_rows": 1317
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "input_scored_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Visualization/test/fina_used/8/scored_inputs/llm_malicious_turns_scored.csv",
+  "output_png": "llm_multiturn_principle_turn_heatmap_r6.png",
+  "output_csv": "llm_multiturn_principle_turn_mean_trends_r6.csv",
+  "plot_round_limit": 6,
+  "source_dataset": "LLM multi-turn phishing",
+  "view": "scammer_only",
+  "cohort_rule": "only dialogues with at least 6 malicious scammer turns",
+  "full_dataset_median_malicious_turns": 6.0,
+  "cohort_median_malicious_turns": 8.0,
+  "dialogue_count_total": 424,
+  "turn_row_count_plotted": 2544,
+  "summary_row_count": 36,
+  "round_counts": {
+    "1": 424,
+    "2": 424,
+    "3": 424,
+    "4": 424,
+    "5": 424,
+    "6": 424
+  }
+}

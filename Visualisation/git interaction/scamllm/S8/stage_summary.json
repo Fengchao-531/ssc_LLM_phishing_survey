@@ -1,0 +1,38 @@
+{
+  "combined_boxplot_outputs": [
+    {
+      "output_png": "fn_selected_group_boxplots_row1.png",
+      "stages": [
+        "S8-claude",
+        "S8-deepseek",
+        "S8-gemini"
+      ]
+    },
+    {
+      "output_png": "fn_selected_group_boxplots_row2.png",
+      "stages": [
+        "S8-gpt",
+        "S8-llama",
+        "S8-ministral"
+      ]
+    }
+  ],
+  "detector": "scamllm",
+  "family": "academic",
+  "hw_fn_rows": 1136,
+  "hw_value_count": 11360,
+  "llm_fn_rows": 1922,
+  "llm_value_count": 19220,
+  "n_projected_rows": 15013,
+  "predicted_negative": 3058,
+  "predicted_positive": 11955,
+  "stage_group": "S8",
+  "stages_included": [
+    "S8-claude",
+    "S8-deepseek",
+    "S8-gemini",
+    "S8-gpt",
+    "S8-llama",
+    "S8-ministral"
+  ]
+}

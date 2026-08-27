@@ -1,0 +1,36 @@
+{
+  "projected_input": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Visualization/test/projected_points.csv",
+  "output_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Visualization/test/overview",
+  "files": {
+    "contour_figure": "fig2_overview_focus_contours_pca.png",
+    "heatmap_figure": "fig2_overview_focus_heatmaps_pca.png"
+  },
+  "focus_boxes": {
+    "HW": {
+      "x0": -2.2,
+      "x1": 3.0,
+      "y0": -4.2,
+      "y1": 2.9
+    },
+    "LLM": {
+      "x0": -6.2,
+      "x1": -1.7,
+      "y0": 0.8,
+      "y1": 8.1
+    }
+  },
+  "focus_box_counts": {
+    "HW": {
+      "total": 22229,
+      "tp": 18887,
+      "fn": 3342,
+      "matched_wvae_rows_fn_only": 2815
+    },
+    "LLM": {
+      "total": 5165,
+      "tp": 4257,
+      "fn": 908,
+      "matched_wvae_rows_fn_only": 908
+    }
+  }
+}

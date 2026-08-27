@@ -1,0 +1,21 @@
+{
+  "stage": "S1",
+  "projection_used": "pca",
+  "row_count": 1346,
+  "files": {
+    "contour_figure": "fig2_stage_phishing_contours_pca.png",
+    "heatmap_figure": "fig2_stage_fn_heatmaps_pca.png",
+    "llm_tp_heatmap_figure": "fig2_stage_llm_tp_heatmap_pca.png",
+    "hw_tp_heatmap_figure": "fig2_stage_hw_tp_heatmap_pca.png"
+  },
+  "counts": {
+    "hw_tp": 578,
+    "hw_fn": 95,
+    "llm_tp": 625,
+    "llm_fn": 48,
+    "hw_fn_heatmap_rows": 95,
+    "llm_fn_heatmap_rows": 48,
+    "llm_tp_heatmap_rows": 625,
+    "hw_tp_heatmap_rows": 578
+  }
+}

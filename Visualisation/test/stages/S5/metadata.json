@@ -1,0 +1,18 @@
+{
+  "stage": "S5",
+  "projection_used": "pca",
+  "row_count": 2456,
+  "counts": {
+    "HW": {
+      "tp": 1074,
+      "fn": 154,
+      "total": 1228
+    },
+    "LLM": {
+      "tp": 1179,
+      "fn": 49,
+      "total": 1228
+    }
+  },
+  "output_file": "surrogate_response_tp_fn_map_pca.png"
+}

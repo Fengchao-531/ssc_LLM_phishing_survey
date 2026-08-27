@@ -1,9 +1,3 @@
-group_label,group_title,row_count
-HW-P-FN,HW Phishing FN,3644
-HW-P-TP,HW Phishing TP,25397
-HW-B-TN,HW Benign TN,17240
-HW-B-FP,HW Benign FP,5792
-LLM-P-FN,LLM Phishing FN,9179
-LLM-P-TP,LLM Phishing TP,16875
-LLM-B-TN,LLM Benign TN,14965
-LLM-B-FP,LLM Benign FP,5084
+version https://git-lfs.github.com/spec/v1
+oid sha256:af758a8c43da27d1a17e21251c991c18c9a70e9bef2c644a5e3b204f215d84a4
+size 262

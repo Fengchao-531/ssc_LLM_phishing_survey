@@ -1,0 +1,56 @@
+{
+  "input": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Visualization/test/A-I Differences/selected_llm_tp_detector_merged.csv",
+  "filter": "source == LLM, stage in S8 generators, label == phishing, academic prediction == phishing, industrial prediction available",
+  "academic_detector": "scamllm",
+  "industrial_detector": "email_phishing_detection_v3_prediction",
+  "generators": {
+    "S8-deepseek": {
+      "group_counts": {
+        "A-TP / I-FN": 711,
+        "A-TP / I-TP": 6
+      },
+      "figure_png": "s8_deepseek_ai_distribution_panels.png",
+      "figure_pdf": "s8_deepseek_ai_distribution_panels.pdf"
+    },
+    "S8-ministral": {
+      "group_counts": {
+        "A-TP / I-FN": 598,
+        "A-TP / I-TP": 568
+      },
+      "figure_png": "s8_ministral_ai_distribution_panels.png",
+      "figure_pdf": "s8_ministral_ai_distribution_panels.pdf"
+    },
+    "S8-llama": {
+      "group_counts": {
+        "A-TP / I-FN": 600,
+        "A-TP / I-TP": 548
+      },
+      "figure_png": "s8_llama_ai_distribution_panels.png",
+      "figure_pdf": "s8_llama_ai_distribution_panels.pdf"
+    },
+    "S8-gemini": {
+      "group_counts": {
+        "A-TP / I-FN": 185,
+        "A-TP / I-TP": 168
+      },
+      "figure_png": "s8_gemini_ai_distribution_panels.png",
+      "figure_pdf": "s8_gemini_ai_distribution_panels.pdf"
+    },
+    "S8-gpt": {
+      "group_counts": {
+        "A-TP / I-FN": 153,
+        "A-TP / I-TP": 155
+      },
+      "figure_png": "s8_gpt_ai_distribution_panels.png",
+      "figure_pdf": "s8_gpt_ai_distribution_panels.pdf"
+    },
+    "S8-claude": {
+      "group_counts": {
+        "A-TP / I-FN": 185,
+        "A-TP / I-TP": 214
+      },
+      "figure_png": "s8_claude_ai_distribution_panels.png",
+      "figure_pdf": "s8_claude_ai_distribution_panels.pdf"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "stage": "S8-deepseek",
+  "projection_used": "pca",
+  "row_count": 3000,
+  "files": {
+    "contour_figure": "fig2_stage_phishing_contours_pca.png",
+    "heatmap_figure": "fig2_stage_fn_heatmaps_pca.png",
+    "llm_tp_heatmap_figure": "fig2_stage_llm_tp_heatmap_pca.png",
+    "hw_tp_heatmap_figure": "fig2_stage_hw_tp_heatmap_pca.png"
+  },
+  "counts": {
+    "hw_tp": 1305,
+    "hw_fn": 195,
+    "llm_tp": 717,
+    "llm_fn": 783,
+    "hw_fn_heatmap_rows": 195,
+    "llm_fn_heatmap_rows": 783,
+    "llm_tp_heatmap_rows": 717,
+    "hw_tp_heatmap_rows": 1305
+  }
+}

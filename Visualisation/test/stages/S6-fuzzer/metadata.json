@@ -1,0 +1,18 @@
+{
+  "stage": "S6-fuzzer",
+  "projection_used": "pca",
+  "row_count": 4400,
+  "counts": {
+    "HW": {
+      "tp": 1925,
+      "fn": 275,
+      "total": 2200
+    },
+    "LLM": {
+      "tp": 1696,
+      "fn": 504,
+      "total": 2200
+    }
+  },
+  "output_file": "surrogate_response_tp_fn_map_pca.png"
+}

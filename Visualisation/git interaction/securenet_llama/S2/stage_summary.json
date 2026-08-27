@@ -1,0 +1,15 @@
+{
+  "detector": "securenet_llama",
+  "family": "academic",
+  "hw_fn_rows": 157,
+  "hw_value_count": 1570,
+  "llm_fn_rows": 85,
+  "llm_value_count": 850,
+  "n_projected_rows": 1994,
+  "predicted_negative": 242,
+  "predicted_positive": 1752,
+  "stage_group": "S2",
+  "stages_included": [
+    "S2"
+  ]
+}

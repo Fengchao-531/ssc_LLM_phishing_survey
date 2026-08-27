@@ -1,0 +1,15 @@
+{
+  "detector": "spamscanner",
+  "family": "industry",
+  "hw_fn_rows": 1169,
+  "hw_value_count": 11690,
+  "llm_fn_rows": 1194,
+  "llm_value_count": 11940,
+  "n_projected_rows": 2419,
+  "predicted_negative": 2363,
+  "predicted_positive": 56,
+  "stage_group": "S5",
+  "stages_included": [
+    "S5"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "detector": "rspamd",
+  "family": "industry",
+  "hw_fn_rows": 1139,
+  "hw_value_count": 11390,
+  "llm_fn_rows": 779,
+  "llm_value_count": 7790,
+  "n_projected_rows": 2668,
+  "predicted_negative": 1918,
+  "predicted_positive": 750,
+  "stage_group": "S4",
+  "stages_included": [
+    "S4"
+  ]
+}

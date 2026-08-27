@@ -1,0 +1,18 @@
+{
+  "input": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Visualization/test/A-I Differences/selected_llm_tp_detector_merged.csv",
+  "academic_detector": "scamllm",
+  "industry_detector": "email_phishing_detection_v3_prediction",
+  "filter": "source == LLM and label == phishing and academic prediction == phishing",
+  "group_counts": {
+    "A-TP / I-FN": 4193,
+    "A-TP / I-TP": 7727
+  },
+  "outputs": {
+    "figure_png": "fig_ai_disagreement_analysis_panels.png",
+    "figure_pdf": "fig_ai_disagreement_analysis_panels.pdf",
+    "persuasion_csv": "ai_disagreement_persuasion_pair_distribution.csv",
+    "linguistic_csv": "ai_disagreement_linguistic_feature_rates.csv",
+    "persuasion_stats_csv": "ai_disagreement_persuasion_pair_stats.csv",
+    "linguistic_stats_csv": "ai_disagreement_linguistic_feature_stats.csv"
+  }
+}

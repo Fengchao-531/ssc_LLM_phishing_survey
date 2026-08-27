@@ -1,0 +1,15 @@
+{
+  "detector": "pimref",
+  "family": "academic",
+  "hw_fn_rows": 1175,
+  "hw_value_count": 11750,
+  "llm_fn_rows": 1226,
+  "llm_value_count": 12260,
+  "n_projected_rows": 2456,
+  "predicted_negative": 2401,
+  "predicted_positive": 55,
+  "stage_group": "S5",
+  "stages_included": [
+    "S5"
+  ]
+}

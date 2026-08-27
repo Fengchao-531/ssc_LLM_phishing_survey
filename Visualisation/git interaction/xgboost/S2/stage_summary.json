@@ -1,0 +1,15 @@
+{
+  "detector": "xgboost",
+  "family": "academic",
+  "hw_fn_rows": 342,
+  "hw_value_count": 3420,
+  "llm_fn_rows": 623,
+  "llm_value_count": 6230,
+  "n_projected_rows": 1994,
+  "predicted_negative": 965,
+  "predicted_positive": 1029,
+  "stage_group": "S2",
+  "stages_included": [
+    "S2"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "detector_column": "scamllm",
+  "sample_size_per_stage_per_source": 0,
+  "phishing_only": true,
+  "seed": 7,
+  "projection_requested": "pca",
+  "projection_used": "pca",
+  "stage_order": [
+    "S1",
+    "S2",
+    "S4",
+    "S5",
+    "S6-MPG",
+    "S6-UTA",
+    "S6-fuzzer",
+    "S8-deepseek",
+    "S8-llama",
+    "S8-ministral"
+  ],
+  "sources": [
+    "HW",
+    "LLM"
+  ],
+  "row_count": 49082,
+  "figure_files": {
+    "pattern_map": "01_pattern_map_scamllm_full_phishing_only.png",
+    "detector_coverage": "02_detector_coverage_scamllm_full_phishing_only.png",
+    "indicator_composition": "03_indicator_composition_scamllm_full_phishing_only.png",
+    "motif_delta": "04_motif_delta_scamllm_full_phishing_only.png"
+  }
+}

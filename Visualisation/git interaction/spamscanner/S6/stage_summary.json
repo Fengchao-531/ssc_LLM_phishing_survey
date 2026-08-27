@@ -1,0 +1,27 @@
+{
+  "combined_boxplot_outputs": [
+    {
+      "output_png": "fn_selected_group_boxplots.png",
+      "stages": [
+        "S6-fuzzer",
+        "S6-UTA",
+        "S6-MPG"
+      ]
+    }
+  ],
+  "detector": "spamscanner",
+  "family": "industry",
+  "hw_fn_rows": 5143,
+  "hw_value_count": 51430,
+  "llm_fn_rows": 5153,
+  "llm_value_count": 51530,
+  "n_projected_rows": 10770,
+  "predicted_negative": 10296,
+  "predicted_positive": 474,
+  "stage_group": "S6",
+  "stages_included": [
+    "S6-MPG",
+    "S6-UTA",
+    "S6-fuzzer"
+  ]
+}

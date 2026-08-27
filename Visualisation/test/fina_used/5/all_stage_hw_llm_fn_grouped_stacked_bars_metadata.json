@@ -1,0 +1,57 @@
+{
+  "source_note": "Stack heights come from the exact same upper-triangle values used by test/stages/<stage>/fig2_stage_fn_heatmaps_pca.",
+  "wvae_note": "The principle columns in projected_points.csv are identical to the stage-matched WVAE merge values.",
+  "stage_order": [
+    "S1",
+    "S2",
+    "S4",
+    "S5",
+    "S6-MPG",
+    "S6-UTA",
+    "S6-fuzzer",
+    "S8-claude",
+    "S8-deepseek",
+    "S8-gemini",
+    "S8-gpt",
+    "S8-llama",
+    "S8-ministral"
+  ],
+  "source_order": [
+    "HW",
+    "LLM"
+  ],
+  "principles": [
+    "Authority",
+    "Liking",
+    "Reciprocity",
+    "Social Proof",
+    "Scarcity",
+    "Commitment"
+  ],
+  "principle_groups": [
+    "Authority | Authority",
+    "Authority | Liking",
+    "Authority | Reciprocity",
+    "Authority | Social Proof",
+    "Authority | Scarcity",
+    "Authority | Commitment",
+    "Liking | Liking",
+    "Liking | Reciprocity",
+    "Liking | Social Proof",
+    "Liking | Scarcity",
+    "Liking | Commitment",
+    "Reciprocity | Reciprocity",
+    "Reciprocity | Social Proof",
+    "Reciprocity | Scarcity",
+    "Reciprocity | Commitment",
+    "Social Proof | Social Proof",
+    "Social Proof | Scarcity",
+    "Social Proof | Commitment",
+    "Scarcity | Scarcity",
+    "Scarcity | Commitment",
+    "Commitment | Commitment"
+  ],
+  "output_png": "all_stage_hw_llm_fn_grouped_stacked_bars.png",
+  "output_csv": "all_stage_hw_llm_fn_grouped_stacked_bars.csv",
+  "rows": 26
+}

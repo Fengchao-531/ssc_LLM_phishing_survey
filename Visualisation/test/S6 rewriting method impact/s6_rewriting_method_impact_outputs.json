@@ -1,0 +1,20 @@
+{
+  "input": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Visualization/test/A-I Differences/selected_llm_tp_detector_merged.csv",
+  "pairing": "Rows are paired by source-specific row order within each S6 stage; S6-fuzzer has 2200 pairs, S6-UTA and S6-MPG have 1600 pairs.",
+  "detector_score_definition": "Pr(detector predicts phishing | proj_x, proj_y), degree-2 balanced logistic surrogate fitted separately for each detector on S6 phishing rows.",
+  "feature_delta_definition": "delta_pair = rewritten_pair_strength - original_pair_strength.",
+  "outputs": {
+    "sample_level_csv": "s6_sample_level_paired_rewriting_scores.csv",
+    "performance_csv": "s6_detector_performance_with_score_change.csv",
+    "performance_compact_csv": "s6_detector_performance_compact_table.csv",
+    "performance_compact_md": "s6_detector_performance_compact_table.md",
+    "overall_shift_csv": "s6_method_overall_persuasion_shift.csv",
+    "feature_shift_csv": "s6_method_pair_feature_shift.csv",
+    "top_feature_shift_csv": "s6_method_top_changed_pairs.csv",
+    "failure_association_csv": "s6_failure_associated_pair_changes.csv",
+    "top_failure_association_csv": "s6_top_failure_associated_pair_changes.csv",
+    "correlation_csv": "s6_feature_change_detector_score_correlation.csv",
+    "fit_metrics_csv": "s6_detector_surrogate_fit_metrics.csv",
+    "summary_md": "s6_rewriting_method_impact_summary.md"
+  }
+}

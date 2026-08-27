@@ -1,0 +1,20 @@
+{
+  "by_source": {
+    "HW": {
+      "n": 12499,
+      "predicted_negative": 9961,
+      "predicted_positive": 2538
+    },
+    "LLM": {
+      "n": 15605,
+      "predicted_negative": 9759,
+      "predicted_positive": 5846
+    }
+  },
+  "detector": "phishing_email_agent",
+  "family": "industry",
+  "n_projected_rows": 28104,
+  "predicted_negative": 19720,
+  "predicted_positive": 8384,
+  "prediction_column": "phishing_email_agent_prediction"
+}

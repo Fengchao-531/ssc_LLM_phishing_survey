@@ -1,0 +1,18 @@
+{
+  "stage": "S8-llama",
+  "projection_used": "pca",
+  "row_count": 3000,
+  "counts": {
+    "HW": {
+      "tp": 1317,
+      "fn": 183,
+      "total": 1500
+    },
+    "LLM": {
+      "tp": 1148,
+      "fn": 352,
+      "total": 1500
+    }
+  },
+  "output_file": "surrogate_response_tp_fn_map_pca.png"
+}

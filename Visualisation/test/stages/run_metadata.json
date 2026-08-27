@@ -1,0 +1,261 @@
+{
+  "projection_used": "pca",
+  "stage_order": [
+    "S1",
+    "S2",
+    "S4",
+    "S5",
+    "S6-MPG",
+    "S6-UTA",
+    "S6-fuzzer",
+    "S8-claude",
+    "S8-deepseek",
+    "S8-gemini",
+    "S8-gpt",
+    "S8-llama",
+    "S8-ministral"
+  ],
+  "output_dir": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Visualization/test/stages",
+  "projected_points_output": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Visualization/test/projected_points.csv",
+  "hw_stage_clone_map": {
+    "S8-gpt": "S8-llama",
+    "S8-gemini": "S8-ministral",
+    "S8-claude": "S8-deepseek"
+  },
+  "stages": [
+    {
+      "stage": "S1",
+      "projection_used": "pca",
+      "row_count": 1346,
+      "counts": {
+        "HW": {
+          "tp": 578,
+          "fn": 95,
+          "total": 673
+        },
+        "LLM": {
+          "tp": 625,
+          "fn": 48,
+          "total": 673
+        }
+      },
+      "output_file": "surrogate_response_tp_fn_map_pca.png"
+    },
+    {
+      "stage": "S2",
+      "projection_used": "pca",
+      "row_count": 1994,
+      "counts": {
+        "HW": {
+          "tp": 863,
+          "fn": 134,
+          "total": 997
+        },
+        "LLM": {
+          "tp": 872,
+          "fn": 125,
+          "total": 997
+        }
+      },
+      "output_file": "surrogate_response_tp_fn_map_pca.png"
+    },
+    {
+      "stage": "S4",
+      "projection_used": "pca",
+      "row_count": 23486,
+      "counts": {
+        "HW": {
+          "tp": 10282,
+          "fn": 1461,
+          "total": 11743
+        },
+        "LLM": {
+          "tp": 5630,
+          "fn": 6113,
+          "total": 11743
+        }
+      },
+      "output_file": "surrogate_response_tp_fn_map_pca.png"
+    },
+    {
+      "stage": "S5",
+      "projection_used": "pca",
+      "row_count": 2456,
+      "counts": {
+        "HW": {
+          "tp": 1074,
+          "fn": 154,
+          "total": 1228
+        },
+        "LLM": {
+          "tp": 1179,
+          "fn": 49,
+          "total": 1228
+        }
+      },
+      "output_file": "surrogate_response_tp_fn_map_pca.png"
+    },
+    {
+      "stage": "S6-MPG",
+      "projection_used": "pca",
+      "row_count": 3200,
+      "counts": {
+        "HW": {
+          "tp": 1411,
+          "fn": 189,
+          "total": 1600
+        },
+        "LLM": {
+          "tp": 1463,
+          "fn": 137,
+          "total": 1600
+        }
+      },
+      "output_file": "surrogate_response_tp_fn_map_pca.png"
+    },
+    {
+      "stage": "S6-UTA",
+      "projection_used": "pca",
+      "row_count": 3200,
+      "counts": {
+        "HW": {
+          "tp": 1400,
+          "fn": 200,
+          "total": 1600
+        },
+        "LLM": {
+          "tp": 1319,
+          "fn": 281,
+          "total": 1600
+        }
+      },
+      "output_file": "surrogate_response_tp_fn_map_pca.png"
+    },
+    {
+      "stage": "S6-fuzzer",
+      "projection_used": "pca",
+      "row_count": 4400,
+      "counts": {
+        "HW": {
+          "tp": 1925,
+          "fn": 275,
+          "total": 2200
+        },
+        "LLM": {
+          "tp": 1696,
+          "fn": 504,
+          "total": 2200
+        }
+      },
+      "output_file": "surrogate_response_tp_fn_map_pca.png"
+    },
+    {
+      "stage": "S8-claude",
+      "projection_used": "pca",
+      "row_count": 1999,
+      "counts": {
+        "HW": {
+          "tp": 1305,
+          "fn": 195,
+          "total": 1500
+        },
+        "LLM": {
+          "tp": 399,
+          "fn": 100,
+          "total": 499
+        }
+      },
+      "output_file": "surrogate_response_tp_fn_map_pca.png"
+    },
+    {
+      "stage": "S8-deepseek",
+      "projection_used": "pca",
+      "row_count": 3000,
+      "counts": {
+        "HW": {
+          "tp": 1305,
+          "fn": 195,
+          "total": 1500
+        },
+        "LLM": {
+          "tp": 717,
+          "fn": 783,
+          "total": 1500
+        }
+      },
+      "output_file": "surrogate_response_tp_fn_map_pca.png"
+    },
+    {
+      "stage": "S8-gemini",
+      "projection_used": "pca",
+      "row_count": 2014,
+      "counts": {
+        "HW": {
+          "tp": 1310,
+          "fn": 190,
+          "total": 1500
+        },
+        "LLM": {
+          "tp": 353,
+          "fn": 161,
+          "total": 514
+        }
+      },
+      "output_file": "surrogate_response_tp_fn_map_pca.png"
+    },
+    {
+      "stage": "S8-gpt",
+      "projection_used": "pca",
+      "row_count": 2000,
+      "counts": {
+        "HW": {
+          "tp": 1317,
+          "fn": 183,
+          "total": 1500
+        },
+        "LLM": {
+          "tp": 308,
+          "fn": 192,
+          "total": 500
+        }
+      },
+      "output_file": "surrogate_response_tp_fn_map_pca.png"
+    },
+    {
+      "stage": "S8-llama",
+      "projection_used": "pca",
+      "row_count": 3000,
+      "counts": {
+        "HW": {
+          "tp": 1317,
+          "fn": 183,
+          "total": 1500
+        },
+        "LLM": {
+          "tp": 1148,
+          "fn": 352,
+          "total": 1500
+        }
+      },
+      "output_file": "surrogate_response_tp_fn_map_pca.png"
+    },
+    {
+      "stage": "S8-ministral",
+      "projection_used": "pca",
+      "row_count": 3000,
+      "counts": {
+        "HW": {
+          "tp": 1310,
+          "fn": 190,
+          "total": 1500
+        },
+        "LLM": {
+          "tp": 1166,
+          "fn": 334,
+          "total": 1500
+        }
+      },
+      "output_file": "surrogate_response_tp_fn_map_pca.png"
+    }
+  ]
+}

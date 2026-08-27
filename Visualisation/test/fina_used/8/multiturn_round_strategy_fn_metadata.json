@@ -1,0 +1,60 @@
+{
+  "plot_round_limit": 6,
+  "detector": "llm_guard",
+  "subset_definition": "False negatives among malicious utterances only (label=1 and prediction=0).",
+  "subset_note": "Current FN plot is based on the first completed 500 evaluated utterance rows per dataset from the round-level benchmark.",
+  "evaluation_summaries": [
+    {
+      "dataset": "HW",
+      "chunk_input_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/output/logs/tmp/multiturn-vishing-r6_detector_suite_ly9uqy3v/llm_guard_000001_000500/chunk_input.csv",
+      "chunk_summary_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/output/logs/tmp/multiturn-vishing-r6_detector_suite_ly9uqy3v/llm_guard_000001_000500/summary/llm_guard_summary.csv",
+      "evaluated_rows": 500,
+      "evaluated_positive_rows": 242,
+      "fn_rows": 17,
+      "fn_round_counts": {
+        "1": 3,
+        "2": 4,
+        "3": 4,
+        "4": 2,
+        "5": 1,
+        "6": 3
+      }
+    },
+    {
+      "dataset": "LLM",
+      "chunk_input_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/output/logs/tmp/multiturn-vishing-r6_detector_suite_kl69fmf5/llm_guard_000001_000500/chunk_input.csv",
+      "chunk_summary_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Detectors/Industry/email_detectors/output/logs/tmp/multiturn-vishing-r6_detector_suite_kl69fmf5/llm_guard_000001_000500/summary/llm_guard_summary.csv",
+      "evaluated_rows": 500,
+      "evaluated_positive_rows": 220,
+      "fn_rows": 22,
+      "fn_round_counts": {
+        "1": 1,
+        "2": 8,
+        "3": 8,
+        "4": 2,
+        "5": 2,
+        "6": 1
+      }
+    }
+  ],
+  "scored_inputs": {
+    "HW": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Visualization/test/fina_used/8/scored_inputs/hw_malicious_turns_scored.csv",
+    "LLM": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Visualization/test/fina_used/8/scored_inputs/llm_malicious_turns_scored.csv"
+  },
+  "distribution_rows": 234,
+  "pair_distribution_rows": 390,
+  "pair_output_csv": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Visualization/test/fina_used/8/multiturn_round_pair_group_distribution_fn.csv",
+  "pair_output_png": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Visualization/test/fina_used/8/multiturn_round_pair_group_boxplots_fn.png",
+  "selected_pair_groups": [
+    "A-A",
+    "A-L",
+    "A-R",
+    "A-SP",
+    "L-L",
+    "L-R",
+    "L-SP",
+    "R-R",
+    "R-SP",
+    "SP-SP"
+  ]
+}
