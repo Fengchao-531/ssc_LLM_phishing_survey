@@ -1,0 +1,39 @@
+{
+  "input": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Visualization/test/A-I Differences/selected_llm_tp_detector_merged.csv",
+  "filter": "source == LLM, stage in S8 generators, label == phishing",
+  "definition": "C_g,k = Pr(k=1 | D_g)",
+  "generators": {
+    "S8-claude": {
+      "label": "Claude",
+      "n": 499
+    },
+    "S8-gpt": {
+      "label": "GPT",
+      "n": 500
+    },
+    "S8-gemini": {
+      "label": "Gemini",
+      "n": 514
+    },
+    "S8-llama": {
+      "label": "Llama",
+      "n": 1500
+    },
+    "S8-ministral": {
+      "label": "Ministral",
+      "n": 1500
+    },
+    "S8-deepseek": {
+      "label": "DeepSeek",
+      "n": 1500
+    }
+  },
+  "outputs": {
+    "figure_png": "fig_s8_linguistic_action_feature_heatmap.png",
+    "figure_pdf": "fig_s8_linguistic_action_feature_heatmap.pdf",
+    "prevalence_csv": "s8_linguistic_action_feature_prevalence.csv",
+    "global_tests_csv": "s8_linguistic_action_feature_global_tests.csv",
+    "cell_tests_csv": "s8_linguistic_action_feature_cell_tests.csv",
+    "pairwise_tests_csv": "s8_linguistic_action_feature_pairwise_tests.csv"
+  }
+}

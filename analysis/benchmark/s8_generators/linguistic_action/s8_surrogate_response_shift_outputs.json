@@ -1,0 +1,12 @@
+{
+  "input_root": "/scratch3/che489/FC-W2-SoK/ssc_LLM_phishing_survey/Visualization/test/stages",
+  "filter": "source == LLM, stage == generator, label == phishing",
+  "score_column": "surrogate_score",
+  "outputs": {
+    "score_summary_csv": "s8_surrogate_response_generator_summary.csv",
+    "mean_shift_csv": "s8_surrogate_response_mean_shift.csv",
+    "wasserstein_pairwise_csv": "s8_surrogate_response_pairwise_wasserstein.csv",
+    "wasserstein_summary_csv": "s8_surrogate_response_wasserstein_summary.csv",
+    "markdown_summary": "s8_surrogate_response_shift_summary.md"
+  }
+}

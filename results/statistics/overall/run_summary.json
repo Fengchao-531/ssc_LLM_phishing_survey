@@ -1,0 +1,77 @@
+{
+  "n_samples": 89176,
+  "n_persuasion_score_rows": 1872696,
+  "n_prediction_rows": 704764,
+  "source_label_counts": {
+    "HW-B": 18532,
+    "HW-P": 24541,
+    "LLM-B": 20049,
+    "LLM-P": 26054
+  },
+  "detectors": [
+    "scamllm",
+    "pimref",
+    "t5phishing",
+    "xgboost",
+    "securenet_llama",
+    "email_phishing_detection_v3",
+    "phishing_email_agent",
+    "rspamd",
+    "spamscanner",
+    "spamassassin"
+  ],
+  "pair_order": [
+    "A-A",
+    "A-R",
+    "A-C",
+    "A-S",
+    "A-SP",
+    "A-L",
+    "R-R",
+    "R-C",
+    "R-S",
+    "R-SP",
+    "R-L",
+    "C-C",
+    "C-S",
+    "C-SP",
+    "C-L",
+    "S-S",
+    "S-SP",
+    "S-L",
+    "SP-SP",
+    "SP-L",
+    "L-L"
+  ],
+  "e3_common_llm_p_samples": 14831,
+  "missing_industry_prediction_rows_by_source_stage": {
+    "HW_S4": 15249,
+    "LLM_S4": 15249
+  },
+  "bootstrap_ci_note": "Full-sample MWU/effect/AUC are reported. Bootstrap CIs resample from the complete comparison groups with replacement; no fixed subsample cap is used.",
+  "kappa_interaction_test": {
+    "permutations": 1000,
+    "bootstraps": 500,
+    "null": "P/B labels fixed; HW/LLM source labels permuted independently within P and B groups."
+  },
+  "outputs": [
+    "metadata.csv",
+    "sample_counts.csv",
+    "persuasion_scores.csv",
+    "predictions.csv",
+    "sample_level_5_3_2.zip",
+    "E1_phishing_relevance.csv",
+    "E1_source_stratified_phishing_relevance.csv",
+    "E2_llm_specific_shift.csv",
+    "E2_phishing_specific_llm_shift.csv",
+    "E3_detector_relevance.csv",
+    "appendix_E1_E2_complete_table.csv",
+    "appendix_E3_complete_table.csv",
+    "fig_5_3_2_e1_e2_split_compact.png",
+    "fig_5_3_2_e1_e2_split_compact.pdf",
+    "fig_5_3_2_detector_heatmap.png",
+    "fig_5_3_2_detector_heatmap.pdf",
+    "fig_5_3_2_a_plus_detector_heatmap.png",
+    "fig_5_3_2_a_plus_detector_heatmap.pdf"
+  ]
+}
