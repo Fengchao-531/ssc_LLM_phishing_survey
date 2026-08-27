@@ -26,9 +26,13 @@ Controlled S6 analyses compare rewriting procedures and their effects on detecto
   <img src="results/figures/benchmark/s6_rewriting/fig_s6_rewriting_two_panel_main_a.png" alt="S6 rewriting analysis" width="78%">
 </p>
 
+<p align="center">
+  <img src="analysis/benchmark/s6_rewriting/mechanism_summary/fig_s6_candidate_pairs_fn_vs_tp.png" alt="S6 FN-TP rank-biserial effect heatmap" width="90%">
+</p>
+
 ### S8 and detector comparison
 
-The S8 comparison holds the generation workflow fixed and varies only the generator. The adjacent detector-comparison panel summarizes how detector outcomes align with significance-style comparisons and linguistic/action-related feature differences.
+The S8 comparison holds the generation workflow fixed and varies only the generator. The paired panels below summarize generator-dependent detector performance and the corresponding linguistic/action-related feature differences.
 
 <table>
   <tr>
@@ -37,8 +41,8 @@ The S8 comparison holds the generation workflow fixed and varies only the genera
       <em>Generator-dependent detector performance.</em>
     </td>
     <td align="center" width="50%">
-      <img src="analysis/benchmark/detector_disagreement/fig_ai_disagreement_analysis_panels.png" alt="Detector disagreement and linguistic feature analysis" width="100%"><br>
-      <em>Detector disagreement, significance-oriented comparison, and linguistic/action-related explanation.</em>
+      <img src="analysis/benchmark/s8_generators/selected_llm_tp_detector_merged.png" alt="Linguistic and action-related feature differences across generators" width="100%"><br>
+      <em>Linguistic and action-related feature differences associated with detector outcomes.</em>
     </td>
   </tr>
 </table>
