@@ -10,12 +10,12 @@ The artifact is organized around three parts of the paper: **LLM manipulation an
 
 ## Key Results at a Glance
 
-### Communication settings and persuasion
+### RQ2: communication settings and persuasion
 
-The released persuasion analysis compares how persuasion relationships change across phishing communication settings.
+The paper compares how persuasion relationships vary across phishing communication settings for LLM-generated phishing content.
 
 <p align="center">
-  <img src="results/figures/persuasion/rq2_vishing_multi_minus_email_difference_heatmaps.png" alt="Persuasion differences across communication settings" width="78%">
+  <img src="results/figures/persuasion/rq2_llm_only_communication_persuasion_heatmap.png" alt="Communication-setting persuasion patterns for LLM-generated phishing content" width="78%">
 </p>
 
 ### S6: phishing rewriting
@@ -26,13 +26,22 @@ Controlled S6 analyses compare rewriting procedures and their effects on detecto
   <img src="results/figures/benchmark/s6_rewriting/fig_s6_rewriting_two_panel_main_a.png" alt="S6 rewriting analysis" width="78%">
 </p>
 
-### S8: diverse generators
+### S8 and detector comparison
 
-The S8 comparison holds the generation workflow fixed and varies the generator, showing that detector performance is sensitive to generator choice.
+The S8 comparison holds the generation workflow fixed and varies only the generator. The adjacent detector-comparison panel summarizes how detector outcomes align with significance-style comparisons and linguistic/action-related feature differences.
 
-<p align="center">
-  <img src="results/figures/benchmark/s8_generators/Fig_S8_A_detector_generator_detection_rate_heatmap.png" alt="Detection rates across LLM generators" width="78%">
-</p>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="results/figures/benchmark/s8_generators/Fig_S8_A_detector_generator_detection_rate_heatmap.png" alt="Detection rates across LLM generators" width="100%"><br>
+      <em>Generator-dependent detector performance.</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="analysis/benchmark/detector_disagreement/fig_ai_disagreement_analysis_panels.png" alt="Detector disagreement and linguistic feature analysis" width="100%"><br>
+      <em>Detector disagreement, significance-oriented comparison, and linguistic/action-related explanation.</em>
+    </td>
+  </tr>
+</table>
 
 More paper and supplementary figures are available under [`results/figures/`](results/figures/).
 
