@@ -1,0 +1,17 @@
+dataset,year,source_url,modality,role,release_note
+Phishyai,2023,https://github.com/GangGreenTemperTatum/phishyai/,email,Human-written and generated phishing/ham material,Upstream public source
+E-PhishGen,2025,https://github.com/pajola/e-phishGen,email,LLM-generated phishing and benign email generation,Upstream public source
+Human-LLM generated phishing-legitimate emails,2024,https://www.kaggle.com/datasets/francescogreco97/human-llm-generated-phishing-legitimate-emails,email,Human vs LLM phishing/legitimate comparison,Upstream public source
+Scambaiting Dataset,2022,https://github.com/scambaitermailbox/scambaiting_dataset,email/dialogue,Scam email and conversation material,Upstream public source
+Multi Agent Scam Conversation,2025,https://huggingface.co/datasets/BothBosu/multi-agent-scam-conversation,dialogue,Multi-turn scam conversation data,Upstream public source
+DataPhish Phish Fuzzer,2026,https://github.com/DataPhish/PhishFuzzer/tree/main/DataSet_Creation,email,Phishing rewriting and fuzzing,Upstream public source
+Customer care emails,2025,https://www.kaggle.com/datasets/rtweera/customer-care-emails,email,Human-written benign baseline,Upstream public source
+Adversarial BEC Email Dataset,2025,https://www.kaggle.com/datasets/yoadjei/adversarial-bec-email-dataset,email,Targeted phishing and BEC,Upstream public source
+Nazario phishing corpus,2026,https://monkey.org/~jose/phishing/,email,Human-written phishing benchmark,Upstream public source
+Cornell University Phish Bowl,2026,https://it.cornell.edu/phish-bowl,email,Institutional phishing examples,Upstream public source
+Millersmile archive,2026,https://www.millersmiles.co.uk/archives.php,email,Human-written phishing benchmark,Upstream public source
+Phishbot corpus,2026,https://github.com/rf-peixoto/phishing_pot/tree/main/email,email,Human-written phishing email benchmark,Upstream public source
+MalURLBench,2026,https://github.com/JiangYingEr/MalURLBench/tree/main/Examples,URL,Malicious URL examples,Reference-only for textual URL scope
+Phishing Site URLs,2020,https://www.kaggle.com/datasets/taruntiwarihp/phishing-site-urls,URL,Phishing URL baseline,Upstream public source
+AI-automated-vishing/Viking,2025,https://github.com/ai-automated-vishing/Viking,vishing,Vishing-style data,Upstream public source
+Composite Scam Transcript Dataset,2026,https://www.kaggle.com/datasets/ibrahimbagwan12/composite-scam-transcript-dataset,transcript,Scam transcript benchmark,Upstream public source
